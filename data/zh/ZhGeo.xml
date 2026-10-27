@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Afghanistan" locale="zh" localized="阿富汗"/>
+    <moqui.basic.LocalizedMessage original="Algeria" locale="zh" localized="阿尔及利亚"/>
+    <moqui.basic.LocalizedMessage original="American Samoa" locale="zh" localized="美属萨摩亚"/>
+    <moqui.basic.LocalizedMessage original="Anguilla" locale="zh" localized="安圭拉"/>
+    <moqui.basic.LocalizedMessage original="Antarctica" locale="zh" localized="南极洲"/>
+    <moqui.basic.LocalizedMessage original="Antigua And Barbuda" locale="zh" localized="安提瓜和巴布达"/>
+    <moqui.basic.LocalizedMessage original="Azerbaijan" locale="zh" localized="阿塞拜疆"/>
+    <moqui.basic.LocalizedMessage original="Bahrain" locale="zh" localized="巴林"/>
+    <moqui.basic.LocalizedMessage original="Bangladesh" locale="zh" localized="孟加拉国"/>
+    <moqui.basic.LocalizedMessage original="Belarus" locale="zh" localized="白俄罗斯"/>
+    <moqui.basic.LocalizedMessage original="Belgium" locale="zh" localized="比利时"/>
+    <moqui.basic.LocalizedMessage original="Belize" locale="zh" localized="伯利兹"/>
+    <moqui.basic.LocalizedMessage original="Benin" locale="zh" localized="贝宁"/>
+    <moqui.basic.LocalizedMessage original="Bermuda" locale="zh" localized="百慕大"/>
+    <moqui.basic.LocalizedMessage original="Bhutan" locale="zh" localized="不丹"/>
+    <moqui.basic.LocalizedMessage original="Bosnia And Herzegowina" locale="zh" localized="波斯尼亚和黑塞哥维那"/>
+    <moqui.basic.LocalizedMessage original="Botswana" locale="zh" localized="博茨瓦纳"/>
+    <moqui.basic.LocalizedMessage original="Bouvet Island" locale="zh" localized="布韦岛"/>
+    <moqui.basic.LocalizedMessage original="Brazil" locale="zh" localized="巴西"/>
+    <moqui.basic.LocalizedMessage original="British Indian Ocean Territory" locale="zh" localized="英属印度洋领地"/>
+    <moqui.basic.LocalizedMessage original="Brunei Darussalam" locale="zh" localized="文莱"/>
+    <moqui.basic.LocalizedMessage original="Cambodia" locale="zh" localized="柬埔寨"/>
+    <moqui.basic.LocalizedMessage original="Cameroon" locale="zh" localized="喀麦隆"/>
+    <moqui.basic.LocalizedMessage original="Canada" locale="zh" localized="加拿大"/>
+    <moqui.basic.LocalizedMessage original="Cape Verde" locale="zh" localized="佛得角"/>
+    <moqui.basic.LocalizedMessage original="Cayman Islands" locale="zh" localized="开曼群岛"/>
+    <moqui.basic.LocalizedMessage original="Central African Republic" locale="zh" localized="中非共和国"/>
+    <moqui.basic.LocalizedMessage original="Christmas Island" locale="zh" localized="圣诞岛"/>
+    <moqui.basic.LocalizedMessage original="Cocos (keeling) Islands" locale="zh" localized="科科斯（基林）群岛"/>
+    <moqui.basic.LocalizedMessage original="Comoros" locale="zh" localized="科摩罗"/>
+    <moqui.basic.LocalizedMessage original="Congo" locale="zh" localized="刚果（布）"/>
+    <moqui.basic.LocalizedMessage original="Congo, The Democratic Republic Of The" locale="zh" localized="刚果（金）"/>
+    <moqui.basic.LocalizedMessage original="Cook Islands" locale="zh" localized="库克群岛"/>
+    <moqui.basic.LocalizedMessage original="Cote D&apos;ivoire" locale="zh" localized="科特迪瓦"/>
+    <moqui.basic.LocalizedMessage original="Croatia (local Name: Hrvatska)" locale="zh" localized="克罗地亚（当地名称：Hrvatska）"/>
+    <moqui.basic.LocalizedMessage original="Cyprus" locale="zh" localized="塞浦路斯"/>
+    <moqui.basic.LocalizedMessage original="Czech Republic" locale="zh" localized="捷克"/>
+    <moqui.basic.LocalizedMessage original="Denmark" locale="zh" localized="丹麦"/>
+    <moqui.basic.LocalizedMessage original="Djibouti" locale="zh" localized="吉布提"/>
+    <moqui.basic.LocalizedMessage original="Dominican Republic" locale="zh" localized="多米尼加"/>
+    <moqui.basic.LocalizedMessage original="East Timor" locale="zh" localized="东帝汶"/>
+    <moqui.basic.LocalizedMessage original="Egypt" locale="zh" localized="埃及"/>
+    <moqui.basic.LocalizedMessage original="Equatorial Guinea" locale="zh" localized="赤道几内亚"/>
+    <moqui.basic.LocalizedMessage original="Ethiopia" locale="zh" localized="埃塞俄比亚"/>
+    <moqui.basic.LocalizedMessage original="Falkland Islands (malvinas)" locale="zh" localized="福克兰群岛（马尔维纳斯群岛）"/>
+    <moqui.basic.LocalizedMessage original="Faroe Islands" locale="zh" localized="法罗群岛"/>
+    <moqui.basic.LocalizedMessage original="Fiji" locale="zh" localized="斐济"/>
+    <moqui.basic.LocalizedMessage original="Finland" locale="zh" localized="芬兰"/>
+    <moqui.basic.LocalizedMessage original="France" locale="zh" localized="法国"/>
+    <moqui.basic.LocalizedMessage original="France, Metropolitan" locale="zh" localized="法国本土"/>
+    <moqui.basic.LocalizedMessage original="French Guiana" locale="zh" localized="法属圭亚那"/>
+    <moqui.basic.LocalizedMessage original="French Polynesia" locale="zh" localized="法属波利尼西亚"/>
+    <moqui.basic.LocalizedMessage original="French Southern Territories" locale="zh" localized="法属南部领地"/>
+    <moqui.basic.LocalizedMessage original="Gabon" locale="zh" localized="加蓬"/>
+    <moqui.basic.LocalizedMessage original="Germany" locale="zh" localized="德国"/>
+    <moqui.basic.LocalizedMessage original="Greece" locale="zh" localized="希腊"/>
+    <moqui.basic.LocalizedMessage original="Greenland" locale="zh" localized="格陵兰"/>
+    <moqui.basic.LocalizedMessage original="Grenada" locale="zh" localized="格林纳达"/>
+    <moqui.basic.LocalizedMessage original="Guadeloupe" locale="zh" localized="瓜德罗普"/>
+    <moqui.basic.LocalizedMessage original="Guinea-bissau" locale="zh" localized="几内亚比绍"/>
+    <moqui.basic.LocalizedMessage original="Haiti" locale="zh" localized="海地"/>
+    <moqui.basic.LocalizedMessage original="Heard And Mc Donald Islands" locale="zh" localized="赫德岛和麦克唐纳群岛"/>
+    <moqui.basic.LocalizedMessage original="Holy See (vatican City State)" locale="zh" localized="梵蒂冈"/>
+    <moqui.basic.LocalizedMessage original="Hungary" locale="zh" localized="匈牙利"/>
+    <moqui.basic.LocalizedMessage original="Iceland" locale="zh" localized="冰岛"/>
+    <moqui.basic.LocalizedMessage original="Iran (islamic Republic Of)" locale="zh" localized="伊朗"/>
+    <moqui.basic.LocalizedMessage original="Iraq" locale="zh" localized="伊拉克"/>
+    <moqui.basic.LocalizedMessage original="Ireland" locale="zh" localized="爱尔兰"/>
+    <moqui.basic.LocalizedMessage original="Italy" locale="zh" localized="意大利"/>
+    <moqui.basic.LocalizedMessage original="Japan" locale="zh" localized="日本"/>
+    <moqui.basic.LocalizedMessage original="Jordan" locale="zh" localized="约旦"/>
+    <moqui.basic.LocalizedMessage original="Kazakhstan" locale="zh" localized="哈萨克斯坦"/>
+    <moqui.basic.LocalizedMessage original="Kenya" locale="zh" localized="肯尼亚"/>
+    <moqui.basic.LocalizedMessage original="Korea, Democratic People&apos;s Republic Of" locale="zh" localized="朝鲜"/>
+    <moqui.basic.LocalizedMessage original="Korea, Republic Of" locale="zh" localized="韩国"/>
+    <moqui.basic.LocalizedMessage original="Kyrgyzstan" locale="zh" localized="吉尔吉斯斯坦"/>
+    <moqui.basic.LocalizedMessage original="Lao People&apos;s Democratic Republic" locale="zh" localized="老挝"/>
+    <moqui.basic.LocalizedMessage original="Latvia" locale="zh" localized="拉脱维亚"/>
+    <moqui.basic.LocalizedMessage original="Lebanon" locale="zh" localized="黎巴嫩"/>
+    <moqui.basic.LocalizedMessage original="Lesotho" locale="zh" localized="莱索托"/>
+    <moqui.basic.LocalizedMessage original="Libyan Arab Jamahiriya" locale="zh" localized="利比亚"/>
+    <moqui.basic.LocalizedMessage original="Lithuania" locale="zh" localized="立陶宛"/>
+    <moqui.basic.LocalizedMessage original="Luxembourg" locale="zh" localized="卢森堡"/>
+    <moqui.basic.LocalizedMessage original="Macau" locale="zh" localized="中国澳门"/>
+    <moqui.basic.LocalizedMessage original="Macedonia, The Former Yugoslav Republic Of" locale="zh" localized="前南斯拉夫马其顿共和国"/>
+    <moqui.basic.LocalizedMessage original="Malawi" locale="zh" localized="马拉维"/>
+    <moqui.basic.LocalizedMessage original="Malaysia" locale="zh" localized="马来西亚"/>
+    <moqui.basic.LocalizedMessage original="Maldives" locale="zh" localized="马尔代夫"/>
+    <moqui.basic.LocalizedMessage original="Mali" locale="zh" localized="马里"/>
+    <moqui.basic.LocalizedMessage original="Marshall Islands" locale="zh" localized="马绍尔群岛"/>
+    <moqui.basic.LocalizedMessage original="Martinique" locale="zh" localized="马提尼克"/>
+    <moqui.basic.LocalizedMessage original="Mauritius" locale="zh" localized="毛里求斯"/>
+    <moqui.basic.LocalizedMessage original="Mexico" locale="zh" localized="墨西哥"/>
+    <moqui.basic.LocalizedMessage original="Micronesia, Federated States Of" locale="zh" localized="密克罗尼西亚联邦"/>
+    <moqui.basic.LocalizedMessage original="Moldova, Republic Of" locale="zh" localized="摩尔多瓦"/>
+    <moqui.basic.LocalizedMessage original="Monaco" locale="zh" localized="摩纳哥"/>
+    <moqui.basic.LocalizedMessage original="Morocco" locale="zh" localized="摩洛哥"/>
+    <moqui.basic.LocalizedMessage original="Myanmar" locale="zh" localized="缅甸"/>
+    <moqui.basic.LocalizedMessage original="Netherlands" locale="zh" localized="荷兰"/>
+    <moqui.basic.LocalizedMessage original="Netherlands Antilles" locale="zh" localized="荷属安的列斯"/>
+    <moqui.basic.LocalizedMessage original="New Caledonia" locale="zh" localized="新喀里多尼亚"/>
+    <moqui.basic.LocalizedMessage original="New Zealand" locale="zh" localized="新西兰"/>
+    <moqui.basic.LocalizedMessage original="Niger" locale="zh" localized="尼日尔"/>
+    <moqui.basic.LocalizedMessage original="Norfolk Island" locale="zh" localized="诺福克岛"/>
+    <moqui.basic.LocalizedMessage original="Northern Mariana Islands" locale="zh" localized="北马里亚纳群岛"/>
+    <moqui.basic.LocalizedMessage original="Norway" locale="zh" localized="挪威"/>
+    <moqui.basic.LocalizedMessage original="Not Applicable" locale="zh" localized="不适用"/>
+    <moqui.basic.LocalizedMessage original="Oman" locale="zh" localized="阿曼"/>
+    <moqui.basic.LocalizedMessage original="Pakistan" locale="zh" localized="巴基斯坦"/>
+    <moqui.basic.LocalizedMessage original="Palau" locale="zh" localized="帕劳"/>
+    <moqui.basic.LocalizedMessage original="Palestinian Territory, Occupied" locale="zh" localized="巴勒斯坦被占领土"/>
+    <moqui.basic.LocalizedMessage original="Panama" locale="zh" localized="巴拿马"/>
+    <moqui.basic.LocalizedMessage original="Papua New Guinea" locale="zh" localized="巴布亚新几内亚"/>
+    <moqui.basic.LocalizedMessage original="Peru" locale="zh" localized="秘鲁"/>
+    <moqui.basic.LocalizedMessage original="Philippines" locale="zh" localized="菲律宾"/>
+    <moqui.basic.LocalizedMessage original="Pitcairn" locale="zh" localized="皮特凯恩群岛"/>
+    <moqui.basic.LocalizedMessage original="Poland" locale="zh" localized="波兰"/>
+    <moqui.basic.LocalizedMessage original="Qatar" locale="zh" localized="卡塔尔"/>
+    <moqui.basic.LocalizedMessage original="Reunion" locale="zh" localized="留尼汪"/>
+    <moqui.basic.LocalizedMessage original="Romania" locale="zh" localized="罗马尼亚"/>
+    <moqui.basic.LocalizedMessage original="Russian Federation" locale="zh" localized="俄罗斯"/>
+    <moqui.basic.LocalizedMessage original="Rwanda" locale="zh" localized="卢旺达"/>
+    <moqui.basic.LocalizedMessage original="Saint Kitts And Nevis" locale="zh" localized="圣基茨和尼维斯"/>
+    <moqui.basic.LocalizedMessage original="Saint Lucia" locale="zh" localized="圣卢西亚"/>
+    <moqui.basic.LocalizedMessage original="Saint Vincent And The Grenadines" locale="zh" localized="圣文森特和格林纳丁斯"/>
+    <moqui.basic.LocalizedMessage original="Sao Tome And Principe" locale="zh" localized="圣多美和普林西比"/>
+    <moqui.basic.LocalizedMessage original="Saudi Arabia" locale="zh" localized="沙特阿拉伯"/>
+    <moqui.basic.LocalizedMessage original="Sierra Leone" locale="zh" localized="塞拉利昂"/>
+    <moqui.basic.LocalizedMessage original="Singapore" locale="zh" localized="新加坡"/>
+    <moqui.basic.LocalizedMessage original="Slovakia (slovak Republic)" locale="zh" localized="斯洛伐克"/>
+    <moqui.basic.LocalizedMessage original="Slovenia" locale="zh" localized="斯洛文尼亚"/>
+    <moqui.basic.LocalizedMessage original="Solomon Islands" locale="zh" localized="所罗门群岛"/>
+    <moqui.basic.LocalizedMessage original="South Africa" locale="zh" localized="南非"/>
+    <moqui.basic.LocalizedMessage original="South Georgia And The South Sandwich Islands" locale="zh" localized="南乔治亚和南桑威奇群岛"/>
+    <moqui.basic.LocalizedMessage original="Spain" locale="zh" localized="西班牙"/>
+    <moqui.basic.LocalizedMessage original="St. Helena" locale="zh" localized="圣赫勒拿"/>
+    <moqui.basic.LocalizedMessage original="St. Pierre And Miquelon" locale="zh" localized="圣皮埃尔和密克隆"/>
+    <moqui.basic.LocalizedMessage original="Sudan" locale="zh" localized="苏丹"/>
+    <moqui.basic.LocalizedMessage original="Suriname" locale="zh" localized="苏里南"/>
+    <moqui.basic.LocalizedMessage original="Svalbard And Jan Mayen Islands" locale="zh" localized="斯瓦尔巴和扬马延群岛"/>
+    <moqui.basic.LocalizedMessage original="Swaziland" locale="zh" localized="斯威士兰"/>
+    <moqui.basic.LocalizedMessage original="Sweden" locale="zh" localized="瑞典"/>
+    <moqui.basic.LocalizedMessage original="Switzerland" locale="zh" localized="瑞士"/>
+    <moqui.basic.LocalizedMessage original="Syrian Arab Republic" locale="zh" localized="叙利亚"/>
+    <moqui.basic.LocalizedMessage original="Taiwan" locale="zh" localized="中国台湾"/>
+    <moqui.basic.LocalizedMessage original="Tajikistan" locale="zh" localized="塔吉克斯坦"/>
+    <moqui.basic.LocalizedMessage original="Tanzania, United Republic Of" locale="zh" localized="坦桑尼亚"/>
+    <moqui.basic.LocalizedMessage original="Thailand" locale="zh" localized="泰国"/>
+    <moqui.basic.LocalizedMessage original="Trinidad And Tobago" locale="zh" localized="特立尼达和多巴哥"/>
+    <moqui.basic.LocalizedMessage original="Tunisia" locale="zh" localized="突尼斯"/>
+    <moqui.basic.LocalizedMessage original="Turkey" locale="zh" localized="土耳其"/>
+    <moqui.basic.LocalizedMessage original="Turkmenistan" locale="zh" localized="土库曼斯坦"/>
+    <moqui.basic.LocalizedMessage original="Turks And Caicos Islands" locale="zh" localized="特克斯和凯科斯群岛"/>
+    <moqui.basic.LocalizedMessage original="Ukraine" locale="zh" localized="乌克兰"/>
+    <moqui.basic.LocalizedMessage original="United Arab Emirates" locale="zh" localized="阿联酋"/>
+    <moqui.basic.LocalizedMessage original="United Kingdom" locale="zh" localized="英国"/>
+    <moqui.basic.LocalizedMessage original="United States" locale="zh" localized="美国"/>
+    <moqui.basic.LocalizedMessage original="United States Minor Outlying Islands" locale="zh" localized="美国本土外小岛屿"/>
+    <moqui.basic.LocalizedMessage original="Uzbekistan" locale="zh" localized="乌兹别克斯坦"/>
+    <moqui.basic.LocalizedMessage original="Viet Nam" locale="zh" localized="越南"/>
+    <moqui.basic.LocalizedMessage original="Virgin Islands (british)" locale="zh" localized="英属维尔京群岛"/>
+    <moqui.basic.LocalizedMessage original="Virgin Islands (u.s.)" locale="zh" localized="美属维尔京群岛"/>
+    <moqui.basic.LocalizedMessage original="Wallis And Futuna Islands" locale="zh" localized="瓦利斯和富图纳群岛"/>
+    <moqui.basic.LocalizedMessage original="Western Sahara" locale="zh" localized="西撒哈拉"/>
+    <moqui.basic.LocalizedMessage original="Zimbabwe" locale="zh" localized="津巴布韦"/>
+</entity-facade-xml>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Eca Error" locale="zh" localized="ECA 错误"/>
+    <moqui.basic.LocalizedMessage original="Eca Status" locale="zh" localized="ECA 状态"/>
+    <moqui.basic.LocalizedMessage original="Edit Data View Entity" locale="zh" localized="编辑数据视图实体"/>
+    <moqui.basic.LocalizedMessage original="Edit Detail" locale="zh" localized="编辑详情"/>
+    <moqui.basic.LocalizedMessage original="Edit Example" locale="zh" localized="编辑示例"/>
+    <moqui.basic.LocalizedMessage original="Edit Master" locale="zh" localized="编辑主记录"/>
+    <moqui.basic.LocalizedMessage original="Edited Date" locale="zh" localized="编辑日期"/>
+    <moqui.basic.LocalizedMessage original="Editor" locale="zh" localized="编辑器"/>
+    <moqui.basic.LocalizedMessage original="Editor User IDs" locale="zh" localized="编辑者用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Edits Event Seq" locale="zh" localized="编辑事件序列"/>
+    <moqui.basic.LocalizedMessage original="Element Separator" locale="zh" localized="元素分隔符"/>
+    <moqui.basic.LocalizedMessage original="Elevation" locale="zh" localized="海拔"/>
+    <moqui.basic.LocalizedMessage original="Elevation Uom ID" locale="zh" localized="海拔计量单位 ID"/>
+    <moqui.basic.LocalizedMessage original="Email" locale="zh" localized="电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Email Account ID" locale="zh" localized="电子邮件账号 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Address" locale="zh" localized="电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Email Folder ID" locale="zh" localized="电子邮件文件夹 ID"/>
+    <moqui.basic.LocalizedMessage original="Email IDentity ID" locale="zh" localized="电子邮件身份 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Label ID" locale="zh" localized="电子邮件标签 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Message Attachment ID" locale="zh" localized="电子邮件消息附件 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Message ID" locale="zh" localized="电子邮件消息 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Message Save" locale="zh" localized="保存电子邮件消息"/>
+    <moqui.basic.LocalizedMessage original="Email Notifications" locale="zh" localized="电子邮件通知"/>
+    <moqui.basic.LocalizedMessage original="Email Remote Change ID" locale="zh" localized="电子邮件远程变更 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Rule ID" locale="zh" localized="电子邮件规则 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Search ID" locale="zh" localized="电子邮件搜索 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Server ID" locale="zh" localized="电子邮件服务器 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Subject" locale="zh" localized="电子邮件主题"/>
+    <moqui.basic.LocalizedMessage original="Email Template ID" locale="zh" localized="电子邮件模板 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Text Block ID" locale="zh" localized="电子邮件文本块 ID"/>
+    <moqui.basic.LocalizedMessage original="Email Type Enum ID" locale="zh" localized="电子邮件类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Emoji" locale="zh" localized="表情符号"/>
+    <moqui.basic.LocalizedMessage original="Enabled" locale="zh" localized="已启用"/>
+    <moqui.basic.LocalizedMessage original="Encrypt" locale="zh" localized="加密"/>
+    <moqui.basic.LocalizedMessage original="End Time" locale="zh" localized="结束时间"/>
+    <moqui.basic.LocalizedMessage original="Ended Date" locale="zh" localized="结束日期"/>
+    <moqui.basic.LocalizedMessage original="Endpoint" locale="zh" localized="端点"/>
+    <moqui.basic.LocalizedMessage original="Endpoint ID" locale="zh" localized="端点 ID"/>
+    <moqui.basic.LocalizedMessage original="Entities" locale="zh" localized="实体"/>
+    <moqui.basic.LocalizedMessage original="Entities To Skip" locale="zh" localized="要跳过的实体"/>
+    <moqui.basic.LocalizedMessage original="Entity Alias" locale="zh" localized="实体别名"/>
+    <moqui.basic.LocalizedMessage original="Entity Field" locale="zh" localized="实体字段"/>
+    <moqui.basic.LocalizedMessage original="Entity Field Name" locale="zh" localized="实体字段名称"/>
+    <moqui.basic.LocalizedMessage original="Entity Fields" locale="zh" localized="实体字段"/>
+    <moqui.basic.LocalizedMessage original="Entity Filter" locale="zh" localized="实体筛选"/>
+    <moqui.basic.LocalizedMessage original="Entity Filter ID" locale="zh" localized="实体筛选 ID"/>
+    <moqui.basic.LocalizedMessage original="Entity Filter Set ID" locale="zh" localized="实体筛选集 ID"/>
+    <moqui.basic.LocalizedMessage original="Entity Filter Sets" locale="zh" localized="实体筛选集"/>
+    <moqui.basic.LocalizedMessage original="Entity List" locale="zh" localized="实体列表"/>
+    <moqui.basic.LocalizedMessage original="Entity Name" locale="zh" localized="实体名称"/>
+    <moqui.basic.LocalizedMessage original="Entity Names" locale="zh" localized="实体名称列表"/>
+    <moqui.basic.LocalizedMessage original="Entity Sync ID" locale="zh" localized="实体同步 ID"/>
+    <moqui.basic.LocalizedMessage original="Entity Sync Remove ID" locale="zh" localized="实体同步移除 ID"/>
+    <moqui.basic.LocalizedMessage original="Entry Name" locale="zh" localized="条目名称"/>
+    <moqui.basic.LocalizedMessage original="Enum Code" locale="zh" localized="枚举代码"/>
+    <moqui.basic.LocalizedMessage original="Enum Group Enum ID" locale="zh" localized="枚举组枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Enum ID" locale="zh" localized="枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Enum Type ID" locale="zh" localized="枚举类型 ID"/>
+    <moqui.basic.LocalizedMessage original="Env Name" locale="zh" localized="环境变量名称"/>
+    <moqui.basic.LocalizedMessage original="Env Value" locale="zh" localized="环境变量值"/>
+    <moqui.basic.LocalizedMessage original="Error Class" locale="zh" localized="错误类"/>
+    <moqui.basic.LocalizedMessage original="Error Code" locale="zh" localized="错误代码"/>
+    <moqui.basic.LocalizedMessage original="Error Count" locale="zh" localized="错误次数"/>
+    <moqui.basic.LocalizedMessage original="Error Date" locale="zh" localized="错误日期"/>
+    <moqui.basic.LocalizedMessage original="Error History Only" locale="zh" localized="仅错误历史"/>
+    <moqui.basic.LocalizedMessage original="Error Message" locale="zh" localized="错误消息"/>
+    <moqui.basic.LocalizedMessage original="Error Text" locale="zh" localized="错误文本"/>
+    <moqui.basic.LocalizedMessage original="Error Title Template" locale="zh" localized="错误标题模板"/>
+    <moqui.basic.LocalizedMessage original="Errors" locale="zh" localized="错误"/>
+    <moqui.basic.LocalizedMessage original="Escape Character" locale="zh" localized="转义字符"/>
+    <moqui.basic.LocalizedMessage original="Event" locale="zh" localized="事件"/>
+    <moqui.basic.LocalizedMessage original="Event Date" locale="zh" localized="事件日期"/>
+    <moqui.basic.LocalizedMessage original="Event Json" locale="zh" localized="事件 JSON"/>
+    <moqui.basic.LocalizedMessage original="Event Seq" locale="zh" localized="事件序列"/>
+    <moqui.basic.LocalizedMessage original="Event Type" locale="zh" localized="事件类型"/>
+    <moqui.basic.LocalizedMessage original="Event Type Enum ID" locale="zh" localized="事件类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Events" locale="zh" localized="事件"/>
+    <moqui.basic.LocalizedMessage original="Evidence" locale="zh" localized="证据"/>
+    <moqui.basic.LocalizedMessage original="Example Date" locale="zh" localized="示例日期"/>
+    <moqui.basic.LocalizedMessage original="Example End Date" locale="zh" localized="示例结束日期"/>
+    <moqui.basic.LocalizedMessage original="Example ID" locale="zh" localized="示例 ID"/>
+    <moqui.basic.LocalizedMessage original="Example Name" locale="zh" localized="示例名称"/>
+    <moqui.basic.LocalizedMessage original="Example Size" locale="zh" localized="示例大小"/>
+    <moqui.basic.LocalizedMessage original="Example Type Enum ID" locale="zh" localized="示例类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Exclusive From Time" locale="zh" localized="不含起始时间"/>
+    <moqui.basic.LocalizedMessage original="Expire Date" locale="zh" localized="过期日期"/>
+    <moqui.basic.LocalizedMessage original="Expire Lock Time" locale="zh" localized="锁定过期时间"/>
+    <moqui.basic.LocalizedMessage original="Expires" locale="zh" localized="过期"/>
+    <moqui.basic.LocalizedMessage original="Expires Date" locale="zh" localized="过期日期"/>
+    <moqui.basic.LocalizedMessage original="Expose A2a" locale="zh" localized="公开 A2A"/>
+    <moqui.basic.LocalizedMessage original="Expose Assistant" locale="zh" localized="公开助手"/>
+    <moqui.basic.LocalizedMessage original="Expose Mcp" locale="zh" localized="公开 MCP"/>
+    <moqui.basic.LocalizedMessage original="Exposed Service" locale="zh" localized="已公开服务"/>
+    <moqui.basic.LocalizedMessage original="Exposed Services" locale="zh" localized="已公开服务"/>
+    <moqui.basic.LocalizedMessage original="External User ID" locale="zh" localized="外部用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Extra Css" locale="zh" localized="附加 CSS"/>
+    <moqui.basic.LocalizedMessage original="Factor ID" locale="zh" localized="因子 ID"/>
+    <moqui.basic.LocalizedMessage original="Factor Option" locale="zh" localized="因子选项"/>
+    <moqui.basic.LocalizedMessage original="Factor Type Enum ID" locale="zh" localized="因子类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Fail Count" locale="zh" localized="失败次数"/>
+    <moqui.basic.LocalizedMessage original="Failed Date" locale="zh" localized="失败日期"/>
+    <moqui.basic.LocalizedMessage original="Failure Count" locale="zh" localized="失败次数"/>
+    <moqui.basic.LocalizedMessage original="Failure Date" locale="zh" localized="失败日期"/>
+    <moqui.basic.LocalizedMessage original="Failure ID" locale="zh" localized="失败 ID"/>
+    <moqui.basic.LocalizedMessage original="Failure Limit" locale="zh" localized="失败上限"/>
+    <moqui.basic.LocalizedMessage original="Fallback Model ID" locale="zh" localized="回退模型 ID"/>
+    <moqui.basic.LocalizedMessage original="Feature ID" locale="zh" localized="功能 ID"/>
+    <moqui.basic.LocalizedMessage original="Feed Delete Service Name" locale="zh" localized="馈送删除服务名称"/>
+    <moqui.basic.LocalizedMessage original="Feed Name" locale="zh" localized="馈送名称"/>
+    <moqui.basic.LocalizedMessage original="Feed Receive Service Name" locale="zh" localized="馈送接收服务名称"/>
+    <moqui.basic.LocalizedMessage original="Feedback" locale="zh" localized="反馈"/>
+    <moqui.basic.LocalizedMessage original="Fetch Interval Minutes" locale="zh" localized="获取间隔分钟"/>
+    <moqui.basic.LocalizedMessage original="Fetched Date" locale="zh" localized="获取日期"/>
+    <moqui.basic.LocalizedMessage original="Field" locale="zh" localized="字段"/>
+    <moqui.basic.LocalizedMessage original="Field Alias" locale="zh" localized="字段别名"/>
+    <moqui.basic.LocalizedMessage original="Field From" locale="zh" localized="字段起始"/>
+    <moqui.basic.LocalizedMessage original="Field Ignore Case" locale="zh" localized="字段忽略大小写"/>
+    <moqui.basic.LocalizedMessage original="Field Name" locale="zh" localized="字段名称"/>
+    <moqui.basic.LocalizedMessage original="Field Name Alias" locale="zh" localized="字段名称别名"/>
+    <moqui.basic.LocalizedMessage original="Field Not" locale="zh" localized="字段非"/>
+    <moqui.basic.LocalizedMessage original="Field Operator" locale="zh" localized="字段运算符"/>
+    <moqui.basic.LocalizedMessage original="Field Path" locale="zh" localized="字段路径"/>
+    <moqui.basic.LocalizedMessage original="Field Per Offset" locale="zh" localized="字段周期偏移"/>
+    <moqui.basic.LocalizedMessage original="Field Period" locale="zh" localized="字段周期"/>
+    <moqui.basic.LocalizedMessage original="Field Seq ID" locale="zh" localized="字段序列 ID"/>
+    <moqui.basic.LocalizedMessage original="Field Thru" locale="zh" localized="字段截止"/>
+    <moqui.basic.LocalizedMessage original="Field Type" locale="zh" localized="字段类型"/>
+    <moqui.basic.LocalizedMessage original="Field Type Enum ID" locale="zh" localized="字段类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Field Value" locale="zh" localized="字段值"/>
+    <moqui.basic.LocalizedMessage original="File Data" locale="zh" localized="文件数据"/>
+    <moqui.basic.LocalizedMessage original="File Location" locale="zh" localized="文件位置"/>
+    <moqui.basic.LocalizedMessage original="File Name" locale="zh" localized="文件名称"/>
+    <moqui.basic.LocalizedMessage original="File Per Entity" locale="zh" localized="每实体一个文件"/>
+    <moqui.basic.LocalizedMessage original="File Size" locale="zh" localized="文件大小"/>
+    <moqui.basic.LocalizedMessage original="File Type" locale="zh" localized="文件类型"/>
+    <moqui.basic.LocalizedMessage original="File Url" locale="zh" localized="文件 URL"/>
+    <moqui.basic.LocalizedMessage original="Filename" locale="zh" localized="文件名"/>
+    <moqui.basic.LocalizedMessage original="Files" locale="zh" localized="文件"/>
+    <moqui.basic.LocalizedMessage original="Filter" locale="zh" localized="筛选"/>
+    <moqui.basic.LocalizedMessage original="Filter Map" locale="zh" localized="筛选映射"/>
+    <moqui.basic.LocalizedMessage original="Filter Regexp" locale="zh" localized="筛选正则表达式"/>
+    <moqui.basic.LocalizedMessage original="Find Button" locale="zh" localized="查找按钮"/>
+    <moqui.basic.LocalizedMessage original="Fingerprint" locale="zh" localized="指纹"/>
+    <moqui.basic.LocalizedMessage original="Finish Date" locale="zh" localized="结束日期"/>
+    <moqui.basic.LocalizedMessage original="Finish Reason" locale="zh" localized="结束原因"/>
+    <moqui.basic.LocalizedMessage original="Folder Kind Enum ID" locale="zh" localized="文件夹种类枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Folder Name" locale="zh" localized="文件夹名称"/>
+    <moqui.basic.LocalizedMessage original="Folder Path" locale="zh" localized="文件夹路径"/>
+    <moqui.basic.LocalizedMessage original="Font Family" locale="zh" localized="字体系列"/>
+    <moqui.basic.LocalizedMessage original="Font Kind Enum ID" locale="zh" localized="字体种类枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Font Option ID" locale="zh" localized="字体选项 ID"/>
+    <moqui.basic.LocalizedMessage original="Foo Text" locale="zh" localized="Foo 文本"/>
+    <moqui.basic.LocalizedMessage original="For Each In" locale="zh" localized="对其中每一项"/>
+    <moqui.basic.LocalizedMessage original="For Pull" locale="zh" localized="用于拉取"/>
+    <moqui.basic.LocalizedMessage original="Force Auth" locale="zh" localized="强制认证"/>
+    <moqui.basic.LocalizedMessage original="Form Config ID" locale="zh" localized="表单配置 ID"/>
+    <moqui.basic.LocalizedMessage original="Form ID" locale="zh" localized="表单 ID"/>
+    <moqui.basic.LocalizedMessage original="Form List Find ID" locale="zh" localized="表单列表查找 ID"/>
+    <moqui.basic.LocalizedMessage original="Form Location" locale="zh" localized="表单位置"/>
+    <moqui.basic.LocalizedMessage original="Form Response Answer ID" locale="zh" localized="表单答复答案 ID"/>
+    <moqui.basic.LocalizedMessage original="Form Response ID" locale="zh" localized="表单答复 ID"/>
+    <moqui.basic.LocalizedMessage original="Format" locale="zh" localized="格式"/>
+    <moqui.basic.LocalizedMessage original="Forms" locale="zh" localized="表单"/>
+    <moqui.basic.LocalizedMessage original="Fraction Digits" locale="zh" localized="小数位数"/>
+    <moqui.basic.LocalizedMessage original="From Address" locale="zh" localized="发件人地址"/>
+    <moqui.basic.LocalizedMessage original="From Date" locale="zh" localized="开始日期"/>
+    <moqui.basic.LocalizedMessage original="From Date Max" locale="zh" localized="开始日期最大值"/>
+    <moqui.basic.LocalizedMessage original="From Date Min" locale="zh" localized="开始日期最小值"/>
+    <moqui.basic.LocalizedMessage original="From Factor ID" locale="zh" localized="来源因子 ID"/>
+    <moqui.basic.LocalizedMessage original="From Name" locale="zh" localized="发件人名称"/>
+    <moqui.basic.LocalizedMessage original="From Update Stamp" locale="zh" localized="起始更新戳"/>
+    <moqui.basic.LocalizedMessage original="From User ID" locale="zh" localized="来源用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Front Matter Json" locale="zh" localized="文首元数据 JSON"/>
+    <moqui.basic.LocalizedMessage original="Function Name" locale="zh" localized="函数名称"/>
+    <moqui.basic.LocalizedMessage original="Gallery" locale="zh" localized="图库"/>
+    <moqui.basic.LocalizedMessage original="Gallery note" locale="zh" localized="图库备注"/>
+    <moqui.basic.LocalizedMessage original="Gallery task" locale="zh" localized="图库任务"/>
+    <moqui.basic.LocalizedMessage original="Gateway" locale="zh" localized="网关"/>
+    <moqui.basic.LocalizedMessage original="Gc Lease Owner" locale="zh" localized="GC 租约持有者"/>
+    <moqui.basic.LocalizedMessage original="Gc Lease Until" locale="zh" localized="GC 租约截止"/>
+    <moqui.basic.LocalizedMessage original="Geo Assoc Type Enum ID" locale="zh" localized="地理关联类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Geo Code Alpha2" locale="zh" localized="地理代码 Alpha2"/>
+    <moqui.basic.LocalizedMessage original="Geo Code Alpha3" locale="zh" localized="地理代码 Alpha3"/>
+    <moqui.basic.LocalizedMessage original="Geo Code Numeric" locale="zh" localized="地理数字代码"/>
+    <moqui.basic.LocalizedMessage original="Geo ID" locale="zh" localized="地理 ID"/>
+    <moqui.basic.LocalizedMessage original="Geo Name" locale="zh" localized="地理名称"/>
+    <moqui.basic.LocalizedMessage original="Geo Name Local" locale="zh" localized="本地地理名称"/>
+    <moqui.basic.LocalizedMessage original="Geo Point ID" locale="zh" localized="地理点 ID"/>
+    <moqui.basic.LocalizedMessage original="Geo Point Type Enum ID" locale="zh" localized="地理点类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Geo Type Enum ID" locale="zh" localized="地理类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Get as CSV" locale="zh" localized="获取为 CSV"/>
+    <moqui.basic.LocalizedMessage original="Git Repositories" locale="zh" localized="Git 仓库"/>
+    <moqui.basic.LocalizedMessage original="Group Name" locale="zh" localized="组名称"/>
+    <moqui.basic.LocalizedMessage original="Group Priority" locale="zh" localized="组优先级"/>
+    <moqui.basic.LocalizedMessage original="Group Type Enum ID" locale="zh" localized="组类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Groups" locale="zh" localized="组"/>
+    <moqui.basic.LocalizedMessage original="Handoff ID" locale="zh" localized="交接 ID"/>
+    <moqui.basic.LocalizedMessage original="Has Attachment" locale="zh" localized="有附件"/>
+    <moqui.basic.LocalizedMessage original="Has Error" locale="zh" localized="有错误"/>
+    <moqui.basic.LocalizedMessage original="Has Logged Out" locale="zh" localized="已退出登录"/>
+    <moqui.basic.LocalizedMessage original="Head Commit ID" locale="zh" localized="头部提交 ID"/>
+    <moqui.basic.LocalizedMessage original="Headers Json" locale="zh" localized="标头 JSON"/>
+    <moqui.basic.LocalizedMessage original="Headers String" locale="zh" localized="标头字符串"/>
+    <moqui.basic.LocalizedMessage original="Heartbeat" locale="zh" localized="心跳"/>
+    <moqui.basic.LocalizedMessage original="Hid" locale="zh" localized="隐藏"/>
+    <moqui.basic.LocalizedMessage original="History" locale="zh" localized="历史"/>
+    <moqui.basic.LocalizedMessage original="History Seq ID" locale="zh" localized="历史序列 ID"/>
+    <moqui.basic.LocalizedMessage original="Hit Bin ID" locale="zh" localized="命中区间 ID"/>
+    <moqui.basic.LocalizedMessage original="Hit Count" locale="zh" localized="命中次数"/>
+    <moqui.basic.LocalizedMessage original="Hit ID" locale="zh" localized="命中 ID"/>
+    <moqui.basic.LocalizedMessage original="Hits" locale="zh" localized="命中"/>
+    <moqui.basic.LocalizedMessage original="Host Address" locale="zh" localized="主机地址"/>
+    <moqui.basic.LocalizedMessage original="Host Config Name" locale="zh" localized="主机配置名称"/>
+    <moqui.basic.LocalizedMessage original="Host Config Value" locale="zh" localized="主机配置值"/>
+    <moqui.basic.LocalizedMessage original="Host Name" locale="zh" localized="主机名"/>
+    <moqui.basic.LocalizedMessage original="Host Port" locale="zh" localized="主机端口"/>
+    <moqui.basic.LocalizedMessage original="Host Protocol" locale="zh" localized="主机协议"/>
+    <moqui.basic.LocalizedMessage original="Host Suffixes" locale="zh" localized="主机后缀"/>
+    <moqui.basic.LocalizedMessage original="Host Type ID" locale="zh" localized="主机类型 ID"/>
+    <moqui.basic.LocalizedMessage original="Http Status" locale="zh" localized="HTTP 状态"/>
+    <moqui.basic.LocalizedMessage original="Icon Class" locale="zh" localized="图标类名"/>
+    <moqui.basic.LocalizedMessage original="Icon Name" locale="zh" localized="图标名称"/>
+    <moqui.basic.LocalizedMessage original="ID Field" locale="zh" localized="ID 字段"/>
+    <moqui.basic.LocalizedMessage original="IDentity Provider Metadata Location" locale="zh" localized="身份提供者元数据位置"/>
+    <moqui.basic.LocalizedMessage original="IDle Timeout" locale="zh" localized="空闲超时"/>
+    <moqui.basic.LocalizedMessage original="If you didn&#x27;t request this email, please contact administrator and reset your password." locale="zh" localized="如果您并未请求此电子邮件，请联系管理员并重置密码。"/>
+    <moqui.basic.LocalizedMessage original="Image Name" locale="zh" localized="镜像名称"/>
+    <moqui.basic.LocalizedMessage original="Image Type ID" locale="zh" localized="镜像类型 ID"/>
+    <moqui.basic.LocalizedMessage original="Import" locale="zh" localized="导入"/>
+    <moqui.basic.LocalizedMessage original="In Call" locale="zh" localized="通话中"/>
+    <moqui.basic.LocalizedMessage original="In Reply To" locale="zh" localized="回复对象"/>
+    <moqui.basic.LocalizedMessage original="Inbound" locale="zh" localized="入站"/>
+    <moqui.basic.LocalizedMessage original="Inbox Enum ID" locale="zh" localized="收件箱枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Include Filter List" locale="zh" localized="包含筛选列表"/>
+    <moqui.basic.LocalizedMessage original="Inclusive Thru Time" locale="zh" localized="含截止时间"/>
+    <moqui.basic.LocalizedMessage original="Index" locale="zh" localized="索引"/>
+    <moqui.basic.LocalizedMessage original="Index Name" locale="zh" localized="索引名称"/>
+    <moqui.basic.LocalizedMessage original="Index On Start Empty" locale="zh" localized="为空时在启动时索引"/>
+    <moqui.basic.LocalizedMessage original="Indexed Version Name" locale="zh" localized="已索引版本名称"/>
+    <moqui.basic.LocalizedMessage original="Information" locale="zh" localized="信息"/>
+    <moqui.basic.LocalizedMessage original="Inherit Authz" locale="zh" localized="继承授权"/>
+    <moqui.basic.LocalizedMessage original="Init Command" locale="zh" localized="初始化命令"/>
+    <moqui.basic.LocalizedMessage original="Init Date" locale="zh" localized="初始化日期"/>
+    <moqui.basic.LocalizedMessage original="Init Service" locale="zh" localized="初始化服务"/>
+    <moqui.basic.LocalizedMessage original="Initial Locale" locale="zh" localized="初始区域设置"/>
+    <moqui.basic.LocalizedMessage original="Initial Referrer" locale="zh" localized="初始引荐来源"/>
+    <moqui.basic.LocalizedMessage original="Initial Request" locale="zh" localized="初始请求"/>
+    <moqui.basic.LocalizedMessage original="Initial User Agent" locale="zh" localized="初始用户代理"/>
+    <moqui.basic.LocalizedMessage original="Input ID" locale="zh" localized="输入 ID"/>
+    <moqui.basic.LocalizedMessage original="Input Kind Enum ID" locale="zh" localized="输入种类枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Input Tokens" locale="zh" localized="输入令牌"/>
+    <moqui.basic.LocalizedMessage original="Instance Address" locale="zh" localized="实例地址"/>
+    <moqui.basic.LocalizedMessage original="Instance Detail" locale="zh" localized="实例详情"/>
+    <moqui.basic.LocalizedMessage original="Instance Host ID" locale="zh" localized="实例主机 ID"/>
+    <moqui.basic.LocalizedMessage original="Instance ID" locale="zh" localized="实例 ID"/>
+    <moqui.basic.LocalizedMessage original="Instance Image ID" locale="zh" localized="实例镜像 ID"/>
+    <moqui.basic.LocalizedMessage original="Instance Name" locale="zh" localized="实例名称"/>
+    <moqui.basic.LocalizedMessage original="Instances" locale="zh" localized="实例"/>
+    <moqui.basic.LocalizedMessage original="Instructions" locale="zh" localized="说明"/>
+    <moqui.basic.LocalizedMessage original="Instructions Location" locale="zh" localized="说明位置"/>
+    <moqui.basic.LocalizedMessage original="Int ID" locale="zh" localized="整数 ID"/>
+    <moqui.basic.LocalizedMessage original="Intent Prefilter" locale="zh" localized="意图预筛选"/>
+    <moqui.basic.LocalizedMessage original="Internal App Code" locale="zh" localized="内部应用代码"/>
+    <moqui.basic.LocalizedMessage original="Internal Body Html" locale="zh" localized="内部正文 HTML"/>
+    <moqui.basic.LocalizedMessage original="Internal Domains" locale="zh" localized="内部域名"/>
+    <moqui.basic.LocalizedMessage original="Internal ID" locale="zh" localized="内部 ID"/>
+    <moqui.basic.LocalizedMessage original="Internal ID Type" locale="zh" localized="内部 ID 类型"/>
+    <moqui.basic.LocalizedMessage original="Ip Allowed" locale="zh" localized="允许的 IP"/>
+    <moqui.basic.LocalizedMessage original="Is Anonymous" locale="zh" localized="是匿名"/>
+    <moqui.basic.LocalizedMessage original="Is Answered" locale="zh" localized="已答复"/>
+    <moqui.basic.LocalizedMessage original="Is Data View" locale="zh" localized="是数据视图"/>
+    <moqui.basic.LocalizedMessage original="Is Default" locale="zh" localized="是默认"/>
+    <moqui.basic.LocalizedMessage original="Is Deny" locale="zh" localized="是拒绝"/>
+    <moqui.basic.LocalizedMessage original="Is Diff" locale="zh" localized="是差异"/>
+    <moqui.basic.LocalizedMessage original="Is Directory" locale="zh" localized="是目录"/>
+    <moqui.basic.LocalizedMessage original="Is File" locale="zh" localized="是文件"/>
+    <moqui.basic.LocalizedMessage original="Is Flagged" locale="zh" localized="已标记"/>
+    <moqui.basic.LocalizedMessage original="Is Initial" locale="zh" localized="是初始"/>
+    <moqui.basic.LocalizedMessage original="Is Inline" locale="zh" localized="是内联"/>
+    <moqui.basic.LocalizedMessage original="Is Link" locale="zh" localized="是链接"/>
+    <moqui.basic.LocalizedMessage original="Is List Form" locale="zh" localized="是列表表单"/>
+    <moqui.basic.LocalizedMessage original="Is Local" locale="zh" localized="是本地"/>
+    <moqui.basic.LocalizedMessage original="Is Muted" locale="zh" localized="已静音"/>
+    <moqui.basic.LocalizedMessage original="Is Outgoing" locale="zh" localized="是外发"/>
+    <moqui.basic.LocalizedMessage original="Is Pinned" locale="zh" localized="已置顶"/>
+    <moqui.basic.LocalizedMessage original="Is Private" locale="zh" localized="是私有"/>
+    <moqui.basic.LocalizedMessage original="Is Read" locale="zh" localized="已读"/>
+    <moqui.basic.LocalizedMessage original="Is Required" locale="zh" localized="是必填"/>
+    <moqui.basic.LocalizedMessage original="Is Slow Hit" locale="zh" localized="是慢命中"/>
+    <moqui.basic.LocalizedMessage original="Is System" locale="zh" localized="是系统"/>
+    <moqui.basic.LocalizedMessage original="Is Week End" locale="zh" localized="是周末"/>
+    <moqui.basic.LocalizedMessage original="Issuer" locale="zh" localized="颁发者"/>
+    <moqui.basic.LocalizedMessage original="Item" locale="zh" localized="条目"/>
+    <moqui.basic.LocalizedMessage original="Item ID" locale="zh" localized="条目 ID"/>
+    <moqui.basic.LocalizedMessage original="Job Detail" locale="zh" localized="作业详情"/>
+    <moqui.basic.LocalizedMessage original="Job ID" locale="zh" localized="作业 ID"/>
+    <moqui.basic.LocalizedMessage original="Job Name" locale="zh" localized="作业名称"/>
+    <moqui.basic.LocalizedMessage original="Job Run Detail" locale="zh" localized="作业运行详情"/>
+    <moqui.basic.LocalizedMessage original="Job Run ID" locale="zh" localized="作业运行 ID"/>
+    <moqui.basic.LocalizedMessage original="Job Runs" locale="zh" localized="作业运行"/>
+    <moqui.basic.LocalizedMessage original="Job Url" locale="zh" localized="作业 URL"/>
+    <moqui.basic.LocalizedMessage original="Jobs" locale="zh" localized="作业"/>
+    <moqui.basic.LocalizedMessage original="Join From Alias" locale="zh" localized="联接来源别名"/>
+    <moqui.basic.LocalizedMessage original="Join Optional" locale="zh" localized="可选联接"/>
+    <moqui.basic.LocalizedMessage original="Join Or" locale="zh" localized="以 OR 联接"/>
+    <moqui.basic.LocalizedMessage original="Joined Date" locale="zh" localized="加入日期"/>
+    <moqui.basic.LocalizedMessage original="Keep Remove Info Hours" locale="zh" localized="移除信息保留小时数"/>
+    <moqui.basic.LocalizedMessage original="Key" locale="zh" localized="键"/>
+    <moqui.basic.LocalizedMessage original="Key Map" locale="zh" localized="键映射"/>
+    <moqui.basic.LocalizedMessage original="Key Value" locale="zh" localized="键值"/>
+    <moqui.basic.LocalizedMessage original="Keystore Location" locale="zh" localized="密钥库位置"/>
+    <moqui.basic.LocalizedMessage original="Keystore Password" locale="zh" localized="密钥库密码"/>
+    <moqui.basic.LocalizedMessage original="Kind" locale="zh" localized="种类"/>
+    <moqui.basic.LocalizedMessage original="Kind By User" locale="zh" localized="按用户的种类"/>
+    <moqui.basic.LocalizedMessage original="Label" locale="zh" localized="标签"/>
+    <moqui.basic.LocalizedMessage original="Label Name" locale="zh" localized="标签名称"/>
+    <moqui.basic.LocalizedMessage original="Landing" locale="zh" localized="着陆页"/>
+    <moqui.basic.LocalizedMessage original="Last Active Date" locale="zh" localized="最后活跃日期"/>
+    <moqui.basic.LocalizedMessage original="Last Activity Date" locale="zh" localized="最后活动日期"/>
+    <moqui.basic.LocalizedMessage original="Last Attempt Date" locale="zh" localized="最后尝试日期"/>
+    <moqui.basic.LocalizedMessage original="Last Change Date" locale="zh" localized="最后变更日期"/>
+    <moqui.basic.LocalizedMessage original="Last Change User ID" locale="zh" localized="最后变更用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Last Delivery Date" locale="zh" localized="最后投递日期"/>
+    <moqui.basic.LocalizedMessage original="Last Delivery Status" locale="zh" localized="最后投递状态"/>
+    <moqui.basic.LocalizedMessage original="Last Edit Event Seq" locale="zh" localized="最后编辑事件序列"/>
+    <moqui.basic.LocalizedMessage original="Last Error" locale="zh" localized="最后错误"/>
+    <moqui.basic.LocalizedMessage original="Last Event Date" locale="zh" localized="最后事件日期"/>
+    <moqui.basic.LocalizedMessage original="Last Event Seq" locale="zh" localized="最后事件序列"/>
+    <moqui.basic.LocalizedMessage original="Last Failure Text" locale="zh" localized="最后失败文本"/>
+    <moqui.basic.LocalizedMessage original="Last Feed Stamp" locale="zh" localized="最后馈送戳"/>
+    <moqui.basic.LocalizedMessage original="Last Fetch Date" locale="zh" localized="最后获取日期"/>
+    <moqui.basic.LocalizedMessage original="Last Fetch Error" locale="zh" localized="最后获取错误"/>
+    <moqui.basic.LocalizedMessage original="Last Flag Scan Date" locale="zh" localized="最后标志扫描日期"/>
+    <moqui.basic.LocalizedMessage original="Last Gc Date" locale="zh" localized="最后 GC 日期"/>
+    <moqui.basic.LocalizedMessage original="Last Gc Result" locale="zh" localized="最后 GC 结果"/>
+    <moqui.basic.LocalizedMessage original="Last Message Date" locale="zh" localized="最后消息日期"/>
+    <moqui.basic.LocalizedMessage original="Last Message Seq" locale="zh" localized="最后消息序列"/>
+    <moqui.basic.LocalizedMessage original="Last Message Snippet" locale="zh" localized="最后消息片段"/>
+    <moqui.basic.LocalizedMessage original="Last Message User ID" locale="zh" localized="最后消息用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Last Modified Date" locale="zh" localized="最后修改日期"/>
+    <moqui.basic.LocalizedMessage original="Last Opened Date" locale="zh" localized="最后打开日期"/>
+    <moqui.basic.LocalizedMessage original="Last Presence" locale="zh" localized="最后在线"/>
+    <moqui.basic.LocalizedMessage original="Last Read Date" locale="zh" localized="最后阅读日期"/>
+    <moqui.basic.LocalizedMessage original="Last Read Event Seq" locale="zh" localized="最后已读事件序列"/>
+    <moqui.basic.LocalizedMessage original="Last Run" locale="zh" localized="最后运行"/>
+    <moqui.basic.LocalizedMessage original="Last Run Date" locale="zh" localized="最后运行日期"/>
+    <moqui.basic.LocalizedMessage original="Last Run ID" locale="zh" localized="最后运行 ID"/>
+    <moqui.basic.LocalizedMessage original="Last Run Time" locale="zh" localized="最后运行时间"/>
+    <moqui.basic.LocalizedMessage original="Last Save Date" locale="zh" localized="最后保存日期"/>
+    <moqui.basic.LocalizedMessage original="Last Seen Date" locale="zh" localized="最后见到日期"/>
+    <moqui.basic.LocalizedMessage original="Last Sent Date" locale="zh" localized="最后发送日期"/>
+    <moqui.basic.LocalizedMessage original="Last Start Date" locale="zh" localized="最后开始日期"/>
+    <moqui.basic.LocalizedMessage original="Last Status" locale="zh" localized="最后状态"/>
+    <moqui.basic.LocalizedMessage original="Last Successful Sync Time" locale="zh" localized="最后成功同步时间"/>
+    <moqui.basic.LocalizedMessage original="Last Sync Date" locale="zh" localized="最后同步日期"/>
+    <moqui.basic.LocalizedMessage original="Last Sync Error" locale="zh" localized="最后同步错误"/>
+    <moqui.basic.LocalizedMessage original="Last Update Date" locale="zh" localized="最后更新日期"/>
+    <moqui.basic.LocalizedMessage original="Last Updated By User ID" locale="zh" localized="最后更新人用户 ID"/>
+    <moqui.basic.LocalizedMessage original="Last Updated Date" locale="zh" localized="最近更新日期"/>
+    <moqui.basic.LocalizedMessage original="Last Updated Stamp" locale="zh" localized="最后更新戳"/>
+    <moqui.basic.LocalizedMessage original="Last Used Date" locale="zh" localized="最后使用日期"/>
+    <moqui.basic.LocalizedMessage original="Latitude" locale="zh" localized="纬度"/>
+    <moqui.basic.LocalizedMessage original="Layout Sequence Num" locale="zh" localized="布局序列号"/>
+    <moqui.basic.LocalizedMessage original="Lease Expire Date" locale="zh" localized="租约过期日期"/>
+    <moqui.basic.LocalizedMessage original="Lease Owner" locale="zh" localized="租约持有者"/>
+    <moqui.basic.LocalizedMessage original="Left Date" locale="zh" localized="离开日期"/>
+    <moqui.basic.LocalizedMessage original="Lesson ID" locale="zh" localized="经验 ID"/>
+    <moqui.basic.LocalizedMessage original="Lesson Text" locale="zh" localized="经验文本"/>
+    <moqui.basic.LocalizedMessage original="Lessons" locale="zh" localized="经验"/>
+    <moqui.basic.LocalizedMessage original="Limit" locale="zh" localized="上限"/>
+    <moqui.basic.LocalizedMessage original="Line Index" locale="zh" localized="行索引"/>
+    <moqui.basic.LocalizedMessage original="Line Seq" locale="zh" localized="行序列"/>
+    <moqui.basic.LocalizedMessage original="Link" locale="zh" localized="链接"/>
+    <moqui.basic.LocalizedMessage original="Link Condition" locale="zh" localized="链接条件"/>
+    <moqui.basic.LocalizedMessage original="Link Label" locale="zh" localized="链接标签"/>
+    <moqui.basic.LocalizedMessage original="Link Preview Json" locale="zh" localized="链接预览 JSON"/>
+    <moqui.basic.LocalizedMessage original="Link Seq ID" locale="zh" localized="链接序列 ID"/>
+    <moqui.basic.LocalizedMessage original="Link Set" locale="zh" localized="链接集"/>
+    <moqui.basic.LocalizedMessage original="Link Target" locale="zh" localized="链接目标"/>
+    <moqui.basic.LocalizedMessage original="Link Template" locale="zh" localized="链接模板"/>
+    <moqui.basic.LocalizedMessage original="Link Text" locale="zh" localized="链接文本"/>
+    <moqui.basic.LocalizedMessage original="Link Token Hash" locale="zh" localized="链接令牌哈希"/>
+    <moqui.basic.LocalizedMessage original="Link Url" locale="zh" localized="链接 URL"/>
+    <moqui.basic.LocalizedMessage original="List" locale="zh" localized="列表"/>
+    <moqui.basic.LocalizedMessage original="List Limit" locale="zh" localized="列表上限"/>
+    <moqui.basic.LocalizedMessage original="LLM and Agents" locale="zh" localized="LLM 与智能体"/>
+    <moqui.basic.LocalizedMessage original="Local Only" locale="zh" localized="仅本地"/>
+    <moqui.basic.LocalizedMessage original="Local Path" locale="zh" localized="本地路径"/>
+    <moqui.basic.LocalizedMessage original="Locale" locale="zh" localized="区域设置"/>
+    <moqui.basic.LocalizedMessage original="Localization" locale="zh" localized="本地化"/>
+    <moqui.basic.LocalizedMessage original="Localize" locale="zh" localized="执行本地化"/>
+    <moqui.basic.LocalizedMessage original="Localized" locale="zh" localized="已本地化"/>
+    <moqui.basic.LocalizedMessage original="Location" locale="zh" localized="位置"/>
+    <moqui.basic.LocalizedMessage original="Lock" locale="zh" localized="锁定"/>
+    <moqui.basic.LocalizedMessage original="Lock ID" locale="zh" localized="锁定 ID"/>
+    <moqui.basic.LocalizedMessage original="Lock Path" locale="zh" localized="锁定路径"/>
+    <moqui.basic.LocalizedMessage original="Lock Thread" locale="zh" localized="锁定线程"/>
+    <moqui.basic.LocalizedMessage original="Lock Time" locale="zh" localized="锁定时间"/>
+    <moqui.basic.LocalizedMessage original="Lock Version" locale="zh" localized="锁定版本"/>
+    <moqui.basic.LocalizedMessage original="Locked" locale="zh" localized="已锁定"/>
+    <moqui.basic.LocalizedMessage original="Locked Date" locale="zh" localized="锁定日期"/>
+    <moqui.basic.LocalizedMessage original="Log Viewer" locale="zh" localized="日志查看器"/>
+    <moqui.basic.LocalizedMessage original="Login Key" locale="zh" localized="登录密钥"/>
+    <moqui.basic.LocalizedMessage original="Longitude" locale="zh" localized="经度"/>
+</entity-facade-xml>

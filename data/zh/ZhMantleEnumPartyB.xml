@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Medical" locale="zh" localized="医疗"/>
+    <moqui.basic.LocalizedMessage original="Medical Record" locale="zh" localized="医疗记录"/>
+    <moqui.basic.LocalizedMessage original="Medical Taxable" locale="zh" localized="医疗应税基数"/>
+    <moqui.basic.LocalizedMessage original="Members" locale="zh" localized="成员"/>
+    <moqui.basic.LocalizedMessage original="Merchant Mariner Card" locale="zh" localized="商船船员证"/>
+    <moqui.basic.LocalizedMessage original="Military Dependent ID" locale="zh" localized="军人家属证件"/>
+    <moqui.basic.LocalizedMessage original="Military ID" locale="zh" localized="军人证件"/>
+    <moqui.basic.LocalizedMessage original="Min Wage Adj" locale="zh" localized="最低工资调整"/>
+    <moqui.basic.LocalizedMessage original="Minority" locale="zh" localized="少数族裔"/>
+    <moqui.basic.LocalizedMessage original="NAICS Code" locale="zh" localized="NAICS 代码"/>
+    <moqui.basic.LocalizedMessage original="Native Tribal Document" locale="zh" localized="原住民部落文件"/>
+    <moqui.basic.LocalizedMessage original="New Data" locale="zh" localized="新数据"/>
+    <moqui.basic.LocalizedMessage original="Newspaper" locale="zh" localized="报纸"/>
+    <moqui.basic.LocalizedMessage original="No Charge" locale="zh" localized="免费"/>
+    <moqui.basic.LocalizedMessage original="Not Yet Valid" locale="zh" localized="尚未生效"/>
+    <moqui.basic.LocalizedMessage original="Number of Employees" locale="zh" localized="员工人数"/>
+    <moqui.basic.LocalizedMessage original="On-site" locale="zh" localized="现场"/>
+    <moqui.basic.LocalizedMessage original="Order Roles" locale="zh" localized="订单角色"/>
+    <moqui.basic.LocalizedMessage original="Organization Member" locale="zh" localized="组织成员"/>
+    <moqui.basic.LocalizedMessage original="Organization Roles" locale="zh" localized="组织角色"/>
+    <moqui.basic.LocalizedMessage original="Organization Rollup (Child)" locale="zh" localized="组织汇总（下级）"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Email" locale="zh" localized="发出的电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Overtime" locale="zh" localized="加班"/>
+    <moqui.basic.LocalizedMessage original="Own Home" locale="zh" localized="自有住房"/>
+    <moqui.basic.LocalizedMessage original="Owners and moderators" locale="zh" localized="所有者与版主"/>
+    <moqui.basic.LocalizedMessage original="Ownership" locale="zh" localized="所有权"/>
+    <moqui.basic.LocalizedMessage original="PTO - Holiday" locale="zh" localized="带薪假 - 节假日"/>
+    <moqui.basic.LocalizedMessage original="PTO - Other" locale="zh" localized="带薪假 - 其他"/>
+    <moqui.basic.LocalizedMessage original="PTO - Sick" locale="zh" localized="带薪假 - 病假"/>
+    <moqui.basic.LocalizedMessage original="PTO - Vacation" locale="zh" localized="带薪假 - 休假"/>
+    <moqui.basic.LocalizedMessage original="Paid Break" locale="zh" localized="带薪休息"/>
+    <moqui.basic.LocalizedMessage original="Paid Break RRP" locale="zh" localized="带薪休息 RRP"/>
+    <moqui.basic.LocalizedMessage original="Paid Break STD" locale="zh" localized="带薪休息 STD"/>
+    <moqui.basic.LocalizedMessage original="Paid Non-productive Time" locale="zh" localized="带薪非生产时间"/>
+    <moqui.basic.LocalizedMessage original="Part-time Employed" locale="zh" localized="兼职在职"/>
+    <moqui.basic.LocalizedMessage original="Partner Managed" locale="zh" localized="由合作伙伴管理"/>
+    <moqui.basic.LocalizedMessage original="Party Badge Scan Purpose" locale="zh" localized="参与方工牌扫描目的"/>
+    <moqui.basic.LocalizedMessage original="Party Badge Scan Result" locale="zh" localized="参与方工牌扫描结果"/>
+    <moqui.basic.LocalizedMessage original="Party Classification Type" locale="zh" localized="参与方分类类型"/>
+    <moqui.basic.LocalizedMessage original="Party Consent" locale="zh" localized="参与方同意"/>
+    <moqui.basic.LocalizedMessage original="Party Consent Purpose" locale="zh" localized="参与方同意目的"/>
+    <moqui.basic.LocalizedMessage original="Party Consent Source" locale="zh" localized="参与方同意来源"/>
+    <moqui.basic.LocalizedMessage original="Party Content Type" locale="zh" localized="参与方内容类型"/>
+    <moqui.basic.LocalizedMessage original="Party Identification Type" locale="zh" localized="参与方身份标识类型"/>
+    <moqui.basic.LocalizedMessage original="Party Relationship" locale="zh" localized="参与方关系"/>
+    <moqui.basic.LocalizedMessage original="Party Relationship Type" locale="zh" localized="参与方关系类型"/>
+    <moqui.basic.LocalizedMessage original="Party Type" locale="zh" localized="参与方类型"/>
+    <moqui.basic.LocalizedMessage original="Passport Number" locale="zh" localized="护照号码"/>
+    <moqui.basic.LocalizedMessage original="Pay Period" locale="zh" localized="工资期间"/>
+    <moqui.basic.LocalizedMessage original="Pay Rate Modifier" locale="zh" localized="工资率调整系数"/>
+    <moqui.basic.LocalizedMessage original="Pay Rate Modifier Type" locale="zh" localized="工资率调整系数类型"/>
+    <moqui.basic.LocalizedMessage original="Payment Signature Primary" locale="zh" localized="付款主签名"/>
+    <moqui.basic.LocalizedMessage original="Payment Signature Secondary" locale="zh" localized="付款副签名"/>
+    <moqui.basic.LocalizedMessage original="Payroll" locale="zh" localized="工资"/>
+    <moqui.basic.LocalizedMessage original="Payroll Adjustment Calculation" locale="zh" localized="工资调整计算"/>
+    <moqui.basic.LocalizedMessage original="Payroll Allowance Amount Type" locale="zh" localized="工资津贴金额类型"/>
+    <moqui.basic.LocalizedMessage original="Payroll Calc Period" locale="zh" localized="工资计算期间"/>
+    <moqui.basic.LocalizedMessage original="Payroll Calculation Phase" locale="zh" localized="工资计算阶段"/>
+    <moqui.basic.LocalizedMessage original="Payroll Rate Basis" locale="zh" localized="工资费率基准"/>
+    <moqui.basic.LocalizedMessage original="Payroll Wage Grouping" locale="zh" localized="工资分组"/>
+    <moqui.basic.LocalizedMessage original="Pending Accept" locale="zh" localized="改为待接受"/>
+    <moqui.basic.LocalizedMessage original="Pending Acceptance" locale="zh" localized="待接受"/>
+    <moqui.basic.LocalizedMessage original="Permanent Resident" locale="zh" localized="永久居民"/>
+    <moqui.basic.LocalizedMessage original="Permanent Resident Card" locale="zh" localized="永久居民卡"/>
+    <moqui.basic.LocalizedMessage original="Person Roles" locale="zh" localized="人员角色"/>
+    <moqui.basic.LocalizedMessage original="Personal Referral" locale="zh" localized="个人推荐"/>
+    <moqui.basic.LocalizedMessage original="Phone Number" locale="zh" localized="电话号码"/>
+    <moqui.basic.LocalizedMessage original="Piece" locale="zh" localized="计件"/>
+    <moqui.basic.LocalizedMessage original="Piece Rate Type" locale="zh" localized="计件费率类型"/>
+    <moqui.basic.LocalizedMessage original="Piece or Hourly" locale="zh" localized="计件或按小时"/>
+    <moqui.basic.LocalizedMessage original="Piece plus Hourly" locale="zh" localized="计件加按小时"/>
+    <moqui.basic.LocalizedMessage original="Plain Text" locale="zh" localized="纯文本"/>
+    <moqui.basic.LocalizedMessage original="Planned" locale="zh" localized="已计划"/>
+    <moqui.basic.LocalizedMessage original="Planned For" locale="zh" localized="计划任职"/>
+    <moqui.basic.LocalizedMessage original="Postal Address" locale="zh" localized="邮政地址"/>
+    <moqui.basic.LocalizedMessage original="Price Sheet" locale="zh" localized="价格表"/>
+    <moqui.basic.LocalizedMessage original="Pricing" locale="zh" localized="定价"/>
+    <moqui.basic.LocalizedMessage original="Primary Image" locale="zh" localized="主图片"/>
+    <moqui.basic.LocalizedMessage original="Private Tenant" locale="zh" localized="私人承租"/>
+    <moqui.basic.LocalizedMessage original="Production Management" locale="zh" localized="生产管理"/>
+    <moqui.basic.LocalizedMessage original="Project Management" locale="zh" localized="项目管理"/>
+    <moqui.basic.LocalizedMessage original="Public Tenant" locale="zh" localized="公共承租"/>
+    <moqui.basic.LocalizedMessage original="Purchase Management" locale="zh" localized="采购管理"/>
+    <moqui.basic.LocalizedMessage original="Rate Purpose" locale="zh" localized="费率用途"/>
+    <moqui.basic.LocalizedMessage original="Record Timeline Source" locale="zh" localized="记录时间线来源"/>
+    <moqui.basic.LocalizedMessage original="Refer" locale="zh" localized="转交"/>
+    <moqui.basic.LocalizedMessage original="Referred" locale="zh" localized="已转交"/>
+    <moqui.basic.LocalizedMessage original="Representative" locale="zh" localized="代表"/>
+    <moqui.basic.LocalizedMessage original="Residence Status" locale="zh" localized="居住状况"/>
+    <moqui.basic.LocalizedMessage original="Resident Citizen ID Card" locale="zh" localized="居民公民身份证"/>
+    <moqui.basic.LocalizedMessage original="Resident Regular" locale="zh" localized="普通居民"/>
+    <moqui.basic.LocalizedMessage original="Resigned" locale="zh" localized="已辞职"/>
+    <moqui.basic.LocalizedMessage original="Resolve" locale="zh" localized="解决"/>
+    <moqui.basic.LocalizedMessage original="Resolved" locale="zh" localized="已解决"/>
+    <moqui.basic.LocalizedMessage original="Resource Management" locale="zh" localized="资源管理"/>
+    <moqui.basic.LocalizedMessage original="Risk Class Type" locale="zh" localized="风险等级类型"/>
+    <moqui.basic.LocalizedMessage original="Role Group" locale="zh" localized="角色组"/>
+    <moqui.basic.LocalizedMessage original="SIC Code" locale="zh" localized="SIC 代码"/>
+    <moqui.basic.LocalizedMessage original="Sales Affiliate" locale="zh" localized="销售联盟会员"/>
+    <moqui.basic.LocalizedMessage original="Sales Follow-Up" locale="zh" localized="销售跟进"/>
+    <moqui.basic.LocalizedMessage original="Sales Inquiry" locale="zh" localized="销售询盘"/>
+    <moqui.basic.LocalizedMessage original="Sales Management" locale="zh" localized="销售管理"/>
+    <moqui.basic.LocalizedMessage original="Sales Segment" locale="zh" localized="销售细分"/>
+    <moqui.basic.LocalizedMessage original="School ID Card" locale="zh" localized="学生证"/>
+    <moqui.basic.LocalizedMessage original="School Record" locale="zh" localized="学校记录"/>
+    <moqui.basic.LocalizedMessage original="Self Employed" locale="zh" localized="自雇"/>
+    <moqui.basic.LocalizedMessage original="Seminar" locale="zh" localized="研讨会"/>
+    <moqui.basic.LocalizedMessage original="Shift - Evening" locale="zh" localized="班次 - 晚班"/>
+    <moqui.basic.LocalizedMessage original="Shift - Holiday" locale="zh" localized="班次 - 节假日"/>
+    <moqui.basic.LocalizedMessage original="Shift - Night" locale="zh" localized="班次 - 夜班"/>
+    <moqui.basic.LocalizedMessage original="Shift - Weekend" locale="zh" localized="班次 - 周末"/>
+    <moqui.basic.LocalizedMessage original="Shipment Default Gateway Config ID" locale="zh" localized="发货单默认网关配置 ID"/>
+    <moqui.basic.LocalizedMessage original="Shipments" locale="zh" localized="发货单"/>
+    <moqui.basic.LocalizedMessage original="Signature Required" locale="zh" localized="需要签名"/>
+    <moqui.basic.LocalizedMessage original="Single" locale="zh" localized="单身"/>
+    <moqui.basic.LocalizedMessage original="Single or Married File Separate" locale="zh" localized="单身或已婚分别申报"/>
+    <moqui.basic.LocalizedMessage original="Skill Type" locale="zh" localized="技能类型"/>
+    <moqui.basic.LocalizedMessage original="Social Security Card" locale="zh" localized="社会保障卡"/>
+    <moqui.basic.LocalizedMessage original="Social Security Number" locale="zh" localized="社会保障号码"/>
+    <moqui.basic.LocalizedMessage original="Social Taxable" locale="zh" localized="社会保障应税基数"/>
+    <moqui.basic.LocalizedMessage original="Special Day Off" locale="zh" localized="特殊休息日"/>
+    <moqui.basic.LocalizedMessage original="Spouse" locale="zh" localized="配偶"/>
+    <moqui.basic.LocalizedMessage original="Staff" locale="zh" localized="工作人员"/>
+    <moqui.basic.LocalizedMessage original="Straight Time Gross" locale="zh" localized="正常工时总额"/>
+    <moqui.basic.LocalizedMessage original="Student" locale="zh" localized="学生"/>
+    <moqui.basic.LocalizedMessage original="Sub-Agreement" locale="zh" localized="子协议"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Again" locale="zh" localized="再次订阅"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Again - Pending" locale="zh" localized="再次订阅 - 待处理"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Notification" locale="zh" localized="订阅通知"/>
+    <moqui.basic.LocalizedMessage original="Subscription Accepted - Unsubscribed" locale="zh" localized="订阅已接受 - 已退订"/>
+    <moqui.basic.LocalizedMessage original="Subscription Accepted - Unsubscription Pending" locale="zh" localized="订阅已接受 - 退订待处理"/>
+    <moqui.basic.LocalizedMessage original="Subscription In Use - Unsubscribed" locale="zh" localized="订阅使用中 - 已退订"/>
+    <moqui.basic.LocalizedMessage original="Subscription In Use - Unsubscription Pending" locale="zh" localized="订阅使用中 - 退订待处理"/>
+    <moqui.basic.LocalizedMessage original="Subscription Invalid - Unsubscribed" locale="zh" localized="订阅无效 - 已退订"/>
+    <moqui.basic.LocalizedMessage original="Subscription Invalid - Unsubscription Pending" locale="zh" localized="订阅无效 - 退订待处理"/>
+    <moqui.basic.LocalizedMessage original="Subscription Pending - Unsubscription Pending" locale="zh" localized="订阅待处理 - 退订待处理"/>
+    <moqui.basic.LocalizedMessage original="Success" locale="zh" localized="成功"/>
+    <moqui.basic.LocalizedMessage original="Supplier" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="Support" locale="zh" localized="支持"/>
+    <moqui.basic.LocalizedMessage original="Supporting Document" locale="zh" localized="证明文件"/>
+    <moqui.basic.LocalizedMessage original="Tax Federal Status" locale="zh" localized="联邦报税身份"/>
+    <moqui.basic.LocalizedMessage original="Tax State Status" locale="zh" localized="州报税身份"/>
+    <moqui.basic.LocalizedMessage original="Taxes, WC, etc" locale="zh" localized="税、工伤赔偿等"/>
+    <moqui.basic.LocalizedMessage original="Termination Reason" locale="zh" localized="离职原因"/>
+    <moqui.basic.LocalizedMessage original="Termination Type" locale="zh" localized="离职类型"/>
+    <moqui.basic.LocalizedMessage original="Testing" locale="zh" localized="测试"/>
+    <moqui.basic.LocalizedMessage original="Time Entry" locale="zh" localized="工时录入"/>
+    <moqui.basic.LocalizedMessage original="Time Period Purpose" locale="zh" localized="期间目的"/>
+    <moqui.basic.LocalizedMessage original="Tracking Code Source" locale="zh" localized="跟踪代码来源"/>
+    <moqui.basic.LocalizedMessage original="Tracking Code Type" locale="zh" localized="跟踪代码类型"/>
+    <moqui.basic.LocalizedMessage original="Travel" locale="zh" localized="差旅"/>
+    <moqui.basic.LocalizedMessage original="URL Parameter" locale="zh" localized="URL 参数"/>
+    <moqui.basic.LocalizedMessage original="Un-view" locale="zh" localized="标为未查看"/>
+    <moqui.basic.LocalizedMessage original="Unemployed" locale="zh" localized="失业"/>
+    <moqui.basic.LocalizedMessage original="Unemployment Claim Status" locale="zh" localized="失业金申领状态"/>
+    <moqui.basic.LocalizedMessage original="Unknown Party" locale="zh" localized="未知参与方"/>
+    <moqui.basic.LocalizedMessage original="Unmarried Head of Household" locale="zh" localized="未婚户主"/>
+    <moqui.basic.LocalizedMessage original="Unpaid" locale="zh" localized="未付"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Notification" locale="zh" localized="退订通知"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Pending" locale="zh" localized="退订待处理"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Verify" locale="zh" localized="退订核实"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribed" locale="zh" localized="已退订"/>
+    <moqui.basic.LocalizedMessage original="Valid/Complete" locale="zh" localized="有效/已完成"/>
+    <moqui.basic.LocalizedMessage original="Vendor Assigned" locale="zh" localized="由供应商指定"/>
+    <moqui.basic.LocalizedMessage original="Vendor Shipping Info" locale="zh" localized="供应商发货信息"/>
+    <moqui.basic.LocalizedMessage original="Verified" locale="zh" localized="已核验"/>
+    <moqui.basic.LocalizedMessage original="Voter Registration" locale="zh" localized="选民登记"/>
+    <moqui.basic.LocalizedMessage original="Web Form" locale="zh" localized="网页表单"/>
+    <moqui.basic.LocalizedMessage original="Web URL/Address" locale="zh" localized="网页 URL/地址"/>
+    <moqui.basic.LocalizedMessage original="Widowed/Widower" locale="zh" localized="丧偶"/>
+    <moqui.basic.LocalizedMessage original="With Parents" locale="zh" localized="与父母同住"/>
+    <moqui.basic.LocalizedMessage original="Withdrawn" locale="zh" localized="已撤回"/>
+    <moqui.basic.LocalizedMessage original="Work Type" locale="zh" localized="工作类型"/>
+    <moqui.basic.LocalizedMessage original="Worker/Vendor Payment" locale="zh" localized="工人/供应商付款"/>
+    <moqui.basic.LocalizedMessage original="Workweek" locale="zh" localized="工作周"/>
+</entity-facade-xml>

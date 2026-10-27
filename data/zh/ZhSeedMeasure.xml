@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Acre" locale="zh" localized="英亩"/>
+    <moqui.basic.LocalizedMessage original="Afghani" locale="zh" localized="阿富汗尼"/>
+    <moqui.basic.LocalizedMessage original="Albanian Lek" locale="zh" localized="阿尔巴尼亚列克"/>
+    <moqui.basic.LocalizedMessage original="Algerian Dinar" locale="zh" localized="阿尔及利亚第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Ampere - Electric current" locale="zh" localized="安培 - 电流"/>
+    <moqui.basic.LocalizedMessage original="Andoran peseta" locale="zh" localized="安道尔比塞塔"/>
+    <moqui.basic.LocalizedMessage original="Angolan Kwanza" locale="zh" localized="安哥拉宽扎"/>
+    <moqui.basic.LocalizedMessage original="Angstrom" locale="zh" localized="埃"/>
+    <moqui.basic.LocalizedMessage original="Are" locale="zh" localized="公亩"/>
+    <moqui.basic.LocalizedMessage original="Argentina Peso" locale="zh" localized="阿根廷比索"/>
+    <moqui.basic.LocalizedMessage original="Argentinian Austral" locale="zh" localized="阿根廷奥斯特拉尔"/>
+    <moqui.basic.LocalizedMessage original="Armenian Dram" locale="zh" localized="亚美尼亚德拉姆"/>
+    <moqui.basic.LocalizedMessage original="Aruban Guilder" locale="zh" localized="阿鲁巴盾"/>
+    <moqui.basic.LocalizedMessage original="Atmosphere" locale="zh" localized="标准大气压"/>
+    <moqui.basic.LocalizedMessage original="Atmosphere (Technical)" locale="zh" localized="工程大气压"/>
+    <moqui.basic.LocalizedMessage original="Australian Dollar" locale="zh" localized="澳大利亚元"/>
+    <moqui.basic.LocalizedMessage original="Azerbaijan Manat" locale="zh" localized="阿塞拜疆马纳特"/>
+    <moqui.basic.LocalizedMessage original="Bahaman Dollar" locale="zh" localized="巴哈马元"/>
+    <moqui.basic.LocalizedMessage original="Bahrain Dinar" locale="zh" localized="巴林第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Bangladesh Taka" locale="zh" localized="孟加拉塔卡"/>
+    <moqui.basic.LocalizedMessage original="Bar" locale="zh" localized="巴"/>
+    <moqui.basic.LocalizedMessage original="Barbados Dollar" locale="zh" localized="巴巴多斯元"/>
+    <moqui.basic.LocalizedMessage original="Barrel (US)" locale="zh" localized="桶（美制）"/>
+    <moqui.basic.LocalizedMessage original="Belize Dollar" locale="zh" localized="伯利兹元"/>
+    <moqui.basic.LocalizedMessage original="Belorussian Ruble" locale="zh" localized="白俄罗斯卢布"/>
+    <moqui.basic.LocalizedMessage original="Benin C.f.A. Franc" locale="zh" localized="贝宁非洲金融共同体法郎"/>
+    <moqui.basic.LocalizedMessage original="Bermudan Dollar" locale="zh" localized="百慕大元"/>
+    <moqui.basic.LocalizedMessage original="Bit" locale="zh" localized="比特"/>
+    <moqui.basic.LocalizedMessage original="Bit-per-second" locale="zh" localized="比特每秒"/>
+    <moqui.basic.LocalizedMessage original="Bitcoin" locale="zh" localized="比特币"/>
+    <moqui.basic.LocalizedMessage original="Boiler horsepower" locale="zh" localized="锅炉马力"/>
+    <moqui.basic.LocalizedMessage original="Bolivian Boliviano" locale="zh" localized="玻利维亚诺"/>
+    <moqui.basic.LocalizedMessage original="Bosnia-Herzogovinian Dinar" locale="zh" localized="波斯尼亚和黑塞哥维那第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Botswana Pula" locale="zh" localized="博茨瓦纳普拉"/>
+    <moqui.basic.LocalizedMessage original="Brazilian Real" locale="zh" localized="巴西雷亚尔"/>
+    <moqui.basic.LocalizedMessage original="British Pound" locale="zh" localized="英镑"/>
+    <moqui.basic.LocalizedMessage original="British Thermal Unit" locale="zh" localized="英热单位"/>
+    <moqui.basic.LocalizedMessage original="Brunei Dollar" locale="zh" localized="文莱元"/>
+    <moqui.basic.LocalizedMessage original="BTU per hour" locale="zh" localized="英热单位每小时"/>
+    <moqui.basic.LocalizedMessage original="Bulgarian Lev" locale="zh" localized="保加利亚列弗"/>
+    <moqui.basic.LocalizedMessage original="Burundi Franc" locale="zh" localized="布隆迪法郎"/>
+    <moqui.basic.LocalizedMessage original="Byte" locale="zh" localized="字节"/>
+    <moqui.basic.LocalizedMessage original="Cable" locale="zh" localized="航海链"/>
+    <moqui.basic.LocalizedMessage original="Calorie IT" locale="zh" localized="国际表卡路里"/>
+    <moqui.basic.LocalizedMessage original="Calorie per second" locale="zh" localized="卡路里每秒"/>
+    <moqui.basic.LocalizedMessage original="Cambodian Riel" locale="zh" localized="柬埔寨瑞尔"/>
+    <moqui.basic.LocalizedMessage original="Canadian Dollar" locale="zh" localized="加拿大元"/>
+    <moqui.basic.LocalizedMessage original="Candela - Luminosity (intensity of light)" locale="zh" localized="坎德拉 - 发光强度（光的强度）"/>
+    <moqui.basic.LocalizedMessage original="Cape Verde Escudo" locale="zh" localized="佛得角埃斯库多"/>
+    <moqui.basic.LocalizedMessage original="Cayman Dollar" locale="zh" localized="开曼群岛元"/>
+    <moqui.basic.LocalizedMessage original="Centimeter" locale="zh" localized="厘米"/>
+    <moqui.basic.LocalizedMessage original="Century" locale="zh" localized="世纪"/>
+    <moqui.basic.LocalizedMessage original="Chain (Gunter's/surveyor's)" locale="zh" localized="冈特链（测绘）"/>
+    <moqui.basic.LocalizedMessage original="Chain (Ramden's/engineer's)" locale="zh" localized="拉姆登链（工程）"/>
+    <moqui.basic.LocalizedMessage original="Chilean Peso" locale="zh" localized="智利比索"/>
+    <moqui.basic.LocalizedMessage original="Chinese Yuan Renminbi" locale="zh" localized="人民币"/>
+    <moqui.basic.LocalizedMessage original="Colombian Peso" locale="zh" localized="哥伦比亚比索"/>
+    <moqui.basic.LocalizedMessage original="Comoros Franc" locale="zh" localized="科摩罗法郎"/>
+    <moqui.basic.LocalizedMessage original="Costa Rica Colon" locale="zh" localized="哥斯达黎加科朗"/>
+    <moqui.basic.LocalizedMessage original="Count" locale="zh" localized="计数"/>
+    <moqui.basic.LocalizedMessage original="Croatian Dinar" locale="zh" localized="克罗地亚第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Cuban Peso" locale="zh" localized="古巴比索"/>
+    <moqui.basic.LocalizedMessage original="Cubic centimeter" locale="zh" localized="立方厘米"/>
+    <moqui.basic.LocalizedMessage original="Cubic foot" locale="zh" localized="立方英尺"/>
+    <moqui.basic.LocalizedMessage original="Cubic inch" locale="zh" localized="立方英寸"/>
+    <moqui.basic.LocalizedMessage original="Cubic meter" locale="zh" localized="立方米"/>
+    <moqui.basic.LocalizedMessage original="Cubic millimeter" locale="zh" localized="立方毫米"/>
+    <moqui.basic.LocalizedMessage original="Cubic yard" locale="zh" localized="立方码"/>
+    <moqui.basic.LocalizedMessage original="Cup" locale="zh" localized="杯"/>
+    <moqui.basic.LocalizedMessage original="Cyprus Pound" locale="zh" localized="塞浦路斯镑"/>
+    <moqui.basic.LocalizedMessage original="Czech Krona" locale="zh" localized="捷克克朗"/>
+    <moqui.basic.LocalizedMessage original="Danish Krone" locale="zh" localized="丹麦克朗"/>
+    <moqui.basic.LocalizedMessage original="Day" locale="zh" localized="天"/>
+    <moqui.basic.LocalizedMessage original="Decade" locale="zh" localized="十年"/>
+    <moqui.basic.LocalizedMessage original="Decimeter" locale="zh" localized="分米"/>
+    <moqui.basic.LocalizedMessage original="Degrees Celsius" locale="zh" localized="摄氏度"/>
+    <moqui.basic.LocalizedMessage original="Degrees Fahrenheit" locale="zh" localized="华氏度"/>
+    <moqui.basic.LocalizedMessage original="Dekameter" locale="zh" localized="十米"/>
+    <moqui.basic.LocalizedMessage original="Djibouti Franc" locale="zh" localized="吉布提法郎"/>
+    <moqui.basic.LocalizedMessage original="Dominican Peso" locale="zh" localized="多米尼加比索"/>
+    <moqui.basic.LocalizedMessage original="Dominican Republic Peso" locale="zh" localized="多米尼加共和国比索"/>
+    <moqui.basic.LocalizedMessage original="Dram (avdp)" locale="zh" localized="打兰（常衡）"/>
+    <moqui.basic.LocalizedMessage original="Dram (US)" locale="zh" localized="打兰（美制）"/>
+    <moqui.basic.LocalizedMessage original="Each/Piece" locale="zh" localized="个/件"/>
+    <moqui.basic.LocalizedMessage original="East Carribean Dollar" locale="zh" localized="东加勒比元"/>
+    <moqui.basic.LocalizedMessage original="Ecuador Sucre" locale="zh" localized="厄瓜多尔苏克雷"/>
+    <moqui.basic.LocalizedMessage original="Egyptian Pound" locale="zh" localized="埃及镑"/>
+    <moqui.basic.LocalizedMessage original="El Salvador Colon" locale="zh" localized="萨尔瓦多科朗"/>
+    <moqui.basic.LocalizedMessage original="Estonian Krone" locale="zh" localized="爱沙尼亚克朗"/>
+    <moqui.basic.LocalizedMessage original="Ethiopian Birr" locale="zh" localized="埃塞俄比亚比尔"/>
+    <moqui.basic.LocalizedMessage original="Euro" locale="zh" localized="欧元"/>
+    <moqui.basic.LocalizedMessage original="Falkland Pound" locale="zh" localized="福克兰镑"/>
+    <moqui.basic.LocalizedMessage original="Fathom" locale="zh" localized="英寻"/>
+    <moqui.basic.LocalizedMessage original="Feet per hour" locale="zh" localized="英尺每小时"/>
+    <moqui.basic.LocalizedMessage original="Feet per minute" locale="zh" localized="英尺每分钟"/>
+    <moqui.basic.LocalizedMessage original="Feet per second" locale="zh" localized="英尺每秒"/>
+    <moqui.basic.LocalizedMessage original="Fiji Dollar" locale="zh" localized="斐济元"/>
+    <moqui.basic.LocalizedMessage original="Foot" locale="zh" localized="英尺"/>
+    <moqui.basic.LocalizedMessage original="Furlong" locale="zh" localized="弗隆"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per hour" locale="zh" localized="弗隆每小时"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per minute" locale="zh" localized="弗隆每分钟"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per second" locale="zh" localized="弗隆每秒"/>
+    <moqui.basic.LocalizedMessage original="Gabon C.f.A Franc" locale="zh" localized="加蓬非洲金融共同体法郎"/>
+    <moqui.basic.LocalizedMessage original="Gallon (UK)" locale="zh" localized="加仑（英制）"/>
+    <moqui.basic.LocalizedMessage original="Gallon (US)" locale="zh" localized="加仑（美制）"/>
+    <moqui.basic.LocalizedMessage original="Gambian Dalasi" locale="zh" localized="冈比亚达拉西"/>
+    <moqui.basic.LocalizedMessage original="Georgian Kupon" locale="zh" localized="格鲁吉亚库邦"/>
+    <moqui.basic.LocalizedMessage original="Ghanian Cedi" locale="zh" localized="加纳塞地"/>
+    <moqui.basic.LocalizedMessage original="Gibibyte" locale="zh" localized="吉比字节"/>
+    <moqui.basic.LocalizedMessage original="Gibit" locale="zh" localized="吉比比特"/>
+    <moqui.basic.LocalizedMessage original="Gibraltar Pound" locale="zh" localized="直布罗陀镑"/>
+    <moqui.basic.LocalizedMessage original="Gigabit" locale="zh" localized="吉比特"/>
+    <moqui.basic.LocalizedMessage original="Gigabit-per-second" locale="zh" localized="吉比特每秒"/>
+    <moqui.basic.LocalizedMessage original="Gigabyte" locale="zh" localized="吉字节"/>
+    <moqui.basic.LocalizedMessage original="Gill (1/4 UK pint)" locale="zh" localized="及耳（1/4 英制品脱）"/>
+    <moqui.basic.LocalizedMessage original="Grain" locale="zh" localized="格令"/>
+    <moqui.basic.LocalizedMessage original="Gram" locale="zh" localized="克"/>
+    <moqui.basic.LocalizedMessage original="Gram per cubic centimeter" locale="zh" localized="克每立方厘米"/>
+    <moqui.basic.LocalizedMessage original="Guatemalan Quedzal" locale="zh" localized="危地马拉格查尔"/>
+    <moqui.basic.LocalizedMessage original="Guinea Franc" locale="zh" localized="几内亚法郎"/>
+    <moqui.basic.LocalizedMessage original="Guinea Peso" locale="zh" localized="几内亚比索"/>
+    <moqui.basic.LocalizedMessage original="Guyanese Dollar" locale="zh" localized="圭亚那元"/>
+    <moqui.basic.LocalizedMessage original="Haitian Gourde" locale="zh" localized="海地古德"/>
+    <moqui.basic.LocalizedMessage original="Hand (horse's height)" locale="zh" localized="掌（马的身高）"/>
+    <moqui.basic.LocalizedMessage original="Hectare" locale="zh" localized="公顷"/>
+    <moqui.basic.LocalizedMessage original="Hectopascal" locale="zh" localized="百帕"/>
+    <moqui.basic.LocalizedMessage original="Honduran Lempira" locale="zh" localized="洪都拉斯伦皮拉"/>
+    <moqui.basic.LocalizedMessage original="Hong Kong Dollar" locale="zh" localized="港元"/>
+    <moqui.basic.LocalizedMessage original="Horsepower (mechanical)" locale="zh" localized="马力（机械）"/>
+    <moqui.basic.LocalizedMessage original="Horsepower-hour" locale="zh" localized="马力小时"/>
+    <moqui.basic.LocalizedMessage original="Hour" locale="zh" localized="小时"/>
+    <moqui.basic.LocalizedMessage original="Hungarian forint" locale="zh" localized="匈牙利福林"/>
+    <moqui.basic.LocalizedMessage original="Iceland Krona" locale="zh" localized="冰岛克朗"/>
+    <moqui.basic.LocalizedMessage original="Inch" locale="zh" localized="英寸"/>
+    <moqui.basic.LocalizedMessage original="Inch of mercury" locale="zh" localized="英寸汞柱"/>
+    <moqui.basic.LocalizedMessage original="Inches per hour" locale="zh" localized="英寸每小时"/>
+    <moqui.basic.LocalizedMessage original="Inches per minute" locale="zh" localized="英寸每分钟"/>
+    <moqui.basic.LocalizedMessage original="Inches per second" locale="zh" localized="英寸每秒"/>
+    <moqui.basic.LocalizedMessage original="Indian Rupee" locale="zh" localized="印度卢比"/>
+    <moqui.basic.LocalizedMessage original="Indonesian Rupiah" locale="zh" localized="印度尼西亚盾"/>
+    <moqui.basic.LocalizedMessage original="Iranian Rial" locale="zh" localized="伊朗里亚尔"/>
+    <moqui.basic.LocalizedMessage original="Iraqui Dinar" locale="zh" localized="伊拉克第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Israeli Scheckel" locale="zh" localized="以色列谢克尔"/>
+    <moqui.basic.LocalizedMessage original="Jamaican Dollar" locale="zh" localized="牙买加元"/>
+    <moqui.basic.LocalizedMessage original="Japanese Yen" locale="zh" localized="日元"/>
+    <moqui.basic.LocalizedMessage original="Jordanian Dinar" locale="zh" localized="约旦第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Joule (absolute)" locale="zh" localized="焦耳（绝对）"/>
+    <moqui.basic.LocalizedMessage original="Kazakhstani Tenge" locale="zh" localized="哈萨克斯坦坚戈"/>
+    <moqui.basic.LocalizedMessage original="Kelvin" locale="zh" localized="开尔文"/>
+    <moqui.basic.LocalizedMessage original="Kenyan Shilling" locale="zh" localized="肯尼亚先令"/>
+    <moqui.basic.LocalizedMessage original="Kibibyte" locale="zh" localized="千比字节"/>
+    <moqui.basic.LocalizedMessage original="Kibit" locale="zh" localized="千比比特"/>
+    <moqui.basic.LocalizedMessage original="Kilobit" locale="zh" localized="千比特"/>
+    <moqui.basic.LocalizedMessage original="Kilobit-per-second" locale="zh" localized="千比特每秒"/>
+    <moqui.basic.LocalizedMessage original="Kilobyte" locale="zh" localized="千字节"/>
+    <moqui.basic.LocalizedMessage original="Kilocalorie" locale="zh" localized="千卡"/>
+    <moqui.basic.LocalizedMessage original="Kilogram" locale="zh" localized="千克"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per cubic meter" locale="zh" localized="千克每立方米"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per square centimeter" locale="zh" localized="千克每平方厘米"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per square meter" locale="zh" localized="千克每平方米"/>
+    <moqui.basic.LocalizedMessage original="Kilometer" locale="zh" localized="千米"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per hour" locale="zh" localized="千米每小时"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per minute" locale="zh" localized="千米每分钟"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per second" locale="zh" localized="千米每秒"/>
+    <moqui.basic.LocalizedMessage original="Kilopascal" locale="zh" localized="千帕"/>
+    <moqui.basic.LocalizedMessage original="Kilowatt" locale="zh" localized="千瓦"/>
+    <moqui.basic.LocalizedMessage original="Kilowatt-hour" locale="zh" localized="千瓦时"/>
+    <moqui.basic.LocalizedMessage original="Kirghizstan Som" locale="zh" localized="吉尔吉斯斯坦索姆"/>
+    <moqui.basic.LocalizedMessage original="Knots" locale="zh" localized="节"/>
+    <moqui.basic.LocalizedMessage original="Kuwaiti Dinar" locale="zh" localized="科威特第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Laotian Kip" locale="zh" localized="老挝基普"/>
+    <moqui.basic.LocalizedMessage original="Latvian Lat" locale="zh" localized="拉脱维亚拉特"/>
+    <moqui.basic.LocalizedMessage original="League" locale="zh" localized="里格"/>
+    <moqui.basic.LocalizedMessage original="Lebanese Pound" locale="zh" localized="黎巴嫩镑"/>
+    <moqui.basic.LocalizedMessage original="Leone" locale="zh" localized="利昂"/>
+    <moqui.basic.LocalizedMessage original="Lesotho Loti" locale="zh" localized="莱索托洛蒂"/>
+    <moqui.basic.LocalizedMessage original="Liberian Dollar" locale="zh" localized="利比里亚元"/>
+    <moqui.basic.LocalizedMessage original="Libyan Dinar" locale="zh" localized="利比亚第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Link (Gunter's)" locale="zh" localized="冈特令"/>
+    <moqui.basic.LocalizedMessage original="Link (Ramden's)" locale="zh" localized="拉姆登令"/>
+    <moqui.basic.LocalizedMessage original="Liter" locale="zh" localized="升"/>
+    <moqui.basic.LocalizedMessage original="Lithuanian Lita" locale="zh" localized="立陶宛立特"/>
+    <moqui.basic.LocalizedMessage original="Macao Pataca" locale="zh" localized="澳门元"/>
+    <moqui.basic.LocalizedMessage original="Mach" locale="zh" localized="马赫"/>
+    <moqui.basic.LocalizedMessage original="Madagascan Franc" locale="zh" localized="马达加斯加法郎"/>
+    <moqui.basic.LocalizedMessage original="Malawi Kwacha" locale="zh" localized="马拉维克瓦查"/>
+    <moqui.basic.LocalizedMessage original="Malaysian Ringgit" locale="zh" localized="马来西亚林吉特"/>
+    <moqui.basic.LocalizedMessage original="Maldive Rufiyaa" locale="zh" localized="马尔代夫拉菲亚"/>
+    <moqui.basic.LocalizedMessage original="Maltese Lira" locale="zh" localized="马耳他里拉"/>
+    <moqui.basic.LocalizedMessage original="Mauritanian Ouguiya" locale="zh" localized="毛里塔尼亚乌吉亚"/>
+    <moqui.basic.LocalizedMessage original="Mauritius Rupee" locale="zh" localized="毛里求斯卢比"/>
+    <moqui.basic.LocalizedMessage original="Mebibyte" locale="zh" localized="兆比字节"/>
+    <moqui.basic.LocalizedMessage original="Megabit" locale="zh" localized="兆比特"/>
+    <moqui.basic.LocalizedMessage original="Megabit-per-second" locale="zh" localized="兆比特每秒"/>
+    <moqui.basic.LocalizedMessage original="Megabyte" locale="zh" localized="兆字节"/>
+    <moqui.basic.LocalizedMessage original="Meter" locale="zh" localized="米"/>
+    <moqui.basic.LocalizedMessage original="Meters per hour" locale="zh" localized="米每小时"/>
+    <moqui.basic.LocalizedMessage original="Meters per minute" locale="zh" localized="米每分钟"/>
+    <moqui.basic.LocalizedMessage original="Meters per second" locale="zh" localized="米每秒"/>
+    <moqui.basic.LocalizedMessage original="Mexican Peso (new)" locale="zh" localized="墨西哥比索（新）"/>
+    <moqui.basic.LocalizedMessage original="Mexican Peso (old)" locale="zh" localized="墨西哥比索（旧）"/>
+    <moqui.basic.LocalizedMessage original="Mibit" locale="zh" localized="兆比比特"/>
+    <moqui.basic.LocalizedMessage original="Microgram" locale="zh" localized="微克"/>
+    <moqui.basic.LocalizedMessage original="Micrometer (Micron)" locale="zh" localized="微米"/>
+    <moqui.basic.LocalizedMessage original="Mil (Milli-inch)" locale="zh" localized="密耳（千分之一英寸）"/>
+    <moqui.basic.LocalizedMessage original="Mile (nautical/sea)" locale="zh" localized="海里"/>
+    <moqui.basic.LocalizedMessage original="Mile (statute/land)" locale="zh" localized="英里"/>
+    <moqui.basic.LocalizedMessage original="Miles per hour" locale="zh" localized="英里每小时"/>
+    <moqui.basic.LocalizedMessage original="Miles per minute" locale="zh" localized="英里每分钟"/>
+    <moqui.basic.LocalizedMessage original="Miles per second" locale="zh" localized="英里每秒"/>
+    <moqui.basic.LocalizedMessage original="Millenium" locale="zh" localized="千年"/>
+    <moqui.basic.LocalizedMessage original="Milli-Second" locale="zh" localized="毫秒"/>
+    <moqui.basic.LocalizedMessage original="Millibar" locale="zh" localized="毫巴"/>
+    <moqui.basic.LocalizedMessage original="Milligram" locale="zh" localized="毫克"/>
+    <moqui.basic.LocalizedMessage original="Milliliter" locale="zh" localized="毫升"/>
+    <moqui.basic.LocalizedMessage original="Millimeter" locale="zh" localized="毫米"/>
+    <moqui.basic.LocalizedMessage original="Millimeter of mercury" locale="zh" localized="毫米汞柱"/>
+    <moqui.basic.LocalizedMessage original="Minute" locale="zh" localized="分钟"/>
+    <moqui.basic.LocalizedMessage original="Moldavian Lei" locale="zh" localized="摩尔多瓦列伊"/>
+    <moqui.basic.LocalizedMessage original="Mole - Substance (molecule)" locale="zh" localized="摩尔 - 物质的量（分子）"/>
+    <moqui.basic.LocalizedMessage original="Mongolian Tugrik" locale="zh" localized="蒙古图格里克"/>
+    <moqui.basic.LocalizedMessage original="Month" locale="zh" localized="月"/>
+    <moqui.basic.LocalizedMessage original="Moroccan Dirham" locale="zh" localized="摩洛哥迪拉姆"/>
+    <moqui.basic.LocalizedMessage original="Mozambique Metical" locale="zh" localized="莫桑比克梅蒂卡尔"/>
+    <moqui.basic.LocalizedMessage original="Nepalese Rupee" locale="zh" localized="尼泊尔卢比"/>
+    <moqui.basic.LocalizedMessage original="New Israeli Shekel" locale="zh" localized="以色列新谢克尔"/>
+    <moqui.basic.LocalizedMessage original="New Taiwan Dollar" locale="zh" localized="新台币"/>
+    <moqui.basic.LocalizedMessage original="New Zealand Dollar" locale="zh" localized="新西兰元"/>
+    <moqui.basic.LocalizedMessage original="Nicaraguan Cordoba" locale="zh" localized="尼加拉瓜科多巴"/>
+    <moqui.basic.LocalizedMessage original="Nigerian Naira" locale="zh" localized="尼日利亚奈拉"/>
+    <moqui.basic.LocalizedMessage original="North Korean Won" locale="zh" localized="朝鲜元"/>
+    <moqui.basic.LocalizedMessage original="Norwegian Krone" locale="zh" localized="挪威克朗"/>
+    <moqui.basic.LocalizedMessage original="Omani Rial" locale="zh" localized="阿曼里亚尔"/>
+    <moqui.basic.LocalizedMessage original="Ounce (avdp)" locale="zh" localized="盎司（常衡）"/>
+    <moqui.basic.LocalizedMessage original="Ounce (troy)" locale="zh" localized="盎司（金衡）"/>
+    <moqui.basic.LocalizedMessage original="Ounce per cubic inch" locale="zh" localized="盎司每立方英寸"/>
+    <moqui.basic.LocalizedMessage original="Ounce per gallon (UK)" locale="zh" localized="盎司每加仑（英制）"/>
+    <moqui.basic.LocalizedMessage original="Ounce per gallon (US)" locale="zh" localized="盎司每加仑（美制）"/>
+    <moqui.basic.LocalizedMessage original="Ounce, fluid (UK)" locale="zh" localized="液量盎司（英制）"/>
+    <moqui.basic.LocalizedMessage original="Ounce, fluid (US)" locale="zh" localized="液量盎司（美制）"/>
+    <moqui.basic.LocalizedMessage original="Pakistan Rupee" locale="zh" localized="巴基斯坦卢比"/>
+    <moqui.basic.LocalizedMessage original="Panamanian Balboa" locale="zh" localized="巴拿马巴波亚"/>
+    <moqui.basic.LocalizedMessage original="Papua New Guinea Kina" locale="zh" localized="巴布亚新几内亚基那"/>
+    <moqui.basic.LocalizedMessage original="Paraguayan Guarani" locale="zh" localized="巴拉圭瓜拉尼"/>
+    <moqui.basic.LocalizedMessage original="Pascal" locale="zh" localized="帕斯卡"/>
+    <moqui.basic.LocalizedMessage original="Pebibyte" locale="zh" localized="拍比字节"/>
+    <moqui.basic.LocalizedMessage original="Pennyweight" locale="zh" localized="本尼威特"/>
+    <moqui.basic.LocalizedMessage original="Per Person" locale="zh" localized="每人"/>
+    <moqui.basic.LocalizedMessage original="Percent" locale="zh" localized="百分比"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Inti" locale="zh" localized="秘鲁因蒂"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Sol" locale="zh" localized="秘鲁索尔"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Sol - New" locale="zh" localized="秘鲁新索尔"/>
+    <moqui.basic.LocalizedMessage original="Petabyte" locale="zh" localized="拍字节"/>
+    <moqui.basic.LocalizedMessage original="Philippino Peso" locale="zh" localized="菲律宾比索"/>
+    <moqui.basic.LocalizedMessage original="Pibit" locale="zh" localized="拍比比特"/>
+    <moqui.basic.LocalizedMessage original="Pica (type size)" locale="zh" localized="派卡（字号）"/>
+    <moqui.basic.LocalizedMessage original="Pint (UK)" locale="zh" localized="品脱（英制）"/>
+    <moqui.basic.LocalizedMessage original="Pint (US)" locale="zh" localized="品脱（美制）"/>
+    <moqui.basic.LocalizedMessage original="Point (type size)" locale="zh" localized="点（字号）"/>
+    <moqui.basic.LocalizedMessage original="Polish Zloty" locale="zh" localized="波兰兹罗提"/>
+    <moqui.basic.LocalizedMessage original="Pound (avdp)" locale="zh" localized="磅（常衡）"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic foot" locale="zh" localized="磅每立方英尺"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic inch" locale="zh" localized="磅每立方英寸"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic yard" locale="zh" localized="磅每立方码"/>
+    <moqui.basic.LocalizedMessage original="Pound per gallon (UK)" locale="zh" localized="磅每加仑（英制）"/>
+    <moqui.basic.LocalizedMessage original="Pound per gallon (US)" locale="zh" localized="磅每加仑（美制）"/>
+    <moqui.basic.LocalizedMessage original="Pound per square foot" locale="zh" localized="磅每平方英尺"/>
+    <moqui.basic.LocalizedMessage original="Pound per square inch" locale="zh" localized="磅每平方英寸"/>
+    <moqui.basic.LocalizedMessage original="Qatar Riyal" locale="zh" localized="卡塔尔里亚尔"/>
+    <moqui.basic.LocalizedMessage original="Quart" locale="zh" localized="夸脱"/>
+    <moqui.basic.LocalizedMessage original="Revolutions Per Minute" locale="zh" localized="转每分钟"/>
+    <moqui.basic.LocalizedMessage original="Rod" locale="zh" localized="杆"/>
+    <moqui.basic.LocalizedMessage original="Romanian Leu" locale="zh" localized="罗马尼亚列伊"/>
+    <moqui.basic.LocalizedMessage original="Russian Rouble" locale="zh" localized="俄罗斯卢布"/>
+    <moqui.basic.LocalizedMessage original="Russian Ruble (old)" locale="zh" localized="俄罗斯卢布（旧）"/>
+    <moqui.basic.LocalizedMessage original="Rwanda Franc" locale="zh" localized="卢旺达法郎"/>
+    <moqui.basic.LocalizedMessage original="Samoan Tala" locale="zh" localized="萨摩亚塔拉"/>
+    <moqui.basic.LocalizedMessage original="Santo Domiongo" locale="zh" localized="圣多明各"/>
+    <moqui.basic.LocalizedMessage original="Sao Tome / Principe Dobra" locale="zh" localized="圣多美和普林西比多布拉"/>
+    <moqui.basic.LocalizedMessage original="Saudi Riyal" locale="zh" localized="沙特里亚尔"/>
+    <moqui.basic.LocalizedMessage original="Score" locale="zh" localized="二十年"/>
+    <moqui.basic.LocalizedMessage original="Second" locale="zh" localized="秒"/>
+    <moqui.basic.LocalizedMessage original="Seychelles Rupee" locale="zh" localized="塞舌尔卢比"/>
+    <moqui.basic.LocalizedMessage original="Singapore Dollar" locale="zh" localized="新加坡元"/>
+    <moqui.basic.LocalizedMessage original="Solomon Islands Dollar" locale="zh" localized="所罗门群岛元"/>
+    <moqui.basic.LocalizedMessage original="Somalian Shilling" locale="zh" localized="索马里先令"/>
+    <moqui.basic.LocalizedMessage original="South African Rand" locale="zh" localized="南非兰特"/>
+    <moqui.basic.LocalizedMessage original="South Korean Won" locale="zh" localized="韩元"/>
+    <moqui.basic.LocalizedMessage original="Square Centimeter" locale="zh" localized="平方厘米"/>
+    <moqui.basic.LocalizedMessage original="Square Foot" locale="zh" localized="平方英尺"/>
+    <moqui.basic.LocalizedMessage original="Square Inch" locale="zh" localized="平方英寸"/>
+    <moqui.basic.LocalizedMessage original="Square Kilometer" locale="zh" localized="平方千米"/>
+    <moqui.basic.LocalizedMessage original="Square Meter" locale="zh" localized="平方米"/>
+    <moqui.basic.LocalizedMessage original="Square Mile" locale="zh" localized="平方英里"/>
+    <moqui.basic.LocalizedMessage original="Square Millimeter" locale="zh" localized="平方毫米"/>
+    <moqui.basic.LocalizedMessage original="Square Rod" locale="zh" localized="平方杆"/>
+    <moqui.basic.LocalizedMessage original="Square Yard" locale="zh" localized="平方码"/>
+    <moqui.basic.LocalizedMessage original="Sri Lankan Rupee" locale="zh" localized="斯里兰卡卢比"/>
+    <moqui.basic.LocalizedMessage original="St.Helena Pound" locale="zh" localized="圣赫勒拿镑"/>
+    <moqui.basic.LocalizedMessage original="Stere (cubic meter)" locale="zh" localized="斯特尔（立方米）"/>
+    <moqui.basic.LocalizedMessage original="Stone" locale="zh" localized="英石"/>
+    <moqui.basic.LocalizedMessage original="Sudanese Pound" locale="zh" localized="苏丹镑"/>
+    <moqui.basic.LocalizedMessage original="Surinam Guilder" locale="zh" localized="苏里南盾"/>
+    <moqui.basic.LocalizedMessage original="Swaziland Lilangeni" locale="zh" localized="斯威士兰里兰吉尼"/>
+    <moqui.basic.LocalizedMessage original="Swedish Krona" locale="zh" localized="瑞典克朗"/>
+    <moqui.basic.LocalizedMessage original="Swiss Franc" locale="zh" localized="瑞士法郎"/>
+    <moqui.basic.LocalizedMessage original="Syrian Pound" locale="zh" localized="叙利亚镑"/>
+    <moqui.basic.LocalizedMessage original="Tablespoon" locale="zh" localized="汤匙"/>
+    <moqui.basic.LocalizedMessage original="Tadzhikistani Ruble" locale="zh" localized="塔吉克斯坦卢布"/>
+    <moqui.basic.LocalizedMessage original="Tanzanian Shilling" locale="zh" localized="坦桑尼亚先令"/>
+    <moqui.basic.LocalizedMessage original="Teaspoon" locale="zh" localized="茶匙"/>
+    <moqui.basic.LocalizedMessage original="Tebibyte" locale="zh" localized="太比字节"/>
+    <moqui.basic.LocalizedMessage original="Terabit" locale="zh" localized="太比特"/>
+    <moqui.basic.LocalizedMessage original="Terabit-per-second" locale="zh" localized="太比特每秒"/>
+    <moqui.basic.LocalizedMessage original="Terabyte" locale="zh" localized="太字节"/>
+    <moqui.basic.LocalizedMessage original="Thailand Baht" locale="zh" localized="泰铢"/>
+    <moqui.basic.LocalizedMessage original="Tibit" locale="zh" localized="太比比特"/>
+    <moqui.basic.LocalizedMessage original="Timor Escudo" locale="zh" localized="帝汶埃斯库多"/>
+    <moqui.basic.LocalizedMessage original="Ton (long or British)" locale="zh" localized="长吨（英吨）"/>
+    <moqui.basic.LocalizedMessage original="Ton (metric)" locale="zh" localized="公吨"/>
+    <moqui.basic.LocalizedMessage original="Ton (short)" locale="zh" localized="短吨"/>
+    <moqui.basic.LocalizedMessage original="Ton, long, per cubic yard" locale="zh" localized="长吨每立方码"/>
+    <moqui.basic.LocalizedMessage original="Tongan Pa&apos;anga" locale="zh" localized="汤加潘加"/>
+    <moqui.basic.LocalizedMessage original="Torr" locale="zh" localized="托"/>
+    <moqui.basic.LocalizedMessage original="Trinidad and Tobago Dollar" locale="zh" localized="特立尼达和多巴哥元"/>
+    <moqui.basic.LocalizedMessage original="Tunisian Dinar" locale="zh" localized="突尼斯第纳尔"/>
+    <moqui.basic.LocalizedMessage original="Turkish Lira" locale="zh" localized="土耳其里拉"/>
+    <moqui.basic.LocalizedMessage original="Turkmenistani Manat" locale="zh" localized="土库曼斯坦马纳特"/>
+    <moqui.basic.LocalizedMessage original="Ugandan Shilling" locale="zh" localized="乌干达先令"/>
+    <moqui.basic.LocalizedMessage original="Ukrainian Hryvnia" locale="zh" localized="乌克兰格里夫纳"/>
+    <moqui.basic.LocalizedMessage original="United Arab Emirates Dirham" locale="zh" localized="阿联酋迪拉姆"/>
+    <moqui.basic.LocalizedMessage original="United States Dollar" locale="zh" localized="美元"/>
+    <moqui.basic.LocalizedMessage original="Uruguayan New Peso" locale="zh" localized="乌拉圭新比索"/>
+    <moqui.basic.LocalizedMessage original="Vanuatu Vatu" locale="zh" localized="瓦努阿图瓦图"/>
+    <moqui.basic.LocalizedMessage original="Venezuelan Bolivar" locale="zh" localized="委内瑞拉玻利瓦尔"/>
+    <moqui.basic.LocalizedMessage original="Vietnamese Dong" locale="zh" localized="越南盾"/>
+    <moqui.basic.LocalizedMessage original="Watt" locale="zh" localized="瓦特"/>
+    <moqui.basic.LocalizedMessage original="Week" locale="zh" localized="周"/>
+    <moqui.basic.LocalizedMessage original="West Indian Guilder" locale="zh" localized="西印度群岛盾"/>
+    <moqui.basic.LocalizedMessage original="Yard" locale="zh" localized="码"/>
+    <moqui.basic.LocalizedMessage original="Year" locale="zh" localized="年"/>
+    <moqui.basic.LocalizedMessage original="Yemeni Ryal" locale="zh" localized="也门里亚尔"/>
+    <moqui.basic.LocalizedMessage original="Zaire" locale="zh" localized="扎伊尔"/>
+    <moqui.basic.LocalizedMessage original="Zambian Kwacha" locale="zh" localized="赞比亚克瓦查"/>
+    <moqui.basic.LocalizedMessage original="Zimbabwean Dollar" locale="zh" localized="津巴布韦元"/>
+</entity-facade-xml>

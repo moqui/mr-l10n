@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${authorName} mentioned you in ${roomName}" locale="zh" localized="${authorName} 在 ${roomName} 中提到了您"/>
+    <moqui.basic.LocalizedMessage original="A chat room is named by chatRoomId, or by recordEntityName and recordId" locale="zh" localized="聊天室由 chatRoomId 命名，或由 recordEntityName 与 recordId 命名"/>
+    <moqui.basic.LocalizedMessage original="A clientRef is up to 64 letters, digits and _ . : -" locale="zh" localized="clientRef 最多 64 个字母、数字以及 _ . : -"/>
+    <moqui.basic.LocalizedMessage original="A clone is written to, so it cannot be a read-only mirror" locale="zh" localized="克隆会被写入，因此不能是只读镜像"/>
+    <moqui.basic.LocalizedMessage original="A decision on a notification needs a signed in user" locale="zh" localized="对通知作决定需要已登录用户"/>
+    <moqui.basic.LocalizedMessage original="A direct room has fixed members" locale="zh" localized="私聊房间的成员是固定的"/>
+    <moqui.basic.LocalizedMessage original="A direct room has fixed members: start a new direct message" locale="zh" localized="私聊房间的成员是固定的：请开始一条新的私信"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no roles" locale="zh" localized="私聊房间没有角色"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no settings" locale="zh" localized="私聊房间没有设置"/>
+    <moqui.basic.LocalizedMessage original="A draft needs the account it is sent from" locale="zh" localized="草稿需要发件账号"/>
+    <moqui.basic.LocalizedMessage original="A file name is a name, not a path" locale="zh" localized="文件名是名称，不是路径"/>
+    <moqui.basic.LocalizedMessage original="A folder needs a name" locale="zh" localized="文件夹需要名称"/>
+    <moqui.basic.LocalizedMessage original="A forward names its message: forwardOfChatRoomId and forwardOfEventSeq" locale="zh" localized="转发必须标明其消息：forwardOfChatRoomId 与 forwardOfEventSeq"/>
+    <moqui.basic.LocalizedMessage original="A label needs a name" locale="zh" localized="标签需要名称"/>
+    <moqui.basic.LocalizedMessage original="A merged or closed merge request does not change" locale="zh" localized="已合并或已关闭的合并请求不能更改"/>
+    <moqui.basic.LocalizedMessage original="A merged or closed merge request takes no review" locale="zh" localized="已合并或已关闭的合并请求不接受评审"/>
+    <moqui.basic.LocalizedMessage original="A message is sent as yourself" locale="zh" localized="消息以本人身份发送"/>
+    <moqui.basic.LocalizedMessage original="A message needs text or a file" locale="zh" localized="消息需要文本或文件"/>
+    <moqui.basic.LocalizedMessage original="A mirror needs the URL to fetch" locale="zh" localized="镜像必须带有要抓取的 URL"/>
+    <moqui.basic.LocalizedMessage original="A notes space needs a user" locale="zh" localized="备注空间需要用户"/>
+    <moqui.basic.LocalizedMessage original="A page name has letters, digits, spaces and . , ' - _ : ( ) ! ? only" locale="zh" localized="页面名称只能包含字母、数字、空格以及 . , ' - _ : ( ) ! ?"/>
+    <moqui.basic.LocalizedMessage original="A page path has no . or .. in it" locale="zh" localized="页面路径不能包含 . 或 .."/>
+    <moqui.basic.LocalizedMessage original="A poll closes later than now" locale="zh" localized="投票的关闭时间必须晚于现在"/>
+    <moqui.basic.LocalizedMessage original="A poll has 2 to 10 options" locale="zh" localized="投票必须有 2 到 10 个选项"/>
+    <moqui.basic.LocalizedMessage original="A poll is not edited: close it, or delete it and make another" locale="zh" localized="投票不能编辑：请关闭它，或删除后另建一个"/>
+    <moqui.basic.LocalizedMessage original="A poll needs a question" locale="zh" localized="投票需要一个问题"/>
+    <moqui.basic.LocalizedMessage original="A reaction is an emoji or a short word" locale="zh" localized="回应是一个表情或一个短词"/>
+    <moqui.basic.LocalizedMessage original="A reason is required to refuse this" locale="zh" localized="拒绝此项必须填写原因"/>
+    <moqui.basic.LocalizedMessage original="A record room needs recordEntityName and recordId" locale="zh" localized="记录房间需要 recordEntityName 和 recordId"/>
+    <moqui.basic.LocalizedMessage original="A room keeps at least one owner" locale="zh" localized="房间至少要保留一名所有者"/>
+    <moqui.basic.LocalizedMessage original="A room needs a name" locale="zh" localized="房间需要名称"/>
+    <moqui.basic.LocalizedMessage original="A rule condition needs a field" locale="zh" localized="规则条件需要字段"/>
+    <moqui.basic.LocalizedMessage original="A rule needs a condition" locale="zh" localized="规则需要条件"/>
+    <moqui.basic.LocalizedMessage original="A rule needs a name" locale="zh" localized="规则需要名称"/>
+    <moqui.basic.LocalizedMessage original="A rule needs an action" locale="zh" localized="规则需要操作"/>
+    <moqui.basic.LocalizedMessage original="A rule not yet saved is only tried (dryRun)" locale="zh" localized="尚未保存的规则只能试运行（dryRun）"/>
+    <moqui.basic.LocalizedMessage original="A status is up to 100 characters" locale="zh" localized="状态最多 100 个字符"/>
+    <moqui.basic.LocalizedMessage original="A test message from" locale="zh" localized="测试消息来自"/>
+    <moqui.basic.LocalizedMessage original="A text block needs a title" locale="zh" localized="文本块需要标题"/>
+    <moqui.basic.LocalizedMessage original="A webhook URL is http or https" locale="zh" localized="webhook 的 URL 必须是 http 或 https"/>
+    <moqui.basic.LocalizedMessage original="Account" locale="zh" localized="账号"/>
+    <moqui.basic.LocalizedMessage original="Account created with username ${username}" locale="zh" localized="已用用户名 ${username} 创建账号"/>
+    <moqui.basic.LocalizedMessage original="Ack message already sent [${origMessage.get('ackMessageId')}] for SystemMessage [${systemMessageId}]" locale="zh" localized="已发送回执 [${origMessage.get('ackMessageId')}]，对应 SystemMessage [${systemMessageId}]"/>
+    <moqui.basic.LocalizedMessage original="Active Saved Find:" locale="zh" localized="当前已保存的查找："/>
+    <moqui.basic.LocalizedMessage original="Add a recipient in To" locale="zh" localized="请在收件人栏中添加收件人"/>
+    <moqui.basic.LocalizedMessage original="Address in ${stateProvinceGeoId || ''} ${countryGeoId || ''} added (gallery demo: nothing is written)" locale="zh" localized="已添加位于 ${stateProvinceGeoId || ''} ${countryGeoId || ''} 的地址（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="An agent card is changed by the agent runtime" locale="zh" localized="智能体卡片由智能体运行时更改"/>
+    <moqui.basic.LocalizedMessage original="An agent card is sent by the agent runtime" locale="zh" localized="智能体卡片由智能体运行时发送"/>
+    <moqui.basic.LocalizedMessage original="An email account is made for yourself" locale="zh" localized="电子邮件账号只能为本人创建"/>
+    <moqui.basic.LocalizedMessage original="An email account needs an address" locale="zh" localized="电子邮件账号需要一个地址"/>
+    <moqui.basic.LocalizedMessage original="An emailMessageId or rootEmailMessageId is required" locale="zh" localized="必须提供 emailMessageId 或 rootEmailMessageId"/>
+    <moqui.basic.LocalizedMessage original="An emailMessageId, emailMessageIdList or rootEmailMessageId is required" locale="zh" localized="必须提供 emailMessageId、emailMessageIdList 或 rootEmailMessageId"/>
+    <moqui.basic.LocalizedMessage original="An emoji is a few characters" locale="zh" localized="表情只能包含少量字符"/>
+    <moqui.basic.LocalizedMessage original="An existing email server is chosen only by internal setup" locale="zh" localized="现有电子邮件服务器只能通过内部设置来选择"/>
+    <moqui.basic.LocalizedMessage original="An internal message is not an email draft; the app that keeps internal messages sends it" locale="zh" localized="内部消息不是电子邮件草稿；由保存内部消息的应用发送"/>
+    <moqui.basic.LocalizedMessage original="An option is up to 200 characters" locale="zh" localized="选项最多 200 个字符"/>
+    <moqui.basic.LocalizedMessage original="Another merge request of" locale="zh" localized="另一条合并请求，来自"/>
+    <moqui.basic.LocalizedMessage original="Another user's notes space is made only with authorization disabled" locale="zh" localized="只有在禁用授权时，才能创建其他用户的备注空间"/>
+    <moqui.basic.LocalizedMessage original="Approving needs the right to push to the repository: you may comment or request changes" locale="zh" localized="批准需要向仓库推送的权限：您可以评论或请求更改"/>
+    <moqui.basic.LocalizedMessage original="Authentication code is not valid" locale="zh" localized="验证码无效"/>
+    <moqui.basic.LocalizedMessage original="Authentication code not valid" locale="zh" localized="验证码不正确"/>
+    <moqui.basic.LocalizedMessage original="Authentication code required for user ${username}" locale="zh" localized="用户 ${username} 需要验证码"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${contactNumber}" locale="zh" localized="验证码已发送至 ${contactNumber}"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${emailAddress}" locale="zh" localized="验证码已发送至 ${emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Authentication Factor ${factorId} is not valid for ${userAccount.get('username')}" locale="zh" localized="认证因子 ${factorId} 对 ${userAccount.get('username')} 无效"/>
+    <moqui.basic.LocalizedMessage original="Authentication factor ${factorId} not found" locale="zh" localized="未找到认证因子 ${factorId}"/>
+    <moqui.basic.LocalizedMessage original="Back" locale="zh" localized="返回"/>
+    <moqui.basic.LocalizedMessage original="Because of password issues not creating account with username ${username}" locale="zh" localized="因密码问题，未用用户名 ${username} 创建账号"/>
+    <moqui.basic.LocalizedMessage original="Block" locale="zh" localized="屏蔽"/>
+    <moqui.basic.LocalizedMessage original="Block the sender in which email account? emailAccountId is required" locale="zh" localized="在哪个电子邮件账号中屏蔽发件人？必须提供 emailAccountId"/>
+    <moqui.basic.LocalizedMessage original="Block which sender? An email address is required" locale="zh" localized="屏蔽哪个发件人？必须提供电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Blog text or Wiki Page required to create a blog article" locale="zh" localized="创建博客文章需要博客正文或 Wiki 页面"/>
+    <moqui.basic.LocalizedMessage original="Branch rule" locale="zh" localized="分支规则"/>
+    <moqui.basic.LocalizedMessage original="Cache with name ${cacheName} not found" locale="zh" localized="未找到名为 ${cacheName} 的缓存"/>
+    <moqui.basic.LocalizedMessage original="Can only create initial admin account if there are no UserAccount records" locale="zh" localized="只有在没有任何 UserAccount 记录时，才能创建初始管理员账号"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel SystemMessage ${systemMessageId} in status ${systemMessage.get('statusId')}" locale="zh" localized="不能取消 SystemMessage ${systemMessageId}，其状态为 ${systemMessage.get('statusId')}"/>
+    <moqui.basic.LocalizedMessage original="Cannot compare:" locale="zh" localized="无法比较："/>
+    <moqui.basic.LocalizedMessage original="Cannot create more than 21 codes at a time" locale="zh" localized="一次不能创建超过 21 个代码"/>
+    <moqui.basic.LocalizedMessage original="Cannot send ack for SystemMessage [${systemMessageId}], in status [${origMessage.get('statusId')}] and must be in Consuming, Consumed, Rejected, or Error" locale="zh" localized="不能为 SystemMessage [${systemMessageId}] 发送回执，状态为 [${origMessage.get('statusId')}]，必须处于消费中、已消费、已拒绝或错误"/>
+    <moqui.basic.LocalizedMessage original="Cannot update password, Account not found with ID ${userId}" locale="zh" localized="无法更新密码，未找到 ID 为 ${userId} 的账号"/>
+    <moqui.basic.LocalizedMessage original="Cannot update the password of another user without password admin permission" locale="zh" localized="没有密码管理权限时，不能更新其他用户的密码"/>
+    <moqui.basic.LocalizedMessage original="Choose one option" locale="zh" localized="请选择一个选项"/>
+    <moqui.basic.LocalizedMessage original="Choose the folder (emailFolderId) or the account (emailAccountId) to try the rule on" locale="zh" localized="请选择要试用规则的文件夹（emailFolderId）或账号（emailAccountId）"/>
+    <moqui.basic.LocalizedMessage original="claim#DraftSend is internal" locale="zh" localized="claim#DraftSend 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="Clear" locale="zh" localized="清除"/>
+    <moqui.basic.LocalizedMessage original="Clear Current Find" locale="zh" localized="清除当前查找"/>
+    <moqui.basic.LocalizedMessage original="Clear Default" locale="zh" localized="清除默认"/>
+    <moqui.basic.LocalizedMessage original="Clear Parameters" locale="zh" localized="清除参数"/>
+    <moqui.basic.LocalizedMessage original="Click to edit" locale="zh" localized="点击以编辑"/>
+    <moqui.basic.LocalizedMessage original="Color mode must be color or monochrome" locale="zh" localized="颜色模式必须为 color 或 monochrome"/>
+    <moqui.basic.LocalizedMessage original="Column" locale="zh" localized="列"/>
+    <moqui.basic.LocalizedMessage original="Column Fields" locale="zh" localized="列字段"/>
+    <moqui.basic.LocalizedMessage original="Columns" locale="zh" localized="各列"/>
+    <moqui.basic.LocalizedMessage original="Compare is for text files" locale="zh" localized="比较仅用于文本文件"/>
+    <moqui.basic.LocalizedMessage original="Confirmed ${scanInput || ''} of ${productId || ''} at ${locationId || ''} (gallery demo: nothing is written)" locale="zh" localized="已确认 ${scanInput || ''}，产品 ${productId || ''}，位置 ${locationId || ''}（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="Consume started in background" locale="zh" localized="已在后台开始消费"/>
+    <moqui.basic.LocalizedMessage original="Contact" locale="zh" localized="联系人"/>
+    <moqui.basic.LocalizedMessage original="Copy refused: it would pass the quota of drive" locale="zh" localized="已拒绝复制：将超出网盘配额"/>
+    <moqui.basic.LocalizedMessage original="Could not convert from ${uom?.description || uomId} to ${toUom?.description || toUomId}, no UOM Conversion found." locale="zh" localized="无法从 ${uom?.description || uomId} 换算到 ${toUom?.description || toUomId}，未找到 UOM 换算。"/>
+    <moqui.basic.LocalizedMessage original="Could not find Data Document ${dataDocumentId}" locale="zh" localized="未找到数据文档 ${dataDocumentId}"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name: ${aen}" locale="zh" localized="未找到名为 ${aen} 的实体"/>
+    <moqui.basic.LocalizedMessage original="Could not find master entity with name: ${masterMember.entityName}" locale="zh" localized="未找到名为 ${masterMember.entityName} 的主实体"/>
+    <moqui.basic.LocalizedMessage original="Could not validate reCAPTCHA response, confirm you are not a robot" locale="zh" localized="无法校验 reCAPTCHA 响应，请确认您不是机器人"/>
+    <moqui.basic.LocalizedMessage original="Could not verify reCAPTCHA token" locale="zh" localized="无法验证 reCAPTCHA 令牌"/>
+    <moqui.basic.LocalizedMessage original="Created ${created} foreign keys" locale="zh" localized="已创建 ${created} 个外键"/>
+    <moqui.basic.LocalizedMessage original="Created ${created} indexes" locale="zh" localized="已创建 ${created} 个索引"/>
+    <moqui.basic.LocalizedMessage original="Created example ${created.exampleId}: ${exampleName}" locale="zh" localized="已创建示例 ${created.exampleId}：${exampleName}"/>
+    <moqui.basic.LocalizedMessage original="Days" locale="zh" localized="天"/>
+    <moqui.basic.LocalizedMessage original="Default" locale="zh" localized="默认"/>
+    <moqui.basic.LocalizedMessage original="Delete the message to remove its text" locale="zh" localized="请删除该消息以移除其文本"/>
+    <moqui.basic.LocalizedMessage original="delete#AccountMessages is internal" locale="zh" localized="delete#AccountMessages 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="delete#LocalMessages is internal" locale="zh" localized="delete#LocalMessages 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="deliver#DraftMessage is internal" locale="zh" localized="deliver#DraftMessage 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="detach#LocalMessages is internal" locale="zh" localized="detach#LocalMessages 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="Do Not Display" locale="zh" localized="不显示"/>
+    <moqui.basic.LocalizedMessage original="Drag fields to the desired column or do not display" locale="zh" localized="将字段拖到目标列，或不予显示"/>
+    <moqui.basic.LocalizedMessage original="Drive not found" locale="zh" localized="未找到网盘"/>
+    <moqui.basic.LocalizedMessage original="Dropped ${dropped} foreign keys" locale="zh" localized="已移除 ${dropped} 个外键"/>
+    <moqui.basic.LocalizedMessage original="Each attachment needs its attachmentLocation" locale="zh" localized="每个附件都需要自己的 attachmentLocation"/>
+    <moqui.basic.LocalizedMessage original="Each rule action is an {action, value}" locale="zh" localized="每个规则操作都是 {action, value}"/>
+    <moqui.basic.LocalizedMessage original="Each rule condition is a {field, operator, value}" locale="zh" localized="每个规则条件都是 {field, operator, value}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${geoId}: a gallery demo, nothing is written" locale="zh" localized="编辑 ${geoId}：图库演示，不会写入任何数据"/>
+    <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList.get(0).get('username')}" locale="zh" localized="电子邮件 ${emailAddress} 已被使用。请用用户名 ${existingUaList.get(0).get('username')} 登录"/>
+    <moqui.basic.LocalizedMessage original="Enter the password of the link" locale="zh" localized="请输入此链接的密码"/>
+    <moqui.basic.LocalizedMessage original="Entity ${aen} is not available through this tool" locale="zh" localized="实体 ${aen} 不能通过此工具使用"/>
+    <moqui.basic.LocalizedMessage original="Entity ${den} is not available through this tool" locale="zh" localized="实体 ${den} 不能通过此工具使用"/>
+    <moqui.basic.LocalizedMessage original="Entity ${selectedEntity} is not available through this tool" locale="zh" localized="实体 ${selectedEntity} 不能通过此工具使用"/>
+    <moqui.basic.LocalizedMessage original="Entity is not available through this tool" locale="zh" localized="此实体不能通过此工具使用"/>
+    <moqui.basic.LocalizedMessage original="Entry already exists for ${factorOption}" locale="zh" localized="已存在 ${factorOption} 的条目"/>
+    <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} created (gallery demo: nothing is written)" locale="zh" localized="已创建枚举 ${enumId || ''}（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} updated (gallery demo: nothing is written)" locale="zh" localized="已更新枚举 ${enumId || ''}（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="Every Day" locale="zh" localized="每天"/>
+    <moqui.basic.LocalizedMessage original="ExecutionContextFactory dynamic re-initialize triggered" locale="zh" localized="已触发 ExecutionContextFactory 的动态重新初始化"/>
+    <moqui.basic.LocalizedMessage original="Export" locale="zh" localized="导出"/>
+    <moqui.basic.LocalizedMessage original="Export Fixed-Width Plain Text" locale="zh" localized="导出定宽纯文本"/>
+    <moqui.basic.LocalizedMessage original="Export Text" locale="zh" localized="导出文本"/>
+    <moqui.basic.LocalizedMessage original="fail#StoppedSend is internal" locale="zh" localized="fail#StoppedSend 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="Field cannot be empty" locale="zh" localized="字段不能为空"/>
+    <moqui.basic.LocalizedMessage original="Fields" locale="zh" localized="字段"/>
+    <moqui.basic.LocalizedMessage original="File not found" locale="zh" localized="未找到文件"/>
+    <moqui.basic.LocalizedMessage original="Find Options" locale="zh" localized="查找选项"/>
+    <moqui.basic.LocalizedMessage original="Find Parameters" locale="zh" localized="查找参数"/>
+    <moqui.basic.LocalizedMessage original="Folder not found" locale="zh" localized="未找到文件夹"/>
+    <moqui.basic.LocalizedMessage original="Form Response ${formResponseId} not found" locale="zh" localized="未找到表单回复 ${formResponseId}"/>
+    <moqui.basic.LocalizedMessage original="Found duplicate message with Message-ID [${messageId}] from server [${emailServerId}]" locale="zh" localized="发现重复消息，Message-ID 为 [${messageId}]，来自服务器 [${emailServerId}]"/>
+    <moqui.basic.LocalizedMessage original="Found issues with password so not updating" locale="zh" localized="发现密码问题，因此未更新"/>
+    <moqui.basic.LocalizedMessage original="From" locale="zh" localized="从"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be cloned; nothing is written." locale="zh" localized="图库：将克隆 ${enumId}；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be put on hold; nothing is written." locale="zh" localized="图库：将暂挂 ${enumId}；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be retired; nothing is written." locale="zh" localized="图库：将停用 ${enumId}；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would move to ${statusId}; nothing is written." locale="zh" localized="图库：${enumId} 将变为 ${statusId}；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${userId} would be added to a group; nothing is written." locale="zh" localized="图库：将把 ${userId} 加入一个组；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${userId} would be disabled; nothing is written." locale="zh" localized="图库：将禁用 ${userId}；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: a message to ${userId} would be sent from Comms; nothing is written." locale="zh" localized="图库：将从 Comms 向 ${userId} 发送消息；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: a password reset for ${userId} would be sent; nothing is written." locale="zh" localized="图库：将为 ${userId} 发送密码重置；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: Chatter is not built yet; the message &quot;${messageText}&quot; was not saved." locale="zh" localized="图库：Chatter 尚未建成；消息「${messageText}」未保存。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: cloning ${enumId} is a no-op; nothing is written." locale="zh" localized="图库：克隆 ${enumId} 不会生效；不会写入任何数据。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: login as ${userId} is a no-op here." locale="zh" localized="图库：在此以 ${userId} 登录不会生效。"/>
+    <moqui.basic.LocalizedMessage original="Gallery: nothing is written. A real New dialog would create the enumeration &quot;${description}&quot; of type ${enumTypeId}." locale="zh" localized="图库：不会写入任何数据。真正的新建对话框将创建枚举「${description}」，类型为 ${enumTypeId}。"/>
+    <moqui.basic.LocalizedMessage original="General settings reset to their defaults (gallery demo: nothing is written)" locale="zh" localized="常规设置已重置为默认值（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="General settings saved (gallery demo: nothing is written)" locale="zh" localized="常规设置已保存（图库演示：不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="Geo IP lookup disabled" locale="zh" localized="已禁用地理 IP 查询"/>
+    <moqui.basic.LocalizedMessage original="HTML not allowed including less-than (&lt;), greater-than (&gt;), etc symbols" locale="zh" localized="不允许 HTML，包括小于（&lt;）、大于（&gt;）等符号"/>
+    <moqui.basic.LocalizedMessage original="ID '${dataDocumentId}' already in use" locale="zh" localized="ID '${dataDocumentId}' 已被使用"/>
+    <moqui.basic.LocalizedMessage original="ID must start with a letter and contain only letters, digits, or underscore" locale="zh" localized="ID 必须以字母开头，且只能包含字母、数字或下划线"/>
+    <moqui.basic.LocalizedMessage original="Ignore Case" locale="zh" localized="忽略大小写"/>
+    <moqui.basic.LocalizedMessage original="Image not Found ,or may be Docker login fail" locale="zh" localized="未找到镜像，或可能是 Docker 登录失败"/>
+    <moqui.basic.LocalizedMessage original="index#DriveFiles is internal" locale="zh" localized="index#DriveFiles 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="InstanceImage not found with ID ${instanceImageId}" locale="zh" localized="未找到 ID 为 ${instanceImageId} 的 InstanceImage"/>
+    <moqui.basic.LocalizedMessage original="InstanceImageType not found for InstanceImage with ID ${instanceImageId}" locale="zh" localized="未找到 ID 为 ${instanceImageId} 的 InstanceImage 所对应的 InstanceImageType"/>
+    <moqui.basic.LocalizedMessage original="Internal messages have no rules" locale="zh" localized="内部消息没有规则"/>
+    <moqui.basic.LocalizedMessage original="Invalid title (letters, digits, [.,'-_:()!? ] only)" locale="zh" localized="标题无效（仅允许字母、数字以及 [.,'-_:()!? ]）"/>
+    <moqui.basic.LocalizedMessage original="IP address is not a public address" locale="zh" localized="IP 地址不是公网地址"/>
+    <moqui.basic.LocalizedMessage original="IP address not a IPv4 address" locale="zh" localized="IP 地址不是 IPv4 地址"/>
+    <moqui.basic.LocalizedMessage original="Join the room before adding others" locale="zh" localized="添加其他人之前，请先加入房间"/>
+    <moqui.basic.LocalizedMessage original="Join the room to change it" locale="zh" localized="要更改房间，请先加入"/>
+    <moqui.basic.LocalizedMessage original="Join the room to post in it" locale="zh" localized="要在房间中发布，请先加入"/>
+    <moqui.basic.LocalizedMessage original="Last" locale="zh" localized="最后"/>
+    <moqui.basic.LocalizedMessage original="Loading" locale="zh" localized="正在加载"/>
+    <moqui.basic.LocalizedMessage original="Make Default" locale="zh" localized="设为默认"/>
+    <moqui.basic.LocalizedMessage original="Mark unread from which message?" locale="zh" localized="从哪条消息起标为未读？"/>
+    <moqui.basic.LocalizedMessage original="Marked done: ${itemTitle} (nothing is written in the gallery)" locale="zh" localized="已标为完成：${itemTitle}（图库中不会写入任何数据）"/>
+    <moqui.basic.LocalizedMessage original="Merge request !" locale="zh" localized="合并请求！"/>
+    <moqui.basic.LocalizedMessage original="Message removed" locale="zh" localized="消息已移除"/>
+    <moqui.basic.LocalizedMessage original="Message type ${systemMessageTypeId} not valid" locale="zh" localized="消息类型 ${systemMessageTypeId} 无效"/>
+    <moqui.basic.LocalizedMessage original="Mode" locale="zh" localized="模式"/>
+    <moqui.basic.LocalizedMessage original="Monday Only" locale="zh" localized="仅周一"/>
+    <moqui.basic.LocalizedMessage original="Monday-Friday" locale="zh" localized="周一至周五"/>
+    <moqui.basic.LocalizedMessage original="Monthly" locale="zh" localized="每月"/>
+    <moqui.basic.LocalizedMessage original="Months" locale="zh" localized="月"/>
+    <moqui.basic.LocalizedMessage original="move#DriveMetadata is internal" locale="zh" localized="move#DriveMetadata 为内部接口"/>
+    <moqui.basic.LocalizedMessage original="moved ${id} to ${stage}" locale="zh" localized="已将 ${id} 移至 ${stage}"/>
+    <moqui.basic.LocalizedMessage original="Must contain only lower case letters, digits, and underscore" locale="zh" localized="只能包含小写字母、数字和下划线"/>
+    <moqui.basic.LocalizedMessage original="Must start with a lower case letter and contain only lower case letters, digits, and dot/period" locale="zh" localized="必须以小写字母开头，且只能包含小写字母、数字和点号"/>
+    <moqui.basic.LocalizedMessage original="Must start with a upper case letter and contain only letters and digits" locale="zh" localized="必须以大写字母开头，且只能包含字母和数字"/>
+    <moqui.basic.LocalizedMessage original="My Default" locale="zh" localized="我的默认"/>
+    <moqui.basic.LocalizedMessage original="Name '${dbViewEntityName}' already in use" locale="zh" localized="名称 '${dbViewEntityName}' 已被使用"/>
+    <moqui.basic.LocalizedMessage original="New Password and New Password Verify do not match" locale="zh" localized="新密码与新密码确认不一致"/>
+    <moqui.basic.LocalizedMessage original="New password is same as current password" locale="zh" localized="新密码与当前密码相同"/>
+    <moqui.basic.LocalizedMessage original="Next" locale="zh" localized="下一步"/>
+    <moqui.basic.LocalizedMessage original="No Data Documents specified, not exporting anything." locale="zh" localized="未指定数据文档，不会导出任何内容。"/>
+    <moqui.basic.LocalizedMessage original="No DatabaseHost found for AppInstance ${appInstanceId}" locale="zh" localized="未找到 AppInstance ${appInstanceId} 的 DatabaseHost"/>
+    <moqui.basic.LocalizedMessage original="No DatabaseType found for AppInstance with ID ${appInstanceId}" locale="zh" localized="未找到 ID 为 ${appInstanceId} 的 AppInstance 的 DatabaseType"/>
+    <moqui.basic.LocalizedMessage original="No entity names specified, not exporting anything." locale="zh" localized="未指定实体名称，不会导出任何内容。"/>
+    <moqui.basic.LocalizedMessage original="No file uploaded" locale="zh" localized="未上传文件"/>
+    <moqui.basic.LocalizedMessage original="No file was uploaded" locale="zh" localized="没有上传任何文件"/>
+    <moqui.basic.LocalizedMessage original="No find parameters (or default), choose some in Find Options to save a new find or update existing" locale="zh" localized="没有查找参数（也没有默认值）。请在查找选项中选择一些，以便保存新查找或更新现有查找"/>
+    <moqui.basic.LocalizedMessage original="No find parameters, choose some to save a new find or update existing" locale="zh" localized="没有查找参数。请选择一些，以便保存新查找或更新现有查找"/>
+    <moqui.basic.LocalizedMessage original="No InstanceHostType found for AppInstance with ID ${appInstanceId}" locale="zh" localized="未找到 ID 为 ${appInstanceId} 的 AppInstance 的 InstanceHostType"/>
+    <moqui.basic.LocalizedMessage original="No merge request" locale="zh" localized="没有合并请求"/>
+    <moqui.basic.LocalizedMessage original="No page found at path ${pagePath} in space ${wikiSpaceId}" locale="zh" localized="未找到页面，路径为 ${pagePath}，空间为 ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="No page version found at path ${pagePath} in space ${wikiSpaceId}" locale="zh" localized="未找到页面版本，路径为 ${pagePath}，空间为 ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="No parameters specified, not loading data" locale="zh" localized="未指定参数，不会加载数据"/>
+    <moqui.basic.LocalizedMessage original="No reCAPTCHA token" locale="zh" localized="没有 reCAPTCHA 令牌"/>
+    <moqui.basic.LocalizedMessage original="No return from freegeoip.net for IP ${visit.clientIpAddress}" locale="zh" localized="freegeoip.net 对 IP ${visit.clientIpAddress} 没有返回结果"/>
+    <moqui.basic.LocalizedMessage original="No review to approve" locale="zh" localized="没有可批准的评审"/>
+    <moqui.basic.LocalizedMessage original="No review to refuse" locale="zh" localized="没有可拒绝的评审"/>
+    <moqui.basic.LocalizedMessage original="No SMS implementation in place, not sending message" locale="zh" localized="没有可用的 SMS 实现，不会发送消息"/>
+    <moqui.basic.LocalizedMessage original="No space found with ID ${wikiSpaceId}" locale="zh" localized="未找到 ID 为 ${wikiSpaceId} 的空间"/>
+    <moqui.basic.LocalizedMessage original="No trash copy to restore" locale="zh" localized="回收站中没有可恢复的副本"/>
+    <moqui.basic.LocalizedMessage original="No user for the email account" locale="zh" localized="电子邮件账号没有对应用户"/>
+    <moqui.basic.LocalizedMessage original="No user for the email rule" locale="zh" localized="电子邮件规则没有对应用户"/>
+    <moqui.basic.LocalizedMessage original="No user for the Internal account" locale="zh" localized="内部账号没有对应用户"/>
+    <moqui.basic.LocalizedMessage original="No user for the saved search" locale="zh" localized="已保存的搜索没有对应用户"/>
+    <moqui.basic.LocalizedMessage original="No user for the text block" locale="zh" localized="文本块没有对应用户"/>
+    <moqui.basic.LocalizedMessage original="No user pre-authenticated" locale="zh" localized="没有预认证的用户"/>
+    <moqui.basic.LocalizedMessage original="No user pre-authenticated, cannot send code" locale="zh" localized="没有预认证的用户，无法发送验证码"/>
+    <moqui.basic.LocalizedMessage original="No user to make a chat room for" locale="zh" localized="没有可为其创建聊天室的用户"/>
+    <moqui.basic.LocalizedMessage original="No user to send the message" locale="zh" localized="没有可用来发送该消息的用户"/>
+    <moqui.basic.LocalizedMessage original="No user to set the status of" locale="zh" localized="没有可为其设置状态的用户"/>
+    <moqui.basic.LocalizedMessage original="No version to restore" locale="zh" localized="没有可恢复的版本"/>
+    <moqui.basic.LocalizedMessage original="No visit found with ID ${visitId}" locale="zh" localized="未找到 ID 为 ${visitId} 的访问"/>
+</entity-facade-xml>

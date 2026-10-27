@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Mantova" locale="zh" localized="曼托瓦"/>
+    <moqui.basic.LocalizedMessage original="Massa-Carrara" locale="zh" localized="马萨-卡拉拉"/>
+    <moqui.basic.LocalizedMessage original="Messina" locale="zh" localized="墨西拿"/>
+    <moqui.basic.LocalizedMessage original="Michigan" locale="zh" localized="密歇根州"/>
+    <moqui.basic.LocalizedMessage original="Milano" locale="zh" localized="米兰"/>
+    <moqui.basic.LocalizedMessage original="Mississippi" locale="zh" localized="密西西比州"/>
+    <moqui.basic.LocalizedMessage original="Missouri" locale="zh" localized="密苏里州"/>
+    <moqui.basic.LocalizedMessage original="Modena" locale="zh" localized="摩德纳"/>
+    <moqui.basic.LocalizedMessage original="Monza e Brianza" locale="zh" localized="蒙扎和布里安扎"/>
+    <moqui.basic.LocalizedMessage original="Napoli" locale="zh" localized="那不勒斯"/>
+    <moqui.basic.LocalizedMessage original="New Brunswick" locale="zh" localized="新不伦瑞克省"/>
+    <moqui.basic.LocalizedMessage original="New Hampshire" locale="zh" localized="新罕布什尔州"/>
+    <moqui.basic.LocalizedMessage original="New Jersey" locale="zh" localized="新泽西州"/>
+    <moqui.basic.LocalizedMessage original="New Mexico" locale="zh" localized="新墨西哥州"/>
+    <moqui.basic.LocalizedMessage original="New York" locale="zh" localized="纽约州"/>
+    <moqui.basic.LocalizedMessage original="Newfoundland and Labrador" locale="zh" localized="纽芬兰与拉布拉多省"/>
+    <moqui.basic.LocalizedMessage original="North Carolina" locale="zh" localized="北卡罗来纳州"/>
+    <moqui.basic.LocalizedMessage original="North Chungcheong" locale="zh" localized="忠清北道"/>
+    <moqui.basic.LocalizedMessage original="North Dakota" locale="zh" localized="北达科他州"/>
+    <moqui.basic.LocalizedMessage original="North Gyeongsang" locale="zh" localized="庆尚北道"/>
+    <moqui.basic.LocalizedMessage original="North Jeolla" locale="zh" localized="全罗北道"/>
+    <moqui.basic.LocalizedMessage original="Northwest Territories" locale="zh" localized="西北地区"/>
+    <moqui.basic.LocalizedMessage original="Nova Scotia" locale="zh" localized="新斯科舍省"/>
+    <moqui.basic.LocalizedMessage original="Oregon" locale="zh" localized="俄勒冈州"/>
+    <moqui.basic.LocalizedMessage original="Oristano" locale="zh" localized="奥里斯塔诺"/>
+    <moqui.basic.LocalizedMessage original="Padova" locale="zh" localized="帕多瓦"/>
+    <moqui.basic.LocalizedMessage original="Pennsylvania" locale="zh" localized="宾夕法尼亚州"/>
+    <moqui.basic.LocalizedMessage original="Pesaro e Urbino" locale="zh" localized="佩萨罗-乌尔比诺"/>
+    <moqui.basic.LocalizedMessage original="Piacenza" locale="zh" localized="皮亚琴察"/>
+    <moqui.basic.LocalizedMessage original="Pistoia" locale="zh" localized="皮斯托亚"/>
+    <moqui.basic.LocalizedMessage original="Porto" locale="zh" localized="波尔图"/>
+    <moqui.basic.LocalizedMessage original="Prince Edward Island" locale="zh" localized="爱德华王子岛省"/>
+    <moqui.basic.LocalizedMessage original="Punjab" locale="zh" localized="旁遮普邦"/>
+    <moqui.basic.LocalizedMessage original="Reggio Calabria" locale="zh" localized="雷焦卡拉布里亚"/>
+    <moqui.basic.LocalizedMessage original="Rimini" locale="zh" localized="里米尼"/>
+    <moqui.basic.LocalizedMessage original="Rājasthān" locale="zh" localized="拉贾斯坦邦"/>
+    <moqui.basic.LocalizedMessage original="Santarem" locale="zh" localized="圣塔伦"/>
+    <moqui.basic.LocalizedMessage original="Sassari" locale="zh" localized="萨萨里"/>
+    <moqui.basic.LocalizedMessage original="Seoul" locale="zh" localized="首尔"/>
+    <moqui.basic.LocalizedMessage original="Setubal" locale="zh" localized="塞图巴尔"/>
+    <moqui.basic.LocalizedMessage original="Shanghai" locale="zh" localized="上海市"/>
+    <moqui.basic.LocalizedMessage original="South Carolina" locale="zh" localized="南卡罗来纳州"/>
+    <moqui.basic.LocalizedMessage original="South Chungcheong" locale="zh" localized="忠清南道"/>
+    <moqui.basic.LocalizedMessage original="South Dakota" locale="zh" localized="南达科他州"/>
+    <moqui.basic.LocalizedMessage original="South Gyeongsang" locale="zh" localized="庆尚南道"/>
+    <moqui.basic.LocalizedMessage original="South Jeolla" locale="zh" localized="全罗南道"/>
+    <moqui.basic.LocalizedMessage original="Taranto" locale="zh" localized="塔兰托"/>
+    <moqui.basic.LocalizedMessage original="Teramo" locale="zh" localized="泰拉莫"/>
+    <moqui.basic.LocalizedMessage original="Tokyo" locale="zh" localized="东京都"/>
+    <moqui.basic.LocalizedMessage original="Torino" locale="zh" localized="都灵"/>
+    <moqui.basic.LocalizedMessage original="U.S. Minor Outlying Islands" locale="zh" localized="美国本土外小岛屿"/>
+    <moqui.basic.LocalizedMessage original="US 50" locale="zh" localized="美国50州"/>
+    <moqui.basic.LocalizedMessage original="US All" locale="zh" localized="美国全部"/>
+    <moqui.basic.LocalizedMessage original="US Armed Forces" locale="zh" localized="美国武装部队"/>
+    <moqui.basic.LocalizedMessage original="US Continental" locale="zh" localized="美国本土"/>
+    <moqui.basic.LocalizedMessage original="US Territories" locale="zh" localized="美国领土"/>
+    <moqui.basic.LocalizedMessage original="Udine" locale="zh" localized="乌迪内"/>
+    <moqui.basic.LocalizedMessage original="Venezia" locale="zh" localized="威尼斯"/>
+    <moqui.basic.LocalizedMessage original="Virgin Islands" locale="zh" localized="维尔京群岛"/>
+    <moqui.basic.LocalizedMessage original="Viseu" locale="zh" localized="维塞乌"/>
+    <moqui.basic.LocalizedMessage original="West Bengal" locale="zh" localized="西孟加拉邦"/>
+    <moqui.basic.LocalizedMessage original="West Virginia" locale="zh" localized="西弗吉尼亚州"/>
+    <moqui.basic.LocalizedMessage original="Xinjiang" locale="zh" localized="新疆维吾尔自治区"/>
+    <moqui.basic.LocalizedMessage original="Xizang" locale="zh" localized="西藏自治区"/>
+    <moqui.basic.LocalizedMessage original="Yukon" locale="zh" localized="育空地区"/>
+</entity-facade-xml>

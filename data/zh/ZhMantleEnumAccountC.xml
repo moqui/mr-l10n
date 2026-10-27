@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Payroll Taxes" locale="zh" localized="工资税"/>
+    <moqui.basic.LocalizedMessage original="Penalty For Collection Agency" locale="zh" localized="催收机构罚款"/>
+    <moqui.basic.LocalizedMessage original="Period Closing Adjustment" locale="zh" localized="期末结账调整"/>
+    <moqui.basic.LocalizedMessage original="Personal Check" locale="zh" localized="个人支票"/>
+    <moqui.basic.LocalizedMessage original="Piece Min Wage Adjustment" locale="zh" localized="计件最低工资调整"/>
+    <moqui.basic.LocalizedMessage original="Piece Or Hourly Earnings" locale="zh" localized="计件或时薪收入"/>
+    <moqui.basic.LocalizedMessage original="Piece Plus Hourly Earnings" locale="zh" localized="计件加时薪收入"/>
+    <moqui.basic.LocalizedMessage original="Piecework Earnings" locale="zh" localized="计件收入"/>
+    <moqui.basic.LocalizedMessage original="Point of sale debit or credit" locale="zh" localized="销售点借记或贷记"/>
+    <moqui.basic.LocalizedMessage original="Positive Pay File" locale="zh" localized="Positive Pay 文件"/>
+    <moqui.basic.LocalizedMessage original="Pre Payment - Expense" locale="zh" localized="预付款 - 费用"/>
+    <moqui.basic.LocalizedMessage original="Pre Payment - Inventory" locale="zh" localized="预付款 - 库存"/>
+    <moqui.basic.LocalizedMessage original="Preferred Freight" locale="zh" localized="优先运费"/>
+    <moqui.basic.LocalizedMessage original="Prepaid Expense" locale="zh" localized="预付费用"/>
+    <moqui.basic.LocalizedMessage original="Prepaid Expenses" locale="zh" localized="预付费用"/>
+    <moqui.basic.LocalizedMessage original="Prepaid Inventory" locale="zh" localized="预付库存"/>
+    <moqui.basic.LocalizedMessage original="Product Items" locale="zh" localized="产品项目"/>
+    <moqui.basic.LocalizedMessage original="Professional Services" locale="zh" localized="专业服务"/>
+    <moqui.basic.LocalizedMessage original="Profit Loss" locale="zh" localized="损益"/>
+    <moqui.basic.LocalizedMessage original="Promotional Discounts" locale="zh" localized="促销折扣"/>
+    <moqui.basic.LocalizedMessage original="Promotional Materials" locale="zh" localized="宣传物料"/>
+    <moqui.basic.LocalizedMessage original="Prompt Payment Discount" locale="zh" localized="早付折扣"/>
+    <moqui.basic.LocalizedMessage original="Purchase Invoice" locale="zh" localized="采购发票"/>
+    <moqui.basic.LocalizedMessage original="Purchasing" locale="zh" localized="采购"/>
+    <moqui.basic.LocalizedMessage original="Raw Material" locale="zh" localized="原材料"/>
+    <moqui.basic.LocalizedMessage original="Re-activate" locale="zh" localized="重新启用"/>
+    <moqui.basic.LocalizedMessage original="Receipt" locale="zh" localized="收据"/>
+    <moqui.basic.LocalizedMessage original="Receivable from Inventory Transferred Out" locale="zh" localized="库存转出应收"/>
+    <moqui.basic.LocalizedMessage original="Receive Payment" locale="zh" localized="收款"/>
+    <moqui.basic.LocalizedMessage original="Reconcile" locale="zh" localized="对账"/>
+    <moqui.basic.LocalizedMessage original="Reconciled" locale="zh" localized="已对账"/>
+    <moqui.basic.LocalizedMessage original="Reimbursement" locale="zh" localized="报销"/>
+    <moqui.basic.LocalizedMessage original="Rental" locale="zh" localized="租赁"/>
+    <moqui.basic.LocalizedMessage original="Rental Deposit" locale="zh" localized="租赁押金"/>
+    <moqui.basic.LocalizedMessage original="Repeating payment/standing order" locale="zh" localized="定期付款/长期委托"/>
+    <moqui.basic.LocalizedMessage original="Replacement" locale="zh" localized="更换"/>
+    <moqui.basic.LocalizedMessage original="Replenish-level" locale="zh" localized="补至水位"/>
+    <moqui.basic.LocalizedMessage original="Replenishment" locale="zh" localized="补充"/>
+    <moqui.basic.LocalizedMessage original="Resume Changes" locale="zh" localized="恢复更改"/>
+    <moqui.basic.LocalizedMessage original="Retained Earnings" locale="zh" localized="留存收益"/>
+    <moqui.basic.LocalizedMessage original="Retirement" locale="zh" localized="退休"/>
+    <moqui.basic.LocalizedMessage original="Return" locale="zh" localized="退货"/>
+    <moqui.basic.LocalizedMessage original="Return Inventory" locale="zh" localized="退货库存"/>
+    <moqui.basic.LocalizedMessage original="Return Refund" locale="zh" localized="退货退款"/>
+    <moqui.basic.LocalizedMessage original="Return of Capital" locale="zh" localized="资本返还"/>
+    <moqui.basic.LocalizedMessage original="Revenue" locale="zh" localized="收入"/>
+    <moqui.basic.LocalizedMessage original="Reverse to Payable" locale="zh" localized="冲回应付"/>
+    <moqui.basic.LocalizedMessage original="Reverse to Receivable" locale="zh" localized="冲回应收"/>
+    <moqui.basic.LocalizedMessage original="Roth 401k Employee" locale="zh" localized="员工 Roth 401k"/>
+    <moqui.basic.LocalizedMessage original="Roth IRA Employee" locale="zh" localized="员工 Roth IRA"/>
+    <moqui.basic.LocalizedMessage original="Roth IRA Employer" locale="zh" localized="雇主 Roth IRA"/>
+    <moqui.basic.LocalizedMessage original="Royalties" locale="zh" localized="特许权使用费"/>
+    <moqui.basic.LocalizedMessage original="Royalties Expense - Non-COGS" locale="zh" localized="特许权使用费支出 - 非销售成本"/>
+    <moqui.basic.LocalizedMessage original="Salary" locale="zh" localized="薪金"/>
+    <moqui.basic.LocalizedMessage original="Sales" locale="zh" localized="销售"/>
+    <moqui.basic.LocalizedMessage original="Sales Compensation" locale="zh" localized="销售报酬"/>
+    <moqui.basic.LocalizedMessage original="Sales Inventory" locale="zh" localized="销售库存"/>
+    <moqui.basic.LocalizedMessage original="Sales Invoice" locale="zh" localized="销售发票"/>
+    <moqui.basic.LocalizedMessage original="Sales Revenue" locale="zh" localized="销售收入"/>
+    <moqui.basic.LocalizedMessage original="Sales Tax" locale="zh" localized="销售税"/>
+    <moqui.basic.LocalizedMessage original="Sales Travel" locale="zh" localized="销售差旅"/>
+    <moqui.basic.LocalizedMessage original="Sales and Marketing Expense" locale="zh" localized="销售及营销费用"/>
+    <moqui.basic.LocalizedMessage original="Sales/Purchase" locale="zh" localized="销售/采购"/>
+    <moqui.basic.LocalizedMessage original="Savings" locale="zh" localized="储蓄"/>
+    <moqui.basic.LocalizedMessage original="Scenario" locale="zh" localized="情景"/>
+    <moqui.basic.LocalizedMessage original="School District Employer" locale="zh" localized="雇主学区税"/>
+    <moqui.basic.LocalizedMessage original="Service Product" locale="zh" localized="服务产品"/>
+    <moqui.basic.LocalizedMessage original="Service charge" locale="zh" localized="服务费"/>
+    <moqui.basic.LocalizedMessage original="Services Accounting" locale="zh" localized="会计服务"/>
+    <moqui.basic.LocalizedMessage original="Services Labor" locale="zh" localized="人工服务"/>
+    <moqui.basic.LocalizedMessage original="Services Legal" locale="zh" localized="法律服务"/>
+    <moqui.basic.LocalizedMessage original="Services Revenue" locale="zh" localized="服务收入"/>
+    <moqui.basic.LocalizedMessage original="Set Created to Reconciled" locale="zh" localized="将已创建设为已对账"/>
+    <moqui.basic.LocalizedMessage original="Set Manually Frozen" locale="zh" localized="设为手工冻结"/>
+    <moqui.basic.LocalizedMessage original="Set Negative Pending Replenishment" locale="zh" localized="设为负的待补充"/>
+    <moqui.basic.LocalizedMessage original="Settlement Term - Generate Order Payments" locale="zh" localized="结算条款 - 生成订单付款"/>
+    <moqui.basic.LocalizedMessage original="Shift Premium Earnings" locale="zh" localized="班次津贴收入"/>
+    <moqui.basic.LocalizedMessage original="Shipping and Handling" locale="zh" localized="运费及处理费"/>
+    <moqui.basic.LocalizedMessage original="Shrinkage" locale="zh" localized="损耗"/>
+    <moqui.basic.LocalizedMessage original="Sick Hourly" locale="zh" localized="病假时薪"/>
+    <moqui.basic.LocalizedMessage original="Sick Salary" locale="zh" localized="病假薪金"/>
+    <moqui.basic.LocalizedMessage original="Signature Primary" locale="zh" localized="主签名"/>
+    <moqui.basic.LocalizedMessage original="Signature Secondary" locale="zh" localized="副签名"/>
+    <moqui.basic.LocalizedMessage original="Simple IRA Employee" locale="zh" localized="员工 Simple IRA"/>
+    <moqui.basic.LocalizedMessage original="Simple IRA Employer" locale="zh" localized="雇主 Simple IRA"/>
+    <moqui.basic.LocalizedMessage original="Slotting Fees" locale="zh" localized="进场费"/>
+    <moqui.basic.LocalizedMessage original="Social Security Employee" locale="zh" localized="员工社会保障"/>
+    <moqui.basic.LocalizedMessage original="Social Security Employer" locale="zh" localized="雇主社会保障"/>
+    <moqui.basic.LocalizedMessage original="Standard (faster, may have gaps, per system)" locale="zh" localized="标准（较快，可能有空号，按系统）"/>
+    <moqui.basic.LocalizedMessage original="State Disability Insurance Employer" locale="zh" localized="雇主州伤残保险"/>
+    <moqui.basic.LocalizedMessage original="State Miscellaneous Employer" locale="zh" localized="雇主州其他项目"/>
+    <moqui.basic.LocalizedMessage original="State Pension Employer" locale="zh" localized="雇主州养老金"/>
+    <moqui.basic.LocalizedMessage original="State Unemployment Insurance Employer" locale="zh" localized="雇主州失业保险"/>
+    <moqui.basic.LocalizedMessage original="State Workers' Comp Insurance Employer" locale="zh" localized="雇主州工伤赔偿保险"/>
+    <moqui.basic.LocalizedMessage original="State/Province" locale="zh" localized="州/省"/>
+    <moqui.basic.LocalizedMessage original="Store CIM Profile" locale="zh" localized="保存 CIM 配置"/>
+    <moqui.basic.LocalizedMessage original="Supplier - General" locale="zh" localized="供应商 - 一般"/>
+    <moqui.basic.LocalizedMessage original="Supplier Credit Memo" locale="zh" localized="供应商贷项通知单"/>
+    <moqui.basic.LocalizedMessage original="Supplier Deposits" locale="zh" localized="供应商预存款"/>
+    <moqui.basic.LocalizedMessage original="Supplier Return Invoice" locale="zh" localized="供应商退货发票"/>
+    <moqui.basic.LocalizedMessage original="Supplies" locale="zh" localized="用品"/>
+    <moqui.basic.LocalizedMessage original="Surcharge" locale="zh" localized="附加费"/>
+    <moqui.basic.LocalizedMessage original="Surtax Employer" locale="zh" localized="雇主附加税"/>
+    <moqui.basic.LocalizedMessage original="Tax" locale="zh" localized="税"/>
+    <moqui.basic.LocalizedMessage original="Tax - City, Borough, and Township Withholding" locale="zh" localized="税 - 市、自治市及镇预扣"/>
+    <moqui.basic.LocalizedMessage original="Tax - County Income Withholding" locale="zh" localized="税 - 县所得税预扣"/>
+    <moqui.basic.LocalizedMessage original="Tax - Federal Pension Employee" locale="zh" localized="税 - 员工联邦养老金"/>
+    <moqui.basic.LocalizedMessage original="Tax - Head Employee" locale="zh" localized="税 - 员工人头税"/>
+    <moqui.basic.LocalizedMessage original="Tax - Occupational Privilege Employee" locale="zh" localized="税 - 员工职业特权税"/>
+    <moqui.basic.LocalizedMessage original="Tax - School District Employee" locale="zh" localized="税 - 员工学区税"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Disability Insurance Employee" locale="zh" localized="税 - 员工州伤残保险"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Income Withholding" locale="zh" localized="税 - 州所得税预扣"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Miscellaneous Employee" locale="zh" localized="税 - 员工州其他项目"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Pension Employee" locale="zh" localized="税 - 员工州养老金"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Unemployment Insurance Employee" locale="zh" localized="税 - 员工州失业保险"/>
+    <moqui.basic.LocalizedMessage original="Tax - State Workers' Comp Insurance Employee" locale="zh" localized="税 - 员工州工伤赔偿保险"/>
+    <moqui.basic.LocalizedMessage original="Tax - Surtax Employee" locale="zh" localized="税 - 员工附加税"/>
+    <moqui.basic.LocalizedMessage original="Tax Authority Assoc Type" locale="zh" localized="税务机关关联类型"/>
+    <moqui.basic.LocalizedMessage original="Tax Authority Type" locale="zh" localized="税务机关类型"/>
+    <moqui.basic.LocalizedMessage original="Tax Classification" locale="zh" localized="税务分类"/>
+    <moqui.basic.LocalizedMessage original="Tax Due" locale="zh" localized="应纳税额"/>
+    <moqui.basic.LocalizedMessage original="Tax Expense - Income" locale="zh" localized="税费 - 所得税"/>
+    <moqui.basic.LocalizedMessage original="Tax Expense - Other" locale="zh" localized="税费 - 其他"/>
+    <moqui.basic.LocalizedMessage original="Tax Form" locale="zh" localized="税表"/>
+    <moqui.basic.LocalizedMessage original="Tax Gateway Type" locale="zh" localized="税务网关类型"/>
+    <moqui.basic.LocalizedMessage original="Tax Invoice" locale="zh" localized="税务发票"/>
+    <moqui.basic.LocalizedMessage original="Tax Statement" locale="zh" localized="税务报表"/>
+    <moqui.basic.LocalizedMessage original="Taxes and Licenses" locale="zh" localized="税及执照"/>
+    <moqui.basic.LocalizedMessage original="Template" locale="zh" localized="模板"/>
+    <moqui.basic.LocalizedMessage original="Term Type" locale="zh" localized="条款类型"/>
+    <moqui.basic.LocalizedMessage original="Third Party" locale="zh" localized="第三方"/>
+    <moqui.basic.LocalizedMessage original="Third-Party Holdings" locale="zh" localized="第三方持有"/>
+    <moqui.basic.LocalizedMessage original="Threshold" locale="zh" localized="阈值"/>
+    <moqui.basic.LocalizedMessage original="Top-off" locale="zh" localized="补足上限"/>
+    <moqui.basic.LocalizedMessage original="Traditional 401K Employee" locale="zh" localized="员工传统 401K"/>
+    <moqui.basic.LocalizedMessage original="Transaction Details" locale="zh" localized="交易明细"/>
+    <moqui.basic.LocalizedMessage original="Travel Air" locale="zh" localized="航空差旅"/>
+    <moqui.basic.LocalizedMessage original="Travel Car Rental" locale="zh" localized="差旅租车"/>
+    <moqui.basic.LocalizedMessage original="Travel Local/Parking/Tolls" locale="zh" localized="本地差旅/停车/通行费"/>
+    <moqui.basic.LocalizedMessage original="Travel Lodging" locale="zh" localized="差旅住宿"/>
+    <moqui.basic.LocalizedMessage original="Travel Meals/Entertainment" locale="zh" localized="差旅餐饮/招待"/>
+    <moqui.basic.LocalizedMessage original="Travel Other" locale="zh" localized="其他差旅"/>
+    <moqui.basic.LocalizedMessage original="Travel and Entertainment" locale="zh" localized="差旅及招待"/>
+    <moqui.basic.LocalizedMessage original="Treasury Stock" locale="zh" localized="库存股"/>
+    <moqui.basic.LocalizedMessage original="US IRS Agriculture (943)" locale="zh" localized="美国国税局农业（943）"/>
+    <moqui.basic.LocalizedMessage original="US IRS CT-1" locale="zh" localized="美国国税局 CT-1"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 1040" locale="zh" localized="美国国税局表格 1040"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 1065" locale="zh" localized="美国国税局表格 1065"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 1120" locale="zh" localized="美国国税局表格 1120"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 1120S" locale="zh" localized="美国国税局表格 1120S"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 941" locale="zh" localized="美国国税局表格 941"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 943" locale="zh" localized="美国国税局表格 943"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 944" locale="zh" localized="美国国税局表格 944"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 990" locale="zh" localized="美国国税局表格 990"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 990-PF" locale="zh" localized="美国国税局表格 990-PF"/>
+    <moqui.basic.LocalizedMessage original="US IRS Form 990-T" locale="zh" localized="美国国税局表格 990-T"/>
+    <moqui.basic.LocalizedMessage original="US IRS Household (Sch H)" locale="zh" localized="美国国税局家庭（Sch H）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Medicare Qualified Government (941)" locale="zh" localized="美国国税局 Medicare 合格政府机构（941）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Military (941)" locale="zh" localized="美国国税局军事（941）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Railroad (CT-1)" locale="zh" localized="美国国税局铁路（CT-1）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Regular (944)" locale="zh" localized="美国国税局常规（944）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Regular (all others) (941)" locale="zh" localized="美国国税局常规（所有其他）（941）"/>
+    <moqui.basic.LocalizedMessage original="US IRS Schedule H" locale="zh" localized="美国国税局附表 H"/>
+    <moqui.basic.LocalizedMessage original="USA - C Corporation" locale="zh" localized="美国 - C 型公司"/>
+    <moqui.basic.LocalizedMessage original="USA - Individual, Sole Proprietor, Single-member LLC" locale="zh" localized="美国 - 个人、独资经营者、单成员 LLC"/>
+    <moqui.basic.LocalizedMessage original="USA - LLC as C Corp" locale="zh" localized="美国 - LLC 按 C 型公司"/>
+    <moqui.basic.LocalizedMessage original="USA - LLC as Partnership" locale="zh" localized="美国 - LLC 按合伙企业"/>
+    <moqui.basic.LocalizedMessage original="USA - LLC as S Corp" locale="zh" localized="美国 - LLC 按 S 型公司"/>
+    <moqui.basic.LocalizedMessage original="USA - Partnership" locale="zh" localized="美国 - 合伙企业"/>
+    <moqui.basic.LocalizedMessage original="USA - S Corporation" locale="zh" localized="美国 - S 型公司"/>
+    <moqui.basic.LocalizedMessage original="USA - Trust/Estate" locale="zh" localized="美国 - 信托/遗产"/>
+    <moqui.basic.LocalizedMessage original="Un-acknowledge" locale="zh" localized="取消签收"/>
+    <moqui.basic.LocalizedMessage original="Unauthorize" locale="zh" localized="取消授权"/>
+    <moqui.basic.LocalizedMessage original="Uncancel Payable" locale="zh" localized="撤销应付的取消"/>
+    <moqui.basic.LocalizedMessage original="Uncancel Receivable" locale="zh" localized="撤销应收的取消"/>
+    <moqui.basic.LocalizedMessage original="Unconfirm" locale="zh" localized="取消确认"/>
+    <moqui.basic.LocalizedMessage original="Undeliver" locale="zh" localized="撤销交付"/>
+    <moqui.basic.LocalizedMessage original="Undeliver and Unauthorize" locale="zh" localized="撤销交付并取消授权"/>
+    <moqui.basic.LocalizedMessage original="Undeposited Receipts" locale="zh" localized="未存入收据"/>
+    <moqui.basic.LocalizedMessage original="Unearned Revenue" locale="zh" localized="预收收入"/>
+    <moqui.basic.LocalizedMessage original="Uninvoiced Shipment Receipts" locale="zh" localized="未开票的发货单收货"/>
+    <moqui.basic.LocalizedMessage original="Union Dues" locale="zh" localized="工会会费"/>
+    <moqui.basic.LocalizedMessage original="Unissued Fixed Asset" locale="zh" localized="未发出固定资产"/>
+    <moqui.basic.LocalizedMessage original="Unpaid Salary Time Off" locale="zh" localized="无薪休假"/>
+    <moqui.basic.LocalizedMessage original="Unpay" locale="zh" localized="撤销付款"/>
+    <moqui.basic.LocalizedMessage original="Unreceived Fixed Asset" locale="zh" localized="未收到的固定资产"/>
+    <moqui.basic.LocalizedMessage original="Unreceived Inventory" locale="zh" localized="未收到的库存"/>
+    <moqui.basic.LocalizedMessage original="Unreconcile" locale="zh" localized="取消对账"/>
+    <moqui.basic.LocalizedMessage original="Utilities Electricity" locale="zh" localized="公用事业 - 电"/>
+    <moqui.basic.LocalizedMessage original="Utilities Expense" locale="zh" localized="公用事业费用"/>
+    <moqui.basic.LocalizedMessage original="Utilities Heating" locale="zh" localized="公用事业 - 供暖"/>
+    <moqui.basic.LocalizedMessage original="Utilities Trash/Recycle" locale="zh" localized="公用事业 - 垃圾/回收"/>
+    <moqui.basic.LocalizedMessage original="Utilities Vehicle Fuel" locale="zh" localized="公用事业 - 车辆燃料"/>
+    <moqui.basic.LocalizedMessage original="Utilities Water/Sewer" locale="zh" localized="公用事业 - 水/排污"/>
+    <moqui.basic.LocalizedMessage original="VAT Tax (not added to totals)" locale="zh" localized="增值税（不计入合计）"/>
+    <moqui.basic.LocalizedMessage original="Vacation Hourly" locale="zh" localized="休假时薪"/>
+    <moqui.basic.LocalizedMessage original="Vacation Salary" locale="zh" localized="休假薪金"/>
+    <moqui.basic.LocalizedMessage original="Validate Authorize" locale="zh" localized="验证并授权"/>
+    <moqui.basic.LocalizedMessage original="Vehicle Expense" locale="zh" localized="车辆费用"/>
+    <moqui.basic.LocalizedMessage original="WIP Inventory" locale="zh" localized="在制品库存"/>
+    <moqui.basic.LocalizedMessage original="Wage Garnishment" locale="zh" localized="工资扣押"/>
+    <moqui.basic.LocalizedMessage original="Warranty" locale="zh" localized="质保"/>
+    <moqui.basic.LocalizedMessage original="Wire Transfer" locale="zh" localized="电汇"/>
+    <moqui.basic.LocalizedMessage original="Work Effort" locale="zh" localized="任务"/>
+    <moqui.basic.LocalizedMessage original="Write Off" locale="zh" localized="核销"/>
+    <moqui.basic.LocalizedMessage original="Write-off" locale="zh" localized="核销"/>
+    <moqui.basic.LocalizedMessage original="ZBA Credit Transfer" locale="zh" localized="ZBA 贷方转账"/>
+    <moqui.basic.LocalizedMessage original="ZBA Debit Transfer" locale="zh" localized="ZBA 借方转账"/>
+</entity-facade-xml>

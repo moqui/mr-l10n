@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${from} and ${to} are in one branch of the tree: a parent spans its sub-items" locale="zh" localized="${from} 与 ${to} 在树的同一分支上：父项包含其子项"/>
+    <moqui.basic.LocalizedMessage original="${hours} h rounded to ${rounded} h (the smallest entry)" locale="zh" localized="${hours} 小时已舍入为 ${rounded} 小时（最小记录）"/>
+    <moqui.basic.LocalizedMessage original="${id} is due on or after the day it starts" locale="zh" localized="${id} 的到期日在开始当天或之后"/>
+    <moqui.basic.LocalizedMessage original="${key} is closed" locale="zh" localized="${key} 已关闭"/>
+    <moqui.basic.LocalizedMessage original="${key} is in a template" locale="zh" localized="${key} 在模板中"/>
+    <moqui.basic.LocalizedMessage original="${kind} &quot;${name}&quot; is not in the project; left out" locale="zh" localized="${kind}「${name}」不在项目中；已略过"/>
+    <moqui.basic.LocalizedMessage original="${kind} &quot;${name}&quot; not made: ${error}" locale="zh" localized="${kind}「${name}」未创建：${error}"/>
+    <moqui.basic.LocalizedMessage original="${label} &quot;${text}&quot; is not a date we read; left empty" locale="zh" localized="${label}「${text}」不是可识别的日期；已留空"/>
+    <moqui.basic.LocalizedMessage original="${label} &quot;${text}&quot; is not a number; left empty" locale="zh" localized="${label}「${text}」不是数字；已留空"/>
+    <moqui.basic.LocalizedMessage original="${name} matches several people" locale="zh" localized="${name} 匹配到多个人"/>
+    <moqui.basic.LocalizedMessage original="${settingTypeEnumId} is not a project setting" locale="zh" localized="${settingTypeEnumId} 不是项目设置"/>
+    <moqui.basic.LocalizedMessage original="${to} already waits for ${from}, so ${from} cannot wait for it" locale="zh" localized="${to} 已在等待 ${from}，因此 ${from} 不能等待它"/>
+    <moqui.basic.LocalizedMessage original="${workEffortCategoryId} is not a label" locale="zh" localized="${workEffortCategoryId} 不是标签"/>
+    <moqui.basic.LocalizedMessage original="(no subject)" locale="zh" localized="（无主题）"/>
+    <moqui.basic.LocalizedMessage original="(no title)" locale="zh" localized="（无标题）"/>
+    <moqui.basic.LocalizedMessage original="A comment needs some text" locale="zh" localized="评论需要一些文字"/>
+    <moqui.basic.LocalizedMessage original="A milestone share of the line is billed: the line stays the project's" locale="zh" localized="该行的里程碑份额已开票：该行仍属于项目"/>
+    <moqui.basic.LocalizedMessage original="A percent is over 0 and at most 100" locale="zh" localized="百分比须大于 0 且至多 100"/>
+    <moqui.basic.LocalizedMessage original="A percent of capacity is above 0 and at most 100" locale="zh" localized="产能百分比须大于 0 且至多 100"/>
+    <moqui.basic.LocalizedMessage original="A project repository is local or db" locale="zh" localized="项目代码库为 local 或 db"/>
+    <moqui.basic.LocalizedMessage original="A repository ID has letters, digits, '_', '.' and '-', and does not end in .git" locale="zh" localized="代码库 ID 只能含字母、数字、'_'、'.' 和 '-'，且不能以 .git 结尾"/>
+    <moqui.basic.LocalizedMessage original="A review comment is on an old or a new line" locale="zh" localized="评审评论位于旧行或新行"/>
+    <moqui.basic.LocalizedMessage original="A sprint ends after it starts" locale="zh" localized="冲刺的结束须在开始之后"/>
+    <moqui.basic.LocalizedMessage original="A sprint needs a name" locale="zh" localized="冲刺需要名称"/>
+    <moqui.basic.LocalizedMessage original="A week is of a person" locale="zh" localized="一周属于一个人"/>
+    <moqui.basic.LocalizedMessage original="A work item does not depend on itself" locale="zh" localized="工作项不能依赖自身"/>
+    <moqui.basic.LocalizedMessage original="A working day is more than 0 and at most 24 hours" locale="zh" localized="一个工作日须大于 0 且至多 24 小时"/>
+    <moqui.basic.LocalizedMessage original="Added ${addedCount} products to category ${ec.resource.expand('ProductCategoryNameTemplate','',productCategory)} (${alreadyCount} were already in it)" locale="zh" localized="已添加 ${addedCount} 个产品到分类 ${ec.resource.expand('ProductCategoryNameTemplate','',productCategory)}（其中 ${alreadyCount} 个原本就在其中）"/>
+    <moqui.basic.LocalizedMessage original="Added feature ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} to ${addedCount} products (${alreadyCount} already had it)" locale="zh" localized="已把特征 ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} 加到 ${addedCount} 个产品（${alreadyCount} 个原本就有）"/>
+    <moqui.basic.LocalizedMessage original="Allocation approved" locale="zh" localized="分配已批准"/>
+    <moqui.basic.LocalizedMessage original="Allocation cancelled" locale="zh" localized="分配已取消"/>
+    <moqui.basic.LocalizedMessage original="Allocation changed" locale="zh" localized="分配已变更"/>
+    <moqui.basic.LocalizedMessage original="Allocation rejected" locale="zh" localized="分配已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Allocation requested" locale="zh" localized="分配已请求"/>
+    <moqui.basic.LocalizedMessage original="Already logged: an entry starting then is there" locale="zh" localized="已经登记：已有从该时刻开始的记录"/>
+    <moqui.basic.LocalizedMessage original="Already packed, assembly has ${ec.l10n.format(assemblyQuantity, null)} out of ${ec.l10n.format(shipmentTotalQuantity, null)} of component ${ec.resource.expand('ProductNameTemplate', null, componentProduct)}" locale="zh" localized="已经装箱，装配含有 ${ec.l10n.format(assemblyQuantity, null)} / ${ec.l10n.format(shipmentTotalQuantity, null)} 的组件 ${ec.resource.expand('ProductNameTemplate', null, componentProduct)}"/>
+    <moqui.basic.LocalizedMessage original="Amount is 0.00, not creating Payments" locale="zh" localized="金额为 0.00，不创建付款"/>
+    <moqui.basic.LocalizedMessage original="An allocated person is changed by cancelling the allocation and making another" locale="zh" localized="要更换已分配的人，请取消该分配并新建另一个"/>
+    <moqui.basic.LocalizedMessage original="An allocation is at most two years long" locale="zh" localized="一次分配最长两年"/>
+    <moqui.basic.LocalizedMessage original="An allocation is on a project or a work item of one" locale="zh" localized="分配位于一个项目或其工作项上"/>
+    <moqui.basic.LocalizedMessage original="An allocation needs its first and last days" locale="zh" localized="分配需要第一天和最后一天"/>
+    <moqui.basic.LocalizedMessage original="An amount is over 0" locale="zh" localized="金额须大于 0"/>
+    <moqui.basic.LocalizedMessage original="An approval is already waiting" locale="zh" localized="已有审批在等待"/>
+    <moqui.basic.LocalizedMessage original="An approval is waiting: cancel it before taking the gate off" locale="zh" localized="有审批在等待：去掉关口前请先取消它"/>
+    <moqui.basic.LocalizedMessage original="An event ends after it starts" locale="zh" localized="事件的结束须在开始之后"/>
+    <moqui.basic.LocalizedMessage original="An event needs a title" locale="zh" localized="事件需要标题"/>
+    <moqui.basic.LocalizedMessage original="An item is not its own parent; imported at the top level" locale="zh" localized="项不能以自身为父项；已导入到顶层"/>
+    <moqui.basic.LocalizedMessage original="Approve or refuse it on the project." locale="zh" localized="请在项目上批准或拒绝。"/>
+    <moqui.basic.LocalizedMessage original="Approvers are project, line or any" locale="zh" localized="审批人是 project、line 或 any"/>
+    <moqui.basic.LocalizedMessage original="Assembly Task ${shipment.assemblyWorkEffortId} already exists for Shipment ${shipmentId}" locale="zh" localized="装配任务 ${shipment.assemblyWorkEffortId} 已存在于发货单 ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Assembly product ${ec.resource.expand('ProductNameTemplate', null, assemblyProduct)} not found on Shipment ${shipmentId}" locale="zh" localized="找不到装配产品 ${ec.resource.expand('ProductNameTemplate', null, assemblyProduct)}（发货单 ${shipmentId}）"/>
+    <moqui.basic.LocalizedMessage original="Asset ${assetId} not found, not packing" locale="zh" localized="未找到资产 ${assetId}，不装箱"/>
+    <moqui.basic.LocalizedMessage original="Asset not found for ID ${assetId}" locale="zh" localized="找不到 ID 为 ${assetId} 的资产"/>
+    <moqui.basic.LocalizedMessage original="Asset not found with ID ${assetId}" locale="zh" localized="找不到 ID 为 ${assetId} 的资产"/>
+    <moqui.basic.LocalizedMessage original="Asset product ${asset.productId} is not the same as shipment assembly component ${ec.resource.expand('ProductNameTemplate', null, componentProduct)}, not packing" locale="zh" localized="资产产品 ${asset.productId} 与发货单装配组件 ${ec.resource.expand('ProductNameTemplate', null, componentProduct)} 不同，不装箱"/>
+    <moqui.basic.LocalizedMessage original="Asset product ${asset.productId} is not the same as shipment item product ${shipmentItemSource.productId}, not packing" locale="zh" localized="资产产品 ${asset.productId} 与发货单项产品 ${shipmentItemSource.productId} 不同，不装箱"/>
+    <moqui.basic.LocalizedMessage original="Badge expired" locale="zh" localized="工牌已过期"/>
+    <moqui.basic.LocalizedMessage original="Badge not yet valid" locale="zh" localized="工牌尚未生效"/>
+    <moqui.basic.LocalizedMessage original="Billable" locale="zh" localized="可计费"/>
+    <moqui.basic.LocalizedMessage original="Billable ${value} not read; billable" locale="zh" localized="未能读取可计费值 ${value}；仍为可计费"/>
+    <moqui.basic.LocalizedMessage original="Box type ${shipmentBoxTypeId} has no weight" locale="zh" localized="箱型 ${shipmentBoxTypeId} 没有重量"/>
+    <moqui.basic.LocalizedMessage original="Box type ${shipmentBoxTypeId} has no weight unit (UOM)" locale="zh" localized="箱型 ${shipmentBoxTypeId} 没有重量单位（UOM）"/>
+    <moqui.basic.LocalizedMessage original="Box type not found with ID ${shipmentBoxTypeId}" locale="zh" localized="找不到 ID 为 ${shipmentBoxTypeId} 的箱型"/>
+    <moqui.basic.LocalizedMessage original="Budget ${budgetId} has no Time Period" locale="zh" localized="预算 ${budgetId} 没有时间期间"/>
+    <moqui.basic.LocalizedMessage original="Budget must have a Time Period and a Sub-Period Type" locale="zh" localized="预算必须有时间期间和子期间类型"/>
+    <moqui.basic.LocalizedMessage original="Canceled return shipment ${shipmentId}" locale="zh" localized="已取消退货发货单 ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot Close Picklist ${workEffortId} in status ${workEffort.status?.description || workEffort.statusId}" locale="zh" localized="不能关闭拣货单 ${workEffortId}，其状态为 ${workEffort.status?.description || workEffort.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot Complete Picklist ${workEffortId} in status ${workEffort.status?.description || workEffort.statusId}" locale="zh" localized="不能完成拣货单 ${workEffortId}，其状态为 ${workEffort.status?.description || workEffort.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot add Order Part in status ${orderPart.statusId} to Shipment" locale="zh" localized="不能把状态为 ${orderPart.statusId} 的订单部分加到发货单"/>
+    <moqui.basic.LocalizedMessage original="Cannot add Order Part to Shipment in status ${shipment.statusId}" locale="zh" localized="不能把订单部分加到状态为 ${shipment.statusId} 的发货单"/>
+    <moqui.basic.LocalizedMessage original="Cannot add Order to Picklist ${workEffortId} in status ${workEffort.status?.description || workEffort.statusId}" locale="zh" localized="不能把订单加到拣货单 ${workEffortId}，其状态为 ${workEffort.status?.description || workEffort.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot add Shipment ${shipmentId} in status ${shipment.status?.description || shipment.statusId}" locale="zh" localized="不能添加发货单 ${shipmentId}，其状态为 ${shipment.status?.description || shipment.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot add Shipment to Picklist ${workEffortId} in status ${workEffort.status?.description || workEffort.statusId}" locale="zh" localized="不能把发货单加到拣货单 ${workEffortId}，其状态为 ${workEffort.status?.description || workEffort.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot add items to return in status ${returnHeader.status?.description}" locale="zh" localized="不能向状态为 ${returnHeader.status?.description} 的退货添加货品"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel Order Part ${orderId}:${orderPartSeqId}, already Completed" locale="zh" localized="不能取消订单部分 ${orderId}:${orderPartSeqId}，已是已完成"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel issuance ${assetIssuanceId}, already on invoice ${assetIssuance.invoiceId}" locale="zh" localized="不能取消出库 ${assetIssuanceId}，已在发票 ${assetIssuance.invoiceId} 上"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel order ${orderId}, already Completed" locale="zh" localized="不能取消订单 ${orderId}，已是已完成"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel quantity ${cancelQuantity}, only ${notIssuedQuantity} not yet shipped for Order Item ${orderId}:${orderItemSeqId}" locale="zh" localized="不能取消数量 ${cancelQuantity}，尚未发货的只有 ${notIssuedQuantity}（订单项 ${orderId}:${orderItemSeqId}）"/>
+    <moqui.basic.LocalizedMessage original="Cannot convert quantity for product [${productId}], no amountUomId found." locale="zh" localized="不能换算产品 [${productId}] 的数量，未找到 amountUomId。"/>
+    <moqui.basic.LocalizedMessage original="Cannot create Shipment for Order Part in status ${orderPart.statusId}" locale="zh" localized="不能为状态为 ${orderPart.statusId} 的订单部分创建发货单"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete package ${shipmentPackageSeqId}, has items in it" locale="zh" localized="不能删除包裹 ${shipmentPackageSeqId}，其中有货品"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete time entry ${timeEntryId}. Found child Time Entry." locale="zh" localized="不能删除工时记录 ${timeEntryId}。找到了子工时记录。"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete time entry ${timeEntryId}. It has already been invoiced." locale="zh" localized="不能删除工时记录 ${timeEntryId}。它已开票。"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete work effort ${workEffortId}. Found ${relatedValue.getEntityNamePretty()}." locale="zh" localized="不能删除作业 ${workEffortId}。找到了 ${relatedValue.getEntityNamePretty()}。"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete work effort ${workEffortId}. Found Time Entries." locale="zh" localized="不能删除作业 ${workEffortId}。找到了工时记录。"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete work effort ${workEffortId}. Found Work Efforty Parties." locale="zh" localized="不能删除作业 ${workEffortId}。找到了作业参与方。"/>
+    <moqui.basic.LocalizedMessage original="Cannot delete work effort ${workEffortId}. Found child Work Efforts." locale="zh" localized="不能删除作业 ${workEffortId}。找到了子作业。"/>
+    <moqui.basic.LocalizedMessage original="Cannot find employment relationship" locale="zh" localized="找不到雇佣关系"/>
+    <moqui.basic.LocalizedMessage original="Cannot get available inventory for order ${orderId} part ${orderPartSeqId}, no facility on order part and no store on header" locale="zh" localized="不能取得订单 ${orderId} 部分 ${orderPartSeqId} 的可用库存，订单部分没有设施，且订单头没有商店"/>
+    <moqui.basic.LocalizedMessage original="Cannot have overlapping employments." locale="zh" localized="雇佣期间不能重叠。"/>
+    <moqui.basic.LocalizedMessage original="Cannot issue asset for Shipment ${shipmentId} without either assetId or orderId and orderItemSeqId" locale="zh" localized="不能为发货单 ${shipmentId} 出库资产，除非有 assetId，或同时有 orderId 和 orderItemSeqId"/>
+    <moqui.basic.LocalizedMessage original="Cannot merge, From Party ${fromPartyId} not found" locale="zh" localized="不能合并，找不到来源参与方 ${fromPartyId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot merge, To Party ${toPartyId} not found" locale="zh" localized="不能合并，找不到目标参与方 ${toPartyId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot move asset ${assetId} with status ${asset.statusId} to target location ${locationSeqId} of type ${checkFacLoc?.locationTypeEnumId} with auto status ${autoStatusId}" locale="zh" localized="不能移动资产 ${assetId}（状态 ${asset.statusId}）到目标位置 ${locationSeqId}（类型 ${checkFacLoc?.locationTypeEnumId}，自动状态 ${autoStatusId}）"/>
+    <moqui.basic.LocalizedMessage original="Cannot pack Shipment ${shipmentId} in status ${shipment.status?.description || shipment.statusId}" locale="zh" localized="不能装箱发货单 ${shipmentId}，其状态为 ${shipment.status?.description || shipment.statusId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot process return responses for supplier purchase return" locale="zh" localized="不能处理供应商采购退货的退货响应"/>
+    <moqui.basic.LocalizedMessage original="Cannot receive Product ${productId} on Shipment ${shipmentId}, no facilityId specified." locale="zh" localized="不能接收产品 ${productId}（发货单 ${shipmentId}），未指定 facilityId。"/>
+    <moqui.basic.LocalizedMessage original="Cannot reject Order Part ${orderId}:${orderPartSeqId}, already Completed" locale="zh" localized="不能拒绝订单部分 ${orderId}:${orderPartSeqId}，已是已完成"/>
+    <moqui.basic.LocalizedMessage original="Cannot reject order ${orderId}, already Completed" locale="zh" localized="不能拒绝订单 ${orderId}，已是已完成"/>
+    <moqui.basic.LocalizedMessage original="Cannot reject quantity ${cancelQuantity}, only ${notIssuedQuantity} not yet shipped for Order Item ${orderId}:${orderItemSeqId}" locale="zh" localized="不能拒绝数量 ${cancelQuantity}，尚未发货的只有 ${notIssuedQuantity}（订单项 ${orderId}:${orderItemSeqId}）"/>
+    <moqui.basic.LocalizedMessage original="Cannot restore tenant access, no Tenant ID set in resourceInstanceId" locale="zh" localized="不能恢复租户访问，resourceInstanceId 中未设置租户 ID"/>
+    <moqui.basic.LocalizedMessage original="Cannot revoke tenant access, no Tenant ID set in resourceInstanceId" locale="zh" localized="不能撤销租户访问，resourceInstanceId 中未设置租户 ID"/>
+    <moqui.basic.LocalizedMessage original="Cannot unpack issuance ${assetIssuanceId}, has no shipment item source" locale="zh" localized="不能拆箱出库 ${assetIssuanceId}，没有发货货品来源"/>
+    <moqui.basic.LocalizedMessage original="Cannot unpack issuance ${assetIssuanceId}, item source ${assetIssuance.shipmentItemSourceId} already on invoice ${shipmentItemSource.invoiceId}" locale="zh" localized="不能拆箱出库 ${assetIssuanceId}，货品来源 ${assetIssuance.shipmentItemSourceId} 已在发票 ${shipmentItemSource.invoiceId} 上"/>
+    <moqui.basic.LocalizedMessage original="Cannot unpack issuance ${assetIssuanceId}, not on a shipment" locale="zh" localized="不能拆箱出库 ${assetIssuanceId}，不在发货单上"/>
+    <moqui.basic.LocalizedMessage original="Cannot update Asset and Receipt, could not find AssetReceipt record for assetId [${assetId}], shipmentId [${shipmentId}]" locale="zh" localized="不能更新资产和收货，找不到 assetId [${assetId}]、shipmentId [${shipmentId}] 的 AssetReceipt 记录"/>
+    <moqui.basic.LocalizedMessage original="Capacity covers at most 400 days" locale="zh" localized="产能最多覆盖 400 天"/>
+    <moqui.basic.LocalizedMessage original="Capacity needs days as yyyy-MM-dd" locale="zh" localized="产能的日期须为 yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="Capacity needs the last day on or after the first" locale="zh" localized="产能的最后一天须在第一天或之后"/>
+    <moqui.basic.LocalizedMessage original="Captured credit card and other payments total ${paymentTotal} is less than shipment invoice total ${invoiceTotal} so not automatically getting labels" locale="zh" localized="已请款的信用卡及其他付款合计 ${paymentTotal} 小于发货单发票总额 ${invoiceTotal}，因此不自动获取标签"/>
+    <moqui.basic.LocalizedMessage original="Changelog" locale="zh" localized="变更记录"/>
+    <moqui.basic.LocalizedMessage original="Choose the approver" locale="zh" localized="选择审批人"/>
+    <moqui.basic.LocalizedMessage original="Choose the project of the work item" locale="zh" localized="选择工作项所属的项目"/>
+    <moqui.basic.LocalizedMessage original="Choose the repository for the branch" locale="zh" localized="选择分支所用的代码库"/>
+    <moqui.basic.LocalizedMessage original="Choose two different labels" locale="zh" localized="请选择两个不同的标签"/>
+    <moqui.basic.LocalizedMessage original="Classification already set on party" locale="zh" localized="参与方上已设置分类"/>
+    <moqui.basic.LocalizedMessage original="Contact Info with ID ${contactMechId} is not associated with party ${partyId}, not updating." locale="zh" localized="ID 为 ${contactMechId} 的联系信息不关联参与方 ${partyId}，不更新。"/>
+    <moqui.basic.LocalizedMessage original="Contact info ${contactMechId} for party ${partyId} not found" locale="zh" localized="找不到联系信息 ${contactMechId}（参与方 ${partyId}）"/>
+    <moqui.basic.LocalizedMessage original="Container not found with ID or Serial Number ${toContainerId}" locale="zh" localized="找不到 ID 或序列号为 ${toContainerId} 的集装箱"/>
+    <moqui.basic.LocalizedMessage original="Container not found with ID or serial number ${containerId}" locale="zh" localized="找不到 ID 或序列号为 ${containerId} 的集装箱"/>
+    <moqui.basic.LocalizedMessage original="Could not change status for picklist ${workEffortId}, transition not valid from ${weStatusId} to ${targetStatusId}" locale="zh" localized="不能更改拣货单 ${workEffortId} 的状态，从 ${weStatusId} 到 ${targetStatusId} 的转换无效"/>
+    <moqui.basic.LocalizedMessage original="Could not find Order Item ${orderId}:${orderItemSeqId}" locale="zh" localized="找不到订单项 ${orderId}:${orderItemSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Could not find Order Part ${orderId}:${orderPartSeqId}" locale="zh" localized="找不到订单部分 ${orderId}:${orderPartSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Could not find Order Part [${orderId}:${orderPartSeqId}]" locale="zh" localized="找不到订单部分 [${orderId}:${orderPartSeqId}]"/>
+    <moqui.basic.LocalizedMessage original="Could not find Product with ID ${scanProduct}" locale="zh" localized="找不到 ID 为 ${scanProduct} 的产品"/>
+    <moqui.basic.LocalizedMessage original="Could not find ShipmentItemSource with ID ${shipmentItemSourceId}" locale="zh" localized="找不到 ID 为 ${shipmentItemSourceId} 的 ShipmentItemSource"/>
+    <moqui.basic.LocalizedMessage original="Could not find WorkEffort with ID ${workEffortId}" locale="zh" localized="找不到 ID 为 ${workEffortId} 的作业"/>
+    <moqui.basic.LocalizedMessage original="Could not find available inventory for ${remainingQuantity} out of ${quantity}" locale="zh" localized="找不到可用库存：${remainingQuantity}（共 ${quantity}）"/>
+    <moqui.basic.LocalizedMessage original="Could not find employee with ID ${employeeId}" locale="zh" localized="找不到 ID 为 ${employeeId} 的员工"/>
+    <moqui.basic.LocalizedMessage original="Could not find facility to issue asset from for shipment ${shipmentId}" locale="zh" localized="找不到可为发货单 ${shipmentId} 出库资产的设施"/>
+    <moqui.basic.LocalizedMessage original="Could not find inventory facility for shipment ${shipmentId} and order item ${ec.resource.expand('OrderItemNameTemplate','')}" locale="zh" localized="找不到发货单 ${shipmentId} 与订单项 ${ec.resource.expand('OrderItemNameTemplate','')} 的库存设施"/>
+    <moqui.basic.LocalizedMessage original="Could not find product for shipment ${shipmentId} asset ${assetId} order item ${orderId}:${orderItemSeqId}" locale="zh" localized="找不到发货单 ${shipmentId}、资产 ${assetId}、订单项 ${orderId}:${orderItemSeqId} 的产品"/>
+    <moqui.basic.LocalizedMessage original="Could not find product on shipment ${shipmentId} with scanned ID ${scanInput}" locale="zh" localized="在发货单 ${shipmentId} 上找不到扫描 ID 为 ${scanInput} 的产品"/>
+    <moqui.basic.LocalizedMessage original="Could not get labels, not printing or getting return labels" locale="zh" localized="无法获取标签，不打印也不获取退货标签"/>
+    <moqui.basic.LocalizedMessage original="Could not get order shipping rate, no order rate service on gateway ${shippingGatewayConfig.shippingGatewayConfigId}" locale="zh" localized="无法取得订单运费，网关 ${shippingGatewayConfig.shippingGatewayConfigId} 上没有订单费率服务"/>
+    <moqui.basic.LocalizedMessage original="Could not pack and issue ${quantityRemaining} of ${quantity}, inventory not available, not packing (component ${productId} assemblies ${allAssemblyProductIds})" locale="zh" localized="无法装箱并出库 ${quantityRemaining} / ${quantity}，库存不可用，不装箱（组件 ${productId}，装配 ${allAssemblyProductIds}）"/>
+    <moqui.basic.LocalizedMessage original="Could not reduce quantity by ${quantityRemaining}, insufficient quantity on hand." locale="zh" localized="无法将数量减少 ${quantityRemaining}，现存量不足。"/>
+    <moqui.basic.LocalizedMessage original="Create Container ID and to Container ID both specified, not creating container or moving assets" locale="zh" localized="已同时指定创建集装箱 ID 和目标集装箱 ID，不创建集装箱也不移动资产"/>
+    <moqui.basic.LocalizedMessage original="Create Container ID specified but no location specified, must specify location to create a container and move to" locale="zh" localized="已指定创建集装箱 ID 但未指定位置，必须指定位置才能创建集装箱并移入"/>
+    <moqui.basic.LocalizedMessage original="Create Container ID specified but scanned location ${toScanLocation} not a known location" locale="zh" localized="已指定创建集装箱 ID，但扫描的位置 ${toScanLocation} 不是已知位置"/>
+    <moqui.basic.LocalizedMessage original="Created ${picklistsCreated} picklists for ${orderPartList.length} orders" locale="zh" localized="已创建 ${picklistsCreated} 个拣货单，对应 ${orderPartList.length} 个订单"/>
+    <moqui.basic.LocalizedMessage original="Created Order ${orderId} as a clone of Order ${baseOrderId}" locale="zh" localized="已创建订单 ${orderId}，作为订单 ${baseOrderId} 的克隆"/>
+    <moqui.basic.LocalizedMessage original="Created container with serial number ${createContainerId} (internal ID ${toContainerId})" locale="zh" localized="已创建序列号为 ${createContainerId} 的集装箱（内部 ID ${toContainerId}）"/>
+    <moqui.basic.LocalizedMessage original="Deleted product ${product.pseudoId}: ${product.productName}" locale="zh" localized="已删除产品 ${product.pseudoId}：${product.productName}"/>
+    <moqui.basic.LocalizedMessage original="Directory party ${fromPartyId} cannot be merged into personal contact ${toPartyId}; link the personal contact to the directory instead" locale="zh" localized="目录参与方 ${fromPartyId} 不能合并到个人联系人 ${toPartyId}；请改为把个人联系人关联到目录"/>
+    <moqui.basic.LocalizedMessage original="Due before its start; the start is left empty" locale="zh" localized="到期早于开始；开始留空"/>
+    <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList[0].username}" locale="zh" localized="电子邮件 ${emailAddress} 已被使用。请用用户名 ${existingUaList[0].username} 登录"/>
+    <moqui.basic.LocalizedMessage original="Email record missing" locale="zh" localized="缺少电子邮件记录"/>
+    <moqui.basic.LocalizedMessage original="Email sent to ${toAddresses}${sendOut.emailMessageId ? ', message ID ' + sendOut.emailMessageId : ''}" locale="zh" localized="电子邮件已发送至 ${toAddresses}${sendOut.emailMessageId ? '，消息 ID ' + sendOut.emailMessageId : ''}"/>
+    <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is no longer employed" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 已不再受雇"/>
+    <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is not paid in this type of period" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 不在此类期间领取工资"/>
+    <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is not yet employed" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 尚未受雇"/>
+    <moqui.basic.LocalizedMessage original="Employee has no pay for employment ${partyRelationshipId}, time period ${timePeriodId}" locale="zh" localized="员工在雇佣 ${partyRelationshipId}、时间期间 ${timePeriodId} 没有工资"/>
+    <moqui.basic.LocalizedMessage original="Employment pay already processed for employment ${partyRelationshipId}, time period ${timePeriodId}" locale="zh" localized="雇佣 ${partyRelationshipId}、时间期间 ${timePeriodId} 的工资已处理"/>
+    <moqui.basic.LocalizedMessage original="Feature ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} already applied" locale="zh" localized="特征 ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} 已应用"/>
+    <moqui.basic.LocalizedMessage original="Feature ${existingList[0].description} of type ${typeEnum?.description || productFeatureTypeEnumId} already exists" locale="zh" localized="特征 ${existingList[0].description}（类型 ${typeEnum?.description || productFeatureTypeEnumId}）已存在"/>
+    <moqui.basic.LocalizedMessage original="For employment [${partyRelationshipId}] invoice total [${totalOut.invoiceTotal}] did not match net pay [${netPayAmount}]" locale="zh" localized="雇佣 [${partyRelationshipId}] 的发票总额 [${totalOut.invoiceTotal}] 与净工资 [${netPayAmount}] 不一致"/>
+    <moqui.basic.LocalizedMessage original="For outgoing shipments cannot increase quantity above what is on related order items (${increaseRemaining} too many)" locale="zh" localized="出站发货单不能把数量增加到超过相关订单项（多出 ${increaseRemaining}）"/>
+    <moqui.basic.LocalizedMessage original="For reservation ${assetReservation.assetReservationId} tried to issue quantity ${assetReservation.quantity} which is greater than quantity on hand ${curAsset.quantityOnHandTotal} for asset ${curAsset.assetId}, skipping" locale="zh" localized="预留 ${assetReservation.assetReservationId} 试图出库数量 ${assetReservation.quantity}，大于现存量 ${curAsset.quantityOnHandTotal}（资产 ${curAsset.assetId}），已跳过"/>
+    <moqui.basic.LocalizedMessage original="For reservation ${assetReservation.assetReservationId} tried to issue quantity ${quantity} which is greater than quantity not issued ${assetReservation.quantityNotIssued} for the reservation" locale="zh" localized="预留 ${assetReservation.assetReservationId} 试图出库数量 ${quantity}，大于该预留未出库数量 ${assetReservation.quantityNotIssued}"/>
+    <moqui.basic.LocalizedMessage original="For reservation ${assetReservation.assetReservationId} tried to issue quantity ${quantity} which is greater than quantity on hand ${asset.quantityOnHandTotal} for asset ${asset.assetId}" locale="zh" localized="预留 ${assetReservation.assetReservationId} 试图出库数量 ${quantity}，大于现存量 ${asset.quantityOnHandTotal}（资产 ${asset.assetId}）"/>
+    <moqui.basic.LocalizedMessage original="For work effort ${workEffortId} tried to issue quantity ${quantity} which is greater than quantity on hand ${asset.quantityOnHandTotal} for asset ${asset.assetId}" locale="zh" localized="作业 ${workEffortId} 试图出库数量 ${quantity}，大于现存量 ${asset.quantityOnHandTotal}（资产 ${asset.assetId}）"/>
+    <moqui.basic.LocalizedMessage original="Found ${approvedCount} invoices in Approved or later status, cannot re-open period" locale="zh" localized="发现 ${approvedCount} 张处于已批准或之后状态的发票，不能重新打开期间"/>
+    <moqui.basic.LocalizedMessage original="Found ${relatedValue.getEntityNamePretty()}. Cannot delete employment." locale="zh" localized="找到 ${relatedValue.getEntityNamePretty()}。不能删除雇佣。"/>
+    <moqui.basic.LocalizedMessage original="Found more than one product on shipment ${shipmentId} with Serial Number ${scanInput}, scan internal product or asset ID or manually select the product to pack" locale="zh" localized="发货单 ${shipmentId} 上有多个序列号为 ${scanInput} 的产品，请扫描内部产品或资产 ID，或手动选择要装箱的产品"/>
+    <moqui.basic.LocalizedMessage original="Found more than one product on shipment ${shipmentId} with other ID ${scanInput}, scan internal product or asset ID or manually select the product to pack" locale="zh" localized="发货单 ${shipmentId} 上有多个其他 ID 为 ${scanInput} 的产品，请扫描内部产品或资产 ID，或手动选择要装箱的产品"/>
+    <moqui.basic.LocalizedMessage original="Found order [${orderId}] in status ${statusItem.description}, cannot be updated" locale="zh" localized="订单 [${orderId}] 处于状态 ${statusItem.description}，不能更新"/>
+    <moqui.basic.LocalizedMessage original="From Party ${fromPartyId} already merged to Party ${fromParty.mergedToPartyId}" locale="zh" localized="来源参与方 ${fromPartyId} 已合并到参与方 ${fromParty.mergedToPartyId}"/>
+    <moqui.basic.LocalizedMessage original="From Party ${fromPartyId} is an internal organization, cannot merge/disable" locale="zh" localized="来源参与方 ${fromPartyId} 是内部组织，不能合并或停用"/>
+    <moqui.basic.LocalizedMessage original="From Party ID is the same as To, not merging" locale="zh" localized="来源参与方 ID 与目标相同，不合并"/>
+    <moqui.basic.LocalizedMessage original="From date ${ec.l10n.format(fromDate, 'yyyy-MM-dd HH:mm:ss.SSS')} is after thru date ${ec.l10n.format(thruDate, 'yyyy-MM-dd HH:mm:ss.SSS')}" locale="zh" localized="开始日期 ${ec.l10n.format(fromDate, 'yyyy-MM-dd HH:mm:ss.SSS')} 晚于结束日期 ${ec.l10n.format(thruDate, 'yyyy-MM-dd HH:mm:ss.SSS')}"/>
+    <moqui.basic.LocalizedMessage original="Garnishment rates/amounts must be negative adjustments." locale="zh" localized="扣押费率/金额必须为负向调整。"/>
+    <moqui.basic.LocalizedMessage original="Git repository ${repositoryId} already exists" locale="zh" localized="Git 代码库 ${repositoryId} 已存在"/>
+    <moqui.basic.LocalizedMessage original="Git repository ${repositoryId} not found" locale="zh" localized="未找到 Git 代码库 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="Give the reason" locale="zh" localized="请说明原因"/>
+    <moqui.basic.LocalizedMessage original="Give the share as a percent or as an amount" locale="zh" localized="请用百分比或金额给出份额"/>
+    <moqui.basic.LocalizedMessage original="Give the work item a due date before it repeats" locale="zh" localized="请在工作项重复之前给出到期日"/>
+    <moqui.basic.LocalizedMessage original="Hours" locale="zh" localized="小时"/>
+    <moqui.basic.LocalizedMessage original="Hours a week are above 0 and at most 168" locale="zh" localized="每周小时数须大于 0 且至多 168"/>
+    <moqui.basic.LocalizedMessage original="In check facility ${facilityId} reservations found ${invalidReservationCount} invalid reservations with total quantity ${quantityNotValid}" locale="zh" localized="检查设施 ${facilityId} 的预留时，发现 ${invalidReservationCount} 条无效预留，数量合计 ${quantityNotValid}"/>
+    <moqui.basic.LocalizedMessage original="In check facility ${facilityId} reservations moved ${quantityMoved} not available reservations to available inventory" locale="zh" localized="检查设施 ${facilityId} 的预留时，已将数量 ${quantityMoved} 的不可用预留移到可用库存"/>
+    <moqui.basic.LocalizedMessage original="In move issuance to new shipment no Order Item found on order ${newOrderId} for product ${issuance.productId}" locale="zh" localized="把出库移到新发货单时，订单 ${newOrderId} 上找不到产品 ${issuance.productId} 的订单项"/>
+    <moqui.basic.LocalizedMessage original="In move#AssetReservation got negative quantity ${assetReservation.quantity}, quantity to move ${quantityToMove}" locale="zh" localized="在 move#AssetReservation 中得到负数量 ${assetReservation.quantity}，待移动数量 ${quantityToMove}"/>
+    <moqui.basic.LocalizedMessage original="In pack ShipmentItemSource found AssetReservation ${assetReservation.assetReservationId} with invalid (negative) quantityNotIssued ${assetReservation.quantityNotIssued}" locale="zh" localized="装箱 ShipmentItemSource 时，发现资产预留 ${assetReservation.assetReservationId} 的 quantityNotIssued 无效（为负）${assetReservation.quantityNotIssued}"/>
+    <moqui.basic.LocalizedMessage original="In progress" locale="zh" localized="进行中"/>
+    <moqui.basic.LocalizedMessage original="In reduce#AssetReservation got negative quantity ${existingRes.quantity}, quantity deducted ${curQuantityToDeduct}" locale="zh" localized="在 reduce#AssetReservation 中得到负数量 ${existingRes.quantity}，扣减数量 ${curQuantityToDeduct}"/>
+    <moqui.basic.LocalizedMessage original="In reserve#AssetForOrderItem (with assets found) got negative quantityToReserve ${quantityToReserve}" locale="zh" localized="在 reserve#AssetForOrderItem（已找到资产）中得到负的 quantityToReserve ${quantityToReserve}"/>
+    <moqui.basic.LocalizedMessage original="Incoming shipment ${shipmentId} has items already received, cannot cancel." locale="zh" localized="入站发货单 ${shipmentId} 已有货品收货，不能取消。"/>
+    <moqui.basic.LocalizedMessage original="Invalid Category ID ${categoryId}" locale="zh" localized="分类 ID ${categoryId} 无效"/>
+    <moqui.basic.LocalizedMessage original="Inventory insufficient, not updating order ${orderId}:${orderPartSeqId} product ${productId} for quantity ${quantity}" locale="zh" localized="库存不足，不更新订单 ${orderId}:${orderPartSeqId} 的产品 ${productId}，数量 ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Inventory not available, not updating order ${orderId}:${orderPartSeqId} product ${productId} for quantity ${quantity}" locale="zh" localized="库存不可用，不更新订单 ${orderId}:${orderPartSeqId} 的产品 ${productId}，数量 ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Inventory required but not all available, not placing order ${orderId}" locale="zh" localized="需要库存但并非全部可用，不下订单 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${invoiceId} already cancelled" locale="zh" localized="发票 ${invoiceId} 已取消"/>
+    <moqui.basic.LocalizedMessage original="Item ${orderItemSeqId} is not a product type item, not closing" locale="zh" localized="项 ${orderItemSeqId} 不是产品类型项，不关闭"/>
+    <moqui.basic.LocalizedMessage original="Item ${orderItemSeqId} is not a product type item, not rejecting" locale="zh" localized="项 ${orderItemSeqId} 不是产品类型项，不拒绝"/>
+    <moqui.basic.LocalizedMessage original="Items may be deleted only when item is in Created, Requested, and Cancelled statuses" locale="zh" localized="仅当项处于已创建、已请求和已取消状态时才能删除项"/>
+    <moqui.basic.LocalizedMessage original="Items may be deleted only when return is in Created, Requested, and Cancelled statuses" locale="zh" localized="仅当退货处于已创建、已请求和已取消状态时才能删除项"/>
+    <moqui.basic.LocalizedMessage original="Label &quot;${name}&quot; is not there; left out" locale="zh" localized="标签「${name}」不存在；已略过"/>
+    <moqui.basic.LocalizedMessage original="Loaded ${recordsLoaded} time detail records" locale="zh" localized="已载入 ${recordsLoaded} 条工时明细记录"/>
+    <moqui.basic.LocalizedMessage original="Loaded ${recordsLoaded} time summary records" locale="zh" localized="已载入 ${recordsLoaded} 条工时汇总记录"/>
+    <moqui.basic.LocalizedMessage original="Location [${locationSeqId}] is not valid in facility ${ec.resource.expand('FacilityNameTemplate', '', facility)}" locale="zh" localized="位置 [${locationSeqId}] 在设施 ${ec.resource.expand('FacilityNameTemplate', '', facility)} 中无效"/>
+    <moqui.basic.LocalizedMessage original="Location with ID ${locationSeqId} already exists in facility ${facilityId}" locale="zh" localized="ID 为 ${locationSeqId} 的位置已存在于设施 ${facilityId}"/>
+    <moqui.basic.LocalizedMessage original="Merge requests" locale="zh" localized="合并请求"/>
+    <moqui.basic.LocalizedMessage original="Milestones" locale="zh" localized="里程碑"/>
+    <moqui.basic.LocalizedMessage original="Missing" locale="zh" localized="缺失"/>
+    <moqui.basic.LocalizedMessage original="Move quantity ${quantity?.toString()} is greater than available quantity ${asset.availableToPromiseTotal?.toString()}" locale="zh" localized="移动数量 ${quantity?.toString()} 大于可用数量 ${asset.availableToPromiseTotal?.toString()}"/>
+    <moqui.basic.LocalizedMessage original="Move quantity ${quantity?.toString()} is greater than on hand quantity ${asset.quantityOnHandTotal?.toString()}" locale="zh" localized="移动数量 ${quantity?.toString()} 大于现存数量 ${asset.quantityOnHandTotal?.toString()}"/>
+    <moqui.basic.LocalizedMessage original="Moved other reservations for total quantity ${resQuantityMoved} from location ${ec.resource.expand(&quot;FacilityLocationNameTemplate&quot;, null, facilityLocation)} to Pick location ${ec.resource.expand(&quot;FacilityLocationNameTemplate&quot;, null, nonPickAsset)}" locale="zh" localized="已将其余预留共数量 ${resQuantityMoved} 从位置 ${ec.resource.expand(&quot;FacilityLocationNameTemplate&quot;, null, facilityLocation)} 移到拣货位置 ${ec.resource.expand(&quot;FacilityLocationNameTemplate&quot;, null, nonPickAsset)}"/>
+    <moqui.basic.LocalizedMessage original="Must specify either a contactMechId or contactMechPurposeId (or both)." locale="zh" localized="必须指定 contactMechId 或 contactMechPurposeId（或两者）。"/>
+    <moqui.basic.LocalizedMessage original="Must specify fromDate or thruDate" locale="zh" localized="必须指定开始日期或结束日期"/>
+    <moqui.basic.LocalizedMessage original="Name a person, or the role or skill of a placeholder to staff" locale="zh" localized="请指定人员，或待配备占位的角色或技能"/>
+    <moqui.basic.LocalizedMessage original="Name or email missing" locale="zh" localized="缺少名称或电子邮件"/>
+    <moqui.basic.LocalizedMessage original="No ${purposeDesc} piece rate amount found for time entry ${timeEntryId}" locale="zh" localized="未找到 ${purposeDesc} 的计件金额，工时记录为 ${timeEntryId}"/>
+    <moqui.basic.LocalizedMessage original="No Asset, Container, Location, or Product found with ID ${scanId}" locale="zh" localized="按 ID ${scanId} 未找到资产、集装箱、位置或产品"/>
+    <moqui.basic.LocalizedMessage original="No Origin Facility found on Shipment ${shipmentId}${toContainer != null ? ' or To Container ' + toContainer.containerId : ''}" locale="zh" localized="发货单 ${shipmentId}${toContainer != null ? ' 或目标容器 ' + toContainer.containerId : ''} 上找不到来源设施"/>
+    <moqui.basic.LocalizedMessage original="No Shipment ID specified" locale="zh" localized="未指定发货单 ID"/>
+    <moqui.basic.LocalizedMessage original="No Supplier set on item ${requestItem.requestItemSeqId} for Request ${requestId}" locale="zh" localized="项 ${requestItem.requestItemSeqId}（请求 ${requestId}）未设置供应商"/>
+    <moqui.basic.LocalizedMessage original="No approval waits on this milestone" locale="zh" localized="此里程碑没有等待中的审批"/>
+    <moqui.basic.LocalizedMessage original="No approved time yet" locale="zh" localized="还没有已批准的工时"/>
+    <moqui.basic.LocalizedMessage original="No assembly product found for component ${ec.resource.expand('ProductNameTemplate', null, componentProduct)} on Shipment ${shipmentId}" locale="zh" localized="找不到组件 ${ec.resource.expand('ProductNameTemplate', null, componentProduct)} 的装配产品（发货单 ${shipmentId}）"/>
+    <moqui.basic.LocalizedMessage original="No asset found for ID ${assetId}" locale="zh" localized="找不到 ID 为 ${assetId} 的资产"/>
+    <moqui.basic.LocalizedMessage original="No assets found for given parameters" locale="zh" localized="按给定参数未找到资产"/>
+    <moqui.basic.LocalizedMessage original="No assets found to issue to shipment ${shipmentId} with product ${productId} facility ${facilityId} and owner ${ownerPartyId}" locale="zh" localized="找不到可出库到发货单 ${shipmentId} 的资产，产品 ${productId}，设施 ${facilityId}，所有者 ${ownerPartyId}"/>
+    <moqui.basic.LocalizedMessage original="No badge found for scan value [${scanValue}]" locale="zh" localized="找不到扫描值 [${scanValue}] 的工牌"/>
+    <moqui.basic.LocalizedMessage original="No box type specified or set on package, not calculating weight" locale="zh" localized="未指定箱型，包裹上也没有，不计算重量"/>
+    <moqui.basic.LocalizedMessage original="No branch or tag ${refName} in repository ${repositoryId}" locale="zh" localized="没有分支或标签 ${refName}，代码库为 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="No client" locale="zh" localized="无客户"/>
+    <moqui.basic.LocalizedMessage original="No commit ${commitId} in repository ${repositoryId}" locale="zh" localized="没有提交 ${commitId}，代码库为 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="No component" locale="zh" localized="无组件"/>
+    <moqui.basic.LocalizedMessage original="No contents found for package ${shipmentPackageSeqId} of shipment ${shipmentId}, no calculating weight" locale="zh" localized="包裹 ${shipmentPackageSeqId}（发货单 ${shipmentId}）没有内容，不计算重量"/>
+    <moqui.basic.LocalizedMessage original="No customers found" locale="zh" localized="未找到客户"/>
+    <moqui.basic.LocalizedMessage original="No date" locale="zh" localized="无日期"/>
+    <moqui.basic.LocalizedMessage original="No documentation space id is free for this key" locale="zh" localized="此键没有空闲的文档空间 ID"/>
+    <moqui.basic.LocalizedMessage original="No employements found for time period" locale="zh" localized="未找到该时间期间的雇佣"/>
+    <moqui.basic.LocalizedMessage original="No hourly ${purposeDesc} rate amount found for time entry ${timeEntryId} for worker ${ec.resource.expand('PartyNameTemplate','',workerParty)}" locale="zh" localized="未找到 ${purposeDesc} 的小时费率，工时记录 ${timeEntryId}，工作人员 ${ec.resource.expand('PartyNameTemplate','',workerParty)}"/>
+    <moqui.basic.LocalizedMessage original="No hours, nor start and end" locale="zh" localized="没有小时数，也没有开始和结束"/>
+    <moqui.basic.LocalizedMessage original="No invoices found in period ${timePeriodId} for party ${partyId}" locale="zh" localized="期间 ${timePeriodId} 中找不到参与方 ${partyId} 的发票"/>
+    <moqui.basic.LocalizedMessage original="No location ID specified, and no area, aisle, section, level, or position to generate it" locale="zh" localized="未指定位置 ID，也没有区域、巷道、区段、层或位可用于生成"/>
+    <moqui.basic.LocalizedMessage original="No location or container specified, moving only assets with no location" locale="zh" localized="未指定位置或集装箱，只移动没有位置的资产"/>
+    <moqui.basic.LocalizedMessage original="No location specified, Facility ${facilityId} requires a location for inventory" locale="zh" localized="未指定位置，设施 ${facilityId} 的库存需要位置"/>
+    <moqui.basic.LocalizedMessage original="No location specified, facility ${ec.resource.expand('FacilityNameTemplate', '', facility)} requires a location for inventory" locale="zh" localized="未指定位置，设施 ${ec.resource.expand('FacilityNameTemplate', '', facility)} 的库存需要位置"/>
+    <moqui.basic.LocalizedMessage original="No matching Carrier Shipment Method found for Carrier ${shipOption.carrierPartyId} and Shipment Method ${shipOption.shipmentMethodEnumId}" locale="zh" localized="找不到承运商 ${shipOption.carrierPartyId} 与发货方式 ${shipOption.shipmentMethodEnumId} 匹配的承运商发货方式"/>
+    <moqui.basic.LocalizedMessage original="No networkPrinterId specified and no Shipment.networkPrinterId.default preference found" locale="zh" localized="未指定 networkPrinterId，也未找到首选项 Shipment.networkPrinterId.default"/>
+    <moqui.basic.LocalizedMessage original="No one matches the assignee &quot;${name}&quot;; left unassigned" locale="zh" localized="没有人匹配负责人「${name}」；已留为未分配"/>
+    <moqui.basic.LocalizedMessage original="No one matches the reporter &quot;${name}&quot;" locale="zh" localized="没有人匹配报告人「${name}」"/>
+    <moqui.basic.LocalizedMessage original="No origin Facility found for Shipment ${shipmentId}, ShipmentItemSource ${shipmentItemSourceId}, not trying to issue other inventory" locale="zh" localized="找不到发货单 ${shipmentId}、ShipmentItemSource ${shipmentItemSourceId} 的来源设施，不尝试出库其他库存"/>
+    <moqui.basic.LocalizedMessage original="No person ${name}" locale="zh" localized="没有人员 ${name}"/>
+    <moqui.basic.LocalizedMessage original="No person: the file has none and you have no party" locale="zh" localized="没有人员：文件中没有，而且您没有参与方"/>
+    <moqui.basic.LocalizedMessage original="No price found for Product ${orderItem.productId} on Order Item ${orderId}:${orderItemSeqId}, not resetting" locale="zh" localized="找不到产品 ${orderItem.productId} 在订单项 ${orderId}:${orderItemSeqId} 上的价格，不重置"/>
+    <moqui.basic.LocalizedMessage original="No prior Owner Party for Asset ${asset.assetId} while canceling issuance ${assetIssuanceId}, leaving current owner" locale="zh" localized="取消出库时，资产 ${asset.assetId} 没有先前的所有者参与方（出库 ${assetIssuanceId}），保留当前所有者"/>
+    <moqui.basic.LocalizedMessage original="No prior Status for Asset ${asset.assetId} while canceling issuance ${assetIssuanceId}, leaving current status" locale="zh" localized="取消出库时，资产 ${asset.assetId} 没有先前状态（出库 ${assetIssuanceId}），保留当前状态"/>
+    <moqui.basic.LocalizedMessage original="No priority" locale="zh" localized="无优先级"/>
+    <moqui.basic.LocalizedMessage original="No product specified and found more than one in the location, not moving" locale="zh" localized="未指定产品，且该位置有多个，不移动"/>
+    <moqui.basic.LocalizedMessage original="No products found to order (finished good or in category ${productCategoryId})" locale="zh" localized="未找到可订购的产品（成品或在分类 ${productCategoryId} 中）"/>
+    <moqui.basic.LocalizedMessage original="No products specified" locale="zh" localized="未指定产品"/>
+    <moqui.basic.LocalizedMessage original="No project" locale="zh" localized="无项目"/>
+    <moqui.basic.LocalizedMessage original="No quantity to add to package, not adding" locale="zh" localized="没有要加入包裹的数量，不添加"/>
+    <moqui.basic.LocalizedMessage original="No quantity to cancel for issuance ${assetIssuanceId} of asset ${assetIssuance.assetId}" locale="zh" localized="出库 ${assetIssuanceId}（资产 ${assetIssuance.assetId}）没有要取消的数量"/>
+    <moqui.basic.LocalizedMessage original="No quantity to unpack for issuance ${assetIssuanceId} of asset ${assetIssuance.assetId} in shipment ${shipmentId}" locale="zh" localized="出库 ${assetIssuanceId}（资产 ${assetIssuance.assetId}，发货单 ${shipmentId}）没有要拆箱的数量"/>
+    <moqui.basic.LocalizedMessage original="No route segment found for shipment ${shipmentId}" locale="zh" localized="找不到发货单 ${shipmentId} 的路线段"/>
+    <moqui.basic.LocalizedMessage original="No route segment found on Shipment ${shipmentId}" locale="zh" localized="发货单 ${shipmentId} 上找不到路线段"/>
+    <moqui.basic.LocalizedMessage original="No salary found for salaried employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)}" locale="zh" localized="找不到受薪员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 的工资"/>
+    <moqui.basic.LocalizedMessage original="No shipping gateway set on shipment and no default preference set" locale="zh" localized="发货单未设置发货网关，也未设置默认首选项"/>
+    <moqui.basic.LocalizedMessage original="No status" locale="zh" localized="无状态"/>
+    <moqui.basic.LocalizedMessage original="No status transitions found going to status ${toStatusId}" locale="zh" localized="找不到转到状态 ${toStatusId} 的状态转换"/>
+    <moqui.basic.LocalizedMessage original="No timer is running" locale="zh" localized="没有正在运行的计时器"/>
+    <moqui.basic.LocalizedMessage original="No title" locale="zh" localized="无标题"/>
+    <moqui.basic.LocalizedMessage original="No type" locale="zh" localized="无类型"/>
+    <moqui.basic.LocalizedMessage original="No unpicked Shipment (Input or Scheduled) found assigned to Container ${toContainerId}" locale="zh" localized="未找到分配给集装箱 ${toContainerId} 的未拣货发货单（输入或已计划）"/>
+    <moqui.basic.LocalizedMessage original="No work item" locale="zh" localized="无工作项"/>
+    <moqui.basic.LocalizedMessage original="No work item or project ${key}" locale="zh" localized="没有工作项或项目 ${key}"/>
+    <moqui.basic.LocalizedMessage original="No work item: the policy requires one" locale="zh" localized="无工作项：策略要求有一个"/>
+    <moqui.basic.LocalizedMessage original="No work type" locale="zh" localized="无工作类型"/>
+    <moqui.basic.LocalizedMessage original="No work type ${type}; left empty" locale="zh" localized="没有工作类型 ${type}；已留空"/>
+    <moqui.basic.LocalizedMessage original="Not billable" locale="zh" localized="不可计费"/>
+    <moqui.basic.LocalizedMessage original="Not changing quantity for Asset ${assetId}, quantityDiff is zero" locale="zh" localized="不更改资产 ${assetId} 的数量，quantityDiff 为零"/>
+    <moqui.basic.LocalizedMessage original="Not closing period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, period has not ended (ends on ${ec.l10n.format(timePeriod.thruDate, 'yyyy-MM-dd')})." locale="zh" localized="不关闭期间 ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}，期间尚未结束（结束于 ${ec.l10n.format(timePeriod.thruDate, 'yyyy-MM-dd')}）。"/>
+    <moqui.basic.LocalizedMessage original="Not creating Assembly Task for Shipment ${shipmentId} with no Pick Assembly products" locale="zh" localized="发货单 ${shipmentId} 没有拣选装配产品，不创建装配任务"/>
+    <moqui.basic.LocalizedMessage original="Not creating wage and tax statement for employee ${employment.fromPartyId} employment ${employment.partyRelationshipId}, has no pay" locale="zh" localized="不为员工 ${employment.fromPartyId} 的雇佣 ${employment.partyRelationshipId} 创建工资和税务报表，没有工资"/>
+    <moqui.basic.LocalizedMessage original="Not creating wage and tax statement for employee ${employment.fromPartyId} employment ${employment.partyRelationshipId}, no tax form set" locale="zh" localized="不为员工 ${employment.fromPartyId} 的雇佣 ${employment.partyRelationshipId} 创建工资和税务报表，未设置税务表单"/>
+</entity-facade-xml>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A request completes when its work does (Y or N)" locale="zh" localized="请求在其工作完成时一并完成（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Accept Assignment" locale="zh" localized="接受分派"/>
+    <moqui.basic.LocalizedMessage original="Accept Tentatively" locale="zh" localized="暂定接受"/>
+    <moqui.basic.LocalizedMessage original="Added" locale="zh" localized="已添加"/>
+    <moqui.basic.LocalizedMessage original="All Users" locale="zh" localized="所有用户"/>
+    <moqui.basic.LocalizedMessage original="Allocated" locale="zh" localized="已分配"/>
+    <moqui.basic.LocalizedMessage original="Also Used" locale="zh" localized="一并使用"/>
+    <moqui.basic.LocalizedMessage original="Approval required (Y or N)" locale="zh" localized="需要批准（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Approver (partyId)" locale="zh" localized="批准人（partyId）"/>
+    <moqui.basic.LocalizedMessage original="Arrive" locale="zh" localized="到达"/>
+    <moqui.basic.LocalizedMessage original="Arrived" locale="zh" localized="已到达"/>
+    <moqui.basic.LocalizedMessage original="Assembling" locale="zh" localized="装配中"/>
+    <moqui.basic.LocalizedMessage original="Asset Usage (Rental)" locale="zh" localized="资产使用（租赁）"/>
+    <moqui.basic.LocalizedMessage original="Assign" locale="zh" localized="分派"/>
+    <moqui.basic.LocalizedMessage original="At Risk" locale="zh" localized="有风险"/>
+    <moqui.basic.LocalizedMessage original="Available" locale="zh" localized="可用"/>
+    <moqui.basic.LocalizedMessage original="Back to Review" locale="zh" localized="退回审核"/>
+    <moqui.basic.LocalizedMessage original="Back to Testing" locale="zh" localized="退回测试"/>
+    <moqui.basic.LocalizedMessage original="Based On" locale="zh" localized="基于"/>
+    <moqui.basic.LocalizedMessage original="Begin" locale="zh" localized="开始"/>
+    <moqui.basic.LocalizedMessage original="Billing basis" locale="zh" localized="计费基准"/>
+    <moqui.basic.LocalizedMessage original="Branch name" locale="zh" localized="分支名称"/>
+    <moqui.basic.LocalizedMessage original="Branch name pattern" locale="zh" localized="分支名称模式"/>
+    <moqui.basic.LocalizedMessage original="Bug Fix" locale="zh" localized="缺陷修复"/>
+    <moqui.basic.LocalizedMessage original="Business Travel" locale="zh" localized="商务差旅"/>
+    <moqui.basic.LocalizedMessage original="Busy" locale="zh" localized="忙碌"/>
+    <moqui.basic.LocalizedMessage original="Calendar Kind" locale="zh" localized="日历种类"/>
+    <moqui.basic.LocalizedMessage original="Calendar Permission" locale="zh" localized="日历权限"/>
+    <moqui.basic.LocalizedMessage original="Calendar Subscription Provider" locale="zh" localized="日历订阅提供方"/>
+    <moqui.basic.LocalizedMessage original="Cannot Reproduce" locale="zh" localized="无法重现"/>
+    <moqui.basic.LocalizedMessage original="Caused By" locale="zh" localized="起因于"/>
+    <moqui.basic.LocalizedMessage original="Client Project" locale="zh" localized="客户项目"/>
+    <moqui.basic.LocalizedMessage original="Client sign-in (Y or N)" locale="zh" localized="客户登录（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Clones" locale="zh" localized="克隆"/>
+    <moqui.basic.LocalizedMessage original="Commit message" locale="zh" localized="提交说明"/>
+    <moqui.basic.LocalizedMessage original="Communication" locale="zh" localized="通信"/>
+    <moqui.basic.LocalizedMessage original="Completely Finished" locale="zh" localized="已全部完成"/>
+    <moqui.basic.LocalizedMessage original="Component" locale="zh" localized="组件"/>
+    <moqui.basic.LocalizedMessage original="Confirm complete" locale="zh" localized="确认完成"/>
+    <moqui.basic.LocalizedMessage original="Created Media" locale="zh" localized="已创建的媒体"/>
+    <moqui.basic.LocalizedMessage original="Decline Assignment" locale="zh" localized="拒绝分派"/>
+    <moqui.basic.LocalizedMessage original="Declined" locale="zh" localized="已谢绝"/>
+    <moqui.basic.LocalizedMessage original="Default request type (RequestType enumId)" locale="zh" localized="默认请求类型（RequestType enumId）"/>
+    <moqui.basic.LocalizedMessage original="Deliverable Type" locale="zh" localized="交付物类型"/>
+    <moqui.basic.LocalizedMessage original="Deny Request" locale="zh" localized="拒绝请求"/>
+    <moqui.basic.LocalizedMessage original="Depart" locale="zh" localized="离开"/>
+    <moqui.basic.LocalizedMessage original="Departed" locale="zh" localized="已离开"/>
+    <moqui.basic.LocalizedMessage original="Depends On (Blocked By)" locale="zh" localized="依赖于（受阻于）"/>
+    <moqui.basic.LocalizedMessage original="Deployment" locale="zh" localized="部署"/>
+    <moqui.basic.LocalizedMessage original="Development: In Progress, In Review, In Testing, Complete" locale="zh" localized="开发：进行中、审核中、测试中、完成"/>
+    <moqui.basic.LocalizedMessage original="Discussion" locale="zh" localized="讨论"/>
+    <moqui.basic.LocalizedMessage original="Documentation space (wikiSpaceId)" locale="zh" localized="文档空间（wikiSpaceId）"/>
+    <moqui.basic.LocalizedMessage original="Duplicate" locale="zh" localized="重复"/>
+    <moqui.basic.LocalizedMessage original="Duplicates" locale="zh" localized="与之重复"/>
+    <moqui.basic.LocalizedMessage original="East (90°)" locale="zh" localized="东（90°）"/>
+    <moqui.basic.LocalizedMessage original="East Northeast (67.5°)" locale="zh" localized="东北东（67.5°）"/>
+    <moqui.basic.LocalizedMessage original="East Southeast (112.5°)" locale="zh" localized="东南东（112.5°）"/>
+    <moqui.basic.LocalizedMessage original="Estimate" locale="zh" localized="估算"/>
+    <moqui.basic.LocalizedMessage original="Estimate milestone (workEffortId)" locale="zh" localized="估算里程碑（workEffortId）"/>
+    <moqui.basic.LocalizedMessage original="Estimate unit (hours or points)" locale="zh" localized="估算单位（小时或点数）"/>
+    <moqui.basic.LocalizedMessage original="Feature Enhancement" locale="zh" localized="功能增强"/>
+    <moqui.basic.LocalizedMessage original="Feature Test" locale="zh" localized="功能测试"/>
+    <moqui.basic.LocalizedMessage original="Fixes keywords in commits complete work items (Y or N)" locale="zh" localized="提交中的 Fixes 关键字将完成工作项（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="For Your Information" locale="zh" localized="仅供参考"/>
+    <moqui.basic.LocalizedMessage original="General (public access)" locale="zh" localized="一般（公开访问）"/>
+    <moqui.basic.LocalizedMessage original="Hours shared with the client (Y or N)" locale="zh" localized="向客户共享工时（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="IT Security" locale="zh" localized="信息技术安全"/>
+    <moqui.basic.LocalizedMessage original="Immediate Response Requested" locale="zh" localized="要求立即答复"/>
+    <moqui.basic.LocalizedMessage original="In Planning" locale="zh" localized="规划中"/>
+    <moqui.basic.LocalizedMessage original="In Progress" locale="zh" localized="进行中"/>
+    <moqui.basic.LocalizedMessage original="In Review" locale="zh" localized="审核中"/>
+    <moqui.basic.LocalizedMessage original="In Testing" locale="zh" localized="测试中"/>
+    <moqui.basic.LocalizedMessage original="In-Process" locale="zh" localized="处理中"/>
+    <moqui.basic.LocalizedMessage original="Incomplete" locale="zh" localized="未完成"/>
+    <moqui.basic.LocalizedMessage original="Independent Of (Concurrent)" locale="zh" localized="独立于（并行）"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Information" locale="zh" localized="信息不足"/>
+    <moqui.basic.LocalizedMessage original="Intake mail account (emailAccountId)" locale="zh" localized="收件电子邮件账号（emailAccountId）"/>
+    <moqui.basic.LocalizedMessage original="Intake plus tag" locale="zh" localized="收件加标签"/>
+    <moqui.basic.LocalizedMessage original="Inventory Origin" locale="zh" localized="库存来源"/>
+    <moqui.basic.LocalizedMessage original="Invoice grouping" locale="zh" localized="发票分组"/>
+    <moqui.basic.LocalizedMessage original="Involvement Requested" locale="zh" localized="请求参与"/>
+    <moqui.basic.LocalizedMessage original="Involvement Required" locale="zh" localized="必须参与"/>
+    <moqui.basic.LocalizedMessage original="Maintenance" locale="zh" localized="维护"/>
+    <moqui.basic.LocalizedMessage original="Make changes and manage sharing" locale="zh" localized="进行更改并管理共享"/>
+    <moqui.basic.LocalizedMessage original="Make changes to events" locale="zh" localized="更改事件"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing" locale="zh" localized="制造"/>
+    <moqui.basic.LocalizedMessage original="Measurement Reason" locale="zh" localized="计量原因"/>
+    <moqui.basic.LocalizedMessage original="Merge request branch" locale="zh" localized="合并请求分支"/>
+    <moqui.basic.LocalizedMessage original="Merge request text" locale="zh" localized="合并请求文本"/>
+    <moqui.basic.LocalizedMessage original="Merge requests move work items (Y or N)" locale="zh" localized="合并请求移动工作项（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Milestone" locale="zh" localized="里程碑"/>
+    <moqui.basic.LocalizedMessage original="Modules (the project's tabs on, a comma list)" locale="zh" localized="模块（项目开启的页签，逗号分隔列表）"/>
+    <moqui.basic.LocalizedMessage original="My Part Finished" locale="zh" localized="我负责的部分已完成"/>
+    <moqui.basic.LocalizedMessage original="Need Support or Help" locale="zh" localized="需要支持或帮助"/>
+    <moqui.basic.LocalizedMessage original="New Feature" locale="zh" localized="新功能"/>
+    <moqui.basic.LocalizedMessage original="New work items shared with the client (Y or N)" locale="zh" localized="向客户共享新工作项（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="North (0°)" locale="zh" localized="北（0°）"/>
+    <moqui.basic.LocalizedMessage original="North Northeast (22.5°)" locale="zh" localized="北北东（22.5°）"/>
+    <moqui.basic.LocalizedMessage original="North Northwest (337.5°)" locale="zh" localized="北北西（337.5°）"/>
+    <moqui.basic.LocalizedMessage original="Northeast (45°)" locale="zh" localized="东北（45°）"/>
+    <moqui.basic.LocalizedMessage original="Northwest (315°)" locale="zh" localized="西北（315°）"/>
+    <moqui.basic.LocalizedMessage original="Off Track" locale="zh" localized="偏离计划"/>
+    <moqui.basic.LocalizedMessage original="Offer" locale="zh" localized="提出"/>
+    <moqui.basic.LocalizedMessage original="Offered" locale="zh" localized="已提出"/>
+    <moqui.basic.LocalizedMessage original="On Hold" locale="zh" localized="挂起"/>
+    <moqui.basic.LocalizedMessage original="On Track" locale="zh" localized="进展正常"/>
+    <moqui.basic.LocalizedMessage original="Organization Management" locale="zh" localized="组织管理"/>
+    <moqui.basic.LocalizedMessage original="Other, more lenient, status transitions for WorkEffort" locale="zh" localized="任务的其他更宽松状态转换"/>
+    <moqui.basic.LocalizedMessage original="Phone Call" locale="zh" localized="电话"/>
+    <moqui.basic.LocalizedMessage original="Placeholder" locale="zh" localized="占位符"/>
+    <moqui.basic.LocalizedMessage original="Produce" locale="zh" localized="生产"/>
+    <moqui.basic.LocalizedMessage original="Product Development" locale="zh" localized="产品开发"/>
+    <moqui.basic.LocalizedMessage original="Product Fulfillment" locale="zh" localized="产品履约"/>
+    <moqui.basic.LocalizedMessage original="Production Run" locale="zh" localized="生产运行"/>
+    <moqui.basic.LocalizedMessage original="Project" locale="zh" localized="项目"/>
+    <moqui.basic.LocalizedMessage original="Project Client" locale="zh" localized="项目客户"/>
+    <moqui.basic.LocalizedMessage original="Project Update" locale="zh" localized="项目更新"/>
+    <moqui.basic.LocalizedMessage original="Project Vendor" locale="zh" localized="项目供应商"/>
+    <moqui.basic.LocalizedMessage original="Proposal" locale="zh" localized="提案"/>
+    <moqui.basic.LocalizedMessage original="Public request form token" locale="zh" localized="公开请求表单令牌"/>
+    <moqui.basic.LocalizedMessage original="Re-open" locale="zh" localized="重新打开"/>
+    <moqui.basic.LocalizedMessage original="Recurrence Instance" locale="zh" localized="重复实例"/>
+    <moqui.basic.LocalizedMessage original="Refused" locale="zh" localized="已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Relates To" locale="zh" localized="关联到"/>
+    <moqui.basic.LocalizedMessage original="Release Notes" locale="zh" localized="发行说明"/>
+    <moqui.basic.LocalizedMessage original="Release version" locale="zh" localized="发行版本"/>
+    <moqui.basic.LocalizedMessage original="Repositories shared with the client read only (Y or N)" locale="zh" localized="向客户共享只读仓库（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Request Again" locale="zh" localized="再次请求"/>
+    <moqui.basic.LocalizedMessage original="Request Denied" locale="zh" localized="请求已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Request again" locale="zh" localized="再次请求"/>
+    <moqui.basic.LocalizedMessage original="Request types offered (RequestType ids, a comma list)" locale="zh" localized="提供的请求类型（RequestType ids，逗号分隔列表）"/>
+    <moqui.basic.LocalizedMessage original="Requirement" locale="zh" localized="需求"/>
+    <moqui.basic.LocalizedMessage original="Research" locale="zh" localized="研究"/>
+    <moqui.basic.LocalizedMessage original="Resource" locale="zh" localized="资源"/>
+    <moqui.basic.LocalizedMessage original="Restricted (private access)" locale="zh" localized="受限（非公开访问）"/>
+    <moqui.basic.LocalizedMessage original="Routing" locale="zh" localized="工艺路线"/>
+    <moqui.basic.LocalizedMessage original="Routing Component" locale="zh" localized="工艺路线组件"/>
+    <moqui.basic.LocalizedMessage original="Routing Task" locale="zh" localized="工艺路线任务"/>
+    <moqui.basic.LocalizedMessage original="See only free/busy" locale="zh" localized="仅查看空闲/忙碌"/>
+    <moqui.basic.LocalizedMessage original="Several active sprints (Y or N)" locale="zh" localized="多个进行中的冲刺（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Shipment Pick/Load/Ship" locale="zh" localized="发货单拣货/装载/发出"/>
+    <moqui.basic.LocalizedMessage original="Shipment Receive" locale="zh" localized="发货单收货"/>
+    <moqui.basic.LocalizedMessage original="Sixteen Point Compass" locale="zh" localized="十六方位罗盘"/>
+    <moqui.basic.LocalizedMessage original="South (180°)" locale="zh" localized="南（180°）"/>
+    <moqui.basic.LocalizedMessage original="South Southeast (157.5°)" locale="zh" localized="南南东（157.5°）"/>
+    <moqui.basic.LocalizedMessage original="South Southwest (202.5°)" locale="zh" localized="南南西（202.5°）"/>
+    <moqui.basic.LocalizedMessage original="Southeast (135°)" locale="zh" localized="东南（135°）"/>
+    <moqui.basic.LocalizedMessage original="Southwest (225°)" locale="zh" localized="西南（225°）"/>
+    <moqui.basic.LocalizedMessage original="Sub-contracting" locale="zh" localized="分包"/>
+    <moqui.basic.LocalizedMessage original="Subscription" locale="zh" localized="订阅"/>
+    <moqui.basic.LocalizedMessage original="Supporting Media" locale="zh" localized="辅助媒体"/>
+    <moqui.basic.LocalizedMessage original="Tag message" locale="zh" localized="标签说明"/>
+    <moqui.basic.LocalizedMessage original="Tag name" locale="zh" localized="标签名称"/>
+    <moqui.basic.LocalizedMessage original="Task trailer" locale="zh" localized="任务尾注"/>
+    <moqui.basic.LocalizedMessage original="Tentative" locale="zh" localized="暂定"/>
+    <moqui.basic.LocalizedMessage original="Time Off" locale="zh" localized="休假"/>
+    <moqui.basic.LocalizedMessage original="Time detail on invoices (Y or N)" locale="zh" localized="发票显示时间明细（Y 或 N）"/>
+    <moqui.basic.LocalizedMessage original="Timesheet" locale="zh" localized="工时表"/>
+    <moqui.basic.LocalizedMessage original="To Do" locale="zh" localized="待办"/>
+    <moqui.basic.LocalizedMessage original="Top Secret (confidential access)" locale="zh" localized="绝密（机密访问）"/>
+    <moqui.basic.LocalizedMessage original="Training" locale="zh" localized="培训"/>
+    <moqui.basic.LocalizedMessage original="Triage assignee (partyId)" locale="zh" localized="分诊负责人（partyId）"/>
+    <moqui.basic.LocalizedMessage original="Unassign" locale="zh" localized="取消分派"/>
+    <moqui.basic.LocalizedMessage original="Unassigned" locale="zh" localized="未分配"/>
+    <moqui.basic.LocalizedMessage original="Unresolved" locale="zh" localized="未解决"/>
+    <moqui.basic.LocalizedMessage original="View all event details" locale="zh" localized="查看全部事件详情"/>
+    <moqui.basic.LocalizedMessage original="West (270°)" locale="zh" localized="西（270°）"/>
+    <moqui.basic.LocalizedMessage original="West Northwest (292.5°)" locale="zh" localized="西北西（292.5°）"/>
+    <moqui.basic.LocalizedMessage original="West Southwest (247.5°)" locale="zh" localized="西南西（247.5°）"/>
+    <moqui.basic.LocalizedMessage original="Won't Complete" locale="zh" localized="不会完成"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Allocation" locale="zh" localized="任务分配"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Approval" locale="zh" localized="任务审批"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Asset Assignment Status" locale="zh" localized="任务资产分派状态"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Association Type" locale="zh" localized="任务关联类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Category Type" locale="zh" localized="任务类别类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Content Type" locale="zh" localized="任务内容类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Facility Status" locale="zh" localized="任务设施状态"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Facility Type" locale="zh" localized="任务设施类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Git Link Source" locale="zh" localized="任务 Git 链接来源"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Health" locale="zh" localized="任务健康度"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Availability" locale="zh" localized="任务参与方可用性"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Delegate Reason" locale="zh" localized="任务参与方委派原因"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Expectation" locale="zh" localized="任务参与方期望"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Status" locale="zh" localized="任务参与方状态"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Product Status" locale="zh" localized="任务产品状态"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Product Type" locale="zh" localized="任务产品类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Purpose" locale="zh" localized="任务目的"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Reminder Method" locale="zh" localized="任务提醒方式"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Resolution" locale="zh" localized="任务解决结果"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Setting Type" locale="zh" localized="任务设置类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Status" locale="zh" localized="任务状态"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Type" locale="zh" localized="任务类型"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Visibility" locale="zh" localized="任务可见性"/>
+    <moqui.basic.LocalizedMessage original="Work Group (group only access)" locale="zh" localized="工作组（仅组内访问）"/>
+    <moqui.basic.LocalizedMessage original="Work item types offered (WorkEffortPurpose ids, a comma list)" locale="zh" localized="提供的工作项类型（WorkEffortPurpose ids，逗号分隔列表）"/>
+    <moqui.basic.LocalizedMessage original="iCalendar URL" locale="zh" localized="iCalendar 网址"/>
+</entity-facade-xml>

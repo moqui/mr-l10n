@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Accessory" locale="zh" localized="配件"/>
+    <moqui.basic.LocalizedMessage original="Account Create Template - Client" locale="zh" localized="账号创建模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Account Template - Client" locale="zh" localized="账号模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Activate" locale="zh" localized="激活"/>
+    <moqui.basic.LocalizedMessage original="Activated" locale="zh" localized="已激活"/>
+    <moqui.basic.LocalizedMessage original="Actual Product Component" locale="zh" localized="实际产品组件"/>
+    <moqui.basic.LocalizedMessage original="Add On For" locale="zh" localized="附加于"/>
+    <moqui.basic.LocalizedMessage original="Add To Cart Image" locale="zh" localized="加入购物车图片"/>
+    <moqui.basic.LocalizedMessage original="Add To Cart Label" locale="zh" localized="加入购物车标签"/>
+    <moqui.basic.LocalizedMessage original="Admin Allow (One)" locale="zh" localized="允许管理（一个）"/>
+    <moqui.basic.LocalizedMessage original="Air Filter Replace" locale="zh" localized="更换空气滤清器"/>
+    <moqui.basic.LocalizedMessage original="Also Bought" locale="zh" localized="同时购买"/>
+    <moqui.basic.LocalizedMessage original="Alternate Supplier" locale="zh" localized="备选供应商"/>
+    <moqui.basic.LocalizedMessage original="Alternative Packaging" locale="zh" localized="替代包装"/>
+    <moqui.basic.LocalizedMessage original="Amount" locale="zh" localized="金额"/>
+    <moqui.basic.LocalizedMessage original="Application Software" locale="zh" localized="应用软件"/>
+    <moqui.basic.LocalizedMessage original="Artist" locale="zh" localized="艺术家"/>
+    <moqui.basic.LocalizedMessage original="Asset" locale="zh" localized="资产"/>
+    <moqui.basic.LocalizedMessage original="Asset (Good)" locale="zh" localized="资产（货物）"/>
+    <moqui.basic.LocalizedMessage original="Asset (Inventory) Reservation Order" locale="zh" localized="资产（库存）预留订单"/>
+    <moqui.basic.LocalizedMessage original="Asset Auto Reservation" locale="zh" localized="资产自动预留"/>
+    <moqui.basic.LocalizedMessage original="Asset Class" locale="zh" localized="资产类别"/>
+    <moqui.basic.LocalizedMessage original="Asset Identification Type" locale="zh" localized="资产标识类型"/>
+    <moqui.basic.LocalizedMessage original="Asset Maintenance Status" locale="zh" localized="资产维护状态"/>
+    <moqui.basic.LocalizedMessage original="Asset Payment Method Type" locale="zh" localized="资产付款方式类型"/>
+    <moqui.basic.LocalizedMessage original="Asset Type" locale="zh" localized="资产类型"/>
+    <moqui.basic.LocalizedMessage original="Asset Use" locale="zh" localized="资产用途"/>
+    <moqui.basic.LocalizedMessage original="Auto Reorder (needs recurrenceInfoId)" locale="zh" localized="自动再订购（需要 recurrenceInfoId）"/>
+    <moqui.basic.LocalizedMessage original="Average Cost" locale="zh" localized="平均成本"/>
+    <moqui.basic.LocalizedMessage original="Back-Order Notice" locale="zh" localized="缺货待补通知"/>
+    <moqui.basic.LocalizedMessage original="Battery Check" locale="zh" localized="检查电池"/>
+    <moqui.basic.LocalizedMessage original="Battery Replace" locale="zh" localized="更换电池"/>
+    <moqui.basic.LocalizedMessage original="Bearer Biological" locale="zh" localized="结实生物"/>
+    <moqui.basic.LocalizedMessage original="Belt Replacement" locale="zh" localized="更换皮带"/>
+    <moqui.basic.LocalizedMessage original="Best Selling" locale="zh" localized="畅销"/>
+    <moqui.basic.LocalizedMessage original="Billing" locale="zh" localized="开票"/>
+    <moqui.basic.LocalizedMessage original="Bin - Shelf Std" locale="zh" localized="货位 - 标准货架"/>
+    <moqui.basic.LocalizedMessage original="Biological" locale="zh" localized="生物"/>
+    <moqui.basic.LocalizedMessage original="Black" locale="zh" localized="黑色"/>
+    <moqui.basic.LocalizedMessage original="Block Group" locale="zh" localized="区块组"/>
+    <moqui.basic.LocalizedMessage original="Blog Search" locale="zh" localized="博客搜索"/>
+    <moqui.basic.LocalizedMessage original="Blue" locale="zh" localized="蓝色"/>
+    <moqui.basic.LocalizedMessage original="Boat" locale="zh" localized="船舶"/>
+    <moqui.basic.LocalizedMessage original="Brand" locale="zh" localized="品牌"/>
+    <moqui.basic.LocalizedMessage original="Browse Root (One)" locale="zh" localized="浏览根（一个）"/>
+    <moqui.basic.LocalizedMessage original="Building" locale="zh" localized="建筑物"/>
+    <moqui.basic.LocalizedMessage original="Bulk" locale="zh" localized="散装"/>
+    <moqui.basic.LocalizedMessage original="Call Center" locale="zh" localized="呼叫中心"/>
+    <moqui.basic.LocalizedMessage original="Cancel Promise" locale="zh" localized="取消承诺"/>
+    <moqui.basic.LocalizedMessage original="Care" locale="zh" localized="保养"/>
+    <moqui.basic.LocalizedMessage original="Cargo Vehicle" locale="zh" localized="货运车辆"/>
+    <moqui.basic.LocalizedMessage original="Catalog" locale="zh" localized="目录"/>
+    <moqui.basic.LocalizedMessage original="Category Image Alt Text" locale="zh" localized="分类图片替代文本"/>
+    <moqui.basic.LocalizedMessage original="Category Image URL" locale="zh" localized="分类图片 URL"/>
+    <moqui.basic.LocalizedMessage original="Category Search" locale="zh" localized="分类搜索"/>
+    <moqui.basic.LocalizedMessage original="Category Template - Client" locale="zh" localized="分类模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Category Template - Server" locale="zh" localized="分类模板 - 服务端"/>
+    <moqui.basic.LocalizedMessage original="Checkout Header Template - Client" locale="zh" localized="结账页眉模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Checkout Success Template - Client" locale="zh" localized="结账成功模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Checkout Template - Client" locale="zh" localized="结账模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Cleaning" locale="zh" localized="清洁"/>
+    <moqui.basic.LocalizedMessage original="Competitive Price" locale="zh" localized="竞争价格"/>
+    <moqui.basic.LocalizedMessage original="Component Price" locale="zh" localized="组件价格"/>
+    <moqui.basic.LocalizedMessage original="Composition" locale="zh" localized="成分"/>
+    <moqui.basic.LocalizedMessage original="Compressor" locale="zh" localized="压缩机"/>
+    <moqui.basic.LocalizedMessage original="Computer Hardware" locale="zh" localized="计算机硬件"/>
+    <moqui.basic.LocalizedMessage original="Computer Software" locale="zh" localized="计算机软件"/>
+    <moqui.basic.LocalizedMessage original="Configurable Good" locale="zh" localized="可配置货物"/>
+    <moqui.basic.LocalizedMessage original="Configurable Product Instance" locale="zh" localized="可配置产品实例"/>
+    <moqui.basic.LocalizedMessage original="Container" locale="zh" localized="集装箱"/>
+    <moqui.basic.LocalizedMessage original="Container ISO 20ft" locale="zh" localized="集装箱 ISO 20英尺"/>
+    <moqui.basic.LocalizedMessage original="Container ISO 40ft" locale="zh" localized="集装箱 ISO 40英尺"/>
+    <moqui.basic.LocalizedMessage original="Container Label" locale="zh" localized="集装箱标签"/>
+    <moqui.basic.LocalizedMessage original="Container Type" locale="zh" localized="集装箱类型"/>
+    <moqui.basic.LocalizedMessage original="Content - Blog Posts" locale="zh" localized="内容 - 博客文章"/>
+    <moqui.basic.LocalizedMessage original="Content - Full Page" locale="zh" localized="内容 - 整页"/>
+    <moqui.basic.LocalizedMessage original="Content - Snippet" locale="zh" localized="内容 - 片段"/>
+    <moqui.basic.LocalizedMessage original="Content Attachment Location" locale="zh" localized="内容附件位置"/>
+    <moqui.basic.LocalizedMessage original="Content Location" locale="zh" localized="内容位置"/>
+    <moqui.basic.LocalizedMessage original="Content Search" locale="zh" localized="内容搜索"/>
+    <moqui.basic.LocalizedMessage original="Cross Sell" locale="zh" localized="交叉销售"/>
+    <moqui.basic.LocalizedMessage original="Cross-Sell (Complementary)" locale="zh" localized="交叉销售（互补）"/>
+    <moqui.basic.LocalizedMessage original="Current Price" locale="zh" localized="当前价格"/>
+    <moqui.basic.LocalizedMessage original="Damaged" locale="zh" localized="已损坏"/>
+    <moqui.basic.LocalizedMessage original="Data Center" locale="zh" localized="数据中心"/>
+    <moqui.basic.LocalizedMessage original="Deactivate" locale="zh" localized="停用"/>
+    <moqui.basic.LocalizedMessage original="Deactivated" locale="zh" localized="已停用"/>
+    <moqui.basic.LocalizedMessage original="Default Search (One)" locale="zh" localized="默认搜索（一个）"/>
+    <moqui.basic.LocalizedMessage original="Defective" locale="zh" localized="有缺陷"/>
+    <moqui.basic.LocalizedMessage original="Deleted" locale="zh" localized="已删除"/>
+    <moqui.basic.LocalizedMessage original="Delivery Info" locale="zh" localized="交付信息"/>
+    <moqui.basic.LocalizedMessage original="Dependency" locale="zh" localized="依赖"/>
+    <moqui.basic.LocalizedMessage original="Depreciation Type" locale="zh" localized="折旧类型"/>
+    <moqui.basic.LocalizedMessage original="Description - Long" locale="zh" localized="描述 - 详细"/>
+    <moqui.basic.LocalizedMessage original="Digger" locale="zh" localized="挖掘机"/>
+    <moqui.basic.LocalizedMessage original="Digital (download)" locale="zh" localized="数字（下载）"/>
+    <moqui.basic.LocalizedMessage original="Digital Download" locale="zh" localized="数字下载"/>
+    <moqui.basic.LocalizedMessage original="Digital and Asset" locale="zh" localized="数字与资产"/>
+    <moqui.basic.LocalizedMessage original="Dimension" locale="zh" localized="尺寸"/>
+    <moqui.basic.LocalizedMessage original="Directions" locale="zh" localized="用法说明"/>
+    <moqui.basic.LocalizedMessage original="Distinguishing" locale="zh" localized="区分特征"/>
+    <moqui.basic.LocalizedMessage original="Dock" locale="zh" localized="月台"/>
+    <moqui.basic.LocalizedMessage original="Double Declining Balance" locale="zh" localized="双倍余额递减法"/>
+    <moqui.basic.LocalizedMessage original="Down-Sell (Downgrade)" locale="zh" localized="向下销售（降级）"/>
+    <moqui.basic.LocalizedMessage original="Engineering Bill of Materials" locale="zh" localized="工程物料清单"/>
+    <moqui.basic.LocalizedMessage original="Equipment Class" locale="zh" localized="设备类别"/>
+    <moqui.basic.LocalizedMessage original="Equivalent or Substitute" locale="zh" localized="等效或替代"/>
+    <moqui.basic.LocalizedMessage original="Extra Large" locale="zh" localized="特大号"/>
+    <moqui.basic.LocalizedMessage original="FIFO Expire" locale="zh" localized="先到期先出"/>
+    <moqui.basic.LocalizedMessage original="FIFO Receive" locale="zh" localized="先收先出"/>
+    <moqui.basic.LocalizedMessage original="Fabric" locale="zh" localized="织物"/>
+    <moqui.basic.LocalizedMessage original="Facility Certification Type" locale="zh" localized="设施认证类型"/>
+    <moqui.basic.LocalizedMessage original="Facility Content Type" locale="zh" localized="设施内容类型"/>
+    <moqui.basic.LocalizedMessage original="Facility Group Type" locale="zh" localized="设施组类型"/>
+    <moqui.basic.LocalizedMessage original="Facility Location Type" locale="zh" localized="设施位置类型"/>
+    <moqui.basic.LocalizedMessage original="Facility Type" locale="zh" localized="设施类型"/>
+    <moqui.basic.LocalizedMessage original="Facility Use" locale="zh" localized="设施用途"/>
+    <moqui.basic.LocalizedMessage original="Featured (One)" locale="zh" localized="精选（一个）"/>
+    <moqui.basic.LocalizedMessage original="Floor" locale="zh" localized="楼层"/>
+    <moqui.basic.LocalizedMessage original="Footer" locale="zh" localized="页脚"/>
+    <moqui.basic.LocalizedMessage original="Footer Template - Client" locale="zh" localized="页脚模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Footer Template - Server" locale="zh" localized="页脚模板 - 服务端"/>
+    <moqui.basic.LocalizedMessage original="Forklift" locale="zh" localized="叉车"/>
+    <moqui.basic.LocalizedMessage original="Found" locale="zh" localized="已找到"/>
+    <moqui.basic.LocalizedMessage original="Frequently Asked Questions" locale="zh" localized="常见问题"/>
+    <moqui.basic.LocalizedMessage original="Fulfillment Email" locale="zh" localized="履约电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Gas Card Number" locale="zh" localized="加油卡号"/>
+    <moqui.basic.LocalizedMessage original="Genre" locale="zh" localized="流派"/>
+    <moqui.basic.LocalizedMessage original="Get Return Labels (true/false)" locale="zh" localized="获取退货标签（true/false）"/>
+    <moqui.basic.LocalizedMessage original="Gift Card" locale="zh" localized="礼品卡"/>
+    <moqui.basic.LocalizedMessage original="Gift Card Purchase" locale="zh" localized="购买礼品卡"/>
+    <moqui.basic.LocalizedMessage original="Gift Card Reload" locale="zh" localized="礼品卡充值"/>
+    <moqui.basic.LocalizedMessage original="Gift Card or Certificate" locale="zh" localized="礼品卡或礼券"/>
+    <moqui.basic.LocalizedMessage original="Greatest Unit Cost" locale="zh" localized="最高单位成本"/>
+    <moqui.basic.LocalizedMessage original="Green" locale="zh" localized="绿色"/>
+    <moqui.basic.LocalizedMessage original="HTS (Tariff)" locale="zh" localized="HTS（关税）"/>
+    <moqui.basic.LocalizedMessage original="HVAC Maintenance" locale="zh" localized="HVAC 维护"/>
+    <moqui.basic.LocalizedMessage original="Header Template - Client" locale="zh" localized="页眉模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Header Template - Server" locale="zh" localized="页眉模板 - 服务端"/>
+    <moqui.basic.LocalizedMessage original="Home Page (One)" locale="zh" localized="主页（一个）"/>
+    <moqui.basic.LocalizedMessage original="Home Template - Client" locale="zh" localized="主页模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Home Template - Server" locale="zh" localized="主页模板 - 服务端"/>
+    <moqui.basic.LocalizedMessage original="Image - Detail" locale="zh" localized="图片 - 详情"/>
+    <moqui.basic.LocalizedMessage original="Image - Large" locale="zh" localized="图片 - 大"/>
+    <moqui.basic.LocalizedMessage original="Image - Medium" locale="zh" localized="图片 - 中"/>
+    <moqui.basic.LocalizedMessage original="Image - Original" locale="zh" localized="图片 - 原始"/>
+    <moqui.basic.LocalizedMessage original="Image - Small" locale="zh" localized="图片 - 小"/>
+    <moqui.basic.LocalizedMessage original="Image URL" locale="zh" localized="图片 URL"/>
+    <moqui.basic.LocalizedMessage original="Image URL - Detail" locale="zh" localized="图片 URL - 详情"/>
+    <moqui.basic.LocalizedMessage original="Image URL - Large" locale="zh" localized="图片 URL - 大"/>
+    <moqui.basic.LocalizedMessage original="Image URL - Medium" locale="zh" localized="图片 URL - 中"/>
+    <moqui.basic.LocalizedMessage original="Image URL - Original" locale="zh" localized="图片 URL - 原始"/>
+    <moqui.basic.LocalizedMessage original="Image URL - Small" locale="zh" localized="图片 URL - 小"/>
+    <moqui.basic.LocalizedMessage original="In Process" locale="zh" localized="处理中"/>
+    <moqui.basic.LocalizedMessage original="In Storage" locale="zh" localized="在库"/>
+    <moqui.basic.LocalizedMessage original="In Transfer" locale="zh" localized="调拨中"/>
+    <moqui.basic.LocalizedMessage original="In Transfer (Promised)" locale="zh" localized="调拨中（已承诺）"/>
+    <moqui.basic.LocalizedMessage original="In Validation" locale="zh" localized="验证中"/>
+    <moqui.basic.LocalizedMessage original="Industry" locale="zh" localized="行业"/>
+    <moqui.basic.LocalizedMessage original="Ingredients" locale="zh" localized="配料"/>
+    <moqui.basic.LocalizedMessage original="Ingredients - Unique" locale="zh" localized="配料 - 唯一"/>
+    <moqui.basic.LocalizedMessage original="Installation" locale="zh" localized="安装"/>
+    <moqui.basic.LocalizedMessage original="Integration" locale="zh" localized="集成"/>
+    <moqui.basic.LocalizedMessage original="Internal Content" locale="zh" localized="内部内容"/>
+    <moqui.basic.LocalizedMessage original="Inventory - Digital Good" locale="zh" localized="库存 - 数字货物"/>
+    <moqui.basic.LocalizedMessage original="Inventory - Finished Good" locale="zh" localized="库存 - 成品"/>
+    <moqui.basic.LocalizedMessage original="Inventory - Raw Material" locale="zh" localized="库存 - 原材料"/>
+    <moqui.basic.LocalizedMessage original="Inventory - Sub-assembly" locale="zh" localized="库存 - 半成品组件"/>
+    <moqui.basic.LocalizedMessage original="Inventory Group" locale="zh" localized="库存组"/>
+    <moqui.basic.LocalizedMessage original="Inventory Variance Reason" locale="zh" localized="库存差异原因"/>
+    <moqui.basic.LocalizedMessage original="Investment Real Estate" locale="zh" localized="投资性房地产"/>
+    <moqui.basic.LocalizedMessage original="Invoice Finalized" locale="zh" localized="发票已定稿"/>
+    <moqui.basic.LocalizedMessage original="Invoices Past Due" locale="zh" localized="逾期发票"/>
+    <moqui.basic.LocalizedMessage original="LIFO Expire" locale="zh" localized="后到期先出"/>
+    <moqui.basic.LocalizedMessage original="LIFO Receive" locale="zh" localized="后收先出"/>
+    <moqui.basic.LocalizedMessage original="Label Image" locale="zh" localized="标签图片"/>
+    <moqui.basic.LocalizedMessage original="Label Text" locale="zh" localized="标签文本"/>
+    <moqui.basic.LocalizedMessage original="Land" locale="zh" localized="土地"/>
+    <moqui.basic.LocalizedMessage original="Laptop" locale="zh" localized="笔记本电脑"/>
+    <moqui.basic.LocalizedMessage original="Large" locale="zh" localized="大号"/>
+    <moqui.basic.LocalizedMessage original="Library of Congress" locale="zh" localized="美国国会图书馆"/>
+    <moqui.basic.LocalizedMessage original="License" locale="zh" localized="许可证"/>
+    <moqui.basic.LocalizedMessage original="License Plate Number" locale="zh" localized="车牌号"/>
+    <moqui.basic.LocalizedMessage original="List Price" locale="zh" localized="标价"/>
+    <moqui.basic.LocalizedMessage original="Login Template - Client" locale="zh" localized="登录模板 - 客户端"/>
+    <moqui.basic.LocalizedMessage original="Lost in Transit" locale="zh" localized="在途丢失"/>
+    <moqui.basic.LocalizedMessage original="Lowest Unit Cost" locale="zh" localized="最低单位成本"/>
+    <moqui.basic.LocalizedMessage original="Lubricate Chassis" locale="zh" localized="润滑底盘"/>
+    <moqui.basic.LocalizedMessage original="MACRS GDS 5 Year" locale="zh" localized="MACRS GDS 5年"/>
+    <moqui.basic.LocalizedMessage original="MACRS GDS 7 Year" locale="zh" localized="MACRS GDS 7年"/>
+    <moqui.basic.LocalizedMessage original="Main Supplier" locale="zh" localized="主要供应商"/>
+    <moqui.basic.LocalizedMessage original="Maintenance Type" locale="zh" localized="维护类型"/>
+    <moqui.basic.LocalizedMessage original="Make Available" locale="zh" localized="设为可用"/>
+    <moqui.basic.LocalizedMessage original="Make Return Available" locale="zh" localized="设退货为可用"/>
+    <moqui.basic.LocalizedMessage original="Management Structure" locale="zh" localized="管理结构"/>
+    <moqui.basic.LocalizedMessage original="Manlift" locale="zh" localized="高空作业平台"/>
+    <moqui.basic.LocalizedMessage original="Manufacturer Serial Number" locale="zh" localized="制造商序列号"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing Bill of Materials" locale="zh" localized="制造物料清单"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing Equipment" locale="zh" localized="制造设备"/>
+    <moqui.basic.LocalizedMessage original="Mark As Defective" locale="zh" localized="标记为有缺陷"/>
+    <moqui.basic.LocalizedMessage original="Materials" locale="zh" localized="物料"/>
+    <moqui.basic.LocalizedMessage original="Maximum Price" locale="zh" localized="最高价格"/>
+    <moqui.basic.LocalizedMessage original="Media Access Control (MAC) Address" locale="zh" localized="介质访问控制（MAC）地址"/>
+    <moqui.basic.LocalizedMessage original="Medium" locale="zh" localized="中号"/>
+    <moqui.basic.LocalizedMessage original="Meta-Description" locale="zh" localized="元描述"/>
+    <moqui.basic.LocalizedMessage original="Meta-Keywords" locale="zh" localized="元关键词"/>
+    <moqui.basic.LocalizedMessage original="Mfg Model Number" locale="zh" localized="制造型号"/>
+    <moqui.basic.LocalizedMessage original="Minimum Price" locale="zh" localized="最低价格"/>
+    <moqui.basic.LocalizedMessage original="Mis-shipped Item Ordered (+)" locale="zh" localized="错发的已订购货项（+）"/>
+    <moqui.basic.LocalizedMessage original="Mis-shipped Item Shipped (-)" locale="zh" localized="错发的已发货货项（-）"/>
+    <moqui.basic.LocalizedMessage original="Mix and Match" locale="zh" localized="搭配组合"/>
+    <moqui.basic.LocalizedMessage original="Model Year" locale="zh" localized="型号年份"/>
+    <moqui.basic.LocalizedMessage original="Morgue" locale="zh" localized="报废区"/>
+    <moqui.basic.LocalizedMessage original="Net Weight" locale="zh" localized="净重"/>
+    <moqui.basic.LocalizedMessage original="New Products (One)" locale="zh" localized="新产品（一个）"/>
+    <moqui.basic.LocalizedMessage original="New Version, Replacement" locale="zh" localized="新版本，替换"/>
+    <moqui.basic.LocalizedMessage original="No Auto Reserve" locale="zh" localized="不自动预留"/>
+</entity-facade-xml>

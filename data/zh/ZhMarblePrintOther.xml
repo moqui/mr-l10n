@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="By Location" locale="zh" localized="按库位"/>
+    <moqui.basic.LocalizedMessage original="By Product" locale="zh" localized="按产品"/>
+    <moqui.basic.LocalizedMessage original="Check #" locale="zh" localized="支票 #"/>
+    <moqui.basic.LocalizedMessage original="Company" locale="zh" localized="公司"/>
+    <moqui.basic.LocalizedMessage original="Customer Order #" locale="zh" localized="客户订单 #"/>
+    <moqui.basic.LocalizedMessage original="Default (event #" locale="zh" localized="默认（事件 #"/>
+    <moqui.basic.LocalizedMessage original="End" locale="zh" localized="结束"/>
+    <moqui.basic.LocalizedMessage original="Estimated Pick Up" locale="zh" localized="预计取货"/>
+    <moqui.basic.LocalizedMessage original="Not yet placed" locale="zh" localized="尚未下达"/>
+    <moqui.basic.LocalizedMessage original="Order Part #" locale="zh" localized="订单部分 #"/>
+    <moqui.basic.LocalizedMessage original="Pieces" locale="zh" localized="件数"/>
+    <moqui.basic.LocalizedMessage original="Production Run Picklist" locale="zh" localized="生产运行拣货单"/>
+    <moqui.basic.LocalizedMessage original="Purchase Order" locale="zh" localized="采购订单"/>
+    <moqui.basic.LocalizedMessage original="Run #" locale="zh" localized="运行 #"/>
+    <moqui.basic.LocalizedMessage original="Sales Order" locale="zh" localized="销售订单"/>
+    <moqui.basic.LocalizedMessage original="Ship To" locale="zh" localized="收货方"/>
+    <moqui.basic.LocalizedMessage original="Signature" locale="zh" localized="签名"/>
+    <moqui.basic.LocalizedMessage original="Team Member" locale="zh" localized="团队成员"/>
+    <moqui.basic.LocalizedMessage original="Vendor Order #" locale="zh" localized="供应商订单 #"/>
+</entity-facade-xml>

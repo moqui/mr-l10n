@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${finAccountTransId} (Account #${finAccountId})" locale="zh" localized="${finAccountTransId}（账户 #${finAccountId}）"/>
+    <moqui.basic.LocalizedMessage original="${orderPartInfo.isVendorInternalOrg ? 'Sales' : 'Purchase'} Order Part ${orderPart.orderPartSeqId}" locale="zh" localized="${orderPartInfo.isVendorInternalOrg ? '销售' : '采购'}订单部分 ${orderPart.orderPartSeqId}"/>
+    <moqui.basic.LocalizedMessage original="(${ec.l10n.format(oiss.quantityHandled, null)} of ${ec.l10n.format(oiss.shipmentQuantity, null)})" locale="zh" localized="（${ec.l10n.format(oiss.quantityHandled, null)} / ${ec.l10n.format(oiss.shipmentQuantity, null)}）"/>
+    <moqui.basic.LocalizedMessage original="- Approve Part" locale="zh" localized="- 批准部分"/>
+    <moqui.basic.LocalizedMessage original="- Complete Part" locale="zh" localized="- 完成部分"/>
+    <moqui.basic.LocalizedMessage original="- Due: ${ec.l10n.format(partPaymentInfo.partPayment.dueDate, 'yyyy-MM-dd')}" locale="zh" localized="- 到期：${ec.l10n.format(partPaymentInfo.partPayment.dueDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage original="- Hold Part" locale="zh" localized="- 暂挂部分"/>
+    <moqui.basic.LocalizedMessage original="- Place Part" locale="zh" localized="- 下达部分"/>
+    <moqui.basic.LocalizedMessage original="- Res: ${ec.l10n.format(resInfo.existingRes.quantity, null)}, Not Avail: ${ec.l10n.format(resInfo.existingRes.quantityNotAvailable, null)}, Not Issued: ${ec.l10n.format(resInfo.existingRes.quantityNotIssued, null)}" locale="zh" localized="- 预留：${ec.l10n.format(resInfo.existingRes.quantity, null)}，不可用：${ec.l10n.format(resInfo.existingRes.quantityNotAvailable, null)}，未出库：${ec.l10n.format(resInfo.existingRes.quantityNotIssued, null)}"/>
+    <moqui.basic.LocalizedMessage original="- Status: ${partPaymentInfo.statusItem?.description}" locale="zh" localized="- 状态：${partPaymentInfo.statusItem?.description}"/>
+    <moqui.basic.LocalizedMessage original="Active Order Part: ${orderPartSeqId}" locale="zh" localized="有效订单部分：${orderPartSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Add Code" locale="zh" localized="添加代码"/>
+    <moqui.basic.LocalizedMessage original="Add From Orders" locale="zh" localized="从订单添加"/>
+    <moqui.basic.LocalizedMessage original="Add Orders" locale="zh" localized="添加订单"/>
+    <moqui.basic.LocalizedMessage original="Add to Return" locale="zh" localized="添加到退货单"/>
+    <moqui.basic.LocalizedMessage original="All Part Items (${orderPartInfo.partNoParentOrderItemCount})" locale="zh" localized="全部部分明细（${orderPartInfo.partNoParentOrderItemCount}）"/>
+    <moqui.basic.LocalizedMessage original="Amount Total" locale="zh" localized="金额合计"/>
+    <moqui.basic.LocalizedMessage original="Amt Not Billed" locale="zh" localized="未开票金额"/>
+    <moqui.basic.LocalizedMessage original="Any" locale="zh" localized="任意"/>
+    <moqui.basic.LocalizedMessage original="Any Promo Code" locale="zh" localized="任意促销码"/>
+    <moqui.basic.LocalizedMessage original="Approve Order Anyway" locale="zh" localized="仍然批准订单"/>
+    <moqui.basic.LocalizedMessage original="Approve Orders" locale="zh" localized="批准订单"/>
+    <moqui.basic.LocalizedMessage original="Approve this return?" locale="zh" localized="批准此退货单？"/>
+    <moqui.basic.LocalizedMessage original="Approves orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="zh" localized="批准符合当前查找选项的订单。执行前请用查找选项对话框按需调整。"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to cancel this return?" locale="zh" localized="确定要取消此退货单吗？"/>
+    <moqui.basic.LocalizedMessage original="Are you sure, and are all return quantities correct? This will cancel the return shipment, receive full quantity of all Approved or Shipped items, and process item responses." locale="zh" localized="确定且所有退货数量都正确？这将取消退货发货单，按全部数量接收所有已批准或已发货明细，并处理明细响应。"/>
+    <moqui.basic.LocalizedMessage original="Asset ${resInfo.existingRes.assetId}" locale="zh" localized="资产 ${resInfo.existingRes.assetId}"/>
+    <moqui.basic.LocalizedMessage original="Asset Reservations" locale="zh" localized="资产预留"/>
+    <moqui.basic.LocalizedMessage original="Auto Invoice" locale="zh" localized="自动开票"/>
+    <moqui.basic.LocalizedMessage original="Auto Payments Term" locale="zh" localized="自动付款条款"/>
+    <moqui.basic.LocalizedMessage original="Auto Res." locale="zh" localized="自动预留"/>
+    <moqui.basic.LocalizedMessage original="Auto Reservation" locale="zh" localized="自动预留"/>
+    <moqui.basic.LocalizedMessage original="Billed Quantity" locale="zh" localized="已开票数量"/>
+    <moqui.basic.LocalizedMessage original="Billed Total" locale="zh" localized="已开票合计"/>
+    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || content.userId}) at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="${paua?.firstName||''} ${paua?.lastName||''}（${paua?.username || content.userId}）于 ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || partyNote.userId}) at ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="${paua?.firstName||''} ${paua?.lastName||''}（${paua?.username || partyNote.userId}）于 ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="CIM ID: ${methodInfo.paymentMethod.gatewayCimId}" locale="zh" localized="CIM ID：${methodInfo.paymentMethod.gatewayCimId}"/>
+    <moqui.basic.LocalizedMessage original="Calc Price" locale="zh" localized="计算单价"/>
+    <moqui.basic.LocalizedMessage original="Cancelled: ${quantityCancelled}" locale="zh" localized="已取消：${quantityCancelled}"/>
+    <moqui.basic.LocalizedMessage original="Card Security Code" locale="zh" localized="卡安全码"/>
+    <moqui.basic.LocalizedMessage original="Carrier" locale="zh" localized="承运商"/>
+    <moqui.basic.LocalizedMessage original="Category" locale="zh" localized="类别"/>
+    <moqui.basic.LocalizedMessage original="Change back to Approved status to allow shipping, etc?" locale="zh" localized="改回已批准状态以允许发货等？"/>
+    <moqui.basic.LocalizedMessage original="Child/Cloned Orders" locale="zh" localized="子订单/克隆订单"/>
+    <moqui.basic.LocalizedMessage original="Close Order" locale="zh" localized="关闭订单"/>
+    <moqui.basic.LocalizedMessage original="Close Orders" locale="zh" localized="关闭订单"/>
+    <moqui.basic.LocalizedMessage original="Close Part" locale="zh" localized="关闭部分"/>
+    <moqui.basic.LocalizedMessage original="Closes orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="zh" localized="关闭符合当前查找选项的订单。执行前请用查找选项对话框按需调整。"/>
+    <moqui.basic.LocalizedMessage original="Closing an order will cancel all items not yet shipped. If all items cancelled then the order will be Cancelled. If any item was shipped the order will be Completed." locale="zh" localized="关闭订单将取消所有尚未发货的明细。若全部明细被取消，订单将为已取消。若有任何明细已发货，订单将为已完成。"/>
+    <moqui.basic.LocalizedMessage original="Code Expires" locale="zh" localized="代码到期"/>
+    <moqui.basic.LocalizedMessage original="Component:" locale="zh" localized="组件："/>
+    <moqui.basic.LocalizedMessage original="Cost for accounting if different from Price, used to set Asset Acquire Cost on receipt" locale="zh" localized="若与单价不同则作为会计成本，用于在收货时设置资产取得成本"/>
+    <moqui.basic.LocalizedMessage original="Create Invoice" locale="zh" localized="新建发票"/>
+    <moqui.basic.LocalizedMessage original="Create Return" locale="zh" localized="新建退货单"/>
+    <moqui.basic.LocalizedMessage original="Create Return Shipment" locale="zh" localized="新建退货发货单"/>
+    <moqui.basic.LocalizedMessage original="Create Shipment" locale="zh" localized="新建发货单"/>
+    <moqui.basic.LocalizedMessage original="Create new order based on this one?" locale="zh" localized="基于此订单新建订单？"/>
+    <moqui.basic.LocalizedMessage original="Create new shipment for items not already on an incoming return shipment?" locale="zh" localized="为尚未列入入库退货发货单的明细新建发货单？"/>
+    <moqui.basic.LocalizedMessage original="Credit Account" locale="zh" localized="贷记账户"/>
+    <moqui.basic.LocalizedMessage original="Credit Memo Invoice" locale="zh" localized="贷项通知单"/>
+    <moqui.basic.LocalizedMessage original="Credit Memo Invoice #${invoiceId}" locale="zh" localized="贷项通知单 #${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Cur Qty" locale="zh" localized="当前数量"/>
+    <moqui.basic.LocalizedMessage original="Cur Total" locale="zh" localized="当前合计"/>
+    <moqui.basic.LocalizedMessage original="Customer Class" locale="zh" localized="客户分类"/>
+    <moqui.basic.LocalizedMessage original="Customer Email" locale="zh" localized="客户电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Customer Notes" locale="zh" localized="客户备注"/>
+    <moqui.basic.LocalizedMessage original="Customer Org" locale="zh" localized="客户组织"/>
+    <moqui.basic.LocalizedMessage original="Customer Party ID" locale="zh" localized="客户参与方 ID"/>
+    <moqui.basic.LocalizedMessage original="Customer Promo Code" locale="zh" localized="客户促销码"/>
+    <moqui.basic.LocalizedMessage original="Delete item ${orderItemSeqId}?" locale="zh" localized="删除明细 ${orderItemSeqId}？"/>
+    <moqui.basic.LocalizedMessage original="Delete item ${returnItemSeqId}?" locale="zh" localized="删除明细 ${returnItemSeqId}？"/>
+    <moqui.basic.LocalizedMessage original="Delivery Date" locale="zh" localized="交货日期"/>
+    <moqui.basic.LocalizedMessage original="Disable Promotions" locale="zh" localized="停用促销"/>
+    <moqui.basic.LocalizedMessage original="Disable Shipping Calc" locale="zh" localized="停用运费计算"/>
+    <moqui.basic.LocalizedMessage original="Disable Tax Calc" locale="zh" localized="停用税额计算"/>
+    <moqui.basic.LocalizedMessage original="Display ID" locale="zh" localized="显示 ID"/>
+    <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to approve?" locale="zh" localized="当前查找选项和显示的订单是否就是要批准的？"/>
+    <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to close (cancel all unshipped, complete any partially shipped)?" locale="zh" localized="当前查找选项和显示的订单是否就是要关闭的（取消全部未发货，完成任何部分发货）？"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Order Parts" locale="zh" localized="复制订单部分"/>
+    <moqui.basic.LocalizedMessage original="Edit ${partPaymentInfo.paymentMethod?.description || 'Payment Method ' + partPaymentInfo.partPayment.paymentMethodId}" locale="zh" localized="编辑 ${partPaymentInfo.paymentMethod?.description || '付款方式 ' + partPaymentInfo.partPayment.paymentMethodId}"/>
+    <moqui.basic.LocalizedMessage original="Edit Account" locale="zh" localized="编辑账户"/>
+    <moqui.basic.LocalizedMessage original="Edit Payment ${partPaymentInfo.partPayment.paymentId}" locale="zh" localized="编辑付款 ${partPaymentInfo.partPayment.paymentId}"/>
+    <moqui.basic.LocalizedMessage original="Email Messages" locale="zh" localized="电子邮件消息"/>
+    <moqui.basic.LocalizedMessage original="Entry" locale="zh" localized="录入"/>
+    <moqui.basic.LocalizedMessage original="Entry Date" locale="zh" localized="录入日期"/>
+    <moqui.basic.LocalizedMessage original="Estimated Delivery" locale="zh" localized="预计交货"/>
+    <moqui.basic.LocalizedMessage original="Estimated Ship" locale="zh" localized="预计发货"/>
+    <moqui.basic.LocalizedMessage original="Exclude Not in Pick Loc" locale="zh" localized="排除不在拣货库位"/>
+    <moqui.basic.LocalizedMessage original="Ext Rev" locale="zh" localized="外部版本"/>
+    <moqui.basic.LocalizedMessage original="External Revision" locale="zh" localized="外部修订"/>
+    <moqui.basic.LocalizedMessage original="Fin Account ID" locale="zh" localized="财务账户 ID"/>
+    <moqui.basic.LocalizedMessage original="Find Order" locale="zh" localized="查找订单"/>
+    <moqui.basic.LocalizedMessage original="First Order" locale="zh" localized="首个订单"/>
+    <moqui.basic.LocalizedMessage original="Force By Type" locale="zh" localized="按类型强制"/>
+    <moqui.basic.LocalizedMessage original="Force complete order part? This normally happens automatically and only when all items are shipped." locale="zh" localized="强制完成订单部分？这通常自动发生，且仅在所有明细都已发货时。"/>
+    <moqui.basic.LocalizedMessage original="Gateway: ${methodInfo.paymentMethod.gatewayConfig?.description}" locale="zh" localized="网关：${methodInfo.paymentMethod.gatewayConfig?.description}"/>
+    <moqui.basic.LocalizedMessage original="Gift Message" locale="zh" localized="礼品留言"/>
+    <moqui.basic.LocalizedMessage original="Grand Total" locale="zh" localized="总计"/>
+    <moqui.basic.LocalizedMessage original="I: ${invoiceId}" locale="zh" localized="发票：${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="If Last Ordered Date is empty the next Order Clone will be created with the next batch." locale="zh" localized="若最近下单日期为空，下一个订单克隆将在下一批创建。"/>
+    <moqui.basic.LocalizedMessage original="Immediate?" locale="zh" localized="立即？"/>
+    <moqui.basic.LocalizedMessage original="In/Out" locale="zh" localized="入/出"/>
+    <moqui.basic.LocalizedMessage original="Inventory Available" locale="zh" localized="可用库存"/>
+    <moqui.basic.LocalizedMessage original="Inventory Category" locale="zh" localized="库存类别"/>
+    <moqui.basic.LocalizedMessage original="Inventory Status" locale="zh" localized="库存状态"/>
+    <moqui.basic.LocalizedMessage original="Inventory Status ID" locale="zh" localized="库存状态 ID"/>
+    <moqui.basic.LocalizedMessage original="Is Gift" locale="zh" localized="是礼品"/>
+    <moqui.basic.LocalizedMessage original="Issued and Invoiced Report" locale="zh" localized="已出库与已开票报表"/>
+    <moqui.basic.LocalizedMessage original="Item Limit" locale="zh" localized="明细上限"/>
+    <moqui.basic.LocalizedMessage original="Item Quantity" locale="zh" localized="明细数量"/>
+    <moqui.basic.LocalizedMessage original="Item Total" locale="zh" localized="明细合计"/>
+    <moqui.basic.LocalizedMessage original="Item Type" locale="zh" localized="明细类型"/>
+    <moqui.basic.LocalizedMessage original="Last Ordered Date" locale="zh" localized="最近下单日期"/>
+    <moqui.basic.LocalizedMessage original="Last Ordered Date will be updated over time as recurring Order Clones are created." locale="zh" localized="随着周期性订单克隆的创建，最近下单日期会不断更新。"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to use Calc Price" locale="zh" localized="留空则使用计算单价"/>
+    <moqui.basic.LocalizedMessage original="Mark order as Sent?" locale="zh" localized="将订单标记为已发送？"/>
+    <moqui.basic.LocalizedMessage original="Message Remote" locale="zh" localized="远程消息"/>
+    <moqui.basic.LocalizedMessage original="Monthly on the 15th at 2 AM" locale="zh" localized="每月 15 日凌晨 2 点"/>
+    <moqui.basic.LocalizedMessage original="Monthly on the 1st at 2 AM" locale="zh" localized="每月 1 日凌晨 2 点"/>
+    <moqui.basic.LocalizedMessage original="Multiple lots ${lotIdSet.join(', ')}" locale="zh" localized="多个批次 ${lotIdSet.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="N - On Received" locale="zh" localized="N - 收货时"/>
+    <moqui.basic.LocalizedMessage original="New Customer" locale="zh" localized="新客户"/>
+    <moqui.basic.LocalizedMessage original="No Customer Selected" locale="zh" localized="未选择客户"/>
+    <moqui.basic.LocalizedMessage original="No shipment method selected" locale="zh" localized="未选择发货方式"/>
+    <moqui.basic.LocalizedMessage original="No shipping address selected" locale="zh" localized="未选择收货地址"/>
+    <moqui.basic.LocalizedMessage original="Not Billed" locale="zh" localized="未开票"/>
+    <moqui.basic.LocalizedMessage original="Not Shipped/Billed" locale="zh" localized="未发货/未开票"/>
+    <moqui.basic.LocalizedMessage original="OR Customer Account" locale="zh" localized="或客户账户"/>
+    <moqui.basic.LocalizedMessage original="OR Instrument" locale="zh" localized="或支付工具"/>
+    <moqui.basic.LocalizedMessage original="Oldest lot ${ec.l10n.format(oldestLotExpire, 'yyyy-MM-dd')} older than last lot expire ${ec.l10n.format(newerThanExpireDate, 'yyyy-MM-dd')}" locale="zh" localized="最早批次 ${ec.l10n.format(oldestLotExpire, 'yyyy-MM-dd')} 早于最近批次到期 ${ec.l10n.format(newerThanExpireDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage original="Only Partly Shipped" locale="zh" localized="仅部分发货"/>
+    <moqui.basic.LocalizedMessage original="Only Recurring" locale="zh" localized="仅周期性"/>
+    <moqui.basic.LocalizedMessage original="Only count Product" locale="zh" localized="仅统计产品"/>
+    <moqui.basic.LocalizedMessage original="Order #${orderId}" locale="zh" localized="订单 #${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId}" locale="zh" localized="订单 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Order Content ID" locale="zh" localized="订单内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Order Detail" locale="zh" localized="订单详情"/>
+    <moqui.basic.LocalizedMessage original="Order Display ID" locale="zh" localized="订单显示 ID"/>
+    <moqui.basic.LocalizedMessage original="Order ID" locale="zh" localized="订单 ID"/>
+    <moqui.basic.LocalizedMessage original="Order IDs" locale="zh" localized="多个订单 ID"/>
+    <moqui.basic.LocalizedMessage original="Order Name" locale="zh" localized="订单名称"/>
+    <moqui.basic.LocalizedMessage original="Order Notes" locale="zh" localized="订单备注"/>
+    <moqui.basic.LocalizedMessage original="Order PDF" locale="zh" localized="订单 PDF"/>
+    <moqui.basic.LocalizedMessage original="Order Part" locale="zh" localized="订单部分"/>
+    <moqui.basic.LocalizedMessage original="Order Part ${orderPartInfo.orderPart.orderPartSeqId} Facility ${ec.resource.expand('FacilityNameTemplate', null, orderPartInfo.facility)}" locale="zh" localized="订单部分 ${orderPartInfo.orderPart.orderPartSeqId} 设施 ${ec.resource.expand('FacilityNameTemplate', null, orderPartInfo.facility)}"/>
+    <moqui.basic.LocalizedMessage original="Order Part Seq ID" locale="zh" localized="订单部分序号"/>
+    <moqui.basic.LocalizedMessage original="Order Quantity" locale="zh" localized="订单数量"/>
+    <moqui.basic.LocalizedMessage original="Order Sent" locale="zh" localized="订单已发送"/>
+    <moqui.basic.LocalizedMessage original="Order Total" locale="zh" localized="订单合计"/>
+    <moqui.basic.LocalizedMessage original="Order Type" locale="zh" localized="订单类型"/>
+    <moqui.basic.LocalizedMessage original="Order is not in Approved status" locale="zh" localized="订单不在已批准状态"/>
+    <moqui.basic.LocalizedMessage original="Orders" locale="zh" localized="订单"/>
+    <moqui.basic.LocalizedMessage original="Other Parties" locale="zh" localized="其他参与方"/>
+    <moqui.basic.LocalizedMessage original="Other Party" locale="zh" localized="另一参与方"/>
+    <moqui.basic.LocalizedMessage original="Other Party Product ID" locale="zh" localized="对方产品 ID"/>
+    <moqui.basic.LocalizedMessage original="Other Role" locale="zh" localized="其他角色"/>
+    <moqui.basic.LocalizedMessage original="Page Index" locale="zh" localized="页索引"/>
+    <moqui.basic.LocalizedMessage original="Parent Item" locale="zh" localized="上级明细"/>
+    <moqui.basic.LocalizedMessage original="Parent Order" locale="zh" localized="上级订单"/>
+    <moqui.basic.LocalizedMessage original="Parent Order ID" locale="zh" localized="上级订单 ID"/>
+    <moqui.basic.LocalizedMessage original="Part" locale="zh" localized="部分"/>
+    <moqui.basic.LocalizedMessage original="Part ${orderPartSeqId}" locale="zh" localized="部分 ${orderPartSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Part Status" locale="zh" localized="部分状态"/>
+    <moqui.basic.LocalizedMessage original="Part Total" locale="zh" localized="部分合计"/>
+    <moqui.basic.LocalizedMessage original="Part/Item" locale="zh" localized="部分/明细"/>
+    <moqui.basic.LocalizedMessage original="Partial" locale="zh" localized="部分可用"/>
+    <moqui.basic.LocalizedMessage original="Partial/None" locale="zh" localized="部分或无"/>
+    <moqui.basic.LocalizedMessage original="Payment ID" locale="zh" localized="付款 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Method" locale="zh" localized="付款方式"/>
+    <moqui.basic.LocalizedMessage original="Payment Method ID" locale="zh" localized="付款方式 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Terms" locale="zh" localized="付款条款"/>
+    <moqui.basic.LocalizedMessage original="Payments total (${ec.l10n.formatCurrency(orderPartInfo.paymentsTotal ?? 0, orderHeader?.currencyUomId)}) is greater than order part total (${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?? 0, orderHeader?.currencyUomId)})" locale="zh" localized="付款合计（${ec.l10n.formatCurrency(orderPartInfo.paymentsTotal ?? 0, orderHeader?.currencyUomId)}）大于订单部分合计（${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?? 0, orderHeader?.currencyUomId)}）"/>
+    <moqui.basic.LocalizedMessage original="Pick Up Date" locale="zh" localized="取货日期"/>
+    <moqui.basic.LocalizedMessage original="Place Order Anyway" locale="zh" localized="仍然下达订单"/>
+    <moqui.basic.LocalizedMessage original="Placed" locale="zh" localized="已下达"/>
+    <moqui.basic.LocalizedMessage original="Placed Date" locale="zh" localized="下达日期"/>
+    <moqui.basic.LocalizedMessage original="Price" locale="zh" localized="单价"/>
+    <moqui.basic.LocalizedMessage original="Price History" locale="zh" localized="单价历史"/>
+    <moqui.basic.LocalizedMessage original="Process Item Responses" locale="zh" localized="处理明细响应"/>
+    <moqui.basic.LocalizedMessage original="Processed" locale="zh" localized="已处理"/>
+    <moqui.basic.LocalizedMessage original="Promo Code" locale="zh" localized="促销码"/>
+    <moqui.basic.LocalizedMessage original="Promo Code ID" locale="zh" localized="促销码 ID"/>
+    <moqui.basic.LocalizedMessage original="Promo Code Text" locale="zh" localized="促销码文本"/>
+    <moqui.basic.LocalizedMessage original="Promo Code: ${promoCodeText}" locale="zh" localized="促销码：${promoCodeText}"/>
+    <moqui.basic.LocalizedMessage original="Promo Codes" locale="zh" localized="促销码"/>
+    <moqui.basic.LocalizedMessage original="Promo Expires" locale="zh" localized="促销到期"/>
+    <moqui.basic.LocalizedMessage original="Promos" locale="zh" localized="促销"/>
+    <moqui.basic.LocalizedMessage original="Promotion" locale="zh" localized="促销活动"/>
+    <moqui.basic.LocalizedMessage original="Propose quote to customer?" locale="zh" localized="向客户提出报价？"/>
+    <moqui.basic.LocalizedMessage original="Purchase Item Type" locale="zh" localized="采购明细类型"/>
+    <moqui.basic.LocalizedMessage original="Qty Cancelled" locale="zh" localized="已取消数量"/>
+    <moqui.basic.LocalizedMessage original="Qty Not Avail" locale="zh" localized="不可用数量"/>
+    <moqui.basic.LocalizedMessage original="Qty Not Billed" locale="zh" localized="未开票数量"/>
+    <moqui.basic.LocalizedMessage original="Qty Not Shipped" locale="zh" localized="未发货数量"/>
+    <moqui.basic.LocalizedMessage original="Qty Shipped" locale="zh" localized="已发货数量"/>
+    <moqui.basic.LocalizedMessage original="Quantity Cancelled" locale="zh" localized="已取消数量"/>
+    <moqui.basic.LocalizedMessage original="Quantity History" locale="zh" localized="数量历史"/>
+    <moqui.basic.LocalizedMessage original="Quantity Reason" locale="zh" localized="数量原因"/>
+    <moqui.basic.LocalizedMessage original="Quantity Total" locale="zh" localized="数量合计"/>
+    <moqui.basic.LocalizedMessage original="Quantity w/BOM Total" locale="zh" localized="含 BOM 数量合计"/>
+    <moqui.basic.LocalizedMessage original="Quantity_change Reason" locale="zh" localized="数量变更原因"/>
+    <moqui.basic.LocalizedMessage original="Quick Add Items" locale="zh" localized="快速添加明细"/>
+    <moqui.basic.LocalizedMessage original="Quick Items" locale="zh" localized="快速明细"/>
+    <moqui.basic.LocalizedMessage original="Quote Requested" locale="zh" localized="已请求报价"/>
+    <moqui.basic.LocalizedMessage original="Re-Calc Prices" locale="zh" localized="重新计算单价"/>
+    <moqui.basic.LocalizedMessage original="Re-calculate price for each Item and reset to calculated price?" locale="zh" localized="重新计算每个明细的单价并重置为计算单价？"/>
+    <moqui.basic.LocalizedMessage original="Really close item? Quantity will be reduced to quantity shipped and remaining quantity (${ec.l10n.format(itemQuantityNotShipped, null)}) will be cancelled." locale="zh" localized="确定关闭明细？数量将减至已发货数量，剩余数量（${ec.l10n.format(itemQuantityNotShipped, null)}）将被取消。"/>
+    <moqui.basic.LocalizedMessage original="Really close item? Quantity will be reduced to quantity shipped and remaining quantity will be cancelled." locale="zh" localized="确定关闭明细？数量将减至已发货数量，剩余数量将被取消。"/>
+    <moqui.basic.LocalizedMessage original="Really create return for this order part?" locale="zh" localized="确定为此订单部分创建退货单？"/>
+    <moqui.basic.LocalizedMessage original="Really hold order part?" locale="zh" localized="确定暂挂订单部分？"/>
+    <moqui.basic.LocalizedMessage original="Really hold order?" locale="zh" localized="确定暂挂订单？"/>
+    <moqui.basic.LocalizedMessage original="Receive without Shipment" locale="zh" localized="无发货单收货"/>
+    <moqui.basic.LocalizedMessage original="Received Quantity" locale="zh" localized="已收货数量"/>
+    <moqui.basic.LocalizedMessage original="Recur Schedule" locale="zh" localized="周期计划"/>
+    <moqui.basic.LocalizedMessage original="Recurring" locale="zh" localized="周期性"/>
+    <moqui.basic.LocalizedMessage original="Recurring Order: ${recurCronDescription}" locale="zh" localized="周期性订单：${recurCronDescription}"/>
+    <moqui.basic.LocalizedMessage original="Refund Amount" locale="zh" localized="退款金额"/>
+    <moqui.basic.LocalizedMessage original="Refund Credit Trans" locale="zh" localized="退款贷记交易"/>
+    <moqui.basic.LocalizedMessage original="Refund Payment" locale="zh" localized="退款付款"/>
+    <moqui.basic.LocalizedMessage original="Refund Payment #${paymentId}" locale="zh" localized="退款付款 #${paymentId}"/>
+    <moqui.basic.LocalizedMessage original="Reject Quote Request" locale="zh" localized="拒绝报价请求"/>
+    <moqui.basic.LocalizedMessage original="Reject quote request and reject order?" locale="zh" localized="拒绝报价请求并拒绝订单？"/>
+    <moqui.basic.LocalizedMessage original="Remove inventory reservations for item ${orderItemSeqId}?" locale="zh" localized="移除明细 ${orderItemSeqId} 的库存预留？"/>
+    <moqui.basic.LocalizedMessage original="Rental Asset" locale="zh" localized="租赁资产"/>
+    <moqui.basic.LocalizedMessage original="Replacement Order" locale="zh" localized="替换订单"/>
+    <moqui.basic.LocalizedMessage original="Replacement Order #${orderId}" locale="zh" localized="替换订单 #${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Replacement Product" locale="zh" localized="替换产品"/>
+    <moqui.basic.LocalizedMessage original="Require Inventory" locale="zh" localized="需要库存"/>
+    <moqui.basic.LocalizedMessage original="Required By Date" locale="zh" localized="要求日期"/>
+    <moqui.basic.LocalizedMessage original="Reserve" locale="zh" localized="预留"/>
+    <moqui.basic.LocalizedMessage original="Reset Reservations" locale="zh" localized="重置预留"/>
+    <moqui.basic.LocalizedMessage original="Response Amount" locale="zh" localized="响应金额"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} cannot be changed" locale="zh" localized="退货单 ${returnId} 不能更改"/>
+    <moqui.basic.LocalizedMessage original="Return ID" locale="zh" localized="退货单 ID"/>
+    <moqui.basic.LocalizedMessage original="Return Price" locale="zh" localized="退货单价"/>
+    <moqui.basic.LocalizedMessage original="Return Quantity" locale="zh" localized="退货数量"/>
+    <moqui.basic.LocalizedMessage original="Return Shipment #${shipmentId}" locale="zh" localized="退货发货单 #${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Return Type" locale="zh" localized="退货类型"/>
+    <moqui.basic.LocalizedMessage original="Returnable Quantity" locale="zh" localized="可退数量"/>
+    <moqui.basic.LocalizedMessage original="Returnable Total" locale="zh" localized="可退合计"/>
+    <moqui.basic.LocalizedMessage original="Returned Quantity" locale="zh" localized="已退数量"/>
+    <moqui.basic.LocalizedMessage original="Returned Total" locale="zh" localized="已退合计"/>
+    <moqui.basic.LocalizedMessage original="Returns" locale="zh" localized="退货"/>
+    <moqui.basic.LocalizedMessage original="Rev" locale="zh" localized="版本"/>
+    <moqui.basic.LocalizedMessage original="Sales Analysis Report" locale="zh" localized="销售分析报表"/>
+    <moqui.basic.LocalizedMessage original="Sales Item Type" locale="zh" localized="销售明细类型"/>
+    <moqui.basic.LocalizedMessage original="Sales Summary Charts" locale="zh" localized="销售汇总图表"/>
+    <moqui.basic.LocalizedMessage original="Send this email message?" locale="zh" localized="发送此电子邮件消息？"/>
+    <moqui.basic.LocalizedMessage original="Set Quantities" locale="zh" localized="设置数量"/>
+    <moqui.basic.LocalizedMessage original="Set Requested" locale="zh" localized="设为已请求"/>
+    <moqui.basic.LocalizedMessage original="Set Shipping Address and Method" locale="zh" localized="设置收货地址和发货方式"/>
+    <moqui.basic.LocalizedMessage original="Set order as quote requested by customer?" locale="zh" localized="将订单设为客户已请求报价？"/>
+    <moqui.basic.LocalizedMessage original="Settlement Term ID" locale="zh" localized="结算条款 ID"/>
+    <moqui.basic.LocalizedMessage original="Ship After" locale="zh" localized="发货不早于"/>
+    <moqui.basic.LocalizedMessage original="Ship After Date" locale="zh" localized="不早于发货日期"/>
+    <moqui.basic.LocalizedMessage original="Ship Before" locale="zh" localized="发货不晚于"/>
+    <moqui.basic.LocalizedMessage original="Ship Before Date" locale="zh" localized="不晚于发货日期"/>
+    <moqui.basic.LocalizedMessage original="Ship Calc" locale="zh" localized="运费计算"/>
+    <moqui.basic.LocalizedMessage original="Ship Method" locale="zh" localized="发货方式"/>
+    <moqui.basic.LocalizedMessage original="Shipping Address" locale="zh" localized="收货地址"/>
+    <moqui.basic.LocalizedMessage original="Shipping Address and Method" locale="zh" localized="收货地址和发货方式"/>
+    <moqui.basic.LocalizedMessage original="Shipping Instructions" locale="zh" localized="发货说明"/>
+    <moqui.basic.LocalizedMessage original="Shipping Phone" locale="zh" localized="收货电话"/>
+    <moqui.basic.LocalizedMessage original="Shipping Postal Contact Mech ID" locale="zh" localized="收货邮政联系方式 ID"/>
+    <moqui.basic.LocalizedMessage original="Showing ${orderPartInfo.partNoParentOrderItemList.length} of ${orderPartInfo.partNoParentOrderItemCount} Items" locale="zh" localized="显示 ${orderPartInfo.partNoParentOrderItemList.length} / ${orderPartInfo.partNoParentOrderItemCount} 条明细"/>
+    <moqui.basic.LocalizedMessage original="Sign Req." locale="zh" localized="需签名"/>
+    <moqui.basic.LocalizedMessage original="Standard Cost" locale="zh" localized="标准成本"/>
+    <moqui.basic.LocalizedMessage original="Tax Calc" locale="zh" localized="税额计算"/>
+    <moqui.basic.LocalizedMessage original="Their Order" locale="zh" localized="对方订单"/>
+    <moqui.basic.LocalizedMessage original="Their Order Date" locale="zh" localized="对方订单日期"/>
+    <moqui.basic.LocalizedMessage original="Their Order ID" locale="zh" localized="对方订单 ID"/>
+    <moqui.basic.LocalizedMessage original="To Cancel" locale="zh" localized="待取消"/>
+    <moqui.basic.LocalizedMessage original="To not create the next Order Clone until the scheduled time, set this to now or any time since the last scheduled time." locale="zh" localized="若要等到计划时间再创建下一个订单克隆，请将此项设为现在或上次计划时间之后的任意时间。"/>
+    <moqui.basic.LocalizedMessage original="Trust: ${contactInfo.postalTrustLevelEnum?.description || 'New'}${contactInfo.postalContactMech.validateMessage?'*':''}" locale="zh" localized="可信度：${contactInfo.postalTrustLevelEnum?.description || '新建'}${contactInfo.postalContactMech.validateMessage?'*':''}"/>
+    <moqui.basic.LocalizedMessage original="Un-approve" locale="zh" localized="取消批准"/>
+    <moqui.basic.LocalizedMessage original="Un-approve order (change status back to Placed)?" locale="zh" localized="取消批准订单（将状态改回已下达）？"/>
+    <moqui.basic.LocalizedMessage original="Uncomplete Order" locale="zh" localized="取消完成订单"/>
+    <moqui.basic.LocalizedMessage original="Update Existing" locale="zh" localized="更新已有"/>
+    <moqui.basic.LocalizedMessage original="Update Header" locale="zh" localized="更新表头"/>
+    <moqui.basic.LocalizedMessage original="Update Item" locale="zh" localized="更新明细"/>
+    <moqui.basic.LocalizedMessage original="Validate" locale="zh" localized="校验"/>
+    <moqui.basic.LocalizedMessage original="Vendor Org" locale="zh" localized="供应商组织"/>
+    <moqui.basic.LocalizedMessage original="Vendor Party ID" locale="zh" localized="供应商参与方 ID"/>
+    <moqui.basic.LocalizedMessage original="Vendor Warehouse" locale="zh" localized="供应商仓库"/>
+    <moqui.basic.LocalizedMessage original="Warning: both vendor and customer are internal organizations" locale="zh" localized="警告：供应商和客户都是内部组织"/>
+    <moqui.basic.LocalizedMessage original="Web Order (ecommerce)" locale="zh" localized="网上订单（电子商务）"/>
+    <moqui.basic.LocalizedMessage original="Weekly on Monday at 2 AM" locale="zh" localized="每周一凌晨 2 点"/>
+    <moqui.basic.LocalizedMessage original="Will process items not yet processed in Received and Completed statuses or with Immediate=Y in Approved and Shipped statuses" locale="zh" localized="将处理尚未处理的、处于已收货和已完成状态的明细，或立即=Y 且处于已批准和已发货状态的明细"/>
+    <moqui.basic.LocalizedMessage original="With Children" locale="zh" localized="含子项"/>
+    <moqui.basic.LocalizedMessage original="Y - On Approved" locale="zh" localized="Y - 批准时"/>
+</entity-facade-xml>

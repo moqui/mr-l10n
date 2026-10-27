@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="On Hold - ${pstats.taskCountByStatusMap.WeOnHold||0}" locale="zh" localized="暂停 - ${pstats.taskCountByStatusMap.WeOnHold||0}"/>
+    <moqui.basic.LocalizedMessage original="On disk (for code: clone and push it with git)" locale="zh" localized="在磁盘上（代码：用 git 克隆并推送）"/>
+    <moqui.basic.LocalizedMessage original="Open Tasks" locale="zh" localized="未完成任务"/>
+    <moqui.basic.LocalizedMessage original="Open Time Entry Task: ${openTimeEntry.workEffortId}" locale="zh" localized="未结束工时的任务：${openTimeEntry.workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Optional, defaults to now" locale="zh" localized="可选，默认为当前时间"/>
+    <moqui.basic.LocalizedMessage original="Options for ${field.title}" locale="zh" localized="${field.title} 的选项"/>
+    <moqui.basic.LocalizedMessage original="Order ${item.orderId}" locale="zh" localized="订单 ${item.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Org" locale="zh" localized="组织"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Refund Payments" locale="zh" localized="付款退款"/>
+    <moqui.basic.LocalizedMessage original="P-CB Gap" locale="zh" localized="进度-预算差"/>
+    <moqui.basic.LocalizedMessage original="P: ${taskPurposeEnum.description} - S: ${taskStatusItem.description} - P: ${taskWpawe.priority||''}" locale="zh" localized="目的：${taskPurposeEnum.description} - 状态：${taskStatusItem.description} - 优先级：${taskWpawe.priority||''}"/>
+    <moqui.basic.LocalizedMessage original="Page History" locale="zh" localized="页面历史"/>
+    <moqui.basic.LocalizedMessage original="Page Name" locale="zh" localized="页面名称"/>
+    <moqui.basic.LocalizedMessage original="Page Projects" locale="zh" localized="页面项目"/>
+    <moqui.basic.LocalizedMessage original="Page Requests" locale="zh" localized="页面请求"/>
+    <moqui.basic.LocalizedMessage original="Page Tasks" locale="zh" localized="页面任务"/>
+    <moqui.basic.LocalizedMessage original="Page Tree" locale="zh" localized="页面树"/>
+    <moqui.basic.LocalizedMessage original="Parent ${parentId.substring(0, 10)}" locale="zh" localized="上级 ${parentId.substring(0, 10)}"/>
+    <moqui.basic.LocalizedMessage original="Parent Comm Event ID" locale="zh" localized="上级沟通事件 ID"/>
+    <moqui.basic.LocalizedMessage original="Parent Path" locale="zh" localized="上级路径"/>
+    <moqui.basic.LocalizedMessage original="Parent Task" locale="zh" localized="上级任务"/>
+    <moqui.basic.LocalizedMessage original="Parent Task:" locale="zh" localized="上级任务："/>
+    <moqui.basic.LocalizedMessage original="Parties" locale="zh" localized="参与方"/>
+    <moqui.basic.LocalizedMessage original="Party: ${ec.resource.expand('PartyNameTemplate','',party)}" locale="zh" localized="参与方：${ec.resource.expand('PartyNameTemplate','',party)}"/>
+    <moqui.basic.LocalizedMessage original="Payable Return Invoices" locale="zh" localized="应付退货发票"/>
+    <moqui.basic.LocalizedMessage original="Payment ${paymentId}" locale="zh" localized="付款 ${paymentId}"/>
+    <moqui.basic.LocalizedMessage original="Picklist" locale="zh" localized="拣货单"/>
+    <moqui.basic.LocalizedMessage original="Piece Count" locale="zh" localized="件数"/>
+    <moqui.basic.LocalizedMessage original="Please select a report" locale="zh" localized="请选择报表"/>
+    <moqui.basic.LocalizedMessage original="Position Class" locale="zh" localized="职位类别"/>
+    <moqui.basic.LocalizedMessage original="Posted Date" locale="zh" localized="过账日期"/>
+    <moqui.basic.LocalizedMessage original="Pri" locale="zh" localized="优先级"/>
+    <moqui.basic.LocalizedMessage original="Priority:" locale="zh" localized="优先级："/>
+    <moqui.basic.LocalizedMessage original="Product: ${ec.resource.expand('ProductNameTemplate','',product)}" locale="zh" localized="产品：${ec.resource.expand('ProductNameTemplate','',product)}"/>
+    <moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="zh" localized="利润 ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Progress" locale="zh" localized="进度"/>
+    <moqui.basic.LocalizedMessage original="Project ID" locale="zh" localized="项目 ID"/>
+    <moqui.basic.LocalizedMessage original="Project Milestones" locale="zh" localized="项目里程碑"/>
+    <moqui.basic.LocalizedMessage original="Project Name" locale="zh" localized="项目名称"/>
+    <moqui.basic.LocalizedMessage original="Project Note" locale="zh" localized="项目备注"/>
+    <moqui.basic.LocalizedMessage original="Project Summary" locale="zh" localized="项目摘要"/>
+    <moqui.basic.LocalizedMessage original="Project:" locale="zh" localized="项目："/>
+    <moqui.basic.LocalizedMessage original="Projects" locale="zh" localized="项目"/>
+    <moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="zh" localized="供应商成本 ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Public Attachment" locale="zh" localized="公开附件"/>
+    <moqui.basic.LocalizedMessage original="Public Blog" locale="zh" localized="公开博客"/>
+    <moqui.basic.LocalizedMessage original="Public Link" locale="zh" localized="公开链接"/>
+    <moqui.basic.LocalizedMessage original="Public Page" locale="zh" localized="公开页面"/>
+    <moqui.basic.LocalizedMessage original="Publish New" locale="zh" localized="发布新版本"/>
+    <moqui.basic.LocalizedMessage original="Publish Version ${versionName.substring(0, 12)}" locale="zh" localized="发布版本 ${versionName.substring(0, 12)}"/>
+    <moqui.basic.LocalizedMessage original="Purchase Returns" locale="zh" localized="采购退货"/>
+    <moqui.basic.LocalizedMessage original="Purpose:" locale="zh" localized="目的："/>
+    <moqui.basic.LocalizedMessage original="Quantity" locale="zh" localized="数量"/>
+    <moqui.basic.LocalizedMessage original="Quick Search" locale="zh" localized="快速搜索"/>
+    <moqui.basic.LocalizedMessage original="Rate Amount" locale="zh" localized="费率金额"/>
+    <moqui.basic.LocalizedMessage original="Rate Amount ID" locale="zh" localized="费率金额 ID"/>
+    <moqui.basic.LocalizedMessage original="Rate Type" locale="zh" localized="费率类型"/>
+    <moqui.basic.LocalizedMessage original="Rates" locale="zh" localized="费率"/>
+    <moqui.basic.LocalizedMessage original="Really clone the project?" locale="zh" localized="确定要克隆该项目吗？"/>
+    <moqui.basic.LocalizedMessage original="Really remove?" locale="zh" localized="确定要移除吗？"/>
+    <moqui.basic.LocalizedMessage original="Receivable Return Invoices" locale="zh" localized="应收退货发票"/>
+    <moqui.basic.LocalizedMessage original="Reference" locale="zh" localized="参考"/>
+    <moqui.basic.LocalizedMessage original="Related From ${workEffortId} - ${task.workEffortName}" locale="zh" localized="关联自 ${workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Related To ${workEffortId} - ${task.workEffortName}" locale="zh" localized="关联至 ${workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Rem ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}" locale="zh" localized="剩余 ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Remaining (d)" locale="zh" localized="剩余（天）"/>
+    <moqui.basic.LocalizedMessage original="Remaining (h)" locale="zh" localized="剩余（小时）"/>
+    <moqui.basic.LocalizedMessage original="Remaining Hours" locale="zh" localized="剩余小时"/>
+    <moqui.basic.LocalizedMessage original="Remaining Hours:" locale="zh" localized="剩余小时："/>
+    <moqui.basic.LocalizedMessage original="Remove request association from task?" locale="zh" localized="从任务中移除请求关联？"/>
+    <moqui.basic.LocalizedMessage original="Remove task association from request?" locale="zh" localized="从请求中移除任务关联？"/>
+    <moqui.basic.LocalizedMessage original="Reply" locale="zh" localized="回复"/>
+    <moqui.basic.LocalizedMessage original="Report Builder" locale="zh" localized="报表设计器"/>
+    <moqui.basic.LocalizedMessage original="Report Viewer" locale="zh" localized="报表查看"/>
+    <moqui.basic.LocalizedMessage original="Repositories" locale="zh" localized="代码库"/>
+    <moqui.basic.LocalizedMessage original="Repository" locale="zh" localized="代码库"/>
+    <moqui.basic.LocalizedMessage original="Request #${requestId}" locale="zh" localized="请求 #${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Request Content ID" locale="zh" localized="请求内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Request Date" locale="zh" localized="请求日期"/>
+    <moqui.basic.LocalizedMessage original="Request ID" locale="zh" localized="请求 ID"/>
+    <moqui.basic.LocalizedMessage original="Request Name" locale="zh" localized="请求名称"/>
+    <moqui.basic.LocalizedMessage original="Requests" locale="zh" localized="请求"/>
+    <moqui.basic.LocalizedMessage original="Required By" locale="zh" localized="需求方"/>
+    <moqui.basic.LocalizedMessage original="Resolution" locale="zh" localized="处理结果"/>
+    <moqui.basic.LocalizedMessage original="Resolution:" locale="zh" localized="处理结果："/>
+    <moqui.basic.LocalizedMessage original="Response Details" locale="zh" localized="回复详情"/>
+    <moqui.basic.LocalizedMessage original="Response Stats" locale="zh" localized="回复统计"/>
+    <moqui.basic.LocalizedMessage original="Responses" locale="zh" localized="回复"/>
+    <moqui.basic.LocalizedMessage original="Results for ID '${lookupId}'" locale="zh" localized="ID「${lookupId}」的结果"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId}" locale="zh" localized="退货 ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Reverse Of" locale="zh" localized="冲销来源"/>
+    <moqui.basic.LocalizedMessage original="Reversed By" locale="zh" localized="冲销单据"/>
+    <moqui.basic.LocalizedMessage original="Root Page Directory" locale="zh" localized="根页面目录"/>
+    <moqui.basic.LocalizedMessage original="Root Page Override" locale="zh" localized="根页面覆盖"/>
+    <moqui.basic.LocalizedMessage original="Root Work Effort ID" locale="zh" localized="根任务 ID"/>
+    <moqui.basic.LocalizedMessage original="Sales Returns &amp; RMA" locale="zh" localized="销售退货与 RMA"/>
+    <moqui.basic.LocalizedMessage original="Search + Lookup by ID" locale="zh" localized="搜索并按 ID 查找"/>
+    <moqui.basic.LocalizedMessage original="Search Results" locale="zh" localized="搜索结果"/>
+    <moqui.basic.LocalizedMessage original="Select a root page directory unless you know what you're doing and really need this, should end in filename with extension based on wiki type like .md" locale="zh" localized="除非您清楚自己在做什么且确实需要，否则请选择根页面目录；路径应以文件名结尾，扩展名取决于维基类型，例如 .md"/>
+    <moqui.basic.LocalizedMessage original="Selecting a Project will move tasks to that Project. If updating Project, Milestone, or Parent Task first select a Project in the Find Options and submit the form." locale="zh" localized="选择项目会把任务移到该项目。若要更新项目、里程碑或上级任务，请先在查找选项中选择项目并提交表单。"/>
+    <moqui.basic.LocalizedMessage original="Selecting a different Project will move tasks to that Project." locale="zh" localized="选择其他项目会把任务移到该项目。"/>
+    <moqui.basic.LocalizedMessage original="Seq: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}" locale="zh" localized="序号：${wikiPage?.sequenceNum || 50} ID：${wikiPageId||''}（${wikiType}）${versionName ? ' 版本 ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' 已发布 ' + publishedVersionName.substring(0, 12) : ''}"/>
+    <moqui.basic.LocalizedMessage original="Set Assignee" locale="zh" localized="设置负责人"/>
+    <moqui.basic.LocalizedMessage original="Shipment" locale="zh" localized="发货单"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId}" locale="zh" localized="发货单 ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Shipping" locale="zh" localized="发货"/>
+    <moqui.basic.LocalizedMessage original="Shipping - Pick &amp; Pack" locale="zh" localized="发货 - 拣货与包装"/>
+    <moqui.basic.LocalizedMessage original="Show Invoiced" locale="zh" localized="显示已开票"/>
+    <moqui.basic.LocalizedMessage original="Simple Screens" locale="zh" localized="简易界面"/>
+    <moqui.basic.LocalizedMessage original="Small Image" locale="zh" localized="小图片"/>
+    <moqui.basic.LocalizedMessage original="Space" locale="zh" localized="空间"/>
+    <moqui.basic.LocalizedMessage original="Space ID" locale="zh" localized="空间 ID"/>
+    <moqui.basic.LocalizedMessage original="Status Flow" locale="zh" localized="状态流"/>
+    <moqui.basic.LocalizedMessage original="Status:" locale="zh" localized="状态："/>
+    <moqui.basic.LocalizedMessage original="Stores" locale="zh" localized="商店"/>
+    <moqui.basic.LocalizedMessage original="Summary for Milestone &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}" locale="zh" localized="里程碑「${milestoneWorkEffort.workEffortName}」摘要 - ${milestoneWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Supplier Credit Memos" locale="zh" localized="供应商贷项通知单"/>
+    <moqui.basic.LocalizedMessage original="Supplier Return Shipments" locale="zh" localized="供应商退货发货单"/>
+    <moqui.basic.LocalizedMessage original="Suppliers" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="Survey ID" locale="zh" localized="调查 ID"/>
+    <moqui.basic.LocalizedMessage original="Survey Response ID" locale="zh" localized="调查回复 ID"/>
+    <moqui.basic.LocalizedMessage original="Surveys" locale="zh" localized="调查"/>
+    <moqui.basic.LocalizedMessage original="T: ${requestTypeEnum.description} - S: ${requestStatusItem.description} - P: ${wpar.priority||''}" locale="zh" localized="类型：${requestTypeEnum.description} - 状态：${requestStatusItem.description} - 优先级：${wpar.priority||''}"/>
+    <moqui.basic.LocalizedMessage original="TX Date" locale="zh" localized="交易日期"/>
+    <moqui.basic.LocalizedMessage original="TX Type" locale="zh" localized="交易类型"/>
+    <moqui.basic.LocalizedMessage original="Tags" locale="zh" localized="标签"/>
+    <moqui.basic.LocalizedMessage original="Task ${task.workEffortId} - ${task.workEffortName}" locale="zh" localized="任务 ${task.workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Task ${workEffortId}" locale="zh" localized="任务 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Task ID" locale="zh" localized="任务 ID"/>
+    <moqui.basic.LocalizedMessage original="Task Name" locale="zh" localized="任务名称"/>
+    <moqui.basic.LocalizedMessage original="Task Summary" locale="zh" localized="任务摘要"/>
+    <moqui.basic.LocalizedMessage original="Tasks by Top Level" locale="zh" localized="按顶级分组的任务"/>
+    <moqui.basic.LocalizedMessage original="Team" locale="zh" localized="团队"/>
+    <moqui.basic.LocalizedMessage original="Text Search" locale="zh" localized="文本搜索"/>
+    <moqui.basic.LocalizedMessage original="This ${assocType.description}" locale="zh" localized="此项 ${assocType.description}"/>
+    <moqui.basic.LocalizedMessage original="This will create a Blog Post and a Wiki Page using the title for the Page Name" locale="zh" localized="这将用标题作为页面名称，新建一篇博客文章和一个维基页面"/>
+    <moqui.basic.LocalizedMessage original="Time Entries" locale="zh" localized="工时记录"/>
+    <moqui.basic.LocalizedMessage original="Time Entry ID" locale="zh" localized="工时记录 ID"/>
+    <moqui.basic.LocalizedMessage original="Time Period Uom ID" locale="zh" localized="时间期间计量单位 ID"/>
+    <moqui.basic.LocalizedMessage original="Time Range" locale="zh" localized="时间范围"/>
+    <moqui.basic.LocalizedMessage original="To ID" locale="zh" localized="目标 ID"/>
+    <moqui.basic.LocalizedMessage original="To Name" locale="zh" localized="目标名称"/>
+    <moqui.basic.LocalizedMessage original="To Task" locale="zh" localized="目标任务"/>
+    <moqui.basic.LocalizedMessage original="To Work Effort ID" locale="zh" localized="目标任务 ID"/>
+    <moqui.basic.LocalizedMessage original="To clock out now leave Hours and Thru empty; specify Hours or Thru if your clock out time is in the past" locale="zh" localized="现在签退请将小时和截止留空；若签退时间在过去，请填写小时或截止"/>
+    <moqui.basic.LocalizedMessage original="Total Survey Response:" locale="zh" localized="调查回复合计："/>
+    <moqui.basic.LocalizedMessage original="Total Time Allowed" locale="zh" localized="允许总时间"/>
+    <moqui.basic.LocalizedMessage original="Un-Assign Selected Tasks" locale="zh" localized="取消分配所选任务"/>
+    <moqui.basic.LocalizedMessage original="Un-Assign Selected Tasks from Party" locale="zh" localized="取消参与方的所选任务分配"/>
+    <moqui.basic.LocalizedMessage original="Unlink this repository from the project?" locale="zh" localized="取消此代码库与项目的关联？"/>
+    <moqui.basic.LocalizedMessage original="Update Page" locale="zh" localized="更新页面"/>
+    <moqui.basic.LocalizedMessage original="Update Rates" locale="zh" localized="更新费率"/>
+    <moqui.basic.LocalizedMessage original="Update Selected Tasks" locale="zh" localized="更新所选任务"/>
+    <moqui.basic.LocalizedMessage original="Usernames" locale="zh" localized="用户名"/>
+    <moqui.basic.LocalizedMessage original="V: ${vendorInvoiceId}" locale="zh" localized="供应商：${vendorInvoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Vendor" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="Vendor Hour Rate" locale="zh" localized="供应商小时费率"/>
+    <moqui.basic.LocalizedMessage original="Vendor Invoice" locale="zh" localized="供应商发票"/>
+    <moqui.basic.LocalizedMessage original="Vendors" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="Version ${wph.versionName.substring(0, 12)}" locale="zh" localized="版本 ${wph.versionName.substring(0, 12)}"/>
+    <moqui.basic.LocalizedMessage original="View Pages" locale="zh" localized="查看页面"/>
+    <moqui.basic.LocalizedMessage original="View Space" locale="zh" localized="查看空间"/>
+    <moqui.basic.LocalizedMessage original="View/Edit Wiki Page" locale="zh" localized="查看/编辑维基页面"/>
+    <moqui.basic.LocalizedMessage original="View/Print" locale="zh" localized="查看/打印"/>
+    <moqui.basic.LocalizedMessage original="Viewing Project: ${rootWorkEffortId}" locale="zh" localized="正在查看项目：${rootWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Visibility" locale="zh" localized="可见性"/>
+    <moqui.basic.LocalizedMessage original="Wiki Blog Posts" locale="zh" localized="维基博客文章"/>
+    <moqui.basic.LocalizedMessage original="Wiki Page" locale="zh" localized="维基页面"/>
+    <moqui.basic.LocalizedMessage original="Wiki Pages" locale="zh" localized="维基页面"/>
+    <moqui.basic.LocalizedMessage original="Wiki Space" locale="zh" localized="维基空间"/>
+    <moqui.basic.LocalizedMessage original="Wiki Spaces" locale="zh" localized="维基空间"/>
+    <moqui.basic.LocalizedMessage original="Wiki Type" locale="zh" localized="维基类型"/>
+    <moqui.basic.LocalizedMessage original="Wiki/Content" locale="zh" localized="维基/内容"/>
+    <moqui.basic.LocalizedMessage original="Work Effort ${ec.resource.expand('WorkEffortNameTemplate','',workEffort)}" locale="zh" localized="任务 ${ec.resource.expand('WorkEffortNameTemplate','',workEffort)}"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Content ID" locale="zh" localized="任务内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Worked ${ec.l10n.format(project.actualWorkTime, '#.#')} hrs" locale="zh" localized="已工作 ${ec.l10n.format(project.actualWorkTime, '#.#')} 小时"/>
+    <moqui.basic.LocalizedMessage original="You are not in a group allowed to see Report ${dataDocumentId}" locale="zh" localized="您所在的组无权查看报表 ${dataDocumentId}"/>
+    <moqui.basic.LocalizedMessage original="at ${ec.l10n.format(childCe.entryDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="于 ${ec.l10n.format(childCe.entryDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="at ${ec.l10n.format(commEventDetail.entryDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="于 ${ec.l10n.format(commEventDetail.entryDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="by ${ec.resource.expand('UsernameTemplate','',userAccount)}" locale="zh" localized="由 ${ec.resource.expand('UsernameTemplate','',userAccount)}"/>
+    <moqui.basic.LocalizedMessage original="diff cur" locale="zh" localized="对比当前"/>
+    <moqui.basic.LocalizedMessage original="diff prev" locale="zh" localized="对比上一版"/>
+    <moqui.basic.LocalizedMessage original="for Asset, Facility, Invoice, Order, Return, Party, Badge, Payment, Product, Shipment, Work Effort (Project, Task, Picklist, Production Run), GL Transaction" locale="zh" localized="适用于资产、设施、发票、订单、退货、参与方、工牌、付款、产品、发货单、任务（项目、任务、拣货单、生产运行）、总账交易"/>
+    <moqui.basic.LocalizedMessage original="from ${fromPerson ? fromPerson.firstName + ' ' + fromPerson?.lastName : 'Unknown'}" locale="zh" localized="来自 ${fromPerson ? fromPerson.firstName + ' ' + fromPerson?.lastName : '未知'}"/>
+    <moqui.basic.LocalizedMessage original="in ${gitRef.repositoryId}" locale="zh" localized="在 ${gitRef.repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="letters, digits, [.,'-_:()!? ] only" locale="zh" localized="仅限字母、数字和 [.,'-_:()!? ]"/>
+    <moqui.basic.LocalizedMessage original="letters, digits, [.,-_:()!? ] only" locale="zh" localized="仅限字母、数字和 [.,-_:()!? ]"/>
+    <moqui.basic.LocalizedMessage original="published" locale="zh" localized="已发布"/>
+    <moqui.basic.LocalizedMessage original="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? 'h' : 'OPEN'} at ${ec.l10n.format(timeEntry.fromDate, '')} by ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}" locale="zh" localized="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? '小时' : '进行中'} 于 ${ec.l10n.format(timeEntry.fromDate, '')} 由 ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}"/>
+</entity-facade-xml>

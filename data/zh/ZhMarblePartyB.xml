@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="NACHA Immed. Dest. Name" locale="zh" localized="NACHA 即时目的地名称"/>
+    <moqui.basic.LocalizedMessage original="NACHA Immed. Origin Name" locale="zh" localized="NACHA 即时来源名称"/>
+    <moqui.basic.LocalizedMessage original="NACHA Orig. DFI ID" locale="zh" localized="NACHA 来源 DFI ID"/>
+    <moqui.basic.LocalizedMessage original="NACHA fields for ACH (NACHA) export" locale="zh" localized="用于 ACH（NACHA）导出的 NACHA 字段"/>
+    <moqui.basic.LocalizedMessage original="Nacha Add New Line" locale="zh" localized="Nacha 添加换行"/>
+    <moqui.basic.LocalizedMessage original="Nacha Add Offset Record" locale="zh" localized="Nacha 添加抵消记录"/>
+    <moqui.basic.LocalizedMessage original="Name On Account" locale="zh" localized="账户户名"/>
+    <moqui.basic.LocalizedMessage original="Name: ${paymentMethodTrans.transName}" locale="zh" localized="名称：${paymentMethodTrans.transName}"/>
+    <moqui.basic.LocalizedMessage original="Name: ${transName}" locale="zh" localized="名称：${transName}"/>
+    <moqui.basic.LocalizedMessage original="New Address" locale="zh" localized="新建地址"/>
+    <moqui.basic.LocalizedMessage original="New Email" locale="zh" localized="新建电子邮件"/>
+    <moqui.basic.LocalizedMessage original="New Phone" locale="zh" localized="新建电话"/>
+    <moqui.basic.LocalizedMessage original="New Rep User" locale="zh" localized="新建代表用户"/>
+    <moqui.basic.LocalizedMessage original="No Rec" locale="zh" localized="不对账"/>
+    <moqui.basic.LocalizedMessage original="No Results Skip" locale="zh" localized="无结果则跳过"/>
+    <moqui.basic.LocalizedMessage original="Notified" locale="zh" localized="已通知"/>
+    <moqui.basic.LocalizedMessage original="Notifs?" locale="zh" localized="通知？"/>
+    <moqui.basic.LocalizedMessage original="Number" locale="zh" localized="号码"/>
+    <moqui.basic.LocalizedMessage original="Ofx File" locale="zh" localized="OFX 文件"/>
+    <moqui.basic.LocalizedMessage original="Old Contact Mech Purpose ID" locale="zh" localized="原联系方式用途 ID"/>
+    <moqui.basic.LocalizedMessage original="Only Not Rec" locale="zh" localized="仅未对账"/>
+    <moqui.basic.LocalizedMessage original="Optional, max 20 characters" locale="zh" localized="可选，最多 20 个字符"/>
+    <moqui.basic.LocalizedMessage original="Org Name" locale="zh" localized="组织名称"/>
+    <moqui.basic.LocalizedMessage original="Organization Name" locale="zh" localized="组织名称"/>
+    <moqui.basic.LocalizedMessage original="Parent Account" locale="zh" localized="上级账户"/>
+    <moqui.basic.LocalizedMessage original="Parent Sales Account" locale="zh" localized="上级销售账户"/>
+    <moqui.basic.LocalizedMessage original="Party Classification ID" locale="zh" localized="参与方分类 ID"/>
+    <moqui.basic.LocalizedMessage original="Party Content ID" locale="zh" localized="参与方内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Party Relationship ID" locale="zh" localized="参与方关系 ID"/>
+    <moqui.basic.LocalizedMessage original="Party has no user accounts and no email address, cannot search for email messages" locale="zh" localized="该参与方没有用户账号和电子邮件地址，无法搜索电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Payment ${paymentId} ${payment.status?.description}" locale="zh" localized="付款 ${paymentId} ${payment.status?.description}"/>
+    <moqui.basic.LocalizedMessage original="Payment Amount" locale="zh" localized="付款金额"/>
+    <moqui.basic.LocalizedMessage original="Payment Date" locale="zh" localized="付款日期"/>
+    <moqui.basic.LocalizedMessage original="Payment Gateway Config ID" locale="zh" localized="付款网关配置 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Info" locale="zh" localized="付款信息"/>
+    <moqui.basic.LocalizedMessage original="Payment Information" locale="zh" localized="付款信息"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Content ID" locale="zh" localized="付款方式内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Details" locale="zh" localized="付款方式明细"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Type Enum ID" locale="zh" localized="付款方式类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Methods" locale="zh" localized="付款方式"/>
+    <moqui.basic.LocalizedMessage original="Payment Ref Num" locale="zh" localized="付款参考号"/>
+    <moqui.basic.LocalizedMessage original="Payments" locale="zh" localized="付款"/>
+    <moqui.basic.LocalizedMessage original="Payments From" locale="zh" localized="来源付款"/>
+    <moqui.basic.LocalizedMessage original="Payments From (${fromPaymentCount})" locale="zh" localized="来源付款（${fromPaymentCount}）"/>
+    <moqui.basic.LocalizedMessage original="Payments Not Rec" locale="zh" localized="未对账付款"/>
+    <moqui.basic.LocalizedMessage original="Payments To" locale="zh" localized="去向付款"/>
+    <moqui.basic.LocalizedMessage original="Payments To (${toPaymentCount})" locale="zh" localized="去向付款（${toPaymentCount}）"/>
+    <moqui.basic.LocalizedMessage original="Phone Numbers" locale="zh" localized="电话号码"/>
+    <moqui.basic.LocalizedMessage original="Phone Purpose" locale="zh" localized="电话用途"/>
+    <moqui.basic.LocalizedMessage original="Phone, Email, and Other" locale="zh" localized="电话、电子邮件和其他"/>
+    <moqui.basic.LocalizedMessage original="Piece Rate Amount ID" locale="zh" localized="计件费率金额 ID"/>
+    <moqui.basic.LocalizedMessage original="Piece Rate Type Enum ID" locale="zh" localized="计件费率类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Pos. Pay Bank Number" locale="zh" localized="Pos. Pay 银行号"/>
+    <moqui.basic.LocalizedMessage original="Pos. Pay File Format" locale="zh" localized="Pos. Pay 文件格式"/>
+    <moqui.basic.LocalizedMessage original="Pos. Pay fields for Positive Pay export" locale="zh" localized="用于 Positive Pay 导出的 Pos. Pay 字段"/>
+    <moqui.basic.LocalizedMessage original="Postal Addresses" locale="zh" localized="邮政地址"/>
+    <moqui.basic.LocalizedMessage original="Postal Code Ext" locale="zh" localized="邮政编码扩展"/>
+    <moqui.basic.LocalizedMessage original="Postal Contact Mech ID" locale="zh" localized="邮政联系方式 ID"/>
+    <moqui.basic.LocalizedMessage original="Postal Contact Mech Purpose ID" locale="zh" localized="邮政联系方式用途 ID"/>
+    <moqui.basic.LocalizedMessage original="Purchase Orders" locale="zh" localized="采购订单"/>
+    <moqui.basic.LocalizedMessage original="Purchase Orders (${vendorOrderPartCount})" locale="zh" localized="采购订单（${vendorOrderPartCount}）"/>
+    <moqui.basic.LocalizedMessage original="Purposes" locale="zh" localized="用途"/>
+    <moqui.basic.LocalizedMessage original="Put text content here or upload" locale="zh" localized="在此输入文本内容或上传"/>
+    <moqui.basic.LocalizedMessage original="Rate Purpose Enum ID" locale="zh" localized="费率用途枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Rates Modified" locale="zh" localized="费率已修改"/>
+    <moqui.basic.LocalizedMessage original="Really blacklist this address?" locale="zh" localized="确定要将此地址列入黑名单吗？"/>
+    <moqui.basic.LocalizedMessage original="Really delete Payment Method ${methodInfo.paymentMethodId}?" locale="zh" localized="确定删除付款方式 ${methodInfo.paymentMethodId}？"/>
+    <moqui.basic.LocalizedMessage original="Really delete setting?" locale="zh" localized="确定删除此设置？"/>
+    <moqui.basic.LocalizedMessage original="Really greylist this address?" locale="zh" localized="确定要将此地址列入灰名单吗？"/>
+    <moqui.basic.LocalizedMessage original="Really merge ${partyId} into this party?" locale="zh" localized="确定将 ${partyId} 合并到此参与方？"/>
+    <moqui.basic.LocalizedMessage original="Reason Code" locale="zh" localized="原因代码"/>
+    <moqui.basic.LocalizedMessage original="Received Incoming Payments" locale="zh" localized="已接收的收入付款"/>
+    <moqui.basic.LocalizedMessage original="Received Outgoing Payments" locale="zh" localized="已接收的支出付款"/>
+    <moqui.basic.LocalizedMessage original="Recent Paid Payables" locale="zh" localized="最近已付应付"/>
+    <moqui.basic.LocalizedMessage original="Recent Paid Receivables" locale="zh" localized="最近已收应收"/>
+    <moqui.basic.LocalizedMessage original="Ref Num" locale="zh" localized="参考号"/>
+    <moqui.basic.LocalizedMessage original="Ref Number" locale="zh" localized="参考号"/>
+    <moqui.basic.LocalizedMessage original="Ref: ${paymentMethodTrans.refNumber}" locale="zh" localized="参考号：${paymentMethodTrans.refNumber}"/>
+    <moqui.basic.LocalizedMessage original="Ref: ${refNumber}" locale="zh" localized="参考号：${refNumber}"/>
+    <moqui.basic.LocalizedMessage original="Rel. Type" locale="zh" localized="关系类型"/>
+    <moqui.basic.LocalizedMessage original="Relationship Type Enum ID" locale="zh" localized="关系类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Remove Address?" locale="zh" localized="移除地址？"/>
+    <moqui.basic.LocalizedMessage original="Remove Button" locale="zh" localized="移除按钮"/>
+    <moqui.basic.LocalizedMessage original="Remove Contact Info?" locale="zh" localized="移除联系信息？"/>
+    <moqui.basic.LocalizedMessage original="Remove Web URL?" locale="zh" localized="移除网址？"/>
+    <moqui.basic.LocalizedMessage original="Remove all payments from this file and cancel?" locale="zh" localized="移除此文件中的全部付款并取消？"/>
+    <moqui.basic.LocalizedMessage original="Remove email address?" locale="zh" localized="移除电子邮件地址？"/>
+    <moqui.basic.LocalizedMessage original="Remove from Group?" locale="zh" localized="从组中移除？"/>
+    <moqui.basic.LocalizedMessage original="Remove from Organization?" locale="zh" localized="从组织中移除？"/>
+    <moqui.basic.LocalizedMessage original="Remove phone number?" locale="zh" localized="移除电话号码？"/>
+    <moqui.basic.LocalizedMessage original="Remove this SSH key?" locale="zh" localized="移除此 SSH 密钥？"/>
+    <moqui.basic.LocalizedMessage original="Requests (${requestCount})" locale="zh" localized="请求（${requestCount}）"/>
+    <moqui.basic.LocalizedMessage original="Required for NACHA" locale="zh" localized="NACHA 必填"/>
+    <moqui.basic.LocalizedMessage original="Required for NACHA; 9 digits; source/origin ID" locale="zh" localized="NACHA 必填；9 位数字；来源 ID"/>
+    <moqui.basic.LocalizedMessage original="Required for NACHA; 9 digits; usually routing/transit number" locale="zh" localized="NACHA 必填；9 位数字；通常为路由/转账号"/>
+    <moqui.basic.LocalizedMessage original="Required for NACHA; max 10 digits; bank-assigned Company ID" locale="zh" localized="NACHA 必填；最多 10 位数字；银行分配的公司 ID"/>
+    <moqui.basic.LocalizedMessage original="Required for some Positive Pay exports" locale="zh" localized="部分 Positive Pay 导出必填"/>
+    <moqui.basic.LocalizedMessage original="Response Code" locale="zh" localized="响应代码"/>
+    <moqui.basic.LocalizedMessage original="Restore address?" locale="zh" localized="恢复地址？"/>
+    <moqui.basic.LocalizedMessage original="Restore phone number?" locale="zh" localized="恢复电话号码？"/>
+    <moqui.basic.LocalizedMessage original="Revoke" locale="zh" localized="撤销"/>
+    <moqui.basic.LocalizedMessage original="Revoke this access token?" locale="zh" localized="撤销此访问令牌？"/>
+    <moqui.basic.LocalizedMessage original="Role Type ID" locale="zh" localized="角色类型 ID"/>
+    <moqui.basic.LocalizedMessage original="Roles applied directly describe how the system should treat the Party, or what the Party is to users of the system." locale="zh" localized="直接应用的角色说明系统应如何对待该参与方，或该参与方对系统用户而言是什么。"/>
+    <moqui.basic.LocalizedMessage original="Routing #" locale="zh" localized="路由号 #"/>
+    <moqui.basic.LocalizedMessage original="Routing Number" locale="zh" localized="路由号"/>
+    <moqui.basic.LocalizedMessage original="SO #" locale="zh" localized="销售订单 #"/>
+    <moqui.basic.LocalizedMessage original="SSH Keys" locale="zh" localized="SSH 密钥"/>
+    <moqui.basic.LocalizedMessage original="Sales Account" locale="zh" localized="销售账户"/>
+    <moqui.basic.LocalizedMessage original="Sales Account Contacts" locale="zh" localized="销售账户联系人"/>
+    <moqui.basic.LocalizedMessage original="Sales Orders" locale="zh" localized="销售订单"/>
+    <moqui.basic.LocalizedMessage original="Sales Orders (${customerOrderPartCount})" locale="zh" localized="销售订单（${customerOrderPartCount}）"/>
+    <moqui.basic.LocalizedMessage original="Saved Find" locale="zh" localized="已保存的查找"/>
+    <moqui.basic.LocalizedMessage original="Schedule Description" locale="zh" localized="计划描述"/>
+    <moqui.basic.LocalizedMessage original="Scheduled Finds" locale="zh" localized="计划查找"/>
+    <moqui.basic.LocalizedMessage original="Security Code" locale="zh" localized="安全码"/>
+    <moqui.basic.LocalizedMessage original="Security Groups" locale="zh" localized="安全组"/>
+    <moqui.basic.LocalizedMessage original="Select Address" locale="zh" localized="选择地址"/>
+    <moqui.basic.LocalizedMessage original="Select Email" locale="zh" localized="选择电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Select Phone" locale="zh" localized="选择电话"/>
+    <moqui.basic.LocalizedMessage original="Send code to ${userAuthcFactor.factorOption}" locale="zh" localized="发送验证码至 ${userAuthcFactor.factorOption}"/>
+    <moqui.basic.LocalizedMessage original="Send this email message? Note that this may not include attachments from original email." locale="zh" localized="发送此电子邮件？这可能不包含原始邮件的附件。"/>
+    <moqui.basic.LocalizedMessage original="Send to Bank" locale="zh" localized="发送至银行"/>
+    <moqui.basic.LocalizedMessage original="Send/Resend" locale="zh" localized="发送/重发"/>
+    <moqui.basic.LocalizedMessage original="Set Vendor (AR) Representative" locale="zh" localized="设置供应商（应收）代表"/>
+    <moqui.basic.LocalizedMessage original="Set trust level back to New?" locale="zh" localized="将信任级别恢复为新建？"/>
+    <moqui.basic.LocalizedMessage original="Settlement Term" locale="zh" localized="结算条款"/>
+    <moqui.basic.LocalizedMessage original="Shipment Set Dest" locale="zh" localized="发货单目的地"/>
+    <moqui.basic.LocalizedMessage original="Shipment Set Origin" locale="zh" localized="发货单始发地"/>
+    <moqui.basic.LocalizedMessage original="Shipments From" locale="zh" localized="来源发货单"/>
+    <moqui.basic.LocalizedMessage original="Shipments From (${fromShipmentCount})" locale="zh" localized="来源发货单（${fromShipmentCount}）"/>
+    <moqui.basic.LocalizedMessage original="Shipments To" locale="zh" localized="去向发货单"/>
+    <moqui.basic.LocalizedMessage original="Shipments To (${toShipmentCount})" locale="zh" localized="去向发货单（${toShipmentCount}）"/>
+    <moqui.basic.LocalizedMessage original="Show Viewed" locale="zh" localized="显示已查看"/>
+    <moqui.basic.LocalizedMessage original="State Province Geo ID" locale="zh" localized="州或省地理 ID"/>
+    <moqui.basic.LocalizedMessage original="Statement PDF" locale="zh" localized="对账单 PDF"/>
+    <moqui.basic.LocalizedMessage original="Submit Invoice" locale="zh" localized="提交发票"/>
+    <moqui.basic.LocalizedMessage original="System Email" locale="zh" localized="系统电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Task Time Entries" locale="zh" localized="任务工时记录"/>
+    <moqui.basic.LocalizedMessage original="Telecom Contact Mech ID" locale="zh" localized="电话联系方式 ID"/>
+    <moqui.basic.LocalizedMessage original="Telecom Contact Mech Purpose ID" locale="zh" localized="电话联系方式用途 ID"/>
+    <moqui.basic.LocalizedMessage original="Telecom Extension" locale="zh" localized="电话分机"/>
+    <moqui.basic.LocalizedMessage original="Term" locale="zh" localized="条款"/>
+    <moqui.basic.LocalizedMessage original="Term Number" locale="zh" localized="条款编号"/>
+    <moqui.basic.LocalizedMessage original="Term Text" locale="zh" localized="条款文本"/>
+    <moqui.basic.LocalizedMessage original="Terms" locale="zh" localized="条款"/>
+    <moqui.basic.LocalizedMessage original="Their Invoice" locale="zh" localized="对方发票"/>
+    <moqui.basic.LocalizedMessage original="These Roles enable system functionality when directly applied to a Party." locale="zh" localized="这些角色在直接应用于参与方时启用系统功能。"/>
+    <moqui.basic.LocalizedMessage original="This party has data merged from parties:" locale="zh" localized="此参与方含有合并自以下参与方的数据："/>
+    <moqui.basic.LocalizedMessage original="This party was merged into ${party.mergedToPartyId}" locale="zh" localized="此参与方已合并至 ${party.mergedToPartyId}"/>
+    <moqui.basic.LocalizedMessage original="Thread" locale="zh" localized="会话"/>
+    <moqui.basic.LocalizedMessage original="To ${ec.resource.expand('PartyNameTemplate', null, pmtToParty)}" locale="zh" localized="至 ${ec.resource.expand('PartyNameTemplate', null, pmtToParty)}"/>
+    <moqui.basic.LocalizedMessage original="To Party ID" locale="zh" localized="去向参与方 ID"/>
+    <moqui.basic.LocalizedMessage original="To Role" locale="zh" localized="去向角色"/>
+    <moqui.basic.LocalizedMessage original="To Role Type ID" locale="zh" localized="去向角色类型 ID"/>
+    <moqui.basic.LocalizedMessage original="To disable set a Thru Date in the past or clear the Schedule and Cron Expression" locale="zh" localized="要禁用，请将截止日期设为过去的日期，或清空计划和 Cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="Trans Amount" locale="zh" localized="交易金额"/>
+    <moqui.basic.LocalizedMessage original="Trans Memo" locale="zh" localized="交易备注"/>
+    <moqui.basic.LocalizedMessage original="Trans Name" locale="zh" localized="交易名称"/>
+    <moqui.basic.LocalizedMessage original="Trans Type" locale="zh" localized="交易类型"/>
+    <moqui.basic.LocalizedMessage original="Transaction settle/post date. Defaults to next week day after File Date." locale="zh" localized="交易结算或过账日期。默认为文件日期之后的下一个工作日。"/>
+    <moqui.basic.LocalizedMessage original="Transactions" locale="zh" localized="交易"/>
+    <moqui.basic.LocalizedMessage original="Unapplied" locale="zh" localized="未核销"/>
+    <moqui.basic.LocalizedMessage original="Unapplied Incoming Payments" locale="zh" localized="未核销收入付款"/>
+    <moqui.basic.LocalizedMessage original="Unapplied Outgoing Payments" locale="zh" localized="未核销支出付款"/>
+    <moqui.basic.LocalizedMessage original="Unlist" locale="zh" localized="移出名单"/>
+    <moqui.basic.LocalizedMessage original="Unpaid Payables" locale="zh" localized="未付应付"/>
+    <moqui.basic.LocalizedMessage original="Unpaid Receivables" locale="zh" localized="未收应收"/>
+    <moqui.basic.LocalizedMessage original="Unpaid break time" locale="zh" localized="未付休息时间"/>
+    <moqui.basic.LocalizedMessage original="Unrec" locale="zh" localized="取消对账"/>
+    <moqui.basic.LocalizedMessage original="Update Invoice" locale="zh" localized="更新发票"/>
+    <moqui.basic.LocalizedMessage original="Update Organization" locale="zh" localized="更新组织"/>
+    <moqui.basic.LocalizedMessage original="Update Person" locale="zh" localized="更新个人"/>
+    <moqui.basic.LocalizedMessage original="Update Purpose" locale="zh" localized="更新用途"/>
+    <moqui.basic.LocalizedMessage original="Update User" locale="zh" localized="更新用户"/>
+    <moqui.basic.LocalizedMessage original="Upload" locale="zh" localized="上传"/>
+    <moqui.basic.LocalizedMessage original="User must change password before first login, even if password is set here." locale="zh" localized="即使用户在此设置了密码，也必须在首次登录前更改密码。"/>
+    <moqui.basic.LocalizedMessage original="Valid From" locale="zh" localized="生效自"/>
+    <moqui.basic.LocalizedMessage original="Valid Thru" locale="zh" localized="有效至"/>
+    <moqui.basic.LocalizedMessage original="Validate Security Code" locale="zh" localized="验证安全码"/>
+    <moqui.basic.LocalizedMessage original="Vendor Piece Rate" locale="zh" localized="供应商计件费率"/>
+    <moqui.basic.LocalizedMessage original="Vendor Piece Rate Amount ID" locale="zh" localized="供应商计件费率金额 ID"/>
+    <moqui.basic.LocalizedMessage original="Vendor Rate Amount ID" locale="zh" localized="供应商费率金额 ID"/>
+    <moqui.basic.LocalizedMessage original="Vendor/Org" locale="zh" localized="供应商/组织"/>
+    <moqui.basic.LocalizedMessage original="View Message" locale="zh" localized="查看消息"/>
+    <moqui.basic.LocalizedMessage original="Web Address" locale="zh" localized="网址"/>
+    <moqui.basic.LocalizedMessage original="Web Contact Mech ID" locale="zh" localized="网站联系方式 ID"/>
+    <moqui.basic.LocalizedMessage original="Web Contact Mech Purpose ID" locale="zh" localized="网站联系方式用途 ID"/>
+    <moqui.basic.LocalizedMessage original="Web URL" locale="zh" localized="网址"/>
+    <moqui.basic.LocalizedMessage original="Web URL Purpose" locale="zh" localized="网址用途"/>
+    <moqui.basic.LocalizedMessage original="Weekly on Monday at 6 AM" locale="zh" localized="每周一上午 6 点"/>
+    <moqui.basic.LocalizedMessage original="Where invoices are sent (Accounts Payable)" locale="zh" localized="发票寄送处（应付账款）"/>
+    <moqui.basic.LocalizedMessage original="Where payments are sent (Accounts Receivable)" locale="zh" localized="付款寄送处（应收账款）"/>
+    <moqui.basic.LocalizedMessage original="Work and paid break time" locale="zh" localized="工作时间与带薪休息时间"/>
+    <moqui.basic.LocalizedMessage original="Worker Hour Calc" locale="zh" localized="工人工时计算"/>
+    <moqui.basic.LocalizedMessage original="Worker Hour Rate" locale="zh" localized="工人工时费率"/>
+    <moqui.basic.LocalizedMessage original="Worker Invoice" locale="zh" localized="工人发票"/>
+    <moqui.basic.LocalizedMessage original="Worker Party ID" locale="zh" localized="工人参与方 ID"/>
+    <moqui.basic.LocalizedMessage original="Worker Piece Calc" locale="zh" localized="工人计件计算"/>
+    <moqui.basic.LocalizedMessage original="Worker Piece Rate" locale="zh" localized="工人计件费率"/>
+    <moqui.basic.LocalizedMessage original="XLS Export" locale="zh" localized="导出 XLS"/>
+    <moqui.basic.LocalizedMessage original="You have these options setup on your account:" locale="zh" localized="您的账号已设置以下选项："/>
+    <moqui.basic.LocalizedMessage original="Your account has no Email Address (username ${userAccount.username}), set one on the Account screen" locale="zh" localized="您的账号没有电子邮件地址（用户名 ${userAccount.username}），请在账号界面设置"/>
+    <moqui.basic.LocalizedMessage original="Your new access token, shown only now; copy it somewhere safe:" locale="zh" localized="您的新访问令牌仅此显示一次，请复制到安全的地方："/>
+    <moqui.basic.LocalizedMessage original="Zip/Postal Code" locale="zh" localized="邮政编码"/>
+    <moqui.basic.LocalizedMessage original="Zip/Postal Code Extension" locale="zh" localized="邮政编码扩展"/>
+    <moqui.basic.LocalizedMessage original="at ${ec.l10n.format(commEvent?.entryDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="于 ${ec.l10n.format(commEvent?.entryDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="by ${ec.resource.expand('UsernameTemplate','',Object.assign({}, paua.getMap(), {userId:note.userId}))}" locale="zh" localized="由 ${ec.resource.expand('UsernameTemplate','',Object.assign({}, paua.getMap(), {userId:note.userId}))}"/>
+    <moqui.basic.LocalizedMessage original="in role" locale="zh" localized="担任角色"/>
+    <moqui.basic.LocalizedMessage original="is a" locale="zh" localized="是"/>
+    <moqui.basic.LocalizedMessage original="to ${ec.resource.expand('PartyNameTemplate','',toParty)}" locale="zh" localized="至 ${ec.resource.expand('PartyNameTemplate','',toParty)}"/>
+</entity-facade-xml>

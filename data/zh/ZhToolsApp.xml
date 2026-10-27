@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="All Descendants:" locale="zh" localized="全部后代："/>
+    <moqui.basic.LocalizedMessage original="All Entities" locale="zh" localized="全部实体"/>
+    <moqui.basic.LocalizedMessage original="Artifact Stats" locale="zh" localized="工件统计"/>
+    <moqui.basic.LocalizedMessage original="Authenticate: ${sd.authenticate}" locale="zh" localized="身份验证：${sd.authenticate}"/>
+    <moqui.basic.LocalizedMessage original="Auto Screen Find" locale="zh" localized="自动屏幕查找"/>
+    <moqui.basic.LocalizedMessage original="Auto Screens" locale="zh" localized="自动屏幕"/>
+    <moqui.basic.LocalizedMessage original="By Data Types" locale="zh" localized="按数据类型"/>
+    <moqui.basic.LocalizedMessage original="Check and update DB table from entity definition" locale="zh" localized="根据实体定义检查并更新数据库表"/>
+    <moqui.basic.LocalizedMessage original="Check Data" locale="zh" localized="检查数据"/>
+    <moqui.basic.LocalizedMessage original="Check/File Value" locale="zh" localized="检查/文件值"/>
+    <moqui.basic.LocalizedMessage original="Check/Update All Tables" locale="zh" localized="检查/更新全部表"/>
+    <moqui.basic.LocalizedMessage original="Check/Update Table" locale="zh" localized="检查/更新表"/>
+    <moqui.basic.LocalizedMessage original="Clear Stats" locale="zh" localized="清除统计"/>
+    <moqui.basic.LocalizedMessage original="Comma Separated (from entity-facade-xml.@type)" locale="zh" localized="逗号分隔（来自 entity-facade-xml.@type）"/>
+    <moqui.basic.LocalizedMessage original="Component Names, Comma Separated" locale="zh" localized="组件名称，逗号分隔"/>
+    <moqui.basic.LocalizedMessage original="Create FKs" locale="zh" localized="创建外键"/>
+    <moqui.basic.LocalizedMessage original="Create Indexes" locale="zh" localized="创建索引"/>
+    <moqui.basic.LocalizedMessage original="Create Only? ${entityInfo.createOnly}" locale="zh" localized="仅创建？${entityInfo.createOnly}"/>
+    <moqui.basic.LocalizedMessage original="CSV ONLY" locale="zh" localized="仅 CSV"/>
+    <moqui.basic.LocalizedMessage original="CSV ONLY, use table and column names instead of entity and field names" locale="zh" localized="仅 CSV，使用表名和列名而非实体名和字段名"/>
+    <moqui.basic.LocalizedMessage original="CSV Text" locale="zh" localized="CSV 文本"/>
+    <moqui.basic.LocalizedMessage original="Current Snapshot Files" locale="zh" localized="当前快照文件"/>
+    <moqui.basic.LocalizedMessage original="Data Export" locale="zh" localized="数据导出"/>
+    <moqui.basic.LocalizedMessage original="Data Import" locale="zh" localized="数据导入"/>
+    <moqui.basic.LocalizedMessage original="Data Snapshots" locale="zh" localized="数据快照"/>
+    <moqui.basic.LocalizedMessage original="Data View for: ${dbViewEntityName}" locale="zh" localized="数据视图：${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="Data Views" locale="zh" localized="数据视图"/>
+    <moqui.basic.LocalizedMessage original="Defaults to include all if none selected and one or more skip entities specified" locale="zh" localized="若未选择任何项，且指定了一个或多个要跳过的实体，则默认包含全部"/>
+    <moqui.basic.LocalizedMessage original="Directory (one file per entity)" locale="zh" localized="目录（每个实体一个文件）"/>
+    <moqui.basic.LocalizedMessage original="Drop FKs" locale="zh" localized="删除外键"/>
+    <moqui.basic.LocalizedMessage original="Dummy FKs?" locale="zh" localized="虚拟外键？"/>
+    <moqui.basic.LocalizedMessage original="Edit ${dbViewEntityName}" locale="zh" localized="编辑 ${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="Edit '${selectedEntity}' Entity Value" locale="zh" localized="编辑「${selectedEntity}」的实体值"/>
+    <moqui.basic.LocalizedMessage original="EECAs and related AutoService SECAs" locale="zh" localized="EECA 及相关 AutoService SECA"/>
+    <moqui.basic.LocalizedMessage original="Empty Tables" locale="zh" localized="空表"/>
+    <moqui.basic.LocalizedMessage original="Entities: ${parseInt(entityCount, 10)}, View Entities: ${parseInt(viewEntityCount, 10)}, EECA rules: ${eecaRuleCount}" locale="zh" localized="实体：${parseInt(entityCount, 10)}，视图实体：${parseInt(viewEntityCount, 10)}，EECA 规则：${eecaRuleCount}"/>
+    <moqui.basic.LocalizedMessage original="Entity Detail" locale="zh" localized="实体详情"/>
+    <moqui.basic.LocalizedMessage original="Entity Detail for ${entityDefinition.getPrettyName(null, null)} (${entityDefinition.fullEntityName})" locale="zh" localized="${entityDefinition.getPrettyName(null, null)} 的实体详情（${entityDefinition.fullEntityName}）"/>
+    <moqui.basic.LocalizedMessage original="Entity Find" locale="zh" localized="实体查找"/>
+    <moqui.basic.LocalizedMessage original="Entity Master API" locale="zh" localized="主实体 API"/>
+    <moqui.basic.LocalizedMessage original="Entity Stats" locale="zh" localized="实体统计"/>
+    <moqui.basic.LocalizedMessage original="Entity Tools" locale="zh" localized="实体工具"/>
+    <moqui.basic.LocalizedMessage original="Exclude View Entities" locale="zh" localized="排除视图实体"/>
+    <moqui.basic.LocalizedMessage original="Export Snapshot" locale="zh" localized="导出快照"/>
+    <moqui.basic.LocalizedMessage original="Filter ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}" locale="zh" localized="筛选 ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${aenDef.getPrettyName(null, null)}" locale="zh" localized="查找 ${aenDef.getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}" locale="zh" localized="查找 ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${entityDefinition.getPrettyName(null, null)} (${selectedEntity})" locale="zh" localized="查找 ${entityDefinition.getPrettyName(null, null)}（${selectedEntity}）"/>
+    <moqui.basic.LocalizedMessage original="Flow" locale="zh" localized="流程"/>
+    <moqui.basic.LocalizedMessage original="Found ${statusItemList.length} statuses, ${transitionList.length} transitions" locale="zh" localized="找到 ${statusItemList.length} 个状态、${transitionList.length} 个转移"/>
+    <moqui.basic.LocalizedMessage original="From Seq" locale="zh" localized="起始序号"/>
+    <moqui.basic.LocalizedMessage original="General Tools" locale="zh" localized="通用工具"/>
+    <moqui.basic.LocalizedMessage original="Generated Diagrams" locale="zh" localized="生成的图"/>
+    <moqui.basic.LocalizedMessage original="Generated Groovy" locale="zh" localized="生成的 Groovy"/>
+    <moqui.basic.LocalizedMessage original="Get Form XML" locale="zh" localized="获取表单 XML"/>
+    <moqui.basic.LocalizedMessage original="Get Forms XML" locale="zh" localized="获取各表单 XML"/>
+    <moqui.basic.LocalizedMessage original="Groovy Shell" locale="zh" localized="Groovy 命令行"/>
+    <moqui.basic.LocalizedMessage original="Hide No Action Files?" locale="zh" localized="隐藏无操作文件？"/>
+    <moqui.basic.LocalizedMessage original="ID Map" locale="zh" localized="ID 映射"/>
+    <moqui.basic.LocalizedMessage original="Import Data - Create Only" locale="zh" localized="导入数据 - 仅创建"/>
+    <moqui.basic.LocalizedMessage original="Import Data - Create or Update" locale="zh" localized="导入数据 - 创建或更新"/>
+    <moqui.basic.LocalizedMessage original="Import Snapshot" locale="zh" localized="导入快照"/>
+    <moqui.basic.LocalizedMessage original="In Parameters" locale="zh" localized="输入参数"/>
+    <moqui.basic.LocalizedMessage original="Is PK" locale="zh" localized="是否主键"/>
+    <moqui.basic.LocalizedMessage original="ISO Date Time" locale="zh" localized="ISO 日期时间"/>
+    <moqui.basic.LocalizedMessage original="JSON Text" locale="zh" localized="JSON 文本"/>
+    <moqui.basic.LocalizedMessage original="JSON with Dependents" locale="zh" localized="含从属实体的 JSON"/>
+    <moqui.basic.LocalizedMessage original="Last Updated" locale="zh" localized="上次更新"/>
+    <moqui.basic.LocalizedMessage original="Liquibase Init XML" locale="zh" localized="Liquibase 初始化 XML"/>
+    <moqui.basic.LocalizedMessage original="Master Entities" locale="zh" localized="主实体列表"/>
+    <moqui.basic.LocalizedMessage original="Master Entity" locale="zh" localized="主实体"/>
+    <moqui.basic.LocalizedMessage original="Mermaid JS Text" locale="zh" localized="Mermaid JS 文本"/>
+    <moqui.basic.LocalizedMessage original="Needs Audit Log? ${entityInfo.needsAuditLog}" locale="zh" localized="需要审计日志？${entityInfo.needsAuditLog}"/>
+    <moqui.basic.LocalizedMessage original="Needs Encrypt? ${entityInfo.needsEncrypt}" locale="zh" localized="需要加密？${entityInfo.needsEncrypt}"/>
+    <moqui.basic.LocalizedMessage original="New ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}" locale="zh" localized="新建 ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}"/>
+    <moqui.basic.LocalizedMessage original="New Value" locale="zh" localized="新建值"/>
+    <moqui.basic.LocalizedMessage original="Non-Empty Tables" locale="zh" localized="非空表"/>
+    <moqui.basic.LocalizedMessage original="Out Parameters" locale="zh" localized="输出参数"/>
+    <moqui.basic.LocalizedMessage original="Package" locale="zh" localized="包"/>
+    <moqui.basic.LocalizedMessage original="Query Results" locale="zh" localized="查询结果"/>
+    <moqui.basic.LocalizedMessage original="Resource Location" locale="zh" localized="资源位置"/>
+    <moqui.basic.LocalizedMessage original="REST API: Swagger UI" locale="zh" localized="REST API 的 Swagger UI"/>
+    <moqui.basic.LocalizedMessage original="Results for Service: ${serviceName}" locale="zh" localized="服务结果：${serviceName}"/>
+    <moqui.basic.LocalizedMessage original="Root Screen: ${rootLocation}" locale="zh" localized="根屏幕：${rootLocation}"/>
+    <moqui.basic.LocalizedMessage original="Run Service" locale="zh" localized="运行服务"/>
+    <moqui.basic.LocalizedMessage original="Run Service: ${serviceName}" locale="zh" localized="运行服务：${serviceName}"/>
+    <moqui.basic.LocalizedMessage original="Run SQL" locale="zh" localized="运行 SQL"/>
+    <moqui.basic.LocalizedMessage original="Screen Stats" locale="zh" localized="屏幕统计"/>
+    <moqui.basic.LocalizedMessage original="Script" locale="zh" localized="脚本"/>
+    <moqui.basic.LocalizedMessage original="SECA Rules" locale="zh" localized="SECA 规则"/>
+    <moqui.basic.LocalizedMessage original="Select" locale="zh" localized="选择"/>
+    <moqui.basic.LocalizedMessage original="Select Fields" locale="zh" localized="选择字段"/>
+    <moqui.basic.LocalizedMessage original="Select Service" locale="zh" localized="选择服务"/>
+    <moqui.basic.LocalizedMessage original="Semicolon separated sql statements" locale="zh" localized="以分号分隔的 SQL 语句"/>
+    <moqui.basic.LocalizedMessage original="Service Detail" locale="zh" localized="服务详情"/>
+    <moqui.basic.LocalizedMessage original="Service List" locale="zh" localized="服务列表"/>
+    <moqui.basic.LocalizedMessage original="Service LoadRunner" locale="zh" localized="服务 LoadRunner"/>
+    <moqui.basic.LocalizedMessage original="Service Name (path.verb#noun)" locale="zh" localized="服务名称（path.verb#noun）"/>
+    <moqui.basic.LocalizedMessage original="Service Stats" locale="zh" localized="服务统计"/>
+    <moqui.basic.LocalizedMessage original="Service Type: ${sd.serviceType}${sd.location ? ', Location: ' + sd.location : ''}${sd.method ? ', Method: ' + sd.method : ''}" locale="zh" localized="服务类型：${sd.serviceType}${sd.location ? '，位置：' + sd.location : ''}${sd.method ? '，方法：' + sd.method : ''}"/>
+    <moqui.basic.LocalizedMessage original="Services: ${knownServiceCount}, SECA rules: ${secaRuleCount}" locale="zh" localized="服务：${knownServiceCount}，SECA 规则：${secaRuleCount}"/>
+    <moqui.basic.LocalizedMessage original="Set Master" locale="zh" localized="设置主实体"/>
+    <moqui.basic.LocalizedMessage original="Short Alias: ${entityInfo.shortAlias || 'N/A'}" locale="zh" localized="短别名：${entityInfo.shortAlias || '无'}"/>
+    <moqui.basic.LocalizedMessage original="SQL Filter" locale="zh" localized="SQL 筛选"/>
+    <moqui.basic.LocalizedMessage original="SQL Script" locale="zh" localized="SQL 脚本"/>
+    <moqui.basic.LocalizedMessage original="SQL Statement" locale="zh" localized="SQL 语句"/>
+    <moqui.basic.LocalizedMessage original="Statistics for queries run since server start. All times are in microseconds." locale="zh" localized="自服务器启动以来所运行查询的统计。所有时间均以微秒计。"/>
+    <moqui.basic.LocalizedMessage original="Table Name: ${entityInfo.fullTableName || 'N/A'}" locale="zh" localized="表名：${entityInfo.fullTableName || '无'}"/>
+    <moqui.basic.LocalizedMessage original="The larger APIs take a few seconds to load. Runs in same session (already authenticated)." locale="zh" localized="较大的 API 需要几秒钟加载。在同一会话中运行（已通过身份验证）。"/>
+    <moqui.basic.LocalizedMessage original="Total Time ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')}s" locale="zh" localized="总时间 ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')} 秒"/>
+    <moqui.basic.LocalizedMessage original="Trans Seq" locale="zh" localized="转移序号"/>
+    <moqui.basic.LocalizedMessage original="Tx Ignore: ${sd.txIgnore}, Force New: ${sd.txForceNew}, Use Tx Cache: ${sd.txUseCache}, Timeout: ${sd.txTimeout}" locale="zh" localized="忽略事务：${sd.txIgnore}，强制新事务：${sd.txForceNew}，使用事务缓存：${sd.txUseCache}，超时：${sd.txTimeout}"/>
+    <moqui.basic.LocalizedMessage original="Update Fields to Check/File Value and Create Missing Records" locale="zh" localized="将字段更新为检查/文件值并创建缺失记录"/>
+    <moqui.basic.LocalizedMessage original="Upload Snapshot" locale="zh" localized="上传快照"/>
+    <moqui.basic.LocalizedMessage original="Use master definition for each entity that has one with this name; try 'default'" locale="zh" localized="对每个具有此名称主定义的实体使用该定义；可试 'default'"/>
+    <moqui.basic.LocalizedMessage original="Use Table Column Names (CSV Only)" locale="zh" localized="使用表列名（仅 CSV）"/>
+    <moqui.basic.LocalizedMessage original="Use Try Insert?" locale="zh" localized="使用尝试插入？"/>
+    <moqui.basic.LocalizedMessage original="View ${dbViewEntityName}" locale="zh" localized="查看 ${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="View a status flow transition diagram by selecting a Type, Flow, or both" locale="zh" localized="选择类型、流程或两者，以查看状态流转移图"/>
+    <moqui.basic.LocalizedMessage original="View Entity Name" locale="zh" localized="视图实体名称"/>
+    <moqui.basic.LocalizedMessage original="View Entity? ${entityDefinition.isViewEntity}" locale="zh" localized="是否视图实体？${entityDefinition.isViewEntity}"/>
+    <moqui.basic.LocalizedMessage original="View Name" locale="zh" localized="视图名称"/>
+    <moqui.basic.LocalizedMessage original="View Option" locale="zh" localized="视图选项"/>
+    <moqui.basic.LocalizedMessage original="XML Actions" locale="zh" localized="操作 XML"/>
+    <moqui.basic.LocalizedMessage original="XML Text" locale="zh" localized="XML 文本"/>
+</entity-facade-xml>

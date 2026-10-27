@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="AMENDED" locale="zh" localized="已修订"/>
+    <moqui.basic.LocalizedMessage original="Account Statement" locale="zh" localized="账户对账单"/>
+    <moqui.basic.LocalizedMessage original="Account is current, no unpaid invoices or unapplied payments" locale="zh" localized="账户已结清，没有未付发票或未核销付款"/>
+    <moqui.basic.LocalizedMessage original="Adjustments Total" locale="zh" localized="调整合计"/>
+    <moqui.basic.LocalizedMessage original="All through" locale="zh" localized="自始截至"/>
+    <moqui.basic.LocalizedMessage original="Amount Paid" locale="zh" localized="已付金额"/>
+    <moqui.basic.LocalizedMessage original="Applied Payments" locale="zh" localized="已核销付款"/>
+    <moqui.basic.LocalizedMessage original="Customer #" locale="zh" localized="客户 #"/>
+    <moqui.basic.LocalizedMessage original="Invc" locale="zh" localized="发票"/>
+    <moqui.basic.LocalizedMessage original="Invoice Amount" locale="zh" localized="发票金额"/>
+    <moqui.basic.LocalizedMessage original="Invoice Cost Percent" locale="zh" localized="发票成本百分比"/>
+    <moqui.basic.LocalizedMessage original="Invoice Count" locale="zh" localized="发票笔数"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discount Percent" locale="zh" localized="发票折扣百分比"/>
+    <moqui.basic.LocalizedMessage original="Invoiced Quantity" locale="zh" localized="已开票数量"/>
+    <moqui.basic.LocalizedMessage original="New Customer Count" locale="zh" localized="新客户数"/>
+    <moqui.basic.LocalizedMessage original="New Customer Percent" locale="zh" localized="新客户百分比"/>
+    <moqui.basic.LocalizedMessage original="Order Count" locale="zh" localized="订单笔数"/>
+    <moqui.basic.LocalizedMessage original="Order Discount Percent" locale="zh" localized="订单折扣百分比"/>
+    <moqui.basic.LocalizedMessage original="Order Net Product" locale="zh" localized="订单产品净额"/>
+    <moqui.basic.LocalizedMessage original="Order Product Sales" locale="zh" localized="订单产品销售额"/>
+    <moqui.basic.LocalizedMessage original="Our Order" locale="zh" localized="我方订单"/>
+    <moqui.basic.LocalizedMessage original="Our Ref #" locale="zh" localized="我方参考 #"/>
+    <moqui.basic.LocalizedMessage original="PAID IN FULL" locale="zh" localized="已全额支付"/>
+    <moqui.basic.LocalizedMessage original="Paid Percent" locale="zh" localized="已付百分比"/>
+    <moqui.basic.LocalizedMessage original="Payment Detail" locale="zh" localized="付款明细"/>
+    <moqui.basic.LocalizedMessage original="Payment Ref #" locale="zh" localized="付款参考 #"/>
+    <moqui.basic.LocalizedMessage original="Payments Total" locale="zh" localized="付款合计"/>
+    <moqui.basic.LocalizedMessage original="Pre-Paid Percent" locale="zh" localized="预付百分比"/>
+    <moqui.basic.LocalizedMessage original="Rate" locale="zh" localized="费率"/>
+    <moqui.basic.LocalizedMessage original="Ref #" locale="zh" localized="参考 #"/>
+    <moqui.basic.LocalizedMessage original="TX" locale="zh" localized="交易"/>
+    <moqui.basic.LocalizedMessage original="TX #" locale="zh" localized="交易 #"/>
+    <moqui.basic.LocalizedMessage original="TX Amount" locale="zh" localized="交易金额"/>
+    <moqui.basic.LocalizedMessage original="Through" locale="zh" localized="截至"/>
+    <moqui.basic.LocalizedMessage original="Your Order" locale="zh" localized="贵方订单"/>
+    <moqui.basic.LocalizedMessage original="Your Product" locale="zh" localized="贵方产品"/>
+    <moqui.basic.LocalizedMessage original="Your Ref #" locale="zh" localized="贵方参考 #"/>
+    <moqui.basic.LocalizedMessage original="avg" locale="zh" localized="平均"/>
+    <moqui.basic.LocalizedMessage original="days" locale="zh" localized="天"/>
+    <moqui.basic.LocalizedMessage original="last" locale="zh" localized="上期"/>
+    <moqui.basic.LocalizedMessage original="prev" locale="zh" localized="前期"/>
+    <moqui.basic.LocalizedMessage original="previous" locale="zh" localized="上次"/>
+    <moqui.basic.LocalizedMessage original="this" locale="zh" localized="本期"/>
+    <moqui.basic.LocalizedMessage original="to" locale="zh" localized="至"/>
+</entity-facade-xml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${name} may not view this page" locale="zh" localized="${name} 不能查看此页面"/>
+    <moqui.basic.LocalizedMessage original="A review is approved or sent back for changes, not ${decision}" locale="zh" localized="评审只能批准或退回修改，不能是 ${decision}"/>
+    <moqui.basic.LocalizedMessage original="Built on MR Moqui ${ec.factory.moquiVersion}" locale="zh" localized="基于 MR Moqui ${ec.factory.moquiVersion} 构建"/>
+    <moqui.basic.LocalizedMessage original="Cleared ${key} from cache [${cacheName}] had value [${cacheValue}]" locale="zh" localized="已清除 ${key}，缓存为 [${cacheName}]，原值为 [${cacheValue}]"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name ${entityNames}" locale="zh" localized="未找到名称为 ${entityNames} 的实体"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name ${entityName}" locale="zh" localized="未找到名称为 ${entityName} 的实体"/>
+    <moqui.basic.LocalizedMessage original="No branch ${branch} in ${repositoryId}" locale="zh" localized="没有分支 ${branch}，仓库为 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="No document found in PrintJob [${printJobId}]" locale="zh" localized="在 PrintJob [${printJobId}] 中未找到文档"/>
+    <moqui.basic.LocalizedMessage original="No entry with key [${key}] in cache [${cacheName}]" locale="zh" localized="没有键为 [${key}] 的条目，缓存为 [${cacheName}]"/>
+    <moqui.basic.LocalizedMessage original="No relationship definition found for name ${relationshipName}" locale="zh" localized="未找到名为 ${relationshipName} 的关系定义"/>
+    <moqui.basic.LocalizedMessage original="No user ${user}" locale="zh" localized="没有用户 ${user}"/>
+    <moqui.basic.LocalizedMessage original="Only showing first ${limit} rows." locale="zh" localized="仅显示前 ${limit} 行。"/>
+    <moqui.basic.LocalizedMessage original="Only the poll's creator or a moderator may close it" locale="zh" localized="只有投票的创建者或版主可以关闭它"/>
+    <moqui.basic.LocalizedMessage original="Query altered ${rowsAffected} rows." locale="zh" localized="查询更改了 ${rowsAffected} 行。"/>
+    <moqui.basic.LocalizedMessage original="Repository ${repositoryId} is archived" locale="zh" localized="仓库 ${repositoryId} 已归档"/>
+    <moqui.basic.LocalizedMessage original="Repository ${repositoryId} not found" locale="zh" localized="未找到仓库 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="Showing all ${count} results." locale="zh" localized="正在显示全部 ${count} 条结果。"/>
+    <moqui.basic.LocalizedMessage original="The attachment ${name} is not a file of this message" locale="zh" localized="附件 ${name} 不是此消息的文件"/>
+    <moqui.basic.LocalizedMessage original="The Inbox is the server's INBOX: another folder does not become it" locale="zh" localized="收件箱就是服务器上的 INBOX：其他文件夹不能变成它"/>
+    <moqui.basic.LocalizedMessage original="The versions could not be compared: ${error}" locale="zh" localized="无法比较这些版本：${error}"/>
+    <moqui.basic.LocalizedMessage original="This account is shared with ${others} more people: remove them first, so only one is left, to make it personal" locale="zh" localized="此账号还与另外 ${others} 人共享：请先移除他们，只留下一人，才能改为个人账号"/>
+    <moqui.basic.LocalizedMessage original="This page has no version ${name}" locale="zh" localized="此页面没有版本 ${name}"/>
+    <moqui.basic.LocalizedMessage original="This review is ${status} already" locale="zh" localized="此评审已经是 ${status}"/>
+    <moqui.basic.LocalizedMessage original="UserAuthcOtpMessage" locale="zh" localized="一次性验证码是 ${code}"/>
+    <moqui.basic.LocalizedMessage original="You may not change the branch rules of ${repositoryId}" locale="zh" localized="您不能更改 ${repositoryId} 的分支规则"/>
+    <moqui.basic.LocalizedMessage original="You may not change the webhooks of ${repositoryId}" locale="zh" localized="您不能更改 ${repositoryId} 的 webhook"/>
+    <moqui.basic.LocalizedMessage original="You may not push to ${repositoryId}" locale="zh" localized="您不能推送到 ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="You may not see the webhooks of ${repositoryId}" locale="zh" localized="您不能查看 ${repositoryId} 的 webhook"/>
+</entity-facade-xml>

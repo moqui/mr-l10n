@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Acores" locale="zh" localized="亚速尔群岛"/>
+    <moqui.basic.LocalizedMessage original="Alaska/Hawaii" locale="zh" localized="阿拉斯加/夏威夷"/>
+    <moqui.basic.LocalizedMessage original="Andaman and Nicobar Islands" locale="zh" localized="安达曼和尼科巴群岛"/>
+    <moqui.basic.LocalizedMessage original="Aoste" locale="zh" localized="奥斯塔"/>
+    <moqui.basic.LocalizedMessage original="Armed Forces Americas" locale="zh" localized="美洲武装部队"/>
+    <moqui.basic.LocalizedMessage original="Armed Forces Europe" locale="zh" localized="欧洲武装部队"/>
+    <moqui.basic.LocalizedMessage original="Armed Forces Pacific" locale="zh" localized="太平洋武装部队"/>
+    <moqui.basic.LocalizedMessage original="Arunāchal Pradesh" locale="zh" localized="阿鲁纳恰尔邦"/>
+    <moqui.basic.LocalizedMessage original="Bac Giang" locale="zh" localized="北江省"/>
+    <moqui.basic.LocalizedMessage original="Bac Kan" locale="zh" localized="北干省"/>
+    <moqui.basic.LocalizedMessage original="Bac Lieu" locale="zh" localized="薄辽省"/>
+    <moqui.basic.LocalizedMessage original="Bac Ninh" locale="zh" localized="北宁省"/>
+    <moqui.basic.LocalizedMessage original="Beijing" locale="zh" localized="北京市"/>
+    <moqui.basic.LocalizedMessage original="Ben Tre" locale="zh" localized="槟椥省"/>
+    <moqui.basic.LocalizedMessage original="Bergamo" locale="zh" localized="贝加莫"/>
+    <moqui.basic.LocalizedMessage original="Bihār" locale="zh" localized="比哈尔邦"/>
+    <moqui.basic.LocalizedMessage original="Binh Dinh" locale="zh" localized="平定省"/>
+    <moqui.basic.LocalizedMessage original="Binh Duong" locale="zh" localized="平阳省"/>
+    <moqui.basic.LocalizedMessage original="Binh Phuoc" locale="zh" localized="平福省"/>
+    <moqui.basic.LocalizedMessage original="Binh Thuan" locale="zh" localized="平顺省"/>
+    <moqui.basic.LocalizedMessage original="Bologna" locale="zh" localized="博洛尼亚"/>
+    <moqui.basic.LocalizedMessage original="Bozen" locale="zh" localized="博尔扎诺"/>
+    <moqui.basic.LocalizedMessage original="Braganca" locale="zh" localized="布拉干萨"/>
+    <moqui.basic.LocalizedMessage original="Brindisi" locale="zh" localized="布林迪西"/>
+    <moqui.basic.LocalizedMessage original="British Columbia" locale="zh" localized="不列颠哥伦比亚省"/>
+    <moqui.basic.LocalizedMessage original="Ca Mau" locale="zh" localized="金瓯省"/>
+    <moqui.basic.LocalizedMessage original="Can Tho" locale="zh" localized="芹苴市"/>
+    <moqui.basic.LocalizedMessage original="Cao Bang" locale="zh" localized="高平省"/>
+    <moqui.basic.LocalizedMessage original="Chhattīsgarh" locale="zh" localized="恰蒂斯加尔邦"/>
+    <moqui.basic.LocalizedMessage original="Chubu" locale="zh" localized="中部地方"/>
+    <moqui.basic.LocalizedMessage original="Chugoku" locale="zh" localized="中国地方"/>
+    <moqui.basic.LocalizedMessage original="Coimbra" locale="zh" localized="科英布拉"/>
+    <moqui.basic.LocalizedMessage original="Crotone" locale="zh" localized="克罗托内"/>
+    <moqui.basic.LocalizedMessage original="Cuneo" locale="zh" localized="库内奥"/>
+    <moqui.basic.LocalizedMessage original="Da Nang" locale="zh" localized="岘港市"/>
+    <moqui.basic.LocalizedMessage original="Dak Nong" locale="zh" localized="得农省"/>
+    <moqui.basic.LocalizedMessage original="Dien Bien" locale="zh" localized="奠边省"/>
+    <moqui.basic.LocalizedMessage original="District of Columbia" locale="zh" localized="哥伦比亚特区"/>
+    <moqui.basic.LocalizedMessage original="Dong Nai" locale="zh" localized="同奈省"/>
+    <moqui.basic.LocalizedMessage original="Dong Thap" locale="zh" localized="同塔省"/>
+    <moqui.basic.LocalizedMessage original="Dādra and Nagar Haveli and Damān and Diu" locale="zh" localized="达德拉-纳加尔哈维利和达曼-第乌"/>
+    <moqui.basic.LocalizedMessage original="Evora" locale="zh" localized="埃武拉"/>
+    <moqui.basic.LocalizedMessage original="Federated States of Micronesia" locale="zh" localized="密克罗尼西亚联邦"/>
+    <moqui.basic.LocalizedMessage original="Firenze" locale="zh" localized="佛罗伦萨"/>
+    <moqui.basic.LocalizedMessage original="Genova" locale="zh" localized="热那亚"/>
+    <moqui.basic.LocalizedMessage original="Guangdong" locale="zh" localized="广东省"/>
+    <moqui.basic.LocalizedMessage original="Gujarāt" locale="zh" localized="古吉拉特邦"/>
+    <moqui.basic.LocalizedMessage original="Ha Giang" locale="zh" localized="河江省"/>
+    <moqui.basic.LocalizedMessage original="Ha Nam" locale="zh" localized="河南省"/>
+    <moqui.basic.LocalizedMessage original="Ha Noi" locale="zh" localized="河内市"/>
+    <moqui.basic.LocalizedMessage original="Ha Tinh" locale="zh" localized="河静省"/>
+    <moqui.basic.LocalizedMessage original="Hai Duong" locale="zh" localized="海阳省"/>
+    <moqui.basic.LocalizedMessage original="Hai Phong" locale="zh" localized="海防市"/>
+    <moqui.basic.LocalizedMessage original="Haryāna" locale="zh" localized="哈里亚纳邦"/>
+    <moqui.basic.LocalizedMessage original="Hawaii" locale="zh" localized="夏威夷州"/>
+    <moqui.basic.LocalizedMessage original="Himāchal Pradesh" locale="zh" localized="喜马偕尔邦"/>
+    <moqui.basic.LocalizedMessage original="Hoa Binh" locale="zh" localized="和平省"/>
+    <moqui.basic.LocalizedMessage original="Hokkaido" locale="zh" localized="北海道"/>
+    <moqui.basic.LocalizedMessage original="Hung Yen" locale="zh" localized="兴安省"/>
+    <moqui.basic.LocalizedMessage original="Hyogo" locale="zh" localized="兵库县"/>
+    <moqui.basic.LocalizedMessage original="Inner Mongolia" locale="zh" localized="内蒙古自治区"/>
+    <moqui.basic.LocalizedMessage original="Jammu and Kashmīr" locale="zh" localized="查谟和克什米尔"/>
+    <moqui.basic.LocalizedMessage original="Jhārkhand" locale="zh" localized="贾坎德邦"/>
+    <moqui.basic.LocalizedMessage original="Kanto" locale="zh" localized="关东地方"/>
+    <moqui.basic.LocalizedMessage original="Karnātaka" locale="zh" localized="卡纳塔克邦"/>
+    <moqui.basic.LocalizedMessage original="Khanh Hoa" locale="zh" localized="庆和省"/>
+    <moqui.basic.LocalizedMessage original="Kien Giang" locale="zh" localized="坚江省"/>
+    <moqui.basic.LocalizedMessage original="Kyoto" locale="zh" localized="京都府"/>
+    <moqui.basic.LocalizedMessage original="Kyushu and Okinawa" locale="zh" localized="九州和冲绳"/>
+    <moqui.basic.LocalizedMessage original="Ladākh" locale="zh" localized="拉达克"/>
+    <moqui.basic.LocalizedMessage original="Lai Chau" locale="zh" localized="莱州省"/>
+    <moqui.basic.LocalizedMessage original="Lakshadweep" locale="zh" localized="拉克沙群岛"/>
+    <moqui.basic.LocalizedMessage original="Lam Dong" locale="zh" localized="林同省"/>
+    <moqui.basic.LocalizedMessage original="Lang Son" locale="zh" localized="谅山省"/>
+    <moqui.basic.LocalizedMessage original="Leiria" locale="zh" localized="莱里亚"/>
+    <moqui.basic.LocalizedMessage original="Louisiana" locale="zh" localized="路易斯安那州"/>
+</entity-facade-xml>

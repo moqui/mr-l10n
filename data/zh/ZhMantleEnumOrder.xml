@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="01 Damaged in Shipping" locale="zh" localized="01 运输中损坏"/>
+    <moqui.basic.LocalizedMessage original="02 Defective" locale="zh" localized="02 有缺陷"/>
+    <moqui.basic.LocalizedMessage original="03 Wrong Item Shipped" locale="zh" localized="03 发错货品"/>
+    <moqui.basic.LocalizedMessage original="04 Not as Expected" locale="zh" localized="04 与预期不符"/>
+    <moqui.basic.LocalizedMessage original="05 Did not Fit/Wrong Size" locale="zh" localized="05 不合身/尺码错误"/>
+    <moqui.basic.LocalizedMessage original="06 Duplicate Shipment" locale="zh" localized="06 重复发货"/>
+    <moqui.basic.LocalizedMessage original="07 Gift, Not Wanted" locale="zh" localized="07 礼品，不需要"/>
+    <moqui.basic.LocalizedMessage original="08 Arrived Too Late" locale="zh" localized="08 到达太晚"/>
+    <moqui.basic.LocalizedMessage original="09 Did not Want/Like" locale="zh" localized="09 不想要/不喜欢"/>
+    <moqui.basic.LocalizedMessage original="10 Found Better Price" locale="zh" localized="10 找到更低价格"/>
+    <moqui.basic.LocalizedMessage original="11 Poor Customer Service" locale="zh" localized="11 客户服务差"/>
+    <moqui.basic.LocalizedMessage original="12 Unlike Photo/Description" locale="zh" localized="12 与照片/描述不符"/>
+    <moqui.basic.LocalizedMessage original="13 COD Payment Rejected" locale="zh" localized="13 货到付款被拒"/>
+    <moqui.basic.LocalizedMessage original="ACH Change Code" locale="zh" localized="ACH 变更代码"/>
+    <moqui.basic.LocalizedMessage original="ACH Return Code" locale="zh" localized="ACH 退回代码"/>
+    <moqui.basic.LocalizedMessage original="API Token" locale="zh" localized="API 令牌"/>
+    <moqui.basic.LocalizedMessage original="Accept" locale="zh" localized="接受"/>
+    <moqui.basic.LocalizedMessage original="Accepted" locale="zh" localized="已接受"/>
+    <moqui.basic.LocalizedMessage original="Account Closed" locale="zh" localized="账户已关闭"/>
+    <moqui.basic.LocalizedMessage original="Account Frozen" locale="zh" localized="账户已冻结"/>
+    <moqui.basic.LocalizedMessage original="Account Sold to Another DFI" locale="zh" localized="账户已售予另一 DFI"/>
+    <moqui.basic.LocalizedMessage original="Addenda Error" locale="zh" localized="附加记录错误"/>
+    <moqui.basic.LocalizedMessage original="Addenda Format Error" locale="zh" localized="附加记录格式错误"/>
+    <moqui.basic.LocalizedMessage original="Affiliate" locale="zh" localized="联盟"/>
+    <moqui.basic.LocalizedMessage original="Amount Field Error" locale="zh" localized="金额字段错误"/>
+    <moqui.basic.LocalizedMessage original="Approve (un-complete)" locale="zh" localized="批准（撤销完成）"/>
+    <moqui.basic.LocalizedMessage original="Approve (un-send)" locale="zh" localized="批准（撤销发送）"/>
+    <moqui.basic.LocalizedMessage original="Assigned" locale="zh" localized="已分配"/>
+    <moqui.basic.LocalizedMessage original="Authorization Revoked by Customer" locale="zh" localized="客户已撤销授权"/>
+    <moqui.basic.LocalizedMessage original="Auto Reorder" locale="zh" localized="自动再订购"/>
+    <moqui.basic.LocalizedMessage original="Begin Changes" locale="zh" localized="开始变更"/>
+    <moqui.basic.LocalizedMessage original="Being Changed" locale="zh" localized="变更中"/>
+    <moqui.basic.LocalizedMessage original="Beneficiary or Account Holder Deceased" locale="zh" localized="受益人或账户持有人已故"/>
+    <moqui.basic.LocalizedMessage original="Campaign" locale="zh" localized="营销活动"/>
+    <moqui.basic.LocalizedMessage original="Can't Reproduce" locale="zh" localized="无法重现"/>
+    <moqui.basic.LocalizedMessage original="Cancel Quote" locale="zh" localized="取消报价"/>
+    <moqui.basic.LocalizedMessage original="Cancelled by Customer" locale="zh" localized="客户已取消"/>
+    <moqui.basic.LocalizedMessage original="Check Truncation Entry Return" locale="zh" localized="支票截留分录退回"/>
+    <moqui.basic.LocalizedMessage original="Cold Call" locale="zh" localized="陌生电访"/>
+    <moqui.basic.LocalizedMessage original="Conference" locale="zh" localized="会议"/>
+    <moqui.basic.LocalizedMessage original="Contact Us" locale="zh" localized="联系我们"/>
+    <moqui.basic.LocalizedMessage original="Converted" locale="zh" localized="已转化"/>
+    <moqui.basic.LocalizedMessage original="Corporate Customer Advises Not Authorized" locale="zh" localized="企业客户告知未授权"/>
+    <moqui.basic.LocalizedMessage original="Corrected Return" locale="zh" localized="更正后退回"/>
+    <moqui.basic.LocalizedMessage original="Credit" locale="zh" localized="贷方"/>
+    <moqui.basic.LocalizedMessage original="Credit Entry Refused by Receiver" locale="zh" localized="接收方拒绝贷方分录"/>
+    <moqui.basic.LocalizedMessage original="Customer Advises Not Authorized, Improper, or Ineligible" locale="zh" localized="客户告知未授权、不当或不符合条件"/>
+    <moqui.basic.LocalizedMessage original="Customer Pick Up" locale="zh" localized="客户自提"/>
+    <moqui.basic.LocalizedMessage original="Customer Request" locale="zh" localized="客户请求"/>
+    <moqui.basic.LocalizedMessage original="Customs Contents Type" locale="zh" localized="海关内容类型"/>
+    <moqui.basic.LocalizedMessage original="Customs Non Delivery" locale="zh" localized="海关未投递"/>
+    <moqui.basic.LocalizedMessage original="DFI Account Number Not From Original Entry Detail Record" locale="zh" localized="DFI 账户号码并非来自原始分录明细记录"/>
+    <moqui.basic.LocalizedMessage original="Deliver" locale="zh" localized="交付"/>
+    <moqui.basic.LocalizedMessage original="Delivered" locale="zh" localized="已交付"/>
+    <moqui.basic.LocalizedMessage original="Delivers" locale="zh" localized="交付"/>
+    <moqui.basic.LocalizedMessage original="Deploys" locale="zh" localized="部署"/>
+    <moqui.basic.LocalizedMessage original="Direct Mail" locale="zh" localized="直邮"/>
+    <moqui.basic.LocalizedMessage original="Documents" locale="zh" localized="文件"/>
+    <moqui.basic.LocalizedMessage original="Drop Shipment" locale="zh" localized="直发"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Enrollment" locale="zh" localized="重复登记"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Entry" locale="zh" localized="重复分录"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Return" locale="zh" localized="重复退回"/>
+    <moqui.basic.LocalizedMessage original="E-Mail" locale="zh" localized="电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Employee" locale="zh" localized="员工"/>
+    <moqui.basic.LocalizedMessage original="Entry Not Processed by Gateway" locale="zh" localized="网关未处理分录"/>
+    <moqui.basic.LocalizedMessage original="Existing Customer" locale="zh" localized="现有客户"/>
+    <moqui.basic.LocalizedMessage original="Failure" locale="zh" localized="失败"/>
+    <moqui.basic.LocalizedMessage original="Field Error(s)" locale="zh" localized="字段错误"/>
+    <moqui.basic.LocalizedMessage original="File Record Edit Criteria" locale="zh" localized="文件记录编辑条件"/>
+    <moqui.basic.LocalizedMessage original="Fixed" locale="zh" localized="已修复"/>
+    <moqui.basic.LocalizedMessage original="Fixes" locale="zh" localized="修复"/>
+    <moqui.basic.LocalizedMessage original="Foreign Receiving DFI Unable to Settle" locale="zh" localized="境外接收 DFI 无法清算"/>
+    <moqui.basic.LocalizedMessage original="Fraud" locale="zh" localized="欺诈"/>
+    <moqui.basic.LocalizedMessage original="Gift" locale="zh" localized="礼品"/>
+    <moqui.basic.LocalizedMessage original="Gift Registry" locale="zh" localized="礼品登记"/>
+    <moqui.basic.LocalizedMessage original="Ground Commercial" locale="zh" localized="陆运商业"/>
+    <moqui.basic.LocalizedMessage original="Ground Parcel" locale="zh" localized="陆运包裹"/>
+    <moqui.basic.LocalizedMessage original="Held" locale="zh" localized="已保留"/>
+    <moqui.basic.LocalizedMessage original="Humanitarian Donation" locale="zh" localized="人道主义捐赠"/>
+    <moqui.basic.LocalizedMessage original="IAT Entry Coding Error" locale="zh" localized="IAT 分录编码错误"/>
+    <moqui.basic.LocalizedMessage original="Implements" locale="zh" localized="实现"/>
+    <moqui.basic.LocalizedMessage original="Improper Effective Entry Date" locale="zh" localized="生效分录日期不当"/>
+    <moqui.basic.LocalizedMessage original="Improper Source Document/Source Document Presented for Payment" locale="zh" localized="不当源凭证/已提交付款的源凭证"/>
+    <moqui.basic.LocalizedMessage original="In Transit" locale="zh" localized="在途"/>
+    <moqui.basic.LocalizedMessage original="Incoming" locale="zh" localized="入站"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Company Identification Number" locale="zh" localized="公司识别号不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect DFI Account Number" locale="zh" localized="DFI 账户号码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect DFI Account Number and Incorrect Transaction Code" locale="zh" localized="DFI 账户号码不正确且交易代码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Discretionary Data" locale="zh" localized="自由数据不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Identification Number" locale="zh" localized="个人识别号不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Identification Number/Identification Number" locale="zh" localized="个人识别号/识别号不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Name/Receiving Company Name" locale="zh" localized="个人姓名/接收公司名称不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Receiving DFI Identification" locale="zh" localized="接收 DFI 标识不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number" locale="zh" localized="路由号不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number and Incorrect DFI Account Number" locale="zh" localized="路由号不正确且 DFI 账户号码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number, Incorrect DFI Account Number, and Incorrect Transaction Code" locale="zh" localized="路由号不正确、DFI 账户号码不正确且交易代码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect SEC Code for Outbound International Payment" locale="zh" localized="出境国际付款的 SEC 代码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Trace Number" locale="zh" localized="追踪号不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Transaction Code" locale="zh" localized="交易代码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrectly Coded Outbound International Payment" locale="zh" localized="出境国际付款编码不正确"/>
+    <moqui.basic.LocalizedMessage original="Incorrectly Formatted Corrected Data" locale="zh" localized="更正数据格式不正确"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Funds" locale="zh" localized="资金不足"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Inventory" locale="zh" localized="库存不足"/>
+    <moqui.basic.LocalizedMessage original="Invalid ACH Routing Number" locale="zh" localized="ACH 路由号无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Account Number Structure" locale="zh" localized="账户号码结构无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Company Identification" locale="zh" localized="公司标识无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid DFI Account Number" locale="zh" localized="DFI 账户号码无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Foreign Receiving DFI Identification" locale="zh" localized="境外接收 DFI 标识无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Individual ID Number" locale="zh" localized="个人 ID 号码无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Individual Name/Company Name" locale="zh" localized="个人姓名/公司名称无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Representative Payee Indicator" locale="zh" localized="代表收款人标志无效"/>
+    <moqui.basic.LocalizedMessage original="Invalid Transaction Code" locale="zh" localized="交易代码无效"/>
+    <moqui.basic.LocalizedMessage original="Item and RCK Entry Presented for Payment" locale="zh" localized="项目与 RCK 分录已提交付款"/>
+    <moqui.basic.LocalizedMessage original="Item related to RCK Entry is Ineligible or RCK Entry is Improper" locale="zh" localized="与 RCK 分录相关的项目不符合条件，或 RCK 分录不当"/>
+    <moqui.basic.LocalizedMessage original="Label Type" locale="zh" localized="标签类型"/>
+    <moqui.basic.LocalizedMessage original="Lead Source" locale="zh" localized="线索来源"/>
+    <moqui.basic.LocalizedMessage original="Lead Status" locale="zh" localized="线索状态"/>
+    <moqui.basic.LocalizedMessage original="Limited Participation DFI" locale="zh" localized="有限参与 DFI"/>
+    <moqui.basic.LocalizedMessage original="Local Shipping Gateway" locale="zh" localized="本地发货网关"/>
+    <moqui.basic.LocalizedMessage original="Make Open/Tentative" locale="zh" localized="设为开放/暂定"/>
+    <moqui.basic.LocalizedMessage original="Mandatory Field Error" locale="zh" localized="必填字段错误"/>
+    <moqui.basic.LocalizedMessage original="Manual Response" locale="zh" localized="人工回复"/>
+    <moqui.basic.LocalizedMessage original="Manual Response Required" locale="zh" localized="需要人工回复"/>
+    <moqui.basic.LocalizedMessage original="Manually Cancelled" locale="zh" localized="已手动取消"/>
+    <moqui.basic.LocalizedMessage original="Merchandise" locale="zh" localized="商品"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Dishonored Return" locale="zh" localized="路由错误的拒付退回"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Notification of Change" locale="zh" localized="路由错误的变更通知"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Return" locale="zh" localized="路由错误的退回"/>
+    <moqui.basic.LocalizedMessage original="Motor (Common Carrier)" locale="zh" localized="公路（公共承运商）"/>
+    <moqui.basic.LocalizedMessage original="Next Day Priority" locale="zh" localized="次日优先"/>
+    <moqui.basic.LocalizedMessage original="Next Day Standard" locale="zh" localized="次日标准"/>
+    <moqui.basic.LocalizedMessage original="No Account/Unable to Locate Accountt" locale="zh" localized="无账户/无法定位账户"/>
+    <moqui.basic.LocalizedMessage original="No Errors Found" locale="zh" localized="未发现错误"/>
+    <moqui.basic.LocalizedMessage original="Non-Participant in IAT Program" locale="zh" localized="未参加 IAT 计划"/>
+    <moqui.basic.LocalizedMessage original="Non-Transaction Account" locale="zh" localized="非交易账户"/>
+    <moqui.basic.LocalizedMessage original="Open (Tentative)" locale="zh" localized="开放（暂定）"/>
+    <moqui.basic.LocalizedMessage original="Order" locale="zh" localized="订单"/>
+    <moqui.basic.LocalizedMessage original="Order Approved Reasons" locale="zh" localized="订单批准原因"/>
+    <moqui.basic.LocalizedMessage original="Order Content Type" locale="zh" localized="订单内容类型"/>
+    <moqui.basic.LocalizedMessage original="Order Decision Reason" locale="zh" localized="订单决策原因"/>
+    <moqui.basic.LocalizedMessage original="Order Header Status" locale="zh" localized="订单头状态"/>
+    <moqui.basic.LocalizedMessage original="Order Item Quantity Change Reason" locale="zh" localized="订单项数量变更原因"/>
+    <moqui.basic.LocalizedMessage original="Order Processing Status" locale="zh" localized="订单处理状态"/>
+    <moqui.basic.LocalizedMessage original="Order Rejected Reasons" locale="zh" localized="订单拒绝原因"/>
+    <moqui.basic.LocalizedMessage original="Ordered" locale="zh" localized="已订购"/>
+    <moqui.basic.LocalizedMessage original="Outgoing" locale="zh" localized="出站"/>
+    <moqui.basic.LocalizedMessage original="Pack" locale="zh" localized="装箱"/>
+    <moqui.basic.LocalizedMessage original="Packed" locale="zh" localized="已装箱"/>
+    <moqui.basic.LocalizedMessage original="Partner" locale="zh" localized="合作伙伴"/>
+    <moqui.basic.LocalizedMessage original="Payment Not Received" locale="zh" localized="未收到付款"/>
+    <moqui.basic.LocalizedMessage original="Payment Stopped" locale="zh" localized="付款已止付"/>
+    <moqui.basic.LocalizedMessage original="Permissible Return Entry" locale="zh" localized="允许的退回分录"/>
+    <moqui.basic.LocalizedMessage original="Permissible Return Entry Not Accepted/Return Not Requested by ODFI" locale="zh" localized="允许的退回分录未被接受/ODFI 未请求退回"/>
+    <moqui.basic.LocalizedMessage original="Picked" locale="zh" localized="已拣货"/>
+    <moqui.basic.LocalizedMessage original="Place" locale="zh" localized="下达"/>
+    <moqui.basic.LocalizedMessage original="Place (un-approve)" locale="zh" localized="下达（撤销批准）"/>
+    <moqui.basic.LocalizedMessage original="Place from Quote" locale="zh" localized="从报价下达"/>
+    <moqui.basic.LocalizedMessage original="Placed by Customer" locale="zh" localized="客户已下达"/>
+    <moqui.basic.LocalizedMessage original="Postal Mail" locale="zh" localized="邮政邮件"/>
+    <moqui.basic.LocalizedMessage original="Process (un-approve)" locale="zh" localized="处理（撤销批准）"/>
+    <moqui.basic.LocalizedMessage original="Process (un-send, un-approve)" locale="zh" localized="处理（撤销发送，撤销批准）"/>
+    <moqui.basic.LocalizedMessage original="Programming" locale="zh" localized="编程"/>
+    <moqui.basic.LocalizedMessage original="Propose Quote" locale="zh" localized="提出报价"/>
+    <moqui.basic.LocalizedMessage original="Public Relations" locale="zh" localized="公共关系"/>
+    <moqui.basic.LocalizedMessage original="Purchase" locale="zh" localized="采购"/>
+    <moqui.basic.LocalizedMessage original="Purchase Return" locale="zh" localized="采购退货"/>
+    <moqui.basic.LocalizedMessage original="Purchase Shipment" locale="zh" localized="采购发货单"/>
+    <moqui.basic.LocalizedMessage original="Qualified" locale="zh" localized="已合格"/>
+    <moqui.basic.LocalizedMessage original="Quote" locale="zh" localized="报价"/>
+    <moqui.basic.LocalizedMessage original="Quote Proposed by Vendor" locale="zh" localized="供应商已提出报价"/>
+    <moqui.basic.LocalizedMessage original="Quote Requested by Customer" locale="zh" localized="客户已请求报价"/>
+    <moqui.basic.LocalizedMessage original="RDFI Non-Settlement" locale="zh" localized="RDFI 未清算"/>
+    <moqui.basic.LocalizedMessage original="RDFI Not Participant in Check Truncation Program" locale="zh" localized="RDFI 未参加支票截留计划"/>
+    <moqui.basic.LocalizedMessage original="Refund" locale="zh" localized="退款"/>
+    <moqui.basic.LocalizedMessage original="Reject Request" locale="zh" localized="拒绝请求"/>
+    <moqui.basic.LocalizedMessage original="Rejected by Vendor" locale="zh" localized="供应商已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Replace" locale="zh" localized="更换"/>
+    <moqui.basic.LocalizedMessage original="Representative Payee Deceased or Unable to Continue in That Capacity" locale="zh" localized="代表收款人已故或无法继续担任该身份"/>
+    <moqui.basic.LocalizedMessage original="Request Content Type" locale="zh" localized="请求内容类型"/>
+    <moqui.basic.LocalizedMessage original="Request Quote" locale="zh" localized="请求报价"/>
+    <moqui.basic.LocalizedMessage original="Request Resolution" locale="zh" localized="请求解决结果"/>
+    <moqui.basic.LocalizedMessage original="Request Status" locale="zh" localized="请求状态"/>
+    <moqui.basic.LocalizedMessage original="Request Type" locale="zh" localized="请求类型"/>
+    <moqui.basic.LocalizedMessage original="Requirement Status" locale="zh" localized="需求状态"/>
+    <moqui.basic.LocalizedMessage original="Requirement Type" locale="zh" localized="需求类型"/>
+    <moqui.basic.LocalizedMessage original="Return Header and Item Status" locale="zh" localized="退货头与项状态"/>
+    <moqui.basic.LocalizedMessage original="Return Merchandise" locale="zh" localized="退回商品"/>
+    <moqui.basic.LocalizedMessage original="Return Not a Duplicate" locale="zh" localized="退回并非重复"/>
+    <moqui.basic.LocalizedMessage original="Return Reason" locale="zh" localized="退货原因"/>
+    <moqui.basic.LocalizedMessage original="Return Response" locale="zh" localized="退货处理"/>
+    <moqui.basic.LocalizedMessage original="Return of ENR Entry by Federal Government Agency" locale="zh" localized="联邦政府机构退回 ENR 分录"/>
+    <moqui.basic.LocalizedMessage original="Return of Improper Credit Entry" locale="zh" localized="不当贷方分录的退回"/>
+    <moqui.basic.LocalizedMessage original="Return of Improper Debit Entry" locale="zh" localized="不当借方分录的退回"/>
+    <moqui.basic.LocalizedMessage original="Return of XCK Entry" locale="zh" localized="XCK 分录的退回"/>
+    <moqui.basic.LocalizedMessage original="Return per ODFI's Request" locale="zh" localized="按 ODFI 请求退回"/>
+    <moqui.basic.LocalizedMessage original="Returned" locale="zh" localized="已退回"/>
+    <moqui.basic.LocalizedMessage original="Routing Number Check Digit Error" locale="zh" localized="路由号校验位错误"/>
+    <moqui.basic.LocalizedMessage original="Routing Number Not From Original Entry Detail Record" locale="zh" localized="路由号并非来自原始分录明细记录"/>
+    <moqui.basic.LocalizedMessage original="Routing Number/Check Digit Error" locale="zh" localized="路由号/校验位错误"/>
+    <moqui.basic.LocalizedMessage original="Sales Channel" locale="zh" localized="销售渠道"/>
+    <moqui.basic.LocalizedMessage original="Sales Return" locale="zh" localized="销售退货"/>
+    <moqui.basic.LocalizedMessage original="Sales Shipment" locale="zh" localized="销售发货单"/>
+    <moqui.basic.LocalizedMessage original="Sample" locale="zh" localized="样品"/>
+    <moqui.basic.LocalizedMessage original="Savings/Checking Selection is Wrong" locale="zh" localized="储蓄/支票账户选择错误"/>
+    <moqui.basic.LocalizedMessage original="Second Day" locale="zh" localized="第二日"/>
+    <moqui.basic.LocalizedMessage original="Self Generated" locale="zh" localized="自行产生"/>
+    <moqui.basic.LocalizedMessage original="Ship" locale="zh" localized="发货"/>
+    <moqui.basic.LocalizedMessage original="Shipment Item Pick Status" locale="zh" localized="发货单项拣货状态"/>
+    <moqui.basic.LocalizedMessage original="Shipment Method" locale="zh" localized="发货方式"/>
+    <moqui.basic.LocalizedMessage original="Shipment Roles" locale="zh" localized="发货单角色"/>
+    <moqui.basic.LocalizedMessage original="Shipment Route Segment Status" locale="zh" localized="发货单路线段状态"/>
+    <moqui.basic.LocalizedMessage original="Shipment Status" locale="zh" localized="发货单状态"/>
+    <moqui.basic.LocalizedMessage original="Shipment Type" locale="zh" localized="发货单类型"/>
+    <moqui.basic.LocalizedMessage original="Shipped" locale="zh" localized="已发货"/>
+    <moqui.basic.LocalizedMessage original="Shipping Gateway Option" locale="zh" localized="发货网关选项"/>
+    <moqui.basic.LocalizedMessage original="Shipping Gateway Type" locale="zh" localized="发货网关类型"/>
+    <moqui.basic.LocalizedMessage original="Shipping Tracking Status" locale="zh" localized="发货跟踪状态"/>
+    <moqui.basic.LocalizedMessage original="Single Lot Unavailable" locale="zh" localized="单一批次不可用"/>
+    <moqui.basic.LocalizedMessage original="Source Document Presented for Payment" locale="zh" localized="源凭证已提交付款"/>
+    <moqui.basic.LocalizedMessage original="Start Progress" locale="zh" localized="开始处理"/>
+    <moqui.basic.LocalizedMessage original="State Law Affecting RCK Acceptance" locale="zh" localized="影响 RCK 接受的州法律"/>
+    <moqui.basic.LocalizedMessage original="Stop Payment on Item Related to RCK Entry" locale="zh" localized="与 RCK 分录相关项目的止付"/>
+    <moqui.basic.LocalizedMessage original="Stop Payment on Source Document" locale="zh" localized="源凭证止付"/>
+    <moqui.basic.LocalizedMessage original="Stop Progress (to Submitted)" locale="zh" localized="停止处理（回到已提交）"/>
+    <moqui.basic.LocalizedMessage original="Story" locale="zh" localized="故事"/>
+    <moqui.basic.LocalizedMessage original="Sync Status" locale="zh" localized="同步状态"/>
+    <moqui.basic.LocalizedMessage original="Test Order" locale="zh" localized="测试订单"/>
+    <moqui.basic.LocalizedMessage original="Tests" locale="zh" localized="测试"/>
+    <moqui.basic.LocalizedMessage original="Third Day" locale="zh" localized="第三日"/>
+    <moqui.basic.LocalizedMessage original="Timely Original Return" locale="zh" localized="及时的原始退回"/>
+    <moqui.basic.LocalizedMessage original="Trace Number Error" locale="zh" localized="追踪号错误"/>
+    <moqui.basic.LocalizedMessage original="Trade Show" locale="zh" localized="展会"/>
+    <moqui.basic.LocalizedMessage original="Transfer" locale="zh" localized="调拨"/>
+    <moqui.basic.LocalizedMessage original="Un-deliver" locale="zh" localized="撤销交付"/>
+    <moqui.basic.LocalizedMessage original="Un-pack" locale="zh" localized="撤销装箱"/>
+    <moqui.basic.LocalizedMessage original="Un-pick" locale="zh" localized="撤销拣货"/>
+    <moqui.basic.LocalizedMessage original="Un-ship" locale="zh" localized="撤销发货"/>
+    <moqui.basic.LocalizedMessage original="Unauthorized Debit to Consumer Account Using Corporate SEC Code" locale="zh" localized="使用企业 SEC 代码对消费者账户的未授权借方"/>
+    <moqui.basic.LocalizedMessage original="Uncollected Funds" locale="zh" localized="未收妥资金"/>
+    <moqui.basic.LocalizedMessage original="Unknown" locale="zh" localized="未知"/>
+    <moqui.basic.LocalizedMessage original="Unpack" locale="zh" localized="拆箱"/>
+    <moqui.basic.LocalizedMessage original="Untimely Dishonored Return" locale="zh" localized="逾期的拒付退回"/>
+    <moqui.basic.LocalizedMessage original="Untimely Return" locale="zh" localized="逾期退回"/>
+    <moqui.basic.LocalizedMessage original="User Defined" locale="zh" localized="用户定义"/>
+    <moqui.basic.LocalizedMessage original="Void" locale="zh" localized="作废"/>
+    <moqui.basic.LocalizedMessage original="Voided" locale="zh" localized="已作废"/>
+    <moqui.basic.LocalizedMessage original="Web External" locale="zh" localized="外部网站"/>
+    <moqui.basic.LocalizedMessage original="Web Site" locale="zh" localized="网站"/>
+    <moqui.basic.LocalizedMessage original="Wish List" locale="zh" localized="心愿单"/>
+    <moqui.basic.LocalizedMessage original="Won't Fix" locale="zh" localized="不予修复"/>
+    <moqui.basic.LocalizedMessage original="Word of Mouth" locale="zh" localized="口碑"/>
+    <moqui.basic.LocalizedMessage original="Work" locale="zh" localized="工作"/>
+    <moqui.basic.LocalizedMessage original="Work Requirement Fulfillment Type" locale="zh" localized="工作需求履行类型"/>
+</entity-facade-xml>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="125*Compy. Contr Other Premium" locale="zh" localized="125*公司缴款其他保费"/>
+    <moqui.basic.LocalizedMessage original="125*HSA Contribution" locale="zh" localized="125*HSA 缴款"/>
+    <moqui.basic.LocalizedMessage original="125*HSA Contribution (pre tax)" locale="zh" localized="125*HSA 缴款（税前）"/>
+    <moqui.basic.LocalizedMessage original="125*PPO (pre tax)" locale="zh" localized="125*PPO（税前）"/>
+    <moqui.basic.LocalizedMessage original="401K Employer" locale="zh" localized="雇主 401K"/>
+    <moqui.basic.LocalizedMessage original="ACH Direct" locale="zh" localized="ACH 直接转账"/>
+    <moqui.basic.LocalizedMessage original="ATM debit or credit" locale="zh" localized="ATM 借记或贷记"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Invoice" locale="zh" localized="发票会计交易类型"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Payable" locale="zh" localized="应付会计交易类型"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Receivable" locale="zh" localized="应收会计交易类型"/>
+    <moqui.basic.LocalizedMessage original="Account Transfer" locale="zh" localized="账户转账"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Entry Reconcile Status" locale="zh" localized="会计交易分录对账状态"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Result" locale="zh" localized="会计交易结果"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Type" locale="zh" localized="会计交易类型"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payable" locale="zh" localized="应付账款"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payable - Unapplied Payments" locale="zh" localized="应付账款 - 未核销付款"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payables Write Off" locale="zh" localized="应付账款核销"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivable" locale="zh" localized="应收账款"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivable - Unapplied Payments" locale="zh" localized="应收账款 - 未核销付款"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivables Write Off" locale="zh" localized="应收账款核销"/>
+    <moqui.basic.LocalizedMessage original="Accrued Expenses" locale="zh" localized="应计费用"/>
+    <moqui.basic.LocalizedMessage original="Accrued Revenue" locale="zh" localized="应计收入"/>
+    <moqui.basic.LocalizedMessage original="Accumulated Amortization" locale="zh" localized="累计摊销"/>
+    <moqui.basic.LocalizedMessage original="Accumulated Depreciation" locale="zh" localized="累计折旧"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge" locale="zh" localized="签收"/>
+    <moqui.basic.LocalizedMessage original="Acknowledged" locale="zh" localized="已签收"/>
+    <moqui.basic.LocalizedMessage original="Actual" locale="zh" localized="实际"/>
+    <moqui.basic.LocalizedMessage original="Additional Feature" locale="zh" localized="附加功能"/>
+    <moqui.basic.LocalizedMessage original="Additional Medicare Employee" locale="zh" localized="员工附加联邦医疗保险"/>
+    <moqui.basic.LocalizedMessage original="Adjustment" locale="zh" localized="调整"/>
+    <moqui.basic.LocalizedMessage original="Advance Pay" locale="zh" localized="预支工资"/>
+    <moqui.basic.LocalizedMessage original="Advance Repayment" locale="zh" localized="预支偿还"/>
+    <moqui.basic.LocalizedMessage original="Advertising" locale="zh" localized="广告"/>
+    <moqui.basic.LocalizedMessage original="Agreement Termination" locale="zh" localized="协议终止"/>
+    <moqui.basic.LocalizedMessage original="Allowance For Bad Debts" locale="zh" localized="坏账准备"/>
+    <moqui.basic.LocalizedMessage original="Allowance for Bad Receivables" locale="zh" localized="应收坏账准备"/>
+    <moqui.basic.LocalizedMessage original="Amazon Pay Account" locale="zh" localized="Amazon Pay 账户"/>
+    <moqui.basic.LocalizedMessage original="Amortization" locale="zh" localized="摊销"/>
+    <moqui.basic.LocalizedMessage original="Asset - Fixed Asset" locale="zh" localized="资产 - 固定资产"/>
+    <moqui.basic.LocalizedMessage original="Asset - Inventory" locale="zh" localized="资产 - 库存"/>
+    <moqui.basic.LocalizedMessage original="Asset Issuance" locale="zh" localized="资产发出"/>
+    <moqui.basic.LocalizedMessage original="Asset Receipt" locale="zh" localized="资产接收"/>
+    <moqui.basic.LocalizedMessage original="Asset Variance" locale="zh" localized="资产差异"/>
+    <moqui.basic.LocalizedMessage original="Assets" locale="zh" localized="资产"/>
+    <moqui.basic.LocalizedMessage original="Authorize" locale="zh" localized="授权"/>
+    <moqui.basic.LocalizedMessage original="Authorize and Capture" locale="zh" localized="授权并请款"/>
+    <moqui.basic.LocalizedMessage original="Authorized" locale="zh" localized="已授权"/>
+    <moqui.basic.LocalizedMessage original="Automatic Replenish" locale="zh" localized="自动补充"/>
+    <moqui.basic.LocalizedMessage original="Bad Debt Expense" locale="zh" localized="坏账费用"/>
+    <moqui.basic.LocalizedMessage original="Bank Account" locale="zh" localized="银行账户"/>
+    <moqui.basic.LocalizedMessage original="Bank Account Type" locale="zh" localized="银行账户类型"/>
+    <moqui.basic.LocalizedMessage original="Banking Service Charges" locale="zh" localized="银行服务费"/>
+    <moqui.basic.LocalizedMessage original="Bill Through" locale="zh" localized="转开"/>
+    <moqui.basic.LocalizedMessage original="Billed Through" locale="zh" localized="已转开"/>
+    <moqui.basic.LocalizedMessage original="Billing Account" locale="zh" localized="账单账户"/>
+    <moqui.basic.LocalizedMessage original="Billing Account Term Type" locale="zh" localized="账单账户条款类型"/>
+    <moqui.basic.LocalizedMessage original="Bitcoin Wallet" locale="zh" localized="比特币钱包"/>
+    <moqui.basic.LocalizedMessage original="Bonus (Discretionary)" locale="zh" localized="奖金（酌情）"/>
+    <moqui.basic.LocalizedMessage original="Bonus (Non-Discretionary)" locale="zh" localized="奖金（非酌情）"/>
+    <moqui.basic.LocalizedMessage original="Break Hourly Earnings" locale="zh" localized="休息时薪收入"/>
+    <moqui.basic.LocalizedMessage original="Break RRP Earnings" locale="zh" localized="休息 RRP 收入"/>
+    <moqui.basic.LocalizedMessage original="Budget Item Type" locale="zh" localized="预算项目类型"/>
+    <moqui.basic.LocalizedMessage original="Budget Review Result" locale="zh" localized="预算审核结果"/>
+    <moqui.basic.LocalizedMessage original="Budget Type" locale="zh" localized="预算类型"/>
+    <moqui.basic.LocalizedMessage original="COGS - Average Cost Adjustment" locale="zh" localized="销售成本 - 平均成本调整"/>
+    <moqui.basic.LocalizedMessage original="COGS Method" locale="zh" localized="销售成本方法"/>
+    <moqui.basic.LocalizedMessage original="Capitalization" locale="zh" localized="资本化"/>
+    <moqui.basic.LocalizedMessage original="Capture" locale="zh" localized="请款"/>
+    <moqui.basic.LocalizedMessage original="Cash" locale="zh" localized="现金"/>
+    <moqui.basic.LocalizedMessage original="Cash Income" locale="zh" localized="现金收入"/>
+    <moqui.basic.LocalizedMessage original="Cash On Delivery" locale="zh" localized="货到付款"/>
+    <moqui.basic.LocalizedMessage original="Cash and Equivalent" locale="zh" localized="现金及现金等价物"/>
+    <moqui.basic.LocalizedMessage original="Cash withdrawal" locale="zh" localized="现金取款"/>
+    <moqui.basic.LocalizedMessage original="Certificate of Deposit" locale="zh" localized="定期存单"/>
+    <moqui.basic.LocalizedMessage original="Certified Check" locale="zh" localized="保付支票"/>
+    <moqui.basic.LocalizedMessage original="Chargeback" locale="zh" localized="拒付"/>
+    <moqui.basic.LocalizedMessage original="Charitable Contribution" locale="zh" localized="慈善捐款"/>
+    <moqui.basic.LocalizedMessage original="Charity Donation" locale="zh" localized="慈善捐赠"/>
+    <moqui.basic.LocalizedMessage original="Check Image" locale="zh" localized="支票影像"/>
+    <moqui.basic.LocalizedMessage original="Child Support Garnishment" locale="zh" localized="子女抚养费扣押"/>
+    <moqui.basic.LocalizedMessage original="Clause For Renewal" locale="zh" localized="续约条款"/>
+    <moqui.basic.LocalizedMessage original="Collection Agent" locale="zh" localized="催收代理"/>
+    <moqui.basic.LocalizedMessage original="Commission" locale="zh" localized="佣金"/>
+    <moqui.basic.LocalizedMessage original="Commission Adjustment" locale="zh" localized="佣金调整"/>
+    <moqui.basic.LocalizedMessage original="Commission Expense" locale="zh" localized="佣金费用"/>
+    <moqui.basic.LocalizedMessage original="Commission Invoice" locale="zh" localized="佣金发票"/>
+    <moqui.basic.LocalizedMessage original="Commission Line Item" locale="zh" localized="佣金行项目"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Fixed Per Unit" locale="zh" localized="佣金条款每单位固定额"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Maximum Per Unit" locale="zh" localized="佣金条款每单位最高额"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Minimum Per Unit" locale="zh" localized="佣金条款每单位最低额"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Variable" locale="zh" localized="佣金条款可变额"/>
+    <moqui.basic.LocalizedMessage original="Commission/Fee" locale="zh" localized="佣金/手续费"/>
+    <moqui.basic.LocalizedMessage original="Commissions Accrued" locale="zh" localized="应计佣金"/>
+    <moqui.basic.LocalizedMessage original="Commissions Payables Write Off" locale="zh" localized="应付佣金核销"/>
+    <moqui.basic.LocalizedMessage original="Communication Cellular" locale="zh" localized="蜂窝通信"/>
+    <moqui.basic.LocalizedMessage original="Communication Network" locale="zh" localized="网络通信"/>
+    <moqui.basic.LocalizedMessage original="Communication Telephone" locale="zh" localized="电话通信"/>
+    <moqui.basic.LocalizedMessage original="Company Account" locale="zh" localized="公司账户"/>
+    <moqui.basic.LocalizedMessage original="Company Check" locale="zh" localized="公司支票"/>
+    <moqui.basic.LocalizedMessage original="Company Owned Life Insurance" locale="zh" localized="公司拥有的人寿保险"/>
+    <moqui.basic.LocalizedMessage original="Compliance Fee" locale="zh" localized="合规手续费"/>
+    <moqui.basic.LocalizedMessage original="Computer Server Hosting" locale="zh" localized="服务器托管"/>
+    <moqui.basic.LocalizedMessage original="Confirmed Paid" locale="zh" localized="已确认付款"/>
+    <moqui.basic.LocalizedMessage original="Contributions" locale="zh" localized="捐赠"/>
+    <moqui.basic.LocalizedMessage original="Cost Center Category" locale="zh" localized="成本中心类别"/>
+    <moqui.basic.LocalizedMessage original="Cost of Goods Sold" locale="zh" localized="商品销售成本"/>
+    <moqui.basic.LocalizedMessage original="Cost of Sales" locale="zh" localized="销售成本"/>
+    <moqui.basic.LocalizedMessage original="Cost of Services Sold" locale="zh" localized="已售服务成本"/>
+    <moqui.basic.LocalizedMessage original="County/Parish/Borough" locale="zh" localized="县/堂区/自治市"/>
+    <moqui.basic.LocalizedMessage original="Coupons and Credits" locale="zh" localized="优惠券与贷项"/>
+    <moqui.basic.LocalizedMessage original="Credit Card" locale="zh" localized="信用卡"/>
+    <moqui.basic.LocalizedMessage original="Credit Card Type" locale="zh" localized="信用卡类型"/>
+    <moqui.basic.LocalizedMessage original="Credit Installment" locale="zh" localized="分期信贷"/>
+    <moqui.basic.LocalizedMessage original="Credit Line" locale="zh" localized="信用额度"/>
+    <moqui.basic.LocalizedMessage original="Credit Memo" locale="zh" localized="贷项通知单"/>
+    <moqui.basic.LocalizedMessage original="Credit Open" locale="zh" localized="开放式信贷"/>
+    <moqui.basic.LocalizedMessage original="Credit Revolving" locale="zh" localized="循环信贷"/>
+    <moqui.basic.LocalizedMessage original="Credit Secured" locale="zh" localized="有担保信贷"/>
+    <moqui.basic.LocalizedMessage original="Current Asset" locale="zh" localized="流动资产"/>
+    <moqui.basic.LocalizedMessage original="Current Assets" locale="zh" localized="流动资产"/>
+    <moqui.basic.LocalizedMessage original="Current Liabilities" locale="zh" localized="流动负债"/>
+    <moqui.basic.LocalizedMessage original="Current Liability" locale="zh" localized="流动负债"/>
+    <moqui.basic.LocalizedMessage original="Customer Credit Memo" locale="zh" localized="客户贷项通知单"/>
+    <moqui.basic.LocalizedMessage original="Customer Credits" locale="zh" localized="客户贷项"/>
+    <moqui.basic.LocalizedMessage original="Customer Deposits" locale="zh" localized="客户预存款"/>
+    <moqui.basic.LocalizedMessage original="Customer Return Invoice" locale="zh" localized="客户退货发票"/>
+    <moqui.basic.LocalizedMessage original="Customer Returns" locale="zh" localized="客户退货"/>
+    <moqui.basic.LocalizedMessage original="Customer Service Credit" locale="zh" localized="客户服务贷项"/>
+    <moqui.basic.LocalizedMessage original="Data Processing" locale="zh" localized="数据处理"/>
+    <moqui.basic.LocalizedMessage original="Debit" locale="zh" localized="借方"/>
+    <moqui.basic.LocalizedMessage original="Debit Card" locale="zh" localized="借记卡"/>
+    <moqui.basic.LocalizedMessage original="Decline" locale="zh" localized="拒绝"/>
+    <moqui.basic.LocalizedMessage original="Delivered Good" locale="zh" localized="已交付品"/>
+    <moqui.basic.LocalizedMessage original="Deposit" locale="zh" localized="存款"/>
+    <moqui.basic.LocalizedMessage original="Depreciation" locale="zh" localized="折旧"/>
+    <moqui.basic.LocalizedMessage original="Direct deposit" locale="zh" localized="直接存款"/>
+    <moqui.basic.LocalizedMessage original="Disbursement" locale="zh" localized="拨付"/>
+    <moqui.basic.LocalizedMessage original="Discount - Appeasement" locale="zh" localized="折扣 - 安抚"/>
+    <moqui.basic.LocalizedMessage original="Discount - Promotional" locale="zh" localized="折扣 - 促销"/>
+    <moqui.basic.LocalizedMessage original="Discount - Supplier" locale="zh" localized="折扣 - 供应商"/>
+    <moqui.basic.LocalizedMessage original="Discounts" locale="zh" localized="折扣"/>
+    <moqui.basic.LocalizedMessage original="Discounts and Write-downs" locale="zh" localized="折扣与减值"/>
+    <moqui.basic.LocalizedMessage original="Discretionary" locale="zh" localized="酌情"/>
+    <moqui.basic.LocalizedMessage original="Dividend" locale="zh" localized="股利"/>
+    <moqui.basic.LocalizedMessage original="Dividends" locale="zh" localized="股利分配"/>
+    <moqui.basic.LocalizedMessage original="Donation" locale="zh" localized="捐赠款"/>
+    <moqui.basic.LocalizedMessage original="Double Time Premium" locale="zh" localized="双倍工时津贴"/>
+    <moqui.basic.LocalizedMessage original="Dues and Subscriptions" locale="zh" localized="会费及订阅"/>
+    <moqui.basic.LocalizedMessage original="Education Expense" locale="zh" localized="教育费用"/>
+    <moqui.basic.LocalizedMessage original="Electronic payment" locale="zh" localized="电子付款"/>
+    <moqui.basic.LocalizedMessage original="Employee - Executive" locale="zh" localized="员工 - 高管"/>
+    <moqui.basic.LocalizedMessage original="Employee - Labor" locale="zh" localized="员工 - 人工"/>
+    <moqui.basic.LocalizedMessage original="Employee - Regular" locale="zh" localized="员工 - 普通"/>
+    <moqui.basic.LocalizedMessage original="Employee 401k Types" locale="zh" localized="员工 401k 类型"/>
+    <moqui.basic.LocalizedMessage original="Employee Compensation" locale="zh" localized="员工报酬"/>
+    <moqui.basic.LocalizedMessage original="Employee Section 125 Types" locale="zh" localized="员工第 125 条类型"/>
+    <moqui.basic.LocalizedMessage original="Employer 401k Types" locale="zh" localized="雇主 401k 类型"/>
+    <moqui.basic.LocalizedMessage original="Employer Classification" locale="zh" localized="雇主分类"/>
+    <moqui.basic.LocalizedMessage original="Employer Section 125 Types" locale="zh" localized="雇主第 125 条类型"/>
+    <moqui.basic.LocalizedMessage original="Enforced Sequence (no gaps, per organization)" locale="zh" localized="强制连续编号（无空号，按组织）"/>
+    <moqui.basic.LocalizedMessage original="Enforced and Restart on Fiscal Year (no gaps, per org, reset to 1 each year)" locale="zh" localized="强制连续并在会计年度重新开始（无空号，按组织，每年重置为 1）"/>
+    <moqui.basic.LocalizedMessage original="Equipment" locale="zh" localized="设备"/>
+    <moqui.basic.LocalizedMessage original="Equity" locale="zh" localized="权益"/>
+    <moqui.basic.LocalizedMessage original="Equity Distribution" locale="zh" localized="权益分配"/>
+    <moqui.basic.LocalizedMessage original="Error Adjustment" locale="zh" localized="差错调整"/>
+    <moqui.basic.LocalizedMessage original="Error Journal" locale="zh" localized="差错日记账"/>
+    <moqui.basic.LocalizedMessage original="Exclusive Relationship" locale="zh" localized="排他关系"/>
+    <moqui.basic.LocalizedMessage original="Exemption Inheritance" locale="zh" localized="豁免继承"/>
+    <moqui.basic.LocalizedMessage original="Expense" locale="zh" localized="费用"/>
+    <moqui.basic.LocalizedMessage original="FI fee" locale="zh" localized="FI 手续费"/>
+    <moqui.basic.LocalizedMessage original="Facility Expense" locale="zh" localized="设施费用"/>
+    <moqui.basic.LocalizedMessage original="Federal Income Withholding" locale="zh" localized="联邦所得税预扣"/>
+    <moqui.basic.LocalizedMessage original="Federal Pension Employer" locale="zh" localized="雇主联邦养老金"/>
+    <moqui.basic.LocalizedMessage original="Federal Unemployment Insurance (FUTA) Employee" locale="zh" localized="员工联邦失业保险（FUTA）"/>
+    <moqui.basic.LocalizedMessage original="Federal Unemployment Insurance (FUTA) Employer" locale="zh" localized="雇主联邦失业保险（FUTA）"/>
+    <moqui.basic.LocalizedMessage original="Federal/Country" locale="zh" localized="联邦/国家"/>
+    <moqui.basic.LocalizedMessage original="Fee" locale="zh" localized="手续费"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Adjustment" locale="zh" localized="财务账户调整"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Deposit" locale="zh" localized="财务账户存款"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Withdrawal" locale="zh" localized="财务账户取款"/>
+    <moqui.basic.LocalizedMessage original="Finalize" locale="zh" localized="定稿"/>
+    <moqui.basic.LocalizedMessage original="Finalized" locale="zh" localized="已定稿"/>
+    <moqui.basic.LocalizedMessage original="Financial" locale="zh" localized="财务"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Replenish Method" locale="zh" localized="财务账户补充方式"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Replenish Type" locale="zh" localized="财务账户补充类型"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Status" locale="zh" localized="财务账户状态"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Trans Reason" locale="zh" localized="财务账户交易原因"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Trans Type" locale="zh" localized="财务账户交易类型"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Transaction" locale="zh" localized="财务账户交易"/>
+    <moqui.basic.LocalizedMessage original="Finished Good" locale="zh" localized="产成品"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset" locale="zh" localized="固定资产"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Accumulated Depreciation" locale="zh" localized="固定资产累计折旧"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Depreciation" locale="zh" localized="固定资产折旧"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Found" locale="zh" localized="固定资产盘盈"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Maintenance" locale="zh" localized="固定资产维护"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Shrinkage" locale="zh" localized="固定资产损耗"/>
+    <moqui.basic.LocalizedMessage original="Forecast" locale="zh" localized="预测"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Gain" locale="zh" localized="汇兑收益"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Gain/Loss" locale="zh" localized="汇兑损益"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Loss" locale="zh" localized="汇兑损失"/>
+    <moqui.basic.LocalizedMessage original="Free Fills" locale="zh" localized="免费铺货"/>
+    <moqui.basic.LocalizedMessage original="GL Account Category Type" locale="zh" localized="总账账户类别类型"/>
+    <moqui.basic.LocalizedMessage original="GL Account Class" locale="zh" localized="总账账户分类"/>
+    <moqui.basic.LocalizedMessage original="GL Account Class Groups" locale="zh" localized="总账账户分类组"/>
+    <moqui.basic.LocalizedMessage original="GL Account Type" locale="zh" localized="总账账户类型"/>
+    <moqui.basic.LocalizedMessage original="GL Fiscal Type" locale="zh" localized="总账会计类型"/>
+    <moqui.basic.LocalizedMessage original="GL Journal Type" locale="zh" localized="总账日记账类型"/>
+</entity-facade-xml>

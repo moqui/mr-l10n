@@ -1,0 +1,5 @@
+${ec.l10n.format(sfile.size/(1024*1024), '#,##0.00')} MiB
+${ec.l10n.format(smap.Process.MemoryPeak, '#,##0.00')} MiB
+${ec.l10n.format(smap.Process.MemoryUsed, '#,##0.00')} MiB
+git clone ${cloneUrls.httpsUrl ?? ''}
+git clone ${cloneUrls.sshUrl}

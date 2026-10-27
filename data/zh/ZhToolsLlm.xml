@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${activeSeconds ?? 0} of ${maxRunSeconds ?? '-'}" locale="zh" localized="${activeSeconds ?? 0}（共 ${maxRunSeconds ?? '-'}）"/>
+    <moqui.basic.LocalizedMessage original="${retrieval?.skillCount ?? 0} skills in the index for this user, agent and surface." locale="zh" localized="此用户、智能体和界面的索引中有 ${retrieval?.skillCount ?? 0} 项技能。"/>
+    <moqui.basic.LocalizedMessage original="${stepCount ?? 0} of ${maxSteps ?? '-'}" locale="zh" localized="${stepCount ?? 0}（共 ${maxSteps ?? '-'}）"/>
+    <moqui.basic.LocalizedMessage original="${toolCallCount ?? 0} of ${maxToolCalls ?? '-'}" locale="zh" localized="${toolCallCount ?? 0}（共 ${maxToolCalls ?? '-'}）"/>
+    <moqui.basic.LocalizedMessage original="% of Budget" locale="zh" localized="预算占比"/>
+    <moqui.basic.LocalizedMessage original="50 when empty" locale="zh" localized="留空则为 50"/>
+    <moqui.basic.LocalizedMessage original="A conversation leaves out of this line the skills its catalog lists and the ones it loaded." locale="zh" localized="对话会从此行略去其目录列出的技能以及已加载的技能。"/>
+    <moqui.basic.LocalizedMessage original="A cron expression, for a schedule trigger" locale="zh" localized="cron 表达式，用于计划触发器"/>
+    <moqui.basic.LocalizedMessage original="A defined service, or an entity-auto one such as update#moqui.security.UserGroup" locale="zh" localized="已定义的服务，或 entity-auto 服务，例如 update#moqui.security.UserGroup"/>
+    <moqui.basic.LocalizedMessage original="A JSON patch applied to every request" locale="zh" localized="应用于每个请求的 JSON 补丁"/>
+    <moqui.basic.LocalizedMessage original="A JSON patch per level: {&quot;low&quot;: {...}, &quot;high&quot;: {...}}" locale="zh" localized="按级别的 JSON 补丁：{&quot;low&quot;: {...}, &quot;high&quot;: {...}}"/>
+    <moqui.basic.LocalizedMessage original="A JSON schema object for the parameters, in place of the one made from the service's" locale="zh" localized="参数的 JSON schema 对象，用来代替根据服务生成的那个"/>
+    <moqui.basic.LocalizedMessage original="A message as a user would write it" locale="zh" localized="一条用户会写的消息"/>
+    <moqui.basic.LocalizedMessage original="A model of System &gt; LLM &gt; Models" locale="zh" localized="系统 &gt; LLM &gt; 模型中的一个模型"/>
+    <moqui.basic.LocalizedMessage original="A new trigger starts paused" locale="zh" localized="新建的触发器以暂停状态开始"/>
+    <moqui.basic.LocalizedMessage original="A personal skill of this name no longer shadows it" locale="zh" localized="同名的个人技能不再遮蔽它"/>
+    <moqui.basic.LocalizedMessage original="A probe's verdict comes with its evidence; a verdict set here is the admin's and no probe replaces it (empty removes it)." locale="zh" localized="探测的判定附带其证据；在此设置的判定属于管理员，任何探测都不会替换它（留空则移除）。"/>
+    <moqui.basic.LocalizedMessage original="A tool or catalog name, or a pattern with * (mcp__*, *)" locale="zh" localized="工具或目录名称，或带 * 的模式（mcp__*、*）"/>
+    <moqui.basic.LocalizedMessage original="a2a, mcp, gateway (comma separated)" locale="zh" localized="a2a、mcp、gateway（逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Active Run" locale="zh" localized="活动运行"/>
+    <moqui.basic.LocalizedMessage original="Add Endpoint" locale="zh" localized="添加端点"/>
+    <moqui.basic.LocalizedMessage original="Add Model" locale="zh" localized="添加模型"/>
+    <moqui.basic.LocalizedMessage original="Add Rule" locale="zh" localized="添加规则"/>
+    <moqui.basic.LocalizedMessage original="Agents" locale="zh" localized="智能体"/>
+    <moqui.basic.LocalizedMessage original="All Approvals" locale="zh" localized="全部审批"/>
+    <moqui.basic.LocalizedMessage original="All Calls" locale="zh" localized="全部调用"/>
+    <moqui.basic.LocalizedMessage original="All Conversations" locale="zh" localized="全部对话"/>
+    <moqui.basic.LocalizedMessage original="All Exposed Services" locale="zh" localized="全部已暴露服务"/>
+    <moqui.basic.LocalizedMessage original="All Models" locale="zh" localized="全部模型"/>
+    <moqui.basic.LocalizedMessage original="All Runs" locale="zh" localized="全部运行"/>
+    <moqui.basic.LocalizedMessage original="All Skills" locale="zh" localized="全部技能"/>
+    <moqui.basic.LocalizedMessage original="Allow Tool" locale="zh" localized="允许工具"/>
+    <moqui.basic.LocalizedMessage original="Allowed" locale="zh" localized="已允许"/>
+    <moqui.basic.LocalizedMessage original="Allowed Tools" locale="zh" localized="允许的工具"/>
+    <moqui.basic.LocalizedMessage original="API Key" locale="zh" localized="API 密钥"/>
+    <moqui.basic.LocalizedMessage original="Approval ${approvalId ?? ''}" locale="zh" localized="审批 ${approvalId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Arguments" locale="zh" localized="参数"/>
+    <moqui.basic.LocalizedMessage original="ask: the user decides each write; policy: no one is asked (background agents only); never: not offered" locale="zh" localized="ask：用户决定每次写入；policy：不询问任何人（仅后台智能体）；never：不提供"/>
+    <moqui.basic.LocalizedMessage original="assist, title, summarize, classify, ai-field, embed, or a component's own" locale="zh" localized="assist、title、summarize、classify、ai-field、embed，或组件自己的"/>
+    <moqui.basic.LocalizedMessage original="Assistant" locale="zh" localized="助手"/>
+    <moqui.basic.LocalizedMessage original="Base URL" locale="zh" localized="基础 URL"/>
+    <moqui.basic.LocalizedMessage original="Batch Window" locale="zh" localized="批处理窗口"/>
+    <moqui.basic.LocalizedMessage original="Bind Feature" locale="zh" localized="绑定功能"/>
+    <moqui.basic.LocalizedMessage original="Breaker" locale="zh" localized="熔断器"/>
+    <moqui.basic.LocalizedMessage original="Cached" locale="zh" localized="已缓存"/>
+    <moqui.basic.LocalizedMessage original="Cached Input" locale="zh" localized="缓存输入"/>
+    <moqui.basic.LocalizedMessage original="Call ${callId ?? ''}" locale="zh" localized="调用 ${callId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Calls per Run" locale="zh" localized="每次运行的调用数"/>
+    <moqui.basic.LocalizedMessage original="Calls: ${month.callCount ?? 0}" locale="zh" localized="调用：${month.callCount ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Calls: ${today.callCount ?? 0} (${today.errorCount ?? 0} failed)" locale="zh" localized="调用：${today.callCount ?? 0}（${today.errorCount ?? 0} 次失败）"/>
+    <moqui.basic.LocalizedMessage original="Cancel Asked" locale="zh" localized="已请求取消"/>
+    <moqui.basic.LocalizedMessage original="Cancel Run" locale="zh" localized="取消运行"/>
+    <moqui.basic.LocalizedMessage original="Capabilities" locale="zh" localized="能力"/>
+    <moqui.basic.LocalizedMessage original="Card Read" locale="zh" localized="卡片读取"/>
+    <moqui.basic.LocalizedMessage original="Card URL" locale="zh" localized="卡片 URL"/>
+    <moqui.basic.LocalizedMessage original="Catalog of a Conversation That Starts With It" locale="zh" localized="以此开头的对话目录"/>
+    <moqui.basic.LocalizedMessage original="Cause" locale="zh" localized="原因"/>
+    <moqui.basic.LocalizedMessage original="Ceiling" locale="zh" localized="上限"/>
+    <moqui.basic.LocalizedMessage original="Changes" locale="zh" localized="变更"/>
+    <moqui.basic.LocalizedMessage original="Channel" locale="zh" localized="渠道"/>
+    <moqui.basic.LocalizedMessage original="Characters" locale="zh" localized="字符"/>
+    <moqui.basic.LocalizedMessage original="Check" locale="zh" localized="检查"/>
+    <moqui.basic.LocalizedMessage original="Check a Quota" locale="zh" localized="检查配额"/>
+    <moqui.basic.LocalizedMessage original="Class" locale="zh" localized="类别"/>
+    <moqui.basic.LocalizedMessage original="Classification" locale="zh" localized="分类"/>
+    <moqui.basic.LocalizedMessage original="Client ${clientId}" locale="zh" localized="客户端 ${clientId}"/>
+    <moqui.basic.LocalizedMessage original="Comma separated agent ids, * for all" locale="zh" localized="逗号分隔的智能体 ID，* 表示全部"/>
+    <moqui.basic.LocalizedMessage original="Comma separated agent ids, * for all, empty for none" locale="zh" localized="逗号分隔的智能体 ID，* 表示全部，留空表示无"/>
+    <moqui.basic.LocalizedMessage original="Comma separated; empty for all the user may use" locale="zh" localized="逗号分隔；留空表示该用户可使用的全部"/>
+    <moqui.basic.LocalizedMessage original="Context / Output" locale="zh" localized="上下文 / 输出"/>
+    <moqui.basic.LocalizedMessage original="Conversation ${conversationId ?? ''} ${conversationTitle}" locale="zh" localized="对话 ${conversationId ?? ''} ${conversationTitle}"/>
+    <moqui.basic.LocalizedMessage original="Copy as Sent" locale="zh" localized="按发送内容复制"/>
+    <moqui.basic.LocalizedMessage original="Cost a Day" locale="zh" localized="每日费用"/>
+    <moqui.basic.LocalizedMessage original="Cost Cap" locale="zh" localized="费用上限"/>
+    <moqui.basic.LocalizedMessage original="Cost: ${today.cost ?? 0} ${today.currencyUomId ?? ''}" locale="zh" localized="费用：${today.cost ?? 0} ${today.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Credential" locale="zh" localized="凭据"/>
+    <moqui.basic.LocalizedMessage original="Database Row" locale="zh" localized="数据库行"/>
+    <moqui.basic.LocalizedMessage original="Decided" locale="zh" localized="已决定"/>
+    <moqui.basic.LocalizedMessage original="Decided By" locale="zh" localized="决定人"/>
+    <moqui.basic.LocalizedMessage original="Each field set here replaces the conf's value of this endpoint; an empty one keeps it." locale="zh" localized="此处设置的每个字段都会替换此端点在配置中的值；留空则保留原值。"/>
+    <moqui.basic.LocalizedMessage original="Each field set here replaces the conf's value of this model; an empty one keeps it." locale="zh" localized="此处设置的每个字段都会替换此模型在配置中的值；留空则保留原值。"/>
+    <moqui.basic.LocalizedMessage original="Each user calls with a token of their own" locale="zh" localized="每个用户使用自己的令牌调用"/>
+    <moqui.basic.LocalizedMessage original="Edited Arguments" locale="zh" localized="已编辑的参数"/>
+    <moqui.basic.LocalizedMessage original="Else the agent's run-as user" locale="zh" localized="否则为智能体的运行身份用户"/>
+    <moqui.basic.LocalizedMessage original="Else the conf's a2a client-timeout" locale="zh" localized="否则为配置中的 a2a client-timeout"/>
+    <moqui.basic.LocalizedMessage original="Else the conf's mcp call-timeout" locale="zh" localized="否则为配置中的 mcp call-timeout"/>
+    <moqui.basic.LocalizedMessage original="Empty for a generated id" locale="zh" localized="留空则生成 ID"/>
+    <moqui.basic.LocalizedMessage original="Empty is EXTERNAL: each call asks for approval" locale="zh" localized="留空则为 EXTERNAL：每次调用都请求审批"/>
+    <moqui.basic.LocalizedMessage original="Empty is the service's own" locale="zh" localized="留空则为服务自身的"/>
+    <moqui.basic.LocalizedMessage original="Empty is the service's own: view is a read, delete is destructive, anything else a write" locale="zh" localized="留空则为服务自身的分类：view 为读取，delete 为破坏性操作，其余为写入"/>
+    <moqui.basic.LocalizedMessage original="Empty is Y" locale="zh" localized="留空则为 Y"/>
+    <moqui.basic.LocalizedMessage original="Empty: the head and contents; *: the whole body" locale="zh" localized="留空：开头与目录；*：整个正文"/>
+    <moqui.basic.LocalizedMessage original="Ended" locale="zh" localized="已结束"/>
+    <moqui.basic.LocalizedMessage original="Endpoint ${endpointId}" locale="zh" localized="端点 ${endpointId}"/>
+    <moqui.basic.LocalizedMessage original="Endpoints" locale="zh" localized="端点"/>
+    <moqui.basic.LocalizedMessage original="Estimated" locale="zh" localized="估算"/>
+    <moqui.basic.LocalizedMessage original="Events per Run" locale="zh" localized="每次运行的事件数"/>
+    <moqui.basic.LocalizedMessage original="Expose" locale="zh" localized="暴露"/>
+    <moqui.basic.LocalizedMessage original="Expose a Service" locale="zh" localized="暴露服务"/>
+    <moqui.basic.LocalizedMessage original="Exposed Service ${toolName}" locale="zh" localized="已暴露服务 ${toolName}"/>
+    <moqui.basic.LocalizedMessage original="Failed today: ${totals.runsFailedToday ?? 0}" locale="zh" localized="今日失败：${totals.runsFailedToday ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Failures" locale="zh" localized="失败"/>
+    <moqui.basic.LocalizedMessage original="Failures in a Row" locale="zh" localized="连续失败"/>
+    <moqui.basic.LocalizedMessage original="Failures in a row that open the breaker (3)" locale="zh" localized="打开熔断器的连续失败次数（3）"/>
+    <moqui.basic.LocalizedMessage original="Fallback" locale="zh" localized="回退"/>
+    <moqui.basic.LocalizedMessage original="Feature" locale="zh" localized="功能"/>
+    <moqui.basic.LocalizedMessage original="Feature Bindings" locale="zh" localized="功能绑定"/>
+    <moqui.basic.LocalizedMessage original="Finish" locale="zh" localized="结束原因"/>
+    <moqui.basic.LocalizedMessage original="Fire Now" locale="zh" localized="立即触发"/>
+    <moqui.basic.LocalizedMessage original="First Token ms" locale="zh" localized="首个 Token 毫秒"/>
+    <moqui.basic.LocalizedMessage original="Follow Owner" locale="zh" localized="跟随所有者"/>
+    <moqui.basic.LocalizedMessage original="For basic" locale="zh" localized="用于 basic"/>
+    <moqui.basic.LocalizedMessage original="For header" locale="zh" localized="用于请求头"/>
+    <moqui.basic.LocalizedMessage original="For MCP" locale="zh" localized="用于 MCP"/>
+    <moqui.basic.LocalizedMessage original="For the Assistant" locale="zh" localized="用于助手"/>
+    <moqui.basic.LocalizedMessage original="From ${skill.sourceLocation}: change the file and sync; here only its lock changes." locale="zh" localized="来自 ${skill.sourceLocation}：请修改文件并同步；此处只会更改其锁定。"/>
+    <moqui.basic.LocalizedMessage original="Header Name" locale="zh" localized="请求头名称"/>
+    <moqui.basic.LocalizedMessage original="Hold Approvals" locale="zh" localized="暂扣审批"/>
+    <moqui.basic.LocalizedMessage original="https, never an internal address unless Allow Private Network" locale="zh" localized="https，除非允许专用网络，否则绝不能是内部地址"/>
+    <moqui.basic.LocalizedMessage original="In" locale="zh" localized="输入"/>
+    <moqui.basic.LocalizedMessage original="in ${effective.priceInput ?? '-'}, cached ${effective.priceCachedInput ?? '-'}, cache write ${effective.priceCacheWrite ?? '-'}, out ${effective.priceOutput ?? '-'} ${effective.currencyUomId ?? ''}" locale="zh" localized="输入 ${effective.priceInput ?? '-'}，缓存 ${effective.priceCachedInput ?? '-'}，缓存写入 ${effective.priceCacheWrite ?? '-'}，输出 ${effective.priceOutput ?? '-'} ${effective.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="In /M" locale="zh" localized="输入/百万"/>
+    <moqui.basic.LocalizedMessage original="Input" locale="zh" localized="输入"/>
+    <moqui.basic.LocalizedMessage original="Its /.well-known/agent-card.json, https" locale="zh" localized="其 /.well-known/agent-card.json，https"/>
+    <moqui.basic.LocalizedMessage original="Its Streamable HTTP endpoint, https" locale="zh" localized="其 Streamable HTTP 端点，https"/>
+    <moqui.basic.LocalizedMessage original="Its tools are mcp__ this id __ tool" locale="zh" localized="其工具名为 mcp__、此 ID、__ 与工具名"/>
+    <moqui.basic.LocalizedMessage original="Last Failure" locale="zh" localized="上次失败"/>
+    <moqui.basic.LocalizedMessage original="Last Message" locale="zh" localized="上次消息"/>
+    <moqui.basic.LocalizedMessage original="Last Used" locale="zh" localized="上次使用"/>
+    <moqui.basic.LocalizedMessage original="Lease Expires" locale="zh" localized="租约到期"/>
+    <moqui.basic.LocalizedMessage original="Lease Node" locale="zh" localized="租约节点"/>
+    <moqui.basic.LocalizedMessage original="Left out of the configuration" locale="zh" localized="未纳入配置"/>
+    <moqui.basic.LocalizedMessage original="Lesson" locale="zh" localized="经验"/>
+    <moqui.basic.LocalizedMessage original="List Tools Now" locale="zh" localized="立即列出工具"/>
+    <moqui.basic.LocalizedMessage original="Load As" locale="zh" localized="加载为"/>
+    <moqui.basic.LocalizedMessage original="Local" locale="zh" localized="本地"/>
+    <moqui.basic.LocalizedMessage original="Local / Disabled / From" locale="zh" localized="本地 / 已禁用 / 来源"/>
+    <moqui.basic.LocalizedMessage original="Loopback or LAN addresses, and http" locale="zh" localized="环回或 LAN 地址，以及 http"/>
+    <moqui.basic.LocalizedMessage original="Markdown with front matter: name (kebab-case) and description (Use when …) are required" locale="zh" localized="带 front matter 的 Markdown：name（kebab-case）和 description（Use when …）为必填"/>
+    <moqui.basic.LocalizedMessage original="Markdown with front matter; a front matter error is shown and nothing is saved" locale="zh" localized="带 front matter 的 Markdown；若 front matter 有错误会显示，且不会保存任何内容"/>
+    <moqui.basic.LocalizedMessage original="Matched" locale="zh" localized="匹配依据"/>
+    <moqui.basic.LocalizedMessage original="Max Calls" locale="zh" localized="最大调用数"/>
+    <moqui.basic.LocalizedMessage original="MCP Server ${mcpServerId}" locale="zh" localized="MCP 服务器 ${mcpServerId}"/>
+    <moqui.basic.LocalizedMessage original="Meaning" locale="zh" localized="语义"/>
+    <moqui.basic.LocalizedMessage original="Model ${modelId}" locale="zh" localized="模型 ${modelId}"/>
+    <moqui.basic.LocalizedMessage original="Model ${preview?.modelId}" locale="zh" localized="模型 ${preview?.modelId}"/>
+    <moqui.basic.LocalizedMessage original="Model Calls" locale="zh" localized="模型调用"/>
+    <moqui.basic.LocalizedMessage original="Model Calls Today" locale="zh" localized="今日模型调用"/>
+    <moqui.basic.LocalizedMessage original="More request headers, a JSON object of name to value" locale="zh" localized="更多请求头，一个从名称到值的 JSON 对象"/>
+    <moqui.basic.LocalizedMessage original="New Alias" locale="zh" localized="新建别名"/>
+    <moqui.basic.LocalizedMessage original="New Client" locale="zh" localized="新建客户端"/>
+    <moqui.basic.LocalizedMessage original="New MCP Server" locale="zh" localized="新建 MCP 服务器"/>
+    <moqui.basic.LocalizedMessage original="New Remote Agent" locale="zh" localized="新建远程智能体"/>
+    <moqui.basic.LocalizedMessage original="New Skill" locale="zh" localized="新建技能"/>
+    <moqui.basic.LocalizedMessage original="New Trigger" locale="zh" localized="新建触发器"/>
+    <moqui.basic.LocalizedMessage original="No endpoint ${endpointId ?? ''} is configured in the conf or the database." locale="zh" localized="配置和数据库中都没有端点 ${endpointId ?? ''}。"/>
+    <moqui.basic.LocalizedMessage original="No model ${modelId ?? ''} is configured in the conf or the database." locale="zh" localized="配置和数据库中都没有模型 ${modelId ?? ''}。"/>
+    <moqui.basic.LocalizedMessage original="No model resolves, so there is no request to show." locale="zh" localized="没有模型可解析，因此没有可显示的请求。"/>
+    <moqui.basic.LocalizedMessage original="No service is exposed as ${toolName ?? ''}." locale="zh" localized="没有服务以 ${toolName ?? ''} 暴露。"/>
+    <moqui.basic.LocalizedMessage original="No strong match: the tail names no skill." locale="zh" localized="无强匹配：结尾未指明任何技能。"/>
+    <moqui.basic.LocalizedMessage original="Node" locale="zh" localized="节点"/>
+    <moqui.basic.LocalizedMessage original="Not in effect: another skill of this name counts (${detail.inEffectSkillId ?? 'none, it is not published or not allowed'})." locale="zh" localized="未生效：同名的另一技能在起作用（${detail.inEffectSkillId ?? '无，未发布或不允许'}）。"/>
+    <moqui.basic.LocalizedMessage original="On top of the user's own quota" locale="zh" localized="在用户自身配额之外另计"/>
+    <moqui.basic.LocalizedMessage original="One of the client user's login keys; kept only as its hash" locale="zh" localized="客户端用户的登录密钥之一；仅保存其哈希"/>
+    <moqui.basic.LocalizedMessage original="One of the user's app passwords (My Account)" locale="zh" localized="用户的应用密码之一（我的账号）"/>
+    <moqui.basic.LocalizedMessage original="One small call to the endpoint's first model" locale="zh" localized="对端点的第一个模型做一次小调用"/>
+    <moqui.basic.LocalizedMessage original="One small call to the model" locale="zh" localized="对模型做一次小调用"/>
+    <moqui.basic.LocalizedMessage original="Or a feature (assist, summarize, embed, ...) whose binding it follows" locale="zh" localized="或一个功能（assist、summarize、embed 等），跟随其绑定"/>
+    <moqui.basic.LocalizedMessage original="Or one of the user's login keys; it is kept only as its hash" locale="zh" localized="或用户的登录密钥之一；仅保存其哈希"/>
+    <moqui.basic.LocalizedMessage original="Out" locale="zh" localized="输出"/>
+    <moqui.basic.LocalizedMessage original="Out /M" locale="zh" localized="输出/百万"/>
+    <moqui.basic.LocalizedMessage original="Page" locale="zh" localized="页面"/>
+    <moqui.basic.LocalizedMessage original="Page Version" locale="zh" localized="页面版本"/>
+    <moqui.basic.LocalizedMessage original="Per Minute" locale="zh" localized="每分钟"/>
+    <moqui.basic.LocalizedMessage original="Per User" locale="zh" localized="每用户"/>
+    <moqui.basic.LocalizedMessage original="Per User Token" locale="zh" localized="每用户令牌"/>
+    <moqui.basic.LocalizedMessage original="Personal skill of ${skill.ownerUserId}: it shadows the site skill of its name unless that one is locked." locale="zh" localized="${skill.ownerUserId} 的个人技能：会遮蔽同名的站点技能，除非该站点技能已锁定。"/>
+    <moqui.basic.LocalizedMessage original="Preview" locale="zh" localized="预览"/>
+    <moqui.basic.LocalizedMessage original="Prices per M" locale="zh" localized="每百万价格"/>
+    <moqui.basic.LocalizedMessage original="Probe Capabilities" locale="zh" localized="探测能力"/>
+    <moqui.basic.LocalizedMessage original="Problems" locale="zh" localized="问题"/>
+    <moqui.basic.LocalizedMessage original="Prompt of ${preview?.agentId ?? ''} on ${preview?.surface ?? ''} (${preview?.variant ?? ''})" locale="zh" localized="${preview?.agentId ?? ''} 在 ${preview?.surface ?? ''} 上的提示（${preview?.variant ?? ''}）"/>
+    <moqui.basic.LocalizedMessage original="Query" locale="zh" localized="查询"/>
+    <moqui.basic.LocalizedMessage original="Ranked Skills" locale="zh" localized="排序后的技能"/>
+    <moqui.basic.LocalizedMessage original="Read Card" locale="zh" localized="读取卡片"/>
+    <moqui.basic.LocalizedMessage original="Read the skill files of the framework and the components again" locale="zh" localized="重新读取框架和组件的技能文件"/>
+    <moqui.basic.LocalizedMessage original="Reasoning Levels" locale="zh" localized="推理级别"/>
+    <moqui.basic.LocalizedMessage original="Recent Calls" locale="zh" localized="最近调用"/>
+    <moqui.basic.LocalizedMessage original="Recent Failed Calls" locale="zh" localized="最近失败的调用"/>
+    <moqui.basic.LocalizedMessage original="Recent Failed Runs" locale="zh" localized="最近失败的运行"/>
+    <moqui.basic.LocalizedMessage original="Recent Uses" locale="zh" localized="最近使用"/>
+    <moqui.basic.LocalizedMessage original="Recompute today's and yesterday's rows now" locale="zh" localized="立即重新计算今天和昨天的行"/>
+    <moqui.basic.LocalizedMessage original="Remote Agent ${remoteId} (tool a2a__${remoteId})" locale="zh" localized="远程智能体 ${remoteId}（工具 a2a__${remoteId}）"/>
+    <moqui.basic.LocalizedMessage original="Remove Row" locale="zh" localized="移除行"/>
+    <moqui.basic.LocalizedMessage original="Replaces the server's own" locale="zh" localized="替换服务器自身的"/>
+    <moqui.basic.LocalizedMessage original="Requests per Minute" locale="zh" localized="每分钟请求数"/>
+    <moqui.basic.LocalizedMessage original="Reset Breaker" locale="zh" localized="重置熔断器"/>
+    <moqui.basic.LocalizedMessage original="Resolves To" locale="zh" localized="解析为"/>
+    <moqui.basic.LocalizedMessage original="Response" locale="zh" localized="响应"/>
+    <moqui.basic.LocalizedMessage original="Reviewed" locale="zh" localized="已审阅"/>
+    <moqui.basic.LocalizedMessage original="Roll Up Today" locale="zh" localized="汇总今日"/>
+    <moqui.basic.LocalizedMessage original="Run ${runId ?? ''}" locale="zh" localized="运行 ${runId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Runs As" locale="zh" localized="运行身份"/>
+    <moqui.basic.LocalizedMessage original="Runs at Once" locale="zh" localized="同时运行数"/>
+    <moqui.basic.LocalizedMessage original="Runs per Day" locale="zh" localized="每日运行数"/>
+    <moqui.basic.LocalizedMessage original="Runs per Hour" locale="zh" localized="每小时运行数"/>
+    <moqui.basic.LocalizedMessage original="Sample Page" locale="zh" localized="示例页面"/>
+    <moqui.basic.LocalizedMessage original="Sample Tail" locale="zh" localized="示例结尾"/>
+    <moqui.basic.LocalizedMessage original="Save Row" locale="zh" localized="保存行"/>
+    <moqui.basic.LocalizedMessage original="Saved with the version you opened (${exposure.lockVersion ?? 0}): if someone saved it since, your save is refused and this shows it as it is now. Each save moves the version on, so an approval asked for under the older one runs nothing." locale="zh" localized="按打开时的版本保存（${exposure.lockVersion ?? 0}）：若此后有人保存过，本次保存会被拒绝，并显示当前内容。每次保存都会推进版本，因此针对旧版本提出的审批不会执行任何操作。"/>
+    <moqui.basic.LocalizedMessage original="Schema Override" locale="zh" localized="模式覆盖"/>
+    <moqui.basic.LocalizedMessage original="Seconds the events of a record-change trigger gather into one run; 0 runs at once" locale="zh" localized="记录变更触发器的事件汇成一次运行的秒数；0 表示立即运行"/>
+    <moqui.basic.LocalizedMessage original="Seconds Working" locale="zh" localized="工作秒数"/>
+    <moqui.basic.LocalizedMessage original="Section" locale="zh" localized="章节"/>
+    <moqui.basic.LocalizedMessage original="Server" locale="zh" localized="服务器"/>
+    <moqui.basic.LocalizedMessage original="Server ID" locale="zh" localized="服务器 ID"/>
+    <moqui.basic.LocalizedMessage original="Set" locale="zh" localized="设置"/>
+    <moqui.basic.LocalizedMessage original="Set Key" locale="zh" localized="设置密钥"/>
+    <moqui.basic.LocalizedMessage original="Sim preview of a write: on demand (the card's button), always before the card, or none; a destructive one is previewed unless none" locale="zh" localized="写入的模拟预览：按需（卡片按钮）、始终在卡片之前，或无；破坏性操作总会预览，除非选择无"/>
+    <moqui.basic.LocalizedMessage original="Site" locale="zh" localized="站点"/>
+    <moqui.basic.LocalizedMessage original="Skill ${skill?.skillName ?? skillId}" locale="zh" localized="技能 ${skill?.skillName ?? skillId}"/>
+    <moqui.basic.LocalizedMessage original="skill find= answer" locale="zh" localized="技能 find= 的回答"/>
+    <moqui.basic.LocalizedMessage original="skill(name) sends the whole body under 6,000 characters, else the text before the first section and these contents; skill(name#section) sends one." locale="zh" localized="skill(name) 在正文少于 6000 个字符时发送全部正文，否则发送第一节之前的文本和此目录；skill(name#section) 发送一节。"/>
+    <moqui.basic.LocalizedMessage original="Snapshot" locale="zh" localized="快照"/>
+    <moqui.basic.LocalizedMessage original="Source ${skill.provenance ?? ''}, version ${skill.versionNum ?? 1}, ${skill.useCount ?? 0} uses, risk ${detail.risk ?? ''} (only a skill a person wrote lowers a risk), body ${detail.bodyChars ?? 0} characters." locale="zh" localized="来源 ${skill.provenance ?? ''}，版本 ${skill.versionNum ?? 1}，使用 ${skill.useCount ?? 0} 次，风险 ${detail.risk ?? ''}（只有人工编写的技能会降低风险），正文 ${detail.bodyChars ?? 0} 个字符。"/>
+    <moqui.basic.LocalizedMessage original="Spend: ${month.cost ?? 0} ${month.currencyUomId ?? ''}" locale="zh" localized="支出：${month.cost ?? 0} ${month.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Started" locale="zh" localized="已开始"/>
+    <moqui.basic.LocalizedMessage original="Step" locale="zh" localized="步骤"/>
+    <moqui.basic.LocalizedMessage original="Steps" locale="zh" localized="步骤"/>
+    <moqui.basic.LocalizedMessage original="Stored encrypted and never shown. A key here replaces the conf's; a row that changes the host needs one." locale="zh" localized="加密存储且从不显示。此处的密钥会替换配置中的密钥；更改主机的行必须提供密钥。"/>
+    <moqui.basic.LocalizedMessage original="Strong" locale="zh" localized="强匹配"/>
+    <moqui.basic.LocalizedMessage original="Submitted today: ${totals.runsToday ?? 0}" locale="zh" localized="今日提交：${totals.runsToday ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Sync Files" locale="zh" localized="同步文件"/>
+    <moqui.basic.LocalizedMessage original="Tail of a Later Message" locale="zh" localized="后续消息的结尾"/>
+    <moqui.basic.LocalizedMessage original="Target" locale="zh" localized="目标"/>
+    <moqui.basic.LocalizedMessage original="Test" locale="zh" localized="测试"/>
+    <moqui.basic.LocalizedMessage original="The cosine of the semantic branch, when an embedder is installed" locale="zh" localized="已安装嵌入模型时，语义分支的余弦值"/>
+    <moqui.basic.LocalizedMessage original="The DataDocument whose record changes fire a record-change trigger" locale="zh" localized="其记录变更会触发记录变更触发器的 DataDocument"/>
+    <moqui.basic.LocalizedMessage original="The highest class it may run; empty is any" locale="zh" localized="可运行的最高分类；留空则为任意"/>
+    <moqui.basic.LocalizedMessage original="The key, password or header value; kept encrypted, never shown" locale="zh" localized="密钥、密码或请求头的值；加密保存，从不显示"/>
+    <moqui.basic.LocalizedMessage original="The llm-facade is disabled in the conf: no model is called." locale="zh" localized="配置中已禁用 llm-facade：不会调用任何模型。"/>
+    <moqui.basic.LocalizedMessage original="The model name callers use" locale="zh" localized="调用方使用的模型名称"/>
+    <moqui.basic.LocalizedMessage original="The name the model calls it by, such as update_user_group; not mcp__ or a2a__" locale="zh" localized="模型调用它所用的名称，例如 update_user_group；不要用 mcp__ 或 a2a__"/>
+    <moqui.basic.LocalizedMessage original="The page it is sent from, such as /apps/system/Security/UserAccount/UserAccountList" locale="zh" localized="发送时所在的页面，例如 /apps/system/Security/UserAccount/UserAccountList"/>
+    <moqui.basic.LocalizedMessage original="The provider's name of the model" locale="zh" localized="提供方的模型名称"/>
+    <moqui.basic.LocalizedMessage original="The server's own name of the tool" locale="zh" localized="服务器上该工具自身的名称"/>
+    <moqui.basic.LocalizedMessage original="The tool is a2a__ and this id" locale="zh" localized="工具名为 a2a__ 加此 ID"/>
+    <moqui.basic.LocalizedMessage original="The user the client calls as" locale="zh" localized="客户端调用时所用的用户"/>
+    <moqui.basic.LocalizedMessage original="The user's memory is shown only for your own user." locale="zh" localized="用户记忆仅对你自己的用户显示。"/>
+    <moqui.basic.LocalizedMessage original="There is no skill ${skillId ?? ''}." locale="zh" localized="不存在技能 ${skillId ?? ''}。"/>
+    <moqui.basic.LocalizedMessage original="This Month" locale="zh" localized="本月"/>
+    <moqui.basic.LocalizedMessage original="This read of another user's approval is logged." locale="zh" localized="此次查看其他用户的审批已被记录。"/>
+    <moqui.basic.LocalizedMessage original="This read of another user's conversation is logged." locale="zh" localized="此次查看其他用户的对话已被记录。"/>
+    <moqui.basic.LocalizedMessage original="This read of another user's run is logged." locale="zh" localized="此次查看其他用户的运行已被记录。"/>
+    <moqui.basic.LocalizedMessage original="Token Cap" locale="zh" localized="Token 上限"/>
+    <moqui.basic.LocalizedMessage original="Tokens a Day" locale="zh" localized="每日 Token"/>
+    <moqui.basic.LocalizedMessage original="Tokens: ${month.totalTokens ?? 0}" locale="zh" localized="Token 数：${month.totalTokens ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Tokens: ${today.totalTokens ?? 0} (${today.cachedInputTokens ?? 0} cached input)" locale="zh" localized="Token 数：${today.totalTokens ?? 0}（缓存输入 ${today.cachedInputTokens ?? 0}）"/>
+    <moqui.basic.LocalizedMessage original="Tool" locale="zh" localized="工具"/>
+    <moqui.basic.LocalizedMessage original="Tool Calls" locale="zh" localized="工具调用"/>
+    <moqui.basic.LocalizedMessage original="Tool Policy of ${agentId}" locale="zh" localized="${agentId} 的工具策略"/>
+    <moqui.basic.LocalizedMessage original="Tools the Server Lists" locale="zh" localized="服务器列出的工具"/>
+    <moqui.basic.LocalizedMessage original="Tools: ${totals.toolCount ?? 0}, ${totals.toolsChars ?? 0} characters of schema. Tools hash ${preview?.toolsHash ?? ''}." locale="zh" localized="工具：${totals.toolCount ?? 0}，schema ${totals.toolsChars ?? 0} 个字符。工具哈希 ${preview?.toolsHash ?? ''}。"/>
+    <moqui.basic.LocalizedMessage original="Totals by Model and Source" locale="zh" localized="按模型和来源合计"/>
+    <moqui.basic.LocalizedMessage original="Transcript" locale="zh" localized="对话记录"/>
+    <moqui.basic.LocalizedMessage original="Trigger ${triggerId}" locale="zh" localized="触发器 ${triggerId}"/>
+    <moqui.basic.LocalizedMessage original="Unlock" locale="zh" localized="解锁"/>
+    <moqui.basic.LocalizedMessage original="Uses" locale="zh" localized="使用次数"/>
+    <moqui.basic.LocalizedMessage original="Wait Expires" locale="zh" localized="等待到期"/>
+    <moqui.basic.LocalizedMessage original="Waiting and Recent Events" locale="zh" localized="等待中和最近的事件"/>
+    <moqui.basic.LocalizedMessage original="Waiting For" locale="zh" localized="等待事项"/>
+    <moqui.basic.LocalizedMessage original="Waiting for input: ${totals.runsWaiting ?? 0}" locale="zh" localized="等待输入：${totals.runsWaiting ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Waiting On" locale="zh" localized="所等待的对象"/>
+    <moqui.basic.LocalizedMessage original="What It Does" locale="zh" localized="作用"/>
+    <moqui.basic.LocalizedMessage original="What taught it" locale="zh" localized="由何教会"/>
+    <moqui.basic.LocalizedMessage original="What the model reads in find_tools and describe_tools" locale="zh" localized="模型在 find_tools 和 describe_tools 中读到的内容"/>
+    <moqui.basic.LocalizedMessage original="What the model reads of it; else the card's, as untrusted text" locale="zh" localized="模型对此读到的内容；否则用卡片上的，并视为不可信文本"/>
+    <moqui.basic.LocalizedMessage original="What the model reads: what it does, when to use it" locale="zh" localized="模型读到的内容：它做什么、何时使用"/>
+    <moqui.basic.LocalizedMessage original="Whose personal skills join the site's; empty is yours" locale="zh" localized="将谁的个人技能并入站点技能；留空则为你自己"/>
+    <moqui.basic.LocalizedMessage original="Words" locale="zh" localized="词语"/>
+    <moqui.basic.LocalizedMessage original="Y: a write its policy does not approve waits in the run-as user's inbox; else it is an error the agent reads" locale="zh" localized="Y：策略未批准的写入会在运行身份用户的收件箱中等待；否则是智能体可读到的错误"/>
+    <moqui.basic.LocalizedMessage original="Y: yours only, shadowing a site skill of its name unless that one is locked" locale="zh" localized="Y：仅自己的，并遮蔽同名的站点技能，除非该站点技能已锁定"/>
+</entity-facade-xml>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${countryList.length} of ${countryCount} countries; narrow the list with the find." locale="zh" localized="${countryList.length} 个，共 ${countryCount} 个国家；请用查找缩小列表。"/>
+    <moqui.basic.LocalizedMessage original="${viewVersion ? 'Version ' + viewShort + ' (not current)' : 'Version ' + currentShort} · ${versionCount} versions in ${storage}${publishedShort ? ' · published ' + publishedShort : ''}" locale="zh" localized="${viewVersion ? '版本 ' + viewShort + '（非当前）' : '版本 ' + currentShort} · ${versionCount} 个版本，位于 ${storage}${publishedShort ? ' · 已发布 ' + publishedShort : ''}"/>
+    <moqui.basic.LocalizedMessage original="A container-row of a section-iterate's columns, their sizes from an expression:" locale="zh" localized="section-iterate 各列的 container-row，列宽来自表达式："/>
+    <moqui.basic.LocalizedMessage original="A designed message" locale="zh" localized="一条设计好的消息"/>
+    <moqui.basic.LocalizedMessage original="A dialog with a short form" locale="zh" localized="带有短表单的对话框"/>
+    <moqui.basic.LocalizedMessage original="A masked text line" locale="zh" localized="一行带掩码的文本"/>
+    <moqui.basic.LocalizedMessage original="A note from the shell's quick create. With a record in the screen context it is linked to it." locale="zh" localized="来自外壳快速新建的一条备注。若屏幕上下文中有记录，就会关联到它。"/>
+    <moqui.basic.LocalizedMessage original="A plain-text message" locale="zh" localized="一条纯文本消息"/>
+    <moqui.basic.LocalizedMessage original="Act." locale="zh" localized="实际"/>
+    <moqui.basic.LocalizedMessage original="Activity: last 20 artifact hits" locale="zh" localized="活动：最近 20 次构件访问"/>
+    <moqui.basic.LocalizedMessage original="Add to group" locale="zh" localized="加入组"/>
+    <moqui.basic.LocalizedMessage original="Added to ${WebUtilities.encodeHtml(groupList.length ? (groupList[0].description || groupList[0].userGroupId) : 'no group')}" locale="zh" localized="已加入 ${WebUtilities.encodeHtml(groupList.length ? (groupList[0].description || groupList[0].userGroupId) : '无组')}"/>
+    <moqui.basic.LocalizedMessage original="Address" locale="zh" localized="地址"/>
+    <moqui.basic.LocalizedMessage original="All enumerations" locale="zh" localized="全部枚举"/>
+    <moqui.basic.LocalizedMessage original="All of this type" locale="zh" localized="此类型的全部"/>
+    <moqui.basic.LocalizedMessage original="Alpha-2" locale="zh" localized="二位字母"/>
+    <moqui.basic.LocalizedMessage original="Alpha-3" locale="zh" localized="三位字母"/>
+    <moqui.basic.LocalizedMessage original="and a span label after it." locale="zh" localized="以及它后面的一个 span 标签。"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.1 Landing" locale="zh" localized="原型 3.1 首页"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.10 Wizard" locale="zh" localized="原型 3.10 向导"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.11 Dialog" locale="zh" localized="原型 3.11 对话框"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.12 Report" locale="zh" localized="原型 3.12 报表"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.13 Editor" locale="zh" localized="原型 3.13 编辑器"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.14 Panel" locale="zh" localized="原型 3.14 面板"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.2 List" locale="zh" localized="原型 3.2 列表"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.3 Detail" locale="zh" localized="原型 3.3 详情"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.4 360" locale="zh" localized="原型 3.4 全景"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.5 Task" locale="zh" localized="原型 3.5 任务"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.6 Board" locale="zh" localized="原型 3.6 看板"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.7 Calendar" locale="zh" localized="原型 3.7 日历"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.8 Split" locale="zh" localized="原型 3.8 分栏"/>
+    <moqui.basic.LocalizedMessage original="Archetype 3.9 Settings" locale="zh" localized="原型 3.9 设置"/>
+    <moqui.basic.LocalizedMessage original="Archetype 4 Widget guide" locale="zh" localized="原型 4 部件指南"/>
+    <moqui.basic.LocalizedMessage original="Artifact" locale="zh" localized="构件"/>
+    <moqui.basic.LocalizedMessage original="Artifact name" locale="zh" localized="构件名称"/>
+    <moqui.basic.LocalizedMessage original="Artifact type" locale="zh" localized="构件类型"/>
+    <moqui.basic.LocalizedMessage original="Assigned to me" locale="zh" localized="分配给我"/>
+    <moqui.basic.LocalizedMessage original="Assignee" locale="zh" localized="负责人"/>
+    <moqui.basic.LocalizedMessage original="Avg ms" locale="zh" localized="平均毫秒"/>
+    <moqui.basic.LocalizedMessage original="Back to current" locale="zh" localized="返回当前"/>
+    <moqui.basic.LocalizedMessage original="Back to the Landing" locale="zh" localized="返回首页"/>
+    <moqui.basic.LocalizedMessage original="Back to the list" locale="zh" localized="返回列表"/>
+    <moqui.basic.LocalizedMessage original="Back to the search" locale="zh" localized="返回搜索"/>
+    <moqui.basic.LocalizedMessage original="Back to the views" locale="zh" localized="返回各个视图"/>
+    <moqui.basic.LocalizedMessage original="Base currency" locale="zh" localized="本位币"/>
+    <moqui.basic.LocalizedMessage original="Bin period" locale="zh" localized="区间周期"/>
+    <moqui.basic.LocalizedMessage original="Bin start" locale="zh" localized="区间起点"/>
+    <moqui.basic.LocalizedMessage original="Buttons (4.6): primary, tonal, flat, text" locale="zh" localized="按钮（4.6）：primary、tonal、flat、text"/>
+    <moqui.basic.LocalizedMessage original="By" locale="zh" localized="由"/>
+    <moqui.basic.LocalizedMessage original="Changed" locale="zh" localized="已更改"/>
+    <moqui.basic.LocalizedMessage original="Changed last" locale="zh" localized="最近更改"/>
+    <moqui.basic.LocalizedMessage original="check (single)" locale="zh" localized="复选（单个）"/>
+    <moqui.basic.LocalizedMessage original="Check the entries, then create the customer. Back keeps what the steps saved." locale="zh" localized="核对各项，然后创建客户。返回会保留各步骤已保存的内容。"/>
+    <moqui.basic.LocalizedMessage original="check with options" locale="zh" localized="带选项的复选"/>
+    <moqui.basic.LocalizedMessage original="Code (code-view, m-code)" locale="zh" localized="代码（code-view、m-code）"/>
+    <moqui.basic.LocalizedMessage original="Compare" locale="zh" localized="比较"/>
+    <moqui.basic.LocalizedMessage original="Compare with current" locale="zh" localized="与当前版本比较"/>
+    <moqui.basic.LocalizedMessage original="Comparison operators" locale="zh" localized="比较运算符"/>
+    <moqui.basic.LocalizedMessage original="container-dialog and dynamic-container" locale="zh" localized="container-dialog 与 dynamic-container"/>
+    <moqui.basic.LocalizedMessage original="Containers (4.1, 4.2): box types, dialog, dynamic container, tree, editable, image" locale="zh" localized="容器（4.1、4.2）：box 类型、dialog、dynamic container、tree、editable、image"/>
+    <moqui.basic.LocalizedMessage original="Countries" locale="zh" localized="国家"/>
+    <moqui.basic.LocalizedMessage original="Create a comparison operator in a dialog" locale="zh" localized="在对话框中创建一个比较运算符"/>
+    <moqui.basic.LocalizedMessage original="Create the git space" locale="zh" localized="创建 git 空间"/>
+    <moqui.basic.LocalizedMessage original="Customer name" locale="zh" localized="客户名称"/>
+    <moqui.basic.LocalizedMessage original="date-find type=date" locale="zh" localized="日期查找：date-find type=date"/>
+    <moqui.basic.LocalizedMessage original="date-time type=date" locale="zh" localized="日期：date-time type=date"/>
+    <moqui.basic.LocalizedMessage original="date-time type=date-time" locale="zh" localized="日期时间：date-time type=date-time"/>
+    <moqui.basic.LocalizedMessage original="date-time type=time" locale="zh" localized="时间：date-time type=time"/>
+    <moqui.basic.LocalizedMessage original="dbresource: EXAMPLE" locale="zh" localized="dbresource 空间：EXAMPLE"/>
+    <moqui.basic.LocalizedMessage original="Default length unit" locale="zh" localized="默认长度单位"/>
+    <moqui.basic.LocalizedMessage original="Default locale" locale="zh" localized="默认区域设置"/>
+    <moqui.basic.LocalizedMessage original="Description (JSON)" locale="zh" localized="描述（JSON）"/>
+    <moqui.basic.LocalizedMessage original="Detail archetype" locale="zh" localized="详情原型"/>
+    <moqui.basic.LocalizedMessage original="Disable" locale="zh" localized="禁用"/>
+    <moqui.basic.LocalizedMessage original="display (label-wrapper)" locale="zh" localized="显示字段 display（label-wrapper）"/>
+    <moqui.basic.LocalizedMessage original="display-entity EnumerationType" locale="zh" localized="实体显示：display-entity EnumerationType"/>
+    <moqui.basic.LocalizedMessage original="drop-down allow-multiple" locale="zh" localized="下拉多选：drop-down allow-multiple"/>
+    <moqui.basic.LocalizedMessage original="drop-down dynamic-options server-search" locale="zh" localized="下拉动态搜索：drop-down dynamic-options server-search"/>
+    <moqui.basic.LocalizedMessage original="drop-down entity-options" locale="zh" localized="下拉实体选项：drop-down entity-options"/>
+    <moqui.basic.LocalizedMessage original="Due today" locale="zh" localized="今天到期"/>
+    <moqui.basic.LocalizedMessage original="dynamic-container, loaded from the loadPart transition:" locale="zh" localized="dynamic-container，由 loadPart 转换加载："/>
+    <moqui.basic.LocalizedMessage original="Edit ${enumId}" locale="zh" localized="编辑 ${enumId}"/>
+    <moqui.basic.LocalizedMessage original="Edit (Font Awesome class)" locale="zh" localized="编辑（Font Awesome 类名）"/>
+    <moqui.basic.LocalizedMessage original="Edit (Material name)" locale="zh" localized="编辑（Material 名称）"/>
+    <moqui.basic.LocalizedMessage original="Edit (Material Symbols name)" locale="zh" localized="编辑（Material Symbols 名称）"/>
+    <moqui.basic.LocalizedMessage original="editable (click the text; saves to the editValue transition):" locale="zh" localized="editable（点击文本；保存到 editValue 转换）："/>
+    <moqui.basic.LocalizedMessage original="editable and image" locale="zh" localized="editable 与 image"/>
+    <moqui.basic.LocalizedMessage original="editable select (options as a drop-down's), date and date-time pickers, and an empty value with its placeholder:" locale="zh" localized="可编辑选择（选项与下拉相同）、日期和日期时间选择器，以及带占位符的空值："/>
+    <moqui.basic.LocalizedMessage original="Ends" locale="zh" localized="结束"/>
+    <moqui.basic.LocalizedMessage original="Enumeration ${enumId}" locale="zh" localized="枚举 ${enumId}"/>
+    <moqui.basic.LocalizedMessage original="Enumerations" locale="zh" localized="枚举"/>
+    <moqui.basic.LocalizedMessage original="Enumerations by type" locale="zh" localized="按类型分组的枚举"/>
+    <moqui.basic.LocalizedMessage original="Enumerations list" locale="zh" localized="枚举列表"/>
+    <moqui.basic.LocalizedMessage original="Est." locale="zh" localized="估计"/>
+    <moqui.basic.LocalizedMessage original="Example ${example.exampleName}" locale="zh" localized="示例 ${example.exampleName}"/>
+    <moqui.basic.LocalizedMessage original="Example ${exampleId}" locale="zh" localized="示例 ${exampleId}"/>
+    <moqui.basic.LocalizedMessage original="Examples" locale="zh" localized="示例"/>
+    <moqui.basic.LocalizedMessage original="Facts" locale="zh" localized="要点"/>
+    <moqui.basic.LocalizedMessage original="Fallbacks for style-guide section 8: none needed; the dynamic container loads this screen with dynPart=Y because the gallery owns no second screen file." locale="zh" localized="样式指南第 8 节的回退：不需要；dynamic-container 以 dynPart=Y 加载此屏幕，因为图库没有第二个屏幕文件。"/>
+    <moqui.basic.LocalizedMessage original="Fallbacks for style-guide section 8: the tray panel frame does not exist, so this is the content only; the context chip is a q-chip until the screen context element exists; the approvals count is a fixed number until the notification counts arrive." locale="zh" localized="样式指南第 8 节回退：托盘面板框不存在，故此处只是内容；在屏幕上下文元素出现之前，上下文标签用 q-chip；在通知计数到达之前，批准数是固定数字。"/>
+    <moqui.basic.LocalizedMessage original="Fallbacks: the handheld density of §8 (48 px controls) does not exist yet, so the controls are the dense defaults; pick lines have no framework entity, so they are an inline list built in the screen actions." locale="zh" localized="回退：§8 的手持密度（48 px 控件）尚不存在，因此控件用紧凑默认；拣货行没有框架实体，所以是在屏幕操作里做成的内联列表。"/>
+    <moqui.basic.LocalizedMessage original="Fields (4.5): every widget, titled by its element" locale="zh" localized="字段（4.5）：每个部件，标题就是它的元素"/>
+    <moqui.basic.LocalizedMessage original="Find enumerations" locale="zh" localized="查找枚举"/>
+    <moqui.basic.LocalizedMessage original="Flag" locale="zh" localized="标记"/>
+    <moqui.basic.LocalizedMessage original="Flagged" locale="zh" localized="已标记"/>
+    <moqui.basic.LocalizedMessage original="Flat with text" locale="zh" localized="扁平并带文字"/>
+    <moqui.basic.LocalizedMessage original="Full name" locale="zh" localized="全名"/>
+    <moqui.basic.LocalizedMessage original="General" locale="zh" localized="常规"/>
+    <moqui.basic.LocalizedMessage original="General settings" locale="zh" localized="常规设置"/>
+    <moqui.basic.LocalizedMessage original="Geo types" locale="zh" localized="地理类型"/>
+    <moqui.basic.LocalizedMessage original="Geo types (an enumeration, auto-fields-entity)" locale="zh" localized="地理类型（一种枚举，auto-fields-entity）"/>
+    <moqui.basic.LocalizedMessage original="git: EXGIT" locale="zh" localized="git 空间：EXGIT"/>
+    <moqui.basic.LocalizedMessage original="grey-7 muted" locale="zh" localized="grey-7 弱化"/>
+    <moqui.basic.LocalizedMessage original="h1 label" locale="zh" localized="h1 标签"/>
+    <moqui.basic.LocalizedMessage original="h2 label" locale="zh" localized="h2 标签"/>
+    <moqui.basic.LocalizedMessage original="h3 label" locale="zh" localized="h3 标签"/>
+    <moqui.basic.LocalizedMessage original="h4 label: a landing greeting" locale="zh" localized="h4 标签：首页上的问候"/>
+    <moqui.basic.LocalizedMessage original="h5 label: a record title" locale="zh" localized="h5 标签：一条记录的标题"/>
+    <moqui.basic.LocalizedMessage original="h6 label: a section title outside a box" locale="zh" localized="h6 标签：框外的一节标题"/>
+    <moqui.basic.LocalizedMessage original="Header" locale="zh" localized="标题"/>
+    <moqui.basic.LocalizedMessage original="Hide images again" locale="zh" localized="再次隐藏图片"/>
+    <moqui.basic.LocalizedMessage original="High" locale="zh" localized="高"/>
+    <moqui.basic.LocalizedMessage original="Hits and average time by day" locale="zh" localized="按日统计的访问次数与平均时间"/>
+    <moqui.basic.LocalizedMessage original="Hits by artifact type" locale="zh" localized="按构件类型统计的访问次数"/>
+    <moqui.basic.LocalizedMessage original="image with the invertible class for dark mode:" locale="zh" localized="带 invertible 类的 image，用于深色模式："/>
+    <moqui.basic.LocalizedMessage original="John Doe 360" locale="zh" localized="John Doe 的 360 视图"/>
+    <moqui.basic.LocalizedMessage original="Kind A" locale="zh" localized="类别 A"/>
+    <moqui.basic.LocalizedMessage original="Kind B" locale="zh" localized="类别 B"/>
+    <moqui.basic.LocalizedMessage original="Kind C" locale="zh" localized="类别 C"/>
+    <moqui.basic.LocalizedMessage original="Labels (4.7): types and text classes" locale="zh" localized="标签（4.7）：类型与文本类"/>
+    <moqui.basic.LocalizedMessage original="Last updated" locale="zh" localized="最近更新"/>
+    <moqui.basic.LocalizedMessage original="Later today" locale="zh" localized="今天稍晚"/>
+    <moqui.basic.LocalizedMessage original="Left accent." locale="zh" localized="左侧强调。"/>
+    <moqui.basic.LocalizedMessage original="Line" locale="zh" localized="行"/>
+    <moqui.basic.LocalizedMessage original="List (4.4): header find, sort, paging, row selection, row actions" locale="zh" localized="列表（4.4）：表头查找、排序、分页、行选择、行操作"/>
+    <moqui.basic.LocalizedMessage original="List cells (4.4): a section in a cell, chips by btn-type" locale="zh" localized="列表单元格（4.4）：单元格中的一节，按 btn-type 显示的标签"/>
+    <moqui.basic.LocalizedMessage original="Loaded by dynamic-container from the loadPart transition at ${ec.l10n.format(new Date(), 'HH:mm:ss')}." locale="zh" localized="由 dynamic-container 从 loadPart 转换加载，时间 ${ec.l10n.format(new Date(), 'HH:mm:ss')}。"/>
+    <moqui.basic.LocalizedMessage original="Log" locale="zh" localized="记录"/>
+    <moqui.basic.LocalizedMessage original="Log note" locale="zh" localized="记录备注"/>
+    <moqui.basic.LocalizedMessage original="Login as" locale="zh" localized="登录为"/>
+    <moqui.basic.LocalizedMessage original="Low" locale="zh" localized="低"/>
+    <moqui.basic.LocalizedMessage original="Mark done" locale="zh" localized="标为完成"/>
+    <moqui.basic.LocalizedMessage original="Markdown (markdown-view, m-markdown)" locale="zh" localized="Markdown 视图（markdown-view、m-markdown）"/>
+    <moqui.basic.LocalizedMessage original="Matches part of the name" locale="zh" localized="匹配名称的一部分"/>
+    <moqui.basic.LocalizedMessage original="Max ms" locale="zh" localized="最大毫秒"/>
+    <moqui.basic.LocalizedMessage original="Meeting" locale="zh" localized="会议"/>
+    <moqui.basic.LocalizedMessage original="New address" locale="zh" localized="新建地址"/>
+    <moqui.basic.LocalizedMessage original="New enumeration" locale="zh" localized="新建枚举"/>
+    <moqui.basic.LocalizedMessage original="New event" locale="zh" localized="新建事件"/>
+    <moqui.basic.LocalizedMessage original="New example" locale="zh" localized="新建示例"/>
+    <moqui.basic.LocalizedMessage original="New task" locale="zh" localized="新建任务"/>
+    <moqui.basic.LocalizedMessage original="Newsletter" locale="zh" localized="简报"/>
+    <moqui.basic.LocalizedMessage original="No accent." locale="zh" localized="无强调。"/>
+    <moqui.basic.LocalizedMessage original="No country" locale="zh" localized="无国家"/>
+    <moqui.basic.LocalizedMessage original="No country matches ${geoId}. Pick one from the list." locale="zh" localized="没有与 ${geoId} 匹配的国家。请从列表中选一个。"/>
+    <moqui.basic.LocalizedMessage original="No example ${exampleId}" locale="zh" localized="没有示例 ${exampleId}"/>
+    <moqui.basic.LocalizedMessage original="No notifications yet." locale="zh" localized="还没有通知。"/>
+    <moqui.basic.LocalizedMessage original="No states or regions are recorded for ${country.geoName}." locale="zh" localized="没有记录 ${country.geoName} 的州或地区。"/>
+    <moqui.basic.LocalizedMessage original="No §8 fallbacks. The general settings are a static snapshot in the screen actions; the index links go to the Tools and System apps." locale="zh" localized="没有 §8 回退。常规设置是屏幕操作中的静态快照；索引链接指向 Tools 和 System 应用。"/>
+    <moqui.basic.LocalizedMessage original="Normal" locale="zh" localized="普通"/>
+    <moqui.basic.LocalizedMessage original="Not flagged" locale="zh" localized="未标记"/>
+    <moqui.basic.LocalizedMessage original="Note (click to edit)" locale="zh" localized="备注（点击即可编辑）"/>
+    <moqui.basic.LocalizedMessage original="Note: demo account of the framework" locale="zh" localized="注意：这是框架的演示账号"/>
+    <moqui.basic.LocalizedMessage original="Notes" locale="zh" localized="备注"/>
+    <moqui.basic.LocalizedMessage original="Numeric" locale="zh" localized="数字"/>
+    <moqui.basic.LocalizedMessage original="of ${quantity} · scan or type" locale="zh" localized="共 ${quantity} · 扫描或键入"/>
+    <moqui.basic.LocalizedMessage original="On ${recordEntity} ${recordId}" locale="zh" localized="位于 ${recordEntity} ${recordId}"/>
+    <moqui.basic.LocalizedMessage original="On ${recordEntity} ${recordId} · opens on ${tabText}${hide ? ' · leaves out ' + hide : ''}. The gallery's stand-in for an app's shared Chatter screen, loaded by the chatter element." locale="zh" localized="位于 ${recordEntity} ${recordId} · 在 ${tabText} 打开${hide ? ' · 省略 ' + hide : ''}。这是图库对应用共享 Chatter 屏幕的替代，由 chatter 元素加载。"/>
+    <moqui.basic.LocalizedMessage original="One series, one brand color; the table behind it is the List screen." locale="zh" localized="一个系列，一种品牌色；它背后的表就是列表屏幕。"/>
+    <moqui.basic.LocalizedMessage original="Open ${requestId}" locale="zh" localized="打开 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Open dialog" locale="zh" localized="打开对话框"/>
+    <moqui.basic.LocalizedMessage original="Open Notifications" locale="zh" localized="打开通知"/>
+    <moqui.basic.LocalizedMessage original="Option value" locale="zh" localized="选项值"/>
+    <moqui.basic.LocalizedMessage original="Organization and defaults" locale="zh" localized="组织与默认值"/>
+    <moqui.basic.LocalizedMessage original="Organization, base currency, locale, time zone and sign-in rules." locale="zh" localized="组织、本位币、区域设置、时区以及登录规则。"/>
+    <moqui.basic.LocalizedMessage original="Overdue" locale="zh" localized="已逾期"/>
+    <moqui.basic.LocalizedMessage original="Overview" locale="zh" localized="概览"/>
+    <moqui.basic.LocalizedMessage original="p label: a paragraph of body text, 14 px at line height 1.5." locale="zh" localized="p 标签：一段正文，14 px，行高 1.5。"/>
+    <moqui.basic.LocalizedMessage original="Parent" locale="zh" localized="父级"/>
+    <moqui.basic.LocalizedMessage original="Password change required" locale="zh" localized="必须更改密码"/>
+    <moqui.basic.LocalizedMessage original="Password set" locale="zh" localized="已设置密码"/>
+    <moqui.basic.LocalizedMessage original="Phone" locale="zh" localized="电话"/>
+    <moqui.basic.LocalizedMessage original="Pick" locale="zh" localized="拣货"/>
+    <moqui.basic.LocalizedMessage original="Plain URL in a new window" locale="zh" localized="在新窗口中打开普通 URL"/>
+    <moqui.basic.LocalizedMessage original="Post" locale="zh" localized="发布"/>
+    <moqui.basic.LocalizedMessage original="Primary: a form's submit, outline until a field changes." locale="zh" localized="主要按钮：表单的提交，在某个字段更改之前保持轮廓样式。"/>
+    <moqui.basic.LocalizedMessage original="Push" locale="zh" localized="推送"/>
+    <moqui.basic.LocalizedMessage original="Put on hold" locale="zh" localized="暂挂"/>
+    <moqui.basic.LocalizedMessage original="Qty" locale="zh" localized="数量"/>
+    <moqui.basic.LocalizedMessage original="Quick create" locale="zh" localized="快速新建"/>
+    <moqui.basic.LocalizedMessage original="Refuse" locale="zh" localized="拒绝"/>
+    <moqui.basic.LocalizedMessage original="Refuse ${title}" locale="zh" localized="拒绝 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Related" locale="zh" localized="相关"/>
+    <moqui.basic.LocalizedMessage original="Related: ${siblingCount} of type ${enumType?.description || enumeration.enumTypeId}" locale="zh" localized="相关：${siblingCount} 个，类型为 ${enumType?.description || enumeration.enumTypeId}"/>
+    <moqui.basic.LocalizedMessage original="Remaining lines (${remaining.length})" locale="zh" localized="剩余行（${remaining.length}）"/>
+    <moqui.basic.LocalizedMessage original="Require a second factor for every user" locale="zh" localized="要求每位用户都使用第二因子"/>
+    <moqui.basic.LocalizedMessage original="Reset" locale="zh" localized="重置"/>
+    <moqui.basic.LocalizedMessage original="Reset password" locale="zh" localized="重置密码"/>
+    <moqui.basic.LocalizedMessage original="Restore this version" locale="zh" localized="恢复此版本"/>
+    <moqui.basic.LocalizedMessage original="Row action value" locale="zh" localized="行操作的值"/>
+    <moqui.basic.LocalizedMessage original="Save as a new version" locale="zh" localized="另存为新版本"/>
+    <moqui.basic.LocalizedMessage original="Section 3.15 Tree list" locale="zh" localized="第 3.15 节 树形列表"/>
+    <moqui.basic.LocalizedMessage original="Section 8.2 List views: board and calendar" locale="zh" localized="第 8.2 节 列表视图：看板与日历"/>
+    <moqui.basic.LocalizedMessage original="Send message" locale="zh" localized="发送消息"/>
+    <moqui.basic.LocalizedMessage original="Send the monthly newsletter" locale="zh" localized="发送每月简报"/>
+    <moqui.basic.LocalizedMessage original="Shared by ${shared.sharerName || 'someone'}" locale="zh" localized="由 ${shared.sharerName || '某人'} 共享"/>
+    <moqui.basic.LocalizedMessage original="Short" locale="zh" localized="缺货"/>
+    <moqui.basic.LocalizedMessage original="Shortcuts" locale="zh" localized="快捷方式"/>
+    <moqui.basic.LocalizedMessage original="Signed in from ${WebUtilities.encodeHtml(visitList.length ? (visitList[0].clientIpAddress || 'unknown address') : 'nowhere yet')}" locale="zh" localized="登录自 ${WebUtilities.encodeHtml(visitList.length ? (visitList[0].clientIpAddress || '未知地址') : '尚无位置')}"/>
+    <moqui.basic.LocalizedMessage original="Since" locale="zh" localized="自"/>
+    <moqui.basic.LocalizedMessage original="Since the start" locale="zh" localized="从一开始"/>
+    <moqui.basic.LocalizedMessage original="Skip" locale="zh" localized="跳过"/>
+    <moqui.basic.LocalizedMessage original="Snooze to tomorrow" locale="zh" localized="推迟到明天提醒"/>
+    <moqui.basic.LocalizedMessage original="Spaces" locale="zh" localized="空间"/>
+    <moqui.basic.LocalizedMessage original="Starts" locale="zh" localized="开始"/>
+    <moqui.basic.LocalizedMessage original="States and regions" locale="zh" localized="州与地区"/>
+    <moqui.basic.LocalizedMessage original="Status flows" locale="zh" localized="状态流"/>
+    <moqui.basic.LocalizedMessage original="Status items" locale="zh" localized="状态项"/>
+    <moqui.basic.LocalizedMessage original="strong label" locale="zh" localized="strong 标签"/>
+    <moqui.basic.LocalizedMessage original="Sub type" locale="zh" localized="子类型"/>
+    <moqui.basic.LocalizedMessage original="Tag" locale="zh" localized="标签"/>
+    <moqui.basic.LocalizedMessage original="Tag selected" locale="zh" localized="为所选加标签"/>
+    <moqui.basic.LocalizedMessage original="Text link through a transition" locale="zh" localized="经由转换的文本链接"/>
+    <moqui.basic.LocalizedMessage original="Text link to the Detail archetype" locale="zh" localized="指向详情原型的文本链接"/>
+    <moqui.basic.LocalizedMessage original="Text links: link-type=anchor to a screen and to a transition that redirects." locale="zh" localized="文本链接：link-type=anchor，指向一个屏幕，以及一个会重定向的转换。"/>
+    <moqui.basic.LocalizedMessage original="text-area editor-type=md" locale="zh" localized="文本区：text-area editor-type=md"/>
+    <moqui.basic.LocalizedMessage original="text-area editor-type=rich mention-transition" locale="zh" localized="文本区：text-area editor-type=rich mention-transition"/>
+    <moqui.basic.LocalizedMessage original="text-area editor-type=rich-light" locale="zh" localized="文本区：text-area editor-type=rich-light"/>
+    <moqui.basic.LocalizedMessage original="text-body2: fields and table cells" locale="zh" localized="text-body2：字段与表格单元格"/>
+    <moqui.basic.LocalizedMessage original="text-caption: who, when, ids under a title" locale="zh" localized="text-caption：标题下面的人员、时间和标识"/>
+    <moqui.basic.LocalizedMessage original="text-line input-type=number" locale="zh" localized="文本行：text-line input-type=number"/>
+    <moqui.basic.LocalizedMessage original="text-line mask=(999) 999-9999" locale="zh" localized="文本行掩码：text-line mask=(999) 999-9999"/>
+    <moqui.basic.LocalizedMessage original="text-mono: LOT-2026-00417" locale="zh" localized="等宽文本 text-mono：LOT-2026-00417"/>
+    <moqui.basic.LocalizedMessage original="text-overline: a number card label" locale="zh" localized="text-overline：数字卡片的标签"/>
+    <moqui.basic.LocalizedMessage original="text-primary / text-positive / text-warning / text-negative / text-info" locale="zh" localized="文本色 text-primary / text-positive / text-warning / text-negative / text-info"/>
+    <moqui.basic.LocalizedMessage original="text-subtitle1 text-weight-medium: a box title" locale="zh" localized="text-subtitle1 text-weight-medium：方框标题"/>
+    <moqui.basic.LocalizedMessage original="text-subtitle2: a group caption" locale="zh" localized="text-subtitle2：分组标题"/>
+    <moqui.basic.LocalizedMessage original="text-weight-bold: a total 12,400.00" locale="zh" localized="text-weight-bold：合计 12,400.00"/>
+    <moqui.basic.LocalizedMessage original="The coded lists the apps choose from: types, categories and reasons." locale="zh" localized="应用从中选取的编码列表：类型、类别和原因。"/>
+    <moqui.basic.LocalizedMessage original="The counters are number-card elements in a dashboard. Fallbacks for §8: the assigned-to-me list is an inline list because the framework has no work-item entity; the status chips are tonal anchor-button links until the m-tonal chip exists." locale="zh" localized="计数器是仪表板中的 number-card。§8 回退：分配给我的列表是内联列表，因为框架没有工作项实体；在 m-tonal 标签出现之前，状态标签是 tonal 的 anchor-button 链接。"/>
+    <moqui.basic.LocalizedMessage original="The country the customer trades from and what they want to receive." locale="zh" localized="客户开展业务所在的国家，以及他们希望收到的内容。"/>
+    <moqui.basic.LocalizedMessage original="The files of ${recordEntity} ${recordId}: the gallery's stand-in for an app's shared RecordFiles screen, loaded by the record-files element under ${appRoot}." locale="zh" localized="${recordEntity} ${recordId} 的文件：图库用来替代应用共享的 RecordFiles 屏幕，由 ${appRoot} 下的 record-files 元素加载。"/>
+    <moqui.basic.LocalizedMessage original="The HTML is cleaned in the browser and shown in a frame without scripts. Remote images wait for Show images or a trusted sender; the reply history is behind the dots." locale="zh" localized="浏览器会清理 HTML，并在无脚本的框架中显示。远程图片要等点击显示图片，或来自可信发件人；回复历史在省略号后面。"/>
+    <moqui.basic.LocalizedMessage original="The statuses a record moves through and the transitions between them." locale="zh" localized="记录所经过的各个状态，以及状态之间的转换。"/>
+    <moqui.basic.LocalizedMessage original="The steps keep a draft in the session; a real wizard saves a draft record. Try Next with an empty customer name: the field shows the error and the wizard stays." locale="zh" localized="这些步骤在会话中保留草稿；真正的向导会保存一条草稿记录。客户名称为空时试着点下一步：字段会显示错误，向导停在原地。"/>
+    <moqui.basic.LocalizedMessage original="Theme type detail" locale="zh" localized="主题类型详情"/>
+    <moqui.basic.LocalizedMessage original="There is no enumeration ${enumId}. The real screen goes back to the list with a notification." locale="zh" localized="没有枚举 ${enumId}。真实屏幕会回到列表，并给出一条通知。"/>
+    <moqui.basic.LocalizedMessage original="There is no page ${pagePath} in ${wikiSpaceId}." locale="zh" localized="没有页面 ${pagePath}，空间为 ${wikiSpaceId}。"/>
+    <moqui.basic.LocalizedMessage original="There is no user account ${userId}. The real screen goes back to the list with a notification." locale="zh" localized="没有用户账号 ${userId}。真实屏幕会回到列表，并给出一条通知。"/>
+    <moqui.basic.LocalizedMessage original="Time zone" locale="zh" localized="时区"/>
+    <moqui.basic.LocalizedMessage original="Tonal (secondary): transition links by btn-type, a danger link with confirmation, a button-menu." locale="zh" localized="Tonal（次要）：按 btn-type 的转换链接、带确认的危险链接，以及 button-menu。"/>
+    <moqui.basic.LocalizedMessage original="Tonal info" locale="zh" localized="Tonal 信息"/>
+    <moqui.basic.LocalizedMessage original="Tonal primary" locale="zh" localized="Tonal 主要"/>
+    <moqui.basic.LocalizedMessage original="Tonal success" locale="zh" localized="Tonal 成功"/>
+    <moqui.basic.LocalizedMessage original="Tonal warning" locale="zh" localized="Tonal 警告"/>
+    <moqui.basic.LocalizedMessage original="Total act." locale="zh" localized="实际合计"/>
+    <moqui.basic.LocalizedMessage original="Total est." locale="zh" localized="估计合计"/>
+    <moqui.basic.LocalizedMessage original="Total ms" locale="zh" localized="合计毫秒"/>
+    <moqui.basic.LocalizedMessage original="tree: EnumerationType, then Enumeration, lazy" locale="zh" localized="tree：先是 EnumerationType，然后是 Enumeration，延迟加载"/>
+    <moqui.basic.LocalizedMessage original="Trust this sender" locale="zh" localized="信任此发件人"/>
+    <moqui.basic.LocalizedMessage original="Two storages under one resource API: the EXAMPLE space keeps its pages as dbresource files (each past version a reverse delta), the EXGIT space as files in a git repository in the database (each version a commit). The compare is rendered on the server." locale="zh" localized="同一资源 API 两种存储：EXAMPLE 以 dbresource 文件存页面（旧版本为反向增量），EXGIT 为库中 git 仓库的文件（每版一次提交）。比较在服务器生成。"/>
+    <moqui.basic.LocalizedMessage original="Type here to see the submit turn primary" locale="zh" localized="在此输入，即可看到提交按钮变为主要样式"/>
+    <moqui.basic.LocalizedMessage original="User accounts" locale="zh" localized="用户账号"/>
+    <moqui.basic.LocalizedMessage original="User groups" locale="zh" localized="用户组"/>
+    <moqui.basic.LocalizedMessage original="User name" locale="zh" localized="用户名"/>
+    <moqui.basic.LocalizedMessage original="Users and groups" locale="zh" localized="用户与用户组"/>
+    <moqui.basic.LocalizedMessage original="Version ${viewShort}, not the current text" locale="zh" localized="版本 ${viewShort}，不是当前文本"/>
+    <moqui.basic.LocalizedMessage original="Version note" locale="zh" localized="版本备注"/>
+    <moqui.basic.LocalizedMessage original="View: list" locale="zh" localized="视图：列表"/>
+    <moqui.basic.LocalizedMessage original="Waiting on finance" locale="zh" localized="等待财务处理"/>
+    <moqui.basic.LocalizedMessage original="What" locale="zh" localized="事项"/>
+    <moqui.basic.LocalizedMessage original="Who" locale="zh" localized="谁"/>
+    <moqui.basic.LocalizedMessage original="Who can sign in, which groups they are in and what each group may do." locale="zh" localized="谁可以登录、属于哪些组，以及每个组可以做什么。"/>
+    <moqui.basic.LocalizedMessage original="Who the customer is and how to reach them." locale="zh" localized="客户是谁，以及如何联系他们。"/>
+</entity-facade-xml>

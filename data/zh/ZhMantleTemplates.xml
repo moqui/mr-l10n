@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="LotNameTemplate" locale="zh" localized="${lotId}: ${pseudoId||mfgParty?.pseudoId||''} ${lotNumber||'无批号'} 生产 ${ec.l10n.format(manufacturedDate, 'yyyy-MM-dd')||'无'} 到期 ${ec.l10n.format(expirationDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveCurrencyDifferent" locale="zh" localized="付款币种 ${payment.amountUomId} 与订单币种 ${orderHeader.currencyUomId} 不同"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveNewCustomer" locale="zh" localized="客户 ${firstOrderPart.customerPartyId} 是新客户"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePartNoCustomer" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 没有客户"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePartNoVendor" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 没有供应商"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePaymentAuthorizedLow" locale="zh" localized="已授权及之后的付款合计 ${ec.l10n.formatCurrency(totalAuthorized, orderHeader.currencyUomId)} 小于订单总额 ${ec.l10n.formatCurrency(orderHeader.grandTotal, orderHeader.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePaymentPromisedLow" locale="zh" localized="已承诺及之后的付款合计 ${ec.l10n.formatCurrency(totalPromised, orderHeader.currencyUomId)} 小于订单总额 ${ec.l10n.formatCurrency(orderHeader.grandTotal, orderHeader.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveShippingAddressTrust" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId}：送货地址 ${postalCm.address1}，${postalCm.postalCode || '-'} 的信任级别为 ${trustLevelEnum.description}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveStoreManualApprove" locale="zh" localized="==&gt; 商店已设置为需要人工批准"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailConfirmCloseOrder" locale="zh" localized="确定关闭订单？若没有货品已发货，订单将变为已取消。若部分已发货，所有货品将减至已发货数量，订单将变为已完成。"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailConfirmClosePart" locale="zh" localized="确定关闭订单部分？若没有货品已发货，该部分将变为已取消。若部分已发货，所有货品将减至已发货数量，该部分将变为已完成。"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemBilled" locale="zh" localized="已开票:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.invoiceQuantity, '#,##0.###') : ec.l10n.format(returnableOut.invoiceTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemReturnable" locale="zh" localized="可退:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.returnableQuantity, '#,##0.###') : ec.l10n.format(returnableOut.returnableTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemReturned" locale="zh" localized="已退:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.returnedQuantity, '#,##0.###') : ec.l10n.format(returnableOut.returnedTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailPartPaymentIncomplete" locale="zh" localized="付款合计（${ec.l10n.formatCurrency(orderPartInfo.paymentsTotal ?? 0, orderHeader?.currencyUomId)}）小于订单部分总额（${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?? 0, orderHeader?.currencyUomId)}）"/>
+    <moqui.basic.LocalizedMessage original="OrderInventoryInsufficient" locale="zh" localized="仅有 ${ec.l10n.format(availableToPromiseTotal, '#,##0')} 的 ${product?.productName || productId} 可用"/>
+    <moqui.basic.LocalizedMessage original="OrderInventoryNotAvailable" locale="zh" localized="${product?.productName || productId} 已缺货"/>
+    <moqui.basic.LocalizedMessage original="OrderPlaceNoItems" locale="zh" localized="订单没有货品"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoCustomer" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 没有客户"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoShippingAddress" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 未选择送货地址"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoShippingMethod" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 未选择发货方式"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoVendor" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 没有供应商"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartPaymentIncomplete" locale="zh" localized="订单部分 ${orderPart.orderPartSeqId} 的付款合计（${ec.l10n.formatCurrency(paymentsTotal ?? 0, orderHeader?.currencyUomId)}）小于该部分总额（${ec.l10n.formatCurrency(orderPart.partTotal ?? 0, orderHeader?.currencyUomId)}）"/>
+    <moqui.basic.LocalizedMessage original="PayrollPayeeInvoiceItemDescription" locale="zh" localized="${payeeAdjustment.description} 用于 ${partyDetail.firstName||''} ${partyDetail.lastName||''}${partyDetail.organizationName||''} SSN ${partySsn?.idValue || '无'} 参考 ${payeeAdjustment.payeeReference || '无'}"/>
+</entity-facade-xml>

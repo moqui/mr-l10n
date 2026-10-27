@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Ais" locale="zh" localized="巷"/>
+    <moqui.basic.LocalizedMessage original="Alt" locale="zh" localized="备用"/>
+    <moqui.basic.LocalizedMessage original="Ar" locale="zh" localized="区"/>
+    <moqui.basic.LocalizedMessage original="Bill of Lading" locale="zh" localized="提单"/>
+    <moqui.basic.LocalizedMessage original="Bin" locale="zh" localized="货位"/>
+    <moqui.basic.LocalizedMessage original="By Loc - Alt" locale="zh" localized="按库位 - 备用"/>
+    <moqui.basic.LocalizedMessage original="By Loc - Res" locale="zh" localized="按库位 - 预留"/>
+    <moqui.basic.LocalizedMessage original="Consignee" locale="zh" localized="收货人"/>
+    <moqui.basic.LocalizedMessage original="Cont" locale="zh" localized="容器"/>
+    <moqui.basic.LocalizedMessage original="Est. Ship" locale="zh" localized="预计发货"/>
+    <moqui.basic.LocalizedMessage original="ID Barcode" locale="zh" localized="ID 条码"/>
+    <moqui.basic.LocalizedMessage original="Iss" locale="zh" localized="已出"/>
+    <moqui.basic.LocalizedMessage original="L x W x H" locale="zh" localized="长 x 宽 x 高"/>
+    <moqui.basic.LocalizedMessage original="Lev" locale="zh" localized="层"/>
+    <moqui.basic.LocalizedMessage original="Not yet shipped" locale="zh" localized="尚未发货"/>
+    <moqui.basic.LocalizedMessage original="of" locale="zh" localized="/"/>
+    <moqui.basic.LocalizedMessage original="Product in All Packages" locale="zh" localized="全部包裹中的产品"/>
+    <moqui.basic.LocalizedMessage original="Qty in Package" locale="zh" localized="包裹内数量"/>
+    <moqui.basic.LocalizedMessage original="Qty Ordered" locale="zh" localized="订购数量"/>
+    <moqui.basic.LocalizedMessage original="Res" locale="zh" localized="预留"/>
+    <moqui.basic.LocalizedMessage original="Shipment by Package" locale="zh" localized="按包裹的发货单"/>
+    <moqui.basic.LocalizedMessage original="Shipment Insert" locale="zh" localized="发货随货页"/>
+    <moqui.basic.LocalizedMessage original="Shipment Pack Sheet" locale="zh" localized="发货包装单"/>
+    <moqui.basic.LocalizedMessage original="Shipment Picklist" locale="zh" localized="发货单拣货单"/>
+    <moqui.basic.LocalizedMessage original="Shipper" locale="zh" localized="发货人"/>
+    <moqui.basic.LocalizedMessage original="Shipping Method" locale="zh" localized="发货方式"/>
+    <moqui.basic.LocalizedMessage original="Shipping Picklist" locale="zh" localized="发货拣货单"/>
+    <moqui.basic.LocalizedMessage original="Total Shipped" locale="zh" localized="已发货合计"/>
+</entity-facade-xml>
