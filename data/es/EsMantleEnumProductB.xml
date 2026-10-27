@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="No Reservation" locale="es" localized="Sin reserva"/>
+    <moqui.basic.LocalizedMessage original="Not Defective" locale="es" localized="No defectuoso"/>
+    <moqui.basic.LocalizedMessage original="Not Ordered" locale="es" localized="No ordenado"/>
+    <moqui.basic.LocalizedMessage original="Not to Specification" locale="es" localized="No conforme a especificación"/>
+    <moqui.basic.LocalizedMessage original="Office" locale="es" localized="Oficina"/>
+    <moqui.basic.LocalizedMessage original="Oil Change" locale="es" localized="Cambio de aceite"/>
+    <moqui.basic.LocalizedMessage original="On Order Approved" locale="es" localized="Al aprobar la orden"/>
+    <moqui.basic.LocalizedMessage original="On Order Placed" locale="es" localized="Al realizar la orden"/>
+    <moqui.basic.LocalizedMessage original="Online Access" locale="es" localized="Acceso en línea"/>
+    <moqui.basic.LocalizedMessage original="Optional" locale="es" localized="Opcional"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Validate" locale="es" localized="Validación de aprobación de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Address Missing (false to disable)" locale="es" localized="Aprobar orden: advertir dirección faltante (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Address not Valid (false to disable)" locale="es" localized="Aprobar orden: advertir dirección no válida (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Billing and Shipping Addresses Differ (false to disable)" locale="es" localized="Aprobar orden: advertir que las direcciones de facturación y envío difieren (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Contact Mech Grey/Blacklisted (false to disable)" locale="es" localized="Aprobar orden: advertir medio de contacto en lista gris o negra (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Inventory Not Available (false to disable)" locale="es" localized="Aprobar orden: advertir inventario no disponible (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Large Order - Total Above (default 0, 0 to disable)" locale="es" localized="Aprobar orden: advertir orden grande - total superior a (predeterminado 0, 0 para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Large Web Order - Total Above (default 0, 0 to disable)" locale="es" localized="Aprobar orden: advertir orden web grande - total superior a (predeterminado 0, 0 para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn New Customer (false to disable)" locale="es" localized="Aprobar orden: advertir cliente nuevo (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Payment Method Name Differs (false to disable)" locale="es" localized="Aprobar orden: advertir que el nombre del método de pago difiere (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Percent Available Inventory (default 20, 0 to disable)" locale="es" localized="Aprobar orden: advertir porcentaje de inventario disponible (predeterminado 20, 0 para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Price Min/Max (false to disable)" locale="es" localized="Aprobar orden: advertir precio mín./máx. (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Similar within 24hrs (false to disable)" locale="es" localized="Aprobar orden: advertir similar en 24 h (false para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Std Devs Over Avg Product Qty (default 3.0, 0 to disable)" locale="es" localized="Aprobar orden: advertir desv. est. sobre el promedio de cantidad de producto (predeterminado 3.0, 0 para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approve Warn Std Devs Over Avg Total (default 3.0, 0 to disable)" locale="es" localized="Aprobar orden: advertir desv. est. sobre el promedio del total (predeterminado 3.0, 0 para desactivar)"/>
+    <moqui.basic.LocalizedMessage original="Order Approved" locale="es" localized="Orden aprobada"/>
+    <moqui.basic.LocalizedMessage original="Order Change" locale="es" localized="Cambio de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Complete" locale="es" localized="Orden completada"/>
+    <moqui.basic.LocalizedMessage original="Order Detail Template - Client" locale="es" localized="Plantilla de detalle de orden - cliente"/>
+    <moqui.basic.LocalizedMessage original="Order History Template - Client" locale="es" localized="Plantilla de historial de orden - cliente"/>
+    <moqui.basic.LocalizedMessage original="Order Placed" locale="es" localized="Orden realizada"/>
+    <moqui.basic.LocalizedMessage original="Order Quote Proposed" locale="es" localized="Cotización de orden propuesta"/>
+    <moqui.basic.LocalizedMessage original="Order Quote Requested" locale="es" localized="Cotización de orden solicitada"/>
+    <moqui.basic.LocalizedMessage original="Origin" locale="es" localized="Origen"/>
+    <moqui.basic.LocalizedMessage original="Over Shipped" locale="es" localized="Enviado en exceso"/>
+    <moqui.basic.LocalizedMessage original="Package Label" locale="es" localized="Etiqueta de paquete"/>
+    <moqui.basic.LocalizedMessage original="Packaging Component" locale="es" localized="Componente de embalaje"/>
+    <moqui.basic.LocalizedMessage original="Packaging For" locale="es" localized="Embalaje para"/>
+    <moqui.basic.LocalizedMessage original="Packaging Type" locale="es" localized="Tipo de embalaje"/>
+    <moqui.basic.LocalizedMessage original="Packing Documents" locale="es" localized="Documentos de empaque"/>
+    <moqui.basic.LocalizedMessage original="Pallet EUR3 1.0x1.2m" locale="es" localized="Palé EUR3 1.0x1.2m"/>
+    <moqui.basic.LocalizedMessage original="Pallet ISO0/EUR6 0.8x0.6m" locale="es" localized="Palé ISO0/EUR6 0.8x0.6m"/>
+    <moqui.basic.LocalizedMessage original="Pallet ISO1/EUR1 0.8x1.2m" locale="es" localized="Palé ISO1/EUR1 0.8x1.2m"/>
+    <moqui.basic.LocalizedMessage original="Pallet ISO2/EUR2 1.2x1.0m" locale="es" localized="Palé ISO2/EUR2 1.2x1.0m"/>
+    <moqui.basic.LocalizedMessage original="Pallet US 40x40in" locale="es" localized="Palé EE. UU. 40x40in"/>
+    <moqui.basic.LocalizedMessage original="Pallet US 40x48in" locale="es" localized="Palé EE. UU. 40x48in"/>
+    <moqui.basic.LocalizedMessage original="Pallet US 42x42in" locale="es" localized="Palé EE. UU. 42x42in"/>
+    <moqui.basic.LocalizedMessage original="Pallet US 48x40in" locale="es" localized="Palé EE. UU. 48x40in"/>
+    <moqui.basic.LocalizedMessage original="Pallet US 48x48in" locale="es" localized="Palé EE. UU. 48x48in"/>
+    <moqui.basic.LocalizedMessage original="Passenger Vehicle" locale="es" localized="Vehículo de pasajeros"/>
+    <moqui.basic.LocalizedMessage original="Payment Retry" locale="es" localized="Reintento de pago"/>
+    <moqui.basic.LocalizedMessage original="Physical Inventory Status" locale="es" localized="Estado de inventario físico"/>
+    <moqui.basic.LocalizedMessage original="Pick Assembly" locale="es" localized="Ensamblaje por surtido"/>
+    <moqui.basic.LocalizedMessage original="Picking Documents" locale="es" localized="Documentos de surtido"/>
+    <moqui.basic.LocalizedMessage original="Plant" locale="es" localized="Planta"/>
+    <moqui.basic.LocalizedMessage original="Post Sale Survey" locale="es" localized="Encuesta posterior a la venta"/>
+    <moqui.basic.LocalizedMessage original="Price Detail Text" locale="es" localized="Texto de detalle del precio"/>
+    <moqui.basic.LocalizedMessage original="Pricing Group" locale="es" localized="Grupo de precios"/>
+    <moqui.basic.LocalizedMessage original="Printer Purpose" locale="es" localized="Propósito de la impresora"/>
+    <moqui.basic.LocalizedMessage original="Product Association Type" locale="es" localized="Tipo de asociación de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Category Content Type" locale="es" localized="Tipo de contenido de categoría de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Category Ident Type" locale="es" localized="Tipo de identificación de categoría de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Category Type" locale="es" localized="Tipo de categoría de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Class" locale="es" localized="Clase de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Content Type" locale="es" localized="Tipo de contenido de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Detail URL GString" locale="es" localized="GString de URL de detalle de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Appl Type" locale="es" localized="Tipo de aplicación de característica de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Interaction Type" locale="es" localized="Tipo de interacción de característica de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Type" locale="es" localized="Tipo de característica de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Form Type" locale="es" localized="Tipo de formulario de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Geo Purpose" locale="es" localized="Propósito geográfico de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Identification Type" locale="es" localized="Tipo de identificación de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Image Location" locale="es" localized="Ubicación de imagen de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Image URL GString" locale="es" localized="GString de URL de imagen de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Manufactured As" locale="es" localized="Producto fabricado como"/>
+    <moqui.basic.LocalizedMessage original="Product Name" locale="es" localized="Nombre de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Price Modify" locale="es" localized="Modificación de precio de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Price Purpose" locale="es" localized="Propósito de precio de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Price Type" locale="es" localized="Tipo de precio de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Quality" locale="es" localized="Calidad de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Review" locale="es" localized="Reseña de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Search" locale="es" localized="Búsqueda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Category Type" locale="es" localized="Tipo de categoría de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Content Type" locale="es" localized="Tipo de contenido de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Data Document Type" locale="es" localized="Tipo de documento de datos de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Email Notification Type" locale="es" localized="Tipo de notificación por correo electrónico de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Group Type" locale="es" localized="Tipo de grupo de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Promotion" locale="es" localized="Promoción de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Setting Type" locale="es" localized="Tipo de configuración de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Store Wiki Space Type" locale="es" localized="Tipo de espacio wiki de tienda de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Template - Client" locale="es" localized="Plantilla de producto - cliente"/>
+    <moqui.basic.LocalizedMessage original="Product Template - Server" locale="es" localized="Plantilla de producto - servidor"/>
+    <moqui.basic.LocalizedMessage original="Product Type" locale="es" localized="Tipo de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Variant" locale="es" localized="Variante de producto"/>
+    <moqui.basic.LocalizedMessage original="Production Line" locale="es" localized="Línea de producción"/>
+    <moqui.basic.LocalizedMessage original="Programming Software" locale="es" localized="Software de programación"/>
+    <moqui.basic.LocalizedMessage original="Promise" locale="es" localized="Prometer"/>
+    <moqui.basic.LocalizedMessage original="Promised" locale="es" localized="Prometido"/>
+    <moqui.basic.LocalizedMessage original="Promotional Price" locale="es" localized="Precio de promoción"/>
+    <moqui.basic.LocalizedMessage original="Promotions (One)" locale="es" localized="Promociones (uno)"/>
+    <moqui.basic.LocalizedMessage original="Puller" locale="es" localized="Tiracables"/>
+    <moqui.basic.LocalizedMessage original="Purchase Allow (One)" locale="es" localized="Permitir compra (uno)"/>
+    <moqui.basic.LocalizedMessage original="Purchase Exclude" locale="es" localized="Excluir compra"/>
+    <moqui.basic.LocalizedMessage original="Purchase Include" locale="es" localized="Incluir compra"/>
+    <moqui.basic.LocalizedMessage original="Purchase/Initial" locale="es" localized="Compra/inicial"/>
+    <moqui.basic.LocalizedMessage original="Quarantine" locale="es" localized="Cuarentena"/>
+    <moqui.basic.LocalizedMessage original="Quick Add" locale="es" localized="Adición rápida"/>
+    <moqui.basic.LocalizedMessage original="Quick Add (Many)" locale="es" localized="Adición rápida (varios)"/>
+    <moqui.basic.LocalizedMessage original="Quick Add Internal (Many)" locale="es" localized="Adición rápida interna (varios)"/>
+    <moqui.basic.LocalizedMessage original="REST API Location" locale="es" localized="Ubicación de API REST"/>
+    <moqui.basic.LocalizedMessage original="Re-Fuel" locale="es" localized="Reabastecimiento de combustible"/>
+    <moqui.basic.LocalizedMessage original="Real Estate" locale="es" localized="Bienes raíces"/>
+    <moqui.basic.LocalizedMessage original="Receiving" locale="es" localized="Recepción"/>
+    <moqui.basic.LocalizedMessage original="Recurring Charge" locale="es" localized="Cargo recurrente"/>
+    <moqui.basic.LocalizedMessage original="Red" locale="es" localized="Rojo"/>
+    <moqui.basic.LocalizedMessage original="Reel Stand" locale="es" localized="Soporte de carrete"/>
+    <moqui.basic.LocalizedMessage original="Refrigerant Check/Recharge" locale="es" localized="Revisión/recarga de refrigerante"/>
+    <moqui.basic.LocalizedMessage original="Refurbished Equivalent" locale="es" localized="Equivalente reacondicionado"/>
+    <moqui.basic.LocalizedMessage original="Registration" locale="es" localized="Registro"/>
+    <moqui.basic.LocalizedMessage original="Rejection Reason" locale="es" localized="Motivo de rechazo"/>
+    <moqui.basic.LocalizedMessage original="Release Available" locale="es" localized="Liberar como disponible"/>
+    <moqui.basic.LocalizedMessage original="Release Hold" locale="es" localized="Liberar retención"/>
+    <moqui.basic.LocalizedMessage original="Rental Equipment Asset" locale="es" localized="Activo de equipo en alquiler"/>
+    <moqui.basic.LocalizedMessage original="Repair Service" locale="es" localized="Servicio de reparación"/>
+    <moqui.basic.LocalizedMessage original="Requires" locale="es" localized="Requiere"/>
+    <moqui.basic.LocalizedMessage original="Reset Password Template - Client" locale="es" localized="Plantilla de restablecimiento de contraseña - cliente"/>
+    <moqui.basic.LocalizedMessage original="Retail Store" locale="es" localized="Tienda minorista"/>
+    <moqui.basic.LocalizedMessage original="Return Accepted" locale="es" localized="Devolución aceptada"/>
+    <moqui.basic.LocalizedMessage original="Return Cancelled" locale="es" localized="Devolución cancelada"/>
+    <moqui.basic.LocalizedMessage original="Return Completed" locale="es" localized="Devolución completada"/>
+    <moqui.basic.LocalizedMessage original="Return Status Pending" locale="es" localized="Devolución en estado pendiente"/>
+    <moqui.basic.LocalizedMessage original="Review Approved" locale="es" localized="Reseña aprobada"/>
+    <moqui.basic.LocalizedMessage original="Review Deleted" locale="es" localized="Reseña eliminada"/>
+    <moqui.basic.LocalizedMessage original="Revision" locale="es" localized="Revisión"/>
+    <moqui.basic.LocalizedMessage original="Room" locale="es" localized="Sala"/>
+    <moqui.basic.LocalizedMessage original="Root Template - Server" locale="es" localized="Plantilla raíz - servidor"/>
+    <moqui.basic.LocalizedMessage original="Sales Optional Info" locale="es" localized="Información opcional de venta"/>
+    <moqui.basic.LocalizedMessage original="Sales Required Info" locale="es" localized="Información obligatoria de venta"/>
+    <moqui.basic.LocalizedMessage original="Sample (Giveaway)" locale="es" localized="Muestra (regalo)"/>
+    <moqui.basic.LocalizedMessage original="Search Template - Client" locale="es" localized="Plantilla de búsqueda - cliente"/>
+    <moqui.basic.LocalizedMessage original="Secured Loan" locale="es" localized="Préstamo garantizado"/>
+    <moqui.basic.LocalizedMessage original="Selectable" locale="es" localized="Seleccionable"/>
+    <moqui.basic.LocalizedMessage original="Service Body" locale="es" localized="Carrocería de servicio"/>
+    <moqui.basic.LocalizedMessage original="Ship Label From Company" locale="es" localized="Empresa de origen en etiqueta de envío"/>
+    <moqui.basic.LocalizedMessage original="Ship Label From Name" locale="es" localized="Nombre de origen en etiqueta de envío"/>
+    <moqui.basic.LocalizedMessage original="Ship Restrict Carriers (true/false)" locale="es" localized="Restringir transportistas de envío (true/false)"/>
+    <moqui.basic.LocalizedMessage original="Shipment Delivered" locale="es" localized="Envío entregado"/>
+    <moqui.basic.LocalizedMessage original="Shipment Documents" locale="es" localized="Documentos de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Exclude" locale="es" localized="Excluir envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Include" locale="es" localized="Incluir envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Shipped" locale="es" localized="Envío despachado"/>
+    <moqui.basic.LocalizedMessage original="Shipping Label Cost Markup Percent" locale="es" localized="Porcentaje de recargo del costo de etiqueta de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipping Order Charge Markup Percent" locale="es" localized="Porcentaje de recargo del cargo de envío de la orden"/>
+    <moqui.basic.LocalizedMessage original="Short Sales Pitch" locale="es" localized="Argumento breve de venta"/>
+    <moqui.basic.LocalizedMessage original="Small" locale="es" localized="Pequeño"/>
+    <moqui.basic.LocalizedMessage original="Software" locale="es" localized="Software"/>
+    <moqui.basic.LocalizedMessage original="Special Instructions" locale="es" localized="Instrucciones especiales"/>
+    <moqui.basic.LocalizedMessage original="Special Promo Price" locale="es" localized="Precio especial de promoción"/>
+    <moqui.basic.LocalizedMessage original="Specification" locale="es" localized="Especificación"/>
+    <moqui.basic.LocalizedMessage original="Staging" locale="es" localized="Preparación"/>
+    <moqui.basic.LocalizedMessage original="Standard" locale="es" localized="Estándar"/>
+    <moqui.basic.LocalizedMessage original="Start Transfer" locale="es" localized="Iniciar transferencia"/>
+    <moqui.basic.LocalizedMessage original="Start Transfer (Promised)" locale="es" localized="Iniciar transferencia (prometido)"/>
+    <moqui.basic.LocalizedMessage original="Stolen" locale="es" localized="Robado"/>
+    <moqui.basic.LocalizedMessage original="Store" locale="es" localized="Tienda"/>
+    <moqui.basic.LocalizedMessage original="Straight Line" locale="es" localized="Línea recta"/>
+    <moqui.basic.LocalizedMessage original="Style" locale="es" localized="Estilo"/>
+    <moqui.basic.LocalizedMessage original="Subscription Type" locale="es" localized="Tipo de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Sum of Years Digits" locale="es" localized="Suma de los dígitos de los años"/>
+    <moqui.basic.LocalizedMessage original="Supplier Preferred Order" locale="es" localized="Orden de preferencia del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Symptom" locale="es" localized="Síntoma"/>
+    <moqui.basic.LocalizedMessage original="System Software" locale="es" localized="Software de sistema"/>
+    <moqui.basic.LocalizedMessage original="Tablet" locale="es" localized="Tableta"/>
+    <moqui.basic.LocalizedMessage original="Tanker" locale="es" localized="Cisterna"/>
+    <moqui.basic.LocalizedMessage original="Tax Depreciation Type" locale="es" localized="Tipo de depreciación fiscal"/>
+    <moqui.basic.LocalizedMessage original="Tell-A-Friend" locale="es" localized="Recomendar a un amigo"/>
+    <moqui.basic.LocalizedMessage original="Template - Information (home, product, etc)" locale="es" localized="Plantilla - información (inicio, producto, etc.)"/>
+    <moqui.basic.LocalizedMessage original="Template - Interactive (checkout, profile, etc)" locale="es" localized="Plantilla - interactiva (finalización de compra, perfil, etc.)"/>
+    <moqui.basic.LocalizedMessage original="Template Location Invoice Print" locale="es" localized="Ubicación de plantilla de impresión de factura"/>
+    <moqui.basic.LocalizedMessage original="Template Location Order Print" locale="es" localized="Ubicación de plantilla de impresión de orden"/>
+    <moqui.basic.LocalizedMessage original="Template Location Shipment By Package" locale="es" localized="Ubicación de plantilla de envío por paquete"/>
+    <moqui.basic.LocalizedMessage original="Template Location Shipment Insert" locale="es" localized="Ubicación de plantilla de inserto de envío"/>
+    <moqui.basic.LocalizedMessage original="Template Location Shipment Pack Sheet" locale="es" localized="Ubicación de plantilla de hoja de empaque de envío"/>
+    <moqui.basic.LocalizedMessage original="Template Location Shipment Pick Sheet" locale="es" localized="Ubicación de plantilla de hoja de surtido de envío"/>
+    <moqui.basic.LocalizedMessage original="Terms and Conditions" locale="es" localized="Términos y condiciones"/>
+    <moqui.basic.LocalizedMessage original="Testimonials" locale="es" localized="Testimonios"/>
+    <moqui.basic.LocalizedMessage original="Tire Replacement" locale="es" localized="Reemplazo de neumáticos"/>
+    <moqui.basic.LocalizedMessage original="Tires Rotate" locale="es" localized="Rotación de neumáticos"/>
+    <moqui.basic.LocalizedMessage original="Tracking Label Number" locale="es" localized="Número de etiqueta de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tractor" locale="es" localized="Tractor"/>
+    <moqui.basic.LocalizedMessage original="Trailer" locale="es" localized="Remolque"/>
+    <moqui.basic.LocalizedMessage original="Transfer Complete" locale="es" localized="Transferencia completada"/>
+    <moqui.basic.LocalizedMessage original="Transfer Complete (Promised)" locale="es" localized="Transferencia completada (prometido)"/>
+    <moqui.basic.LocalizedMessage original="Transfer Complete (Store)" locale="es" localized="Transferencia completada (almacenamiento)"/>
+    <moqui.basic.LocalizedMessage original="Transfer Complete (Use)" locale="es" localized="Transferencia completada (uso)"/>
+    <moqui.basic.LocalizedMessage original="Trencher" locale="es" localized="Zanjadora"/>
+    <moqui.basic.LocalizedMessage original="Truck" locale="es" localized="Camión"/>
+    <moqui.basic.LocalizedMessage original="Tune Up" locale="es" localized="Puesta a punto"/>
+    <moqui.basic.LocalizedMessage original="UPC-A" locale="es" localized="UPC-A"/>
+    <moqui.basic.LocalizedMessage original="UPC-E" locale="es" localized="UPC-E"/>
+    <moqui.basic.LocalizedMessage original="URL Slug" locale="es" localized="Slug de URL"/>
+    <moqui.basic.LocalizedMessage original="Un-Deliver (Available)" locale="es" localized="Anular entrega (disponible)"/>
+    <moqui.basic.LocalizedMessage original="Un-Deliver (In Storage)" locale="es" localized="Anular entrega (en almacenamiento)"/>
+    <moqui.basic.LocalizedMessage original="Unique Item" locale="es" localized="Artículo único"/>
+    <moqui.basic.LocalizedMessage original="Up-Sell (Upgrade)" locale="es" localized="Venta superior (mejora)"/>
+    <moqui.basic.LocalizedMessage original="Usage Charge" locale="es" localized="Cargo por uso"/>
+    <moqui.basic.LocalizedMessage original="Use" locale="es" localized="Usar"/>
+    <moqui.basic.LocalizedMessage original="Used to Produce" locale="es" localized="Usado para producir"/>
+    <moqui.basic.LocalizedMessage original="User Defined Content" locale="es" localized="Contenido definido por el usuario"/>
+    <moqui.basic.LocalizedMessage original="Utility Software" locale="es" localized="Software de utilidades"/>
+    <moqui.basic.LocalizedMessage original="Vehicle Identification Number (VIN)" locale="es" localized="Número de identificación del vehículo (VIN)"/>
+    <moqui.basic.LocalizedMessage original="Vehicle Maintenance" locale="es" localized="Mantenimiento de vehículo"/>
+    <moqui.basic.LocalizedMessage original="Vendor Inventory/Tracking" locale="es" localized="Inventario/seguimiento del vendedor"/>
+    <moqui.basic.LocalizedMessage original="View Allow (One)" locale="es" localized="Permitir visualización (uno)"/>
+    <moqui.basic.LocalizedMessage original="Virtual (with variants)" locale="es" localized="Virtual (con variantes)"/>
+    <moqui.basic.LocalizedMessage original="Warehouse" locale="es" localized="Almacén"/>
+    <moqui.basic.LocalizedMessage original="Warehouse Equipment" locale="es" localized="Equipo de almacén"/>
+    <moqui.basic.LocalizedMessage original="Warnings" locale="es" localized="Advertencias"/>
+    <moqui.basic.LocalizedMessage original="White" locale="es" localized="Blanco"/>
+    <moqui.basic.LocalizedMessage original="Wholesale Price" locale="es" localized="Precio mayorista"/>
+    <moqui.basic.LocalizedMessage original="Year Made" locale="es" localized="Año de fabricación"/>
+    <moqui.basic.LocalizedMessage original="Yellow" locale="es" localized="Amarillo"/>
+</entity-facade-xml>

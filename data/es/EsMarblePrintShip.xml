@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Ais" locale="es" localized="Pas"/>
+    <moqui.basic.LocalizedMessage original="Alt" locale="es" localized="Alt."/>
+    <moqui.basic.LocalizedMessage original="Ar" locale="es" localized="Ár"/>
+    <moqui.basic.LocalizedMessage original="Bill of Lading" locale="es" localized="Conocimiento de embarque"/>
+    <moqui.basic.LocalizedMessage original="Bin" locale="es" localized="Cas"/>
+    <moqui.basic.LocalizedMessage original="By Loc - Alt" locale="es" localized="Por ubic. - alt."/>
+    <moqui.basic.LocalizedMessage original="By Loc - Res" locale="es" localized="Por ubic. - res."/>
+    <moqui.basic.LocalizedMessage original="Consignee" locale="es" localized="Consignatario"/>
+    <moqui.basic.LocalizedMessage original="Cont" locale="es" localized="Cont."/>
+    <moqui.basic.LocalizedMessage original="Est. Ship" locale="es" localized="Envío est."/>
+    <moqui.basic.LocalizedMessage original="ID Barcode" locale="es" localized="Código de barras de ID"/>
+    <moqui.basic.LocalizedMessage original="Iss" locale="es" localized="Ent."/>
+    <moqui.basic.LocalizedMessage original="L x W x H" locale="es" localized="Largo x ancho x alto"/>
+    <moqui.basic.LocalizedMessage original="Lev" locale="es" localized="Niv"/>
+    <moqui.basic.LocalizedMessage original="Not yet shipped" locale="es" localized="Aún no enviado"/>
+    <moqui.basic.LocalizedMessage original="of" locale="es" localized="de"/>
+    <moqui.basic.LocalizedMessage original="Product in All Packages" locale="es" localized="Producto en todos los paquetes"/>
+    <moqui.basic.LocalizedMessage original="Qty in Package" locale="es" localized="Cant. en el paquete"/>
+    <moqui.basic.LocalizedMessage original="Qty Ordered" locale="es" localized="Cant. ordenada"/>
+    <moqui.basic.LocalizedMessage original="Res" locale="es" localized="Res."/>
+    <moqui.basic.LocalizedMessage original="Shipment by Package" locale="es" localized="Envío por paquete"/>
+    <moqui.basic.LocalizedMessage original="Shipment Insert" locale="es" localized="Inserto de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Pack Sheet" locale="es" localized="Hoja de empaque de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Picklist" locale="es" localized="Lista de surtido del envío"/>
+    <moqui.basic.LocalizedMessage original="Shipper" locale="es" localized="Remitente"/>
+    <moqui.basic.LocalizedMessage original="Shipping Method" locale="es" localized="Método de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipping Picklist" locale="es" localized="Lista de surtido de envío"/>
+    <moqui.basic.LocalizedMessage original="Total Shipped" locale="es" localized="Total enviado"/>
+</entity-facade-xml>

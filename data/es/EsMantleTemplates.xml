@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="LotNameTemplate" locale="es" localized="${lotId}: ${pseudoId||mfgParty?.pseudoId||''} ${lotNumber||'Sin núm. de lote'} Fab. ${ec.l10n.format(manufacturedDate, 'yyyy-MM-dd')||'N/A'} Venc. ${ec.l10n.format(expirationDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveCurrencyDifferent" locale="es" localized="La moneda del pago ${payment.amountUomId} es diferente de la moneda de la orden ${orderHeader.currencyUomId}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveNewCustomer" locale="es" localized="El cliente ${firstOrderPart.customerPartyId} es un cliente nuevo"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePartNoCustomer" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene cliente"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePartNoVendor" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene vendedor"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePaymentAuthorizedLow" locale="es" localized="El total de pagos autorizados o posteriores ${ec.l10n.formatCurrency(totalAuthorized, orderHeader.currencyUomId)} es menor que el total de la orden ${ec.l10n.formatCurrency(orderHeader.grandTotal, orderHeader.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="OrderApprovePaymentPromisedLow" locale="es" localized="El total de pagos prometidos o posteriores ${ec.l10n.formatCurrency(totalPromised, orderHeader.currencyUomId)} es menor que el total de la orden ${ec.l10n.formatCurrency(orderHeader.grandTotal, orderHeader.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveShippingAddressTrust" locale="es" localized="La parte ${orderPart.orderPartSeqId}: dirección de envío ${postalCm.address1}, ${postalCm.postalCode || '-'} tiene un nivel de confianza de ${trustLevelEnum.description}"/>
+    <moqui.basic.LocalizedMessage original="OrderApproveStoreManualApprove" locale="es" localized="==&gt; Tienda configurada para requerir aprobación manual"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailConfirmCloseOrder" locale="es" localized="¿Cerrar realmente la orden? Si no se envió ningún artículo, la orden quedará Cancelada. Si se envió parcialmente, todos los artículos se reducirán a la cantidad enviada y la orden quedará Completada."/>
+    <moqui.basic.LocalizedMessage original="OrderDetailConfirmClosePart" locale="es" localized="¿Cerrar realmente la parte de la orden? Si no se envió ningún artículo, la parte quedará Cancelada. Si se envió parcialmente, todos los artículos se reducirán a la cantidad enviada y la parte quedará Completada."/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemBilled" locale="es" localized="Facturado:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.invoiceQuantity, '#,##0.###') : ec.l10n.format(returnableOut.invoiceTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemReturnable" locale="es" localized="Devoluble:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.returnableQuantity, '#,##0.###') : ec.l10n.format(returnableOut.returnableTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailItemReturned" locale="es" localized="Devuelto:${returnableOut.isProductItemType ? ec.l10n.format(returnableOut.returnedQuantity, '#,##0.###') : ec.l10n.format(returnableOut.returnedTotal, '#,##0.00')}"/>
+    <moqui.basic.LocalizedMessage original="OrderDetailPartPaymentIncomplete" locale="es" localized="El total de pagos (${ec.l10n.formatCurrency(orderPartInfo.paymentsTotal ?? 0, orderHeader?.currencyUomId)}) es menor que el total de la parte de la orden (${ec.l10n.formatCurrency(orderPartInfo.orderPart.partTotal ?? 0, orderHeader?.currencyUomId)})"/>
+    <moqui.basic.LocalizedMessage original="OrderInventoryInsufficient" locale="es" localized="Solo ${ec.l10n.format(availableToPromiseTotal, '#,##0')} de ${product?.productName || productId} están disponibles"/>
+    <moqui.basic.LocalizedMessage original="OrderInventoryNotAvailable" locale="es" localized="${product?.productName || productId} está agotado"/>
+    <moqui.basic.LocalizedMessage original="OrderPlaceNoItems" locale="es" localized="La orden no tiene artículos"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoCustomer" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene cliente"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoShippingAddress" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene dirección de envío seleccionada"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoShippingMethod" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene método de envío seleccionado"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartNoVendor" locale="es" localized="La parte ${orderPart.orderPartSeqId} no tiene vendedor"/>
+    <moqui.basic.LocalizedMessage original="OrderPlacePartPaymentIncomplete" locale="es" localized="El total de pagos de la parte ${orderPart.orderPartSeqId} (${ec.l10n.formatCurrency(paymentsTotal ?? 0, orderHeader?.currencyUomId)}) es menor que el total de la parte (${ec.l10n.formatCurrency(orderPart.partTotal ?? 0, orderHeader?.currencyUomId)})"/>
+    <moqui.basic.LocalizedMessage original="PayrollPayeeInvoiceItemDescription" locale="es" localized="${payeeAdjustment.description} para ${partyDetail.firstName||''} ${partyDetail.lastName||''}${partyDetail.organizationName||''} SSN ${partySsn?.idValue || 'N/A'} Ref ${payeeAdjustment.payeeReference || 'N/A'}"/>
+</entity-facade-xml>

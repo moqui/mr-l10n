@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Access" locale="es" localized="Acceso"/>
+    <moqui.basic.LocalizedMessage original="Access Code" locale="es" localized="Código de acceso"/>
+    <moqui.basic.LocalizedMessage original="Account Contact Roles" locale="es" localized="Roles de contacto de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Active/Open" locale="es" localized="Activo/abierto"/>
+    <moqui.basic.LocalizedMessage original="Activity Request" locale="es" localized="Solicitud de actividad"/>
+    <moqui.basic.LocalizedMessage original="Addendum" locale="es" localized="Adenda"/>
+    <moqui.basic.LocalizedMessage original="Address Validate Gateway Config ID" locale="es" localized="ID de configuración de la puerta de enlace de validación de direcciones"/>
+    <moqui.basic.LocalizedMessage original="Adult" locale="es" localized="Adulto"/>
+    <moqui.basic.LocalizedMessage original="Advertisement" locale="es" localized="Publicidad"/>
+    <moqui.basic.LocalizedMessage original="Agreement" locale="es" localized="Acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Association Type" locale="es" localized="Tipo de asociación de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Content Type" locale="es" localized="Tipo de contenido de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Document" locale="es" localized="Documento de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Item Type" locale="es" localized="Tipo de elemento de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Roles" locale="es" localized="Roles de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Type" locale="es" localized="Tipo de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Alien Registration Number" locale="es" localized="Número de registro de extranjero"/>
+    <moqui.basic.LocalizedMessage original="Alien Registration Receipt Card" locale="es" localized="Tarjeta de recibo de registro de extranjero"/>
+    <moqui.basic.LocalizedMessage original="All Product Stores Markup Order Shipping (set to 'true')" locale="es" localized="Todas las tiendas de productos: recargo del envío de la orden (establecer en 'true')"/>
+    <moqui.basic.LocalizedMessage original="All Product Stores Markup Shipment Labels (set to 'true')" locale="es" localized="Todas las tiendas de productos: recargo de etiquetas de envío (establecer en 'true')"/>
+    <moqui.basic.LocalizedMessage original="Alternate" locale="es" localized="Alterno"/>
+    <moqui.basic.LocalizedMessage original="Announcement" locale="es" localized="Anuncio"/>
+    <moqui.basic.LocalizedMessage original="Any user" locale="es" localized="Cualquier usuario"/>
+    <moqui.basic.LocalizedMessage original="Approve Marketing Campaign" locale="es" localized="Aprobar campaña de marketing"/>
+    <moqui.basic.LocalizedMessage original="Attachment" locale="es" localized="Adjunto"/>
+    <moqui.basic.LocalizedMessage original="Automated Agent" locale="es" localized="Agente automatizado"/>
+    <moqui.basic.LocalizedMessage original="Bio" locale="es" localized="Biografía"/>
+    <moqui.basic.LocalizedMessage original="Birth Certificate" locale="es" localized="Certificado de nacimiento"/>
+    <moqui.basic.LocalizedMessage original="Blacklisted" locale="es" localized="En lista negra"/>
+    <moqui.basic.LocalizedMessage original="Break Adjust (piece, etc)" locale="es" localized="Ajuste de descanso (pieza, etc)"/>
+    <moqui.basic.LocalizedMessage original="Calendar Roles" locale="es" localized="Roles de calendario"/>
+    <moqui.basic.LocalizedMessage original="Cancel Marketing Campaign" locale="es" localized="Cancelar campaña de marketing"/>
+    <moqui.basic.LocalizedMessage original="Cancel Unsubscribe" locale="es" localized="Cancelar baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Certification of Birth Abroad" locale="es" localized="Certificación de nacimiento en el extranjero"/>
+    <moqui.basic.LocalizedMessage original="Certification of Report of Birth" locale="es" localized="Certificación del informe de nacimiento"/>
+    <moqui.basic.LocalizedMessage original="Certified (USPS)" locale="es" localized="Certificado (USPS)"/>
+    <moqui.basic.LocalizedMessage original="Child" locale="es" localized="Hijo"/>
+    <moqui.basic.LocalizedMessage original="Citizen ID Card" locale="es" localized="Tarjeta de ID de ciudadano"/>
+    <moqui.basic.LocalizedMessage original="Client Billing" locale="es" localized="Facturación al cliente"/>
+    <moqui.basic.LocalizedMessage original="Clock In" locale="es" localized="Registrar entrada"/>
+    <moqui.basic.LocalizedMessage original="Clock Out" locale="es" localized="Registrar salida"/>
+    <moqui.basic.LocalizedMessage original="Commission Rate" locale="es" localized="Tarifa de comisión"/>
+    <moqui.basic.LocalizedMessage original="Common Configuration Rate Types" locale="es" localized="Tipos de tarifa comunes de configuración"/>
+    <moqui.basic.LocalizedMessage original="Common Manual TimeEntry Rate Types" locale="es" localized="Tipos de tarifa comunes de entrada de tiempo manual"/>
+    <moqui.basic.LocalizedMessage original="Communication Content Type" locale="es" localized="Tipo de contenido de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Communication Event" locale="es" localized="Evento de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Communication Event Party" locale="es" localized="Participante del evento de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Communication Event Reason" locale="es" localized="Motivo del evento de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Communication Purpose" locale="es" localized="Propósito de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Complete Marketing Campaign" locale="es" localized="Completar campaña de marketing"/>
+    <moqui.basic.LocalizedMessage original="Confirm Unsubscribe" locale="es" localized="Confirmar baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Consulting" locale="es" localized="Consultoría"/>
+    <moqui.basic.LocalizedMessage original="Contact Book Permission" locale="es" localized="Permiso de agenda de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact Book Visibility" locale="es" localized="Visibilidad de agenda de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact List Delivery" locale="es" localized="Entrega de lista de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact List Email Type" locale="es" localized="Tipo de correo electrónico de lista de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact List Party" locale="es" localized="Participante de lista de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact List Posting" locale="es" localized="Publicación de lista de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact List Type" locale="es" localized="Tipo de lista de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact Mechanism Type" locale="es" localized="Tipo de mecanismo de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact/Payment Trust Level" locale="es" localized="Nivel de confianza de contacto/pago"/>
+    <moqui.basic.LocalizedMessage original="Contract (1099 only)" locale="es" localized="Contrato (solo 1099)"/>
+    <moqui.basic.LocalizedMessage original="Cookie" locale="es" localized="Cookie"/>
+    <moqui.basic.LocalizedMessage original="Correct (Ready)" locale="es" localized="Corregir (listo)"/>
+    <moqui.basic.LocalizedMessage original="Customer Assigned" locale="es" localized="Asignado por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Service" locale="es" localized="Servicio al cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Support" locale="es" localized="Soporte al cliente"/>
+    <moqui.basic.LocalizedMessage original="Daycare Record" locale="es" localized="Registro de guardería"/>
+    <moqui.basic.LocalizedMessage original="Deductible, Discretionary Bonus" locale="es" localized="Deducible, bonificación discrecional"/>
+    <moqui.basic.LocalizedMessage original="Deduction" locale="es" localized="Deducción"/>
+    <moqui.basic.LocalizedMessage original="Design" locale="es" localized="Diseño"/>
+    <moqui.basic.LocalizedMessage original="Development" locale="es" localized="Desarrollo"/>
+    <moqui.basic.LocalizedMessage original="Directly Applied Roles" locale="es" localized="Roles aplicados directamente"/>
+    <moqui.basic.LocalizedMessage original="Discounted" locale="es" localized="Descontado"/>
+    <moqui.basic.LocalizedMessage original="Divorced" locale="es" localized="Divorciado"/>
+    <moqui.basic.LocalizedMessage original="Do Not Withhold" locale="es" localized="No retener"/>
+    <moqui.basic.LocalizedMessage original="Double Time" locale="es" localized="Tiempo doble"/>
+    <moqui.basic.LocalizedMessage original="Driver License Number" locale="es" localized="Número de licencia de conducir"/>
+    <moqui.basic.LocalizedMessage original="Dun and Bradstreet DUNS" locale="es" localized="Dun and Bradstreet DUNS"/>
+    <moqui.basic.LocalizedMessage original="Dun and Bradstreet DUNS+4" locale="es" localized="Dun and Bradstreet DUNS+4"/>
+    <moqui.basic.LocalizedMessage original="EEOC (Equal Opportunity)" locale="es" localized="EEOC (igualdad de oportunidades)"/>
+    <moqui.basic.LocalizedMessage original="Earned Leave" locale="es" localized="Licencia devengada"/>
+    <moqui.basic.LocalizedMessage original="Electronic Address" locale="es" localized="Dirección electrónica"/>
+    <moqui.basic.LocalizedMessage original="Email Link" locale="es" localized="Enlace de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Employment" locale="es" localized="Empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Application Referred By" locale="es" localized="Referencia de solicitud de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Application Status" locale="es" localized="Estado de solicitud de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Authorization Document" locale="es" localized="Documento de autorización de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Authorization Type" locale="es" localized="Tipo de autorización de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Leave Reason" locale="es" localized="Motivo de licencia de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Leave Type" locale="es" localized="Tipo de licencia de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Position Status" locale="es" localized="Estado del puesto de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Responsibility" locale="es" localized="Responsabilidad de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Status" locale="es" localized="Estado de empleo"/>
+    <moqui.basic.LocalizedMessage original="Employment Tax Exempt Category" locale="es" localized="Categoría de exención fiscal del empleo"/>
+    <moqui.basic.LocalizedMessage original="End User License Agreement" locale="es" localized="Acuerdo de licencia de usuario final"/>
+    <moqui.basic.LocalizedMessage original="Entered" locale="es" localized="Ingresar"/>
+    <moqui.basic.LocalizedMessage original="Exemption" locale="es" localized="Exención"/>
+    <moqui.basic.LocalizedMessage original="Exhibit" locale="es" localized="Anexo"/>
+    <moqui.basic.LocalizedMessage original="Expenses, Reimbursement" locale="es" localized="Gastos, reembolso"/>
+    <moqui.basic.LocalizedMessage original="Face Image" locale="es" localized="Imagen del rostro"/>
+    <moqui.basic.LocalizedMessage original="Facility" locale="es" localized="Instalación"/>
+    <moqui.basic.LocalizedMessage original="Facility Owner" locale="es" localized="Propietario de instalación"/>
+    <moqui.basic.LocalizedMessage original="Federal Agent Indicator Code" locale="es" localized="Código indicador de agente federal"/>
+    <moqui.basic.LocalizedMessage original="Federal EIN" locale="es" localized="EIN federal"/>
+    <moqui.basic.LocalizedMessage original="Federal User ID" locale="es" localized="ID de usuario federal"/>
+    <moqui.basic.LocalizedMessage original="Finance Management" locale="es" localized="Gestión financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account" locale="es" localized="Cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Fired" locale="es" localized="Despedido"/>
+    <moqui.basic.LocalizedMessage original="Fiscal" locale="es" localized="Fiscal"/>
+    <moqui.basic.LocalizedMessage original="Foreign Agriculture (H-2A)" locale="es" localized="Agricultura extranjera (H-2A)"/>
+    <moqui.basic.LocalizedMessage original="Foreign Driver License" locale="es" localized="Licencia de conducir extranjera"/>
+    <moqui.basic.LocalizedMessage original="Foreign General (H-2B)" locale="es" localized="General extranjero (H-2B)"/>
+    <moqui.basic.LocalizedMessage original="Foreign Passport" locale="es" localized="Pasaporte extranjero"/>
+    <moqui.basic.LocalizedMessage original="Foreign Passport plus Visa" locale="es" localized="Pasaporte extranjero más visa"/>
+    <moqui.basic.LocalizedMessage original="Foreign Specialty (H-1B)" locale="es" localized="Especialidad extranjera (H-1B)"/>
+    <moqui.basic.LocalizedMessage original="Form" locale="es" localized="Formulario"/>
+    <moqui.basic.LocalizedMessage original="Friend" locale="es" localized="Amigo"/>
+    <moqui.basic.LocalizedMessage original="Full-time Employed" locale="es" localized="Empleado a tiempo completo"/>
+    <moqui.basic.LocalizedMessage original="GL Account Code Mask (like ###-###)" locale="es" localized="Máscara de código de cuenta contable GL (como ###-###)"/>
+    <moqui.basic.LocalizedMessage original="Garnish" locale="es" localized="Embargo"/>
+    <moqui.basic.LocalizedMessage original="General Labor" locale="es" localized="Mano de obra general"/>
+    <moqui.basic.LocalizedMessage original="General Office" locale="es" localized="Oficina general"/>
+    <moqui.basic.LocalizedMessage original="Global Location Number" locale="es" localized="Número de ubicación global"/>
+    <moqui.basic.LocalizedMessage original="Government ID Card" locale="es" localized="Tarjeta de ID gubernamental"/>
+    <moqui.basic.LocalizedMessage original="Granted" locale="es" localized="Concedido"/>
+    <moqui.basic.LocalizedMessage original="Greylisted" locale="es" localized="En lista gris"/>
+    <moqui.basic.LocalizedMessage original="Gross" locale="es" localized="Bruto"/>
+    <moqui.basic.LocalizedMessage original="HTML Text" locale="es" localized="Texto HTML"/>
+    <moqui.basic.LocalizedMessage original="Holiday" locale="es" localized="Día festivo"/>
+    <moqui.basic.LocalizedMessage original="Hourly Rate Type" locale="es" localized="Tipo de tarifa por hora"/>
+    <moqui.basic.LocalizedMessage original="Hours Worked" locale="es" localized="Horas trabajadas"/>
+    <moqui.basic.LocalizedMessage original="House-Person" locale="es" localized="Persona del hogar"/>
+    <moqui.basic.LocalizedMessage original="I-551" locale="es" localized="I-551"/>
+    <moqui.basic.LocalizedMessage original="I-766" locale="es" localized="I-766"/>
+    <moqui.basic.LocalizedMessage original="I-94" locale="es" localized="I-94"/>
+    <moqui.basic.LocalizedMessage original="I-94A" locale="es" localized="I-94A"/>
+    <moqui.basic.LocalizedMessage original="Identity Document" locale="es" localized="Documento de identidad"/>
+    <moqui.basic.LocalizedMessage original="Identity Type" locale="es" localized="Tipo de identidad"/>
+    <moqui.basic.LocalizedMessage original="Immigrant Admission Number" locale="es" localized="Número de admisión de inmigrante"/>
+    <moqui.basic.LocalizedMessage original="In Use" locale="es" localized="En uso"/>
+    <moqui.basic.LocalizedMessage original="Inactive/Closed" locale="es" localized="Inactivo/cerrado"/>
+    <moqui.basic.LocalizedMessage original="Incentive Bonus" locale="es" localized="Bonificación por incentivo"/>
+    <moqui.basic.LocalizedMessage original="Income Taxable" locale="es" localized="Ingreso gravable"/>
+    <moqui.basic.LocalizedMessage original="Indirect (FedEx)" locale="es" localized="Indirecto (FedEx)"/>
+    <moqui.basic.LocalizedMessage original="Internet" locale="es" localized="Internet"/>
+    <moqui.basic.LocalizedMessage original="Internet Domain Name" locale="es" localized="Nombre de dominio de Internet"/>
+    <moqui.basic.LocalizedMessage original="Internet IP Address" locale="es" localized="Dirección IP de Internet"/>
+    <moqui.basic.LocalizedMessage original="Invalid" locale="es" localized="No válido"/>
+    <moqui.basic.LocalizedMessage original="Inventory Management" locale="es" localized="Gestión de inventario"/>
+    <moqui.basic.LocalizedMessage original="Invoice Message - When From Party" locale="es" localized="Mensaje de factura - cuando el participante es el de origen"/>
+    <moqui.basic.LocalizedMessage original="Invoice Message - When To Party" locale="es" localized="Mensaje de factura - cuando el participante es el de destino"/>
+    <moqui.basic.LocalizedMessage original="Layoff" locale="es" localized="Recorte de personal"/>
+    <moqui.basic.LocalizedMessage original="Local Driver License" locale="es" localized="Licencia de conducir local"/>
+    <moqui.basic.LocalizedMessage original="Local Passport" locale="es" localized="Pasaporte local"/>
+    <moqui.basic.LocalizedMessage original="Locked - In Use" locale="es" localized="Bloqueado - en uso"/>
+    <moqui.basic.LocalizedMessage original="Logo Image" locale="es" localized="Imagen del logotipo"/>
+    <moqui.basic.LocalizedMessage original="Loss of Pay" locale="es" localized="Pérdida de pago"/>
+    <moqui.basic.LocalizedMessage original="Mailbox" locale="es" localized="Buzón"/>
+    <moqui.basic.LocalizedMessage original="Mailbox only" locale="es" localized="Solo buzón"/>
+    <moqui.basic.LocalizedMessage original="Make a request" locale="es" localized="Hacer una solicitud"/>
+    <moqui.basic.LocalizedMessage original="Make a work item (a request for outside senders)" locale="es" localized="Hacer un elemento de trabajo (una solicitud para remitentes externos)"/>
+    <moqui.basic.LocalizedMessage original="Management" locale="es" localized="Gestión"/>
+    <moqui.basic.LocalizedMessage original="Manager" locale="es" localized="Gerente"/>
+    <moqui.basic.LocalizedMessage original="Mantle Content Large Root Loc - binary, etc files" locale="es" localized="Ubicación raíz grande del contenido de Mantle - archivos binarios, etc"/>
+    <moqui.basic.LocalizedMessage original="Mantle Content Root Loc" locale="es" localized="Ubicación raíz del contenido de Mantle"/>
+    <moqui.basic.LocalizedMessage original="Marital Status" locale="es" localized="Estado civil"/>
+    <moqui.basic.LocalizedMessage original="Market Segment" locale="es" localized="Segmento de mercado"/>
+    <moqui.basic.LocalizedMessage original="Market Segment Type" locale="es" localized="Tipo de segmento de mercado"/>
+    <moqui.basic.LocalizedMessage original="Marketing Campaign" locale="es" localized="Campaña de marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing Campaign In Progress" locale="es" localized="Campaña de marketing en curso"/>
+    <moqui.basic.LocalizedMessage original="Marketing Email" locale="es" localized="Correo electrónico de marketing"/>
+    <moqui.basic.LocalizedMessage original="Married" locale="es" localized="Casado"/>
+    <moqui.basic.LocalizedMessage original="Married File Joint" locale="es" localized="Casado, declaración conjunta"/>
+    <moqui.basic.LocalizedMessage original="Married File Joint 1 Income" locale="es" localized="Casado, declaración conjunta, 1 ingreso"/>
+    <moqui.basic.LocalizedMessage original="Married File Joint 2+ Incomes" locale="es" localized="Casado, declaración conjunta, 2+ ingresos"/>
+    <moqui.basic.LocalizedMessage original="Married File Separate" locale="es" localized="Casado, declaración separada"/>
+    <moqui.basic.LocalizedMessage original="Matricula Consular ID" locale="es" localized="ID de matrícula consular"/>
+</entity-facade-xml>

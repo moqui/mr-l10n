@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(invoicesTotal.invoiceCount, '#,##0')} invoices ${ec.l10n.formatCurrency(invoicesTotal.grandTotal, invoicesTotal.currencyUomId)} (unpaid ${ec.l10n.formatCurrency(invoicesTotal.unpaidTotal, invoicesTotal.currencyUomId)})" locale="es" localized="${ec.l10n.format(invoicesTotal.invoiceCount, '#,##0')} facturas ${ec.l10n.formatCurrency(invoicesTotal.grandTotal, invoicesTotal.currencyUomId)} (no pagado ${ec.l10n.formatCurrency(invoicesTotal.unpaidTotal, invoicesTotal.currencyUomId)})"/>
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(ordersTotal.orderCount, '#,##0')} orders ${ec.l10n.formatCurrency(ordersTotal.partTotal, ordersTotal.currencyUomId)}" locale="es" localized="${ec.l10n.format(ordersTotal.orderCount, '#,##0')} órdenes ${ec.l10n.formatCurrency(ordersTotal.partTotal, ordersTotal.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(paymentsTotal.paymentCount, '#,##0')} payments ${ec.l10n.formatCurrency(paymentsTotal.amountTotal, paymentsTotal.amountUomId)} (unapplied ${ec.l10n.formatCurrency(paymentsTotal.unappliedTotal, paymentsTotal.amountUomId)})" locale="es" localized="${ec.l10n.format(paymentsTotal.paymentCount, '#,##0')} pagos ${ec.l10n.formatCurrency(paymentsTotal.amountTotal, paymentsTotal.amountUomId)} (no aplicado ${ec.l10n.formatCurrency(paymentsTotal.unappliedTotal, paymentsTotal.amountUomId)})"/>
+    <moqui.basic.LocalizedMessage original="${ec.resource.expand('PartyNameOnlyTemplate','',msgFrom)} at ${ec.l10n.format(nodeList_entry?.entryDate, 'yyyy-MM-dd HH:mm')} (${statusItem?.description})" locale="es" localized="${ec.resource.expand('PartyNameOnlyTemplate','',msgFrom)} el ${ec.l10n.format(nodeList_entry?.entryDate, 'yyyy-MM-dd HH:mm')} (${statusItem?.description})"/>
+    <moqui.basic.LocalizedMessage original="${timeEntryId ? 'Update' : 'Add'} Time Entry" locale="es" localized="${timeEntryId ? 'Update' : 'Add'} registro de tiempo"/>
+    <moqui.basic.LocalizedMessage original="*NACHA Company ID" locale="es" localized="*ID de empresa NACHA"/>
+    <moqui.basic.LocalizedMessage original="*NACHA Immed. Destination ID" locale="es" localized="*ID de destino inmediato NACHA"/>
+    <moqui.basic.LocalizedMessage original="*NACHA Immed. Origin ID" locale="es" localized="*ID de origen inmediato NACHA"/>
+    <moqui.basic.LocalizedMessage original="Access Tokens" locale="es" localized="Tokens de acceso"/>
+    <moqui.basic.LocalizedMessage original="Account Detail" locale="es" localized="Detalle de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Account Number" locale="es" localized="Número de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Add Employee" locale="es" localized="Añadir empleado"/>
+    <moqui.basic.LocalizedMessage original="Add Purpose" locale="es" localized="Añadir propósito"/>
+    <moqui.basic.LocalizedMessage original="Add a new line (line feed) character after each 94 character record, use No for Federal Reserve direct submit" locale="es" localized="Añadir un carácter de nueva línea (salto de línea) tras cada registro de 94 caracteres; usar No para el envío directo a la Reserva Federal"/>
+    <moqui.basic.LocalizedMessage original="Add offset record to create a balanced NACHA file, use Yes for Federal Reserve direct submit" locale="es" localized="Añadir un registro de compensación para crear un archivo NACHA balanceado; usar Sí para el envío directo a la Reserva Federal"/>
+    <moqui.basic.LocalizedMessage original="Address 1" locale="es" localized="Dirección 1"/>
+    <moqui.basic.LocalizedMessage original="Address 2" locale="es" localized="Dirección 2"/>
+    <moqui.basic.LocalizedMessage original="Address Purpose" locale="es" localized="Propósito de la dirección"/>
+    <moqui.basic.LocalizedMessage original="Address1" locale="es" localized="Dirección 1"/>
+    <moqui.basic.LocalizedMessage original="Address2" locale="es" localized="Dirección 2"/>
+    <moqui.basic.LocalizedMessage original="Agreement Content ID" locale="es" localized="ID de contenido del acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Date" locale="es" localized="Fecha del acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement ID" locale="es" localized="ID de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Term ID" locale="es" localized="ID de término del acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreement Text" locale="es" localized="Texto del acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Agreements" locale="es" localized="Acuerdos"/>
+    <moqui.basic.LocalizedMessage original="All Incoming Payments" locale="es" localized="Todos los pagos entrantes"/>
+    <moqui.basic.LocalizedMessage original="All Outgoing Payments" locale="es" localized="Todos los pagos salientes"/>
+    <moqui.basic.LocalizedMessage original="All Payable Invoices" locale="es" localized="Todas las facturas por pagar"/>
+    <moqui.basic.LocalizedMessage original="All Purchase Orders" locale="es" localized="Todas las órdenes de compra"/>
+    <moqui.basic.LocalizedMessage original="All Receivable Invoices" locale="es" localized="Todas las facturas por cobrar"/>
+    <moqui.basic.LocalizedMessage original="All Sales Orders" locale="es" localized="Todas las órdenes de venta"/>
+    <moqui.basic.LocalizedMessage original="Alt ID" locale="es" localized="ID alternativo"/>
+    <moqui.basic.LocalizedMessage original="An authentication code is required to change your password" locale="es" localized="Se requiere un código de autenticación para cambiar la contraseña"/>
+    <moqui.basic.LocalizedMessage original="Any Role may be added here to organize parties for searching, etc but many are used to describe a Party's relationship to, or involvement with, other things in the system and have no effect when applied directly." locale="es" localized="Cualquier rol puede añadirse aquí para organizar participantes en las búsquedas, etc., pero muchos describen la relación o la participación de un participante con otras cosas del sistema y no tienen efecto cuando se aplican directamente."/>
+    <moqui.basic.LocalizedMessage original="Approval Code" locale="es" localized="Código de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to initialize Accounting Configuration with default settings?" locale="es" localized="¿Está seguro de que desea inicializar la configuración contable con los valores predeterminados?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to make this party a Customer?" locale="es" localized="¿Está seguro de que desea convertir este participante en cliente?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to make this party an Internal Organization?" locale="es" localized="¿Está seguro de que desea convertir este participante en una organización interna?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to remove this account from the parent account?" locale="es" localized="¿Está seguro de que desea quitar esta cuenta de la cuenta padre?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to remove this child account from the parent account?" locale="es" localized="¿Está seguro de que desea quitar esta cuenta hija de la cuenta padre?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to remove this contact from the account?" locale="es" localized="¿Está seguro de que desea quitar este contacto de la cuenta?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to remove this contact?" locale="es" localized="¿Está seguro de que desea quitar este contacto?"/>
+    <moqui.basic.LocalizedMessage original="Area Code" locale="es" localized="Código de área"/>
+    <moqui.basic.LocalizedMessage original="Assign To Party ID" locale="es" localized="ID del participante asignado"/>
+    <moqui.basic.LocalizedMessage original="Attention" locale="es" localized="Atención"/>
+    <moqui.basic.LocalizedMessage original="Attn" locale="es" localized="Atn."/>
+    <moqui.basic.LocalizedMessage original="Auto Delete" locale="es" localized="Eliminación automática"/>
+    <moqui.basic.LocalizedMessage original="Auto Update Rates" locale="es" localized="Actualizar tasas automáticamente"/>
+    <moqui.basic.LocalizedMessage original="Available Balance" locale="es" localized="Saldo disponible"/>
+    <moqui.basic.LocalizedMessage original="Bai File" locale="es" localized="Archivo BAI"/>
+    <moqui.basic.LocalizedMessage original="Balance" locale="es" localized="Saldo"/>
+    <moqui.basic.LocalizedMessage original="Balance Date" locale="es" localized="Fecha de saldo"/>
+    <moqui.basic.LocalizedMessage original="Bank Account Details" locale="es" localized="Detalles de la cuenta bancaria"/>
+    <moqui.basic.LocalizedMessage original="Bank Name" locale="es" localized="Nombre del banco"/>
+    <moqui.basic.LocalizedMessage original="Billing Information" locale="es" localized="Información de facturación"/>
+    <moqui.basic.LocalizedMessage original="Birth" locale="es" localized="Nacimiento"/>
+    <moqui.basic.LocalizedMessage original="Birth Date" locale="es" localized="Fecha de nacimiento"/>
+    <moqui.basic.LocalizedMessage original="Birthday" locale="es" localized="Cumpleaños"/>
+    <moqui.basic.LocalizedMessage original="Booked Payable Invoices" locale="es" localized="Facturas por pagar registradas"/>
+    <moqui.basic.LocalizedMessage original="Booked Receivable Invoices" locale="es" localized="Facturas por cobrar registradas"/>
+    <moqui.basic.LocalizedMessage original="CIM ID" locale="es" localized="ID CIM"/>
+    <moqui.basic.LocalizedMessage original="Cancel Invoice" locale="es" localized="Cancelar factura"/>
+    <moqui.basic.LocalizedMessage original="Card Number" locale="es" localized="Número de tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Card Number (clear this field to update other fields without the full Card Number)" locale="es" localized="Número de tarjeta (vaciar este campo para actualizar otros campos sin el número de tarjeta completo)"/>
+    <moqui.basic.LocalizedMessage original="Check Number" locale="es" localized="Número de cheque"/>
+    <moqui.basic.LocalizedMessage original="Checks" locale="es" localized="Cheques"/>
+    <moqui.basic.LocalizedMessage original="Child Account" locale="es" localized="Cuenta hija"/>
+    <moqui.basic.LocalizedMessage original="Child Sales Accounts" locale="es" localized="Cuentas de ventas hijas"/>
+    <moqui.basic.LocalizedMessage original="City/Zip" locale="es" localized="Ciudad/código postal"/>
+    <moqui.basic.LocalizedMessage original="Class Type" locale="es" localized="Tipo de clase"/>
+    <moqui.basic.LocalizedMessage original="Classifications" locale="es" localized="Clasificaciones"/>
+    <moqui.basic.LocalizedMessage original="Client Hour Calc" locale="es" localized="Cálculo de hora del cliente"/>
+    <moqui.basic.LocalizedMessage original="Client Piece Calc" locale="es" localized="Cálculo por pieza del cliente"/>
+    <moqui.basic.LocalizedMessage original="Client Piece Rate" locale="es" localized="Tasa por pieza del cliente"/>
+    <moqui.basic.LocalizedMessage original="Clone Event" locale="es" localized="Clonar evento"/>
+    <moqui.basic.LocalizedMessage original="Clone Task" locale="es" localized="Clonar tarea"/>
+    <moqui.basic.LocalizedMessage original="Combined Name" locale="es" localized="Nombre combinado"/>
+    <moqui.basic.LocalizedMessage original="Company Name On Account" locale="es" localized="Nombre de la empresa en la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Completed Purchase Orders" locale="es" localized="Órdenes de compra completadas"/>
+    <moqui.basic.LocalizedMessage original="Completed Sales Orders" locale="es" localized="Órdenes de venta completadas"/>
+    <moqui.basic.LocalizedMessage original="Contact Info" locale="es" localized="Datos de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact Mech ID" locale="es" localized="ID de mecanismo de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact Mech Purpose ID" locale="es" localized="ID de propósito del mecanismo de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact Number" locale="es" localized="Número de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact of Sales Accounts" locale="es" localized="Contacto de cuentas de ventas"/>
+    <moqui.basic.LocalizedMessage original="Convert To Organization" locale="es" localized="Convertir en organización"/>
+    <moqui.basic.LocalizedMessage original="Convert To Person" locale="es" localized="Convertir en persona"/>
+    <moqui.basic.LocalizedMessage original="Country Code" locale="es" localized="Código de país"/>
+    <moqui.basic.LocalizedMessage original="Country Geo ID" locale="es" localized="ID geográfico del país"/>
+    <moqui.basic.LocalizedMessage original="Country/State" locale="es" localized="País/estado"/>
+    <moqui.basic.LocalizedMessage original="Create Account" locale="es" localized="Crear cuenta"/>
+    <moqui.basic.LocalizedMessage original="Create Payment" locale="es" localized="Crear pago"/>
+    <moqui.basic.LocalizedMessage original="Create Vendor" locale="es" localized="Crear vendedor"/>
+    <moqui.basic.LocalizedMessage original="Credit Amount Total" locale="es" localized="Total del importe de crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Card Type Enum ID" locale="es" localized="ID de enumeración del tipo de tarjeta de crédito"/>
+    <moqui.basic.LocalizedMessage original="Current Purchase Orders" locale="es" localized="Órdenes de compra actuales"/>
+    <moqui.basic.LocalizedMessage original="Current Rep" locale="es" localized="Representante actual"/>
+    <moqui.basic.LocalizedMessage original="Current Sales Orders" locale="es" localized="Órdenes de venta actuales"/>
+    <moqui.basic.LocalizedMessage original="Current Search String" locale="es" localized="Cadena de búsqueda actual"/>
+    <moqui.basic.LocalizedMessage original="Current: ${cronDescription}" locale="es" localized="Actual: ${cronDescription}"/>
+    <moqui.basic.LocalizedMessage original="Customer Data" locale="es" localized="Datos del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Statement PDF" locale="es" localized="PDF del estado de cuenta del cliente"/>
+    <moqui.basic.LocalizedMessage original="Daily Monday to Friday at 6 AM" locale="es" localized="Diario de lunes a viernes a las 6 a. m."/>
+    <moqui.basic.LocalizedMessage original="Daily at 6 AM" locale="es" localized="Diario a las 6 a. m."/>
+    <moqui.basic.LocalizedMessage original="Data Source" locale="es" localized="Origen de datos"/>
+    <moqui.basic.LocalizedMessage original="Debit Amount Total" locale="es" localized="Total del importe de débito"/>
+    <moqui.basic.LocalizedMessage original="Defaults to Bank Name, max 23 characters" locale="es" localized="Valor predeterminado: nombre del banco, máximo 23 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Defaults to Company Name On Account, max 16 characters" locale="es" localized="Valor predeterminado: nombre de la empresa en la cuenta, máximo 16 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Defaults to Company Name On Account, max 23 characters" locale="es" localized="Valor predeterminado: nombre de la empresa en la cuenta, máximo 23 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Defaults to first 8 digits of Immed. Destination ID" locale="es" localized="Valor predeterminado: primeros 8 dígitos del ID de destino inmediato"/>
+    <moqui.basic.LocalizedMessage original="Delete (Expire)" locale="es" localized="Eliminar (caducar)"/>
+    <moqui.basic.LocalizedMessage original="Delete Item" locale="es" localized="Eliminar elemento"/>
+    <moqui.basic.LocalizedMessage original="Delete classification?" locale="es" localized="¿Eliminar la clasificación?"/>
+    <moqui.basic.LocalizedMessage original="Delete role?" locale="es" localized="¿Eliminar el rol?"/>
+    <moqui.basic.LocalizedMessage original="Delete this Payment Method?" locale="es" localized="¿Eliminar este método de pago?"/>
+    <moqui.basic.LocalizedMessage original="Delete this Purpose?" locale="es" localized="¿Eliminar este propósito?"/>
+    <moqui.basic.LocalizedMessage original="Disabled?" locale="es" localized="¿Desactivado?"/>
+    <moqui.basic.LocalizedMessage original="Download File ${paymentMethodFileId}" locale="es" localized="Descargar archivo ${paymentMethodFileId}"/>
+    <moqui.basic.LocalizedMessage original="Duplicates found (by ${party.hasDuplicates == 'Y' ? 'address/name, phone/name, ' : ''}identification, email, or birth date and name)" locale="es" localized="Duplicados encontrados (por ${party.hasDuplicates == 'Y' ? 'address/name, phone/name, ' : ''}identificación, correo electrónico o fecha de nacimiento y nombre)"/>
+    <moqui.basic.LocalizedMessage original="Dups" locale="es" localized="Duplicados"/>
+    <moqui.basic.LocalizedMessage original="Edit ${invoiceId}" locale="es" localized="Editar ${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Edit Accounting Configuration" locale="es" localized="Editar configuración contable"/>
+    <moqui.basic.LocalizedMessage original="Edit Party" locale="es" localized="Editar participante"/>
+    <moqui.basic.LocalizedMessage original="Edit Scheduled Find" locale="es" localized="Editar búsqueda programada"/>
+    <moqui.basic.LocalizedMessage original="Effective Entry Date" locale="es" localized="Fecha efectiva de entrada"/>
+    <moqui.basic.LocalizedMessage original="Email Addresses" locale="es" localized="Direcciones de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Addresses: ${emailAddressSet.join(', ')}" locale="es" localized="Direcciones de correo electrónico: ${emailAddressSet.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="Email Contact Mech ID" locale="es" localized="ID de mecanismo de contacto de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Contact Mech Purpose ID" locale="es" localized="ID de propósito del mecanismo de contacto de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Purpose" locale="es" localized="Propósito del correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email will be sent to ${userAccount.emailAddress} (username ${userAccount.username})" locale="es" localized="Se enviará un correo electrónico a ${userAccount.emailAddress} (nombre de usuario ${userAccount.username})"/>
+    <moqui.basic.LocalizedMessage original="Employer" locale="es" localized="Empleador"/>
+    <moqui.basic.LocalizedMessage original="Employer/Branch" locale="es" localized="Empleador/sucursal"/>
+    <moqui.basic.LocalizedMessage original="Entry Count" locale="es" localized="Cantidad de entradas"/>
+    <moqui.basic.LocalizedMessage original="Event ${workEffortId}" locale="es" localized="Evento ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Existing Invoice" locale="es" localized="Factura existente"/>
+    <moqui.basic.LocalizedMessage original="Expense Invoice" locale="es" localized="Factura de gastos"/>
+    <moqui.basic.LocalizedMessage original="Expenses" locale="es" localized="Gastos"/>
+    <moqui.basic.LocalizedMessage original="Expire Month" locale="es" localized="Mes de caducidad"/>
+    <moqui.basic.LocalizedMessage original="Expire Year" locale="es" localized="Año de caducidad"/>
+    <moqui.basic.LocalizedMessage original="Ext" locale="es" localized="Ext."/>
+    <moqui.basic.LocalizedMessage original="Extension" locale="es" localized="Extensión"/>
+    <moqui.basic.LocalizedMessage original="FIT ID" locale="es" localized="ID FIT"/>
+    <moqui.basic.LocalizedMessage original="Fed Nacha Info" locale="es" localized="Información NACHA federal"/>
+    <moqui.basic.LocalizedMessage original="File Date" locale="es" localized="Fecha del archivo"/>
+    <moqui.basic.LocalizedMessage original="File ID" locale="es" localized="ID de archivo"/>
+    <moqui.basic.LocalizedMessage original="Filed By Party ID" locale="es" localized="ID del participante que presentó"/>
+    <moqui.basic.LocalizedMessage original="Financial Accounts" locale="es" localized="Cuentas financieras"/>
+    <moqui.basic.LocalizedMessage original="Financial Info" locale="es" localized="Información financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Summary for ${ec.resource.expand('PartyNameTemplate', null, partyDetail)}" locale="es" localized="Resumen financiero de ${ec.resource.expand('PartyNameTemplate', null, partyDetail)}"/>
+    <moqui.basic.LocalizedMessage original="Find Accounts" locale="es" localized="Buscar cuentas"/>
+    <moqui.basic.LocalizedMessage original="Find Party ID" locale="es" localized="ID de participante a buscar"/>
+    <moqui.basic.LocalizedMessage original="First Name" locale="es" localized="Nombre"/>
+    <moqui.basic.LocalizedMessage original="Fit ID" locale="es" localized="ID Fit"/>
+    <moqui.basic.LocalizedMessage original="From ${ec.resource.expand('PartyNameTemplate', null, pmtFromParty)}" locale="es" localized="De ${ec.resource.expand('PartyNameTemplate', null, pmtFromParty)}"/>
+    <moqui.basic.LocalizedMessage original="From ${ec.resource.expand('PartyNameTemplate','',fromParty)}," locale="es" localized="De ${ec.resource.expand('PartyNameTemplate','',fromParty)},"/>
+    <moqui.basic.LocalizedMessage original="From Party ID" locale="es" localized="ID del participante de origen"/>
+    <moqui.basic.LocalizedMessage original="From Role" locale="es" localized="Rol de origen"/>
+    <moqui.basic.LocalizedMessage original="From Role Type ID" locale="es" localized="ID del tipo de rol de origen"/>
+    <moqui.basic.LocalizedMessage original="GL Account" locale="es" localized="Cuenta contable"/>
+    <moqui.basic.LocalizedMessage original="GL Trans ${acctgTransId}:${acctgTransEntrySeqId}" locale="es" localized="Transacción GL ${acctgTransId}:${acctgTransEntrySeqId}"/>
+    <moqui.basic.LocalizedMessage original="GL Trans Amount" locale="es" localized="Importe de la transacción GL"/>
+    <moqui.basic.LocalizedMessage original="GL Trans Date" locale="es" localized="Fecha de la transacción GL"/>
+    <moqui.basic.LocalizedMessage original="GL Trans ID" locale="es" localized="ID de transacción GL"/>
+    <moqui.basic.LocalizedMessage original="GL Trans Info" locale="es" localized="Información de la transacción GL"/>
+    <moqui.basic.LocalizedMessage original="GL Trans Not Rec" locale="es" localized="Transacción GL no conciliada"/>
+    <moqui.basic.LocalizedMessage original="Gateway CIM ID" locale="es" localized="ID CIM de la pasarela"/>
+    <moqui.basic.LocalizedMessage original="Gateway Responses" locale="es" localized="Respuestas de la pasarela"/>
+    <moqui.basic.LocalizedMessage original="Generate" locale="es" localized="Generar"/>
+    <moqui.basic.LocalizedMessage original="Generate reset password and send by email to ${userAccount.emailAddress}?" locale="es" localized="¿Generar contraseña de restablecimiento y enviarla por correo electrónico a ${userAccount.emailAddress}?"/>
+    <moqui.basic.LocalizedMessage original="Git Access" locale="es" localized="Acceso a Git"/>
+    <moqui.basic.LocalizedMessage original="Grey" locale="es" localized="Poner en lista gris"/>
+    <moqui.basic.LocalizedMessage original="Has Modified Rates" locale="es" localized="Tiene tasas modificadas"/>
+    <moqui.basic.LocalizedMessage original="Hidden" locale="es" localized="Oculto"/>
+    <moqui.basic.LocalizedMessage original="Hide Viewed" locale="es" localized="Ocultar vistos"/>
+    <moqui.basic.LocalizedMessage original="If Payment and GL Trans are associated you can enter one or the other" locale="es" localized="Si el pago y la transacción GL están asociados, puede introducir uno u otro"/>
+    <moqui.basic.LocalizedMessage original="If Yes auto delete when there are no more active Payments" locale="es" localized="Si es Sí, eliminar automáticamente cuando ya no haya pagos activos"/>
+    <moqui.basic.LocalizedMessage original="Ignored if Schedule selected, clear to set manually here" locale="es" localized="Se ignora si se selecciona una programación; vaciar para definirlo manualmente aquí"/>
+    <moqui.basic.LocalizedMessage original="Info" locale="es" localized="Información"/>
+    <moqui.basic.LocalizedMessage original="Init Accounting Configuration" locale="es" localized="Inicializar configuración contable"/>
+    <moqui.basic.LocalizedMessage original="Instructions1" locale="es" localized="Instrucciones 1"/>
+    <moqui.basic.LocalizedMessage original="Internal Organization Relationships" locale="es" localized="Relaciones de organización interna"/>
+    <moqui.basic.LocalizedMessage original="Invoice Date" locale="es" localized="Fecha de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Time" locale="es" localized="Facturar tiempo"/>
+    <moqui.basic.LocalizedMessage original="Invoice Total" locale="es" localized="Total de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Total: ${ec.l10n.formatCurrency(invoiceTotal, invoice.currencyUomId)}" locale="es" localized="Total de la factura: ${ec.l10n.formatCurrency(invoiceTotal, invoice.currencyUomId)}"/>
+    <moqui.basic.LocalizedMessage original="Invoices From" locale="es" localized="Facturas de origen"/>
+    <moqui.basic.LocalizedMessage original="Invoices From (${fromInvoiceCount})" locale="es" localized="Facturas de origen (${fromInvoiceCount})"/>
+    <moqui.basic.LocalizedMessage original="Invoices To" locale="es" localized="Facturas de destino"/>
+    <moqui.basic.LocalizedMessage original="Invoices To (${toInvoiceCount})" locale="es" localized="Facturas de destino (${toInvoiceCount})"/>
+    <moqui.basic.LocalizedMessage original="Item Text" locale="es" localized="Texto del elemento"/>
+    <moqui.basic.LocalizedMessage original="Last Check Number" locale="es" localized="Último número de cheque"/>
+    <moqui.basic.LocalizedMessage original="Last Name" locale="es" localized="Apellido"/>
+    <moqui.basic.LocalizedMessage original="Ledger Balance" locale="es" localized="Saldo contable"/>
+    <moqui.basic.LocalizedMessage original="Look Back Days" locale="es" localized="Días de retroceso"/>
+    <moqui.basic.LocalizedMessage original="Mailing Addresses" locale="es" localized="Direcciones postales"/>
+    <moqui.basic.LocalizedMessage original="Make Customer" locale="es" localized="Convertir en cliente"/>
+    <moqui.basic.LocalizedMessage original="Make Internal Org" locale="es" localized="Convertir en organización interna"/>
+    <moqui.basic.LocalizedMessage original="Manual Reconcile" locale="es" localized="Conciliar manualmente"/>
+    <moqui.basic.LocalizedMessage original="Mark Viewed" locale="es" localized="Marcar como vistos"/>
+    <moqui.basic.LocalizedMessage original="Match and Reconcile" locale="es" localized="Emparejar y conciliar"/>
+    <moqui.basic.LocalizedMessage original="Matches" locale="es" localized="Coincidencias"/>
+    <moqui.basic.LocalizedMessage original="Memo: ${paymentMethodTrans.transMemo}" locale="es" localized="Nota: ${paymentMethodTrans.transMemo}"/>
+    <moqui.basic.LocalizedMessage original="Memo: ${transMemo}" locale="es" localized="Nota: ${transMemo}"/>
+    <moqui.basic.LocalizedMessage original="Merge From ${partyId}" locale="es" localized="Fusionar desde ${partyId}"/>
+    <moqui.basic.LocalizedMessage original="Message List" locale="es" localized="Lista de mensajes"/>
+    <moqui.basic.LocalizedMessage original="Middle Name" locale="es" localized="Segundo nombre"/>
+    <moqui.basic.LocalizedMessage original="Mod" locale="es" localized="Modificado"/>
+    <moqui.basic.LocalizedMessage original="Monthly on the 1st at 6 AM" locale="es" localized="Mensual el día 1 a las 6 a. m."/>
+    <moqui.basic.LocalizedMessage original="My Account" locale="es" localized="Mi cuenta"/>
+    <moqui.basic.LocalizedMessage original="NACHA Company Name" locale="es" localized="Nombre de empresa NACHA"/>
+    <moqui.basic.LocalizedMessage original="NACHA Discr. Data" locale="es" localized="Datos discrecionales NACHA"/>
+    <moqui.basic.LocalizedMessage original="NACHA Entry Description" locale="es" localized="Descripción de entrada NACHA"/>
+</entity-facade-xml>

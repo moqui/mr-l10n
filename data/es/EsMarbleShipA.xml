@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${assetReservationId} - Res: ${ec.l10n.format(res.quantity, null)}, Not Avail: ${ec.l10n.format(res.quantityNotAvailable, null)}, Not Issued: ${ec.l10n.format(res.quantityNotIssued, null)}" locale="es" localized="${assetReservationId} - Reserva: ${ec.l10n.format(res.quantity, null)}, No disp.: ${ec.l10n.format(res.quantityNotAvailable, null)}, Sin entregar: ${ec.l10n.format(res.quantityNotIssued, null)}"/>
+    <moqui.basic.LocalizedMessage original="${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}" locale="es" localized="${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}"/>
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(needQuantity, '#,##0.##')} (Pick ATP ${ec.l10n.format(pickAtpTotal, '#,##0.##')})" locale="es" localized="${ec.l10n.format(needQuantity, '#,##0.##')} (ATP de surtido ${ec.l10n.format(pickAtpTotal, '#,##0.##')})"/>
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(needQuantity, '#,##0.##')} (Res ${ec.l10n.format(reservedQuantity, '#,##0.##')} - Pick ATP ${ec.l10n.format(pickAtpTotal, '#,##0.##')})" locale="es" localized="${ec.l10n.format(needQuantity, '#,##0.##')} (Res. ${ec.l10n.format(reservedQuantity, '#,##0.##')} - ATP de surtido ${ec.l10n.format(pickAtpTotal, '#,##0.##')})"/>
+    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', '', sid)} (Qty ${ec.l10n.format(sid.quantity || 0, '#.##')})" locale="es" localized="${ec.resource.expand('ProductNameTemplate', '', sid)} (Cant. ${ec.l10n.format(sid.quantity || 0, '#.##')})"/>
+    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', '', sid)} - ${ec.l10n.format(sid.quantityTotal ?? 0, '0.##')} of ${ec.l10n.format(sid.quantity, '0.##')} packed" locale="es" localized="${ec.resource.expand('ProductNameTemplate', '', sid)} - ${ec.l10n.format(sid.quantityTotal ?? 0, '0.##')} de ${ec.l10n.format(sid.quantity, '0.##')} empacados"/>
+    <moqui.basic.LocalizedMessage original="${isIncoming ? 'Incoming' : (isOutgoing ? 'Outgoing' : (isTransfer ? 'Transfer' : 'Unknown Type'))} Shipment #${shipmentId}" locale="es" localized="${isIncoming ? 'Incoming' : (isOutgoing ? 'Outgoing' : (isTransfer ? 'Transfer' : 'Unknown Type'))} Envío #${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="${locationSeqId||'N/A'} - ${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}" locale="es" localized="${locationSeqId||'N/A'} - ${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}"/>
+    <moqui.basic.LocalizedMessage original="${validationError.message} (for field ${validationError.fieldPretty})" locale="es" localized="${validationError.message} (para el campo ${validationError.fieldPretty})"/>
+    <moqui.basic.LocalizedMessage original="(only if QZ Print setup)" locale="es" localized="(Solo si QZ Print está configurado)"/>
+    <moqui.basic.LocalizedMessage original="Active Package ${activePackageAndRouteSeg.shipmentPackageSeqId}" locale="es" localized="Paquete activo ${activePackageAndRouteSeg.shipmentPackageSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Actual Arrival" locale="es" localized="Llegada real"/>
+    <moqui.basic.LocalizedMessage original="Actual Complete" locale="es" localized="Completado real"/>
+    <moqui.basic.LocalizedMessage original="Actual Start" locale="es" localized="Inicio real"/>
+    <moqui.basic.LocalizedMessage original="Add Box Type" locale="es" localized="Añadir tipo de caja"/>
+    <moqui.basic.LocalizedMessage original="Add Item" locale="es" localized="Añadir artículo"/>
+    <moqui.basic.LocalizedMessage original="Add Location Type" locale="es" localized="Añadir tipo de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Add Package" locale="es" localized="Añadir paquete"/>
+    <moqui.basic.LocalizedMessage original="Add Shipments" locale="es" localized="Añadir envíos"/>
+    <moqui.basic.LocalizedMessage original="Add to Package" locale="es" localized="Añadir al paquete"/>
+    <moqui.basic.LocalizedMessage original="Add to Picklist" locale="es" localized="Añadir a la lista de surtido"/>
+    <moqui.basic.LocalizedMessage original="Address Trust" locale="es" localized="Confianza de la dirección"/>
+    <moqui.basic.LocalizedMessage original="Address Validation Service" locale="es" localized="Servicio de validación de direcciones"/>
+    <moqui.basic.LocalizedMessage original="Aisle" locale="es" localized="Pasillo"/>
+    <moqui.basic.LocalizedMessage original="An Invoice will be generated for this Shipment when it is Packed and the Invoice Date will be set to the Packed Date." locale="es" localized="Se generará una factura para este envío cuando esté empacado y la fecha de la factura será la fecha de empaque."/>
+    <moqui.basic.LocalizedMessage original="Applied" locale="es" localized="Aplicado"/>
+    <moqui.basic.LocalizedMessage original="Appr Order Qty" locale="es" localized="Cant. de orden aprobada"/>
+    <moqui.basic.LocalizedMessage original="Are you sure you want to cancel this shipment?" locale="es" localized="¿Está seguro de que desea cancelar este envío?"/>
+    <moqui.basic.LocalizedMessage original="Are you sure? Only do this when necessary to avoid processing a return to receive the item back into inventory." locale="es" localized="¿Está seguro? Hacerlo solo cuando sea necesario para evitar procesar una devolución y recibir el artículo de nuevo en el inventario."/>
+    <moqui.basic.LocalizedMessage original="Arrival Date" locale="es" localized="Fecha de llegada"/>
+    <moqui.basic.LocalizedMessage original="Assembly Product" locale="es" localized="Producto de ensamblaje"/>
+    <moqui.basic.LocalizedMessage original="Assembly Task ${shipment.assemblyWorkEffortId}" locale="es" localized="Tarea de ensamblaje ${shipment.assemblyWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Asset ${existingRes.assetId}" locale="es" localized="Activo ${existingRes.assetId}"/>
+    <moqui.basic.LocalizedMessage original="Asset Allow Issue Over QOH" locale="es" localized="Permitir entregar activo sobre QOH"/>
+    <moqui.basic.LocalizedMessage original="Asset Allow Issue Over Qoh" locale="es" localized="Permitir entregar activo sobre Qoh"/>
+    <moqui.basic.LocalizedMessage original="Asset Allow Other Owner" locale="es" localized="Permitir otro propietario del activo"/>
+    <moqui.basic.LocalizedMessage original="Asset Inventory Loc Require" locale="es" localized="Exigir ubicación de inventario del activo"/>
+    <moqui.basic.LocalizedMessage original="Assets Link" locale="es" localized="Enlace de activos"/>
+    <moqui.basic.LocalizedMessage original="Attn Name" locale="es" localized="Nombre de atención"/>
+    <moqui.basic.LocalizedMessage original="Auto Package Info Service" locale="es" localized="Servicio de información de paquetes automáticos"/>
+    <moqui.basic.LocalizedMessage original="Auto Packages" locale="es" localized="Paquetes automáticos"/>
+    <moqui.basic.LocalizedMessage original="Auto Set" locale="es" localized="Establecer automáticamente"/>
+    <moqui.basic.LocalizedMessage original="Auto Status" locale="es" localized="Estado automático"/>
+    <moqui.basic.LocalizedMessage original="Auto set status from Shipment statuses?" locale="es" localized="¿Establecer el estado automáticamente a partir de los estados del envío?"/>
+    <moqui.basic.LocalizedMessage original="BOM Quantity" locale="es" localized="Cantidad de BOM"/>
+    <moqui.basic.LocalizedMessage original="Begin (In Progress)" locale="es" localized="Iniciar (en progreso)"/>
+    <moqui.basic.LocalizedMessage original="Bin Location Number" locale="es" localized="Número de ubicación de casillero"/>
+    <moqui.basic.LocalizedMessage original="Box" locale="es" localized="Caja"/>
+    <moqui.basic.LocalizedMessage original="Box Type" locale="es" localized="Tipo de caja"/>
+    <moqui.basic.LocalizedMessage original="Box Types" locale="es" localized="Tipos de caja"/>
+    <moqui.basic.LocalizedMessage original="Box Types PDF" locale="es" localized="PDF de tipos de caja"/>
+    <moqui.basic.LocalizedMessage original="Bulk Create Picklists" locale="es" localized="Crear listas de surtido en masa"/>
+    <moqui.basic.LocalizedMessage original="Bulk Shipping Rates Service" locale="es" localized="Servicio de tarifas de envío masivas"/>
+    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || facilityNote.userId}) at ${ec.l10n.format(facilityNote.noteDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Por ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || facilityNote.userId}) el ${ec.l10n.format(facilityNote.noteDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="Cancel Shipment" locale="es" localized="Cancelar envío"/>
+    <moqui.basic.LocalizedMessage original="Capacity" locale="es" localized="Capacidad"/>
+    <moqui.basic.LocalizedMessage original="Capacity UOM" locale="es" localized="UOM de capacidad"/>
+    <moqui.basic.LocalizedMessage original="Carrier Code" locale="es" localized="Código de transportista"/>
+    <moqui.basic.LocalizedMessage original="Carrier Ret Track" locale="es" localized="Seguim. de devolución"/>
+    <moqui.basic.LocalizedMessage original="Carrier Ship Methods" locale="es" localized="Métodos de envío del transportista"/>
+    <moqui.basic.LocalizedMessage original="Carrier Shipment Methods" locale="es" localized="Métodos de envío del transportista"/>
+    <moqui.basic.LocalizedMessage original="Carrier Track" locale="es" localized="Seguimiento del transportista"/>
+    <moqui.basic.LocalizedMessage original="Child Facilities" locale="es" localized="Instalaciones hijas"/>
+    <moqui.basic.LocalizedMessage original="Clear label data? This will allow getting a new label, and system keeps a history of label IDs, but otherwise current label will no longer be tracked. Use only when there are errors, etc with the label." locale="es" localized="¿Limpiar los datos de la etiqueta? Permite obtener una etiqueta nueva; el sistema guarda el historial de ID de etiquetas, pero la etiqueta actual dejará de seguirse. Usar solo si hay errores, etc. con la etiqueta."/>
+    <moqui.basic.LocalizedMessage original="Clear return label data? This will allow getting a new label, and system keeps a history of label IDs, but otherwise current label will no longer be tracked. Use only when there are errors, etc with the label." locale="es" localized="¿Limpiar los datos de la etiqueta de devolución? Permite obtener una etiqueta nueva; el sistema guarda el historial de ID de etiquetas, pero la etiqueta actual dejará de seguirse. Usar solo si hay errores, etc. con la etiqueta."/>
+    <moqui.basic.LocalizedMessage original="Close Pkg ${shipmentPackageSeqId}" locale="es" localized="Cerrar paquete ${shipmentPackageSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Com. Invoice" locale="es" localized="Fact. comercial"/>
+    <moqui.basic.LocalizedMessage original="Complete Pack" locale="es" localized="Completar empaque"/>
+    <moqui.basic.LocalizedMessage original="Component Product" locale="es" localized="Producto componente"/>
+    <moqui.basic.LocalizedMessage original="Cont. Asset" locale="es" localized="Activo de contenedor"/>
+    <moqui.basic.LocalizedMessage original="Create Picklists" locale="es" localized="Crear listas de surtido"/>
+    <moqui.basic.LocalizedMessage original="Days Since Last Track" locale="es" localized="Días desde el último seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Days Since Packed" locale="es" localized="Días desde el empaque"/>
+    <moqui.basic.LocalizedMessage original="Days To Ship" locale="es" localized="Días para enviar"/>
+    <moqui.basic.LocalizedMessage original="Default Days To Ship" locale="es" localized="Días predeterminados para enviar"/>
+    <moqui.basic.LocalizedMessage original="Default Days to Ship" locale="es" localized="Días predeterminados para enviar"/>
+    <moqui.basic.LocalizedMessage original="Defaults to 0 (ignored)" locale="es" localized="Predeterminado en 0 (se ignora)"/>
+    <moqui.basic.LocalizedMessage original="Defaults to 12, set to 0 to ignore" locale="es" localized="Predeterminado en 12; 0 para ignorar"/>
+    <moqui.basic.LocalizedMessage original="Defaults to 5, set to 0 to ignore" locale="es" localized="Predeterminado en 5; 0 para ignorar"/>
+    <moqui.basic.LocalizedMessage original="Defaults to Standard Cost or Price (Unit Amount) on related order item" locale="es" localized="Predeterminado al costo estándar o al precio (importe unitario) del artículo de orden relacionado"/>
+    <moqui.basic.LocalizedMessage original="Delete package ${shipmentPackage.shipmentPackageSeqId}?" locale="es" localized="¿Eliminar el paquete ${shipmentPackage.shipmentPackageSeqId}?"/>
+    <moqui.basic.LocalizedMessage original="Dest" locale="es" localized="Dest."/>
+    <moqui.basic.LocalizedMessage original="Dest Postal Contact Mech ID" locale="es" localized="ID de medio de contacto postal de destino"/>
+    <moqui.basic.LocalizedMessage original="Dest. Facility" locale="es" localized="Instalación dest."/>
+    <moqui.basic.LocalizedMessage original="Destination Address" locale="es" localized="Dirección de destino"/>
+    <moqui.basic.LocalizedMessage original="Destination Facility" locale="es" localized="Instalación de destino"/>
+    <moqui.basic.LocalizedMessage original="Destination Facility ID" locale="es" localized="ID de instalación de destino"/>
+    <moqui.basic.LocalizedMessage original="Dimension UOM" locale="es" localized="UOM de dimensión"/>
+    <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to create picklists for?" locale="es" localized="¿Las opciones de búsqueda actuales y las órdenes mostradas son las que desea para crear listas de surtido?"/>
+    <moqui.basic.LocalizedMessage original="Edit Equipment" locale="es" localized="Editar equipo"/>
+    <moqui.basic.LocalizedMessage original="Emails have been sent, these cannot be unsent" locale="es" localized="Los correos electrónicos ya se enviaron y no se puede deshacer el envío"/>
+    <moqui.basic.LocalizedMessage original="Est Arrival" locale="es" localized="Llegada est."/>
+    <moqui.basic.LocalizedMessage original="Est Ready" locale="es" localized="Listo est."/>
+    <moqui.basic.LocalizedMessage original="Est Ship" locale="es" localized="Envío est."/>
+    <moqui.basic.LocalizedMessage original="Est. Arrival" locale="es" localized="Llegada est."/>
+    <moqui.basic.LocalizedMessage original="Est. Cost" locale="es" localized="Costo est."/>
+    <moqui.basic.LocalizedMessage original="Est. Ready" locale="es" localized="Listo est."/>
+    <moqui.basic.LocalizedMessage original="Est. Start" locale="es" localized="Inicio est."/>
+    <moqui.basic.LocalizedMessage original="Estimated Arrival Date" locale="es" localized="Fecha estimada de llegada"/>
+    <moqui.basic.LocalizedMessage original="Estimated Ready Date" locale="es" localized="Fecha estimada de disponibilidad"/>
+    <moqui.basic.LocalizedMessage original="Exclude On Picklist" locale="es" localized="Excluir si está en lista de surtido"/>
+    <moqui.basic.LocalizedMessage original="Facility Name" locale="es" localized="Nombre de instalación"/>
+    <moqui.basic.LocalizedMessage original="Facility Size" locale="es" localized="Tamaño de instalación"/>
+    <moqui.basic.LocalizedMessage original="Filter Product ID" locale="es" localized="Filtrar ID de producto"/>
+    <moqui.basic.LocalizedMessage original="Find Shipments" locale="es" localized="Buscar envíos"/>
+    <moqui.basic.LocalizedMessage original="Force Close" locale="es" localized="Forzar cierre"/>
+    <moqui.basic.LocalizedMessage original="Force Complete" locale="es" localized="Forzar finalización"/>
+    <moqui.basic.LocalizedMessage original="From Party" locale="es" localized="Participante de origen"/>
+    <moqui.basic.LocalizedMessage original="Gateway Box ID" locale="es" localized="ID de caja de la puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="Gateway Code" locale="es" localized="Código de puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="Gateway Type" locale="es" localized="Tipo de puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="Get Label" locale="es" localized="Obtener etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Get Label Anyway" locale="es" localized="Obtener etiqueta de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Get Labels" locale="es" localized="Obtener etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Get Labels Anyway" locale="es" localized="Obtener etiquetas de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Get Return Label" locale="es" localized="Obtener etiqueta de devolución"/>
+    <moqui.basic.LocalizedMessage original="Get Return Labels" locale="es" localized="Obtener etiquetas de devolución"/>
+    <moqui.basic.LocalizedMessage original="Go" locale="es" localized="Ir"/>
+    <moqui.basic.LocalizedMessage original="Gross Weight" locale="es" localized="Peso bruto"/>
+    <moqui.basic.LocalizedMessage original="HH Warehouse" locale="es" localized="Almacén HH"/>
+    <moqui.basic.LocalizedMessage original="Height" locale="es" localized="Altura"/>
+    <moqui.basic.LocalizedMessage original="Hours Past ETA" locale="es" localized="Horas tras la ETA"/>
+    <moqui.basic.LocalizedMessage original="If Y a Location must be specified for all Inventory type Assets on receive and move" locale="es" localized="Si es Y, se debe indicar una ubicación para todos los activos de tipo inventario al recibir y al mover"/>
+    <moqui.basic.LocalizedMessage original="If Y do automatic physical inventory to get QOH back to zero after issuance, otherwise error on pack/issue if QOH not sufficient" locale="es" localized="Si es Y, inventario físico automático para devolver el QOH a cero tras la entrega; si no, error al empacar o entregar si el QOH no es suficiente"/>
+    <moqui.basic.LocalizedMessage original="If Y don't filter by asset owner when reserving inventory" locale="es" localized="Si es Y, no filtrar por el propietario del activo al reservar el inventario"/>
+    <moqui.basic.LocalizedMessage original="If specified Quantity Accepted will be set to 1 (one) unless Quantity Rejected is 1" locale="es" localized="Si se indica, la cantidad aceptada será 1 (uno), salvo que la cantidad rechazada sea 1"/>
+    <moqui.basic.LocalizedMessage original="Ins. Cost" locale="es" localized="Costo de seg."/>
+    <moqui.basic.LocalizedMessage original="Insert" locale="es" localized="Inserto"/>
+    <moqui.basic.LocalizedMessage original="Insured Amt" locale="es" localized="Importe asegurado"/>
+    <moqui.basic.LocalizedMessage original="Invoice Item" locale="es" localized="Artículo de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoices (found ${invoiceIdSet.length} associated with this shipment) will not be changed, must be cancelled manually" locale="es" localized="Las facturas (se encontraron ${invoiceIdSet.length} asociadas a este envío) no se modificarán; deben cancelarse manualmente"/>
+    <moqui.basic.LocalizedMessage original="Invoices associated with this shipment will be CANCELLED: ${invoiceIdSet.join(', ')}" locale="es" localized="Las facturas asociadas a este envío serán CANCELADAS: ${invoiceIdSet.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="Issue &amp; Pack" locale="es" localized="Entregar y empacar"/>
+    <moqui.basic.LocalizedMessage original="Issue &amp; Pack Component" locale="es" localized="Entregar y empacar componente"/>
+    <moqui.basic.LocalizedMessage original="Issued" locale="es" localized="Entregado"/>
+    <moqui.basic.LocalizedMessage original="Issued Date" locale="es" localized="Fecha de entrega"/>
+    <moqui.basic.LocalizedMessage original="Item &amp; Package Limit" locale="es" localized="Límite de artículos y paquetes"/>
+    <moqui.basic.LocalizedMessage original="Items have been packed/issued, these will be un-packed and returned to inventory" locale="es" localized="Hay artículos empacados o entregados; se desempacarán y volverán al inventario"/>
+    <moqui.basic.LocalizedMessage original="Items have been received, all receipt quantities will be set to zero" locale="es" localized="Hay artículos recibidos; todas las cantidades de recepción se pondrán en cero"/>
+    <moqui.basic.LocalizedMessage original="Label ID" locale="es" localized="ID de etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Labels will not be refunded automatically, refund manually if needed" locale="es" localized="Las etiquetas no se reembolsarán automáticamente; reembolsar manualmente si hace falta"/>
+    <moqui.basic.LocalizedMessage original="Last Track" locale="es" localized="Último seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Latitude / Longitude" locale="es" localized="Latitud / longitud"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to set to Area+Aisle+Section+Level+Position" locale="es" localized="Dejar vacío para usar Área+Pasillo+Sección+Nivel+Posición"/>
+    <moqui.basic.LocalizedMessage original="Level" locale="es" localized="Nivel"/>
+    <moqui.basic.LocalizedMessage original="Loc Type" locale="es" localized="Tipo de ubic."/>
+    <moqui.basic.LocalizedMessage original="Loc. Asset" locale="es" localized="Activo de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Local Print" locale="es" localized="Impresión local"/>
+    <moqui.basic.LocalizedMessage original="Location ID" locale="es" localized="ID de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Location Type" locale="es" localized="Tipo de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Location Types" locale="es" localized="Tipos de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Locations" locale="es" localized="Ubicaciones"/>
+    <moqui.basic.LocalizedMessage original="Make Default Printer" locale="es" localized="Establecer impresora predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Move Assets" locale="es" localized="Mover activos"/>
+    <moqui.basic.LocalizedMessage original="Move Dialog" locale="es" localized="Diálogo de movimiento"/>
+    <moqui.basic.LocalizedMessage original="Move Link" locale="es" localized="Enlace de movimiento"/>
+    <moqui.basic.LocalizedMessage original="Move Screen" locale="es" localized="Pantalla de movimiento"/>
+    <moqui.basic.LocalizedMessage original="Name Prefix" locale="es" localized="Prefijo del nombre"/>
+    <moqui.basic.LocalizedMessage original="Need Qty" locale="es" localized="Cant. necesaria"/>
+    <moqui.basic.LocalizedMessage original="Need Quantity" locale="es" localized="Cantidad necesaria"/>
+    <moqui.basic.LocalizedMessage original="New Package" locale="es" localized="Nuevo paquete"/>
+    <moqui.basic.LocalizedMessage original="No Loc Asset" locale="es" localized="Activo sin ubicación"/>
+    <moqui.basic.LocalizedMessage original="No items packed" locale="es" localized="Ningún artículo empacado"/>
+    <moqui.basic.LocalizedMessage original="No origin shipping address selected" locale="es" localized="No hay dirección de origen de envío seleccionada"/>
+    <moqui.basic.LocalizedMessage original="Not all items are packed, item quantities will be reduced to packed quantities." locale="es" localized="No todos los artículos están empacados; las cantidades se reducirán a las cantidades empacadas."/>
+    <moqui.basic.LocalizedMessage original="Not all items are received, item quantities will be reduced to received quantities." locale="es" localized="No todos los artículos están recibidos; las cantidades se reducirán a las cantidades recibidas."/>
+    <moqui.basic.LocalizedMessage original="Not all packages have Labels" locale="es" localized="No todos los paquetes tienen etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Not all packages have Tracking Codes" locale="es" localized="No todos los paquetes tienen códigos de seguimiento"/>
+</entity-facade-xml>

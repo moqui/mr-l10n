@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="On Hold - ${pstats.taskCountByStatusMap.WeOnHold||0}" locale="es" localized="En espera - ${pstats.taskCountByStatusMap.WeOnHold||0}"/>
+    <moqui.basic.LocalizedMessage original="On disk (for code: clone and push it with git)" locale="es" localized="En disco (para código: clonarlo y subirlo con git)"/>
+    <moqui.basic.LocalizedMessage original="Open Tasks" locale="es" localized="Tareas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open Time Entry Task: ${openTimeEntry.workEffortId}" locale="es" localized="Tarea del registro de tiempo abierto: ${openTimeEntry.workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Optional, defaults to now" locale="es" localized="Opcional, el valor predeterminado es ahora"/>
+    <moqui.basic.LocalizedMessage original="Options for ${field.title}" locale="es" localized="Opciones para ${field.title}"/>
+    <moqui.basic.LocalizedMessage original="Order ${item.orderId}" locale="es" localized="Orden ${item.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Org" locale="es" localized="Organización"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Refund Payments" locale="es" localized="Pagos de reembolso salientes"/>
+    <moqui.basic.LocalizedMessage original="P-CB Gap" locale="es" localized="Brecha avance-presupuesto"/>
+    <moqui.basic.LocalizedMessage original="P: ${taskPurposeEnum.description} - S: ${taskStatusItem.description} - P: ${taskWpawe.priority||''}" locale="es" localized="Propósito: ${taskPurposeEnum.description} - Estado: ${taskStatusItem.description} - Prioridad: ${taskWpawe.priority||''}"/>
+    <moqui.basic.LocalizedMessage original="Page History" locale="es" localized="Historial de la página"/>
+    <moqui.basic.LocalizedMessage original="Page Name" locale="es" localized="Nombre de la página"/>
+    <moqui.basic.LocalizedMessage original="Page Projects" locale="es" localized="Proyectos de la página"/>
+    <moqui.basic.LocalizedMessage original="Page Requests" locale="es" localized="Solicitudes de la página"/>
+    <moqui.basic.LocalizedMessage original="Page Tasks" locale="es" localized="Tareas de la página"/>
+    <moqui.basic.LocalizedMessage original="Page Tree" locale="es" localized="Árbol de páginas"/>
+    <moqui.basic.LocalizedMessage original="Parent ${parentId.substring(0, 10)}" locale="es" localized="Padre ${parentId.substring(0, 10)}"/>
+    <moqui.basic.LocalizedMessage original="Parent Comm Event ID" locale="es" localized="ID de evento de comunicación padre"/>
+    <moqui.basic.LocalizedMessage original="Parent Path" locale="es" localized="Ruta padre"/>
+    <moqui.basic.LocalizedMessage original="Parent Task" locale="es" localized="Tarea padre"/>
+    <moqui.basic.LocalizedMessage original="Parent Task:" locale="es" localized="Tarea padre:"/>
+    <moqui.basic.LocalizedMessage original="Parties" locale="es" localized="Participantes"/>
+    <moqui.basic.LocalizedMessage original="Party: ${ec.resource.expand('PartyNameTemplate','',party)}" locale="es" localized="Participante: ${ec.resource.expand('PartyNameTemplate','',party)}"/>
+    <moqui.basic.LocalizedMessage original="Payable Return Invoices" locale="es" localized="Facturas de devolución por pagar"/>
+    <moqui.basic.LocalizedMessage original="Payment ${paymentId}" locale="es" localized="Pago ${paymentId}"/>
+    <moqui.basic.LocalizedMessage original="Picklist" locale="es" localized="Lista de surtido"/>
+    <moqui.basic.LocalizedMessage original="Piece Count" locale="es" localized="Cantidad de piezas"/>
+    <moqui.basic.LocalizedMessage original="Please select a report" locale="es" localized="Seleccionar un reporte"/>
+    <moqui.basic.LocalizedMessage original="Position Class" locale="es" localized="Clase de puesto"/>
+    <moqui.basic.LocalizedMessage original="Posted Date" locale="es" localized="Fecha de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Pri" locale="es" localized="Prioridad"/>
+    <moqui.basic.LocalizedMessage original="Priority:" locale="es" localized="Prioridad:"/>
+    <moqui.basic.LocalizedMessage original="Product: ${ec.resource.expand('ProductNameTemplate','',product)}" locale="es" localized="Producto: ${ec.resource.expand('ProductNameTemplate','',product)}"/>
+    <moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="es" localized="Beneficio ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Progress" locale="es" localized="Avance"/>
+    <moqui.basic.LocalizedMessage original="Project ID" locale="es" localized="ID de proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Milestones" locale="es" localized="Hitos del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Name" locale="es" localized="Nombre del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Note" locale="es" localized="Nota del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Summary" locale="es" localized="Resumen del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project:" locale="es" localized="Proyecto:"/>
+    <moqui.basic.LocalizedMessage original="Projects" locale="es" localized="Proyectos"/>
+    <moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="es" localized="Costo del proveedor ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Public Attachment" locale="es" localized="Adjunto público"/>
+    <moqui.basic.LocalizedMessage original="Public Blog" locale="es" localized="Blog público"/>
+    <moqui.basic.LocalizedMessage original="Public Link" locale="es" localized="Enlace público"/>
+    <moqui.basic.LocalizedMessage original="Public Page" locale="es" localized="Página pública"/>
+    <moqui.basic.LocalizedMessage original="Publish New" locale="es" localized="Publicar nuevo"/>
+    <moqui.basic.LocalizedMessage original="Publish Version ${versionName.substring(0, 12)}" locale="es" localized="Publicar versión ${versionName.substring(0, 12)}"/>
+    <moqui.basic.LocalizedMessage original="Purchase Returns" locale="es" localized="Devoluciones de compra"/>
+    <moqui.basic.LocalizedMessage original="Purpose:" locale="es" localized="Propósito:"/>
+    <moqui.basic.LocalizedMessage original="Quantity" locale="es" localized="Cantidad"/>
+    <moqui.basic.LocalizedMessage original="Quick Search" locale="es" localized="Búsqueda rápida"/>
+    <moqui.basic.LocalizedMessage original="Rate Amount" locale="es" localized="Importe de tarifa"/>
+    <moqui.basic.LocalizedMessage original="Rate Amount ID" locale="es" localized="ID de importe de tarifa"/>
+    <moqui.basic.LocalizedMessage original="Rate Type" locale="es" localized="Tipo de tarifa"/>
+    <moqui.basic.LocalizedMessage original="Rates" locale="es" localized="Tarifas"/>
+    <moqui.basic.LocalizedMessage original="Really clone the project?" locale="es" localized="¿Clonar realmente el proyecto?"/>
+    <moqui.basic.LocalizedMessage original="Really remove?" locale="es" localized="¿Quitar realmente?"/>
+    <moqui.basic.LocalizedMessage original="Receivable Return Invoices" locale="es" localized="Facturas de devolución por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Reference" locale="es" localized="Referencia"/>
+    <moqui.basic.LocalizedMessage original="Related From ${workEffortId} - ${task.workEffortName}" locale="es" localized="Relacionado desde ${workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Related To ${workEffortId} - ${task.workEffortName}" locale="es" localized="Relacionado hacia ${workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Rem ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}" locale="es" localized="Restante ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Remaining (d)" locale="es" localized="Restante (d)"/>
+    <moqui.basic.LocalizedMessage original="Remaining (h)" locale="es" localized="Restante (h)"/>
+    <moqui.basic.LocalizedMessage original="Remaining Hours" locale="es" localized="Horas restantes"/>
+    <moqui.basic.LocalizedMessage original="Remaining Hours:" locale="es" localized="Horas restantes:"/>
+    <moqui.basic.LocalizedMessage original="Remove request association from task?" locale="es" localized="¿Quitar de la tarea la asociación con la solicitud?"/>
+    <moqui.basic.LocalizedMessage original="Remove task association from request?" locale="es" localized="¿Quitar de la solicitud la asociación con la tarea?"/>
+    <moqui.basic.LocalizedMessage original="Reply" locale="es" localized="Responder"/>
+    <moqui.basic.LocalizedMessage original="Report Builder" locale="es" localized="Generador de reportes"/>
+    <moqui.basic.LocalizedMessage original="Report Viewer" locale="es" localized="Visor de reportes"/>
+    <moqui.basic.LocalizedMessage original="Repositories" locale="es" localized="Repositorios"/>
+    <moqui.basic.LocalizedMessage original="Repository" locale="es" localized="Repositorio"/>
+    <moqui.basic.LocalizedMessage original="Request #${requestId}" locale="es" localized="Solicitud #${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Request Content ID" locale="es" localized="ID de contenido de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request Date" locale="es" localized="Fecha de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request ID" locale="es" localized="ID de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request Name" locale="es" localized="Nombre de la solicitud"/>
+    <moqui.basic.LocalizedMessage original="Requests" locale="es" localized="Solicitudes"/>
+    <moqui.basic.LocalizedMessage original="Required By" locale="es" localized="Requerido para"/>
+    <moqui.basic.LocalizedMessage original="Resolution" locale="es" localized="Resolución"/>
+    <moqui.basic.LocalizedMessage original="Resolution:" locale="es" localized="Resolución:"/>
+    <moqui.basic.LocalizedMessage original="Response Details" locale="es" localized="Detalles de la respuesta"/>
+    <moqui.basic.LocalizedMessage original="Response Stats" locale="es" localized="Estadísticas de respuestas"/>
+    <moqui.basic.LocalizedMessage original="Responses" locale="es" localized="Respuestas"/>
+    <moqui.basic.LocalizedMessage original="Results for ID '${lookupId}'" locale="es" localized="Resultados para el ID '${lookupId}'"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId}" locale="es" localized="Devolución ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Reverse Of" locale="es" localized="Reverso de"/>
+    <moqui.basic.LocalizedMessage original="Reversed By" locale="es" localized="Revertido por"/>
+    <moqui.basic.LocalizedMessage original="Roles" locale="es" localized="Roles"/>
+    <moqui.basic.LocalizedMessage original="Root Page Directory" locale="es" localized="Directorio de la página raíz"/>
+    <moqui.basic.LocalizedMessage original="Root Page Override" locale="es" localized="Reemplazo de la página raíz"/>
+    <moqui.basic.LocalizedMessage original="Root Work Effort ID" locale="es" localized="ID de actividad raíz"/>
+    <moqui.basic.LocalizedMessage original="Sales Returns &amp; RMA" locale="es" localized="Devoluciones de venta y RMA"/>
+    <moqui.basic.LocalizedMessage original="Search + Lookup by ID" locale="es" localized="Búsqueda y consulta por ID"/>
+    <moqui.basic.LocalizedMessage original="Search Results" locale="es" localized="Resultados de la búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Select a root page directory unless you know what you're doing and really need this, should end in filename with extension based on wiki type like .md" locale="es" localized="Seleccionar un directorio de página raíz salvo que sepa lo que hace y realmente lo necesite; debe terminar en un nombre de archivo con extensión según el tipo de wiki, como .md"/>
+    <moqui.basic.LocalizedMessage original="Selecting a Project will move tasks to that Project. If updating Project, Milestone, or Parent Task first select a Project in the Find Options and submit the form." locale="es" localized="Seleccionar un proyecto moverá las tareas a ese proyecto. Para actualizar el proyecto, el hito o la tarea padre, primero seleccionar un proyecto en las opciones de búsqueda y enviar el formulario."/>
+    <moqui.basic.LocalizedMessage original="Selecting a different Project will move tasks to that Project." locale="es" localized="Seleccionar un proyecto distinto moverá las tareas a ese proyecto."/>
+    <moqui.basic.LocalizedMessage original="Seq: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}" locale="es" localized="Secuencia: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}"/>
+    <moqui.basic.LocalizedMessage original="Set Assignee" locale="es" localized="Asignar responsable"/>
+    <moqui.basic.LocalizedMessage original="Shipment" locale="es" localized="Envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId}" locale="es" localized="Envío ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Shipping" locale="es" localized="Envío"/>
+    <moqui.basic.LocalizedMessage original="Shipping - Pick &amp; Pack" locale="es" localized="Envío - surtido y empaque"/>
+    <moqui.basic.LocalizedMessage original="Show Invoiced" locale="es" localized="Mostrar facturados"/>
+    <moqui.basic.LocalizedMessage original="Simple Screens" locale="es" localized="Pantallas simples"/>
+    <moqui.basic.LocalizedMessage original="Small Image" locale="es" localized="Imagen pequeña"/>
+    <moqui.basic.LocalizedMessage original="Space" locale="es" localized="Espacio"/>
+    <moqui.basic.LocalizedMessage original="Space ID" locale="es" localized="ID de espacio"/>
+    <moqui.basic.LocalizedMessage original="Status Flow" locale="es" localized="Flujo de estados"/>
+    <moqui.basic.LocalizedMessage original="Status:" locale="es" localized="Estado:"/>
+    <moqui.basic.LocalizedMessage original="Stores" locale="es" localized="Tiendas"/>
+    <moqui.basic.LocalizedMessage original="Summary for Milestone &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}" locale="es" localized="Resumen del hito &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Supplier Credit Memos" locale="es" localized="Notas de crédito del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Supplier Return Shipments" locale="es" localized="Envíos de devolución del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Suppliers" locale="es" localized="Proveedores"/>
+    <moqui.basic.LocalizedMessage original="Survey ID" locale="es" localized="ID de encuesta"/>
+    <moqui.basic.LocalizedMessage original="Survey Response ID" locale="es" localized="ID de respuesta de encuesta"/>
+    <moqui.basic.LocalizedMessage original="Surveys" locale="es" localized="Encuestas"/>
+    <moqui.basic.LocalizedMessage original="T: ${requestTypeEnum.description} - S: ${requestStatusItem.description} - P: ${wpar.priority||''}" locale="es" localized="Tipo: ${requestTypeEnum.description} - Estado: ${requestStatusItem.description} - Prioridad: ${wpar.priority||''}"/>
+    <moqui.basic.LocalizedMessage original="TX Date" locale="es" localized="Fecha de transacción"/>
+    <moqui.basic.LocalizedMessage original="TX Type" locale="es" localized="Tipo de transacción"/>
+    <moqui.basic.LocalizedMessage original="Tags" locale="es" localized="Etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Task ${task.workEffortId} - ${task.workEffortName}" locale="es" localized="Tarea ${task.workEffortId} - ${task.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Task ${workEffortId}" locale="es" localized="Tarea ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Task ID" locale="es" localized="ID de tarea"/>
+    <moqui.basic.LocalizedMessage original="Task Name" locale="es" localized="Nombre de la tarea"/>
+    <moqui.basic.LocalizedMessage original="Task Summary" locale="es" localized="Resumen de la tarea"/>
+    <moqui.basic.LocalizedMessage original="Tasks by Top Level" locale="es" localized="Tareas por nivel superior"/>
+    <moqui.basic.LocalizedMessage original="Team" locale="es" localized="Equipo"/>
+    <moqui.basic.LocalizedMessage original="Text Search" locale="es" localized="Búsqueda de texto"/>
+    <moqui.basic.LocalizedMessage original="This ${assocType.description}" locale="es" localized="Este ${assocType.description}"/>
+    <moqui.basic.LocalizedMessage original="This will create a Blog Post and a Wiki Page using the title for the Page Name" locale="es" localized="Esto creará una entrada de blog y una página Wiki usando el título como nombre de la página"/>
+    <moqui.basic.LocalizedMessage original="Time Entries" locale="es" localized="Registros de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Time Entry ID" locale="es" localized="ID de registro de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Time Period Uom ID" locale="es" localized="ID de UOM del periodo de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Time Range" locale="es" localized="Rango de tiempo"/>
+    <moqui.basic.LocalizedMessage original="To ID" locale="es" localized="ID de destino"/>
+    <moqui.basic.LocalizedMessage original="To Name" locale="es" localized="Nombre de destino"/>
+    <moqui.basic.LocalizedMessage original="To Task" locale="es" localized="Tarea de destino"/>
+    <moqui.basic.LocalizedMessage original="To Work Effort ID" locale="es" localized="ID de actividad de destino"/>
+    <moqui.basic.LocalizedMessage original="To clock out now leave Hours and Thru empty; specify Hours or Thru if your clock out time is in the past" locale="es" localized="Para registrar la salida ahora, dejar Horas y Hasta vacíos; indicar Horas o Hasta si la hora de salida está en el pasado"/>
+    <moqui.basic.LocalizedMessage original="Total Survey Response:" locale="es" localized="Total de respuestas de la encuesta:"/>
+    <moqui.basic.LocalizedMessage original="Total Time Allowed" locale="es" localized="Tiempo total permitido"/>
+    <moqui.basic.LocalizedMessage original="Un-Assign Selected Tasks" locale="es" localized="Desasignar las tareas seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Un-Assign Selected Tasks from Party" locale="es" localized="Desasignar las tareas seleccionadas del participante"/>
+    <moqui.basic.LocalizedMessage original="Unlink this repository from the project?" locale="es" localized="¿Desvincular este repositorio del proyecto?"/>
+    <moqui.basic.LocalizedMessage original="Update Page" locale="es" localized="Actualizar página"/>
+    <moqui.basic.LocalizedMessage original="Update Rates" locale="es" localized="Actualizar tarifas"/>
+    <moqui.basic.LocalizedMessage original="Update Selected Tasks" locale="es" localized="Actualizar las tareas seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Usernames" locale="es" localized="Nombres de usuario"/>
+    <moqui.basic.LocalizedMessage original="V: ${vendorInvoiceId}" locale="es" localized="Vendedor: ${vendorInvoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Vendor" locale="es" localized="Vendedor"/>
+    <moqui.basic.LocalizedMessage original="Vendor Hour Rate" locale="es" localized="Tarifa por hora del vendedor"/>
+    <moqui.basic.LocalizedMessage original="Vendor Invoice" locale="es" localized="Factura del vendedor"/>
+    <moqui.basic.LocalizedMessage original="Vendors" locale="es" localized="Vendedores"/>
+    <moqui.basic.LocalizedMessage original="Version ${wph.versionName.substring(0, 12)}" locale="es" localized="Versión ${wph.versionName.substring(0, 12)}"/>
+    <moqui.basic.LocalizedMessage original="View Pages" locale="es" localized="Ver páginas"/>
+    <moqui.basic.LocalizedMessage original="View Space" locale="es" localized="Ver espacio"/>
+    <moqui.basic.LocalizedMessage original="View/Edit Wiki Page" locale="es" localized="Ver/editar página Wiki"/>
+    <moqui.basic.LocalizedMessage original="View/Print" locale="es" localized="Ver/imprimir"/>
+    <moqui.basic.LocalizedMessage original="Viewing Project: ${rootWorkEffortId}" locale="es" localized="Viendo el proyecto: ${rootWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Visibility" locale="es" localized="Visibilidad"/>
+    <moqui.basic.LocalizedMessage original="Wiki" locale="es" localized="Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Blog Posts" locale="es" localized="Entradas de blog de Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Page" locale="es" localized="Página Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Pages" locale="es" localized="Páginas Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Space" locale="es" localized="Espacio Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Spaces" locale="es" localized="Espacios Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki Type" locale="es" localized="Tipo de Wiki"/>
+    <moqui.basic.LocalizedMessage original="Wiki/Content" locale="es" localized="Wiki/contenido"/>
+    <moqui.basic.LocalizedMessage original="Work Effort ${ec.resource.expand('WorkEffortNameTemplate','',workEffort)}" locale="es" localized="Actividad ${ec.resource.expand('WorkEffortNameTemplate','',workEffort)}"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Content ID" locale="es" localized="ID de contenido de actividad"/>
+    <moqui.basic.LocalizedMessage original="Worked ${ec.l10n.format(project.actualWorkTime, '#.#')} hrs" locale="es" localized="Trabajado ${ec.l10n.format(project.actualWorkTime, '#.#')} horas"/>
+    <moqui.basic.LocalizedMessage original="You are not in a group allowed to see Report ${dataDocumentId}" locale="es" localized="No está en un grupo autorizado para ver el reporte ${dataDocumentId}"/>
+    <moqui.basic.LocalizedMessage original="at ${ec.l10n.format(childCe.entryDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="El ${ec.l10n.format(childCe.entryDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="at ${ec.l10n.format(commEventDetail.entryDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="El ${ec.l10n.format(commEventDetail.entryDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="by ${ec.resource.expand('UsernameTemplate','',userAccount)}" locale="es" localized="Por ${ec.resource.expand('UsernameTemplate','',userAccount)}"/>
+    <moqui.basic.LocalizedMessage original="diff cur" locale="es" localized="Comparar con actual"/>
+    <moqui.basic.LocalizedMessage original="diff prev" locale="es" localized="Comparar con anterior"/>
+    <moqui.basic.LocalizedMessage original="for Asset, Facility, Invoice, Order, Return, Party, Badge, Payment, Product, Shipment, Work Effort (Project, Task, Picklist, Production Run), GL Transaction" locale="es" localized="Para activo, instalación, factura, orden, devolución, participante, credencial, pago, producto, envío, actividad (proyecto, tarea, lista de surtido, ejecución de producción), transacción GL"/>
+    <moqui.basic.LocalizedMessage original="from ${fromPerson ? fromPerson.firstName + ' ' + fromPerson?.lastName : 'Unknown'}" locale="es" localized="De ${fromPerson ? fromPerson.firstName + ' ' + fromPerson?.lastName : 'Unknown'}"/>
+    <moqui.basic.LocalizedMessage original="in ${gitRef.repositoryId}" locale="es" localized="En ${gitRef.repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="letters, digits, [.,'-_:()!? ] only" locale="es" localized="Letras, dígitos y [.,'-_:()!? ] solamente"/>
+    <moqui.basic.LocalizedMessage original="letters, digits, [.,-_:()!? ] only" locale="es" localized="Letras, dígitos y [.,-_:()!? ] solamente"/>
+    <moqui.basic.LocalizedMessage original="published" locale="es" localized="Publicado"/>
+    <moqui.basic.LocalizedMessage original="runtime/WikiSpace" locale="es" localized="runtime/WikiSpace"/>
+    <moqui.basic.LocalizedMessage original="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? 'h' : 'OPEN'} at ${ec.l10n.format(timeEntry.fromDate, '')} by ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}" locale="es" localized="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? 'h' : 'OPEN'} el ${ec.l10n.format(timeEntry.fromDate, '')} por ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}"/>
+</entity-facade-xml>

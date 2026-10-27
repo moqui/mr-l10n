@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="01 Damaged in Shipping" locale="es" localized="01 Dañado en el envío"/>
+    <moqui.basic.LocalizedMessage original="02 Defective" locale="es" localized="02 Defectuoso"/>
+    <moqui.basic.LocalizedMessage original="03 Wrong Item Shipped" locale="es" localized="03 Artículo incorrecto enviado"/>
+    <moqui.basic.LocalizedMessage original="04 Not as Expected" locale="es" localized="04 Distinto de lo esperado"/>
+    <moqui.basic.LocalizedMessage original="05 Did not Fit/Wrong Size" locale="es" localized="05 No le quedó / talla incorrecta"/>
+    <moqui.basic.LocalizedMessage original="06 Duplicate Shipment" locale="es" localized="06 Envío duplicado"/>
+    <moqui.basic.LocalizedMessage original="07 Gift, Not Wanted" locale="es" localized="07 Regalo, no deseado"/>
+    <moqui.basic.LocalizedMessage original="08 Arrived Too Late" locale="es" localized="08 Llegó demasiado tarde"/>
+    <moqui.basic.LocalizedMessage original="09 Did not Want/Like" locale="es" localized="09 No lo quería / no le gustó"/>
+    <moqui.basic.LocalizedMessage original="10 Found Better Price" locale="es" localized="10 Encontró un mejor precio"/>
+    <moqui.basic.LocalizedMessage original="11 Poor Customer Service" locale="es" localized="11 Mal servicio al cliente"/>
+    <moqui.basic.LocalizedMessage original="12 Unlike Photo/Description" locale="es" localized="12 Distinto de la foto o la descripción"/>
+    <moqui.basic.LocalizedMessage original="13 COD Payment Rejected" locale="es" localized="13 Pago contra entrega rechazado"/>
+    <moqui.basic.LocalizedMessage original="ACH Change Code" locale="es" localized="Código de cambio ACH"/>
+    <moqui.basic.LocalizedMessage original="ACH Return Code" locale="es" localized="Código de devolución ACH"/>
+    <moqui.basic.LocalizedMessage original="API Token" locale="es" localized="Token de API"/>
+    <moqui.basic.LocalizedMessage original="Accept" locale="es" localized="Aceptar"/>
+    <moqui.basic.LocalizedMessage original="Accepted" locale="es" localized="Aceptado"/>
+    <moqui.basic.LocalizedMessage original="Account Closed" locale="es" localized="Cuenta cerrada"/>
+    <moqui.basic.LocalizedMessage original="Account Frozen" locale="es" localized="Cuenta congelada"/>
+    <moqui.basic.LocalizedMessage original="Account Sold to Another DFI" locale="es" localized="Cuenta vendida a otro DFI"/>
+    <moqui.basic.LocalizedMessage original="Addenda Error" locale="es" localized="Error de addenda"/>
+    <moqui.basic.LocalizedMessage original="Addenda Format Error" locale="es" localized="Error de formato de addenda"/>
+    <moqui.basic.LocalizedMessage original="Affiliate" locale="es" localized="Afiliado"/>
+    <moqui.basic.LocalizedMessage original="Amazon" locale="es" localized="Amazon"/>
+    <moqui.basic.LocalizedMessage original="Amount Field Error" locale="es" localized="Error en el campo de importe"/>
+    <moqui.basic.LocalizedMessage original="Approve (un-complete)" locale="es" localized="Aprobar (anular finalización)"/>
+    <moqui.basic.LocalizedMessage original="Approve (un-send)" locale="es" localized="Aprobar (anular envío)"/>
+    <moqui.basic.LocalizedMessage original="Assigned" locale="es" localized="Asignado"/>
+    <moqui.basic.LocalizedMessage original="Authorization Revoked by Customer" locale="es" localized="Autorización revocada por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Auto Reorder" locale="es" localized="Reorden automático"/>
+    <moqui.basic.LocalizedMessage original="Begin Changes" locale="es" localized="Iniciar cambios"/>
+    <moqui.basic.LocalizedMessage original="Being Changed" locale="es" localized="En modificación"/>
+    <moqui.basic.LocalizedMessage original="Beneficiary or Account Holder Deceased" locale="es" localized="Beneficiario o titular de la cuenta fallecido"/>
+    <moqui.basic.LocalizedMessage original="Campaign" locale="es" localized="Campaña"/>
+    <moqui.basic.LocalizedMessage original="Can't Reproduce" locale="es" localized="No se puede reproducir"/>
+    <moqui.basic.LocalizedMessage original="Cancel Quote" locale="es" localized="Cancelar cotización"/>
+    <moqui.basic.LocalizedMessage original="Cancelled by Customer" locale="es" localized="Cancelado por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Check Truncation Entry Return" locale="es" localized="Devolución de entrada de truncamiento de cheque"/>
+    <moqui.basic.LocalizedMessage original="Cold Call" locale="es" localized="Llamada en frío"/>
+    <moqui.basic.LocalizedMessage original="Conference" locale="es" localized="Conferencia"/>
+    <moqui.basic.LocalizedMessage original="Contact Us" locale="es" localized="Contáctenos"/>
+    <moqui.basic.LocalizedMessage original="Converted" locale="es" localized="Convertido"/>
+    <moqui.basic.LocalizedMessage original="Corporate Customer Advises Not Authorized" locale="es" localized="El cliente corporativo indica que no está autorizado"/>
+    <moqui.basic.LocalizedMessage original="Corrected Return" locale="es" localized="Devolución corregida"/>
+    <moqui.basic.LocalizedMessage original="Credit" locale="es" localized="Crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Entry Refused by Receiver" locale="es" localized="Entrada de crédito rechazada por el receptor"/>
+    <moqui.basic.LocalizedMessage original="Customer Advises Not Authorized, Improper, or Ineligible" locale="es" localized="El cliente indica que no está autorizado, es improcedente o no es elegible"/>
+    <moqui.basic.LocalizedMessage original="Customer Pick Up" locale="es" localized="Recolección por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Request" locale="es" localized="Solicitud del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customs Contents Type" locale="es" localized="Tipo de contenido aduanero"/>
+    <moqui.basic.LocalizedMessage original="Customs Non Delivery" locale="es" localized="No entrega aduanera"/>
+    <moqui.basic.LocalizedMessage original="DFI Account Number Not From Original Entry Detail Record" locale="es" localized="Número de cuenta DFI distinto del registro de detalle de la entrada original"/>
+    <moqui.basic.LocalizedMessage original="Deliver" locale="es" localized="Entregar"/>
+    <moqui.basic.LocalizedMessage original="Delivered" locale="es" localized="Entregado"/>
+    <moqui.basic.LocalizedMessage original="Delivers" locale="es" localized="Entregar"/>
+    <moqui.basic.LocalizedMessage original="Deploys" locale="es" localized="Desplegar"/>
+    <moqui.basic.LocalizedMessage original="Direct Mail" locale="es" localized="Correo directo"/>
+    <moqui.basic.LocalizedMessage original="Documents" locale="es" localized="Documentos"/>
+    <moqui.basic.LocalizedMessage original="Drop Shipment" locale="es" localized="Envío directo"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Enrollment" locale="es" localized="Inscripción duplicada"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Entry" locale="es" localized="Entrada duplicada"/>
+    <moqui.basic.LocalizedMessage original="Duplicate Return" locale="es" localized="Devolución duplicada"/>
+    <moqui.basic.LocalizedMessage original="E-Mail" locale="es" localized="Correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Employee" locale="es" localized="Empleado"/>
+    <moqui.basic.LocalizedMessage original="Entry Not Processed by Gateway" locale="es" localized="Entrada no procesada por la puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="Existing Customer" locale="es" localized="Cliente existente"/>
+    <moqui.basic.LocalizedMessage original="Failure" locale="es" localized="Fallo"/>
+    <moqui.basic.LocalizedMessage original="Fax" locale="es" localized="Fax"/>
+    <moqui.basic.LocalizedMessage original="Field Error(s)" locale="es" localized="Error(es) de campo"/>
+    <moqui.basic.LocalizedMessage original="File Record Edit Criteria" locale="es" localized="Criterios de edición del registro de archivo"/>
+    <moqui.basic.LocalizedMessage original="Fixed" locale="es" localized="Corregido"/>
+    <moqui.basic.LocalizedMessage original="Fixes" locale="es" localized="Corregir"/>
+    <moqui.basic.LocalizedMessage original="Foreign Receiving DFI Unable to Settle" locale="es" localized="DFI receptor extranjero no puede liquidar"/>
+    <moqui.basic.LocalizedMessage original="Fraud" locale="es" localized="Fraude"/>
+    <moqui.basic.LocalizedMessage original="Gift" locale="es" localized="Regalo"/>
+    <moqui.basic.LocalizedMessage original="Gift Registry" locale="es" localized="Registro de regalos"/>
+    <moqui.basic.LocalizedMessage original="Ground Commercial" locale="es" localized="Terrestre comercial"/>
+    <moqui.basic.LocalizedMessage original="Ground Parcel" locale="es" localized="Paquete terrestre"/>
+    <moqui.basic.LocalizedMessage original="Held" locale="es" localized="Retenido"/>
+    <moqui.basic.LocalizedMessage original="Humanitarian Donation" locale="es" localized="Donación humanitaria"/>
+    <moqui.basic.LocalizedMessage original="IAT Entry Coding Error" locale="es" localized="Error de codificación de entrada IAT"/>
+    <moqui.basic.LocalizedMessage original="Implements" locale="es" localized="Implementar"/>
+    <moqui.basic.LocalizedMessage original="Improper Effective Entry Date" locale="es" localized="Fecha efectiva de entrada improcedente"/>
+    <moqui.basic.LocalizedMessage original="Improper Source Document/Source Document Presented for Payment" locale="es" localized="Documento fuente improcedente / documento fuente presentado para pago"/>
+    <moqui.basic.LocalizedMessage original="In Transit" locale="es" localized="En tránsito"/>
+    <moqui.basic.LocalizedMessage original="Incoming" locale="es" localized="Entrante"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Company Identification Number" locale="es" localized="Número de identificación de empresa incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect DFI Account Number" locale="es" localized="Número de cuenta DFI incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect DFI Account Number and Incorrect Transaction Code" locale="es" localized="Número de cuenta DFI incorrecto y código de transacción incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Discretionary Data" locale="es" localized="Datos discrecionales incorrectos"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Identification Number" locale="es" localized="Número de identificación individual incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Identification Number/Identification Number" locale="es" localized="Número de identificación individual / número de identificación incorrectos"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Individual Name/Receiving Company Name" locale="es" localized="Nombre individual / nombre de empresa receptora incorrectos"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Receiving DFI Identification" locale="es" localized="Identificación del DFI receptor incorrecta"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number" locale="es" localized="Número de ruta incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number and Incorrect DFI Account Number" locale="es" localized="Número de ruta incorrecto y número de cuenta DFI incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Routing Number, Incorrect DFI Account Number, and Incorrect Transaction Code" locale="es" localized="Número de ruta incorrecto, número de cuenta DFI incorrecto y código de transacción incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect SEC Code for Outbound International Payment" locale="es" localized="Código SEC incorrecto para pago internacional saliente"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Trace Number" locale="es" localized="Número de rastreo incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrect Transaction Code" locale="es" localized="Código de transacción incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Incorrectly Coded Outbound International Payment" locale="es" localized="Pago internacional saliente codificado incorrectamente"/>
+    <moqui.basic.LocalizedMessage original="Incorrectly Formatted Corrected Data" locale="es" localized="Datos corregidos con formato incorrecto"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Funds" locale="es" localized="Fondos insuficientes"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Inventory" locale="es" localized="Inventario insuficiente"/>
+    <moqui.basic.LocalizedMessage original="Invalid ACH Routing Number" locale="es" localized="Número de ruta ACH no válido"/>
+    <moqui.basic.LocalizedMessage original="Invalid Account Number Structure" locale="es" localized="Estructura del número de cuenta no válida"/>
+    <moqui.basic.LocalizedMessage original="Invalid Company Identification" locale="es" localized="Identificación de empresa no válida"/>
+    <moqui.basic.LocalizedMessage original="Invalid DFI Account Number" locale="es" localized="Número de cuenta DFI no válido"/>
+    <moqui.basic.LocalizedMessage original="Invalid Foreign Receiving DFI Identification" locale="es" localized="Identificación del DFI receptor extranjero no válida"/>
+    <moqui.basic.LocalizedMessage original="Invalid Individual ID Number" locale="es" localized="Número de ID individual no válido"/>
+    <moqui.basic.LocalizedMessage original="Invalid Individual Name/Company Name" locale="es" localized="Nombre individual / nombre de empresa no válidos"/>
+    <moqui.basic.LocalizedMessage original="Invalid Representative Payee Indicator" locale="es" localized="Indicador de beneficiario representante no válido"/>
+    <moqui.basic.LocalizedMessage original="Invalid Transaction Code" locale="es" localized="Código de transacción no válido"/>
+    <moqui.basic.LocalizedMessage original="Item and RCK Entry Presented for Payment" locale="es" localized="Partida y entrada RCK presentadas para pago"/>
+    <moqui.basic.LocalizedMessage original="Item related to RCK Entry is Ineligible or RCK Entry is Improper" locale="es" localized="La partida relacionada con la entrada RCK no es elegible o la entrada RCK es improcedente"/>
+    <moqui.basic.LocalizedMessage original="Label Type" locale="es" localized="Tipo de etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Lead Source" locale="es" localized="Origen del prospecto"/>
+    <moqui.basic.LocalizedMessage original="Lead Status" locale="es" localized="Estado del prospecto"/>
+    <moqui.basic.LocalizedMessage original="Limited Participation DFI" locale="es" localized="DFI de participación limitada"/>
+    <moqui.basic.LocalizedMessage original="Local Shipping Gateway" locale="es" localized="Puerta de enlace de envío local"/>
+    <moqui.basic.LocalizedMessage original="Make Open/Tentative" locale="es" localized="Dejar abierto/tentativo"/>
+    <moqui.basic.LocalizedMessage original="Mandatory Field Error" locale="es" localized="Error en campo obligatorio"/>
+    <moqui.basic.LocalizedMessage original="Manual" locale="es" localized="Manual"/>
+    <moqui.basic.LocalizedMessage original="Manual Response" locale="es" localized="Responder manualmente"/>
+    <moqui.basic.LocalizedMessage original="Manual Response Required" locale="es" localized="Respuesta manual requerida"/>
+    <moqui.basic.LocalizedMessage original="Manually Cancelled" locale="es" localized="Cancelado manualmente"/>
+    <moqui.basic.LocalizedMessage original="Merchandise" locale="es" localized="Mercancía"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Dishonored Return" locale="es" localized="Devolución deshonrada mal enrutada"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Notification of Change" locale="es" localized="Notificación de cambio mal enrutada"/>
+    <moqui.basic.LocalizedMessage original="Misrouted Return" locale="es" localized="Devolución mal enrutada"/>
+    <moqui.basic.LocalizedMessage original="Motor (Common Carrier)" locale="es" localized="Camión (transportista común)"/>
+    <moqui.basic.LocalizedMessage original="Next Day Priority" locale="es" localized="Día siguiente prioritario"/>
+    <moqui.basic.LocalizedMessage original="Next Day Standard" locale="es" localized="Día siguiente estándar"/>
+    <moqui.basic.LocalizedMessage original="No Account/Unable to Locate Accountt" locale="es" localized="Sin cuenta / no se puede localizar la cuenta"/>
+    <moqui.basic.LocalizedMessage original="No Errors Found" locale="es" localized="No se encontraron errores"/>
+    <moqui.basic.LocalizedMessage original="Non-Participant in IAT Program" locale="es" localized="No participante en el programa IAT"/>
+    <moqui.basic.LocalizedMessage original="Non-Transaction Account" locale="es" localized="Cuenta no transaccional"/>
+    <moqui.basic.LocalizedMessage original="Open (Tentative)" locale="es" localized="Abierto (tentativo)"/>
+    <moqui.basic.LocalizedMessage original="Order" locale="es" localized="Orden"/>
+    <moqui.basic.LocalizedMessage original="Order Approved Reasons" locale="es" localized="Motivos de orden aprobada"/>
+    <moqui.basic.LocalizedMessage original="Order Content Type" locale="es" localized="Tipo de contenido de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Decision Reason" locale="es" localized="Motivo de decisión de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Header Status" locale="es" localized="Estado del encabezado de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Item Quantity Change Reason" locale="es" localized="Motivo de cambio de cantidad del elemento de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Processing Status" locale="es" localized="Estado de procesamiento de orden"/>
+    <moqui.basic.LocalizedMessage original="Order Rejected Reasons" locale="es" localized="Motivos de orden rechazada"/>
+    <moqui.basic.LocalizedMessage original="Ordered" locale="es" localized="Ordenado"/>
+    <moqui.basic.LocalizedMessage original="Outgoing" locale="es" localized="Saliente"/>
+    <moqui.basic.LocalizedMessage original="Pack" locale="es" localized="Empacar"/>
+    <moqui.basic.LocalizedMessage original="Packed" locale="es" localized="Empacado"/>
+    <moqui.basic.LocalizedMessage original="Partner" locale="es" localized="Socio"/>
+    <moqui.basic.LocalizedMessage original="Payment Not Received" locale="es" localized="Pago no recibido"/>
+    <moqui.basic.LocalizedMessage original="Payment Stopped" locale="es" localized="Pago detenido"/>
+    <moqui.basic.LocalizedMessage original="Permissible Return Entry" locale="es" localized="Entrada de devolución permitida"/>
+    <moqui.basic.LocalizedMessage original="Permissible Return Entry Not Accepted/Return Not Requested by ODFI" locale="es" localized="Entrada de devolución permitida no aceptada / devolución no solicitada por el ODFI"/>
+    <moqui.basic.LocalizedMessage original="Picked" locale="es" localized="Surtido"/>
+    <moqui.basic.LocalizedMessage original="Place" locale="es" localized="Realizar"/>
+    <moqui.basic.LocalizedMessage original="Place (un-approve)" locale="es" localized="Realizar (desaprobar)"/>
+    <moqui.basic.LocalizedMessage original="Place from Quote" locale="es" localized="Realizar desde cotización"/>
+    <moqui.basic.LocalizedMessage original="Placed by Customer" locale="es" localized="Realizado por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Postal Mail" locale="es" localized="Correo postal"/>
+    <moqui.basic.LocalizedMessage original="Process (un-approve)" locale="es" localized="Procesar (desaprobar)"/>
+    <moqui.basic.LocalizedMessage original="Process (un-send, un-approve)" locale="es" localized="Procesar (anular envío, desaprobar)"/>
+    <moqui.basic.LocalizedMessage original="Programming" locale="es" localized="Programación"/>
+    <moqui.basic.LocalizedMessage original="Propose Quote" locale="es" localized="Proponer cotización"/>
+    <moqui.basic.LocalizedMessage original="Public Relations" locale="es" localized="Relaciones públicas"/>
+    <moqui.basic.LocalizedMessage original="Purchase" locale="es" localized="Compra"/>
+    <moqui.basic.LocalizedMessage original="Purchase Return" locale="es" localized="Devolución de compra"/>
+    <moqui.basic.LocalizedMessage original="Purchase Shipment" locale="es" localized="Envío de compra"/>
+    <moqui.basic.LocalizedMessage original="Qualified" locale="es" localized="Calificado"/>
+    <moqui.basic.LocalizedMessage original="Quote" locale="es" localized="Cotización"/>
+    <moqui.basic.LocalizedMessage original="Quote Proposed by Vendor" locale="es" localized="Cotización propuesta por el vendedor"/>
+    <moqui.basic.LocalizedMessage original="Quote Requested by Customer" locale="es" localized="Cotización solicitada por el cliente"/>
+    <moqui.basic.LocalizedMessage original="RDFI Non-Settlement" locale="es" localized="Sin liquidación del RDFI"/>
+    <moqui.basic.LocalizedMessage original="RDFI Not Participant in Check Truncation Program" locale="es" localized="RDFI no participante en el programa de truncamiento de cheques"/>
+    <moqui.basic.LocalizedMessage original="Refund" locale="es" localized="Reembolso"/>
+    <moqui.basic.LocalizedMessage original="Reject Request" locale="es" localized="Rechazar solicitud"/>
+    <moqui.basic.LocalizedMessage original="Rejected by Vendor" locale="es" localized="Rechazado por el vendedor"/>
+    <moqui.basic.LocalizedMessage original="Replace" locale="es" localized="Reemplazo"/>
+    <moqui.basic.LocalizedMessage original="Representative Payee Deceased or Unable to Continue in That Capacity" locale="es" localized="Beneficiario representante fallecido o incapaz de continuar en esa calidad"/>
+    <moqui.basic.LocalizedMessage original="Request Content Type" locale="es" localized="Tipo de contenido de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request Quote" locale="es" localized="Solicitar cotización"/>
+    <moqui.basic.LocalizedMessage original="Request Resolution" locale="es" localized="Resolución de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request Status" locale="es" localized="Estado de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Request Type" locale="es" localized="Tipo de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Requirement Status" locale="es" localized="Estado de requisito"/>
+    <moqui.basic.LocalizedMessage original="Requirement Type" locale="es" localized="Tipo de requisito"/>
+    <moqui.basic.LocalizedMessage original="Return Header and Item Status" locale="es" localized="Estado del encabezado y del elemento de la devolución"/>
+    <moqui.basic.LocalizedMessage original="Return Merchandise" locale="es" localized="Mercancía de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return Not a Duplicate" locale="es" localized="Devolución que no es un duplicado"/>
+    <moqui.basic.LocalizedMessage original="Return Reason" locale="es" localized="Motivo de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return Response" locale="es" localized="Respuesta de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return of ENR Entry by Federal Government Agency" locale="es" localized="Devolución de entrada ENR por agencia del gobierno federal"/>
+    <moqui.basic.LocalizedMessage original="Return of Improper Credit Entry" locale="es" localized="Devolución de entrada de crédito improcedente"/>
+    <moqui.basic.LocalizedMessage original="Return of Improper Debit Entry" locale="es" localized="Devolución de entrada de débito improcedente"/>
+    <moqui.basic.LocalizedMessage original="Return of XCK Entry" locale="es" localized="Devolución de entrada XCK"/>
+    <moqui.basic.LocalizedMessage original="Return per ODFI's Request" locale="es" localized="Devolución por solicitud del ODFI"/>
+    <moqui.basic.LocalizedMessage original="Returned" locale="es" localized="Devuelto"/>
+    <moqui.basic.LocalizedMessage original="Routing Number Check Digit Error" locale="es" localized="Error de dígito de verificación del número de ruta"/>
+    <moqui.basic.LocalizedMessage original="Routing Number Not From Original Entry Detail Record" locale="es" localized="Número de ruta distinto del registro de detalle de la entrada original"/>
+    <moqui.basic.LocalizedMessage original="Routing Number/Check Digit Error" locale="es" localized="Error de número de ruta / dígito de verificación"/>
+    <moqui.basic.LocalizedMessage original="Sales Channel" locale="es" localized="Canal de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales Return" locale="es" localized="Devolución de venta"/>
+    <moqui.basic.LocalizedMessage original="Sales Shipment" locale="es" localized="Envío de venta"/>
+    <moqui.basic.LocalizedMessage original="Sample" locale="es" localized="Muestra"/>
+    <moqui.basic.LocalizedMessage original="Savings/Checking Selection is Wrong" locale="es" localized="Selección de ahorros/cuenta corriente incorrecta"/>
+    <moqui.basic.LocalizedMessage original="Second Day" locale="es" localized="Segundo día"/>
+    <moqui.basic.LocalizedMessage original="Self Generated" locale="es" localized="Autogenerado"/>
+    <moqui.basic.LocalizedMessage original="Ship" locale="es" localized="Enviar"/>
+    <moqui.basic.LocalizedMessage original="Shipment Item Pick Status" locale="es" localized="Estado de surtido del artículo del envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Method" locale="es" localized="Método de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Roles" locale="es" localized="Roles de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Route Segment Status" locale="es" localized="Estado del segmento de ruta del envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Status" locale="es" localized="Estado de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipment Type" locale="es" localized="Tipo de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipped" locale="es" localized="Enviado"/>
+    <moqui.basic.LocalizedMessage original="Shipping Gateway Option" locale="es" localized="Opción de puerta de enlace de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipping Gateway Type" locale="es" localized="Tipo de puerta de enlace de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipping Tracking Status" locale="es" localized="Estado de seguimiento del envío"/>
+    <moqui.basic.LocalizedMessage original="Single Lot Unavailable" locale="es" localized="Lote único no disponible"/>
+    <moqui.basic.LocalizedMessage original="Source Document Presented for Payment" locale="es" localized="Documento fuente presentado para pago"/>
+    <moqui.basic.LocalizedMessage original="Start Progress" locale="es" localized="Iniciar progreso"/>
+    <moqui.basic.LocalizedMessage original="State Law Affecting RCK Acceptance" locale="es" localized="Ley estatal que afecta la aceptación de RCK"/>
+    <moqui.basic.LocalizedMessage original="Stop Payment on Item Related to RCK Entry" locale="es" localized="Detención de pago de la partida relacionada con la entrada RCK"/>
+    <moqui.basic.LocalizedMessage original="Stop Payment on Source Document" locale="es" localized="Detención de pago del documento fuente"/>
+    <moqui.basic.LocalizedMessage original="Stop Progress (to Submitted)" locale="es" localized="Detener progreso (a presentado)"/>
+    <moqui.basic.LocalizedMessage original="Story" locale="es" localized="Historia"/>
+    <moqui.basic.LocalizedMessage original="Sync Status" locale="es" localized="Estado de sincronización"/>
+    <moqui.basic.LocalizedMessage original="Test Order" locale="es" localized="Orden de prueba"/>
+    <moqui.basic.LocalizedMessage original="Tests" locale="es" localized="Probar"/>
+    <moqui.basic.LocalizedMessage original="Third Day" locale="es" localized="Tercer día"/>
+    <moqui.basic.LocalizedMessage original="Timely Original Return" locale="es" localized="Devolución original oportuna"/>
+    <moqui.basic.LocalizedMessage original="Trace Number Error" locale="es" localized="Error de número de rastreo"/>
+    <moqui.basic.LocalizedMessage original="Trade Show" locale="es" localized="Feria comercial"/>
+    <moqui.basic.LocalizedMessage original="Transfer" locale="es" localized="Transferencia"/>
+    <moqui.basic.LocalizedMessage original="Un-deliver" locale="es" localized="Anular entrega"/>
+    <moqui.basic.LocalizedMessage original="Un-pack" locale="es" localized="Anular empaque"/>
+    <moqui.basic.LocalizedMessage original="Un-pick" locale="es" localized="Anular surtido"/>
+    <moqui.basic.LocalizedMessage original="Un-ship" locale="es" localized="Anular envío"/>
+    <moqui.basic.LocalizedMessage original="Unauthorized Debit to Consumer Account Using Corporate SEC Code" locale="es" localized="Débito no autorizado a cuenta de consumidor con código SEC corporativo"/>
+    <moqui.basic.LocalizedMessage original="Uncollected Funds" locale="es" localized="Fondos no cobrados"/>
+    <moqui.basic.LocalizedMessage original="Unknown" locale="es" localized="Desconocido"/>
+    <moqui.basic.LocalizedMessage original="Unpack" locale="es" localized="Desempacar"/>
+    <moqui.basic.LocalizedMessage original="Untimely Dishonored Return" locale="es" localized="Devolución deshonrada extemporánea"/>
+    <moqui.basic.LocalizedMessage original="Untimely Return" locale="es" localized="Devolución extemporánea"/>
+    <moqui.basic.LocalizedMessage original="User Defined" locale="es" localized="Definido por el usuario"/>
+    <moqui.basic.LocalizedMessage original="Void" locale="es" localized="Anular"/>
+    <moqui.basic.LocalizedMessage original="Voided" locale="es" localized="Anulado"/>
+    <moqui.basic.LocalizedMessage original="Web" locale="es" localized="Web"/>
+    <moqui.basic.LocalizedMessage original="Web External" locale="es" localized="Web externa"/>
+    <moqui.basic.LocalizedMessage original="Web Site" locale="es" localized="Sitio web"/>
+    <moqui.basic.LocalizedMessage original="Wish List" locale="es" localized="Lista de deseos"/>
+    <moqui.basic.LocalizedMessage original="Won't Fix" locale="es" localized="No se corregirá"/>
+    <moqui.basic.LocalizedMessage original="Word of Mouth" locale="es" localized="Boca a boca"/>
+    <moqui.basic.LocalizedMessage original="Work" locale="es" localized="Trabajo"/>
+    <moqui.basic.LocalizedMessage original="Work Requirement Fulfillment Type" locale="es" localized="Tipo de cumplimiento de requisito de trabajo"/>
+</entity-facade-xml>

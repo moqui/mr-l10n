@@ -1,6 +1,6 @@
 # mr-l10n
 
-Language packs for the mr-moqui framework, tools, webroot, and example components. Addon components under `runtime/component/` are not part of this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`.
+Language packs for mr-moqui. Spanish covers the framework, tools, webroot, example, mr-mantle, and mr-marble. mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`.
 
 `moqui load` and an empty-database startup load `seed`, `seed-initial`, and `install`. They do not load these files. Load Spanish with `moqui load types=es`, or add `es` to a longer type list. `types=all` includes it. A database that already has data does not pick a language up until that load runs.
 
@@ -45,8 +45,27 @@ These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use loca
 | EsWebroot.xml | Login and shell |
 | EsExample.xml | Example app |
 | EsRegional.xml | `es_ES` and `es_MX` only |
+| EsMantleEnumAccountA.xml, EsMantleEnumAccountB.xml, EsMantleEnumAccountC.xml | Accounting, ledger, payroll, and item-type text |
+| EsMantleEnumWork.xml | Work, project, and request text |
+| EsMantleEnumPartyA.xml, EsMantleEnumPartyB.xml | Party, human resources, and marketing text |
+| EsMantleEnumProductA.xml, EsMantleEnumProductB.xml | Product, asset, store, and facility text |
+| EsMantleEnumOrder.xml | Order, shipment, request, and ACH return text |
+| EsMantleGeoA.xml, EsMantleGeoB.xml | State and province names |
+| EsMantleMsgAccount.xml | Invoice, payment, and ledger messages |
+| EsMantleMsgWorkA.xml, EsMantleMsgWorkB.xml | Work, inventory, and shipment messages |
+| EsMantleTemplates.xml | Name and order message templates (the key stays English; the Spanish value is the template) |
+| EsMarbleAccountA.xml, EsMarbleAccountB.xml | Accounting screens |
+| EsMarblePartyA.xml, EsMarblePartyB.xml | Party, customer, supplier, and My Account screens |
+| EsMarbleOrder.xml | Order and return screens |
+| EsMarbleShipA.xml, EsMarbleShipB.xml | Shipment, facility, and warehouse screens |
+| EsMarbleProductA.xml, EsMarbleProductB.xml | Catalog, asset, store, and manufacturing screens |
+| EsMarbleWorkA.xml, EsMarbleWorkB.xml | Project, task, request, wiki, and the Marble menus |
+| EsMarbleEmail.xml | Invoice, order, and shipment email |
+| EsMarblePrintAccount.xml | Invoice, check, payment, and statement print |
+| EsMarblePrintShip.xml | Shipment pick, pack, and bill of lading print |
+| EsMarblePrintOther.xml | Order, production, timesheet, and payroll print |
 
-`Geo.geoName`, `EnumerationType.description`, `StatusType.description`, and `StatusFlow.description` have `enable-localization="true"` so these rows show on screen. `geoNameLocal` is the place's own name, not the viewer's language.
+`Geo.geoName`, enumeration and status descriptions, status transition names, and UOM description and symbol have `enable-localization="true"`, so these rows show on screen. Product feature description and abbreviation do too. `geoNameLocal` is the place's own name, not the viewer's language. Party names, product names, and GL account names are stored text and stay as entered.
 
 ## Strings left in English
 
@@ -80,3 +99,17 @@ These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use loca
 - The status-bar element shows the stages of the framework's EntitySync status flow (the status is the syncStatusId parame
 - Total: ${totals.totalChars ?? 0} characters, about ${totals.totalTokens ?? 0} tokens (${totals.charsPerToken ?? ''} char
 - container-split (§8.2): a splitter from 1024 px whose side can be dragged from 200 px to what leaves 480 px to the main
+
+Mantle and marble texts over 255 characters stay in English. The message key is still used; there is no `es` row for it:
+
+- Found similar order ${nearOrder.orderId} (OrderApproveNearOrder)
+- The postal-address info template (PostalAddressInfoTemplate)
+- Recurring orders in the Approved status will be automatically cloned according to the schedule
+- Invoices by Customer Classification, with the day/week/month selector in the title
+- No past due invoices found for customer ${toPartyId} and org ${fromPartyId} with due before...
+- Newer or same revision order ${orderId} found for customer
+- Tried to return total more than is returnable for non-product item
+- Quantity specified differs from current on hand
+- Moved quantity from Asset ... to Asset ...
+- Found GlAccount Org TimePeriod ...
+- Set quantity on details for an invoice item, when the message names every facility

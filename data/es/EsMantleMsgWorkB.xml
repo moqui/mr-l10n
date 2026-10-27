@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Not creating wage and text records for period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, already closed." locale="es" localized="No se crean registros de salarios e impuestos del periodo ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, ya cerrado."/>
+    <moqui.basic.LocalizedMessage original="Not deleting product ${product.pseudoId}: ${product.productName}, has records that use it" locale="es" localized="No se elimina el producto ${product.pseudoId}: ${product.productName}; hay registros que lo usan"/>
+    <moqui.basic.LocalizedMessage original="Not issuing Asset [${assetId}], Origin Facility ${ec.resource.expand('FacilityNameTemplate','',facility)} is not an origin facility" locale="es" localized="No se da salida al activo [${assetId}]; la instalación de origen ${ec.resource.expand('FacilityNameTemplate','',facility)} no es una instalación de origen"/>
+    <moqui.basic.LocalizedMessage original="Not issuing Asset [${assetId}], Product ${ec.resource.expand('ProductNameTemplate','',product)} is not a product to consume" locale="es" localized="No se da salida al activo [${assetId}]; el producto ${ec.resource.expand('ProductNameTemplate','',product)} no es un producto para consumir"/>
+    <moqui.basic.LocalizedMessage original="Not issuing Asset [${assetId}], Product ${ec.resource.expand('ProductNameTemplate','',product)} is not a product to produce" locale="es" localized="No se da salida al activo [${assetId}]; el producto ${ec.resource.expand('ProductNameTemplate','',product)} no es un producto para producir"/>
+    <moqui.basic.LocalizedMessage original="Not issuing zero quantity against AssetReservation ${assetReservation?.assetReservationId}" locale="es" localized="No se da salida a cantidad cero contra la reserva de activo ${assetReservation?.assetReservationId}"/>
+    <moqui.basic.LocalizedMessage original="Not issuing zero quantity for shipment ${shipmentId}" locale="es" localized="No se da salida a cantidad cero del envío ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Not moving, no valid location or container found to move to" locale="es" localized="No se mueve: no se encontró una ubicación o un contenedor válido de destino"/>
+    <moqui.basic.LocalizedMessage original="Not packing Product ${productId}, type ${product.type?.description || product.productTypeEnumId} is not a physical product type" locale="es" localized="No se empaca el producto ${productId}; el tipo ${product.type?.description || product.productTypeEnumId} no es un tipo de producto físico"/>
+    <moqui.basic.LocalizedMessage original="Not processing pay for period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, already closed." locale="es" localized="No se procesa el pago del periodo ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, ya cerrado."/>
+    <moqui.basic.LocalizedMessage original="Not put under ${parent}: ${error}" locale="es" localized="No se colocó bajo ${parent}: ${error}"/>
+    <moqui.basic.LocalizedMessage original="Not receiving zero quantity for Product ${productId}" locale="es" localized="No se recibe cantidad cero del producto ${productId}"/>
+    <moqui.basic.LocalizedMessage original="Not reserving specified asset ${checkAsset.assetId} in pool ${checkAsset.assetPoolId} which is not available to this order" locale="es" localized="No se reserva el activo indicado ${checkAsset.assetId} del grupo ${checkAsset.assetPoolId} porque no está disponible para esta orden"/>
+    <moqui.basic.LocalizedMessage original="Not reserving, order or part not in status that allows reservation" locale="es" localized="No se reserva: la orden o la parte no está en un estado que permita la reserva"/>
+    <moqui.basic.LocalizedMessage original="Not sending email for order ${orderId}, no to address specified or found for customer ${customerPartyId}" locale="es" localized="No se envía el correo de la orden ${orderId}; no hay dirección de destino indicada ni encontrada para el cliente ${customerPartyId}"/>
+    <moqui.basic.LocalizedMessage original="Not storing budget item details, no assetId or facilityId specified" locale="es" localized="No se guardan los detalles del elemento de presupuesto; no se indicó assetId ni facilityId"/>
+    <moqui.basic.LocalizedMessage original="Not updating promotions, shipping, or tax for order ${orderId} in status ${orderHeader.status?.description}" locale="es" localized="No se actualizan promociones, envío ni impuesto de la orden ${orderId} en estado ${orderHeader.status?.description}"/>
+    <moqui.basic.LocalizedMessage original="Not updating promotions, shipping, or tax for order part ${orderId}:${orderPartSeqId} in status ${orderPart.status?.description}" locale="es" localized="No se actualizan promociones, envío ni impuesto de la parte de orden ${orderId}:${orderPartSeqId} en estado ${orderPart.status?.description}"/>
+    <moqui.basic.LocalizedMessage original="Not updating promotions, shipping, or tax for order part ${orderId}:${orderPartSeqId} with ${partBillingCount} OrderItemBilling records" locale="es" localized="No se actualizan promociones, envío ni impuesto de la parte de orden ${orderId}:${orderPartSeqId} con ${partBillingCount} registros de facturación de elemento de orden"/>
+    <moqui.basic.LocalizedMessage original="Not updating shipping info, Shipment ${shipmentId} is ${shipment.status?.description}" locale="es" localized="No se actualiza la información de envío; el envío ${shipmentId} está ${shipment.status?.description}"/>
+    <moqui.basic.LocalizedMessage original="Offer at least one work type" locale="es" localized="Ofrecer al menos un tipo de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Only ${quantityPicked} found to pick out of the ${quantity} requested, ${toDecimal(quantity).subtract(quantityPicked)} should be returned to the shelf" locale="es" localized="Solo se encontró ${quantityPicked} para surtir de los ${quantity} solicitados; ${toDecimal(quantity).subtract(quantityPicked)} debe volver al estante"/>
+    <moqui.basic.LocalizedMessage original="Only ${toDecimal(quantity).subtract(quantityToPick)} found to pick out of the ${quantity} requested, ${quantityToPick} should be returned to the shelf" locale="es" localized="Solo se encontró ${toDecimal(quantity).subtract(quantityToPick)} para surtir de los ${quantity} solicitados; ${quantityToPick} debe volver al estante"/>
+    <moqui.basic.LocalizedMessage original="Only a requested allocation is approved" locale="es" localized="Solo se aprueba una asignación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Only a requested allocation is rejected" locale="es" localized="Solo se rechaza una asignación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Only a submitted week is approved" locale="es" localized="Solo se aprueba una semana presentada"/>
+    <moqui.basic.LocalizedMessage original="Only a submitted week is returned" locale="es" localized="Solo se devuelve una semana presentada"/>
+    <moqui.basic.LocalizedMessage original="Only an approved week is reopened" locale="es" localized="Solo se reabre una semana aprobada"/>
+    <moqui.basic.LocalizedMessage original="Only the approver, or one who manages the project for them, decides" locale="es" localized="Solo decide el aprobador, o quien gestiona el proyecto en su lugar"/>
+    <moqui.basic.LocalizedMessage original="Only the managers of the project request allocations on it" locale="es" localized="Solo los gestores del proyecto solicitan asignaciones en él"/>
+    <moqui.basic.LocalizedMessage original="Only the person submits their week" locale="es" localized="Solo la persona presenta su propia semana"/>
+    <moqui.basic.LocalizedMessage original="Only the project team asks for an approval" locale="es" localized="Solo el equipo del proyecto pide una aprobación"/>
+    <moqui.basic.LocalizedMessage original="Only those who approve allocations decide them" locale="es" localized="Solo quienes aprueban las asignaciones las deciden"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money link orders" locale="es" localized="Solo quienes gestionan el dinero vinculan órdenes"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money see billing shares" locale="es" localized="Solo quienes gestionan el dinero ven las participaciones de facturación"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money see it" locale="es" localized="Solo quienes gestionan el dinero lo ven"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money see the estimate" locale="es" localized="Solo quienes gestionan el dinero ven la estimación"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money see the profitability of projects" locale="es" localized="Solo quienes gestionan el dinero ven la rentabilidad de los proyectos"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money see what is unbilled" locale="es" localized="Solo quienes gestionan el dinero ven lo no facturado"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage money set billing shares" locale="es" localized="Solo quienes gestionan el dinero definen las participaciones de facturación"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage the project send its estimate" locale="es" localized="Solo quienes gestionan el proyecto envían su estimación"/>
+    <moqui.basic.LocalizedMessage original="Only those who manage the project set its gates" locale="es" localized="Solo quienes gestionan el proyecto definen sus compuertas"/>
+    <moqui.basic.LocalizedMessage original="Order ${baseOrderHeader.orderId} is not yet scheduled to reorder since last order time ${baseOrderHeader.lastOrderedDate}" locale="es" localized="La orden ${baseOrderHeader.orderId} aún no está programada para repetirse desde la última fecha de orden ${baseOrderHeader.lastOrderedDate}"/>
+    <moqui.basic.LocalizedMessage original="Order ${baseOrderId} is not a recurring order (has no recur cron expression)" locale="es" localized="La orden ${baseOrderId} no es una orden recurrente (no tiene expresión cron de recurrencia)"/>
+    <moqui.basic.LocalizedMessage original="Order ${baseOrderId} is not in the Approved status" locale="es" localized="La orden ${baseOrderId} no está en estado aprobado"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} already Cancelled" locale="es" localized="Orden ${orderId} ya cancelada"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} has been invoiced (billed), cannot make recurring" locale="es" localized="La orden ${orderId} ya se facturó; no se puede hacer recurrente"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} has been shipped, cannot make recurring" locale="es" localized="La orden ${orderId} ya se despachó; no se puede hacer recurrente"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} item ${orderItemSeqId} not found" locale="es" localized="Orden ${orderId} elemento ${orderItemSeqId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} part ${orderPartSeqId} has no shippable product items (type asset or asset use)" locale="es" localized="Orden ${orderId} parte ${orderPartSeqId} no tiene elementos de producto enviables (tipo activo o uso de activo)"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} part ${orderPartSeqId} is already on shipments [${activeShipmentIds.slice().sort().join(', ')}]" locale="es" localized="Orden ${orderId} parte ${orderPartSeqId} ya está en los envíos [${activeShipmentIds.slice().sort().join(', ')}]"/>
+    <moqui.basic.LocalizedMessage original="Order ${orderId} part ${orderPartSeqId} is not in Approved status, not shipping" locale="es" localized="Orden ${orderId} parte ${orderPartSeqId} no está en estado aprobado; no se despacha"/>
+    <moqui.basic.LocalizedMessage original="Order Approve permission required" locale="es" localized="Se requiere el permiso de aprobar la orden"/>
+    <moqui.basic.LocalizedMessage original="Order Item ${orderId}:${orderItemSeqId} not found" locale="es" localized="Elemento de orden ${orderId}:${orderItemSeqId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Order Part ${orderId}:${orderPartSeqId} already Cancelled" locale="es" localized="Parte de orden ${orderId}:${orderPartSeqId} ya cancelada"/>
+    <moqui.basic.LocalizedMessage original="Order Part ${orderId}:${orderPartSeqId} already Rejected or Cancelled" locale="es" localized="Parte de orden ${orderId}:${orderPartSeqId} ya rechazada o cancelada"/>
+    <moqui.basic.LocalizedMessage original="Order Part ${orderId}:${orderPartSeqId} not found" locale="es" localized="Parte de orden ${orderId}:${orderPartSeqId} no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Order in status ${orderPart.statusId} cannot be returned" locale="es" localized="La orden en estado ${orderPart.statusId} no se puede devolver"/>
+    <moqui.basic.LocalizedMessage original="Order not found with ID ${orderId}" locale="es" localized="Orden no encontrada con ID ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Other projects" locale="es" localized="Otros proyectos"/>
+    <moqui.basic.LocalizedMessage original="Outgoing shipment ${shipmentId} has items already issued/packed, cannot cancel." locale="es" localized="El envío de salida ${shipmentId} ya tiene elementos con salida o empacados; no se puede cancelar."/>
+    <moqui.basic.LocalizedMessage original="Package ${packageRouteSeg.shipmentPackageSeqId} already has a tracking code or label, not creating auto packages" locale="es" localized="El paquete ${packageRouteSeg.shipmentPackageSeqId} ya tiene código de seguimiento o etiqueta; no se crean paquetes automáticos"/>
+    <moqui.basic.LocalizedMessage original="Package ${packageRouteSeg.shipmentPackageSeqId} route segment ${packageRouteSeg.shipmentRouteSegmentSeqId} has no ${returnLabels ? 'return' : 'outgoing'} label URL or image" locale="es" localized="El paquete ${packageRouteSeg.shipmentPackageSeqId} segmento de ruta ${packageRouteSeg.shipmentRouteSegmentSeqId} no tiene etiqueta ${returnLabels ? 'return' : 'outgoing'} (URL o imagen)"/>
+    <moqui.basic.LocalizedMessage original="Package ${shipmentPackageSeqId} not found for shipment ${shipmentId}, not calculating weight" locale="es" localized="Paquete ${shipmentPackageSeqId} no encontrado para el envío ${shipmentId}; no se calcula el peso"/>
+    <moqui.basic.LocalizedMessage original="Packages already have content (product quantities) assigned, not creating auto packages" locale="es" localized="Los paquetes ya tienen contenido asignado (cantidades de producto); no se crean paquetes automáticos"/>
+    <moqui.basic.LocalizedMessage original="Party ${party.pseudoId} is already a person" locale="es" localized="El participante ${party.pseudoId} ya es una persona"/>
+    <moqui.basic.LocalizedMessage original="Party ${party.pseudoId} is already an organization" locale="es" localized="El participante ${party.pseudoId} ya es una organización"/>
+    <moqui.basic.LocalizedMessage original="Party ${partyId} not found" locale="es" localized="Participante ${partyId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Party [${partyId}] is not a person, not creating user account." locale="es" localized="El participante [${partyId}] no es una persona; no se crea la cuenta de usuario."/>
+    <moqui.basic.LocalizedMessage original="Payroll Period ${timePeriod.periodName} has time entries, cannot delete" locale="es" localized="El periodo de nómina ${timePeriod.periodName} tiene registros de tiempo; no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="Payroll adjustment ${payrollAdjustmentId} is on a pay run's invoice and cannot be deleted" locale="es" localized="El ajuste de nómina ${payrollAdjustmentId} está en la factura de una ejecución de pago y no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="Period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)} is not closed" locale="es" localized="El periodo ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)} no está cerrado"/>
+    <moqui.basic.LocalizedMessage original="Period ${timePeriod.periodName} has a next period, cannot delete" locale="es" localized="El periodo ${timePeriod.periodName} tiene un periodo siguiente; no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="Period ${timePeriod.periodName} has child periods, cannot delete" locale="es" localized="El periodo ${timePeriod.periodName} tiene periodos hijos; no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="Period ${timePeriod.periodName} is closed, cannot delete" locale="es" localized="El periodo ${timePeriod.periodName} está cerrado; no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="Pick Assembly Product ${assoc.productId} has itself for a component product, remove the Manufacturing BOM Association" locale="es" localized="El producto de ensamblaje por surtido ${assoc.productId} se tiene a sí mismo como componente; quitar la asociación de BOM de fabricación"/>
+    <moqui.basic.LocalizedMessage original="Planned for" locale="es" localized="Planificado para"/>
+    <moqui.basic.LocalizedMessage original="Please enter your email address" locale="es" localized="Introducir la dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Please enter your first name, last name, and email address" locale="es" localized="Introducir el nombre, el apellido y la dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Position ${emplPosition.description} is not valid for ${orgName}" locale="es" localized="El puesto ${emplPosition.description} no es válido para ${orgName}"/>
+    <moqui.basic.LocalizedMessage original="Postal Address ${contactMechId} is not associated with party ${partyId}, not updating." locale="es" localized="La dirección postal ${contactMechId} no está asociada al participante ${partyId}; no se actualiza."/>
+    <moqui.basic.LocalizedMessage original="Postal Address with ID [${contactMechId}] is not associated with Facility ID [${facilityId}] and purpose [${contactMechPurposeId||'N/A'}], not updating." locale="es" localized="La dirección postal con ID [${contactMechId}] no está asociada al ID de instalación [${facilityId}] ni al propósito [${contactMechPurposeId||'N/A'}]; no se actualiza."/>
+    <moqui.basic.LocalizedMessage original="Printed label for package ${packageRouteSeg.shipmentPackageSeqId} route segment ${packageRouteSeg.shipmentRouteSegmentSeqId}, print job ${printOut.printJobId} CUPS job ${printOut.jobId}" locale="es" localized="Etiqueta impresa del paquete ${packageRouteSeg.shipmentPackageSeqId} segmento de ruta ${packageRouteSeg.shipmentRouteSegmentSeqId}, trabajo de impresión ${printOut.printJobId} trabajo CUPS ${printOut.jobId}"/>
+    <moqui.basic.LocalizedMessage original="Processed pay for period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}: ${employmentList.length} employees, gross pay total: ${totalPayAmount}, net pay total: ${totalNetPayAmount}" locale="es" localized="Pago procesado del periodo ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}: ${employmentList.length} empleados, total bruto: ${totalPayAmount}, total neto: ${totalNetPayAmount}"/>
+    <moqui.basic.LocalizedMessage original="Product ${ec.resource.expand('ProductNameTemplate', null, componentProduct)} is not a component of assembly product ${ec.resource.expand('ProductNameTemplate', null, assemblyProduct)}" locale="es" localized="El producto ${ec.resource.expand('ProductNameTemplate', null, componentProduct)} no es componente del producto de ensamblaje ${ec.resource.expand('ProductNameTemplate', null, assemblyProduct)}"/>
+    <moqui.basic.LocalizedMessage original="Product ${pkgContent.productId} has no Shipping Weight dimension unit (UOM)" locale="es" localized="El producto ${pkgContent.productId} no tiene unidad de dimensión del peso de envío (UOM)"/>
+    <moqui.basic.LocalizedMessage original="Product ${pkgContent.productId} has no Shipping Weight dimension value" locale="es" localized="El producto ${pkgContent.productId} no tiene valor de dimensión del peso de envío"/>
+    <moqui.basic.LocalizedMessage original="Product ${productId} is a Virtual product and may not be used on an Order" locale="es" localized="El producto ${productId} es virtual y no se puede usar en una orden"/>
+    <moqui.basic.LocalizedMessage original="Product ${productId} not found" locale="es" localized="Producto ${productId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Product ${productId} requires a selected amount" locale="es" localized="El producto ${productId} requiere un importe seleccionado"/>
+    <moqui.basic.LocalizedMessage original="Project ${id} not found" locale="es" localized="Proyecto ${id} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Project ${workEffortId} not found" locale="es" localized="Proyecto ${workEffortId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Project ID must be only letters and digits and between 1 and 8 characters long" locale="es" localized="El ID del proyecto solo admite letras y dígitos, y de 1 a 8 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Project date range is not valid." locale="es" localized="El intervalo de fechas del proyecto no es válido."/>
+    <moqui.basic.LocalizedMessage original="Project's new end date puts one or more tasks out of date range." locale="es" localized="La nueva fecha de fin del proyecto deja una o más tareas fuera del intervalo de fechas."/>
+    <moqui.basic.LocalizedMessage original="Project's new end date puts one or more time entries out of date range." locale="es" localized="La nueva fecha de fin del proyecto deja uno o más registros de tiempo fuera del intervalo de fechas."/>
+    <moqui.basic.LocalizedMessage original="Project's new start date puts one or more tasks out of date range." locale="es" localized="La nueva fecha de inicio del proyecto deja una o más tareas fuera del intervalo de fechas."/>
+    <moqui.basic.LocalizedMessage original="Project's new start date puts one or more time entries out of date range." locale="es" localized="La nueva fecha de inicio del proyecto deja uno o más registros de tiempo fuera del intervalo de fechas."/>
+    <moqui.basic.LocalizedMessage original="Quantity Accepted may not be negative" locale="es" localized="La cantidad aceptada no puede ser negativa"/>
+    <moqui.basic.LocalizedMessage original="Quantity Rejected may not be negative" locale="es" localized="La cantidad rechazada no puede ser negativa"/>
+    <moqui.basic.LocalizedMessage original="Quantity cannot be less than zero for shipment ${shipmentId} product ${productId} (${quantity})" locale="es" localized="La cantidad no puede ser menor que cero para el envío ${shipmentId} producto ${productId} (${quantity})"/>
+    <moqui.basic.LocalizedMessage original="Quantity cannot be reduced below packed/issued quantity ${issuanceSummaryList[0].quantity}" locale="es" localized="La cantidad no puede bajar de la cantidad empacada o con salida ${issuanceSummaryList[0].quantity}"/>
+    <moqui.basic.LocalizedMessage original="Quantity cannot be reduced below received quantity ${receiptTotal}" locale="es" localized="La cantidad no puede bajar de la cantidad recibida ${receiptTotal}"/>
+    <moqui.basic.LocalizedMessage original="Quantity requested ${quantity} is less than quantity already shipped ${itemQuantityIssued}, setting to quantity shipped" locale="es" localized="La cantidad solicitada ${quantity} es menor que la ya despachada ${itemQuantityIssued}; se ajusta a la cantidad despachada"/>
+    <moqui.basic.LocalizedMessage original="Quantity specified ${ec.l10n.format(quantity, null)} is greater than asset ${assetId} quantity on hand ${ec.l10n.format(asset.quantityOnHandTotal, null)}, not packing" locale="es" localized="La cantidad indicada ${ec.l10n.format(quantity, null)} supera la existencia del activo ${assetId} ${ec.l10n.format(asset.quantityOnHandTotal, null)}; no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Quantity specified (${ec.l10n.format(quantity, '#,##0.00')}${uomDescription}) is greater than the quantity available (${ec.l10n.format(asset.availableToPromiseTotal, '#,##0.00')}${uomDescription})" locale="es" localized="La cantidad indicada (${ec.l10n.format(quantity, '#,##0.00')}${uomDescription}) supera la cantidad disponible (${ec.l10n.format(asset.availableToPromiseTotal, '#,##0.00')}${uomDescription})"/>
+    <moqui.basic.LocalizedMessage original="Quantity specified (${ec.l10n.format(quantity, null)}) matched current records, no adjustment needed" locale="es" localized="La cantidad indicada (${ec.l10n.format(quantity, null)}) coincide con los registros actuales; no se necesita ajuste"/>
+    <moqui.basic.LocalizedMessage original="Quantity specified (${quantity}) is greater than asset [${assetId}] quantity on hand (${asset.quantityOnHandTotal}), not packing" locale="es" localized="La cantidad indicada (${quantity}) supera la existencia del activo [${assetId}] (${asset.quantityOnHandTotal}); no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Quantity specified (${quantity}) is greater than quantity not issued (${assetReservation.quantityNotIssued}) on reservation [${assetReservationId}], not packing" locale="es" localized="La cantidad indicada (${quantity}) supera la cantidad sin salida (${assetReservation.quantityNotIssued}) de la reserva [${assetReservationId}]; no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Quantity to break down ${quantityToBreakDown} is more than Asset ${assetId} on hand ${asset.quantityOnHandTotal}" locale="es" localized="La cantidad a desarmar ${quantityToBreakDown} supera la existencia del activo ${assetId} ${asset.quantityOnHandTotal}"/>
+    <moqui.basic.LocalizedMessage original="Quantity to cancel ${quantityToCancel} is greater than quantity ${assetIssuance.quantity} for asset issuance ${assetIssuanceId}" locale="es" localized="La cantidad a cancelar ${quantityToCancel} supera la cantidad ${assetIssuance.quantity} de la salida de activo ${assetIssuanceId}"/>
+    <moqui.basic.LocalizedMessage original="Quantity to move (${quantity}) is greater than reservation [${assetReservationId}] quantity not yet issued (${assetReservation.quantityNotIssued}), not moving reservation" locale="es" localized="La cantidad a mover (${quantity}) supera la de la reserva [${assetReservationId}] aún sin salida (${assetReservation.quantityNotIssued}); no se mueve la reserva"/>
+    <moqui.basic.LocalizedMessage original="Quantity to reserve ${quantityRemaining} is less than zero" locale="es" localized="La cantidad a reservar ${quantityRemaining} es menor que cero"/>
+    <moqui.basic.LocalizedMessage original="Rates/amounts must be negative adjustments." locale="es" localized="Las tasas y los importes deben ser ajustes negativos."/>
+    <moqui.basic.LocalizedMessage original="Re-opened period ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}, deleted ${invoiceCount} payroll invoices" locale="es" localized="Se reabrió el periodo ${ec.resource.expand('TimePeriodNameTemplate','',timePeriod)}; se eliminaron ${invoiceCount} facturas de nómina"/>
+    <moqui.basic.LocalizedMessage original="Released" locale="es" localized="Lanzado"/>
+    <moqui.basic.LocalizedMessage original="Releases" locale="es" localized="Lanzamientos"/>
+    <moqui.basic.LocalizedMessage original="Removed ${removedCount} products from category ${ec.resource.expand('ProductCategoryNameTemplate','',productCategory)} (${alreadyCount} were not in it)" locale="es" localized="Se quitaron ${removedCount} productos de la categoría ${ec.resource.expand('ProductCategoryNameTemplate','',productCategory)} (${alreadyCount} no estaban en ella)"/>
+    <moqui.basic.LocalizedMessage original="Removed feature ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} from ${removedCount} products (${alreadyCount} did not have it)" locale="es" localized="Se quitó la característica ${ec.resource.expand('ProductFeatureNameTemplate','',productFeature)} de ${removedCount} productos (${alreadyCount} no la tenían)"/>
+    <moqui.basic.LocalizedMessage original="Reopened" locale="es" localized="Reabierto"/>
+    <moqui.basic.LocalizedMessage original="Reopened for changes" locale="es" localized="Reabierto para cambios"/>
+    <moqui.basic.LocalizedMessage original="Request ${requestId} has no Facility set." locale="es" localized="La solicitud ${requestId} no tiene instalación definida."/>
+    <moqui.basic.LocalizedMessage original="Reservation [${assetReservationId}] not found, not packing" locale="es" localized="Reserva [${assetReservationId}] no encontrada; no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Reservation not found for ID ${assetReservationId}" locale="es" localized="Reserva no encontrada con ID ${assetReservationId}"/>
+    <moqui.basic.LocalizedMessage original="Reservation order item [${assetReservation.orderId}:${assetReservation.orderItemSeqId}] does not match shipment item source order item [${shipmentItemSource.orderId}:${shipmentItemSource.orderItemSeqId}], not packing" locale="es" localized="El elemento de orden de la reserva [${assetReservation.orderId}:${assetReservation.orderItemSeqId}] no coincide con el del origen de elemento de envío [${shipmentItemSource.orderId}:${shipmentItemSource.orderItemSeqId}]; no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Restricted item" locale="es" localized="Elemento restringido"/>
+    <moqui.basic.LocalizedMessage original="Return Item ${returnId}:${returnItem.returnItemSeqId} has no amount, not processing credit response" locale="es" localized="El elemento de devolución ${returnId}:${returnItem.returnItemSeqId} no tiene importe; no se procesa la respuesta de crédito"/>
+    <moqui.basic.LocalizedMessage original="Return item ${returnId}:${returnItemSeqId} in status ${returnItem.status?.description} cannot be cancelled" locale="es" localized="El elemento de devolución ${returnId}:${returnItemSeqId} en estado ${returnItem.status?.description} no se puede cancelar"/>
+    <moqui.basic.LocalizedMessage original="Return item ${returnId}:${returnItemSeqId} not found" locale="es" localized="Elemento de devolución ${returnId}:${returnItemSeqId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Return not found with ID ${returnId}" locale="es" localized="Devolución no encontrada con ID ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Returned: fix and submit your week of ${week} (${hours} h)" locale="es" localized="Devuelta: corregir y presentar la semana de ${week} (${hours} h)"/>
+    <moqui.basic.LocalizedMessage original="Rows already imported are skipped or updated, not ${policy}" locale="es" localized="Las filas ya importadas se omiten o se actualizan, no ${policy}"/>
+    <moqui.basic.LocalizedMessage original="Say why the allocation is rejected" locale="es" localized="Indicar por qué se rechaza la asignación"/>
+    <moqui.basic.LocalizedMessage original="Say why the week is returned" locale="es" localized="Indicar por qué se devuelve la semana"/>
+    <moqui.basic.LocalizedMessage original="Scan succeeded but cannot clock out, no open time entry found" locale="es" localized="El escaneo tuvo éxito, pero no se puede registrar la salida; no hay un registro de tiempo abierto"/>
+    <moqui.basic.LocalizedMessage original="Selected Term has no Auto Payments Service, creating a single Payment" locale="es" localized="El término seleccionado no tiene servicio de pagos automáticos; se crea un solo pago"/>
+    <moqui.basic.LocalizedMessage original="Selected value ${valEnum?.description||settingValue} is not valid" locale="es" localized="El valor seleccionado ${valEnum?.description||settingValue} no es válido"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} ${shipment == null ? 'not found' : 'has no route segment'}" locale="es" localized="Envío ${shipmentId} ${shipment == null ? 'not found' : 'has no route segment'}"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} has items already handled, cannot cancel." locale="es" localized="El envío ${shipmentId} ya tiene elementos gestionados; no se puede cancelar."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} has no items" locale="es" localized="El envío ${shipmentId} no tiene elementos"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not a Sales or Purchase shipment" locale="es" localized="El envío ${shipmentId} no es un envío de venta ni de compra"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not a Sales shipment" locale="es" localized="El envío ${shipmentId} no es un envío de venta"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not in the Packed or Shipped status" locale="es" localized="El envío ${shipmentId} no está en estado empacado ni despachado"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} not found" locale="es" localized="Envío ${shipmentId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} returned in Return ${returnId}, resold in Order ${newOrderId} and inventory issued to Shipment ${newShipmentId}" locale="es" localized="El envío ${shipmentId} se devolvió en la devolución ${returnId}, se revendió en la orden ${newOrderId} y el inventario salió al envío ${newShipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Shipment not found for ID ${shipmentId}" locale="es" localized="Envío no encontrado con ID ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Sign in to start a timer" locale="es" localized="Iniciar sesión para iniciar un cronómetro"/>
+    <moqui.basic.LocalizedMessage original="Some of this week is invoiced: it stays approved" locale="es" localized="Parte de esta semana está facturada: sigue aprobada"/>
+    <moqui.basic.LocalizedMessage original="Sprint ${id} not completed: ${error}" locale="es" localized="Sprint ${id} no completado: ${error}"/>
+    <moqui.basic.LocalizedMessage original="Status change to ${workEffortStatus?.description || statusId} not allowed, picklist ${workEffortId} has Shipments in statuses ${statusDescriptionList.join(', ')}" locale="es" localized="No se permite el cambio de estado a ${workEffortStatus?.description || statusId}; la lista de surtido ${workEffortId} tiene envíos en los estados ${statusDescriptionList.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="Status not changed: ${error}" locale="es" localized="No se cambió el estado: ${error}"/>
+    <moqui.basic.LocalizedMessage original="Status update" locale="es" localized="Actualización de estado"/>
+    <moqui.basic.LocalizedMessage original="Stop the timer first: it runs in this week" locale="es" localized="Detener primero el cronómetro: corre en esta semana"/>
+    <moqui.basic.LocalizedMessage original="Submit a week of a person" locale="es" localized="Presentar la semana de una persona"/>
+    <moqui.basic.LocalizedMessage original="Submit your week of ${week} (${hours} h)" locale="es" localized="Presentar la semana de ${week} (${hours} h)"/>
+    <moqui.basic.LocalizedMessage original="Submitter is required." locale="es" localized="Se requiere quien presenta."/>
+    <moqui.basic.LocalizedMessage original="Subscription already associated with tenant ${subscription.resourceInstanceId}, cannot initialize" locale="es" localized="La suscripción ya está asociada al inquilino ${subscription.resourceInstanceId}; no se puede inicializar"/>
+    <moqui.basic.LocalizedMessage original="Task ${parentWorkEffortId} is not in project ${rootWorkEffortId}, so ${workEffortId} cannot go under it" locale="es" localized="La tarea ${parentWorkEffortId} no está en el proyecto ${rootWorkEffortId}, así que ${workEffortId} no puede ir bajo ella"/>
+    <moqui.basic.LocalizedMessage original="Task ${workEffortId} not found" locale="es" localized="Tarea ${workEffortId} no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Task end date out side of project's end date." locale="es" localized="La fecha de fin de la tarea está fuera de la fecha de fin del proyecto."/>
+    <moqui.basic.LocalizedMessage original="Task start date outside of project's start date." locale="es" localized="La fecha de inicio de la tarea está fuera de la fecha de inicio del proyecto."/>
+    <moqui.basic.LocalizedMessage original="Tasks" locale="es" localized="Tareas"/>
+    <moqui.basic.LocalizedMessage original="Tax Statement ${taxStatementId} not found" locale="es" localized="Declaración de impuestos ${taxStatementId} no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Team ${ec.resource.expand('PartyNameTemplate', '', teamPartyDetail)} is disabled." locale="es" localized="El equipo ${ec.resource.expand('PartyNameTemplate', '', teamPartyDetail)} está desactivado."/>
+    <moqui.basic.LocalizedMessage original="Team ${teamPartyId} not found or is not in the Team role" locale="es" localized="Equipo ${teamPartyId} no encontrado o no está en el rol Equipo"/>
+    <moqui.basic.LocalizedMessage original="Telecom Number with ID ${contactMechId} is not associated with party ${partyId}, not updating." locale="es" localized="El número de telecomunicación con ID ${contactMechId} no está asociado al participante ${partyId}; no se actualiza."/>
+    <moqui.basic.LocalizedMessage original="Telecom Number with ID [${contactMechId}] is not associated with Facility ID [${facilityId}] and purpose [${contactMechPurposeId||'N/A'}], not updating." locale="es" localized="El número de telecomunicación con ID [${contactMechId}] no está asociado al ID de instalación [${facilityId}] ni al propósito [${contactMechPurposeId||'N/A'}]; no se actualiza."/>
+    <moqui.basic.LocalizedMessage original="Thank you, we have received your request. Your request number is ${requestId}" locale="es" localized="Gracias, recibimos la solicitud. El número de solicitud es ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="That timer is not yours" locale="es" localized="Ese cronómetro no es suyo"/>
+    <moqui.basic.LocalizedMessage original="That week is submitted: its time is locked until it is returned or reopened" locale="es" localized="Esa semana está presentada: su tiempo está bloqueado hasta que se devuelva o se reabra"/>
+    <moqui.basic.LocalizedMessage original="The approver is someone on the project: a manager or a client contact" locale="es" localized="El aprobador es alguien del proyecto: un gestor o un contacto del cliente"/>
+    <moqui.basic.LocalizedMessage original="The capacity is a number of 0 or more" locale="es" localized="La capacidad es un número de 0 o más"/>
+    <moqui.basic.LocalizedMessage original="The client approves the project estimate through this milestone's gate." locale="es" localized="El cliente aprueba la estimación del proyecto por la compuerta de este hito."/>
+    <moqui.basic.LocalizedMessage original="The comment was cut to 4000 characters" locale="es" localized="El comentario se cortó a 4000 caracteres"/>
+    <moqui.basic.LocalizedMessage original="The date ${date} is not yyyy-MM-dd" locale="es" localized="La fecha ${date} no es yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="The due date is a day, yyyy-MM-dd" locale="es" localized="La fecha de vencimiento es un día, yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="The due date is not before the start" locale="es" localized="La fecha de vencimiento no es anterior al inicio"/>
+    <moqui.basic.LocalizedMessage original="The entry runs past the next day" locale="es" localized="El registro se pasa del día siguiente"/>
+    <moqui.basic.LocalizedMessage original="The file has no date column (date, or start with a date)" locale="es" localized="El archivo no tiene columna de fecha (date, o start con una fecha)"/>
+    <moqui.basic.LocalizedMessage original="The file has no hours column, nor start and end" locale="es" localized="El archivo no tiene columna de horas, ni start y end"/>
+    <moqui.basic.LocalizedMessage original="The gate has no approver" locale="es" localized="La compuerta no tiene aprobador"/>
+    <moqui.basic.LocalizedMessage original="The hours ${hours} are not a number" locale="es" localized="Las horas ${hours} no son un número"/>
+    <moqui.basic.LocalizedMessage original="The hours are more than 0 and at most 24" locale="es" localized="Las horas son mayores que 0 y como máximo 24"/>
+    <moqui.basic.LocalizedMessage original="The lag is 0 or more working days" locale="es" localized="El desfase es de 0 o más días hábiles"/>
+    <moqui.basic.LocalizedMessage original="The last day is on or after the first" locale="es" localized="El último día es igual o posterior al primero"/>
+    <moqui.basic.LocalizedMessage original="The milestone is not open" locale="es" localized="El hito no está abierto"/>
+    <moqui.basic.LocalizedMessage original="The milestone needs no approval: set its gate first" locale="es" localized="El hito no necesita aprobación: definir primero su compuerta"/>
+    <moqui.basic.LocalizedMessage original="The notes of each release of the project." locale="es" localized="Las notas de cada lanzamiento del proyecto."/>
+    <moqui.basic.LocalizedMessage original="The order is cancelled" locale="es" localized="La orden está cancelada"/>
+    <moqui.basic.LocalizedMessage original="The order is not to the project's client" locale="es" localized="La orden no es para el cliente del proyecto"/>
+    <moqui.basic.LocalizedMessage original="The order line is not of this project or its client" locale="es" localized="La línea de la orden no es de este proyecto ni de su cliente"/>
+    <moqui.basic.LocalizedMessage original="The pages of the project: guides, decisions and release notes." locale="es" localized="Las páginas del proyecto: guías, decisiones y notas de la versión."/>
+    <moqui.basic.LocalizedMessage original="The parent ${parent} is not in the file or the project; imported at the top level" locale="es" localized="El padre ${parent} no está en el archivo ni en el proyecto; se importó en el nivel superior"/>
+    <moqui.basic.LocalizedMessage original="The parent ${parent} was not imported; at the top level" locale="es" localized="El padre ${parent} no se importó; queda en el nivel superior"/>
+    <moqui.basic.LocalizedMessage original="The percent complete is from 0 to 100" locale="es" localized="El porcentaje completado va de 0 a 100"/>
+    <moqui.basic.LocalizedMessage original="The project has no client rate: the amounts are left out." locale="es" localized="El proyecto no tiene tarifa de cliente: se omiten los importes."/>
+    <moqui.basic.LocalizedMessage original="The project has no client to approve its estimate" locale="es" localized="El proyecto no tiene cliente que apruebe su estimación"/>
+    <moqui.basic.LocalizedMessage original="The project has no repository" locale="es" localized="El proyecto no tiene repositorio"/>
+    <moqui.basic.LocalizedMessage original="The project itself" locale="es" localized="El proyecto en sí"/>
+    <moqui.basic.LocalizedMessage original="The reminder day is from 1 (Monday) to 7 (Sunday)" locale="es" localized="El día del recordatorio va del 1 (lunes) al 7 (domingo)"/>
+    <moqui.basic.LocalizedMessage original="The reminder hour is from 0 to 23" locale="es" localized="La hora del recordatorio va de 0 a 23"/>
+    <moqui.basic.LocalizedMessage original="The smallest entry is more than 0 and at most 8 hours" locale="es" localized="El registro mínimo es mayor que 0 y como máximo 8 horas"/>
+    <moqui.basic.LocalizedMessage original="The start is a day, yyyy-MM-dd" locale="es" localized="El inicio es un día, yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="The start is yyyy-MM-dd HH:mm" locale="es" localized="El inicio es yyyy-MM-dd HH:mm"/>
+    <moqui.basic.LocalizedMessage original="The tasks assigned to you" locale="es" localized="Las tareas que tiene asignadas"/>
+    <moqui.basic.LocalizedMessage original="The time file has no header line" locale="es" localized="El archivo de tiempo no tiene línea de encabezado"/>
+    <moqui.basic.LocalizedMessage original="The time file is empty" locale="es" localized="El archivo de tiempo está vacío"/>
+    <moqui.basic.LocalizedMessage original="The timer is already running" locale="es" localized="El cronómetro ya está en marcha"/>
+    <moqui.basic.LocalizedMessage original="The timesheet policy is too long to store" locale="es" localized="La política de la hoja de horas es demasiado larga para guardarla"/>
+    <moqui.basic.LocalizedMessage original="The week of ${day} is submitted: its time is locked" locale="es" localized="La semana de ${day} está presentada: su tiempo está bloqueado"/>
+    <moqui.basic.LocalizedMessage original="The week starts on a day from 1 (Monday) to 7 (Sunday)" locale="es" localized="La semana empieza un día del 1 (lunes) al 7 (domingo)"/>
+    <moqui.basic.LocalizedMessage original="The work item file has no header line" locale="es" localized="El archivo de elementos de trabajo no tiene línea de encabezado"/>
+    <moqui.basic.LocalizedMessage original="The work item file is empty" locale="es" localized="El archivo de elementos de trabajo está vacío"/>
+    <moqui.basic.LocalizedMessage original="These pages are markdown files in the docs folder of the repository, beside the code: each save is a commit." locale="es" localized="Estas páginas son archivos markdown en la carpeta docs del repositorio, junto al código: cada guardado es un commit."/>
+    <moqui.basic.LocalizedMessage original="This approval was decided already" locale="es" localized="Esta aprobación ya se decidió"/>
+    <moqui.basic.LocalizedMessage original="This request is closed" locale="es" localized="Esta solicitud está cerrada"/>
+    <moqui.basic.LocalizedMessage original="This week is already submitted" locale="es" localized="Esta semana ya está presentada"/>
+    <moqui.basic.LocalizedMessage original="This week is not available" locale="es" localized="Esta semana no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Time Entry ${timeEntryId} not found" locale="es" localized="Registro de tiempo ${timeEntryId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Time Entry not created, ${party.pseudoId} is not active." locale="es" localized="No se creó el registro de tiempo; ${party.pseudoId} no está activo."/>
+    <moqui.basic.LocalizedMessage original="Time Entry or ID required" locale="es" localized="Se requiere el registro de tiempo o el ID"/>
+    <moqui.basic.LocalizedMessage original="Time Period ${timePeriodId} has no fromDate" locale="es" localized="El periodo de tiempo ${timePeriodId} no tiene fromDate"/>
+    <moqui.basic.LocalizedMessage original="Time Period ${timePeriodId} has no thruDate" locale="es" localized="El periodo de tiempo ${timePeriodId} no tiene thruDate"/>
+    <moqui.basic.LocalizedMessage original="Time Period ${timePeriodId} not found" locale="es" localized="Periodo de tiempo ${timePeriodId} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Time Period or ID required" locale="es" localized="Se requiere el periodo de tiempo o el ID"/>
+    <moqui.basic.LocalizedMessage original="Time is not logged on future days" locale="es" localized="No se registra tiempo en días futuros"/>
+    <moqui.basic.LocalizedMessage original="Time on no work item" locale="es" localized="Tiempo sin elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Time period is invalid" locale="es" localized="El periodo de tiempo no es válido"/>
+    <moqui.basic.LocalizedMessage original="Timer discarded: under a minute" locale="es" localized="Cronómetro descartado: menos de un minuto"/>
+    <moqui.basic.LocalizedMessage original="Timer on no work item" locale="es" localized="Cronómetro sin elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="To Party ${toPartyId} is disabled, not merging into it" locale="es" localized="El participante de destino ${toPartyId} está desactivado; no se fusiona en él"/>
+    <moqui.basic.LocalizedMessage original="To update account must specify either userId or partyId" locale="es" localized="Para actualizar la cuenta se debe indicar userId o partyId"/>
+    <moqui.basic.LocalizedMessage original="Too many work types offered to store; offer fewer" locale="es" localized="Demasiados tipos de trabajo para guardar; ofrecer menos"/>
+    <moqui.basic.LocalizedMessage original="Top level" locale="es" localized="Nivel superior"/>
+    <moqui.basic.LocalizedMessage original="Tried to create missing children but could not find parent period type for target type ${targetPeriodType.description}" locale="es" localized="Se intentó crear los hijos que faltan, pero no se encontró el tipo de periodo padre del tipo de destino ${targetPeriodType.description}"/>
+    <moqui.basic.LocalizedMessage original="Tried to return more than is returnable; quantity billed ${invoiceQuantity}, already returned ${returnedQuantity}, tried to return ${returnQuantity}" locale="es" localized="Se intentó devolver más de lo posible; cantidad facturada ${invoiceQuantity}, ya devuelta ${returnedQuantity}, se intentó devolver ${returnQuantity}"/>
+    <moqui.basic.LocalizedMessage original="Unable to issue ${ec.l10n.format(quantityRemaining, '0.00')} out of quantity specified (${ec.l10n.format(quantity, '0.00')}) for Shipment Item Source ${shipmentItemSourceId}, not packing" locale="es" localized="No se puede dar salida a ${ec.l10n.format(quantityRemaining, '0.00')} de la cantidad indicada (${ec.l10n.format(quantity, '0.00')}) del origen de elemento de envío ${shipmentItemSourceId}; no se empaca"/>
+    <moqui.basic.LocalizedMessage original="Unable to issue ${quantityRemaining} out of quantity requested ${quantity}, insufficient inventory on hand for shipment ${shipmentId}" locale="es" localized="No se puede dar salida a ${quantityRemaining} de la cantidad solicitada ${quantity}; inventario en existencia insuficiente para el envío ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Unable to remove reservations for ${quantityToDeduct} out of ${toDecimal(quantityRemaining).negate()} attempted, not enough quantity reserved and not issued" locale="es" localized="No se pueden quitar reservas por ${quantityToDeduct} de ${toDecimal(quantityRemaining).negate()} intentado; no hay bastante cantidad reservada y sin salida"/>
+    <moqui.basic.LocalizedMessage original="Updated Acquire Cost to ${acquireCost?.toString()} on ${assetList.length} Asset records for Product ${productId}, Facility ${facilityId||'*'}, Received From ${receivedDate_from||'*'} Thru ${receivedDate_thru||'*'}" locale="es" localized="Costo de adquisición actualizado a ${acquireCost?.toString()} en ${assetList.length} activos del producto ${productId}, instalación ${facilityId||'*'}, recibido de ${receivedDate_from||'*'} a ${receivedDate_thru||'*'}"/>
+    <moqui.basic.LocalizedMessage original="Value ${settingValue} is not valid" locale="es" localized="El valor ${settingValue} no es válido"/>
+    <moqui.basic.LocalizedMessage original="Verify Location did not match move From Location" locale="es" localized="La ubicación de verificación no coincidió con la ubicación de origen del movimiento"/>
+    <moqui.basic.LocalizedMessage original="Warning: salary amount ${amount} is greater than pay grade maximum amount (${payGradeSalary.maxAmount})" locale="es" localized="Advertencia: el salario ${amount} supera el máximo del grado salarial (${payGradeSalary.maxAmount})"/>
+    <moqui.basic.LocalizedMessage original="Warning: salary amount ${amount} is less than pay grade minimum amount (${payGradeSalary.minAmount})" locale="es" localized="Advertencia: el salario ${amount} es menor que el mínimo del grado salarial (${payGradeSalary.minAmount})"/>
+    <moqui.basic.LocalizedMessage original="We will be in touch. To add to it, reply to this email." locale="es" localized="Nos pondremos en contacto. Para añadir algo, responder a este correo."/>
+    <moqui.basic.LocalizedMessage original="Week approved" locale="es" localized="Semana aprobada"/>
+    <moqui.basic.LocalizedMessage original="Week of ${week}" locale="es" localized="Semana de ${week}"/>
+    <moqui.basic.LocalizedMessage original="Week reopened" locale="es" localized="Semana reabierta"/>
+    <moqui.basic.LocalizedMessage original="Week returned" locale="es" localized="Semana devuelta"/>
+    <moqui.basic.LocalizedMessage original="Week submitted for approval" locale="es" localized="Semana presentada para aprobación"/>
+    <moqui.basic.LocalizedMessage original="Which instance of the recurring event: instanceStart is missing" locale="es" localized="Cuál instancia del evento recurrente: falta instanceStart"/>
+    <moqui.basic.LocalizedMessage original="With no previousPeriodId or nextPeriodId must specify fromDate or thruDate" locale="es" localized="Sin previousPeriodId ni nextPeriodId se debe indicar fromDate o thruDate"/>
+    <moqui.basic.LocalizedMessage original="With no previousPeriodId or nextPeriodId must specify partyId" locale="es" localized="Sin previousPeriodId ni nextPeriodId se debe indicar partyId"/>
+    <moqui.basic.LocalizedMessage original="With no previousPeriodId or nextPeriodId must specify timePeriodTypeId" locale="es" localized="Sin previousPeriodId ni nextPeriodId se debe indicar timePeriodTypeId"/>
+    <moqui.basic.LocalizedMessage original="Work Effort ${workEffortId} is not a Picklist (Shipment Load/Ship)" locale="es" localized="La actividad ${workEffortId} no es una lista de surtido (Envío: cargar/despachar)"/>
+    <moqui.basic.LocalizedMessage original="Work item" locale="es" localized="Elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Work item ${id} not found" locale="es" localized="Elemento de trabajo ${id} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Work item ${key} is not available" locale="es" localized="El elemento de trabajo ${key} no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Workers' comp rates must be negative adjustments." locale="es" localized="Las tasas de compensación laboral deben ser ajustes negativos."/>
+    <moqui.basic.LocalizedMessage original="You are not an approver of this week" locale="es" localized="No es el aprobador de esta semana"/>
+    <moqui.basic.LocalizedMessage original="You didn't say you were sure you want to generate a bunch of orders" locale="es" localized="No se confirmó estar seguro de querer generar un montón de órdenes"/>
+    <moqui.basic.LocalizedMessage original="You do not approve your own week" locale="es" localized="No se aprueba la propia semana"/>
+    <moqui.basic.LocalizedMessage original="You do not return your own week" locale="es" localized="No se devuelve la propia semana"/>
+    <moqui.basic.LocalizedMessage original="You may not change this allocation" locale="es" localized="No se puede cambiar esta asignación"/>
+    <moqui.basic.LocalizedMessage original="You may not log time for ${name}" locale="es" localized="No se puede registrar tiempo de ${name}"/>
+    <moqui.basic.LocalizedMessage original="allocated" locale="es" localized="asignado"/>
+    <moqui.basic.LocalizedMessage original="approved" locale="es" localized="aprobado"/>
+    <moqui.basic.LocalizedMessage original="cancelled" locale="es" localized="cancelado"/>
+    <moqui.basic.LocalizedMessage original="documentation" locale="es" localized="documentación"/>
+    <moqui.basic.LocalizedMessage original="merged" locale="es" localized="fusionado"/>
+    <moqui.basic.LocalizedMessage original="no rate" locale="es" localized="sin tarifa"/>
+    <moqui.basic.LocalizedMessage original="partyRelationshipId or employment is required." locale="es" localized="Se requiere partyRelationshipId o el empleo."/>
+    <moqui.basic.LocalizedMessage original="person" locale="es" localized="persona"/>
+    <moqui.basic.LocalizedMessage original="refused" locale="es" localized="rechazado"/>
+    <moqui.basic.LocalizedMessage original="rejected" locale="es" localized="rechazado"/>
+    <moqui.basic.LocalizedMessage original="requested" locale="es" localized="solicitado"/>
+    <moqui.basic.LocalizedMessage original="the project has no documentation space" locale="es" localized="el proyecto no tiene espacio de documentación"/>
+    <moqui.basic.LocalizedMessage original="the project has no repository you may update" locale="es" localized="el proyecto no tiene un repositorio que se pueda actualizar"/>
+    <moqui.basic.LocalizedMessage original="withdrawn" locale="es" localized="retirado"/>
+</entity-facade-xml>

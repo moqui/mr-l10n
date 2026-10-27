@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="A request completes when its work does (Y or N)" locale="es" localized="Una solicitud se completa cuando lo hace su trabajo (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Accept Assignment" locale="es" localized="Aceptar asignación"/>
+    <moqui.basic.LocalizedMessage original="Accept Tentatively" locale="es" localized="Aceptar de forma tentativa"/>
+    <moqui.basic.LocalizedMessage original="Added" locale="es" localized="Añadido"/>
+    <moqui.basic.LocalizedMessage original="All Users" locale="es" localized="Todos los usuarios"/>
+    <moqui.basic.LocalizedMessage original="Allocated" locale="es" localized="Asignado"/>
+    <moqui.basic.LocalizedMessage original="Also Used" locale="es" localized="También utilizado"/>
+    <moqui.basic.LocalizedMessage original="Approval required (Y or N)" locale="es" localized="Aprobación requerida (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Approver (partyId)" locale="es" localized="Aprobador (partyId)"/>
+    <moqui.basic.LocalizedMessage original="Arrive" locale="es" localized="Llegar"/>
+    <moqui.basic.LocalizedMessage original="Arrived" locale="es" localized="Llegado"/>
+    <moqui.basic.LocalizedMessage original="Assembling" locale="es" localized="Ensamble"/>
+    <moqui.basic.LocalizedMessage original="Asset Usage (Rental)" locale="es" localized="Uso de activo (alquiler)"/>
+    <moqui.basic.LocalizedMessage original="Assign" locale="es" localized="Asignar"/>
+    <moqui.basic.LocalizedMessage original="At Risk" locale="es" localized="En riesgo"/>
+    <moqui.basic.LocalizedMessage original="Available" locale="es" localized="Disponible"/>
+    <moqui.basic.LocalizedMessage original="Back to Review" locale="es" localized="Volver a revisión"/>
+    <moqui.basic.LocalizedMessage original="Back to Testing" locale="es" localized="Volver a pruebas"/>
+    <moqui.basic.LocalizedMessage original="Based On" locale="es" localized="Basado en"/>
+    <moqui.basic.LocalizedMessage original="Begin" locale="es" localized="Comenzar"/>
+    <moqui.basic.LocalizedMessage original="Billing basis" locale="es" localized="Base de facturación"/>
+    <moqui.basic.LocalizedMessage original="Branch name" locale="es" localized="Nombre de la rama"/>
+    <moqui.basic.LocalizedMessage original="Branch name pattern" locale="es" localized="Patrón del nombre de la rama"/>
+    <moqui.basic.LocalizedMessage original="Bug Fix" locale="es" localized="Corrección de error"/>
+    <moqui.basic.LocalizedMessage original="Business Travel" locale="es" localized="Viaje de negocios"/>
+    <moqui.basic.LocalizedMessage original="Busy" locale="es" localized="Ocupado"/>
+    <moqui.basic.LocalizedMessage original="Calendar Kind" locale="es" localized="Tipo de calendario"/>
+    <moqui.basic.LocalizedMessage original="Calendar Permission" locale="es" localized="Permiso de calendario"/>
+    <moqui.basic.LocalizedMessage original="Calendar Subscription Provider" locale="es" localized="Proveedor de suscripción de calendario"/>
+    <moqui.basic.LocalizedMessage original="Cannot Reproduce" locale="es" localized="No reproducible"/>
+    <moqui.basic.LocalizedMessage original="Caused By" locale="es" localized="Causado por"/>
+    <moqui.basic.LocalizedMessage original="Client Project" locale="es" localized="Proyecto de cliente"/>
+    <moqui.basic.LocalizedMessage original="Client sign-in (Y or N)" locale="es" localized="Inicio de sesión del cliente (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Clones" locale="es" localized="Clona"/>
+    <moqui.basic.LocalizedMessage original="Commit message" locale="es" localized="Mensaje de commit"/>
+    <moqui.basic.LocalizedMessage original="Communication" locale="es" localized="Comunicación"/>
+    <moqui.basic.LocalizedMessage original="Completely Finished" locale="es" localized="Completamente terminado"/>
+    <moqui.basic.LocalizedMessage original="Component" locale="es" localized="Componente"/>
+    <moqui.basic.LocalizedMessage original="Confirm complete" locale="es" localized="Confirmar completado"/>
+    <moqui.basic.LocalizedMessage original="Created Media" locale="es" localized="Medios creados"/>
+    <moqui.basic.LocalizedMessage original="Decline Assignment" locale="es" localized="Declinar asignación"/>
+    <moqui.basic.LocalizedMessage original="Declined" locale="es" localized="Declinado"/>
+    <moqui.basic.LocalizedMessage original="Default request type (RequestType enumId)" locale="es" localized="Tipo de solicitud predeterminado (RequestType enumId)"/>
+    <moqui.basic.LocalizedMessage original="Deliverable Type" locale="es" localized="Tipo de entregable"/>
+    <moqui.basic.LocalizedMessage original="Deny Request" locale="es" localized="Denegar solicitud"/>
+    <moqui.basic.LocalizedMessage original="Depart" locale="es" localized="Salir"/>
+    <moqui.basic.LocalizedMessage original="Departed" locale="es" localized="Salido"/>
+    <moqui.basic.LocalizedMessage original="Depends On (Blocked By)" locale="es" localized="Depende de (bloqueado por)"/>
+    <moqui.basic.LocalizedMessage original="Deployment" locale="es" localized="Despliegue"/>
+    <moqui.basic.LocalizedMessage original="Development: In Progress, In Review, In Testing, Complete" locale="es" localized="Desarrollo: en progreso, en revisión, en pruebas, completado"/>
+    <moqui.basic.LocalizedMessage original="Discussion" locale="es" localized="Discusión"/>
+    <moqui.basic.LocalizedMessage original="Documentation space (wikiSpaceId)" locale="es" localized="Espacio de documentación (wikiSpaceId)"/>
+    <moqui.basic.LocalizedMessage original="Duplicate" locale="es" localized="Duplicado"/>
+    <moqui.basic.LocalizedMessage original="Duplicates" locale="es" localized="Duplica"/>
+    <moqui.basic.LocalizedMessage original="East (90°)" locale="es" localized="Este (90°)"/>
+    <moqui.basic.LocalizedMessage original="East Northeast (67.5°)" locale="es" localized="Estenoreste (67.5°)"/>
+    <moqui.basic.LocalizedMessage original="East Southeast (112.5°)" locale="es" localized="Estesureste (112.5°)"/>
+    <moqui.basic.LocalizedMessage original="Estimate" locale="es" localized="Estimación"/>
+    <moqui.basic.LocalizedMessage original="Estimate milestone (workEffortId)" locale="es" localized="Hito de estimación (workEffortId)"/>
+    <moqui.basic.LocalizedMessage original="Estimate unit (hours or points)" locale="es" localized="Unidad de estimación (horas o puntos)"/>
+    <moqui.basic.LocalizedMessage original="Feature Enhancement" locale="es" localized="Mejora de función"/>
+    <moqui.basic.LocalizedMessage original="Feature Test" locale="es" localized="Prueba de función"/>
+    <moqui.basic.LocalizedMessage original="Fixes keywords in commits complete work items (Y or N)" locale="es" localized="Las palabras clave Fixes en los commits completan los elementos de trabajo (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="For Your Information" locale="es" localized="Para su información"/>
+    <moqui.basic.LocalizedMessage original="General (public access)" locale="es" localized="General (acceso público)"/>
+    <moqui.basic.LocalizedMessage original="Google Calendar" locale="es" localized="Google Calendar"/>
+    <moqui.basic.LocalizedMessage original="Hours shared with the client (Y or N)" locale="es" localized="Horas compartidas con el cliente (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="IT Security" locale="es" localized="Seguridad informática"/>
+    <moqui.basic.LocalizedMessage original="Immediate Response Requested" locale="es" localized="Respuesta inmediata solicitada"/>
+    <moqui.basic.LocalizedMessage original="In Planning" locale="es" localized="En planificación"/>
+    <moqui.basic.LocalizedMessage original="In Progress" locale="es" localized="En progreso"/>
+    <moqui.basic.LocalizedMessage original="In Review" locale="es" localized="En revisión"/>
+    <moqui.basic.LocalizedMessage original="In Testing" locale="es" localized="En pruebas"/>
+    <moqui.basic.LocalizedMessage original="In-Process" locale="es" localized="En proceso"/>
+    <moqui.basic.LocalizedMessage original="Incomplete" locale="es" localized="Incompleto"/>
+    <moqui.basic.LocalizedMessage original="Independent Of (Concurrent)" locale="es" localized="Independiente de (concurrente)"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Information" locale="es" localized="Información insuficiente"/>
+    <moqui.basic.LocalizedMessage original="Intake mail account (emailAccountId)" locale="es" localized="Cuenta de correo de recepción (emailAccountId)"/>
+    <moqui.basic.LocalizedMessage original="Intake plus tag" locale="es" localized="Etiqueta plus de recepción"/>
+    <moqui.basic.LocalizedMessage original="Inventory Origin" locale="es" localized="Origen del inventario"/>
+    <moqui.basic.LocalizedMessage original="Invoice grouping" locale="es" localized="Agrupación de facturas"/>
+    <moqui.basic.LocalizedMessage original="Involvement Requested" locale="es" localized="Participación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Involvement Required" locale="es" localized="Participación requerida"/>
+    <moqui.basic.LocalizedMessage original="Maintenance" locale="es" localized="Mantenimiento"/>
+    <moqui.basic.LocalizedMessage original="Make changes and manage sharing" locale="es" localized="Hacer cambios y administrar el uso compartido"/>
+    <moqui.basic.LocalizedMessage original="Make changes to events" locale="es" localized="Hacer cambios en los eventos"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing" locale="es" localized="Fabricación"/>
+    <moqui.basic.LocalizedMessage original="Marketing" locale="es" localized="Marketing"/>
+    <moqui.basic.LocalizedMessage original="Measurement Reason" locale="es" localized="Motivo de medición"/>
+    <moqui.basic.LocalizedMessage original="Merge request branch" locale="es" localized="Rama de la solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Merge request text" locale="es" localized="Texto de la solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Merge requests move work items (Y or N)" locale="es" localized="Las solicitudes de fusión mueven los elementos de trabajo (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Milestone" locale="es" localized="Hito"/>
+    <moqui.basic.LocalizedMessage original="Modules (the project's tabs on, a comma list)" locale="es" localized="Módulos (pestañas activas del proyecto, una lista separada por comas)"/>
+    <moqui.basic.LocalizedMessage original="My Part Finished" locale="es" localized="Mi parte terminada"/>
+    <moqui.basic.LocalizedMessage original="Need Support or Help" locale="es" localized="Necesita apoyo o ayuda"/>
+    <moqui.basic.LocalizedMessage original="New Feature" locale="es" localized="Función nueva"/>
+    <moqui.basic.LocalizedMessage original="New work items shared with the client (Y or N)" locale="es" localized="Elementos de trabajo nuevos compartidos con el cliente (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="North (0°)" locale="es" localized="Norte (0°)"/>
+    <moqui.basic.LocalizedMessage original="North Northeast (22.5°)" locale="es" localized="Nornoreste (22.5°)"/>
+    <moqui.basic.LocalizedMessage original="North Northwest (337.5°)" locale="es" localized="Nornoroeste (337.5°)"/>
+    <moqui.basic.LocalizedMessage original="Northeast (45°)" locale="es" localized="Noreste (45°)"/>
+    <moqui.basic.LocalizedMessage original="Northwest (315°)" locale="es" localized="Noroeste (315°)"/>
+    <moqui.basic.LocalizedMessage original="Off Track" locale="es" localized="Fuera de camino"/>
+    <moqui.basic.LocalizedMessage original="Offer" locale="es" localized="Ofrecer"/>
+    <moqui.basic.LocalizedMessage original="Offered" locale="es" localized="Ofrecido"/>
+    <moqui.basic.LocalizedMessage original="On Hold" locale="es" localized="En espera"/>
+    <moqui.basic.LocalizedMessage original="On Track" locale="es" localized="En buen camino"/>
+    <moqui.basic.LocalizedMessage original="Organization Management" locale="es" localized="Gestión de la organización"/>
+    <moqui.basic.LocalizedMessage original="Other, more lenient, status transitions for WorkEffort" locale="es" localized="Otras transiciones de estado, más permisivas, para la actividad"/>
+    <moqui.basic.LocalizedMessage original="Phone Call" locale="es" localized="Llamada telefónica"/>
+    <moqui.basic.LocalizedMessage original="Placeholder" locale="es" localized="Marcador de posición"/>
+    <moqui.basic.LocalizedMessage original="Produce" locale="es" localized="Producir"/>
+    <moqui.basic.LocalizedMessage original="Product Development" locale="es" localized="Desarrollo de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Fulfillment" locale="es" localized="Cumplimiento de producto"/>
+    <moqui.basic.LocalizedMessage original="Production Run" locale="es" localized="Ejecución de producción"/>
+    <moqui.basic.LocalizedMessage original="Project" locale="es" localized="Proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Client" locale="es" localized="Cliente del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Update" locale="es" localized="Actualización del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Project Vendor" locale="es" localized="Vendedor del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Proposal" locale="es" localized="Propuesta"/>
+    <moqui.basic.LocalizedMessage original="Public request form token" locale="es" localized="Token del formulario público de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Re-open" locale="es" localized="Reabrir"/>
+    <moqui.basic.LocalizedMessage original="Recurrence Instance" locale="es" localized="Instancia de recurrencia"/>
+    <moqui.basic.LocalizedMessage original="Refused" locale="es" localized="Rechazado"/>
+    <moqui.basic.LocalizedMessage original="Relates To" locale="es" localized="Se relaciona con"/>
+    <moqui.basic.LocalizedMessage original="Release Notes" locale="es" localized="Notas de la versión"/>
+    <moqui.basic.LocalizedMessage original="Release version" locale="es" localized="Versión del lanzamiento"/>
+    <moqui.basic.LocalizedMessage original="Repositories shared with the client read only (Y or N)" locale="es" localized="Repositorios compartidos con el cliente de solo lectura (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Request Again" locale="es" localized="Solicitar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Request Denied" locale="es" localized="Solicitud denegada"/>
+    <moqui.basic.LocalizedMessage original="Request again" locale="es" localized="Solicitar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Request types offered (RequestType ids, a comma list)" locale="es" localized="Tipos de solicitud ofrecidos (RequestType ids, una lista separada por comas)"/>
+    <moqui.basic.LocalizedMessage original="Requirement" locale="es" localized="Requisito"/>
+    <moqui.basic.LocalizedMessage original="Research" locale="es" localized="Investigación"/>
+    <moqui.basic.LocalizedMessage original="Resource" locale="es" localized="Recurso"/>
+    <moqui.basic.LocalizedMessage original="Restricted (private access)" locale="es" localized="Restringido (acceso privado)"/>
+    <moqui.basic.LocalizedMessage original="Routing" locale="es" localized="Ruta"/>
+    <moqui.basic.LocalizedMessage original="Routing Component" locale="es" localized="Componente de ruta"/>
+    <moqui.basic.LocalizedMessage original="Routing Task" locale="es" localized="Tarea de ruta"/>
+    <moqui.basic.LocalizedMessage original="See only free/busy" locale="es" localized="Ver solo libre/ocupado"/>
+    <moqui.basic.LocalizedMessage original="Several active sprints (Y or N)" locale="es" localized="Varios sprints activos (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Shipment Pick/Load/Ship" locale="es" localized="Envío: recoger/cargar/enviar"/>
+    <moqui.basic.LocalizedMessage original="Shipment Receive" locale="es" localized="Recepción de envío"/>
+    <moqui.basic.LocalizedMessage original="Sixteen Point Compass" locale="es" localized="Brújula de dieciséis puntos"/>
+    <moqui.basic.LocalizedMessage original="South (180°)" locale="es" localized="Sur (180°)"/>
+    <moqui.basic.LocalizedMessage original="South Southeast (157.5°)" locale="es" localized="Sursureste (157.5°)"/>
+    <moqui.basic.LocalizedMessage original="South Southwest (202.5°)" locale="es" localized="Sursuroeste (202.5°)"/>
+    <moqui.basic.LocalizedMessage original="Southeast (135°)" locale="es" localized="Sureste (135°)"/>
+    <moqui.basic.LocalizedMessage original="Southwest (225°)" locale="es" localized="Suroeste (225°)"/>
+    <moqui.basic.LocalizedMessage original="Sprint" locale="es" localized="Sprint"/>
+    <moqui.basic.LocalizedMessage original="Sub-contracting" locale="es" localized="Subcontratación"/>
+    <moqui.basic.LocalizedMessage original="Subscription" locale="es" localized="Suscripción"/>
+    <moqui.basic.LocalizedMessage original="Supporting Media" locale="es" localized="Medios de apoyo"/>
+    <moqui.basic.LocalizedMessage original="Tag message" locale="es" localized="Mensaje de la etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Tag name" locale="es" localized="Nombre de la etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Task trailer" locale="es" localized="Tráiler de la tarea"/>
+    <moqui.basic.LocalizedMessage original="Tentative" locale="es" localized="Tentativo"/>
+    <moqui.basic.LocalizedMessage original="Time Off" locale="es" localized="Tiempo libre"/>
+    <moqui.basic.LocalizedMessage original="Time detail on invoices (Y or N)" locale="es" localized="Detalle de tiempo en las facturas (Y o N)"/>
+    <moqui.basic.LocalizedMessage original="Timesheet" locale="es" localized="Hoja de horas"/>
+    <moqui.basic.LocalizedMessage original="To Do" locale="es" localized="Por hacer"/>
+    <moqui.basic.LocalizedMessage original="Top Secret (confidential access)" locale="es" localized="Alto secreto (acceso confidencial)"/>
+    <moqui.basic.LocalizedMessage original="Training" locale="es" localized="Capacitación"/>
+    <moqui.basic.LocalizedMessage original="Triage assignee (partyId)" locale="es" localized="Responsable de triaje (partyId)"/>
+    <moqui.basic.LocalizedMessage original="Unassign" locale="es" localized="Desasignar"/>
+    <moqui.basic.LocalizedMessage original="Unassigned" locale="es" localized="Sin asignar"/>
+    <moqui.basic.LocalizedMessage original="Unresolved" locale="es" localized="Sin resolver"/>
+    <moqui.basic.LocalizedMessage original="View all event details" locale="es" localized="Ver todos los detalles del evento"/>
+    <moqui.basic.LocalizedMessage original="West (270°)" locale="es" localized="Oeste (270°)"/>
+    <moqui.basic.LocalizedMessage original="West Northwest (292.5°)" locale="es" localized="Oestenoroeste (292.5°)"/>
+    <moqui.basic.LocalizedMessage original="West Southwest (247.5°)" locale="es" localized="Oestesuroeste (247.5°)"/>
+    <moqui.basic.LocalizedMessage original="Won't Complete" locale="es" localized="No se completará"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Allocation" locale="es" localized="Asignación de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Approval" locale="es" localized="Aprobación de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Asset Assignment Status" locale="es" localized="Estado de la asignación de activo de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Association Type" locale="es" localized="Tipo de asociación de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Category Type" locale="es" localized="Tipo de categoría de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Content Type" locale="es" localized="Tipo de contenido de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Facility Status" locale="es" localized="Estado de instalación de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Facility Type" locale="es" localized="Tipo de instalación de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Git Link Source" locale="es" localized="Origen del enlace de Git de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Health" locale="es" localized="Salud de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Availability" locale="es" localized="Disponibilidad del participante de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Delegate Reason" locale="es" localized="Motivo de delegación del participante de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Expectation" locale="es" localized="Expectativa del participante de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Party Status" locale="es" localized="Estado del participante de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Product Status" locale="es" localized="Estado del producto de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Product Type" locale="es" localized="Tipo de producto de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Purpose" locale="es" localized="Propósito de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Reminder Method" locale="es" localized="Método de recordatorio de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Resolution" locale="es" localized="Resolución de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Setting Type" locale="es" localized="Tipo de configuración de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Status" locale="es" localized="Estado de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Type" locale="es" localized="Tipo de actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Visibility" locale="es" localized="Visibilidad de la actividad"/>
+    <moqui.basic.LocalizedMessage original="Work Group (group only access)" locale="es" localized="Grupo de trabajo (acceso solo del grupo)"/>
+    <moqui.basic.LocalizedMessage original="Work item types offered (WorkEffortPurpose ids, a comma list)" locale="es" localized="Tipos de elemento de trabajo ofrecidos (WorkEffortPurpose ids, una lista separada por comas)"/>
+    <moqui.basic.LocalizedMessage original="iCalendar URL" locale="es" localized="URL de iCalendar"/>
+</entity-facade-xml>

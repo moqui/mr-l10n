@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="GL Reconciliation Status" locale="es" localized="Estado de conciliación GL"/>
+    <moqui.basic.LocalizedMessage original="GL Resource Type" locale="es" localized="Tipo de recurso GL"/>
+    <moqui.basic.LocalizedMessage original="GL XBRL Class" locale="es" localized="Clase XBRL GL"/>
+    <moqui.basic.LocalizedMessage original="Garnishment" locale="es" localized="Embargo salarial"/>
+    <moqui.basic.LocalizedMessage original="Garnishment Invoice" locale="es" localized="Factura de embargo salarial"/>
+    <moqui.basic.LocalizedMessage original="General and Administrative Expense" locale="es" localized="Gasto general y administrativo"/>
+    <moqui.basic.LocalizedMessage original="Generic credit" locale="es" localized="Crédito genérico"/>
+    <moqui.basic.LocalizedMessage original="Generic debit" locale="es" localized="Débito genérico"/>
+    <moqui.basic.LocalizedMessage original="Gift Certificate" locale="es" localized="Certificado de regalo"/>
+    <moqui.basic.LocalizedMessage original="Good Freight Cost" locale="es" localized="Costo de flete de mercancía"/>
+    <moqui.basic.LocalizedMessage original="Good Royalties Cost" locale="es" localized="Costo de regalías de mercancía"/>
+    <moqui.basic.LocalizedMessage original="Good and Material Cost" locale="es" localized="Costo de mercancía y material"/>
+    <moqui.basic.LocalizedMessage original="Goods Revenue" locale="es" localized="Ingreso por mercancías"/>
+    <moqui.basic.LocalizedMessage original="Gross Profit" locale="es" localized="Utilidad bruta"/>
+    <moqui.basic.LocalizedMessage original="Head Employer" locale="es" localized="Capitación del empleador"/>
+    <moqui.basic.LocalizedMessage original="Health Insurance" locale="es" localized="Seguro de salud"/>
+    <moqui.basic.LocalizedMessage original="Holiday Hourly" locale="es" localized="Festivo por hora"/>
+    <moqui.basic.LocalizedMessage original="Holiday Salary" locale="es" localized="Salario festivo"/>
+    <moqui.basic.LocalizedMessage original="Hourly Earnings" locale="es" localized="Ganancias por hora"/>
+    <moqui.basic.LocalizedMessage original="Incentive" locale="es" localized="Incentivo"/>
+    <moqui.basic.LocalizedMessage original="Income" locale="es" localized="Ingreso"/>
+    <moqui.basic.LocalizedMessage original="Incoming Payment" locale="es" localized="Pago entrante"/>
+    <moqui.basic.LocalizedMessage original="Incoming Payment Application" locale="es" localized="Aplicación de pago entrante"/>
+    <moqui.basic.LocalizedMessage original="Incoming/Payable/Purchase Items" locale="es" localized="Elementos de entrada/por pagar/de compra"/>
+    <moqui.basic.LocalizedMessage original="Incoterm" locale="es" localized="Incoterm"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Carriage Paid To" locale="es" localized="Incoterm transporte pagado hasta"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Carriage and Insurance Paid to" locale="es" localized="Incoterm transporte y seguro pagados hasta"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Cost and Freight" locale="es" localized="Incoterm costo y flete"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Cost, Insurance and Freight" locale="es" localized="Incoterm costo, seguro y flete"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered At Frontier" locale="es" localized="Incoterm entregado en frontera"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Duty Paid" locale="es" localized="Incoterm entregado con derechos pagados"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Duty Unpaid" locale="es" localized="Incoterm entregado con derechos no pagados"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Ex Quay" locale="es" localized="Incoterm entregado en muelle"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Ex Ship" locale="es" localized="Incoterm entregado sobre buque"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered at Place" locale="es" localized="Incoterm entregado en el lugar"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered at Terminal" locale="es" localized="Incoterm entregado en terminal"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Ex Works" locale="es" localized="Incoterm en fábrica"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free Alongside Ship" locale="es" localized="Incoterm franco al costado del buque"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free Carrier" locale="es" localized="Incoterm franco transportista"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free On Board" locale="es" localized="Incoterm franco a bordo"/>
+    <moqui.basic.LocalizedMessage original="Indemnification" locale="es" localized="Indemnización"/>
+    <moqui.basic.LocalizedMessage original="Initial Deposit" locale="es" localized="Depósito inicial"/>
+    <moqui.basic.LocalizedMessage original="Insurance Business" locale="es" localized="Seguro de negocio"/>
+    <moqui.basic.LocalizedMessage original="Insurance Equipment" locale="es" localized="Seguro de equipo"/>
+    <moqui.basic.LocalizedMessage original="Insurance Expense" locale="es" localized="Gasto de seguro"/>
+    <moqui.basic.LocalizedMessage original="Insurance Health" locale="es" localized="Seguro de salud"/>
+    <moqui.basic.LocalizedMessage original="Insurance Other" locale="es" localized="Otro seguro"/>
+    <moqui.basic.LocalizedMessage original="Insurance Real Estate" locale="es" localized="Seguro de bienes inmuebles"/>
+    <moqui.basic.LocalizedMessage original="Insurance Vehicle" locale="es" localized="Seguro de vehículo"/>
+    <moqui.basic.LocalizedMessage original="Intangible Assets" locale="es" localized="Activos intangibles"/>
+    <moqui.basic.LocalizedMessage original="Interest Equipment" locale="es" localized="Interés de equipo"/>
+    <moqui.basic.LocalizedMessage original="Interest Expense" locale="es" localized="Gasto por intereses"/>
+    <moqui.basic.LocalizedMessage original="Interest Income" locale="es" localized="Ingreso por intereses"/>
+    <moqui.basic.LocalizedMessage original="Interest Income Receivables" locale="es" localized="Por cobrar de ingreso por intereses"/>
+    <moqui.basic.LocalizedMessage original="Interest Income Write Off" locale="es" localized="Baja de ingreso por intereses"/>
+    <moqui.basic.LocalizedMessage original="Interest Other" locale="es" localized="Otro interés"/>
+    <moqui.basic.LocalizedMessage original="Interest Real Estate" locale="es" localized="Interés de bienes inmuebles"/>
+    <moqui.basic.LocalizedMessage original="Interest Vehicle" locale="es" localized="Interés de vehículo"/>
+    <moqui.basic.LocalizedMessage original="Interest earned or paid" locale="es" localized="Interés ganado o pagado"/>
+    <moqui.basic.LocalizedMessage original="Inventory" locale="es" localized="Inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Actual Cost" locale="es" localized="Costo real de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Adjustment from Average Cost" locale="es" localized="Ajuste de inventario por costo promedio"/>
+    <moqui.basic.LocalizedMessage original="Inventory Assets" locale="es" localized="Activos de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Found" locale="es" localized="Inventario encontrado"/>
+    <moqui.basic.LocalizedMessage original="Inventory Issuance" locale="es" localized="Salida de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Receipt" locale="es" localized="Recepción de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Shrinkage" locale="es" localized="Merma de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Value Adjustment" locale="es" localized="Ajuste de valor de inventario"/>
+    <moqui.basic.LocalizedMessage original="Inventory Variance" locale="es" localized="Variación de inventario"/>
+    <moqui.basic.LocalizedMessage original="Invoice AR/AP Application" locale="es" localized="Aplicación de factura por cobrar/por pagar"/>
+    <moqui.basic.LocalizedMessage original="Invoice Adjust Items" locale="es" localized="Elementos de ajuste de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Adjustment" locale="es" localized="Ajuste de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Content Type" locale="es" localized="Tipo de contenido de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Document" locale="es" localized="Documento de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Item Assoc Type" locale="es" localized="Tipo de asociación de elemento de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Payable" locale="es" localized="Factura por pagar"/>
+    <moqui.basic.LocalizedMessage original="Invoice Payment" locale="es" localized="Pago de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Receivable" locale="es" localized="Factura por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Invoice Sequence Mode" locale="es" localized="Modo de secuencia de factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Special" locale="es" localized="Factura especial"/>
+    <moqui.basic.LocalizedMessage original="Invoice Status" locale="es" localized="Estado de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Type" locale="es" localized="Tipo de factura"/>
+    <moqui.basic.LocalizedMessage original="Item Image" locale="es" localized="Imagen del elemento"/>
+    <moqui.basic.LocalizedMessage original="Item Type (Order, Return, Invoice)" locale="es" localized="Tipo de elemento (orden, devolución, factura)"/>
+    <moqui.basic.LocalizedMessage original="Joint Advertising" locale="es" localized="Publicidad conjunta"/>
+    <moqui.basic.LocalizedMessage original="Labor" locale="es" localized="Mano de obra"/>
+    <moqui.basic.LocalizedMessage original="Land and Building" locale="es" localized="Terreno y edificio"/>
+    <moqui.basic.LocalizedMessage original="Late Fee (percent)" locale="es" localized="Recargo por mora (porcentaje)"/>
+    <moqui.basic.LocalizedMessage original="Late Payment Charge" locale="es" localized="Cargo por pago tardío"/>
+    <moqui.basic.LocalizedMessage original="Lease/Rent Equipment" locale="es" localized="Arrendamiento/alquiler de equipo"/>
+    <moqui.basic.LocalizedMessage original="Lease/Rent Other" locale="es" localized="Otro arrendamiento/alquiler"/>
+    <moqui.basic.LocalizedMessage original="Lease/Rent Real Estate" locale="es" localized="Arrendamiento/alquiler de bienes inmuebles"/>
+    <moqui.basic.LocalizedMessage original="Lease/Rent Vehicle" locale="es" localized="Arrendamiento/alquiler de vehículo"/>
+    <moqui.basic.LocalizedMessage original="Legal" locale="es" localized="Jurídico"/>
+    <moqui.basic.LocalizedMessage original="Level 2/3 Data" locale="es" localized="Datos de nivel 2/3"/>
+    <moqui.basic.LocalizedMessage original="Liabilities" locale="es" localized="Pasivos"/>
+    <moqui.basic.LocalizedMessage original="Loans Payable" locale="es" localized="Préstamos por pagar"/>
+    <moqui.basic.LocalizedMessage original="Loans Receivable" locale="es" localized="Préstamos por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Local Tax Gateway" locale="es" localized="Pasarela de impuesto local"/>
+    <moqui.basic.LocalizedMessage original="Long Term Assets" locale="es" localized="Activos a largo plazo"/>
+    <moqui.basic.LocalizedMessage original="Long Term Liabilities" locale="es" localized="Pasivos a largo plazo"/>
+    <moqui.basic.LocalizedMessage original="Long Term Liability" locale="es" localized="Pasivo a largo plazo"/>
+    <moqui.basic.LocalizedMessage original="Maintenance/Repair Equipment" locale="es" localized="Mantenimiento/reparación de equipo"/>
+    <moqui.basic.LocalizedMessage original="Maintenance/Repair Other" locale="es" localized="Otro mantenimiento/reparación"/>
+    <moqui.basic.LocalizedMessage original="Maintenance/Repair Real Estate" locale="es" localized="Mantenimiento/reparación de bienes inmuebles"/>
+    <moqui.basic.LocalizedMessage original="Maintenance/Repair Vehicle" locale="es" localized="Mantenimiento/reparación de vehículo"/>
+    <moqui.basic.LocalizedMessage original="Manual Replenish" locale="es" localized="Reposición manual"/>
+    <moqui.basic.LocalizedMessage original="Manual Transactions Journal" locale="es" localized="Diario de transacciones manuales"/>
+    <moqui.basic.LocalizedMessage original="Manually Freeze" locale="es" localized="Congelar manualmente"/>
+    <moqui.basic.LocalizedMessage original="Manually Frozen" locale="es" localized="Congelado manualmente"/>
+    <moqui.basic.LocalizedMessage original="Marketing Package Adjustment" locale="es" localized="Ajuste de paquete de marketing"/>
+    <moqui.basic.LocalizedMessage original="Master Card" locale="es" localized="Master Card"/>
+    <moqui.basic.LocalizedMessage original="Medical and Health Care" locale="es" localized="Atención médica y de salud"/>
+    <moqui.basic.LocalizedMessage original="Medicare Employee" locale="es" localized="Medicare del empleado"/>
+    <moqui.basic.LocalizedMessage original="Medicare Employer" locale="es" localized="Medicare del empleador"/>
+    <moqui.basic.LocalizedMessage original="Merchant Account Settlement" locale="es" localized="Liquidación de cuenta de comerciante"/>
+    <moqui.basic.LocalizedMessage original="Merchant initiated debit" locale="es" localized="Débito iniciado por el comerciante"/>
+    <moqui.basic.LocalizedMessage original="Miscellaneous Charge" locale="es" localized="Cargo misceláneo"/>
+    <moqui.basic.LocalizedMessage original="Miscellaneous Deduction" locale="es" localized="Deducción miscelánea"/>
+    <moqui.basic.LocalizedMessage original="Miscellaneous Expense" locale="es" localized="Gasto misceláneo"/>
+    <moqui.basic.LocalizedMessage original="Money" locale="es" localized="Dinero"/>
+    <moqui.basic.LocalizedMessage original="Money Market" locale="es" localized="Mercado monetario"/>
+    <moqui.basic.LocalizedMessage original="Money Order" locale="es" localized="Giro postal"/>
+    <moqui.basic.LocalizedMessage original="Negative Pending Replenishment" locale="es" localized="Reposición pendiente negativa"/>
+    <moqui.basic.LocalizedMessage original="Net Assets" locale="es" localized="Activos netos"/>
+    <moqui.basic.LocalizedMessage original="Net Equity" locale="es" localized="Patrimonio neto"/>
+    <moqui.basic.LocalizedMessage original="Net Income" locale="es" localized="Utilidad neta"/>
+    <moqui.basic.LocalizedMessage original="Net Income Period Closing" locale="es" localized="Cierre de período de utilidad neta"/>
+    <moqui.basic.LocalizedMessage original="Net Operating Income" locale="es" localized="Utilidad operativa neta"/>
+    <moqui.basic.LocalizedMessage original="Net Revenue" locale="es" localized="Ingreso neto"/>
+    <moqui.basic.LocalizedMessage original="No Accounting Preference" locale="es" localized="Sin preferencia contable"/>
+    <moqui.basic.LocalizedMessage original="No Acquire Cost" locale="es" localized="Sin costo de adquisición"/>
+    <moqui.basic.LocalizedMessage original="No Replenish" locale="es" localized="Sin reposición"/>
+    <moqui.basic.LocalizedMessage original="No Transaction Reason" locale="es" localized="Sin motivo de transacción"/>
+    <moqui.basic.LocalizedMessage original="Non-Cash Expense" locale="es" localized="Gasto no monetario"/>
+    <moqui.basic.LocalizedMessage original="Non-Cash Income" locale="es" localized="Ingreso no monetario"/>
+    <moqui.basic.LocalizedMessage original="Non-Compete" locale="es" localized="No competencia"/>
+    <moqui.basic.LocalizedMessage original="Non-Employee Compensation" locale="es" localized="Compensación de no empleado"/>
+    <moqui.basic.LocalizedMessage original="Non-Posting" locale="es" localized="Sin contabilización"/>
+    <moqui.basic.LocalizedMessage original="Non-Returnable Sales Item" locale="es" localized="Elemento de venta sin devolución"/>
+    <moqui.basic.LocalizedMessage original="Non-operating Expense" locale="es" localized="Gasto no operativo"/>
+    <moqui.basic.LocalizedMessage original="Non-operating Income" locale="es" localized="Ingreso no operativo"/>
+    <moqui.basic.LocalizedMessage original="Nonproductive Earnings" locale="es" localized="Ganancias no productivas"/>
+    <moqui.basic.LocalizedMessage original="Not Reconciled" locale="es" localized="No conciliado"/>
+    <moqui.basic.LocalizedMessage original="OFX/QFX" locale="es" localized="OFX/QFX"/>
+    <moqui.basic.LocalizedMessage original="Obligation" locale="es" localized="Obligación"/>
+    <moqui.basic.LocalizedMessage original="Occupational Privilege Employer" locale="es" localized="Privilegio ocupacional del empleador"/>
+    <moqui.basic.LocalizedMessage original="Office Postage" locale="es" localized="Franqueo de oficina"/>
+    <moqui.basic.LocalizedMessage original="Office Supplies" locale="es" localized="Suministros de oficina"/>
+    <moqui.basic.LocalizedMessage original="Office and Supplies" locale="es" localized="Oficina y suministros"/>
+    <moqui.basic.LocalizedMessage original="Operating" locale="es" localized="Operativo"/>
+    <moqui.basic.LocalizedMessage original="Operating Expense" locale="es" localized="Gasto operativo"/>
+    <moqui.basic.LocalizedMessage original="Order Payment Preference" locale="es" localized="Preferencia de pago de la orden"/>
+    <moqui.basic.LocalizedMessage original="Order Sequence Mode" locale="es" localized="Modo de secuencia de orden"/>
+    <moqui.basic.LocalizedMessage original="Other Assets" locale="es" localized="Otros activos"/>
+    <moqui.basic.LocalizedMessage original="Other Cost of Sales" locale="es" localized="Otro costo de ventas"/>
+    <moqui.basic.LocalizedMessage original="Other Expense" locale="es" localized="Otro gasto"/>
+    <moqui.basic.LocalizedMessage original="Other Income" locale="es" localized="Otro ingreso"/>
+    <moqui.basic.LocalizedMessage original="Other Obligation" locale="es" localized="Otra obligación"/>
+    <moqui.basic.LocalizedMessage original="Other Revenue" locale="es" localized="Otro ingreso"/>
+    <moqui.basic.LocalizedMessage original="Other Shipping (Non-Inventory)" locale="es" localized="Otro envío (no de inventario)"/>
+    <moqui.basic.LocalizedMessage original="Other Type (no detail record)" locale="es" localized="Otro tipo (sin registro de detalle)"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Payment" locale="es" localized="Pago saliente"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Payment Application" locale="es" localized="Aplicación de pago saliente"/>
+    <moqui.basic.LocalizedMessage original="Outgoing/Receivable/Sales Items" locale="es" localized="Elementos de salida/por cobrar/de venta"/>
+    <moqui.basic.LocalizedMessage original="Overtime Premium" locale="es" localized="Prima de tiempo extra"/>
+    <moqui.basic.LocalizedMessage original="Owner's Equity" locale="es" localized="Patrimonio del propietario"/>
+    <moqui.basic.LocalizedMessage original="Owners Equity" locale="es" localized="Patrimonio de los propietarios"/>
+    <moqui.basic.LocalizedMessage original="PTO Hourly" locale="es" localized="Tiempo libre pagado por hora"/>
+    <moqui.basic.LocalizedMessage original="PTO Salary" locale="es" localized="Salario de tiempo libre pagado"/>
+    <moqui.basic.LocalizedMessage original="Partly Reconcile" locale="es" localized="Conciliar parcialmente"/>
+    <moqui.basic.LocalizedMessage original="Partly Reconciled" locale="es" localized="Conciliado parcialmente"/>
+    <moqui.basic.LocalizedMessage original="Pay Period Adjustment - Overpay" locale="es" localized="Ajuste del período de pago - pago de más"/>
+    <moqui.basic.LocalizedMessage original="Pay Period Adjustment - Pay" locale="es" localized="Ajuste del período de pago - pago"/>
+    <moqui.basic.LocalizedMessage original="PayPal Account" locale="es" localized="Cuenta de PayPal"/>
+    <moqui.basic.LocalizedMessage original="Payable from Inventory Transferred In" locale="es" localized="Por pagar del inventario transferido de entrada"/>
+    <moqui.basic.LocalizedMessage original="Payment" locale="es" localized="Pago"/>
+    <moqui.basic.LocalizedMessage original="Payment (discounted if paid within specified days)" locale="es" localized="Pago (con descuento si se paga dentro de los días especificados)"/>
+    <moqui.basic.LocalizedMessage original="Payment (due on specified day of current month)" locale="es" localized="Pago (vence el día especificado del mes actual)"/>
+    <moqui.basic.LocalizedMessage original="Payment (due on specified day of next month)" locale="es" localized="Pago (vence el día especificado del mes siguiente)"/>
+    <moqui.basic.LocalizedMessage original="Payment (net days)" locale="es" localized="Pago (días netos)"/>
+    <moqui.basic.LocalizedMessage original="Payment Adjustment" locale="es" localized="Ajuste de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Already Sent" locale="es" localized="Marcar pago ya enviado"/>
+    <moqui.basic.LocalizedMessage original="Payment Application" locale="es" localized="Aplicación de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Content Type" locale="es" localized="Tipo de contenido de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Distribution Group" locale="es" localized="Grupo de distribución de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Document" locale="es" localized="Documento de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Gateway Operation" locale="es" localized="Operación de pasarela de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Gateway Type" locale="es" localized="Tipo de pasarela de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment In/Out Application" locale="es" localized="Aplicación de pago de entrada/salida"/>
+    <moqui.basic.LocalizedMessage original="Payment Instrument" locale="es" localized="Instrumento de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Content Type" locale="es" localized="Tipo de contenido del método de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Method File Type" locale="es" localized="Tipo de archivo del método de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Purpose" locale="es" localized="Propósito del método de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Trans Type" locale="es" localized="Tipo de transacción del método de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Method Type" locale="es" localized="Tipo de método de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Not Posted" locale="es" localized="Pago no contabilizado"/>
+    <moqui.basic.LocalizedMessage original="Payment Received" locale="es" localized="Pago recibido"/>
+    <moqui.basic.LocalizedMessage original="Payment Reconcile Status" locale="es" localized="Estado de conciliación del pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Sent" locale="es" localized="Pago enviado"/>
+    <moqui.basic.LocalizedMessage original="Payment Status" locale="es" localized="Estado del pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Term Types" locale="es" localized="Tipos de condiciones de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Type" locale="es" localized="Tipo de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 1" locale="es" localized="Pago a días netos, parte 1"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 2" locale="es" localized="Pago a días netos, parte 2"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 3" locale="es" localized="Pago a días netos, parte 3"/>
+    <moqui.basic.LocalizedMessage original="Payroll Deduction" locale="es" localized="Deducción de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Employee" locale="es" localized="Nómina de empleado"/>
+    <moqui.basic.LocalizedMessage original="Payroll Employee Payment" locale="es" localized="Pago de nómina de empleado"/>
+    <moqui.basic.LocalizedMessage original="Payroll Expense" locale="es" localized="Gasto de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Income" locale="es" localized="Ingreso de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Invoice" locale="es" localized="Factura de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Other" locale="es" localized="Otra nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Other Payment" locale="es" localized="Otro pago de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Tax Form" locale="es" localized="Formulario de impuesto de nómina"/>
+</entity-facade-xml>

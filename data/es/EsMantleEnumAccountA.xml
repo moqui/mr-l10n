@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="125*Compy. Contr Other Premium" locale="es" localized="125*Aporte de la empresa, otra prima"/>
+    <moqui.basic.LocalizedMessage original="125*HSA Contribution" locale="es" localized="125*Aporte a HSA"/>
+    <moqui.basic.LocalizedMessage original="125*HSA Contribution (pre tax)" locale="es" localized="125*Aporte a HSA (antes de impuestos)"/>
+    <moqui.basic.LocalizedMessage original="125*PPO" locale="es" localized="125*PPO"/>
+    <moqui.basic.LocalizedMessage original="125*PPO (pre tax)" locale="es" localized="125*PPO (antes de impuestos)"/>
+    <moqui.basic.LocalizedMessage original="401K Employer" locale="es" localized="401K del empleador"/>
+    <moqui.basic.LocalizedMessage original="ACH Direct" locale="es" localized="ACH directo"/>
+    <moqui.basic.LocalizedMessage original="ATM debit or credit" locale="es" localized="Débito o crédito en cajero automático"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Invoice" locale="es" localized="Tipos de transacción contable de factura"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Payable" locale="es" localized="Tipos de transacción contable por pagar"/>
+    <moqui.basic.LocalizedMessage original="Acc TX Types Receivable" locale="es" localized="Tipos de transacción contable por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Account Transfer" locale="es" localized="Transferencia de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Entry Reconcile Status" locale="es" localized="Estado de conciliación de la partida de la transacción contable"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Result" locale="es" localized="Resultado de la transacción contable"/>
+    <moqui.basic.LocalizedMessage original="Accounting Transaction Type" locale="es" localized="Tipo de transacción contable"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payable" locale="es" localized="Cuentas por pagar"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payable - Unapplied Payments" locale="es" localized="Cuentas por pagar - pagos no aplicados"/>
+    <moqui.basic.LocalizedMessage original="Accounts Payables Write Off" locale="es" localized="Baja de cuentas por pagar"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivable" locale="es" localized="Cuentas por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivable - Unapplied Payments" locale="es" localized="Cuentas por cobrar - pagos no aplicados"/>
+    <moqui.basic.LocalizedMessage original="Accounts Receivables Write Off" locale="es" localized="Baja de cuentas por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Accrued Expenses" locale="es" localized="Gastos devengados"/>
+    <moqui.basic.LocalizedMessage original="Accrued Revenue" locale="es" localized="Ingresos devengados"/>
+    <moqui.basic.LocalizedMessage original="Accumulated Amortization" locale="es" localized="Amortización acumulada"/>
+    <moqui.basic.LocalizedMessage original="Accumulated Depreciation" locale="es" localized="Depreciación acumulada"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge" locale="es" localized="Reconocer"/>
+    <moqui.basic.LocalizedMessage original="Acknowledged" locale="es" localized="Reconocido"/>
+    <moqui.basic.LocalizedMessage original="Actual" locale="es" localized="Real"/>
+    <moqui.basic.LocalizedMessage original="Additional Feature" locale="es" localized="Característica adicional"/>
+    <moqui.basic.LocalizedMessage original="Additional Medicare Employee" locale="es" localized="Medicare adicional del empleado"/>
+    <moqui.basic.LocalizedMessage original="Adjustment" locale="es" localized="Ajuste"/>
+    <moqui.basic.LocalizedMessage original="Advance Pay" locale="es" localized="Anticipo de pago"/>
+    <moqui.basic.LocalizedMessage original="Advance Repayment" locale="es" localized="Reintegro del anticipo"/>
+    <moqui.basic.LocalizedMessage original="Advertising" locale="es" localized="Publicidad"/>
+    <moqui.basic.LocalizedMessage original="Agreement Termination" locale="es" localized="Terminación del acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Allowance For Bad Debts" locale="es" localized="Provisión para deudas incobrables"/>
+    <moqui.basic.LocalizedMessage original="Allowance for Bad Receivables" locale="es" localized="Provisión para cuentas por cobrar incobrables"/>
+    <moqui.basic.LocalizedMessage original="Amazon Pay" locale="es" localized="Amazon Pay"/>
+    <moqui.basic.LocalizedMessage original="Amazon Pay Account" locale="es" localized="Cuenta de Amazon Pay"/>
+    <moqui.basic.LocalizedMessage original="American Express" locale="es" localized="American Express"/>
+    <moqui.basic.LocalizedMessage original="Amortization" locale="es" localized="Amortización"/>
+    <moqui.basic.LocalizedMessage original="Asset - Fixed Asset" locale="es" localized="Activo - activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Asset - Inventory" locale="es" localized="Activo - inventario"/>
+    <moqui.basic.LocalizedMessage original="Asset Issuance" locale="es" localized="Salida de activo"/>
+    <moqui.basic.LocalizedMessage original="Asset Receipt" locale="es" localized="Recepción de activo"/>
+    <moqui.basic.LocalizedMessage original="Asset Variance" locale="es" localized="Variación de activo"/>
+    <moqui.basic.LocalizedMessage original="Assets" locale="es" localized="Activos"/>
+    <moqui.basic.LocalizedMessage original="Authorize" locale="es" localized="Autorizar"/>
+    <moqui.basic.LocalizedMessage original="Authorize and Capture" locale="es" localized="Autorizar y capturar"/>
+    <moqui.basic.LocalizedMessage original="Authorized" locale="es" localized="Autorizado"/>
+    <moqui.basic.LocalizedMessage original="Automatic Replenish" locale="es" localized="Reposición automática"/>
+    <moqui.basic.LocalizedMessage original="BAI 2" locale="es" localized="BAI 2"/>
+    <moqui.basic.LocalizedMessage original="Bad Debt Expense" locale="es" localized="Gasto por deudas incobrables"/>
+    <moqui.basic.LocalizedMessage original="Bank Account" locale="es" localized="Cuenta bancaria"/>
+    <moqui.basic.LocalizedMessage original="Bank Account Type" locale="es" localized="Tipo de cuenta bancaria"/>
+    <moqui.basic.LocalizedMessage original="Bank of America AR PNV" locale="es" localized="Bank of America AR PNV"/>
+    <moqui.basic.LocalizedMessage original="Banking Service Charges" locale="es" localized="Cargos por servicios bancarios"/>
+    <moqui.basic.LocalizedMessage original="Bill Through" locale="es" localized="Facturar a través"/>
+    <moqui.basic.LocalizedMessage original="Billed Through" locale="es" localized="Facturado a través"/>
+    <moqui.basic.LocalizedMessage original="Billing Account" locale="es" localized="Cuenta de facturación"/>
+    <moqui.basic.LocalizedMessage original="Billing Account Term Type" locale="es" localized="Tipo de condición de la cuenta de facturación"/>
+    <moqui.basic.LocalizedMessage original="Bitcoin Wallet" locale="es" localized="Monedero Bitcoin"/>
+    <moqui.basic.LocalizedMessage original="Bonus (Discretionary)" locale="es" localized="Bono (discrecional)"/>
+    <moqui.basic.LocalizedMessage original="Bonus (Non-Discretionary)" locale="es" localized="Bono (no discrecional)"/>
+    <moqui.basic.LocalizedMessage original="Break Hourly Earnings" locale="es" localized="Ingresos por hora de descanso"/>
+    <moqui.basic.LocalizedMessage original="Break RRP Earnings" locale="es" localized="Ingresos de descanso RRP"/>
+    <moqui.basic.LocalizedMessage original="Budget Item Type" locale="es" localized="Tipo de partida del presupuesto"/>
+    <moqui.basic.LocalizedMessage original="Budget Review Result" locale="es" localized="Resultado de la revisión del presupuesto"/>
+    <moqui.basic.LocalizedMessage original="Budget Type" locale="es" localized="Tipo de presupuesto"/>
+    <moqui.basic.LocalizedMessage original="COGS - Average Cost Adjustment" locale="es" localized="Costo de mercancías vendidas - ajuste del costo promedio"/>
+    <moqui.basic.LocalizedMessage original="COGS Method" locale="es" localized="Método de costo de mercancías vendidas"/>
+    <moqui.basic.LocalizedMessage original="Capital" locale="es" localized="Capital"/>
+    <moqui.basic.LocalizedMessage original="Capitalization" locale="es" localized="Capitalización"/>
+    <moqui.basic.LocalizedMessage original="Capture" locale="es" localized="Capturar"/>
+    <moqui.basic.LocalizedMessage original="Cash" locale="es" localized="Efectivo"/>
+    <moqui.basic.LocalizedMessage original="Cash Income" locale="es" localized="Ingresos en efectivo"/>
+    <moqui.basic.LocalizedMessage original="Cash On Delivery" locale="es" localized="Pago contra entrega"/>
+    <moqui.basic.LocalizedMessage original="Cash and Equivalent" locale="es" localized="Efectivo y equivalentes"/>
+    <moqui.basic.LocalizedMessage original="Cash withdrawal" locale="es" localized="Retiro de efectivo"/>
+    <moqui.basic.LocalizedMessage original="Certificate of Deposit" locale="es" localized="Certificado de depósito"/>
+    <moqui.basic.LocalizedMessage original="Certified Check" locale="es" localized="Cheque certificado"/>
+    <moqui.basic.LocalizedMessage original="Chargeback" locale="es" localized="Contracargo"/>
+    <moqui.basic.LocalizedMessage original="Charitable Contribution" locale="es" localized="Contribución benéfica"/>
+    <moqui.basic.LocalizedMessage original="Charity Donation" locale="es" localized="Donación benéfica"/>
+    <moqui.basic.LocalizedMessage original="Check Image" locale="es" localized="Imagen del cheque"/>
+    <moqui.basic.LocalizedMessage original="Child Support Garnishment" locale="es" localized="Embargo por pensión alimenticia"/>
+    <moqui.basic.LocalizedMessage original="City Bank CNB" locale="es" localized="City Bank CNB"/>
+    <moqui.basic.LocalizedMessage original="Clause For Renewal" locale="es" localized="Cláusula de renovación"/>
+    <moqui.basic.LocalizedMessage original="Collection Agent" locale="es" localized="Agente de recaudación"/>
+    <moqui.basic.LocalizedMessage original="Commission" locale="es" localized="Comisión"/>
+    <moqui.basic.LocalizedMessage original="Commission Adjustment" locale="es" localized="Ajuste de comisión"/>
+    <moqui.basic.LocalizedMessage original="Commission Expense" locale="es" localized="Gasto de comisión"/>
+    <moqui.basic.LocalizedMessage original="Commission Invoice" locale="es" localized="Factura de comisión"/>
+    <moqui.basic.LocalizedMessage original="Commission Line Item" locale="es" localized="Partida de comisión"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Fixed Per Unit" locale="es" localized="Condición de comisión fija por unidad"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Maximum Per Unit" locale="es" localized="Condición de comisión máxima por unidad"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Minimum Per Unit" locale="es" localized="Condición de comisión mínima por unidad"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Variable" locale="es" localized="Condición de comisión variable"/>
+    <moqui.basic.LocalizedMessage original="Commission/Fee" locale="es" localized="Comisión/tarifa"/>
+    <moqui.basic.LocalizedMessage original="Commissions Accrued" locale="es" localized="Comisiones devengadas"/>
+    <moqui.basic.LocalizedMessage original="Commissions Payables Write Off" locale="es" localized="Baja de comisiones por pagar"/>
+    <moqui.basic.LocalizedMessage original="Communication Cellular" locale="es" localized="Comunicación celular"/>
+    <moqui.basic.LocalizedMessage original="Communication Network" locale="es" localized="Comunicación de red"/>
+    <moqui.basic.LocalizedMessage original="Communication Telephone" locale="es" localized="Comunicación telefónica"/>
+    <moqui.basic.LocalizedMessage original="Company Account" locale="es" localized="Cuenta de la empresa"/>
+    <moqui.basic.LocalizedMessage original="Company Check" locale="es" localized="Cheque de la empresa"/>
+    <moqui.basic.LocalizedMessage original="Company Owned Life Insurance" locale="es" localized="Seguro de vida propiedad de la empresa"/>
+    <moqui.basic.LocalizedMessage original="Compliance Fee" locale="es" localized="Tarifa de cumplimiento"/>
+    <moqui.basic.LocalizedMessage original="Computer Server Hosting" locale="es" localized="Alojamiento de servidor"/>
+    <moqui.basic.LocalizedMessage original="Confirmed Paid" locale="es" localized="Pagado confirmado"/>
+    <moqui.basic.LocalizedMessage original="Contributions" locale="es" localized="Contribuciones"/>
+    <moqui.basic.LocalizedMessage original="Cost Center Category" locale="es" localized="Categoría de centro de costo"/>
+    <moqui.basic.LocalizedMessage original="Cost of Goods Sold" locale="es" localized="Costo de mercancías vendidas"/>
+    <moqui.basic.LocalizedMessage original="Cost of Sales" locale="es" localized="Costo de ventas"/>
+    <moqui.basic.LocalizedMessage original="Cost of Services Sold" locale="es" localized="Costo de servicios vendidos"/>
+    <moqui.basic.LocalizedMessage original="County/Parish/Borough" locale="es" localized="Condado/parroquia/distrito"/>
+    <moqui.basic.LocalizedMessage original="Coupons and Credits" locale="es" localized="Cupones y créditos"/>
+    <moqui.basic.LocalizedMessage original="Credit Card" locale="es" localized="Tarjeta de crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Card Type" locale="es" localized="Tipo de tarjeta de crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Installment" locale="es" localized="Crédito a plazos"/>
+    <moqui.basic.LocalizedMessage original="Credit Line" locale="es" localized="Línea de crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Memo" locale="es" localized="Nota de crédito"/>
+    <moqui.basic.LocalizedMessage original="Credit Open" locale="es" localized="Crédito abierto"/>
+    <moqui.basic.LocalizedMessage original="Credit Revolving" locale="es" localized="Crédito rotativo"/>
+    <moqui.basic.LocalizedMessage original="Credit Secured" locale="es" localized="Crédito garantizado"/>
+    <moqui.basic.LocalizedMessage original="Current Asset" locale="es" localized="Activo corriente"/>
+    <moqui.basic.LocalizedMessage original="Current Assets" locale="es" localized="Activos corrientes"/>
+    <moqui.basic.LocalizedMessage original="Current Liabilities" locale="es" localized="Pasivos corrientes"/>
+    <moqui.basic.LocalizedMessage original="Current Liability" locale="es" localized="Pasivo corriente"/>
+    <moqui.basic.LocalizedMessage original="Customer Credit Memo" locale="es" localized="Nota de crédito del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Credits" locale="es" localized="Créditos de clientes"/>
+    <moqui.basic.LocalizedMessage original="Customer Deposits" locale="es" localized="Depósitos de clientes"/>
+    <moqui.basic.LocalizedMessage original="Customer Return Invoice" locale="es" localized="Factura de devolución del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Returns" locale="es" localized="Devoluciones de clientes"/>
+    <moqui.basic.LocalizedMessage original="Customer Service Credit" locale="es" localized="Crédito de servicio al cliente"/>
+    <moqui.basic.LocalizedMessage original="Data Processing" locale="es" localized="Procesamiento de datos"/>
+    <moqui.basic.LocalizedMessage original="Debit" locale="es" localized="Débito"/>
+    <moqui.basic.LocalizedMessage original="Debit Card" locale="es" localized="Tarjeta de débito"/>
+    <moqui.basic.LocalizedMessage original="Decline" locale="es" localized="Rechazar"/>
+    <moqui.basic.LocalizedMessage original="Delivered Good" locale="es" localized="Bien entregado"/>
+    <moqui.basic.LocalizedMessage original="Deposit" locale="es" localized="Depósito"/>
+    <moqui.basic.LocalizedMessage original="Depreciation" locale="es" localized="Depreciación"/>
+    <moqui.basic.LocalizedMessage original="Direct deposit" locale="es" localized="Depósito directo"/>
+    <moqui.basic.LocalizedMessage original="Disbursement" locale="es" localized="Desembolso"/>
+    <moqui.basic.LocalizedMessage original="Discount - Appeasement" locale="es" localized="Descuento - concesión"/>
+    <moqui.basic.LocalizedMessage original="Discount - Promotional" locale="es" localized="Descuento - promocional"/>
+    <moqui.basic.LocalizedMessage original="Discount - Supplier" locale="es" localized="Descuento - proveedor"/>
+    <moqui.basic.LocalizedMessage original="Discounts" locale="es" localized="Descuentos"/>
+    <moqui.basic.LocalizedMessage original="Discounts and Write-downs" locale="es" localized="Descuentos y rebajas"/>
+    <moqui.basic.LocalizedMessage original="Discover" locale="es" localized="Discover"/>
+    <moqui.basic.LocalizedMessage original="Discretionary" locale="es" localized="Discrecional"/>
+    <moqui.basic.LocalizedMessage original="Dividend" locale="es" localized="Dividendo"/>
+    <moqui.basic.LocalizedMessage original="Dividends" locale="es" localized="Dividendos"/>
+    <moqui.basic.LocalizedMessage original="Donation" locale="es" localized="Donación"/>
+    <moqui.basic.LocalizedMessage original="Double Time Premium" locale="es" localized="Prima por tiempo doble"/>
+    <moqui.basic.LocalizedMessage original="Dues and Subscriptions" locale="es" localized="Cuotas y suscripciones"/>
+    <moqui.basic.LocalizedMessage original="Education Expense" locale="es" localized="Gasto de educación"/>
+    <moqui.basic.LocalizedMessage original="Electronic payment" locale="es" localized="Pago electrónico"/>
+    <moqui.basic.LocalizedMessage original="Employee - Executive" locale="es" localized="Empleado - ejecutivo"/>
+    <moqui.basic.LocalizedMessage original="Employee - Labor" locale="es" localized="Empleado - mano de obra"/>
+    <moqui.basic.LocalizedMessage original="Employee - Regular" locale="es" localized="Empleado - regular"/>
+    <moqui.basic.LocalizedMessage original="Employee 401k Types" locale="es" localized="Tipos de 401k del empleado"/>
+    <moqui.basic.LocalizedMessage original="Employee Compensation" locale="es" localized="Compensación del empleado"/>
+    <moqui.basic.LocalizedMessage original="Employee Section 125 Types" locale="es" localized="Tipos de la sección 125 del empleado"/>
+    <moqui.basic.LocalizedMessage original="Employer 401k Types" locale="es" localized="Tipos de 401k del empleador"/>
+    <moqui.basic.LocalizedMessage original="Employer Classification" locale="es" localized="Clasificación del empleador"/>
+    <moqui.basic.LocalizedMessage original="Employer Section 125 Types" locale="es" localized="Tipos de la sección 125 del empleador"/>
+    <moqui.basic.LocalizedMessage original="Enforced Sequence (no gaps, per organization)" locale="es" localized="Secuencia obligatoria (sin huecos, por organización)"/>
+    <moqui.basic.LocalizedMessage original="Enforced and Restart on Fiscal Year (no gaps, per org, reset to 1 each year)" locale="es" localized="Obligatoria y reinicio en el año fiscal (sin huecos, por organización, se reinicia en 1 cada año)"/>
+    <moqui.basic.LocalizedMessage original="Equipment" locale="es" localized="Equipo"/>
+    <moqui.basic.LocalizedMessage original="Equity" locale="es" localized="Patrimonio"/>
+    <moqui.basic.LocalizedMessage original="Equity Distribution" locale="es" localized="Distribución del patrimonio"/>
+    <moqui.basic.LocalizedMessage original="Error Adjustment" locale="es" localized="Ajuste por error"/>
+    <moqui.basic.LocalizedMessage original="Error Journal" locale="es" localized="Diario de errores"/>
+    <moqui.basic.LocalizedMessage original="Exclusive Relationship" locale="es" localized="Relación exclusiva"/>
+    <moqui.basic.LocalizedMessage original="Exemption Inheritance" locale="es" localized="Herencia de exención"/>
+    <moqui.basic.LocalizedMessage original="Expense" locale="es" localized="Gasto"/>
+    <moqui.basic.LocalizedMessage original="FI fee" locale="es" localized="Tarifa FI"/>
+    <moqui.basic.LocalizedMessage original="Facility Expense" locale="es" localized="Gasto de instalación"/>
+    <moqui.basic.LocalizedMessage original="Federal Income Withholding" locale="es" localized="Retención del impuesto federal sobre la renta"/>
+    <moqui.basic.LocalizedMessage original="Federal Pension Employer" locale="es" localized="Pensión federal del empleador"/>
+    <moqui.basic.LocalizedMessage original="Federal Unemployment Insurance (FUTA) Employee" locale="es" localized="Seguro federal de desempleo (FUTA) del empleado"/>
+    <moqui.basic.LocalizedMessage original="Federal Unemployment Insurance (FUTA) Employer" locale="es" localized="Seguro federal de desempleo (FUTA) del empleador"/>
+    <moqui.basic.LocalizedMessage original="Federal/Country" locale="es" localized="Federal/país"/>
+    <moqui.basic.LocalizedMessage original="Fee" locale="es" localized="Tarifa"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Adjustment" locale="es" localized="Ajuste de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Deposit" locale="es" localized="Depósito en cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Fin. Account Withdrawal" locale="es" localized="Retiro de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Finalize" locale="es" localized="Finalizar"/>
+    <moqui.basic.LocalizedMessage original="Finalized" locale="es" localized="Finalizado"/>
+    <moqui.basic.LocalizedMessage original="Financial" locale="es" localized="Financiero"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Replenish Method" locale="es" localized="Método de reposición de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Replenish Type" locale="es" localized="Tipo de reposición de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Status" locale="es" localized="Estado de la cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Trans Reason" locale="es" localized="Motivo de transacción de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Trans Type" locale="es" localized="Tipo de transacción de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Transaction" locale="es" localized="Transacción de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Finished Good" locale="es" localized="Bien terminado"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset" locale="es" localized="Activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Accumulated Depreciation" locale="es" localized="Depreciación acumulada del activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Depreciation" locale="es" localized="Depreciación del activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Found" locale="es" localized="Activo fijo encontrado"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Maintenance" locale="es" localized="Mantenimiento del activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Fixed Asset Shrinkage" locale="es" localized="Merma de activo fijo"/>
+    <moqui.basic.LocalizedMessage original="Forecast" locale="es" localized="Pronóstico"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Gain" locale="es" localized="Ganancia por tipo de cambio"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Gain/Loss" locale="es" localized="Ganancia/pérdida por tipo de cambio"/>
+    <moqui.basic.LocalizedMessage original="Foreign Exchange Loss" locale="es" localized="Pérdida por tipo de cambio"/>
+    <moqui.basic.LocalizedMessage original="Free Fills" locale="es" localized="Surtidos gratuitos"/>
+    <moqui.basic.LocalizedMessage original="GL Account Category Type" locale="es" localized="Tipo de categoría de cuenta contable"/>
+    <moqui.basic.LocalizedMessage original="GL Account Class" locale="es" localized="Clase de cuenta contable"/>
+    <moqui.basic.LocalizedMessage original="GL Account Class Groups" locale="es" localized="Grupos de clases de cuenta contable"/>
+    <moqui.basic.LocalizedMessage original="GL Account Type" locale="es" localized="Tipo de cuenta contable"/>
+    <moqui.basic.LocalizedMessage original="GL Fiscal Type" locale="es" localized="Tipo fiscal GL"/>
+    <moqui.basic.LocalizedMessage original="GL Journal Type" locale="es" localized="Tipo de diario GL"/>
+</entity-facade-xml>

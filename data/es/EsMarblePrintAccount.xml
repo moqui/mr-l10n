@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="AMENDED" locale="es" localized="Modificado"/>
+    <moqui.basic.LocalizedMessage original="Account Statement" locale="es" localized="Estado de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Account is current, no unpaid invoices or unapplied payments" locale="es" localized="La cuenta está al día, no hay facturas no pagadas ni pagos no aplicados"/>
+    <moqui.basic.LocalizedMessage original="Adjustments Total" locale="es" localized="Total de ajustes"/>
+    <moqui.basic.LocalizedMessage original="All through" locale="es" localized="Todo hasta"/>
+    <moqui.basic.LocalizedMessage original="Amount Paid" locale="es" localized="Importe pagado"/>
+    <moqui.basic.LocalizedMessage original="Applied Payments" locale="es" localized="Pagos aplicados"/>
+    <moqui.basic.LocalizedMessage original="Customer #" locale="es" localized="Cliente #"/>
+    <moqui.basic.LocalizedMessage original="Invc" locale="es" localized="Fact."/>
+    <moqui.basic.LocalizedMessage original="Invoice Amount" locale="es" localized="Importe de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Cost Percent" locale="es" localized="Porcentaje de costo de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoice Count" locale="es" localized="Cantidad de facturas"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discount Percent" locale="es" localized="Porcentaje de descuento de la factura"/>
+    <moqui.basic.LocalizedMessage original="Invoiced Quantity" locale="es" localized="Cantidad facturada"/>
+    <moqui.basic.LocalizedMessage original="New Customer Count" locale="es" localized="Cantidad de clientes nuevos"/>
+    <moqui.basic.LocalizedMessage original="New Customer Percent" locale="es" localized="Porcentaje de clientes nuevos"/>
+    <moqui.basic.LocalizedMessage original="Order Count" locale="es" localized="Cantidad de órdenes"/>
+    <moqui.basic.LocalizedMessage original="Order Discount Percent" locale="es" localized="Porcentaje de descuento de la orden"/>
+    <moqui.basic.LocalizedMessage original="Order Net Product" locale="es" localized="Producto neto de la orden"/>
+    <moqui.basic.LocalizedMessage original="Order Product Sales" locale="es" localized="Ventas de producto de la orden"/>
+    <moqui.basic.LocalizedMessage original="Our Order" locale="es" localized="Nuestra orden"/>
+    <moqui.basic.LocalizedMessage original="Our Ref #" locale="es" localized="Nuestra ref. #"/>
+    <moqui.basic.LocalizedMessage original="PAID IN FULL" locale="es" localized="Pagado en su totalidad"/>
+    <moqui.basic.LocalizedMessage original="Paid Percent" locale="es" localized="Porcentaje pagado"/>
+    <moqui.basic.LocalizedMessage original="Payment Detail" locale="es" localized="Detalle del pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Ref #" locale="es" localized="Ref. de pago #"/>
+    <moqui.basic.LocalizedMessage original="Payments Total" locale="es" localized="Total de pagos"/>
+    <moqui.basic.LocalizedMessage original="Pre-Paid Percent" locale="es" localized="Porcentaje prepagado"/>
+    <moqui.basic.LocalizedMessage original="Rate" locale="es" localized="Tarifa"/>
+    <moqui.basic.LocalizedMessage original="Ref #" locale="es" localized="Ref. #"/>
+    <moqui.basic.LocalizedMessage original="TX" locale="es" localized="Trans."/>
+    <moqui.basic.LocalizedMessage original="TX #" locale="es" localized="Trans. #"/>
+    <moqui.basic.LocalizedMessage original="TX Amount" locale="es" localized="Importe de la transacción"/>
+    <moqui.basic.LocalizedMessage original="Through" locale="es" localized="Hasta"/>
+    <moqui.basic.LocalizedMessage original="Your Order" locale="es" localized="Su orden"/>
+    <moqui.basic.LocalizedMessage original="Your Product" locale="es" localized="Su producto"/>
+    <moqui.basic.LocalizedMessage original="Your Ref #" locale="es" localized="Su ref. #"/>
+    <moqui.basic.LocalizedMessage original="avg" locale="es" localized="Promedio"/>
+    <moqui.basic.LocalizedMessage original="days" locale="es" localized="días"/>
+    <moqui.basic.LocalizedMessage original="last" locale="es" localized="Último"/>
+    <moqui.basic.LocalizedMessage original="prev" locale="es" localized="Previo"/>
+    <moqui.basic.LocalizedMessage original="previous" locale="es" localized="anterior"/>
+    <moqui.basic.LocalizedMessage original="this" locale="es" localized="Actual"/>
+    <moqui.basic.LocalizedMessage original="to" locale="es" localized="a"/>
+</entity-facade-xml>

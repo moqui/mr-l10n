@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Medical" locale="es" localized="Médico"/>
+    <moqui.basic.LocalizedMessage original="Medical Record" locale="es" localized="Registro médico"/>
+    <moqui.basic.LocalizedMessage original="Medical Taxable" locale="es" localized="Gravable médico"/>
+    <moqui.basic.LocalizedMessage original="Members" locale="es" localized="Miembros"/>
+    <moqui.basic.LocalizedMessage original="Merchant Mariner Card" locale="es" localized="Tarjeta de marino mercante"/>
+    <moqui.basic.LocalizedMessage original="Military Dependent ID" locale="es" localized="ID de dependiente militar"/>
+    <moqui.basic.LocalizedMessage original="Military ID" locale="es" localized="ID militar"/>
+    <moqui.basic.LocalizedMessage original="Min Wage Adj" locale="es" localized="Ajuste de salario mínimo"/>
+    <moqui.basic.LocalizedMessage original="Minority" locale="es" localized="Minoría"/>
+    <moqui.basic.LocalizedMessage original="NAICS Code" locale="es" localized="Código NAICS"/>
+    <moqui.basic.LocalizedMessage original="NPT - RRP" locale="es" localized="NPT - RRP"/>
+    <moqui.basic.LocalizedMessage original="NPT - STD" locale="es" localized="NPT - STD"/>
+    <moqui.basic.LocalizedMessage original="Native Tribal Document" locale="es" localized="Documento tribal nativo"/>
+    <moqui.basic.LocalizedMessage original="New Data" locale="es" localized="Datos nuevos"/>
+    <moqui.basic.LocalizedMessage original="Newspaper" locale="es" localized="Periódico"/>
+    <moqui.basic.LocalizedMessage original="No Charge" locale="es" localized="Sin cargo"/>
+    <moqui.basic.LocalizedMessage original="Not Yet Valid" locale="es" localized="Aún no válido"/>
+    <moqui.basic.LocalizedMessage original="Number of Employees" locale="es" localized="Número de empleados"/>
+    <moqui.basic.LocalizedMessage original="On-site" locale="es" localized="En el sitio"/>
+    <moqui.basic.LocalizedMessage original="Order Roles" locale="es" localized="Roles de orden"/>
+    <moqui.basic.LocalizedMessage original="Organization Member" locale="es" localized="Miembro de la organización"/>
+    <moqui.basic.LocalizedMessage original="Organization Roles" locale="es" localized="Roles de organización"/>
+    <moqui.basic.LocalizedMessage original="Organization Rollup (Child)" locale="es" localized="Agrupación de organización (hijo)"/>
+    <moqui.basic.LocalizedMessage original="Outgoing Email" locale="es" localized="Correo electrónico saliente"/>
+    <moqui.basic.LocalizedMessage original="Overtime" locale="es" localized="Tiempo extra"/>
+    <moqui.basic.LocalizedMessage original="Own Home" locale="es" localized="Vivienda propia"/>
+    <moqui.basic.LocalizedMessage original="Owners and moderators" locale="es" localized="Propietarios y moderadores"/>
+    <moqui.basic.LocalizedMessage original="Ownership" locale="es" localized="Propiedad"/>
+    <moqui.basic.LocalizedMessage original="PTO - Holiday" locale="es" localized="PTO - festivo"/>
+    <moqui.basic.LocalizedMessage original="PTO - Other" locale="es" localized="PTO - otro"/>
+    <moqui.basic.LocalizedMessage original="PTO - Sick" locale="es" localized="PTO - enfermedad"/>
+    <moqui.basic.LocalizedMessage original="PTO - Vacation" locale="es" localized="PTO - vacaciones"/>
+    <moqui.basic.LocalizedMessage original="Paid Break" locale="es" localized="Descanso pagado"/>
+    <moqui.basic.LocalizedMessage original="Paid Break RRP" locale="es" localized="Descanso pagado RRP"/>
+    <moqui.basic.LocalizedMessage original="Paid Break STD" locale="es" localized="Descanso pagado STD"/>
+    <moqui.basic.LocalizedMessage original="Paid Non-productive Time" locale="es" localized="Tiempo no productivo pagado"/>
+    <moqui.basic.LocalizedMessage original="Part-time Employed" locale="es" localized="Empleado a tiempo parcial"/>
+    <moqui.basic.LocalizedMessage original="Partner Managed" locale="es" localized="Gestionado por el socio"/>
+    <moqui.basic.LocalizedMessage original="Party Badge Scan Purpose" locale="es" localized="Propósito de escaneo de credencial del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Badge Scan Result" locale="es" localized="Resultado de escaneo de credencial del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Classification Type" locale="es" localized="Tipo de clasificación de participante"/>
+    <moqui.basic.LocalizedMessage original="Party Consent" locale="es" localized="Consentimiento del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Consent Purpose" locale="es" localized="Propósito del consentimiento del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Consent Source" locale="es" localized="Origen del consentimiento del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Content Type" locale="es" localized="Tipo de contenido del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Identification Type" locale="es" localized="Tipo de identificación del participante"/>
+    <moqui.basic.LocalizedMessage original="Party Relationship" locale="es" localized="Relación de participante"/>
+    <moqui.basic.LocalizedMessage original="Party Relationship Type" locale="es" localized="Tipo de relación de participante"/>
+    <moqui.basic.LocalizedMessage original="Party Type" locale="es" localized="Tipo de participante"/>
+    <moqui.basic.LocalizedMessage original="Passport Number" locale="es" localized="Número de pasaporte"/>
+    <moqui.basic.LocalizedMessage original="Pay Period" locale="es" localized="Periodo de pago"/>
+    <moqui.basic.LocalizedMessage original="Pay Rate Modifier" locale="es" localized="Modificador de tasa de pago"/>
+    <moqui.basic.LocalizedMessage original="Pay Rate Modifier Type" locale="es" localized="Tipo de modificador de tasa de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Signature Primary" locale="es" localized="Firma de pago principal"/>
+    <moqui.basic.LocalizedMessage original="Payment Signature Secondary" locale="es" localized="Firma de pago secundaria"/>
+    <moqui.basic.LocalizedMessage original="Payroll" locale="es" localized="Nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Adjustment Calculation" locale="es" localized="Cálculo de ajuste de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Allowance Amount Type" locale="es" localized="Tipo de importe de asignación de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Calc Period" locale="es" localized="Periodo de cálculo de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Calculation Phase" locale="es" localized="Fase de cálculo de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Rate Basis" locale="es" localized="Base de tasa de nómina"/>
+    <moqui.basic.LocalizedMessage original="Payroll Wage Grouping" locale="es" localized="Agrupación salarial de nómina"/>
+    <moqui.basic.LocalizedMessage original="Pending Accept" locale="es" localized="Dejar pendiente de aceptación"/>
+    <moqui.basic.LocalizedMessage original="Pending Acceptance" locale="es" localized="Pendiente de aceptación"/>
+    <moqui.basic.LocalizedMessage original="Permanent Resident" locale="es" localized="Residente permanente"/>
+    <moqui.basic.LocalizedMessage original="Permanent Resident Card" locale="es" localized="Tarjeta de residente permanente"/>
+    <moqui.basic.LocalizedMessage original="Person Roles" locale="es" localized="Roles de persona"/>
+    <moqui.basic.LocalizedMessage original="Personal Referral" locale="es" localized="Referencia personal"/>
+    <moqui.basic.LocalizedMessage original="Phone Number" locale="es" localized="Número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="Piece" locale="es" localized="Por pieza"/>
+    <moqui.basic.LocalizedMessage original="Piece Rate Type" locale="es" localized="Tipo de tasa por pieza"/>
+    <moqui.basic.LocalizedMessage original="Piece or Hourly" locale="es" localized="Por pieza o por hora"/>
+    <moqui.basic.LocalizedMessage original="Piece plus Hourly" locale="es" localized="Por pieza más por hora"/>
+    <moqui.basic.LocalizedMessage original="Plain Text" locale="es" localized="Texto sin formato"/>
+    <moqui.basic.LocalizedMessage original="Planned" locale="es" localized="Planificado"/>
+    <moqui.basic.LocalizedMessage original="Planned For" locale="es" localized="Planificado para"/>
+    <moqui.basic.LocalizedMessage original="Postal Address" locale="es" localized="Dirección postal"/>
+    <moqui.basic.LocalizedMessage original="Price Sheet" locale="es" localized="Lista de precios"/>
+    <moqui.basic.LocalizedMessage original="Pricing" locale="es" localized="Precios"/>
+    <moqui.basic.LocalizedMessage original="Primary Image" locale="es" localized="Imagen principal"/>
+    <moqui.basic.LocalizedMessage original="Private Tenant" locale="es" localized="Inquilino privado"/>
+    <moqui.basic.LocalizedMessage original="Production Management" locale="es" localized="Gestión de producción"/>
+    <moqui.basic.LocalizedMessage original="Project Management" locale="es" localized="Gestión de proyecto"/>
+    <moqui.basic.LocalizedMessage original="Public Tenant" locale="es" localized="Inquilino público"/>
+    <moqui.basic.LocalizedMessage original="Purchase Management" locale="es" localized="Gestión de compras"/>
+    <moqui.basic.LocalizedMessage original="Rate Purpose" locale="es" localized="Propósito de la tasa"/>
+    <moqui.basic.LocalizedMessage original="Record Timeline Source" locale="es" localized="Origen de línea de tiempo del registro"/>
+    <moqui.basic.LocalizedMessage original="Refer" locale="es" localized="Referir"/>
+    <moqui.basic.LocalizedMessage original="Referred" locale="es" localized="Referido"/>
+    <moqui.basic.LocalizedMessage original="Regular" locale="es" localized="Regular"/>
+    <moqui.basic.LocalizedMessage original="Representative" locale="es" localized="Representante"/>
+    <moqui.basic.LocalizedMessage original="Residence Status" locale="es" localized="Estado de residencia"/>
+    <moqui.basic.LocalizedMessage original="Resident Citizen ID Card" locale="es" localized="Tarjeta de ID de ciudadano residente"/>
+    <moqui.basic.LocalizedMessage original="Resident Regular" locale="es" localized="Residente regular"/>
+    <moqui.basic.LocalizedMessage original="Resigned" locale="es" localized="Renunciado"/>
+    <moqui.basic.LocalizedMessage original="Resolve" locale="es" localized="Resolver"/>
+    <moqui.basic.LocalizedMessage original="Resolved" locale="es" localized="Resuelto"/>
+    <moqui.basic.LocalizedMessage original="Resource Management" locale="es" localized="Gestión de recursos"/>
+    <moqui.basic.LocalizedMessage original="Risk Class Type" locale="es" localized="Tipo de clase de riesgo"/>
+    <moqui.basic.LocalizedMessage original="Role Group" locale="es" localized="Grupo de roles"/>
+    <moqui.basic.LocalizedMessage original="SIC Code" locale="es" localized="Código SIC"/>
+    <moqui.basic.LocalizedMessage original="Sales Affiliate" locale="es" localized="Afiliado de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales Follow-Up" locale="es" localized="Seguimiento de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales Inquiry" locale="es" localized="Consulta de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales Management" locale="es" localized="Gestión de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales Segment" locale="es" localized="Segmento de ventas"/>
+    <moqui.basic.LocalizedMessage original="School ID Card" locale="es" localized="Tarjeta de ID escolar"/>
+    <moqui.basic.LocalizedMessage original="School Record" locale="es" localized="Registro escolar"/>
+    <moqui.basic.LocalizedMessage original="Self Employed" locale="es" localized="Trabajador por cuenta propia"/>
+    <moqui.basic.LocalizedMessage original="Seminar" locale="es" localized="Seminario"/>
+    <moqui.basic.LocalizedMessage original="Shift - Evening" locale="es" localized="Turno - vespertino"/>
+    <moqui.basic.LocalizedMessage original="Shift - Holiday" locale="es" localized="Turno - festivo"/>
+    <moqui.basic.LocalizedMessage original="Shift - Night" locale="es" localized="Turno - noche"/>
+    <moqui.basic.LocalizedMessage original="Shift - Weekend" locale="es" localized="Turno - fin de semana"/>
+    <moqui.basic.LocalizedMessage original="Shipment Default Gateway Config ID" locale="es" localized="ID de configuración predeterminada de puerta de enlace de envío"/>
+    <moqui.basic.LocalizedMessage original="Shipments" locale="es" localized="Envíos"/>
+    <moqui.basic.LocalizedMessage original="Signature Required" locale="es" localized="Firma requerida"/>
+    <moqui.basic.LocalizedMessage original="Single" locale="es" localized="Soltero"/>
+    <moqui.basic.LocalizedMessage original="Single or Married File Separate" locale="es" localized="Soltero o casado que declara por separado"/>
+    <moqui.basic.LocalizedMessage original="Skill Type" locale="es" localized="Tipo de habilidad"/>
+    <moqui.basic.LocalizedMessage original="Social Security Card" locale="es" localized="Tarjeta del Seguro Social"/>
+    <moqui.basic.LocalizedMessage original="Social Security Number" locale="es" localized="Número de Seguro Social"/>
+    <moqui.basic.LocalizedMessage original="Social Taxable" locale="es" localized="Gravable social"/>
+    <moqui.basic.LocalizedMessage original="Special Day Off" locale="es" localized="Día libre especial"/>
+    <moqui.basic.LocalizedMessage original="Spouse" locale="es" localized="Cónyuge"/>
+    <moqui.basic.LocalizedMessage original="Staff" locale="es" localized="Personal"/>
+    <moqui.basic.LocalizedMessage original="Straight Time Gross" locale="es" localized="Bruto de tiempo regular"/>
+    <moqui.basic.LocalizedMessage original="Student" locale="es" localized="Estudiante"/>
+    <moqui.basic.LocalizedMessage original="Sub-Agreement" locale="es" localized="Subacuerdo"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Again" locale="es" localized="Suscribir de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Again - Pending" locale="es" localized="Suscribir de nuevo - pendiente"/>
+    <moqui.basic.LocalizedMessage original="Subscribe Notification" locale="es" localized="Notificación de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription Accepted - Unsubscribed" locale="es" localized="Suscripción aceptada - dado de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription Accepted - Unsubscription Pending" locale="es" localized="Suscripción aceptada - pendiente de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription In Use - Unsubscribed" locale="es" localized="Suscripción en uso - dado de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription In Use - Unsubscription Pending" locale="es" localized="Suscripción en uso - pendiente de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription Invalid - Unsubscribed" locale="es" localized="Suscripción no válida - dado de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription Invalid - Unsubscription Pending" locale="es" localized="Suscripción no válida - pendiente de baja"/>
+    <moqui.basic.LocalizedMessage original="Subscription Pending - Unsubscription Pending" locale="es" localized="Suscripción pendiente - pendiente de baja"/>
+    <moqui.basic.LocalizedMessage original="Success" locale="es" localized="Exitoso"/>
+    <moqui.basic.LocalizedMessage original="Supplier" locale="es" localized="Proveedor"/>
+    <moqui.basic.LocalizedMessage original="Support" locale="es" localized="Soporte"/>
+    <moqui.basic.LocalizedMessage original="Supporting Document" locale="es" localized="Documento de respaldo"/>
+    <moqui.basic.LocalizedMessage original="Tax Federal Status" locale="es" localized="Estado fiscal federal"/>
+    <moqui.basic.LocalizedMessage original="Tax State Status" locale="es" localized="Estado fiscal estatal"/>
+    <moqui.basic.LocalizedMessage original="Taxes, WC, etc" locale="es" localized="Impuestos, WC, etc"/>
+    <moqui.basic.LocalizedMessage original="Termination Reason" locale="es" localized="Motivo de terminación"/>
+    <moqui.basic.LocalizedMessage original="Termination Type" locale="es" localized="Tipo de terminación"/>
+    <moqui.basic.LocalizedMessage original="Testing" locale="es" localized="Pruebas"/>
+    <moqui.basic.LocalizedMessage original="Time Entry" locale="es" localized="Registro de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Time Period Purpose" locale="es" localized="Propósito del periodo de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Tracking Code Source" locale="es" localized="Origen del código de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tracking Code Type" locale="es" localized="Tipo de código de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Travel" locale="es" localized="Viaje"/>
+    <moqui.basic.LocalizedMessage original="URL Parameter" locale="es" localized="Parámetro de URL"/>
+    <moqui.basic.LocalizedMessage original="Un-view" locale="es" localized="Marcar como no visto"/>
+    <moqui.basic.LocalizedMessage original="Unemployed" locale="es" localized="Desempleado"/>
+    <moqui.basic.LocalizedMessage original="Unemployment Claim Status" locale="es" localized="Estado del reclamo de desempleo"/>
+    <moqui.basic.LocalizedMessage original="Unknown Party" locale="es" localized="Participante desconocido"/>
+    <moqui.basic.LocalizedMessage original="Unmarried Head of Household" locale="es" localized="Cabeza de familia no casado"/>
+    <moqui.basic.LocalizedMessage original="Unpaid" locale="es" localized="No pagado"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Notification" locale="es" localized="Notificación de baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Pending" locale="es" localized="Pendiente de baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe Verify" locale="es" localized="Verificación de baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribed" locale="es" localized="Dado de baja de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Valid/Complete" locale="es" localized="Válido/completo"/>
+    <moqui.basic.LocalizedMessage original="Vendor Assigned" locale="es" localized="Asignado por el vendedor"/>
+    <moqui.basic.LocalizedMessage original="Vendor Shipping Info" locale="es" localized="Información de envío del vendedor"/>
+    <moqui.basic.LocalizedMessage original="Verified" locale="es" localized="Verificado"/>
+    <moqui.basic.LocalizedMessage original="Voter Registration" locale="es" localized="Registro de votante"/>
+    <moqui.basic.LocalizedMessage original="Web Form" locale="es" localized="Formulario web"/>
+    <moqui.basic.LocalizedMessage original="Web URL/Address" locale="es" localized="URL/dirección web"/>
+    <moqui.basic.LocalizedMessage original="Widowed/Widower" locale="es" localized="Viudo"/>
+    <moqui.basic.LocalizedMessage original="With Parents" locale="es" localized="Con los padres"/>
+    <moqui.basic.LocalizedMessage original="Withdrawn" locale="es" localized="Retirado"/>
+    <moqui.basic.LocalizedMessage original="Work Type" locale="es" localized="Tipo de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Worker/Vendor Payment" locale="es" localized="Pago a trabajador/vendedor"/>
+    <moqui.basic.LocalizedMessage original="Workweek" locale="es" localized="Semana laboral"/>
+</entity-facade-xml>
