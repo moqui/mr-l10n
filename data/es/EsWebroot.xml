@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="1 hour" locale="es" localized="1 hora"/>
+    <moqui.basic.LocalizedMessage original="30 minutes" locale="es" localized="30 minutos"/>
+    <moqui.basic.LocalizedMessage original="4 hours" locale="es" localized="4 horas"/>
+    <moqui.basic.LocalizedMessage original="Accent color" locale="es" localized="Color de acento"/>
+    <moqui.basic.LocalizedMessage original="All applications" locale="es" localized="Todas las aplicaciones"/>
+    <moqui.basic.LocalizedMessage original="An authentication code is required for your account, you have these options:" locale="es" localized="Se requiere un código de autenticación para la cuenta y hay estas opciones:"/>
+    <moqui.basic.LocalizedMessage original="Appearance" locale="es" localized="Apariencia"/>
+    <moqui.basic.LocalizedMessage original="Application" locale="es" localized="Aplicación"/>
+    <moqui.basic.LocalizedMessage original="Ask Assist" locale="es" localized="Preguntar al asistente"/>
+    <moqui.basic.LocalizedMessage original="Assist" locale="es" localized="Asistente"/>
+    <moqui.basic.LocalizedMessage original="Authentication Code" locale="es" localized="Código de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Auto (system)" locale="es" localized="Automático (del sistema)"/>
+    <moqui.basic.LocalizedMessage original="Back to Login" locale="es" localized="Volver al inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Change User" locale="es" localized="Cambiar de usuario"/>
+    <moqui.basic.LocalizedMessage original="Chat" locale="es" localized="Conversación"/>
+    <moqui.basic.LocalizedMessage original="Clear after" locale="es" localized="Borrar después de"/>
+    <moqui.basic.LocalizedMessage original="Clear status message" locale="es" localized="Borrar mensaje de estado"/>
+    <moqui.basic.LocalizedMessage original="Close the dialog, menu or panel" locale="es" localized="Cerrar el diálogo, el menú o el panel"/>
+    <moqui.basic.LocalizedMessage original="Collapse the menu" locale="es" localized="Contraer el menú"/>
+    <moqui.basic.LocalizedMessage original="Color scheme" locale="es" localized="Esquema de color"/>
+    <moqui.basic.LocalizedMessage original="Comfortable" locale="es" localized="Cómodo"/>
+    <moqui.basic.LocalizedMessage original="Compact" locale="es" localized="Compacto"/>
+    <moqui.basic.LocalizedMessage original="Corners" locale="es" localized="Esquinas"/>
+    <moqui.basic.LocalizedMessage original="Create in this app" locale="es" localized="Crear en esta aplicación"/>
+    <moqui.basic.LocalizedMessage original="Documentation" locale="es" localized="Documentación"/>
+    <moqui.basic.LocalizedMessage original="Don't clear" locale="es" localized="No borrar"/>
+    <moqui.basic.LocalizedMessage original="Email Export" locale="es" localized="Enviar la exportación por correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Reset Password" locale="es" localized="Enviar por correo electrónico la contraseña de restablecimiento"/>
+    <moqui.basic.LocalizedMessage original="Enter an Authentication Code" locale="es" localized="Introducir un código de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Enter details to change your password" locale="es" localized="Introducir los datos para cambiar la contraseña"/>
+    <moqui.basic.LocalizedMessage original="Enter your username to email a reset password" locale="es" localized="Introducir el nombre de usuario para enviar por correo electrónico una contraseña de restablecimiento"/>
+    <moqui.basic.LocalizedMessage original="EnumerationNameTemplate" locale="es" localized="Plantilla de nombre de enumeración"/>
+    <moqui.basic.LocalizedMessage original="Everywhere" locale="es" localized="En todas partes"/>
+    <moqui.basic.LocalizedMessage original="Expand the menu" locale="es" localized="Expandir el menú"/>
+    <moqui.basic.LocalizedMessage original="Extra path: ${sri.screenUrlInfo.extraPathNameList}" locale="es" localized="Ruta adicional: ${sri.screenUrlInfo.extraPathNameList}"/>
+    <moqui.basic.LocalizedMessage original="Follow the system" locale="es" localized="Seguir el sistema"/>
+    <moqui.basic.LocalizedMessage original="Fonts" locale="es" localized="Fuentes"/>
+    <moqui.basic.LocalizedMessage original="Full" locale="es" localized="Completo"/>
+    <moqui.basic.LocalizedMessage original="Headings" locale="es" localized="Títulos"/>
+    <moqui.basic.LocalizedMessage original="Interface" locale="es" localized="Interfaz"/>
+    <moqui.basic.LocalizedMessage original="Keyboard shortcuts" locale="es" localized="Atajos de teclado"/>
+    <moqui.basic.LocalizedMessage original="Large text (headings)" locale="es" localized="Texto grande (títulos)"/>
+    <moqui.basic.LocalizedMessage original="Login" locale="es" localized="Iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="Logout" locale="es" localized="Cerrar sesión"/>
+    <moqui.basic.LocalizedMessage original="Mail" locale="es" localized="Correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Menu" locale="es" localized="Menú"/>
+    <moqui.basic.LocalizedMessage original="More rounded" locale="es" localized="Más redondeado"/>
+    <moqui.basic.LocalizedMessage original="Motion" locale="es" localized="Movimiento"/>
+    <moqui.basic.LocalizedMessage original="No results found" locale="es" localized="No se encontraron resultados"/>
+    <moqui.basic.LocalizedMessage original="Nothing found" locale="es" localized="No se encontró nada"/>
+    <moqui.basic.LocalizedMessage original="Notify History" locale="es" localized="Historial de notificaciones"/>
+    <moqui.basic.LocalizedMessage original="Offline" locale="es" localized="Sin conexión"/>
+    <moqui.basic.LocalizedMessage original="Other Applications" locale="es" localized="Otras aplicaciones"/>
+    <moqui.basic.LocalizedMessage original="QZ Print Options" locale="es" localized="Opciones de impresión de QZ"/>
+    <moqui.basic.LocalizedMessage original="Re-Login" locale="es" localized="Volver a iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="Readability" locale="es" localized="Legibilidad"/>
+    <moqui.basic.LocalizedMessage original="Recent" locale="es" localized="Recientes"/>
+    <moqui.basic.LocalizedMessage original="Reduce" locale="es" localized="Reducir"/>
+    <moqui.basic.LocalizedMessage original="Relaxed line spacing" locale="es" localized="Interlineado amplio"/>
+    <moqui.basic.LocalizedMessage original="Reload Page" locale="es" localized="Recargar la página"/>
+    <moqui.basic.LocalizedMessage original="Rounded" locale="es" localized="Redondeado"/>
+    <moqui.basic.LocalizedMessage original="Saved finds" locale="es" localized="Búsquedas guardadas"/>
+    <moqui.basic.LocalizedMessage original="Scheme color" locale="es" localized="Color del esquema"/>
+    <moqui.basic.LocalizedMessage original="Screen History" locale="es" localized="Historial de pantallas"/>
+    <moqui.basic.LocalizedMessage original="Screens" locale="es" localized="Pantallas"/>
+    <moqui.basic.LocalizedMessage original="Search screens, records and actions" locale="es" localized="Buscar pantallas, registros y acciones"/>
+    <moqui.basic.LocalizedMessage original="Select one or more rows first" locale="es" localized="Seleccionar una o más filas primero"/>
+    <moqui.basic.LocalizedMessage original="Send code to" locale="es" localized="Enviar código a"/>
+    <moqui.basic.LocalizedMessage original="Send Email" locale="es" localized="Enviar correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Set a status message" locale="es" localized="Establecer un mensaje de estado"/>
+    <moqui.basic.LocalizedMessage original="Show trimmed content" locale="es" localized="Mostrar contenido recortado"/>
+    <moqui.basic.LocalizedMessage original="Small text (tables, captions)" locale="es" localized="Texto pequeño (tablas, leyendas)"/>
+    <moqui.basic.LocalizedMessage original="Square" locale="es" localized="Cuadrado"/>
+    <moqui.basic.LocalizedMessage original="StatusItemNameTemplate" locale="es" localized="Plantilla de nombre de elemento de estado"/>
+    <moqui.basic.LocalizedMessage original="StatusTransitionNameTemplate" locale="es" localized="Plantilla de nombre de transición de estado"/>
+    <moqui.basic.LocalizedMessage original="Switch Dark/Light" locale="es" localized="Alternar oscuro/claro"/>
+    <moqui.basic.LocalizedMessage original="Text size" locale="es" localized="Tamaño del texto"/>
+    <moqui.basic.LocalizedMessage original="Theme default" locale="es" localized="Predeterminado del tema"/>
+    <moqui.basic.LocalizedMessage original="This link has expired or was not found." locale="es" localized="Este enlace ha caducado o no se encontró."/>
+    <moqui.basic.LocalizedMessage original="This week" locale="es" localized="Esta semana"/>
+    <moqui.basic.LocalizedMessage original="Toggle navigation" locale="es" localized="Alternar la navegación"/>
+    <moqui.basic.LocalizedMessage original="Type to search screens, records, people and actions" locale="es" localized="Escribir para buscar pantallas, registros, personas y acciones"/>
+    <moqui.basic.LocalizedMessage original="Underline links" locale="es" localized="Subrayar enlaces"/>
+    <moqui.basic.LocalizedMessage original="Verify Code" locale="es" localized="Verificar código"/>
+    <moqui.basic.LocalizedMessage original="Welcome" locale="es" localized="Bienvenido"/>
+    <moqui.basic.LocalizedMessage original="What's your status?" locale="es" localized="¿Cuál es el estado?"/>
+    <moqui.basic.LocalizedMessage original="You are using the terminal UI; the same apps are in the browser under /apps." locale="es" localized="Se está usando la interfaz de terminal; las mismas aplicaciones están en el navegador en /apps."/>
+    <moqui.basic.LocalizedMessage original="Your account requires a code to login and you do not have any setup. Contact an Administrator." locale="es" localized="La cuenta requiere un código para iniciar sesión y no tiene ninguna configuración. Contactar a un administrador."/>
+    <moqui.basic.LocalizedMessage original="↑ ↓ to move, Enter to open, Ctrl+Enter in a new tab" locale="es" localized="↑ ↓ para moverse, Enter para abrir, Ctrl+Enter en una pestaña nueva"/>
+</entity-facade-xml>

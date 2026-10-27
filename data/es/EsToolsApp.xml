@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(sfile.size/(1024*1024), '#,##0.00')} MiB" locale="es" localized="${ec.l10n.format(sfile.size/(1024*1024), '#,##0.00')} MiB"/>
+    <moqui.basic.LocalizedMessage original="All Descendants:" locale="es" localized="Todos los descendientes:"/>
+    <moqui.basic.LocalizedMessage original="All Entities" locale="es" localized="Todas las entidades"/>
+    <moqui.basic.LocalizedMessage original="Artifact Stats" locale="es" localized="Estadísticas de artefactos"/>
+    <moqui.basic.LocalizedMessage original="Authenticate: ${sd.authenticate}" locale="es" localized="Autenticación: ${sd.authenticate}"/>
+    <moqui.basic.LocalizedMessage original="Auto Screen Find" locale="es" localized="Búsqueda en pantalla automática"/>
+    <moqui.basic.LocalizedMessage original="Auto Screens" locale="es" localized="Pantallas automáticas"/>
+    <moqui.basic.LocalizedMessage original="By Data Types" locale="es" localized="Por tipos de datos"/>
+    <moqui.basic.LocalizedMessage original="Check and update DB table from entity definition" locale="es" localized="Comprobar y actualizar la tabla de la base de datos según la definición de la entidad"/>
+    <moqui.basic.LocalizedMessage original="Check Data" locale="es" localized="Comprobar datos"/>
+    <moqui.basic.LocalizedMessage original="Check/File Value" locale="es" localized="Valor de comprobación/archivo"/>
+    <moqui.basic.LocalizedMessage original="Check/Update All Tables" locale="es" localized="Comprobar/actualizar todas las tablas"/>
+    <moqui.basic.LocalizedMessage original="Check/Update Table" locale="es" localized="Comprobar/actualizar tabla"/>
+    <moqui.basic.LocalizedMessage original="Clear Stats" locale="es" localized="Borrar estadísticas"/>
+    <moqui.basic.LocalizedMessage original="Comma Separated (from entity-facade-xml.@type)" locale="es" localized="Separados por comas (de entity-facade-xml.@type)"/>
+    <moqui.basic.LocalizedMessage original="Component Names, Comma Separated" locale="es" localized="Nombres de componentes, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Create FKs" locale="es" localized="Crear claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Create Indexes" locale="es" localized="Crear índices"/>
+    <moqui.basic.LocalizedMessage original="Create Only? ${entityInfo.createOnly}" locale="es" localized="¿Solo creación? ${entityInfo.createOnly}"/>
+    <moqui.basic.LocalizedMessage original="CSV ONLY" locale="es" localized="Solo CSV"/>
+    <moqui.basic.LocalizedMessage original="CSV ONLY, use table and column names instead of entity and field names" locale="es" localized="Solo CSV, usar nombres de tabla y columna en lugar de nombres de entidad y campo"/>
+    <moqui.basic.LocalizedMessage original="CSV Text" locale="es" localized="Texto CSV"/>
+    <moqui.basic.LocalizedMessage original="Current Snapshot Files" locale="es" localized="Archivos de instantánea actuales"/>
+    <moqui.basic.LocalizedMessage original="Data Export" locale="es" localized="Exportación de datos"/>
+    <moqui.basic.LocalizedMessage original="Data Import" locale="es" localized="Importación de datos"/>
+    <moqui.basic.LocalizedMessage original="Data Snapshots" locale="es" localized="Instantáneas de datos"/>
+    <moqui.basic.LocalizedMessage original="Data View for: ${dbViewEntityName}" locale="es" localized="Vista de datos para: ${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="Data Views" locale="es" localized="Vistas de datos"/>
+    <moqui.basic.LocalizedMessage original="Defaults to include all if none selected and one or more skip entities specified" locale="es" localized="De forma predeterminada incluye todas si no se selecciona ninguna y se especifican una o más entidades a omitir"/>
+    <moqui.basic.LocalizedMessage original="Directory (one file per entity)" locale="es" localized="Directorio (un archivo por entidad)"/>
+    <moqui.basic.LocalizedMessage original="Drop FKs" locale="es" localized="Eliminar claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Dummy FKs?" locale="es" localized="¿Claves foráneas ficticias?"/>
+    <moqui.basic.LocalizedMessage original="Edit ${dbViewEntityName}" locale="es" localized="Editar ${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="Edit '${selectedEntity}' Entity Value" locale="es" localized="Editar el valor de la entidad '${selectedEntity}'"/>
+    <moqui.basic.LocalizedMessage original="EECAs and related AutoService SECAs" locale="es" localized="EECA y las SECA relacionadas de AutoService"/>
+    <moqui.basic.LocalizedMessage original="Empty Tables" locale="es" localized="Tablas vacías"/>
+    <moqui.basic.LocalizedMessage original="Entities: ${parseInt(entityCount, 10)}, View Entities: ${parseInt(viewEntityCount, 10)}, EECA rules: ${eecaRuleCount}" locale="es" localized="Entidades: ${parseInt(entityCount, 10)}, entidades de vista: ${parseInt(viewEntityCount, 10)}, reglas EECA: ${eecaRuleCount}"/>
+    <moqui.basic.LocalizedMessage original="Entity Detail" locale="es" localized="Detalle de entidad"/>
+    <moqui.basic.LocalizedMessage original="Entity Detail for ${entityDefinition.getPrettyName(null, null)} (${entityDefinition.fullEntityName})" locale="es" localized="Detalle de entidad para ${entityDefinition.getPrettyName(null, null)} (${entityDefinition.fullEntityName})"/>
+    <moqui.basic.LocalizedMessage original="Entity Find" locale="es" localized="Búsqueda de entidad"/>
+    <moqui.basic.LocalizedMessage original="Entity Master API" locale="es" localized="API de entidad maestra"/>
+    <moqui.basic.LocalizedMessage original="Entity Stats" locale="es" localized="Estadísticas de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity Tools" locale="es" localized="Herramientas de entidades"/>
+    <moqui.basic.LocalizedMessage original="Exclude View Entities" locale="es" localized="Excluir entidades de vista"/>
+    <moqui.basic.LocalizedMessage original="Export Snapshot" locale="es" localized="Exportar instantánea"/>
+    <moqui.basic.LocalizedMessage original="Filter ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}" locale="es" localized="Filtrar ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${aenDef.getPrettyName(null, null)}" locale="es" localized="Buscar ${aenDef.getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}" locale="es" localized="Buscar ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Find ${entityDefinition.getPrettyName(null, null)} (${selectedEntity})" locale="es" localized="Buscar ${entityDefinition.getPrettyName(null, null)} (${selectedEntity})"/>
+    <moqui.basic.LocalizedMessage original="Flow" locale="es" localized="Flujo"/>
+    <moqui.basic.LocalizedMessage original="Found ${statusItemList.length} statuses, ${transitionList.length} transitions" locale="es" localized="Se encontraron ${statusItemList.length} estados y ${transitionList.length} transiciones"/>
+    <moqui.basic.LocalizedMessage original="From Seq" locale="es" localized="Secuencia de origen"/>
+    <moqui.basic.LocalizedMessage original="General Tools" locale="es" localized="Herramientas generales"/>
+    <moqui.basic.LocalizedMessage original="Generated Diagrams" locale="es" localized="Diagramas generados"/>
+    <moqui.basic.LocalizedMessage original="Generated Groovy" locale="es" localized="Groovy generado"/>
+    <moqui.basic.LocalizedMessage original="Get Form XML" locale="es" localized="Obtener XML del formulario"/>
+    <moqui.basic.LocalizedMessage original="Get Forms XML" locale="es" localized="Obtener XML de los formularios"/>
+    <moqui.basic.LocalizedMessage original="Groovy Shell" locale="es" localized="Consola de Groovy"/>
+    <moqui.basic.LocalizedMessage original="Hide No Action Files?" locale="es" localized="¿Ocultar archivos sin acción?"/>
+    <moqui.basic.LocalizedMessage original="ID Map" locale="es" localized="Mapa de ID"/>
+    <moqui.basic.LocalizedMessage original="Import Data - Create Only" locale="es" localized="Importar datos - solo crear"/>
+    <moqui.basic.LocalizedMessage original="Import Data - Create or Update" locale="es" localized="Importar datos - crear o actualizar"/>
+    <moqui.basic.LocalizedMessage original="Import Snapshot" locale="es" localized="Importar instantánea"/>
+    <moqui.basic.LocalizedMessage original="In Parameters" locale="es" localized="Parámetros de entrada"/>
+    <moqui.basic.LocalizedMessage original="Is PK" locale="es" localized="Es clave primaria"/>
+    <moqui.basic.LocalizedMessage original="ISO Date Time" locale="es" localized="Fecha y hora ISO"/>
+    <moqui.basic.LocalizedMessage original="JSON Text" locale="es" localized="Texto JSON"/>
+    <moqui.basic.LocalizedMessage original="JSON with Dependents" locale="es" localized="JSON con dependientes"/>
+    <moqui.basic.LocalizedMessage original="Last Updated" locale="es" localized="Última actualización"/>
+    <moqui.basic.LocalizedMessage original="Liquibase Init XML" locale="es" localized="XML de inicialización de Liquibase"/>
+    <moqui.basic.LocalizedMessage original="Master Entities" locale="es" localized="Entidades maestras"/>
+    <moqui.basic.LocalizedMessage original="Master Entity" locale="es" localized="Entidad maestra"/>
+    <moqui.basic.LocalizedMessage original="Mermaid JS Text" locale="es" localized="Texto de Mermaid JS"/>
+    <moqui.basic.LocalizedMessage original="Needs Audit Log? ${entityInfo.needsAuditLog}" locale="es" localized="¿Requiere registro de auditoría? ${entityInfo.needsAuditLog}"/>
+    <moqui.basic.LocalizedMessage original="Needs Encrypt? ${entityInfo.needsEncrypt}" locale="es" localized="¿Requiere cifrado? ${entityInfo.needsEncrypt}"/>
+    <moqui.basic.LocalizedMessage original="New ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}" locale="es" localized="Nuevo ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}"/>
+    <moqui.basic.LocalizedMessage original="New Value" locale="es" localized="Nuevo valor"/>
+    <moqui.basic.LocalizedMessage original="Non-Empty Tables" locale="es" localized="Tablas no vacías"/>
+    <moqui.basic.LocalizedMessage original="Out Parameters" locale="es" localized="Parámetros de salida"/>
+    <moqui.basic.LocalizedMessage original="Package" locale="es" localized="Paquete"/>
+    <moqui.basic.LocalizedMessage original="Query Results" locale="es" localized="Resultados de la consulta"/>
+    <moqui.basic.LocalizedMessage original="Resource Location" locale="es" localized="Ubicación del recurso"/>
+    <moqui.basic.LocalizedMessage original="REST API: Swagger UI" locale="es" localized="API REST: Swagger UI"/>
+    <moqui.basic.LocalizedMessage original="Results for Service: ${serviceName}" locale="es" localized="Resultados del servicio: ${serviceName}"/>
+    <moqui.basic.LocalizedMessage original="Root Screen: ${rootLocation}" locale="es" localized="Pantalla raíz: ${rootLocation}"/>
+    <moqui.basic.LocalizedMessage original="Run Service" locale="es" localized="Ejecutar servicio"/>
+    <moqui.basic.LocalizedMessage original="Run Service: ${serviceName}" locale="es" localized="Ejecutar servicio: ${serviceName}"/>
+    <moqui.basic.LocalizedMessage original="Run SQL" locale="es" localized="Ejecutar SQL"/>
+    <moqui.basic.LocalizedMessage original="Screen Stats" locale="es" localized="Estadísticas de pantallas"/>
+    <moqui.basic.LocalizedMessage original="Script" locale="es" localized="Script del servicio"/>
+    <moqui.basic.LocalizedMessage original="SECA Rules" locale="es" localized="Reglas SECA"/>
+    <moqui.basic.LocalizedMessage original="Select" locale="es" localized="Seleccionar"/>
+    <moqui.basic.LocalizedMessage original="Select Fields" locale="es" localized="Seleccionar campos"/>
+    <moqui.basic.LocalizedMessage original="Select Service" locale="es" localized="Seleccionar servicio"/>
+    <moqui.basic.LocalizedMessage original="Semicolon separated sql statements" locale="es" localized="Sentencias SQL separadas por punto y coma"/>
+    <moqui.basic.LocalizedMessage original="Service Detail" locale="es" localized="Detalle del servicio"/>
+    <moqui.basic.LocalizedMessage original="Service List" locale="es" localized="Lista de servicios"/>
+    <moqui.basic.LocalizedMessage original="Service LoadRunner" locale="es" localized="Ejecutor de carga de servicios"/>
+    <moqui.basic.LocalizedMessage original="Service Name (path.verb#noun)" locale="es" localized="Nombre del servicio (ruta.verbo#sustantivo)"/>
+    <moqui.basic.LocalizedMessage original="Service Stats" locale="es" localized="Estadísticas de servicios"/>
+    <moqui.basic.LocalizedMessage original="Service Type: ${sd.serviceType}${sd.location ? ', Location: ' + sd.location : ''}${sd.method ? ', Method: ' + sd.method : ''}" locale="es" localized="Tipo de servicio: ${sd.serviceType}${sd.location ? ', Location: ' + sd.location : ''}${sd.method ? ', Method: ' + sd.method : ''}"/>
+    <moqui.basic.LocalizedMessage original="Services: ${knownServiceCount}, SECA rules: ${secaRuleCount}" locale="es" localized="Servicios: ${knownServiceCount}, reglas SECA: ${secaRuleCount}"/>
+    <moqui.basic.LocalizedMessage original="Set Master" locale="es" localized="Establecer entidad maestra"/>
+    <moqui.basic.LocalizedMessage original="Short Alias: ${entityInfo.shortAlias || 'N/A'}" locale="es" localized="Alias corto: ${entityInfo.shortAlias || 'N/A'}"/>
+    <moqui.basic.LocalizedMessage original="SQL Filter" locale="es" localized="Filtro SQL"/>
+    <moqui.basic.LocalizedMessage original="SQL Script" locale="es" localized="Script SQL"/>
+    <moqui.basic.LocalizedMessage original="SQL Statement" locale="es" localized="Sentencia SQL"/>
+    <moqui.basic.LocalizedMessage original="Statistics for queries run since server start. All times are in microseconds." locale="es" localized="Estadísticas de las consultas ejecutadas desde el inicio del servidor. Todos los tiempos están en microsegundos."/>
+    <moqui.basic.LocalizedMessage original="Table Name: ${entityInfo.fullTableName || 'N/A'}" locale="es" localized="Nombre de la tabla: ${entityInfo.fullTableName || 'N/A'}"/>
+    <moqui.basic.LocalizedMessage original="The larger APIs take a few seconds to load. Runs in same session (already authenticated)." locale="es" localized="Las API más grandes tardan unos segundos en cargar. Se ejecuta en la misma sesión (ya autenticada)."/>
+    <moqui.basic.LocalizedMessage original="Total Time ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')}s" locale="es" localized="Tiempo total ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')}s"/>
+    <moqui.basic.LocalizedMessage original="Trans Seq" locale="es" localized="Secuencia de transición"/>
+    <moqui.basic.LocalizedMessage original="Tx Ignore: ${sd.txIgnore}, Force New: ${sd.txForceNew}, Use Tx Cache: ${sd.txUseCache}, Timeout: ${sd.txTimeout}" locale="es" localized="Ignorar transacción: ${sd.txIgnore}, forzar nueva transacción: ${sd.txForceNew}, usar caché de transacción: ${sd.txUseCache}, tiempo de espera: ${sd.txTimeout}"/>
+    <moqui.basic.LocalizedMessage original="Update Fields to Check/File Value and Create Missing Records" locale="es" localized="Actualizar los campos al valor de comprobación/archivo y crear los registros faltantes"/>
+    <moqui.basic.LocalizedMessage original="Upload Snapshot" locale="es" localized="Subir instantánea"/>
+    <moqui.basic.LocalizedMessage original="Use master definition for each entity that has one with this name; try 'default'" locale="es" localized="Usar la definición maestra de cada entidad que tenga una con este nombre; probar 'default'"/>
+    <moqui.basic.LocalizedMessage original="Use Table Column Names (CSV Only)" locale="es" localized="Usar nombres de columnas de tabla (solo CSV)"/>
+    <moqui.basic.LocalizedMessage original="Use Try Insert?" locale="es" localized="¿Usar inserción tentativa?"/>
+    <moqui.basic.LocalizedMessage original="View ${dbViewEntityName}" locale="es" localized="Ver ${dbViewEntityName}"/>
+    <moqui.basic.LocalizedMessage original="View a status flow transition diagram by selecting a Type, Flow, or both" locale="es" localized="Ver un diagrama de transiciones del flujo de estados al seleccionar un tipo, un flujo o ambos"/>
+    <moqui.basic.LocalizedMessage original="View Entity Name" locale="es" localized="Nombre de la entidad de vista"/>
+    <moqui.basic.LocalizedMessage original="View Entity? ${entityDefinition.isViewEntity}" locale="es" localized="¿Entidad de vista? ${entityDefinition.isViewEntity}"/>
+    <moqui.basic.LocalizedMessage original="View Name" locale="es" localized="Nombre de la vista"/>
+    <moqui.basic.LocalizedMessage original="View Option" locale="es" localized="Opción de vista"/>
+    <moqui.basic.LocalizedMessage original="XML Actions" locale="es" localized="XML de acciones"/>
+    <moqui.basic.LocalizedMessage original="XML Text" locale="es" localized="Texto XML"/>
+</entity-facade-xml>

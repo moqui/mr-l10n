@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${name} may not view this page" locale="es" localized="${name} no puede ver esta página"/>
+    <moqui.basic.LocalizedMessage original="A review is approved or sent back for changes, not ${decision}" locale="es" localized="Una revisión se aprueba o se devuelve para cambios, no ${decision}"/>
+    <moqui.basic.LocalizedMessage original="Built on MR Moqui ${ec.factory.moquiVersion}" locale="es" localized="Hecho con MR Moqui ${ec.factory.moquiVersion}"/>
+    <moqui.basic.LocalizedMessage original="Cleared ${key} from cache [${cacheName}] had value [${cacheValue}]" locale="es" localized="Se quitó ${key} de la caché [${cacheName}]; el valor era [${cacheValue}]"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name ${entityNames}" locale="es" localized="No se encontró la entidad con el nombre ${entityNames}"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name ${entityName}" locale="es" localized="No se encontró la entidad con el nombre ${entityName}"/>
+    <moqui.basic.LocalizedMessage original="No branch ${branch} in ${repositoryId}" locale="es" localized="No hay una rama ${branch} en ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="No document found in PrintJob [${printJobId}]" locale="es" localized="No se encontró un documento en el trabajo de impresión [${printJobId}]"/>
+    <moqui.basic.LocalizedMessage original="No entry with key [${key}] in cache [${cacheName}]" locale="es" localized="No hay una entrada con la clave [${key}] en la caché [${cacheName}]"/>
+    <moqui.basic.LocalizedMessage original="No relationship definition found for name ${relationshipName}" locale="es" localized="No se encontró la definición de la relación ${relationshipName}"/>
+    <moqui.basic.LocalizedMessage original="No user ${user}" locale="es" localized="No hay un usuario ${user}"/>
+    <moqui.basic.LocalizedMessage original="Only showing first ${limit} rows." locale="es" localized="Solo se muestran las primeras ${limit} filas."/>
+    <moqui.basic.LocalizedMessage original="Only the poll's creator or a moderator may close it" locale="es" localized="Solo quien creó la encuesta, o un moderador, puede cerrarla"/>
+    <moqui.basic.LocalizedMessage original="Query altered ${rowsAffected} rows." locale="es" localized="La consulta modificó ${rowsAffected} filas."/>
+    <moqui.basic.LocalizedMessage original="Repository ${repositoryId} is archived" locale="es" localized="El repositorio ${repositoryId} está archivado"/>
+    <moqui.basic.LocalizedMessage original="Repository ${repositoryId} not found" locale="es" localized="No se encontró el repositorio ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="Showing all ${count} results." locale="es" localized="Se muestran los ${count} resultados."/>
+    <moqui.basic.LocalizedMessage original="The attachment ${name} is not a file of this message" locale="es" localized="El adjunto ${name} no es un archivo de este mensaje"/>
+    <moqui.basic.LocalizedMessage original="The Inbox is the server's INBOX: another folder does not become it" locale="es" localized="La bandeja de entrada es el INBOX del servidor: otra carpeta no pasa a serlo"/>
+    <moqui.basic.LocalizedMessage original="The versions could not be compared: ${error}" locale="es" localized="No se pudieron comparar las versiones: ${error}"/>
+    <moqui.basic.LocalizedMessage original="This account is shared with ${others} more people: remove them first, so only one is left, to make it personal" locale="es" localized="Esta cuenta se comparte con ${others} personas más: quitarlas primero, hasta que quede una, para hacerla personal"/>
+    <moqui.basic.LocalizedMessage original="This page has no version ${name}" locale="es" localized="Esta página no tiene la versión ${name}"/>
+    <moqui.basic.LocalizedMessage original="This review is ${status} already" locale="es" localized="Esta revisión ya está en ${status}"/>
+    <moqui.basic.LocalizedMessage original="UserAuthcOtpMessage" locale="es" localized="El código de un solo uso es ${code}"/>
+    <moqui.basic.LocalizedMessage original="You may not change the branch rules of ${repositoryId}" locale="es" localized="No se pueden cambiar las reglas de rama de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="You may not change the webhooks of ${repositoryId}" locale="es" localized="No se pueden cambiar los webhooks de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="You may not push to ${repositoryId}" locale="es" localized="No se puede enviar a ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="You may not see the webhooks of ${repositoryId}" locale="es" localized="No se pueden ver los webhooks de ${repositoryId}"/>
+</entity-facade-xml>

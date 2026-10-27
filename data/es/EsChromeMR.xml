@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Mail Password" locale="es" localized="Contraseña de correo electrónico" />
+    <moqui.basic.LocalizedMessage original="Mail Scope" locale="es" localized="Alcance de correo electrónico" />
+    <moqui.basic.LocalizedMessage original="Mail Username" locale="es" localized="Nombre de usuario de correo electrónico" />
+    <moqui.basic.LocalizedMessage original="Manual Data Service Name" locale="es" localized="Nombre del servicio de datos manual" />
+    <moqui.basic.LocalizedMessage original="Manual Mapping Service Name" locale="es" localized="Nombre del servicio de mapeo manual" />
+    <moqui.basic.LocalizedMessage original="Mapped Value" locale="es" localized="Valor asignado" />
+    <moqui.basic.LocalizedMessage original="Mapping Service Register ID" locale="es" localized="ID de registro del servicio de asignación" />
+    <moqui.basic.LocalizedMessage original="Master Name" locale="es" localized="Nombre maestro" />
+    <moqui.basic.LocalizedMessage original="Match All Enum ID" locale="es" localized="ID de enumeración de coincidencia total" />
+    <moqui.basic.LocalizedMessage original="Matched Count" locale="es" localized="Cantidad de coincidencias" />
+    <moqui.basic.LocalizedMessage original="Max" locale="es" localized="Máximo" />
+    <moqui.basic.LocalizedMessage original="Max Batch Events" locale="es" localized="Máximo de eventos por lote" />
+    <moqui.basic.LocalizedMessage original="Max Concurrency" locale="es" localized="Concurrencia máxima" />
+    <moqui.basic.LocalizedMessage original="Max Concurrent" locale="es" localized="Máximo concurrente" />
+    <moqui.basic.LocalizedMessage original="Max Cost" locale="es" localized="Costo máximo" />
+    <moqui.basic.LocalizedMessage original="Max Hits Count" locale="es" localized="Cantidad máxima de accesos" />
+    <moqui.basic.LocalizedMessage original="Max Hits Duration" locale="es" localized="Duración máxima de accesos" />
+    <moqui.basic.LocalizedMessage original="Max Output" locale="es" localized="Salida máxima" />
+    <moqui.basic.LocalizedMessage original="Max Run Seconds" locale="es" localized="Segundos máximos de ejecución" />
+    <moqui.basic.LocalizedMessage original="Max Runs Per Day" locale="es" localized="Ejecuciones máximas por día" />
+    <moqui.basic.LocalizedMessage original="Max Runs Per Hour" locale="es" localized="Ejecuciones máximas por hora" />
+    <moqui.basic.LocalizedMessage original="Max Steps" locale="es" localized="Pasos máximos" />
+    <moqui.basic.LocalizedMessage original="Max Time Millis" locale="es" localized="Tiempo máximo en milisegundos" />
+    <moqui.basic.LocalizedMessage original="Max Tokens" locale="es" localized="Tokens máximos" />
+    <moqui.basic.LocalizedMessage original="Max Tool Calls" locale="es" localized="Llamadas máximas a herramientas" />
+    <moqui.basic.LocalizedMessage original="MCP Server" locale="es" localized="Servidor MCP" />
+    <moqui.basic.LocalizedMessage original="Mcp Server ID" locale="es" localized="ID del servidor MCP" />
+    <moqui.basic.LocalizedMessage original="MCP Servers" locale="es" localized="Servidores MCP" />
+    <moqui.basic.LocalizedMessage original="Media Type" locale="es" localized="Tipo de medio" />
+    <moqui.basic.LocalizedMessage original="Member Info" locale="es" localized="Información del miembro" />
+    <moqui.basic.LocalizedMessage original="Memory Create" locale="es" localized="Crear memoria" />
+    <moqui.basic.LocalizedMessage original="Memory ID" locale="es" localized="ID de memoria" />
+    <moqui.basic.LocalizedMessage original="Memory Text" locale="es" localized="Texto de memoria" />
+    <moqui.basic.LocalizedMessage original="Menu Include" locale="es" localized="Incluir en el menú" />
+    <moqui.basic.LocalizedMessage original="Menu Index" locale="es" localized="Índice del menú" />
+    <moqui.basic.LocalizedMessage original="Menu Title" locale="es" localized="Título del menú" />
+    <moqui.basic.LocalizedMessage original="Merge Commit ID" locale="es" localized="ID de la confirmación de fusión" />
+    <moqui.basic.LocalizedMessage original="Merge Method Enum ID" locale="es" localized="ID de enumeración del método de fusión" />
+    <moqui.basic.LocalizedMessage original="Merge Request ID" locale="es" localized="ID de la solicitud de fusión" />
+    <moqui.basic.LocalizedMessage original="Merge Request Num" locale="es" localized="Número de solicitud de fusión" />
+    <moqui.basic.LocalizedMessage original="Mergeable Enum ID" locale="es" localized="ID de enumeración de fusionable" />
+    <moqui.basic.LocalizedMessage original="Merged By User ID" locale="es" localized="ID del usuario que fusionó" />
+    <moqui.basic.LocalizedMessage original="Merged Date" locale="es" localized="Fecha de fusión" />
+    <moqui.basic.LocalizedMessage original="Message Auth Enum ID" locale="es" localized="ID de enumeración de autenticación del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message Date" locale="es" localized="Fecha del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message ID" locale="es" localized="ID del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message Json" locale="es" localized="JSON del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message Seq" locale="es" localized="Secuencia del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message Size" locale="es" localized="Tamaño del mensaje" />
+    <moqui.basic.LocalizedMessage original="Message Text" locale="es" localized="Texto del mensaje" />
+    <moqui.basic.LocalizedMessage original="Messages" locale="es" localized="Mensajes" />
+    <moqui.basic.LocalizedMessage original="Meta Description" locale="es" localized="Metadescripción" />
+    <moqui.basic.LocalizedMessage original="Meta Keywords" locale="es" localized="Palabras clave meta" />
+    <moqui.basic.LocalizedMessage original="Metadata Json" locale="es" localized="JSON de metadatos" />
+    <moqui.basic.LocalizedMessage original="Milliseconds" locale="es" localized="Milisegundos" />
+    <moqui.basic.LocalizedMessage original="Mime Type" locale="es" localized="Tipo MIME" />
+    <moqui.basic.LocalizedMessage original="Min" locale="es" localized="Mínimo" />
+    <moqui.basic.LocalizedMessage original="Min Retry Time" locale="es" localized="Tiempo mínimo de reintento" />
+    <moqui.basic.LocalizedMessage original="Min Time Millis" locale="es" localized="Tiempo mínimo en milisegundos" />
+    <moqui.basic.LocalizedMessage original="Model" locale="es" localized="Modelo" />
+    <moqui.basic.LocalizedMessage original="Model ID" locale="es" localized="ID del modelo" />
+    <moqui.basic.LocalizedMessage original="Models" locale="es" localized="Modelos" />
+    <moqui.basic.LocalizedMessage original="Modify Xml Screen Form" locale="es" localized="Formulario XML de pantalla a modificar" />
+    <moqui.basic.LocalizedMessage original="Month Name" locale="es" localized="Nombre del mes" />
+    <moqui.basic.LocalizedMessage original="Month Of Year" locale="es" localized="Mes del año" />
+    <moqui.basic.LocalizedMessage original="More" locale="es" localized="Más" />
+    <moqui.basic.LocalizedMessage original="Mount Point" locale="es" localized="Punto de montaje" />
+    <moqui.basic.LocalizedMessage original="Ms Per Call" locale="es" localized="Milisegundos por llamada" />
+    <moqui.basic.LocalizedMessage original="Mx Suffixes" locale="es" localized="Sufijos MX" />
+    <moqui.basic.LocalizedMessage original="My Inbox" locale="es" localized="Mi bandeja de entrada" />
+    <moqui.basic.LocalizedMessage original="Name Is Pattern" locale="es" localized="El nombre es un patrón" />
+    <moqui.basic.LocalizedMessage original="Needs Validation" locale="es" localized="Necesita validación" />
+    <moqui.basic.LocalizedMessage original="Network Mode" locale="es" localized="Modo de red" />
+    <moqui.basic.LocalizedMessage original="Network Printer ID" locale="es" localized="ID de impresora de red" />
+    <moqui.basic.LocalizedMessage original="New" locale="es" localized="Nuevo" />
+    <moqui.basic.LocalizedMessage original="New Object ID" locale="es" localized="ID del objeto nuevo" />
+    <moqui.basic.LocalizedMessage original="New Password" locale="es" localized="Contraseña nueva" />
+    <moqui.basic.LocalizedMessage original="New Password Verify" locale="es" localized="Verificar contraseña nueva" />
+    <moqui.basic.LocalizedMessage original="New Value Text" locale="es" localized="Texto del valor nuevo" />
+    <moqui.basic.LocalizedMessage original="Next Attempt Date" locale="es" localized="Fecha del siguiente intento" />
+    <moqui.basic.LocalizedMessage original="No Results Abort" locale="es" localized="Abortar si no hay resultados" />
+    <moqui.basic.LocalizedMessage original="No Sub Path" locale="es" localized="Sin subruta" />
+    <moqui.basic.LocalizedMessage original="Not Found" locale="es" localized="No encontrado" />
+    <moqui.basic.LocalizedMessage original="Note" locale="es" localized="Nota" />
+    <moqui.basic.LocalizedMessage original="Notification Level Enum ID" locale="es" localized="ID de enumeración del nivel de notificación" />
+    <moqui.basic.LocalizedMessage original="Notification Message ID" locale="es" localized="ID del mensaje de notificación" />
+    <moqui.basic.LocalizedMessage original="Oauth Provider Enum ID" locale="es" localized="ID de enumeración del proveedor OAuth" />
+    <moqui.basic.LocalizedMessage original="Oauth Refresh Token" locale="es" localized="Token de actualización OAuth" />
+    <moqui.basic.LocalizedMessage original="Oauth Sign In Date" locale="es" localized="Fecha de inicio de sesión OAuth" />
+    <moqui.basic.LocalizedMessage original="Object Count" locale="es" localized="Cantidad de objetos" />
+    <moqui.basic.LocalizedMessage original="Object Data" locale="es" localized="Datos del objeto" />
+    <moqui.basic.LocalizedMessage original="Object ID" locale="es" localized="ID del objeto" />
+    <moqui.basic.LocalizedMessage original="Object Size" locale="es" localized="Tamaño del objeto" />
+    <moqui.basic.LocalizedMessage original="Object Type" locale="es" localized="Tipo de objeto" />
+    <moqui.basic.LocalizedMessage original="Oid" locale="es" localized="OID" />
+    <moqui.basic.LocalizedMessage original="Old Object ID" locale="es" localized="ID del objeto anterior" />
+    <moqui.basic.LocalizedMessage original="Old Page Path" locale="es" localized="Ruta de la página anterior" />
+    <moqui.basic.LocalizedMessage original="Old Password" locale="es" localized="Contraseña anterior" />
+    <moqui.basic.LocalizedMessage original="Old Value Text" locale="es" localized="Texto del valor anterior" />
+    <moqui.basic.LocalizedMessage original="Old Wiki Space ID" locale="es" localized="ID del espacio wiki anterior" />
+    <moqui.basic.LocalizedMessage original="On Server" locale="es" localized="En el servidor" />
+    <moqui.basic.LocalizedMessage original="Opened Count" locale="es" localized="Cantidad de aperturas" />
+    <moqui.basic.LocalizedMessage original="Operation" locale="es" localized="Operación" />
+    <moqui.basic.LocalizedMessage original="Operator" locale="es" localized="Operador" />
+    <moqui.basic.LocalizedMessage original="Option Indicator" locale="es" localized="Indicador de opción" />
+    <moqui.basic.LocalizedMessage original="Option Seq" locale="es" localized="Secuencia de la opción" />
+    <moqui.basic.LocalizedMessage original="Option Text" locale="es" localized="Texto de la opción" />
+    <moqui.basic.LocalizedMessage original="Option Value" locale="es" localized="Valor de la opción" />
+    <moqui.basic.LocalizedMessage original="Options" locale="es" localized="Opciones" />
+    <moqui.basic.LocalizedMessage original="Order By Field" locale="es" localized="Campo de ordenamiento" />
+    <moqui.basic.LocalizedMessage original="Order Sequence Num" locale="es" localized="Número de secuencia de ordenamiento" />
+    <moqui.basic.LocalizedMessage original="Orientation" locale="es" localized="Orientación" />
+    <moqui.basic.LocalizedMessage original="Origin Agent ID" locale="es" localized="ID del agente de origen" />
+    <moqui.basic.LocalizedMessage original="Original" locale="es" localized="Texto original" />
+    <moqui.basic.LocalizedMessage original="Out to Browser" locale="es" localized="Salida al navegador" />
+    <moqui.basic.LocalizedMessage original="Outcome" locale="es" localized="Resultado" />
+    <moqui.basic.LocalizedMessage original="Outcome Json" locale="es" localized="JSON del resultado" />
+    <moqui.basic.LocalizedMessage original="Output" locale="es" localized="Salida" />
+    <moqui.basic.LocalizedMessage original="Output Size" locale="es" localized="Tamaño de la salida" />
+    <moqui.basic.LocalizedMessage original="Output Tokens" locale="es" localized="Tokens de salida" />
+    <moqui.basic.LocalizedMessage original="Owner Party ID" locale="es" localized="ID del participante propietario" />
+    <moqui.basic.LocalizedMessage original="Owner User ID" locale="es" localized="ID del usuario propietario" />
+    <moqui.basic.LocalizedMessage original="Owns Email Server" locale="es" localized="Posee el servidor de correo electrónico" />
+    <moqui.basic.LocalizedMessage original="Package Name" locale="es" localized="Nombre del paquete" />
+    <moqui.basic.LocalizedMessage original="Page Path" locale="es" localized="Ruta de la página" />
+    <moqui.basic.LocalizedMessage original="Page Ranges" locale="es" localized="Rangos de páginas" />
+    <moqui.basic.LocalizedMessage original="Pages Printed" locale="es" localized="Páginas impresas" />
+    <moqui.basic.LocalizedMessage original="Panel" locale="es" localized="Panel lateral" />
+    <moqui.basic.LocalizedMessage original="Parallel Tool Calls" locale="es" localized="Llamadas paralelas a herramientas" />
+    <moqui.basic.LocalizedMessage original="Parameter Name" locale="es" localized="Nombre del parámetro" />
+    <moqui.basic.LocalizedMessage original="Parameter String" locale="es" localized="Cadena del parámetro" />
+    <moqui.basic.LocalizedMessage original="Parameter Value" locale="es" localized="Valor del parámetro" />
+    <moqui.basic.LocalizedMessage original="Parameters" locale="es" localized="Parámetros" />
+    <moqui.basic.LocalizedMessage original="Parent Email Message ID" locale="es" localized="ID del mensaje de correo electrónico padre" />
+    <moqui.basic.LocalizedMessage original="Parent Enum ID" locale="es" localized="ID de enumeración padre" />
+    <moqui.basic.LocalizedMessage original="Parent Folder ID" locale="es" localized="ID de la carpeta padre" />
+    <moqui.basic.LocalizedMessage original="Parent Message ID" locale="es" localized="ID del mensaje padre" />
+    <moqui.basic.LocalizedMessage original="Parent Resource ID" locale="es" localized="ID del recurso padre" />
+    <moqui.basic.LocalizedMessage original="Parent Run ID" locale="es" localized="ID de la ejecución padre" />
+    <moqui.basic.LocalizedMessage original="Parent Type ID" locale="es" localized="ID del tipo padre" />
+    <moqui.basic.LocalizedMessage original="Parent Wiki Page ID" locale="es" localized="ID de la página wiki padre" />
+    <moqui.basic.LocalizedMessage original="Part Kind Enum ID" locale="es" localized="ID de enumeración del tipo de parte" />
+    <moqui.basic.LocalizedMessage original="Part Seq" locale="es" localized="Secuencia de la parte" />
+    <moqui.basic.LocalizedMessage original="Party ID" locale="es" localized="ID del participante" />
+    <moqui.basic.LocalizedMessage original="Passive" locale="es" localized="Pasivo" />
+    <moqui.basic.LocalizedMessage original="Password Base64" locale="es" localized="Contraseña en Base64" />
+    <moqui.basic.LocalizedMessage original="Password Hash" locale="es" localized="Hash de la contraseña" />
+    <moqui.basic.LocalizedMessage original="Password Hash Type" locale="es" localized="Tipo de hash de la contraseña" />
+    <moqui.basic.LocalizedMessage original="Password Hint" locale="es" localized="Pista de la contraseña" />
+    <moqui.basic.LocalizedMessage original="Password Salt" locale="es" localized="Sal de la contraseña" />
+    <moqui.basic.LocalizedMessage original="Password Set Date" locale="es" localized="Fecha en que se estableció la contraseña" />
+    <moqui.basic.LocalizedMessage original="Path" locale="es" localized="Ruta" />
+    <moqui.basic.LocalizedMessage original="Pause Expire Date" locale="es" localized="Fecha de vencimiento de la pausa" />
+    <moqui.basic.LocalizedMessage original="Pause Kind Enum ID" locale="es" localized="ID de enumeración del tipo de pausa" />
+    <moqui.basic.LocalizedMessage original="Pause Ref" locale="es" localized="Referencia de la pausa" />
+    <moqui.basic.LocalizedMessage original="Payload" locale="es" localized="Carga útil" />
+    <moqui.basic.LocalizedMessage original="Payload Json" locale="es" localized="JSON de la carga útil" />
+    <moqui.basic.LocalizedMessage original="Per User Auth" locale="es" localized="Autenticación por usuario" />
+    <moqui.basic.LocalizedMessage original="Period" locale="es" localized="Periodo" />
+    <moqui.basic.LocalizedMessage original="Permission Enum ID" locale="es" localized="ID de enumeración del permiso" />
+    <moqui.basic.LocalizedMessage original="Persist On Send" locale="es" localized="Persistir al enviar" />
+    <moqui.basic.LocalizedMessage original="Pinned By User ID" locale="es" localized="ID del usuario que fijó" />
+    <moqui.basic.LocalizedMessage original="Pinned Date" locale="es" localized="Fecha en que se fijó" />
+    <moqui.basic.LocalizedMessage original="Pk Complete" locale="es" localized="Clave primaria completa" />
+    <moqui.basic.LocalizedMessage original="Pk Primary Value" locale="es" localized="Valor primario de la clave" />
+    <moqui.basic.LocalizedMessage original="Pk Rest Combined Value" locale="es" localized="Valor combinado del resto de la clave" />
+    <moqui.basic.LocalizedMessage original="Pk Secondary Value" locale="es" localized="Valor secundario de la clave" />
+    <moqui.basic.LocalizedMessage original="Pk Value" locale="es" localized="Valor de la clave primaria" />
+    <moqui.basic.LocalizedMessage original="Please use this reset password to change your password immediately." locale="es" localized="Se debe usar esta contraseña de restablecimiento para cambiar la contraseña de inmediato." />
+    <moqui.basic.LocalizedMessage original="Policies" locale="es" localized="Políticas" />
+    <moqui.basic.LocalizedMessage original="Policy" locale="es" localized="Política" />
+    <moqui.basic.LocalizedMessage original="Pop Host" locale="es" localized="Servidor POP" />
+    <moqui.basic.LocalizedMessage original="Pop Port" locale="es" localized="Puerto POP" />
+    <moqui.basic.LocalizedMessage original="Pop Protocol" locale="es" localized="Protocolo POP" />
+    <moqui.basic.LocalizedMessage original="Pop Scope" locale="es" localized="Alcance POP" />
+    <moqui.basic.LocalizedMessage original="Position Index" locale="es" localized="Índice de posición" />
+    <moqui.basic.LocalizedMessage original="Position Sequence" locale="es" localized="Secuencia de posición" />
+    <moqui.basic.LocalizedMessage original="Post Query" locale="es" localized="Consulta posterior" />
+    <moqui.basic.LocalizedMessage original="Pre Auth Message Remote ID" locale="es" localized="ID del remoto de preautenticación" />
+    <moqui.basic.LocalizedMessage original="Preference Key" locale="es" localized="Clave de preferencia" />
+    <moqui.basic.LocalizedMessage original="Preference Value" locale="es" localized="Valor de preferencia" />
+    <moqui.basic.LocalizedMessage original="Preferences" locale="es" localized="Preferencias" />
+    <moqui.basic.LocalizedMessage original="Preferred Jws Algorithm Enum ID" locale="es" localized="ID de enumeración del algoritmo JWS preferido" />
+    <moqui.basic.LocalizedMessage original="Pretty Name" locale="es" localized="Nombre legible" />
+    <moqui.basic.LocalizedMessage original="Preview Json" locale="es" localized="JSON de vista previa" />
+    <moqui.basic.LocalizedMessage original="Preview Mode" locale="es" localized="Modo de vista previa" />
+    <moqui.basic.LocalizedMessage original="Previous Version Name" locale="es" localized="Nombre de la versión anterior" />
+    <moqui.basic.LocalizedMessage original="Price Cache Write" locale="es" localized="Precio de escritura en caché" />
+    <moqui.basic.LocalizedMessage original="Price Cached Input" locale="es" localized="Precio de entrada en caché" />
+    <moqui.basic.LocalizedMessage original="Price Input" locale="es" localized="Precio de entrada" />
+    <moqui.basic.LocalizedMessage original="Price Output" locale="es" localized="Precio de salida" />
+    <moqui.basic.LocalizedMessage original="Primary Entity Name" locale="es" localized="Nombre de la entidad primaria" />
+    <moqui.basic.LocalizedMessage original="Primary Key" locale="es" localized="Clave primaria" />
+    <moqui.basic.LocalizedMessage original="Primary Key Removed" locale="es" localized="Clave primaria eliminada" />
+    <moqui.basic.LocalizedMessage original="Print Bottom" locale="es" localized="Inferior de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Container Height" locale="es" localized="Alto del contenedor de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Container Width" locale="es" localized="Ancho del contenedor de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Font Family" locale="es" localized="Familia de fuente de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Font Size" locale="es" localized="Tamaño de fuente de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Height" locale="es" localized="Alto de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Job ID" locale="es" localized="ID del trabajo de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Jobs" locale="es" localized="Trabajos de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Left" locale="es" localized="Izquierda de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Page Number" locale="es" localized="Número de página de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Repeat Count" locale="es" localized="Cantidad de repeticiones de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Repeat New Page" locale="es" localized="Nueva página al repetir la impresión" />
+    <moqui.basic.LocalizedMessage original="Print Right" locale="es" localized="Derecha de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Template Location" locale="es" localized="Ubicación de la plantilla de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Text Align" locale="es" localized="Alineación del texto de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Top" locale="es" localized="Superior de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Vertical Align" locale="es" localized="Alineación vertical de impresión" />
+    <moqui.basic.LocalizedMessage original="Print Width" locale="es" localized="Ancho de impresión" />
+    <moqui.basic.LocalizedMessage original="Printer Name" locale="es" localized="Nombre de la impresora" />
+    <moqui.basic.LocalizedMessage original="Printer Url" locale="es" localized="URL de la impresora" />
+    <moqui.basic.LocalizedMessage original="Printers" locale="es" localized="Impresoras" />
+    <moqui.basic.LocalizedMessage original="Prior Tips" locale="es" localized="Puntas anteriores" />
+    <moqui.basic.LocalizedMessage original="Priority" locale="es" localized="Prioridad" />
+    <moqui.basic.LocalizedMessage original="Private Key" locale="es" localized="Clave privada" />
+    <moqui.basic.LocalizedMessage original="Private Key Password" locale="es" localized="Contraseña de la clave privada" />
+    <moqui.basic.LocalizedMessage original="Probe Date" locale="es" localized="Fecha de sondeo" />
+    <moqui.basic.LocalizedMessage original="Processed Date" locale="es" localized="Fecha de procesamiento" />
+    <moqui.basic.LocalizedMessage original="Produce Ack On Consumed" locale="es" localized="Producir acuse al consumir" />
+    <moqui.basic.LocalizedMessage original="Produce Ack Service Name" locale="es" localized="Nombre del servicio de acuse" />
+    <moqui.basic.LocalizedMessage original="Produce Service Name" locale="es" localized="Nombre del servicio de producción" />
+    <moqui.basic.LocalizedMessage original="Prompt ID" locale="es" localized="ID de la indicación" />
+    <moqui.basic.LocalizedMessage original="Prompt Preview" locale="es" localized="Vista previa de la indicación" />
+    <moqui.basic.LocalizedMessage original="Prompt Text" locale="es" localized="Texto de la indicación" />
+    <moqui.basic.LocalizedMessage original="Prompt Variant" locale="es" localized="Variante de la indicación" />
+    <moqui.basic.LocalizedMessage original="Property Prefix" locale="es" localized="Prefijo de propiedad" />
+    <moqui.basic.LocalizedMessage original="Protocol" locale="es" localized="Protocolo" />
+    <moqui.basic.LocalizedMessage original="Provenance" locale="es" localized="Procedencia" />
+    <moqui.basic.LocalizedMessage original="Provider Call ID" locale="es" localized="ID de la llamada del proveedor" />
+    <moqui.basic.LocalizedMessage original="Provider Model" locale="es" localized="Modelo del proveedor" />
+    <moqui.basic.LocalizedMessage original="Public Attachment Url" locale="es" localized="URL pública del archivo adjunto" />
+    <moqui.basic.LocalizedMessage original="Public Blog Url" locale="es" localized="URL pública del blog" />
+    <moqui.basic.LocalizedMessage original="Public Key" locale="es" localized="Clave pública" />
+    <moqui.basic.LocalizedMessage original="Public Page Url" locale="es" localized="URL pública de la página" />
+    <moqui.basic.LocalizedMessage original="Publish Date" locale="es" localized="Fecha de publicación" />
+    <moqui.basic.LocalizedMessage original="Published Version Name" locale="es" localized="Nombre de la versión publicada" />
+    <moqui.basic.LocalizedMessage original="Purpose" locale="es" localized="Propósito" />
+    <moqui.basic.LocalizedMessage original="Purpose Enum ID" locale="es" localized="ID de enumeración del propósito" />
+    <moqui.basic.LocalizedMessage original="Push Config ID" locale="es" localized="ID de configuración de inserción" />
+    <moqui.basic.LocalizedMessage original="Push Options" locale="es" localized="Opciones de inserción" />
+    <moqui.basic.LocalizedMessage original="Push User Group ID" locale="es" localized="ID del grupo de usuarios de inserción" />
+    <moqui.basic.LocalizedMessage original="Query Stats" locale="es" localized="Estadísticas de consultas" />
+    <moqui.basic.LocalizedMessage original="Query Text" locale="es" localized="Texto de la consulta" />
+    <moqui.basic.LocalizedMessage original="Question ID" locale="es" localized="ID de la pregunta" />
+    <moqui.basic.LocalizedMessage original="Question Text" locale="es" localized="Texto de la pregunta" />
+    <moqui.basic.LocalizedMessage original="Quota Bytes" locale="es" localized="Cuota en bytes" />
+    <moqui.basic.LocalizedMessage original="Quota ID" locale="es" localized="ID de la cuota" />
+    <moqui.basic.LocalizedMessage original="Realm" locale="es" localized="Dominio" />
+    <moqui.basic.LocalizedMessage original="Reason" locale="es" localized="Motivo" />
+    <moqui.basic.LocalizedMessage original="Reason Enum ID" locale="es" localized="ID de enumeración del motivo" />
+    <moqui.basic.LocalizedMessage original="Reasoning Json" locale="es" localized="JSON de razonamiento" />
+    <moqui.basic.LocalizedMessage original="Reasoning Level" locale="es" localized="Nivel de razonamiento" />
+    <moqui.basic.LocalizedMessage original="Reasoning Replay" locale="es" localized="Reproducción del razonamiento" />
+    <moqui.basic.LocalizedMessage original="Reasoning Tokens" locale="es" localized="Tokens de razonamiento" />
+    <moqui.basic.LocalizedMessage original="Receive File Pattern" locale="es" localized="Patrón de archivo de recepción" />
+    <moqui.basic.LocalizedMessage original="Receive Move Path" locale="es" localized="Ruta de movimiento al recibir" />
+    <moqui.basic.LocalizedMessage original="Receive Notifications" locale="es" localized="Recibir notificaciones" />
+    <moqui.basic.LocalizedMessage original="Receive Path" locale="es" localized="Ruta de recepción" />
+    <moqui.basic.LocalizedMessage original="Receive Response Enum ID" locale="es" localized="ID de enumeración de la respuesta de recepción" />
+    <moqui.basic.LocalizedMessage original="Receive Service Name" locale="es" localized="Nombre del servicio de recepción" />
+    <moqui.basic.LocalizedMessage original="Receive Url" locale="es" localized="URL de recepción" />
+    <moqui.basic.LocalizedMessage original="Received Date" locale="es" localized="Fecha de recepción" />
+    <moqui.basic.LocalizedMessage original="Received Size" locale="es" localized="Tamaño recibido" />
+    <moqui.basic.LocalizedMessage original="Receiver ID" locale="es" localized="ID del receptor" />
+    <moqui.basic.LocalizedMessage original="Record Entity" locale="es" localized="Entidad del registro" />
+    <moqui.basic.LocalizedMessage original="Record Entity Name" locale="es" localized="Nombre de la entidad del registro" />
+    <moqui.basic.LocalizedMessage original="Record Filing Enum ID" locale="es" localized="ID de enumeración de archivado del registro" />
+    <moqui.basic.LocalizedMessage original="Record ID" locale="es" localized="ID del registro" />
+    <moqui.basic.LocalizedMessage original="Record Refs Json" locale="es" localized="JSON de referencias del registro" />
+    <moqui.basic.LocalizedMessage original="Record Threshold" locale="es" localized="Umbral de registros" />
+    <moqui.basic.LocalizedMessage original="Record360" locale="es" localized="Registro 360" />
+    <moqui.basic.LocalizedMessage original="Records Stored" locale="es" localized="Registros almacenados" />
+    <moqui.basic.LocalizedMessage original="Redacted By User ID" locale="es" localized="ID del usuario que suprimió" />
+    <moqui.basic.LocalizedMessage original="Redacted Date" locale="es" localized="Fecha de supresión" />
+    <moqui.basic.LocalizedMessage original="Ref Name" locale="es" localized="Nombre de la referencia" />
+    <moqui.basic.LocalizedMessage original="Ref Pattern" locale="es" localized="Patrón de la referencia" />
+    <moqui.basic.LocalizedMessage original="References Header" locale="es" localized="Encabezado de referencias" />
+    <moqui.basic.LocalizedMessage original="Referrer Url" locale="es" localized="URL de referencia" />
+    <moqui.basic.LocalizedMessage original="Refresh Params" locale="es" localized="Parámetros de actualización" />
+    <moqui.basic.LocalizedMessage original="Refresh Token Digest" locale="es" localized="Resumen del token de actualización" />
+    <moqui.basic.LocalizedMessage original="Refuse Reason Required" locale="es" localized="Motivo de rechazo obligatorio" />
+    <moqui.basic.LocalizedMessage original="Refuse Service Name" locale="es" localized="Nombre del servicio de rechazo" />
+    <moqui.basic.LocalizedMessage original="Registry Location" locale="es" localized="Ubicación del registro" />
+    <moqui.basic.LocalizedMessage original="Related Entity Name" locale="es" localized="Nombre de la entidad relacionada" />
+    <moqui.basic.LocalizedMessage original="Related Enum ID" locale="es" localized="ID de enumeración relacionada" />
+    <moqui.basic.LocalizedMessage original="Related Enum Type ID" locale="es" localized="ID del tipo de enumeración relacionada" />
+    <moqui.basic.LocalizedMessage original="Related Field Name" locale="es" localized="Nombre del campo relacionado" />
+    <moqui.basic.LocalizedMessage original="Relates To Event Seq" locale="es" localized="Secuencia del evento relacionado" />
+    <moqui.basic.LocalizedMessage original="Relationship Name" locale="es" localized="Nombre de la relación" />
+    <moqui.basic.LocalizedMessage original="Release Date Time" locale="es" localized="Fecha y hora de liberación" />
+    <moqui.basic.LocalizedMessage original="Release Now" locale="es" localized="Liberar ahora" />
+    <moqui.basic.LocalizedMessage original="Remote" locale="es" localized="Remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Address" locale="es" localized="Dirección remota" />
+    <moqui.basic.LocalizedMessage original="Remote Agent" locale="es" localized="Agente remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Agents" locale="es" localized="Agentes remotos" />
+    <moqui.basic.LocalizedMessage original="Remote App Code" locale="es" localized="Código de aplicación remota" />
+    <moqui.basic.LocalizedMessage original="Remote Attributes" locale="es" localized="Atributos remotos" />
+    <moqui.basic.LocalizedMessage original="Remote Charset" locale="es" localized="Juego de caracteres remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Context ID" locale="es" localized="ID de contexto remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Folder ID" locale="es" localized="ID de carpeta remota" />
+    <moqui.basic.LocalizedMessage original="Remote Highest Mod Seq" locale="es" localized="Mayor secuencia de modificación remota" />
+    <moqui.basic.LocalizedMessage original="Remote ID" locale="es" localized="ID remoto" />
+    <moqui.basic.LocalizedMessage original="Remote ID Type" locale="es" localized="Tipo de ID remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Message ID" locale="es" localized="ID de mensaje remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Name" locale="es" localized="Nombre remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Public Key" locale="es" localized="Clave pública remota" />
+    <moqui.basic.LocalizedMessage original="Remote Removed Date" locale="es" localized="Fecha de eliminación remota" />
+    <moqui.basic.LocalizedMessage original="Remote State" locale="es" localized="Estado remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Task ID" locale="es" localized="ID de tarea remota" />
+    <moqui.basic.LocalizedMessage original="Remote Task Ref" locale="es" localized="Referencia de tarea remota" />
+    <moqui.basic.LocalizedMessage original="Remote Uid" locale="es" localized="UID remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Uid Next" locale="es" localized="Siguiente UID remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Uid Validity" locale="es" localized="Validez del UID remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Uidl" locale="es" localized="UIDL remoto" />
+    <moqui.basic.LocalizedMessage original="Remote Url" locale="es" localized="URL remota" />
+    <moqui.basic.LocalizedMessage original="Remotes" locale="es" localized="Remotos" />
+    <moqui.basic.LocalizedMessage original="Remove Service" locale="es" localized="Servicio de eliminación" />
+    <moqui.basic.LocalizedMessage original="Render Mode" locale="es" localized="Modo de representación" />
+    <moqui.basic.LocalizedMessage original="Repeat Count" locale="es" localized="Cantidad de repeticiones" />
+    <moqui.basic.LocalizedMessage original="Replay Endpoint ID" locale="es" localized="ID del punto de conexión de reproducción" />
+    <moqui.basic.LocalizedMessage original="Replay Json" locale="es" localized="JSON de reproducción" />
+    <moqui.basic.LocalizedMessage original="Replay Model ID" locale="es" localized="ID del modelo de reproducción" />
+    <moqui.basic.LocalizedMessage original="Reply Audience Enum ID" locale="es" localized="ID de enumeración de la audiencia de respuesta" />
+    <moqui.basic.LocalizedMessage original="Reply Once Per Days" locale="es" localized="Días entre respuestas" />
+    <moqui.basic.LocalizedMessage original="Reply To Address" locale="es" localized="Dirección de respuesta" />
+    <moqui.basic.LocalizedMessage original="Reply To Addresses" locale="es" localized="Direcciones de respuesta" />
+    <moqui.basic.LocalizedMessage original="Reply To Event Seq" locale="es" localized="Secuencia del evento de respuesta" />
+    <moqui.basic.LocalizedMessage original="Report" locale="es" localized="Reporte" />
+    <moqui.basic.LocalizedMessage original="Repository ID" locale="es" localized="ID del repositorio" />
+    <moqui.basic.LocalizedMessage original="Repository Kind" locale="es" localized="Tipo de repositorio" />
+    <moqui.basic.LocalizedMessage original="Request" locale="es" localized="Solicitud" />
+    <moqui.basic.LocalizedMessage original="Request Json" locale="es" localized="JSON de la solicitud" />
+    <moqui.basic.LocalizedMessage original="Request State" locale="es" localized="Estado de la solicitud" />
+    <moqui.basic.LocalizedMessage original="Request Url" locale="es" localized="URL de la solicitud" />
+    <moqui.basic.LocalizedMessage original="Requested By User ID" locale="es" localized="ID del usuario solicitante" />
+    <moqui.basic.LocalizedMessage original="Requested Date" locale="es" localized="Fecha de solicitud" />
+    <moqui.basic.LocalizedMessage original="Requests Per Minute" locale="es" localized="Solicitudes por minuto" />
+    <moqui.basic.LocalizedMessage original="Require Authc Factor" locale="es" localized="Requerir factor de autenticación" />
+    <moqui.basic.LocalizedMessage original="Require Merge Request" locale="es" localized="Requerir solicitud de fusión" />
+    <moqui.basic.LocalizedMessage original="Require Password Change" locale="es" localized="Requerir cambio de contraseña" />
+    <moqui.basic.LocalizedMessage original="Require Skill" locale="es" localized="Habilidad requerida" />
+    <moqui.basic.LocalizedMessage original="Required" locale="es" localized="Requerido" />
+    <moqui.basic.LocalizedMessage original="Required Approvals" locale="es" localized="Aprobaciones requeridas" />
+    <moqui.basic.LocalizedMessage original="Required Status Contexts" locale="es" localized="Contextos de estado requeridos" />
+    <moqui.basic.LocalizedMessage original="Reset Button" locale="es" localized="Botón de restablecimiento" />
+    <moqui.basic.LocalizedMessage original="Reset Password" locale="es" localized="Restablecer contraseña" />
+    <moqui.basic.LocalizedMessage original="Reset Password Set Date" locale="es" localized="Fecha en que se estableció la contraseña de restablecimiento" />
+    <moqui.basic.LocalizedMessage original="Reset to defaults" locale="es" localized="Restablecer valores predeterminados" />
+    <moqui.basic.LocalizedMessage original="Resource Finder" locale="es" localized="Buscador de recursos" />
+    <moqui.basic.LocalizedMessage original="Resource ID" locale="es" localized="ID del recurso" />
+    <moqui.basic.LocalizedMessage original="Resource Type Enum ID" locale="es" localized="ID de enumeración del tipo de recurso" />
+    <moqui.basic.LocalizedMessage original="Resource Value" locale="es" localized="Valor del recurso" />
+    <moqui.basic.LocalizedMessage original="Response Date" locale="es" localized="Fecha de respuesta" />
+    <moqui.basic.LocalizedMessage original="Response Json" locale="es" localized="JSON de la respuesta" />
+    <moqui.basic.LocalizedMessage original="Restrict Update" locale="es" localized="Restringir la actualización" />
+    <moqui.basic.LocalizedMessage original="Restrict View" locale="es" localized="Restringir la vista" />
+    <moqui.basic.LocalizedMessage original="Result" locale="es" localized="Resultado" />
+    <moqui.basic.LocalizedMessage original="Result Cap Chars" locale="es" localized="Límite de caracteres del resultado" />
+    <moqui.basic.LocalizedMessage original="Result Json" locale="es" localized="JSON del resultado" />
+    <moqui.basic.LocalizedMessage original="Result Summary" locale="es" localized="Resumen del resultado" />
+    <moqui.basic.LocalizedMessage original="Results" locale="es" localized="Resultados" />
+    <moqui.basic.LocalizedMessage original="Retention Days" locale="es" localized="Días de retención" />
+    <moqui.basic.LocalizedMessage original="Retrieval Test" locale="es" localized="Prueba de recuperación" />
+    <moqui.basic.LocalizedMessage original="Retry Limit" locale="es" localized="Límite de reintentos" />
+    <moqui.basic.LocalizedMessage original="Retry Minutes" locale="es" localized="Minutos de reintento" />
+    <moqui.basic.LocalizedMessage original="Review" locale="es" localized="Revisión" />
+    <moqui.basic.LocalizedMessage original="Review Note" locale="es" localized="Nota de revisión" />
+    <moqui.basic.LocalizedMessage original="Reviewed Commit ID" locale="es" localized="ID de la confirmación revisada" />
+    <moqui.basic.LocalizedMessage original="Reviewed Date" locale="es" localized="Fecha de revisión" />
+    <moqui.basic.LocalizedMessage original="Reviewer User ID" locale="es" localized="ID del usuario revisor" />
+    <moqui.basic.LocalizedMessage original="Revoke Url" locale="es" localized="URL de revocación" />
+    <moqui.basic.LocalizedMessage original="Revoked Date" locale="es" localized="Fecha de revocación" />
+    <moqui.basic.LocalizedMessage original="Role" locale="es" localized="Rol" />
+    <moqui.basic.LocalizedMessage original="Role Enum ID" locale="es" localized="ID de enumeración del rol" />
+    <moqui.basic.LocalizedMessage original="Role Group ID" locale="es" localized="ID del grupo de roles" />
+    <moqui.basic.LocalizedMessage original="Role Name" locale="es" localized="Nombre del rol" />
+    <moqui.basic.LocalizedMessage original="Rolled Up Date" locale="es" localized="Fecha de consolidación" />
+    <moqui.basic.LocalizedMessage original="Room Name" locale="es" localized="Nombre de la sala" />
+    <moqui.basic.LocalizedMessage original="Room Type Enum ID" locale="es" localized="ID de enumeración del tipo de sala" />
+    <moqui.basic.LocalizedMessage original="Root Email Message ID" locale="es" localized="ID del mensaje de correo electrónico raíz" />
+    <moqui.basic.LocalizedMessage original="Root Location" locale="es" localized="Ubicación raíz" />
+    <moqui.basic.LocalizedMessage original="Root Page Location" locale="es" localized="Ubicación de la página raíz" />
+    <moqui.basic.LocalizedMessage original="Root Version Name" locale="es" localized="Nombre de la versión raíz" />
+    <moqui.basic.LocalizedMessage original="Row Count" locale="es" localized="Cantidad de filas" />
+    <moqui.basic.LocalizedMessage original="Rule Name" locale="es" localized="Nombre de la regla" />
+    <moqui.basic.LocalizedMessage original="Rule Seq ID" locale="es" localized="ID de secuencia de la regla" />
+    <moqui.basic.LocalizedMessage original="Run As User ID" locale="es" localized="ID de usuario para ejecutar como" />
+    <moqui.basic.LocalizedMessage original="Run Count" locale="es" localized="Cantidad de ejecuciones" />
+    <moqui.basic.LocalizedMessage original="Run ID" locale="es" localized="ID de ejecución" />
+    <moqui.basic.LocalizedMessage original="Run Thread" locale="es" localized="Hilo de ejecución" />
+    <moqui.basic.LocalizedMessage original="Running Time Millis" locale="es" localized="Tiempo de ejecución en milisegundos" />
+    <moqui.basic.LocalizedMessage original="Runs" locale="es" localized="Ejecuciones" />
+</entity-facade-xml>

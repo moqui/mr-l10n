@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${authorName} mentioned you in ${roomName}" locale="es" localized="${authorName} mencionó al usuario en ${roomName}"/>
+    <moqui.basic.LocalizedMessage original="A chat room is named by chatRoomId, or by recordEntityName and recordId" locale="es" localized="Una sala de chat se nombra con chatRoomId, o con recordEntityName y recordId"/>
+    <moqui.basic.LocalizedMessage original="A clientRef is up to 64 letters, digits and _ . : -" locale="es" localized="Un clientRef tiene hasta 64 letras, dígitos y _ . : -"/>
+    <moqui.basic.LocalizedMessage original="A clone is written to, so it cannot be a read-only mirror" locale="es" localized="En un clon se escribe, así que no puede ser un espejo de solo lectura"/>
+    <moqui.basic.LocalizedMessage original="A decision on a notification needs a signed in user" locale="es" localized="Una decisión sobre una notificación requiere un usuario con sesión iniciada"/>
+    <moqui.basic.LocalizedMessage original="A direct room has fixed members" locale="es" localized="Una sala directa tiene miembros fijos"/>
+    <moqui.basic.LocalizedMessage original="A direct room has fixed members: start a new direct message" locale="es" localized="Una sala directa tiene miembros fijos: iniciar un mensaje directo nuevo"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no roles" locale="es" localized="Una sala directa no tiene roles"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no settings" locale="es" localized="Una sala directa no tiene configuración"/>
+    <moqui.basic.LocalizedMessage original="A draft needs the account it is sent from" locale="es" localized="Un borrador requiere la cuenta desde la que se envía"/>
+    <moqui.basic.LocalizedMessage original="A file name is a name, not a path" locale="es" localized="Un nombre de archivo es un nombre, no una ruta"/>
+    <moqui.basic.LocalizedMessage original="A folder needs a name" locale="es" localized="Una carpeta requiere un nombre"/>
+    <moqui.basic.LocalizedMessage original="A forward names its message: forwardOfChatRoomId and forwardOfEventSeq" locale="es" localized="Un reenvío identifica su mensaje: forwardOfChatRoomId y forwardOfEventSeq"/>
+    <moqui.basic.LocalizedMessage original="A label needs a name" locale="es" localized="Una etiqueta requiere un nombre"/>
+    <moqui.basic.LocalizedMessage original="A merged or closed merge request does not change" locale="es" localized="Una solicitud de fusión ya fusionada o cerrada no cambia"/>
+    <moqui.basic.LocalizedMessage original="A merged or closed merge request takes no review" locale="es" localized="Una solicitud de fusión ya fusionada o cerrada no admite revisión"/>
+    <moqui.basic.LocalizedMessage original="A message is sent as yourself" locale="es" localized="Un mensaje se envía como el propio usuario"/>
+    <moqui.basic.LocalizedMessage original="A message needs text or a file" locale="es" localized="Un mensaje requiere texto o un archivo"/>
+    <moqui.basic.LocalizedMessage original="A mirror needs the URL to fetch" locale="es" localized="Un espejo requiere la URL que se va a obtener"/>
+    <moqui.basic.LocalizedMessage original="A notes space needs a user" locale="es" localized="Un espacio de notas requiere un usuario"/>
+    <moqui.basic.LocalizedMessage original="A page name has letters, digits, spaces and . , ' - _ : ( ) ! ? only" locale="es" localized="Un nombre de página solo tiene letras, dígitos, espacios y . , ' - _ : ( ) ! ?"/>
+    <moqui.basic.LocalizedMessage original="A page path has no . or .. in it" locale="es" localized="Una ruta de página no contiene . ni .."/>
+    <moqui.basic.LocalizedMessage original="A poll closes later than now" locale="es" localized="Una encuesta se cierra después de ahora"/>
+    <moqui.basic.LocalizedMessage original="A poll has 2 to 10 options" locale="es" localized="Una encuesta tiene de 2 a 10 opciones"/>
+    <moqui.basic.LocalizedMessage original="A poll is not edited: close it, or delete it and make another" locale="es" localized="Una encuesta no se edita: se cierra, o se elimina y se crea otra"/>
+    <moqui.basic.LocalizedMessage original="A poll needs a question" locale="es" localized="Una encuesta requiere una pregunta"/>
+    <moqui.basic.LocalizedMessage original="A reaction is an emoji or a short word" locale="es" localized="Una reacción es un emoji o una palabra corta"/>
+    <moqui.basic.LocalizedMessage original="A reason is required to refuse this" locale="es" localized="Se requiere un motivo para rechazar esto"/>
+    <moqui.basic.LocalizedMessage original="A record room needs recordEntityName and recordId" locale="es" localized="Una sala de un registro requiere recordEntityName y recordId"/>
+    <moqui.basic.LocalizedMessage original="A room keeps at least one owner" locale="es" localized="Una sala conserva al menos un propietario"/>
+    <moqui.basic.LocalizedMessage original="A room needs a name" locale="es" localized="Una sala requiere un nombre"/>
+    <moqui.basic.LocalizedMessage original="A rule condition needs a field" locale="es" localized="Una condición de regla requiere un campo"/>
+    <moqui.basic.LocalizedMessage original="A rule needs a condition" locale="es" localized="Una regla requiere una condición"/>
+    <moqui.basic.LocalizedMessage original="A rule needs a name" locale="es" localized="Una regla requiere un nombre"/>
+    <moqui.basic.LocalizedMessage original="A rule needs an action" locale="es" localized="Una regla requiere una acción"/>
+    <moqui.basic.LocalizedMessage original="A rule not yet saved is only tried (dryRun)" locale="es" localized="Una regla aún no guardada solo se prueba (dryRun)"/>
+    <moqui.basic.LocalizedMessage original="A status is up to 100 characters" locale="es" localized="Un estado tiene hasta 100 caracteres"/>
+    <moqui.basic.LocalizedMessage original="A test message from" locale="es" localized="Un mensaje de prueba de"/>
+    <moqui.basic.LocalizedMessage original="A text block needs a title" locale="es" localized="Un bloque de texto requiere un título"/>
+    <moqui.basic.LocalizedMessage original="A webhook URL is http or https" locale="es" localized="Una URL de webhook es http o https"/>
+    <moqui.basic.LocalizedMessage original="Account" locale="es" localized="Cuenta"/>
+    <moqui.basic.LocalizedMessage original="Account created with username ${username}" locale="es" localized="Cuenta creada con el nombre de usuario ${username}"/>
+    <moqui.basic.LocalizedMessage original="Ack message already sent [${origMessage.get('ackMessageId')}] for SystemMessage [${systemMessageId}]" locale="es" localized="Mensaje de acuse ya enviado [${origMessage.get('ackMessageId')}] para SystemMessage [${systemMessageId}]"/>
+    <moqui.basic.LocalizedMessage original="Active Saved Find:" locale="es" localized="Búsqueda guardada activa:"/>
+    <moqui.basic.LocalizedMessage original="Add a recipient in To" locale="es" localized="Añadir un destinatario en Para"/>
+    <moqui.basic.LocalizedMessage original="Address in ${stateProvinceGeoId || ''} ${countryGeoId || ''} added (gallery demo: nothing is written)" locale="es" localized="Dirección en ${stateProvinceGeoId || ''} ${countryGeoId || ''} añadida (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="An agent card is changed by the agent runtime" locale="es" localized="Una tarjeta de agente la cambia el tiempo de ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="An agent card is sent by the agent runtime" locale="es" localized="Una tarjeta de agente la envía el tiempo de ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="An email account is made for yourself" locale="es" localized="Una cuenta de correo electrónico se crea para el propio usuario"/>
+    <moqui.basic.LocalizedMessage original="An email account needs an address" locale="es" localized="Una cuenta de correo electrónico requiere una dirección"/>
+    <moqui.basic.LocalizedMessage original="An emailMessageId or rootEmailMessageId is required" locale="es" localized="Se requiere emailMessageId o rootEmailMessageId"/>
+    <moqui.basic.LocalizedMessage original="An emailMessageId, emailMessageIdList or rootEmailMessageId is required" locale="es" localized="Se requiere emailMessageId, emailMessageIdList o rootEmailMessageId"/>
+    <moqui.basic.LocalizedMessage original="An emoji is a few characters" locale="es" localized="Un emoji tiene pocos caracteres"/>
+    <moqui.basic.LocalizedMessage original="An existing email server is chosen only by internal setup" locale="es" localized="Un servidor de correo existente solo se elige en la configuración interna"/>
+    <moqui.basic.LocalizedMessage original="An internal message is not an email draft; the app that keeps internal messages sends it" locale="es" localized="Un mensaje interno no es un borrador de correo electrónico; lo envía la aplicación que guarda los mensajes internos"/>
+    <moqui.basic.LocalizedMessage original="An option is up to 200 characters" locale="es" localized="Una opción tiene hasta 200 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Another merge request of" locale="es" localized="Otra solicitud de fusión de"/>
+    <moqui.basic.LocalizedMessage original="Another user's notes space is made only with authorization disabled" locale="es" localized="El espacio de notas de otro usuario solo se crea con la autorización desactivada"/>
+    <moqui.basic.LocalizedMessage original="Approving needs the right to push to the repository: you may comment or request changes" locale="es" localized="Aprobar requiere permiso para enviar al repositorio: se puede comentar o solicitar cambios"/>
+    <moqui.basic.LocalizedMessage original="Authentication code is not valid" locale="es" localized="El código de autenticación no es válido"/>
+    <moqui.basic.LocalizedMessage original="Authentication code not valid" locale="es" localized="Código de autenticación no válido"/>
+    <moqui.basic.LocalizedMessage original="Authentication code required for user ${username}" locale="es" localized="Se requiere código de autenticación para el usuario ${username}"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${contactNumber}" locale="es" localized="Código de autenticación enviado a ${contactNumber}"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${emailAddress}" locale="es" localized="Código de autenticación enviado a ${emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Authentication Factor ${factorId} is not valid for ${userAccount.get('username')}" locale="es" localized="El factor de autenticación ${factorId} no es válido para ${userAccount.get('username')}"/>
+    <moqui.basic.LocalizedMessage original="Authentication factor ${factorId} not found" locale="es" localized="No se encontró el factor de autenticación ${factorId}"/>
+    <moqui.basic.LocalizedMessage original="Back" locale="es" localized="Atrás"/>
+    <moqui.basic.LocalizedMessage original="Because of password issues not creating account with username ${username}" locale="es" localized="Por problemas con la contraseña no se crea la cuenta con el nombre de usuario ${username}"/>
+    <moqui.basic.LocalizedMessage original="Block" locale="es" localized="Bloquear"/>
+    <moqui.basic.LocalizedMessage original="Block the sender in which email account? emailAccountId is required" locale="es" localized="¿En qué cuenta de correo electrónico se bloquea al remitente? Se requiere emailAccountId"/>
+    <moqui.basic.LocalizedMessage original="Block which sender? An email address is required" locale="es" localized="¿A qué remitente se bloquea? Se requiere una dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Blog text or Wiki Page required to create a blog article" locale="es" localized="Se requiere texto de blog o una página wiki para crear un artículo de blog"/>
+    <moqui.basic.LocalizedMessage original="Branch rule" locale="es" localized="Regla de rama"/>
+    <moqui.basic.LocalizedMessage original="Cache with name ${cacheName} not found" locale="es" localized="No se encontró la caché con nombre ${cacheName}"/>
+    <moqui.basic.LocalizedMessage original="Can only create initial admin account if there are no UserAccount records" locale="es" localized="Solo se puede crear la cuenta inicial de administrador si no hay registros de UserAccount"/>
+    <moqui.basic.LocalizedMessage original="Cannot cancel SystemMessage ${systemMessageId} in status ${systemMessage.get('statusId')}" locale="es" localized="No se puede cancelar SystemMessage ${systemMessageId} en estado ${systemMessage.get('statusId')}"/>
+    <moqui.basic.LocalizedMessage original="Cannot compare:" locale="es" localized="No se puede comparar:"/>
+    <moqui.basic.LocalizedMessage original="Cannot create more than 21 codes at a time" locale="es" localized="No se pueden crear más de 21 códigos a la vez"/>
+    <moqui.basic.LocalizedMessage original="Cannot send ack for SystemMessage [${systemMessageId}], in status [${origMessage.get('statusId')}] and must be in Consuming, Consumed, Rejected, or Error" locale="es" localized="No se puede enviar el acuse de SystemMessage [${systemMessageId}], en estado [${origMessage.get('statusId')}] y debe estar en Consumiendo, Consumido, Rechazado o Error"/>
+    <moqui.basic.LocalizedMessage original="Cannot update password, Account not found with ID ${userId}" locale="es" localized="No se puede actualizar la contraseña; no se encontró la cuenta con ID ${userId}"/>
+    <moqui.basic.LocalizedMessage original="Cannot update the password of another user without password admin permission" locale="es" localized="No se puede actualizar la contraseña de otro usuario sin el permiso de administración de contraseñas"/>
+    <moqui.basic.LocalizedMessage original="Choose one option" locale="es" localized="Elegir una opción"/>
+    <moqui.basic.LocalizedMessage original="Choose the folder (emailFolderId) or the account (emailAccountId) to try the rule on" locale="es" localized="Elegir la carpeta (emailFolderId) o la cuenta (emailAccountId) en la que probar la regla"/>
+    <moqui.basic.LocalizedMessage original="claim#DraftSend is internal" locale="es" localized="claim#DraftSend es interno"/>
+    <moqui.basic.LocalizedMessage original="Clear" locale="es" localized="Limpiar"/>
+    <moqui.basic.LocalizedMessage original="Clear Current Find" locale="es" localized="Limpiar la búsqueda actual"/>
+    <moqui.basic.LocalizedMessage original="Clear Default" locale="es" localized="Limpiar predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Clear Parameters" locale="es" localized="Limpiar parámetros"/>
+    <moqui.basic.LocalizedMessage original="Click to edit" locale="es" localized="Clic para editar"/>
+    <moqui.basic.LocalizedMessage original="Color mode must be color or monochrome" locale="es" localized="El modo de color debe ser color o monochrome"/>
+    <moqui.basic.LocalizedMessage original="Column" locale="es" localized="Columna"/>
+    <moqui.basic.LocalizedMessage original="Column Fields" locale="es" localized="Campos de columna"/>
+    <moqui.basic.LocalizedMessage original="Columns" locale="es" localized="Columnas"/>
+    <moqui.basic.LocalizedMessage original="Compare is for text files" locale="es" localized="La comparación es para archivos de texto"/>
+    <moqui.basic.LocalizedMessage original="Confirmed ${scanInput || ''} of ${productId || ''} at ${locationId || ''} (gallery demo: nothing is written)" locale="es" localized="Confirmado ${scanInput || ''} de ${productId || ''} en ${locationId || ''} (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Consume started in background" locale="es" localized="Consumo iniciado en segundo plano"/>
+    <moqui.basic.LocalizedMessage original="Contact" locale="es" localized="Contacto"/>
+    <moqui.basic.LocalizedMessage original="Copy refused: it would pass the quota of drive" locale="es" localized="Copia rechazada: superaría la cuota de la unidad"/>
+    <moqui.basic.LocalizedMessage original="Could not convert from ${uom?.description || uomId} to ${toUom?.description || toUomId}, no UOM Conversion found." locale="es" localized="No se pudo convertir de ${uom?.description || uomId} a ${toUom?.description || toUomId}; no se encontró conversión de UOM."/>
+    <moqui.basic.LocalizedMessage original="Could not find Data Document ${dataDocumentId}" locale="es" localized="No se encontró el documento de datos ${dataDocumentId}"/>
+    <moqui.basic.LocalizedMessage original="Could not find entity with name: ${aen}" locale="es" localized="No se encontró la entidad con nombre: ${aen}"/>
+    <moqui.basic.LocalizedMessage original="Could not find master entity with name: ${masterMember.entityName}" locale="es" localized="No se encontró la entidad maestra con nombre: ${masterMember.entityName}"/>
+    <moqui.basic.LocalizedMessage original="Could not validate reCAPTCHA response, confirm you are not a robot" locale="es" localized="No se pudo validar la respuesta de reCAPTCHA; confirmar que no se trata de un robot"/>
+    <moqui.basic.LocalizedMessage original="Could not verify reCAPTCHA token" locale="es" localized="No se pudo verificar el token de reCAPTCHA"/>
+    <moqui.basic.LocalizedMessage original="Created ${created} foreign keys" locale="es" localized="Se crearon ${created} claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Created ${created} indexes" locale="es" localized="Se crearon ${created} índices"/>
+    <moqui.basic.LocalizedMessage original="Created example ${created.exampleId}: ${exampleName}" locale="es" localized="Ejemplo creado ${created.exampleId}: ${exampleName}"/>
+    <moqui.basic.LocalizedMessage original="Days" locale="es" localized="Días"/>
+    <moqui.basic.LocalizedMessage original="Default" locale="es" localized="Predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Delete the message to remove its text" locale="es" localized="Eliminar el mensaje para quitar su texto"/>
+    <moqui.basic.LocalizedMessage original="delete#AccountMessages is internal" locale="es" localized="delete#AccountMessages es interno"/>
+    <moqui.basic.LocalizedMessage original="delete#LocalMessages is internal" locale="es" localized="delete#LocalMessages es interno"/>
+    <moqui.basic.LocalizedMessage original="deliver#DraftMessage is internal" locale="es" localized="deliver#DraftMessage es interno"/>
+    <moqui.basic.LocalizedMessage original="detach#LocalMessages is internal" locale="es" localized="detach#LocalMessages es interno"/>
+    <moqui.basic.LocalizedMessage original="Do Not Display" locale="es" localized="No mostrar"/>
+    <moqui.basic.LocalizedMessage original="Drag fields to the desired column or do not display" locale="es" localized="Arrastrar los campos a la columna deseada o no mostrarlos"/>
+    <moqui.basic.LocalizedMessage original="Drive not found" locale="es" localized="Unidad no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Dropped ${dropped} foreign keys" locale="es" localized="Se eliminaron ${dropped} claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Each attachment needs its attachmentLocation" locale="es" localized="Cada archivo adjunto requiere su attachmentLocation"/>
+    <moqui.basic.LocalizedMessage original="Each rule action is an {action, value}" locale="es" localized="Cada acción de regla es un {action, value}"/>
+    <moqui.basic.LocalizedMessage original="Each rule condition is a {field, operator, value}" locale="es" localized="Cada condición de regla es un {field, operator, value}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${geoId}: a gallery demo, nothing is written" locale="es" localized="Editar ${geoId}: demo de galería, no se escribe nada"/>
+    <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList.get(0).get('username')}" locale="es" localized="El correo electrónico ${emailAddress} ya está en uso. Iniciar sesión con el nombre de usuario ${existingUaList.get(0).get('username')}"/>
+    <moqui.basic.LocalizedMessage original="Enter the password of the link" locale="es" localized="Introducir la contraseña del enlace"/>
+    <moqui.basic.LocalizedMessage original="Entity ${aen} is not available through this tool" locale="es" localized="La entidad ${aen} no está disponible en esta herramienta"/>
+    <moqui.basic.LocalizedMessage original="Entity ${den} is not available through this tool" locale="es" localized="La entidad ${den} no está disponible en esta herramienta"/>
+    <moqui.basic.LocalizedMessage original="Entity ${selectedEntity} is not available through this tool" locale="es" localized="La entidad ${selectedEntity} no está disponible en esta herramienta"/>
+    <moqui.basic.LocalizedMessage original="Entity is not available through this tool" locale="es" localized="La entidad no está disponible en esta herramienta"/>
+    <moqui.basic.LocalizedMessage original="Entry already exists for ${factorOption}" locale="es" localized="Ya existe una entrada para ${factorOption}"/>
+    <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} created (gallery demo: nothing is written)" locale="es" localized="Enumeración ${enumId || ''} creada (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} updated (gallery demo: nothing is written)" locale="es" localized="Enumeración ${enumId || ''} actualizada (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Every Day" locale="es" localized="Todos los días"/>
+    <moqui.basic.LocalizedMessage original="ExecutionContextFactory dynamic re-initialize triggered" locale="es" localized="Reinicialización dinámica de ExecutionContextFactory activada"/>
+    <moqui.basic.LocalizedMessage original="Export" locale="es" localized="Exportar"/>
+    <moqui.basic.LocalizedMessage original="Export Fixed-Width Plain Text" locale="es" localized="Exportar texto plano de ancho fijo"/>
+    <moqui.basic.LocalizedMessage original="Export Text" locale="es" localized="Exportar texto"/>
+    <moqui.basic.LocalizedMessage original="fail#StoppedSend is internal" locale="es" localized="fail#StoppedSend es interno"/>
+    <moqui.basic.LocalizedMessage original="Field cannot be empty" locale="es" localized="El campo no puede estar vacío"/>
+    <moqui.basic.LocalizedMessage original="Fields" locale="es" localized="Campos"/>
+    <moqui.basic.LocalizedMessage original="File not found" locale="es" localized="Archivo no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Find Options" locale="es" localized="Opciones de búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Find Parameters" locale="es" localized="Parámetros de búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Folder not found" locale="es" localized="Carpeta no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Form Response ${formResponseId} not found" locale="es" localized="Respuesta de formulario ${formResponseId} no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Found duplicate message with Message-ID [${messageId}] from server [${emailServerId}]" locale="es" localized="Se encontró un mensaje duplicado con Message-ID [${messageId}] del servidor [${emailServerId}]"/>
+    <moqui.basic.LocalizedMessage original="Found issues with password so not updating" locale="es" localized="Se encontraron problemas con la contraseña, así que no se actualiza"/>
+    <moqui.basic.LocalizedMessage original="From" locale="es" localized="De"/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be cloned; nothing is written." locale="es" localized="Galería: ${enumId} se clonaría; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be put on hold; nothing is written." locale="es" localized="Galería: ${enumId} se pondría en espera; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would be retired; nothing is written." locale="es" localized="Galería: ${enumId} se retiraría; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${enumId} would move to ${statusId}; nothing is written." locale="es" localized="Galería: ${enumId} pasaría a ${statusId}; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${userId} would be added to a group; nothing is written." locale="es" localized="Galería: ${userId} se añadiría a un grupo; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: ${userId} would be disabled; nothing is written." locale="es" localized="Galería: ${userId} se desactivaría; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: a message to ${userId} would be sent from Comms; nothing is written." locale="es" localized="Galería: se enviaría un mensaje a ${userId} desde Comms; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: a password reset for ${userId} would be sent; nothing is written." locale="es" localized="Galería: se enviaría un restablecimiento de contraseña para ${userId}; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: Chatter is not built yet; the message &quot;${messageText}&quot; was not saved." locale="es" localized="Galería: Chatter aún no está implementado; el mensaje &quot;${messageText}&quot; no se guardó."/>
+    <moqui.basic.LocalizedMessage original="Gallery: cloning ${enumId} is a no-op; nothing is written." locale="es" localized="Galería: clonar ${enumId} no tiene efecto; no se escribe nada."/>
+    <moqui.basic.LocalizedMessage original="Gallery: login as ${userId} is a no-op here." locale="es" localized="Galería: iniciar sesión como ${userId} no tiene efecto aquí."/>
+    <moqui.basic.LocalizedMessage original="Gallery: nothing is written. A real New dialog would create the enumeration &quot;${description}&quot; of type ${enumTypeId}." locale="es" localized="Galería: no se escribe nada. Un diálogo Nuevo real crearía la enumeración &quot;${description}&quot; de tipo ${enumTypeId}."/>
+    <moqui.basic.LocalizedMessage original="General settings reset to their defaults (gallery demo: nothing is written)" locale="es" localized="Configuración general restablecida a los valores predeterminados (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="General settings saved (gallery demo: nothing is written)" locale="es" localized="Configuración general guardada (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Geo IP lookup disabled" locale="es" localized="Búsqueda de IP geográfica desactivada"/>
+    <moqui.basic.LocalizedMessage original="HTML not allowed including less-than (&lt;), greater-than (&gt;), etc symbols" locale="es" localized="No se permite HTML, incluidos los símbolos menor que (&lt;), mayor que (&gt;), etc."/>
+    <moqui.basic.LocalizedMessage original="ID '${dataDocumentId}' already in use" locale="es" localized="El ID '${dataDocumentId}' ya está en uso"/>
+    <moqui.basic.LocalizedMessage original="ID must start with a letter and contain only letters, digits, or underscore" locale="es" localized="El ID debe empezar con una letra y contener solo letras, dígitos o guion bajo"/>
+    <moqui.basic.LocalizedMessage original="Ignore Case" locale="es" localized="Ignorar mayúsculas y minúsculas"/>
+    <moqui.basic.LocalizedMessage original="Image not Found ,or may be Docker login fail" locale="es" localized="Imagen no encontrada, o puede ser un fallo de inicio de sesión de Docker"/>
+    <moqui.basic.LocalizedMessage original="index#DriveFiles is internal" locale="es" localized="index#DriveFiles es interno"/>
+    <moqui.basic.LocalizedMessage original="InstanceImage not found with ID ${instanceImageId}" locale="es" localized="No se encontró InstanceImage con ID ${instanceImageId}"/>
+    <moqui.basic.LocalizedMessage original="InstanceImageType not found for InstanceImage with ID ${instanceImageId}" locale="es" localized="No se encontró InstanceImageType para InstanceImage con ID ${instanceImageId}"/>
+    <moqui.basic.LocalizedMessage original="Internal messages have no rules" locale="es" localized="Los mensajes internos no tienen reglas"/>
+    <moqui.basic.LocalizedMessage original="Invalid title (letters, digits, [.,'-_:()!? ] only)" locale="es" localized="Título no válido (solo letras, dígitos y [.,'-_:()!? ])"/>
+    <moqui.basic.LocalizedMessage original="IP address is not a public address" locale="es" localized="La dirección IP no es una dirección pública"/>
+    <moqui.basic.LocalizedMessage original="IP address not a IPv4 address" locale="es" localized="La dirección IP no es una dirección IPv4"/>
+    <moqui.basic.LocalizedMessage original="Join the room before adding others" locale="es" localized="Unirse a la sala antes de añadir a otros"/>
+    <moqui.basic.LocalizedMessage original="Join the room to change it" locale="es" localized="Unirse a la sala para cambiarla"/>
+    <moqui.basic.LocalizedMessage original="Join the room to post in it" locale="es" localized="Unirse a la sala para publicar en ella"/>
+    <moqui.basic.LocalizedMessage original="Last" locale="es" localized="Último"/>
+    <moqui.basic.LocalizedMessage original="Loading" locale="es" localized="Cargando"/>
+    <moqui.basic.LocalizedMessage original="Make Default" locale="es" localized="Establecer predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Mark unread from which message?" locale="es" localized="¿Desde qué mensaje se marca como no leído?"/>
+    <moqui.basic.LocalizedMessage original="Marked done: ${itemTitle} (nothing is written in the gallery)" locale="es" localized="Marcado como hecho: ${itemTitle} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Merge request !" locale="es" localized="Solicitud de fusión !"/>
+    <moqui.basic.LocalizedMessage original="Message removed" locale="es" localized="Mensaje eliminado"/>
+    <moqui.basic.LocalizedMessage original="Message type ${systemMessageTypeId} not valid" locale="es" localized="Tipo de mensaje ${systemMessageTypeId} no válido"/>
+    <moqui.basic.LocalizedMessage original="Mode" locale="es" localized="Modo"/>
+    <moqui.basic.LocalizedMessage original="Monday Only" locale="es" localized="Solo el lunes"/>
+    <moqui.basic.LocalizedMessage original="Monday-Friday" locale="es" localized="Lunes a viernes"/>
+    <moqui.basic.LocalizedMessage original="Monthly" locale="es" localized="Mensual"/>
+    <moqui.basic.LocalizedMessage original="Months" locale="es" localized="Meses"/>
+    <moqui.basic.LocalizedMessage original="move#DriveMetadata is internal" locale="es" localized="move#DriveMetadata es interno"/>
+    <moqui.basic.LocalizedMessage original="moved ${id} to ${stage}" locale="es" localized="Se movió ${id} a ${stage}"/>
+    <moqui.basic.LocalizedMessage original="Must contain only lower case letters, digits, and underscore" locale="es" localized="El valor debe contener solo letras minúsculas, dígitos y guion bajo"/>
+    <moqui.basic.LocalizedMessage original="Must start with a lower case letter and contain only lower case letters, digits, and dot/period" locale="es" localized="El valor debe empezar con una letra minúscula y contener solo letras minúsculas, dígitos y punto"/>
+    <moqui.basic.LocalizedMessage original="Must start with a upper case letter and contain only letters and digits" locale="es" localized="El valor debe empezar con una letra mayúscula y contener solo letras y dígitos"/>
+    <moqui.basic.LocalizedMessage original="My Default" locale="es" localized="Mi predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Name '${dbViewEntityName}' already in use" locale="es" localized="El nombre '${dbViewEntityName}' ya está en uso"/>
+    <moqui.basic.LocalizedMessage original="New Password and New Password Verify do not match" locale="es" localized="La contraseña nueva y la verificación de la contraseña nueva no coinciden"/>
+    <moqui.basic.LocalizedMessage original="New password is same as current password" locale="es" localized="La contraseña nueva es igual a la contraseña actual"/>
+    <moqui.basic.LocalizedMessage original="Next" locale="es" localized="Siguiente"/>
+    <moqui.basic.LocalizedMessage original="No Data Documents specified, not exporting anything." locale="es" localized="No se especificaron documentos de datos; no se exporta nada."/>
+    <moqui.basic.LocalizedMessage original="No DatabaseHost found for AppInstance ${appInstanceId}" locale="es" localized="No se encontró DatabaseHost para AppInstance ${appInstanceId}"/>
+    <moqui.basic.LocalizedMessage original="No DatabaseType found for AppInstance with ID ${appInstanceId}" locale="es" localized="No se encontró DatabaseType para AppInstance con ID ${appInstanceId}"/>
+    <moqui.basic.LocalizedMessage original="No entity names specified, not exporting anything." locale="es" localized="No se especificaron nombres de entidad; no se exporta nada."/>
+    <moqui.basic.LocalizedMessage original="No file uploaded" locale="es" localized="Ningún archivo subido"/>
+    <moqui.basic.LocalizedMessage original="No file was uploaded" locale="es" localized="No se subió ningún archivo"/>
+    <moqui.basic.LocalizedMessage original="No find parameters (or default), choose some in Find Options to save a new find or update existing" locale="es" localized="Sin parámetros de búsqueda (ni predeterminado), elegir algunos en Opciones de búsqueda para guardar una búsqueda nueva o actualizar la existente"/>
+    <moqui.basic.LocalizedMessage original="No find parameters, choose some to save a new find or update existing" locale="es" localized="Sin parámetros de búsqueda, elegir algunos para guardar una búsqueda nueva o actualizar la existente"/>
+    <moqui.basic.LocalizedMessage original="No InstanceHostType found for AppInstance with ID ${appInstanceId}" locale="es" localized="No se encontró InstanceHostType para AppInstance con ID ${appInstanceId}"/>
+    <moqui.basic.LocalizedMessage original="No merge request" locale="es" localized="No hay solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="No page found at path ${pagePath} in space ${wikiSpaceId}" locale="es" localized="No se encontró la página en la ruta ${pagePath} del espacio ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="No page version found at path ${pagePath} in space ${wikiSpaceId}" locale="es" localized="No se encontró la versión de la página en la ruta ${pagePath} del espacio ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="No parameters specified, not loading data" locale="es" localized="No se especificaron parámetros; no se cargan datos"/>
+    <moqui.basic.LocalizedMessage original="No reCAPTCHA token" locale="es" localized="No hay token de reCAPTCHA"/>
+    <moqui.basic.LocalizedMessage original="No return from freegeoip.net for IP ${visit.clientIpAddress}" locale="es" localized="Sin respuesta de freegeoip.net para la IP ${visit.clientIpAddress}"/>
+    <moqui.basic.LocalizedMessage original="No review to approve" locale="es" localized="No hay revisión para aprobar"/>
+    <moqui.basic.LocalizedMessage original="No review to refuse" locale="es" localized="No hay revisión para rechazar"/>
+    <moqui.basic.LocalizedMessage original="No SMS implementation in place, not sending message" locale="es" localized="No hay implementación de SMS; no se envía el mensaje"/>
+    <moqui.basic.LocalizedMessage original="No space found with ID ${wikiSpaceId}" locale="es" localized="No se encontró el espacio con ID ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="No trash copy to restore" locale="es" localized="No hay copia en la papelera para restaurar"/>
+    <moqui.basic.LocalizedMessage original="No user for the email account" locale="es" localized="No hay usuario para la cuenta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="No user for the email rule" locale="es" localized="No hay usuario para la regla de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="No user for the Internal account" locale="es" localized="No hay usuario para la cuenta interna"/>
+    <moqui.basic.LocalizedMessage original="No user for the saved search" locale="es" localized="No hay usuario para la búsqueda guardada"/>
+    <moqui.basic.LocalizedMessage original="No user for the text block" locale="es" localized="No hay usuario para el bloque de texto"/>
+    <moqui.basic.LocalizedMessage original="No user pre-authenticated" locale="es" localized="No hay usuario preautenticado"/>
+    <moqui.basic.LocalizedMessage original="No user pre-authenticated, cannot send code" locale="es" localized="No hay usuario preautenticado; no se puede enviar el código"/>
+    <moqui.basic.LocalizedMessage original="No user to make a chat room for" locale="es" localized="No hay usuario para crear una sala de chat"/>
+    <moqui.basic.LocalizedMessage original="No user to send the message" locale="es" localized="No hay usuario para enviar el mensaje"/>
+    <moqui.basic.LocalizedMessage original="No user to set the status of" locale="es" localized="No hay usuario para asignar el estado"/>
+    <moqui.basic.LocalizedMessage original="No version to restore" locale="es" localized="No hay versión para restaurar"/>
+    <moqui.basic.LocalizedMessage original="No visit found with ID ${visitId}" locale="es" localized="No se encontró la visita con ID ${visitId}"/>
+</entity-facade-xml>

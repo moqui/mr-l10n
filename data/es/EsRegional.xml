@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <!-- es_ES is the small regional overlay. es_MX restates the neutral headwords. -->
+    <moqui.basic.LocalizedMessage original="Archetype 3.9 Settings" locale="es_ES" localized="Ajustes del arquetipo 3.9"/>
+    <moqui.basic.LocalizedMessage original="Current Snapshot Files" locale="es_ES" localized="Ficheros de instantánea actuales"/>
+    <moqui.basic.LocalizedMessage original="File" locale="es_ES" localized="Fichero"/>
+    <moqui.basic.LocalizedMessage original="File Data" locale="es_ES" localized="Datos del fichero"/>
+    <moqui.basic.LocalizedMessage original="File Location" locale="es_ES" localized="Ubicación del fichero"/>
+    <moqui.basic.LocalizedMessage original="File Name" locale="es_ES" localized="Nombre del fichero"/>
+    <moqui.basic.LocalizedMessage original="File not found" locale="es_ES" localized="Fichero no encontrado"/>
+    <moqui.basic.LocalizedMessage original="File Per Entity" locale="es_ES" localized="Fichero por entidad"/>
+    <moqui.basic.LocalizedMessage original="File Size" locale="es_ES" localized="Tamaño del fichero"/>
+    <moqui.basic.LocalizedMessage original="File Type" locale="es_ES" localized="Tipo de fichero"/>
+    <moqui.basic.LocalizedMessage original="File Url" locale="es_ES" localized="URL del fichero"/>
+    <moqui.basic.LocalizedMessage original="Filename" locale="es_ES" localized="Nombre de fichero"/>
+    <moqui.basic.LocalizedMessage original="Files" locale="es_ES" localized="Ficheros"/>
+    <moqui.basic.LocalizedMessage original="General settings" locale="es_ES" localized="Ajustes generales"/>
+    <moqui.basic.LocalizedMessage original="General settings reset to their defaults (gallery demo: nothing is written)" locale="es_ES" localized="Ajustes generales restablecidos a los valores predeterminados (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="General settings saved (gallery demo: nothing is written)" locale="es_ES" localized="Ajustes generales guardados (demo de galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Is File" locale="es_ES" localized="Es fichero"/>
+    <moqui.basic.LocalizedMessage original="Job Settings" locale="es_ES" localized="Ajustes del trabajo"/>
+    <moqui.basic.LocalizedMessage original="Mobile" locale="es_ES" localized="Móvil"/>
+    <moqui.basic.LocalizedMessage original="No file uploaded" locale="es_ES" localized="Ningún fichero subido"/>
+    <moqui.basic.LocalizedMessage original="No file was uploaded" locale="es_ES" localized="No se subió ningún fichero"/>
+    <moqui.basic.LocalizedMessage original="Settings" locale="es_ES" localized="Ajustes"/>
+    <moqui.basic.LocalizedMessage original="Single File" locale="es_ES" localized="Fichero único"/>
+    <moqui.basic.LocalizedMessage original="Snapshot File" locale="es_ES" localized="Fichero de instantánea"/>
+    <moqui.basic.LocalizedMessage original="Snapshot file not found" locale="es_ES" localized="Fichero de instantánea no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Sync Files" locale="es_ES" localized="Sincronizar ficheros"/>
+    <moqui.basic.LocalizedMessage original="That is not a file name" locale="es_ES" localized="Eso no es un nombre de fichero"/>
+    <moqui.basic.LocalizedMessage original="You may not change this file" locale="es_ES" localized="No se puede cambiar este fichero"/>
+    <moqui.basic.LocalizedMessage original="Email" locale="es_MX" localized="Correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="File" locale="es_MX" localized="Archivo"/>
+    <moqui.basic.LocalizedMessage original="Files" locale="es_MX" localized="Archivos"/>
+    <moqui.basic.LocalizedMessage original="Mobile" locale="es_MX" localized="Celular"/>
+    <moqui.basic.LocalizedMessage original="Settings" locale="es_MX" localized="Configuración"/>
+</entity-facade-xml>

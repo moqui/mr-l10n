@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${activeSeconds ?? 0} of ${maxRunSeconds ?? '-'}" locale="es" localized="${activeSeconds ?? 0} de ${maxRunSeconds ?? '-'}"/>
+    <moqui.basic.LocalizedMessage original="${retrieval?.skillCount ?? 0} skills in the index for this user, agent and surface." locale="es" localized="${retrieval?.skillCount ?? 0} habilidades en el índice de este usuario, agente y superficie."/>
+    <moqui.basic.LocalizedMessage original="${stepCount ?? 0} of ${maxSteps ?? '-'}" locale="es" localized="${stepCount ?? 0} de ${maxSteps ?? '-'}"/>
+    <moqui.basic.LocalizedMessage original="${toolCallCount ?? 0} of ${maxToolCalls ?? '-'}" locale="es" localized="${toolCallCount ?? 0} de ${maxToolCalls ?? '-'}"/>
+    <moqui.basic.LocalizedMessage original="% of Budget" locale="es" localized="% del presupuesto"/>
+    <moqui.basic.LocalizedMessage original="50 when empty" locale="es" localized="50 si está vacío"/>
+    <moqui.basic.LocalizedMessage original="A conversation leaves out of this line the skills its catalog lists and the ones it loaded." locale="es" localized="Una conversación omite en esta línea las habilidades que lista su catálogo y las que cargó."/>
+    <moqui.basic.LocalizedMessage original="A cron expression, for a schedule trigger" locale="es" localized="Una expresión cron, para un disparador programado"/>
+    <moqui.basic.LocalizedMessage original="A defined service, or an entity-auto one such as update#moqui.security.UserGroup" locale="es" localized="Un servicio definido, o uno entity-auto como update#moqui.security.UserGroup"/>
+    <moqui.basic.LocalizedMessage original="A JSON patch applied to every request" locale="es" localized="Un parche JSON aplicado a cada solicitud"/>
+    <moqui.basic.LocalizedMessage original="A JSON patch per level: {&quot;low&quot;: {...}, &quot;high&quot;: {...}}" locale="es" localized="Un parche JSON por nivel: {&quot;low&quot;: {...}, &quot;high&quot;: {...}}"/>
+    <moqui.basic.LocalizedMessage original="A JSON schema object for the parameters, in place of the one made from the service's" locale="es" localized="Un objeto de esquema JSON para los parámetros, en lugar del que se genera a partir del servicio"/>
+    <moqui.basic.LocalizedMessage original="A message as a user would write it" locale="es" localized="Un mensaje como lo escribiría un usuario"/>
+    <moqui.basic.LocalizedMessage original="A model of System &gt; LLM &gt; Models" locale="es" localized="Un modelo de Sistema &gt; LLM &gt; Modelos"/>
+    <moqui.basic.LocalizedMessage original="A new trigger starts paused" locale="es" localized="Un disparador nuevo empieza en pausa"/>
+    <moqui.basic.LocalizedMessage original="A personal skill of this name no longer shadows it" locale="es" localized="Una habilidad personal con este nombre ya no la sustituye"/>
+    <moqui.basic.LocalizedMessage original="A probe's verdict comes with its evidence; a verdict set here is the admin's and no probe replaces it (empty removes it)." locale="es" localized="El veredicto de un sondeo trae su evidencia; uno puesto aquí es del administrador y ningún sondeo lo reemplaza (vacío lo quita)."/>
+    <moqui.basic.LocalizedMessage original="A tool or catalog name, or a pattern with * (mcp__*, *)" locale="es" localized="Un nombre de herramienta o de catálogo, o un patrón con * (mcp__*, *)"/>
+    <moqui.basic.LocalizedMessage original="a2a, mcp, gateway (comma separated)" locale="es" localized="a2a, mcp, gateway (separados por comas)"/>
+    <moqui.basic.LocalizedMessage original="Active Run" locale="es" localized="Ejecución activa"/>
+    <moqui.basic.LocalizedMessage original="Add Endpoint" locale="es" localized="Añadir punto de conexión"/>
+    <moqui.basic.LocalizedMessage original="Add Model" locale="es" localized="Añadir modelo"/>
+    <moqui.basic.LocalizedMessage original="Add Rule" locale="es" localized="Añadir regla"/>
+    <moqui.basic.LocalizedMessage original="Agents" locale="es" localized="Agentes"/>
+    <moqui.basic.LocalizedMessage original="All Approvals" locale="es" localized="Todas las aprobaciones"/>
+    <moqui.basic.LocalizedMessage original="All Calls" locale="es" localized="Todas las llamadas"/>
+    <moqui.basic.LocalizedMessage original="All Conversations" locale="es" localized="Todas las conversaciones"/>
+    <moqui.basic.LocalizedMessage original="All Exposed Services" locale="es" localized="Todos los servicios expuestos"/>
+    <moqui.basic.LocalizedMessage original="All Models" locale="es" localized="Todos los modelos"/>
+    <moqui.basic.LocalizedMessage original="All Runs" locale="es" localized="Todas las ejecuciones"/>
+    <moqui.basic.LocalizedMessage original="All Skills" locale="es" localized="Todas las habilidades"/>
+    <moqui.basic.LocalizedMessage original="Allow Tool" locale="es" localized="Permitir herramienta"/>
+    <moqui.basic.LocalizedMessage original="Allowed" locale="es" localized="Permitido"/>
+    <moqui.basic.LocalizedMessage original="Allowed Tools" locale="es" localized="Herramientas permitidas"/>
+    <moqui.basic.LocalizedMessage original="API Key" locale="es" localized="Clave de API"/>
+    <moqui.basic.LocalizedMessage original="Approval ${approvalId ?? ''}" locale="es" localized="Aprobación ${approvalId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Arguments" locale="es" localized="Argumentos"/>
+    <moqui.basic.LocalizedMessage original="ask: the user decides each write; policy: no one is asked (background agents only); never: not offered" locale="es" localized="ask: el usuario decide cada escritura; policy: no se consulta a nadie (solo agentes en segundo plano); never: no se ofrece"/>
+    <moqui.basic.LocalizedMessage original="assist, title, summarize, classify, ai-field, embed, or a component's own" locale="es" localized="assist, title, summarize, classify, ai-field, embed, o una propia del componente"/>
+    <moqui.basic.LocalizedMessage original="Assistant" locale="es" localized="Asistente"/>
+    <moqui.basic.LocalizedMessage original="Base URL" locale="es" localized="URL base"/>
+    <moqui.basic.LocalizedMessage original="Batch Window" locale="es" localized="Ventana de lote"/>
+    <moqui.basic.LocalizedMessage original="Bind Feature" locale="es" localized="Vincular característica"/>
+    <moqui.basic.LocalizedMessage original="Breaker" locale="es" localized="Disyuntor"/>
+    <moqui.basic.LocalizedMessage original="Cached" locale="es" localized="En caché"/>
+    <moqui.basic.LocalizedMessage original="Cached Input" locale="es" localized="Entrada en caché"/>
+    <moqui.basic.LocalizedMessage original="Call ${callId ?? ''}" locale="es" localized="Llamada ${callId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Calls per Run" locale="es" localized="Llamadas por ejecución"/>
+    <moqui.basic.LocalizedMessage original="Calls: ${month.callCount ?? 0}" locale="es" localized="Llamadas: ${month.callCount ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Calls: ${today.callCount ?? 0} (${today.errorCount ?? 0} failed)" locale="es" localized="Llamadas: ${today.callCount ?? 0} (${today.errorCount ?? 0} fallidas)"/>
+    <moqui.basic.LocalizedMessage original="Cancel Asked" locale="es" localized="Cancelación pedida"/>
+    <moqui.basic.LocalizedMessage original="Cancel Run" locale="es" localized="Cancelar ejecución"/>
+    <moqui.basic.LocalizedMessage original="Capabilities" locale="es" localized="Capacidades"/>
+    <moqui.basic.LocalizedMessage original="Card Read" locale="es" localized="Lectura de la tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Card URL" locale="es" localized="URL de la tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Catalog of a Conversation That Starts With It" locale="es" localized="Catálogo de una conversación que empieza con esto"/>
+    <moqui.basic.LocalizedMessage original="Cause" locale="es" localized="Causa"/>
+    <moqui.basic.LocalizedMessage original="Ceiling" locale="es" localized="Tope"/>
+    <moqui.basic.LocalizedMessage original="Changes" locale="es" localized="Cambios"/>
+    <moqui.basic.LocalizedMessage original="Channel" locale="es" localized="Canal"/>
+    <moqui.basic.LocalizedMessage original="Characters" locale="es" localized="Caracteres"/>
+    <moqui.basic.LocalizedMessage original="Check" locale="es" localized="Comprobar"/>
+    <moqui.basic.LocalizedMessage original="Check a Quota" locale="es" localized="Comprobar una cuota"/>
+    <moqui.basic.LocalizedMessage original="Class" locale="es" localized="Clase"/>
+    <moqui.basic.LocalizedMessage original="Classification" locale="es" localized="Clasificación"/>
+    <moqui.basic.LocalizedMessage original="Client ${clientId}" locale="es" localized="Cliente ${clientId}"/>
+    <moqui.basic.LocalizedMessage original="Comma separated agent ids, * for all" locale="es" localized="Identificadores de agente separados por comas; * para todos"/>
+    <moqui.basic.LocalizedMessage original="Comma separated agent ids, * for all, empty for none" locale="es" localized="Identificadores de agente separados por comas; * para todos; vacío para ninguno"/>
+    <moqui.basic.LocalizedMessage original="Comma separated; empty for all the user may use" locale="es" localized="Separados por comas; vacío para todos los que el usuario puede usar"/>
+    <moqui.basic.LocalizedMessage original="Context / Output" locale="es" localized="Contexto / salida"/>
+    <moqui.basic.LocalizedMessage original="Conversation ${conversationId ?? ''} ${conversationTitle}" locale="es" localized="Conversación ${conversationId ?? ''} ${conversationTitle}"/>
+    <moqui.basic.LocalizedMessage original="Copy as Sent" locale="es" localized="Copia tal como se envía"/>
+    <moqui.basic.LocalizedMessage original="Cost a Day" locale="es" localized="Costo por día"/>
+    <moqui.basic.LocalizedMessage original="Cost Cap" locale="es" localized="Tope de costo"/>
+    <moqui.basic.LocalizedMessage original="Cost: ${today.cost ?? 0} ${today.currencyUomId ?? ''}" locale="es" localized="Costo: ${today.cost ?? 0} ${today.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Credential" locale="es" localized="Credencial"/>
+    <moqui.basic.LocalizedMessage original="Database Row" locale="es" localized="Fila de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Decided" locale="es" localized="Decidido"/>
+    <moqui.basic.LocalizedMessage original="Decided By" locale="es" localized="Decidido por"/>
+    <moqui.basic.LocalizedMessage original="Each field set here replaces the conf's value of this endpoint; an empty one keeps it." locale="es" localized="Cada campo definido aquí reemplaza el valor de la configuración de este punto de conexión; si está vacío, lo conserva."/>
+    <moqui.basic.LocalizedMessage original="Each field set here replaces the conf's value of this model; an empty one keeps it." locale="es" localized="Cada campo definido aquí reemplaza el valor de la configuración de este modelo; si está vacío, lo conserva."/>
+    <moqui.basic.LocalizedMessage original="Each user calls with a token of their own" locale="es" localized="Cada usuario llama con un token propio"/>
+    <moqui.basic.LocalizedMessage original="Edited Arguments" locale="es" localized="Argumentos editados"/>
+    <moqui.basic.LocalizedMessage original="Else the agent's run-as user" locale="es" localized="Si no, el usuario de ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="Else the conf's a2a client-timeout" locale="es" localized="Si no, el client-timeout de a2a de la configuración"/>
+    <moqui.basic.LocalizedMessage original="Else the conf's mcp call-timeout" locale="es" localized="Si no, el call-timeout de mcp de la configuración"/>
+    <moqui.basic.LocalizedMessage original="Empty for a generated id" locale="es" localized="Vacío para un identificador generado"/>
+    <moqui.basic.LocalizedMessage original="Empty is EXTERNAL: each call asks for approval" locale="es" localized="Vacío es EXTERNAL: cada llamada pide aprobación"/>
+    <moqui.basic.LocalizedMessage original="Empty is the service's own" locale="es" localized="Vacío es el propio del servicio"/>
+    <moqui.basic.LocalizedMessage original="Empty is the service's own: view is a read, delete is destructive, anything else a write" locale="es" localized="Vacío es el propio del servicio: view es una lectura, delete es destructivo y lo demás una escritura"/>
+    <moqui.basic.LocalizedMessage original="Empty is Y" locale="es" localized="Vacío es Y"/>
+    <moqui.basic.LocalizedMessage original="Empty: the head and contents; *: the whole body" locale="es" localized="Vacío: la cabecera y el índice; *: el cuerpo entero"/>
+    <moqui.basic.LocalizedMessage original="Ended" locale="es" localized="Finalizado"/>
+    <moqui.basic.LocalizedMessage original="Endpoint ${endpointId}" locale="es" localized="Punto de conexión ${endpointId}"/>
+    <moqui.basic.LocalizedMessage original="Endpoints" locale="es" localized="Puntos de conexión"/>
+    <moqui.basic.LocalizedMessage original="Estimated" locale="es" localized="Estimado"/>
+    <moqui.basic.LocalizedMessage original="Events per Run" locale="es" localized="Eventos por ejecución"/>
+    <moqui.basic.LocalizedMessage original="Expose" locale="es" localized="Exponer"/>
+    <moqui.basic.LocalizedMessage original="Expose a Service" locale="es" localized="Exponer un servicio"/>
+    <moqui.basic.LocalizedMessage original="Exposed Service ${toolName}" locale="es" localized="Servicio expuesto ${toolName}"/>
+    <moqui.basic.LocalizedMessage original="Failed today: ${totals.runsFailedToday ?? 0}" locale="es" localized="Fallidas hoy: ${totals.runsFailedToday ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Failures" locale="es" localized="Fallas"/>
+    <moqui.basic.LocalizedMessage original="Failures in a Row" locale="es" localized="Fallas seguidas"/>
+    <moqui.basic.LocalizedMessage original="Failures in a row that open the breaker (3)" locale="es" localized="Fallas seguidas que abren el disyuntor (3)"/>
+    <moqui.basic.LocalizedMessage original="Fallback" locale="es" localized="Respaldo"/>
+    <moqui.basic.LocalizedMessage original="Feature" locale="es" localized="Característica"/>
+    <moqui.basic.LocalizedMessage original="Feature Bindings" locale="es" localized="Vinculaciones de características"/>
+    <moqui.basic.LocalizedMessage original="Finish" locale="es" localized="Finalización"/>
+    <moqui.basic.LocalizedMessage original="Fire Now" locale="es" localized="Disparar ahora"/>
+    <moqui.basic.LocalizedMessage original="First Token ms" locale="es" localized="Primer token en ms"/>
+    <moqui.basic.LocalizedMessage original="Follow Owner" locale="es" localized="Propietario del seguimiento"/>
+    <moqui.basic.LocalizedMessage original="For basic" locale="es" localized="Para basic"/>
+    <moqui.basic.LocalizedMessage original="For header" locale="es" localized="Para encabezado"/>
+    <moqui.basic.LocalizedMessage original="For MCP" locale="es" localized="Para MCP"/>
+    <moqui.basic.LocalizedMessage original="For the Assistant" locale="es" localized="Para el asistente"/>
+    <moqui.basic.LocalizedMessage original="From ${skill.sourceLocation}: change the file and sync; here only its lock changes." locale="es" localized="Desde ${skill.sourceLocation}: cambiar el archivo y sincronizar; aquí solo cambia el bloqueo."/>
+    <moqui.basic.LocalizedMessage original="Header Name" locale="es" localized="Nombre del encabezado"/>
+    <moqui.basic.LocalizedMessage original="Hold Approvals" locale="es" localized="Retener aprobaciones"/>
+    <moqui.basic.LocalizedMessage original="https, never an internal address unless Allow Private Network" locale="es" localized="https, nunca una dirección interna salvo Permitir red privada"/>
+    <moqui.basic.LocalizedMessage original="In" locale="es" localized="Entrada"/>
+    <moqui.basic.LocalizedMessage original="in ${effective.priceInput ?? '-'}, cached ${effective.priceCachedInput ?? '-'}, cache write ${effective.priceCacheWrite ?? '-'}, out ${effective.priceOutput ?? '-'} ${effective.currencyUomId ?? ''}" locale="es" localized="entrada ${effective.priceInput ?? '-'}, en caché ${effective.priceCachedInput ?? '-'}, escritura de caché ${effective.priceCacheWrite ?? '-'}, salida ${effective.priceOutput ?? '-'} ${effective.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="In /M" locale="es" localized="Entrada /M"/>
+    <moqui.basic.LocalizedMessage original="Input" locale="es" localized="Entrada"/>
+    <moqui.basic.LocalizedMessage original="Its /.well-known/agent-card.json, https" locale="es" localized="Su /.well-known/agent-card.json, https"/>
+    <moqui.basic.LocalizedMessage original="Its Streamable HTTP endpoint, https" locale="es" localized="Su punto de conexión Streamable HTTP, https"/>
+    <moqui.basic.LocalizedMessage original="Its tools are mcp__ this id __ tool" locale="es" localized="Sus herramientas son mcp__, este identificador, __ y la herramienta"/>
+    <moqui.basic.LocalizedMessage original="Last Failure" locale="es" localized="Última falla"/>
+    <moqui.basic.LocalizedMessage original="Last Message" locale="es" localized="Último mensaje"/>
+    <moqui.basic.LocalizedMessage original="Last Used" locale="es" localized="Último uso"/>
+    <moqui.basic.LocalizedMessage original="Lease Expires" locale="es" localized="Vencimiento de la concesión"/>
+    <moqui.basic.LocalizedMessage original="Lease Node" locale="es" localized="Nodo de la concesión"/>
+    <moqui.basic.LocalizedMessage original="Left out of the configuration" locale="es" localized="Fuera de la configuración"/>
+    <moqui.basic.LocalizedMessage original="Lesson" locale="es" localized="Lección"/>
+    <moqui.basic.LocalizedMessage original="List Tools Now" locale="es" localized="Listar herramientas ahora"/>
+    <moqui.basic.LocalizedMessage original="Load As" locale="es" localized="Se carga como"/>
+    <moqui.basic.LocalizedMessage original="Local" locale="es" localized="En local"/>
+    <moqui.basic.LocalizedMessage original="Local / Disabled / From" locale="es" localized="En local / desactivado / origen"/>
+    <moqui.basic.LocalizedMessage original="Loopback or LAN addresses, and http" locale="es" localized="Direcciones de bucle local o de LAN, y http"/>
+    <moqui.basic.LocalizedMessage original="Markdown with front matter: name (kebab-case) and description (Use when …) are required" locale="es" localized="Markdown con preámbulo: name (kebab-case) y description (Use when …) son obligatorios"/>
+    <moqui.basic.LocalizedMessage original="Markdown with front matter; a front matter error is shown and nothing is saved" locale="es" localized="Markdown con preámbulo; si el preámbulo tiene un error, se muestra y no se guarda nada"/>
+    <moqui.basic.LocalizedMessage original="Matched" locale="es" localized="Coincidencia"/>
+    <moqui.basic.LocalizedMessage original="Max Calls" locale="es" localized="Máximo de llamadas"/>
+    <moqui.basic.LocalizedMessage original="MCP Server ${mcpServerId}" locale="es" localized="Servidor MCP ${mcpServerId}"/>
+    <moqui.basic.LocalizedMessage original="Meaning" locale="es" localized="Significado"/>
+    <moqui.basic.LocalizedMessage original="Model ${modelId}" locale="es" localized="Modelo ${modelId}"/>
+    <moqui.basic.LocalizedMessage original="Model ${preview?.modelId}" locale="es" localized="Modelo ${preview?.modelId}"/>
+    <moqui.basic.LocalizedMessage original="Model Calls" locale="es" localized="Llamadas al modelo"/>
+    <moqui.basic.LocalizedMessage original="Model Calls Today" locale="es" localized="Llamadas al modelo hoy"/>
+    <moqui.basic.LocalizedMessage original="More request headers, a JSON object of name to value" locale="es" localized="Más encabezados de solicitud, un objeto JSON de nombre a valor"/>
+    <moqui.basic.LocalizedMessage original="New Alias" locale="es" localized="Nuevo alias"/>
+    <moqui.basic.LocalizedMessage original="New Client" locale="es" localized="Nuevo cliente"/>
+    <moqui.basic.LocalizedMessage original="New MCP Server" locale="es" localized="Nuevo servidor MCP"/>
+    <moqui.basic.LocalizedMessage original="New Remote Agent" locale="es" localized="Nuevo agente remoto"/>
+    <moqui.basic.LocalizedMessage original="New Skill" locale="es" localized="Nueva habilidad"/>
+    <moqui.basic.LocalizedMessage original="New Trigger" locale="es" localized="Nuevo disparador"/>
+    <moqui.basic.LocalizedMessage original="No endpoint ${endpointId ?? ''} is configured in the conf or the database." locale="es" localized="No hay un punto de conexión ${endpointId ?? ''} en la configuración ni en la base de datos."/>
+    <moqui.basic.LocalizedMessage original="No model ${modelId ?? ''} is configured in the conf or the database." locale="es" localized="No hay un modelo ${modelId ?? ''} en la configuración ni en la base de datos."/>
+    <moqui.basic.LocalizedMessage original="No model resolves, so there is no request to show." locale="es" localized="Ningún modelo se resuelve, así que no hay una solicitud que mostrar."/>
+    <moqui.basic.LocalizedMessage original="No service is exposed as ${toolName ?? ''}." locale="es" localized="Ningún servicio está expuesto como ${toolName ?? ''}."/>
+    <moqui.basic.LocalizedMessage original="No strong match: the tail names no skill." locale="es" localized="Sin coincidencia fuerte: el final no nombra una habilidad."/>
+    <moqui.basic.LocalizedMessage original="Node" locale="es" localized="Nodo"/>
+    <moqui.basic.LocalizedMessage original="Not in effect: another skill of this name counts (${detail.inEffectSkillId ?? 'none, it is not published or not allowed'})." locale="es" localized="No vigente: cuenta otra habilidad con este nombre (${detail.inEffectSkillId ?? 'none, it is not published or not allowed'})."/>
+    <moqui.basic.LocalizedMessage original="On top of the user's own quota" locale="es" localized="Además de la cuota propia del usuario"/>
+    <moqui.basic.LocalizedMessage original="One of the client user's login keys; kept only as its hash" locale="es" localized="Una de las claves de inicio de sesión del usuario del cliente; se guarda solo su hash"/>
+    <moqui.basic.LocalizedMessage original="One of the user's app passwords (My Account)" locale="es" localized="Una de las contraseñas de aplicación del usuario (Mi cuenta)"/>
+    <moqui.basic.LocalizedMessage original="One small call to the endpoint's first model" locale="es" localized="Una llamada breve al primer modelo del punto de conexión"/>
+    <moqui.basic.LocalizedMessage original="One small call to the model" locale="es" localized="Una llamada breve al modelo"/>
+    <moqui.basic.LocalizedMessage original="Or a feature (assist, summarize, embed, ...) whose binding it follows" locale="es" localized="O una característica (assist, summarize, embed, ...) cuya vinculación sigue"/>
+    <moqui.basic.LocalizedMessage original="Or one of the user's login keys; it is kept only as its hash" locale="es" localized="O una de las claves de inicio de sesión del usuario; se guarda solo su hash"/>
+    <moqui.basic.LocalizedMessage original="Out" locale="es" localized="Salida"/>
+    <moqui.basic.LocalizedMessage original="Out /M" locale="es" localized="Salida /M"/>
+    <moqui.basic.LocalizedMessage original="Page" locale="es" localized="Página"/>
+    <moqui.basic.LocalizedMessage original="Page Version" locale="es" localized="Versión de la página"/>
+    <moqui.basic.LocalizedMessage original="Per Minute" locale="es" localized="Por minuto"/>
+    <moqui.basic.LocalizedMessage original="Per User" locale="es" localized="Por usuario"/>
+    <moqui.basic.LocalizedMessage original="Per User Token" locale="es" localized="Token por usuario"/>
+    <moqui.basic.LocalizedMessage original="Personal skill of ${skill.ownerUserId}: it shadows the site skill of its name unless that one is locked." locale="es" localized="Habilidad personal de ${skill.ownerUserId}: sustituye a la habilidad del sitio con su nombre, salvo que esa esté bloqueada."/>
+    <moqui.basic.LocalizedMessage original="Preview" locale="es" localized="Vista previa"/>
+    <moqui.basic.LocalizedMessage original="Prices per M" locale="es" localized="Precios por M"/>
+    <moqui.basic.LocalizedMessage original="Probe Capabilities" locale="es" localized="Sondear capacidades"/>
+    <moqui.basic.LocalizedMessage original="Problems" locale="es" localized="Problemas"/>
+    <moqui.basic.LocalizedMessage original="Prompt of ${preview?.agentId ?? ''} on ${preview?.surface ?? ''} (${preview?.variant ?? ''})" locale="es" localized="Indicación de ${preview?.agentId ?? ''} en ${preview?.surface ?? ''} (${preview?.variant ?? ''})"/>
+    <moqui.basic.LocalizedMessage original="Query" locale="es" localized="Consulta"/>
+    <moqui.basic.LocalizedMessage original="Ranked Skills" locale="es" localized="Habilidades ordenadas"/>
+    <moqui.basic.LocalizedMessage original="Read Card" locale="es" localized="Leer tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Read the skill files of the framework and the components again" locale="es" localized="Volver a leer los archivos de habilidades del marco de trabajo y de los componentes"/>
+    <moqui.basic.LocalizedMessage original="Reasoning Levels" locale="es" localized="Niveles de razonamiento"/>
+    <moqui.basic.LocalizedMessage original="Recent Calls" locale="es" localized="Llamadas recientes"/>
+    <moqui.basic.LocalizedMessage original="Recent Failed Calls" locale="es" localized="Llamadas fallidas recientes"/>
+    <moqui.basic.LocalizedMessage original="Recent Failed Runs" locale="es" localized="Ejecuciones fallidas recientes"/>
+    <moqui.basic.LocalizedMessage original="Recent Uses" locale="es" localized="Usos recientes"/>
+    <moqui.basic.LocalizedMessage original="Recompute today's and yesterday's rows now" locale="es" localized="Recalcular ahora las filas de hoy y de ayer"/>
+    <moqui.basic.LocalizedMessage original="Remote Agent ${remoteId} (tool a2a__${remoteId})" locale="es" localized="Agente remoto ${remoteId} (herramienta a2a__${remoteId})"/>
+    <moqui.basic.LocalizedMessage original="Remove Row" locale="es" localized="Quitar fila"/>
+    <moqui.basic.LocalizedMessage original="Replaces the server's own" locale="es" localized="Reemplaza la propia del servidor"/>
+    <moqui.basic.LocalizedMessage original="Requests per Minute" locale="es" localized="Solicitudes por minuto"/>
+    <moqui.basic.LocalizedMessage original="Reset Breaker" locale="es" localized="Restablecer disyuntor"/>
+    <moqui.basic.LocalizedMessage original="Resolves To" locale="es" localized="Se resuelve en"/>
+    <moqui.basic.LocalizedMessage original="Response" locale="es" localized="Respuesta"/>
+    <moqui.basic.LocalizedMessage original="Reviewed" locale="es" localized="Revisado"/>
+    <moqui.basic.LocalizedMessage original="Roll Up Today" locale="es" localized="Consolidar hoy"/>
+    <moqui.basic.LocalizedMessage original="Run ${runId ?? ''}" locale="es" localized="Ejecución ${runId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Runs As" locale="es" localized="Se ejecuta como"/>
+    <moqui.basic.LocalizedMessage original="Runs at Once" locale="es" localized="Ejecuciones a la vez"/>
+    <moqui.basic.LocalizedMessage original="Runs per Day" locale="es" localized="Ejecuciones por día"/>
+    <moqui.basic.LocalizedMessage original="Runs per Hour" locale="es" localized="Ejecuciones por hora"/>
+    <moqui.basic.LocalizedMessage original="Sample Page" locale="es" localized="Página de muestra"/>
+    <moqui.basic.LocalizedMessage original="Sample Tail" locale="es" localized="Final de muestra"/>
+    <moqui.basic.LocalizedMessage original="Save Row" locale="es" localized="Guardar fila"/>
+    <moqui.basic.LocalizedMessage original="Saved with the version you opened (${exposure.lockVersion ?? 0}): if someone saved it since, your save is refused and this shows it as it is now. Each save moves the version on, so an approval asked for under the older one runs nothing." locale="es" localized="Guardado con la versión abierta (${exposure.lockVersion ?? 0}): si alguien lo guardó después, se rechaza y se muestra como está ahora. Cada guardado avanza la versión, y una aprobación pedida bajo la versión anterior no ejecuta nada."/>
+    <moqui.basic.LocalizedMessage original="Schema Override" locale="es" localized="Reemplazo de esquema"/>
+    <moqui.basic.LocalizedMessage original="Seconds the events of a record-change trigger gather into one run; 0 runs at once" locale="es" localized="Segundos en que los eventos de un disparador por cambio de registro se agrupan en una ejecución; 0 ejecuta al momento"/>
+    <moqui.basic.LocalizedMessage original="Seconds Working" locale="es" localized="Segundos de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Section" locale="es" localized="Sección"/>
+    <moqui.basic.LocalizedMessage original="Server" locale="es" localized="Servidor"/>
+    <moqui.basic.LocalizedMessage original="Server ID" locale="es" localized="ID de servidor"/>
+    <moqui.basic.LocalizedMessage original="Set" locale="es" localized="Establecer"/>
+    <moqui.basic.LocalizedMessage original="Set Key" locale="es" localized="Establecer clave"/>
+    <moqui.basic.LocalizedMessage original="Sim preview of a write: on demand (the card's button), always before the card, or none; a destructive one is previewed unless none" locale="es" localized="Vista previa simulada de una escritura: a demanda (el botón de la tarjeta), siempre antes de la tarjeta, o ninguna; una destructiva se previsualiza salvo que sea ninguna"/>
+    <moqui.basic.LocalizedMessage original="Site" locale="es" localized="Sitio"/>
+    <moqui.basic.LocalizedMessage original="Skill ${skill?.skillName ?? skillId}" locale="es" localized="Habilidad ${skill?.skillName ?? skillId}"/>
+    <moqui.basic.LocalizedMessage original="skill find= answer" locale="es" localized="Respuesta de find= de la habilidad"/>
+    <moqui.basic.LocalizedMessage original="skill(name) sends the whole body under 6,000 characters, else the text before the first section and these contents; skill(name#section) sends one." locale="es" localized="skill(name) envía el cuerpo completo si tiene menos de 6000 caracteres; si no, el texto anterior a la primera sección y este índice; skill(name#section) envía una."/>
+    <moqui.basic.LocalizedMessage original="Snapshot" locale="es" localized="Instantánea"/>
+    <moqui.basic.LocalizedMessage original="Source ${skill.provenance ?? ''}, version ${skill.versionNum ?? 1}, ${skill.useCount ?? 0} uses, risk ${detail.risk ?? ''} (only a skill a person wrote lowers a risk), body ${detail.bodyChars ?? 0} characters." locale="es" localized="Origen ${skill.provenance ?? ''}, versión ${skill.versionNum ?? 1}, ${skill.useCount ?? 0} usos, riesgo ${detail.risk ?? ''} (solo una habilidad escrita por una persona baja el riesgo), cuerpo ${detail.bodyChars ?? 0} caracteres."/>
+    <moqui.basic.LocalizedMessage original="Spend: ${month.cost ?? 0} ${month.currencyUomId ?? ''}" locale="es" localized="Gasto: ${month.cost ?? 0} ${month.currencyUomId ?? ''}"/>
+    <moqui.basic.LocalizedMessage original="Started" locale="es" localized="Iniciado"/>
+    <moqui.basic.LocalizedMessage original="Step" locale="es" localized="Paso"/>
+    <moqui.basic.LocalizedMessage original="Steps" locale="es" localized="Pasos"/>
+    <moqui.basic.LocalizedMessage original="Stored encrypted and never shown. A key here replaces the conf's; a row that changes the host needs one." locale="es" localized="Se guarda cifrada y nunca se muestra. Una clave aquí reemplaza la de la configuración; una fila que cambia el host necesita una."/>
+    <moqui.basic.LocalizedMessage original="Strong" locale="es" localized="Fuerte"/>
+    <moqui.basic.LocalizedMessage original="Submitted today: ${totals.runsToday ?? 0}" locale="es" localized="Enviadas hoy: ${totals.runsToday ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Sync Files" locale="es" localized="Sincronizar archivos"/>
+    <moqui.basic.LocalizedMessage original="Tail of a Later Message" locale="es" localized="Final de un mensaje posterior"/>
+    <moqui.basic.LocalizedMessage original="Target" locale="es" localized="Destino"/>
+    <moqui.basic.LocalizedMessage original="Test" locale="es" localized="Probar"/>
+    <moqui.basic.LocalizedMessage original="The cosine of the semantic branch, when an embedder is installed" locale="es" localized="El coseno de la rama semántica, cuando hay un modelo de embeddings instalado"/>
+    <moqui.basic.LocalizedMessage original="The DataDocument whose record changes fire a record-change trigger" locale="es" localized="El DataDocument cuyos cambios de registro activan un disparador por cambio de registro"/>
+    <moqui.basic.LocalizedMessage original="The highest class it may run; empty is any" locale="es" localized="La clase más alta que puede ejecutar; vacío es cualquiera"/>
+    <moqui.basic.LocalizedMessage original="The key, password or header value; kept encrypted, never shown" locale="es" localized="La clave, la contraseña o el valor del encabezado; se guarda cifrada y no se muestra"/>
+    <moqui.basic.LocalizedMessage original="The llm-facade is disabled in the conf: no model is called." locale="es" localized="llm-facade está desactivado en la configuración: no se llama a ningún modelo."/>
+    <moqui.basic.LocalizedMessage original="The model name callers use" locale="es" localized="El nombre de modelo que usan quienes llaman"/>
+    <moqui.basic.LocalizedMessage original="The name the model calls it by, such as update_user_group; not mcp__ or a2a__" locale="es" localized="El nombre con que el modelo la llama, como update_user_group; no mcp__ ni a2a__"/>
+    <moqui.basic.LocalizedMessage original="The page it is sent from, such as /apps/system/Security/UserAccount/UserAccountList" locale="es" localized="La página desde la que se envía, como /apps/system/Security/UserAccount/UserAccountList"/>
+    <moqui.basic.LocalizedMessage original="The provider's name of the model" locale="es" localized="El nombre del modelo en el proveedor"/>
+    <moqui.basic.LocalizedMessage original="The server's own name of the tool" locale="es" localized="El nombre de la herramienta en el servidor"/>
+    <moqui.basic.LocalizedMessage original="The tool is a2a__ and this id" locale="es" localized="La herramienta es a2a__ y este identificador"/>
+    <moqui.basic.LocalizedMessage original="The user the client calls as" locale="es" localized="El usuario con el que llama el cliente"/>
+    <moqui.basic.LocalizedMessage original="The user's memory is shown only for your own user." locale="es" localized="La memoria del usuario se muestra solo para el usuario de la sesión."/>
+    <moqui.basic.LocalizedMessage original="There is no skill ${skillId ?? ''}." locale="es" localized="No existe la habilidad ${skillId ?? ''}."/>
+    <moqui.basic.LocalizedMessage original="This Month" locale="es" localized="Este mes"/>
+    <moqui.basic.LocalizedMessage original="This read of another user's approval is logged." locale="es" localized="Esta lectura de la aprobación de otro usuario queda registrada."/>
+    <moqui.basic.LocalizedMessage original="This read of another user's conversation is logged." locale="es" localized="Esta lectura de la conversación de otro usuario queda registrada."/>
+    <moqui.basic.LocalizedMessage original="This read of another user's run is logged." locale="es" localized="Esta lectura de la ejecución de otro usuario queda registrada."/>
+    <moqui.basic.LocalizedMessage original="Token Cap" locale="es" localized="Tope de tokens"/>
+    <moqui.basic.LocalizedMessage original="Tokens a Day" locale="es" localized="Tokens por día"/>
+    <moqui.basic.LocalizedMessage original="Tokens: ${month.totalTokens ?? 0}" locale="es" localized="Total de tokens: ${month.totalTokens ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Tokens: ${today.totalTokens ?? 0} (${today.cachedInputTokens ?? 0} cached input)" locale="es" localized="Total de tokens: ${today.totalTokens ?? 0} (${today.cachedInputTokens ?? 0} de entrada en caché)"/>
+    <moqui.basic.LocalizedMessage original="Tool" locale="es" localized="Herramienta"/>
+    <moqui.basic.LocalizedMessage original="Tool Calls" locale="es" localized="Llamadas a herramientas"/>
+    <moqui.basic.LocalizedMessage original="Tool Policy of ${agentId}" locale="es" localized="Política de herramientas de ${agentId}"/>
+    <moqui.basic.LocalizedMessage original="Tools the Server Lists" locale="es" localized="Herramientas que lista el servidor"/>
+    <moqui.basic.LocalizedMessage original="Tools: ${totals.toolCount ?? 0}, ${totals.toolsChars ?? 0} characters of schema. Tools hash ${preview?.toolsHash ?? ''}." locale="es" localized="Herramientas: ${totals.toolCount ?? 0}, ${totals.toolsChars ?? 0} caracteres de esquema. Hash de herramientas ${preview?.toolsHash ?? ''}."/>
+    <moqui.basic.LocalizedMessage original="Totals by Model and Source" locale="es" localized="Totales por modelo y origen"/>
+    <moqui.basic.LocalizedMessage original="Transcript" locale="es" localized="Transcripción"/>
+    <moqui.basic.LocalizedMessage original="Trigger ${triggerId}" locale="es" localized="Disparador ${triggerId}"/>
+    <moqui.basic.LocalizedMessage original="Unlock" locale="es" localized="Desbloquear"/>
+    <moqui.basic.LocalizedMessage original="Uses" locale="es" localized="Usos"/>
+    <moqui.basic.LocalizedMessage original="Wait Expires" locale="es" localized="Vencimiento de la espera"/>
+    <moqui.basic.LocalizedMessage original="Waiting and Recent Events" locale="es" localized="Eventos en espera y recientes"/>
+    <moqui.basic.LocalizedMessage original="Waiting For" locale="es" localized="En espera de"/>
+    <moqui.basic.LocalizedMessage original="Waiting for input: ${totals.runsWaiting ?? 0}" locale="es" localized="En espera de entrada: ${totals.runsWaiting ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Waiting On" locale="es" localized="Pendiente de"/>
+    <moqui.basic.LocalizedMessage original="What It Does" locale="es" localized="Qué hace"/>
+    <moqui.basic.LocalizedMessage original="What taught it" locale="es" localized="Qué lo enseñó"/>
+    <moqui.basic.LocalizedMessage original="What the model reads in find_tools and describe_tools" locale="es" localized="Lo que el modelo lee en find_tools y describe_tools"/>
+    <moqui.basic.LocalizedMessage original="What the model reads of it; else the card's, as untrusted text" locale="es" localized="Lo que el modelo lee de esto; si no, el de la tarjeta, como texto no confiable"/>
+    <moqui.basic.LocalizedMessage original="What the model reads: what it does, when to use it" locale="es" localized="Lo que el modelo lee: qué hace y cuándo usarla"/>
+    <moqui.basic.LocalizedMessage original="Whose personal skills join the site's; empty is yours" locale="es" localized="De quién se suman las habilidades personales a las del sitio; vacío es el usuario de la sesión"/>
+    <moqui.basic.LocalizedMessage original="Words" locale="es" localized="Palabras"/>
+    <moqui.basic.LocalizedMessage original="Y: a write its policy does not approve waits in the run-as user's inbox; else it is an error the agent reads" locale="es" localized="Y: una escritura que la política no aprueba espera en la bandeja de entrada del usuario de ejecución; si no, es un error que lee el agente"/>
+    <moqui.basic.LocalizedMessage original="Y: yours only, shadowing a site skill of its name unless that one is locked" locale="es" localized="Y: solo las propias, y sustituyen a la habilidad del sitio de su nombre salvo que esa esté bloqueada"/>
+</entity-facade-xml>

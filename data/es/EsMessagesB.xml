@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Not" locale="es" localized="No"/>
+    <moqui.basic.LocalizedMessage original="Not copying wiki page alias ${baseWikiPageAlias.aliasPath}, already exists in space ${wikiSpaceId}" locale="es" localized="No se copia el alias de la página wiki ${baseWikiPageAlias.aliasPath} porque ya existe en el espacio ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="Not found" locale="es" localized="No encontrado"/>
+    <moqui.basic.LocalizedMessage original="Not in the trash" locale="es" localized="No está en la papelera"/>
+    <moqui.basic.LocalizedMessage original="Not merge methods:" locale="es" localized="No son métodos de fusión:"/>
+    <moqui.basic.LocalizedMessage original="Not webhook events:" locale="es" localized="No son eventos de webhook:"/>
+    <moqui.basic.LocalizedMessage original="Nothing changed: the gallery writes nothing" locale="es" localized="Nada cambió: la galería no escribe nada"/>
+    <moqui.basic.LocalizedMessage original="Nothing to copy" locale="es" localized="Nada que copiar"/>
+    <moqui.basic.LocalizedMessage original="Nothing to move" locale="es" localized="Nada que mover"/>
+    <moqui.basic.LocalizedMessage original="Nothing to trash" locale="es" localized="Nada que enviar a la papelera"/>
+    <moqui.basic.LocalizedMessage original="Notifications are marked viewed only for a signed in user" locale="es" localized="Las notificaciones se marcan como vistas solo para un usuario con sesión iniciada"/>
+    <moqui.basic.LocalizedMessage original="One types as oneself" locale="es" localized="Solo se escribe como uno mismo"/>
+    <moqui.basic.LocalizedMessage original="Only a closed merge request reopens" locale="es" localized="Solo se reabre una solicitud de fusión cerrada"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may change the room" locale="es" localized="Solo un moderador o un propietario puede cambiar la sala"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may give a role" locale="es" localized="Solo un moderador o un propietario puede asignar un rol"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may take a member out" locale="es" localized="Solo un moderador o un propietario puede sacar a un miembro"/>
+    <moqui.basic.LocalizedMessage original="Only an administrator adds a mirror" locale="es" localized="Solo un administrador añade un espejo"/>
+    <moqui.basic.LocalizedMessage original="Only an owner may add an owner" locale="es" localized="Solo un propietario puede añadir un propietario"/>
+    <moqui.basic.LocalizedMessage original="Only an owner may change an owner or make an owner or agent" locale="es" localized="Solo un propietario puede cambiar a un propietario o nombrar un propietario o un agente"/>
+    <moqui.basic.LocalizedMessage original="Only an owner may change who may join, the retention or the archive" locale="es" localized="Solo un propietario puede cambiar quién puede unirse, la retención o el archivado"/>
+    <moqui.basic.LocalizedMessage original="Only an owner may take an owner out" locale="es" localized="Solo un propietario puede sacar a un propietario"/>
+    <moqui.basic.LocalizedMessage original="Only its author or a maintainer changes a merge request" locale="es" localized="Solo su autor o un mantenedor cambia una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Only its author or a maintainer closes a merge request" locale="es" localized="Solo su autor o un mantenedor cierra una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Only its author or a maintainer reopens a merge request" locale="es" localized="Solo su autor o un mantenedor reabre una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Only its author or a maintainer sets the reviewers" locale="es" localized="Solo su autor o un mantenedor asigna los revisores"/>
+    <moqui.basic.LocalizedMessage original="Only the one who asked for a review cancels it" locale="es" localized="Solo quien solicitó una revisión la cancela"/>
+    <moqui.basic.LocalizedMessage original="Only the sender removes the previews of a message" locale="es" localized="Solo el remitente quita las vistas previas de un mensaje"/>
+    <moqui.basic.LocalizedMessage original="Order By" locale="es" localized="Ordenar por"/>
+    <moqui.basic.LocalizedMessage original="Orientation must be portrait or landscape" locale="es" localized="La orientación debe ser vertical u horizontal"/>
+    <moqui.basic.LocalizedMessage original="Outgoing server" locale="es" localized="Servidor de salida"/>
+    <moqui.basic.LocalizedMessage original="Page #" locale="es" localized="Página #"/>
+    <moqui.basic.LocalizedMessage original="Page ${childSourcePath} was not copied" locale="es" localized="No se copió la página ${childSourcePath}"/>
+    <moqui.basic.LocalizedMessage original="Page already exists in space ${wikiSpaceId} at ${parentPath||''}/${pageName}" locale="es" localized="La página ya existe en el espacio ${wikiSpaceId} en ${parentPath||''}/${pageName}"/>
+    <moqui.basic.LocalizedMessage original="Page not found" locale="es" localized="Página no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Page Size" locale="es" localized="Tamaño de página"/>
+    <moqui.basic.LocalizedMessage original="Paginate" locale="es" localized="Paginar"/>
+    <moqui.basic.LocalizedMessage original="PaginationTemplate" locale="es" localized="Plantilla de paginación"/>
+    <moqui.basic.LocalizedMessage original="Parent page not found" locale="es" localized="Página padre no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Parent page not found at ${parentPath}, copying under Root Page" locale="es" localized="Página padre no encontrada en ${parentPath}; se copia bajo la página raíz"/>
+    <moqui.basic.LocalizedMessage original="Parent page not found in this space" locale="es" localized="Página padre no encontrada en este espacio"/>
+    <moqui.basic.LocalizedMessage original="Password needs ${minDigits} digit/number characters" locale="es" localized="La contraseña necesita ${minDigits} caracteres numéricos"/>
+    <moqui.basic.LocalizedMessage original="Password needs ${minOthers} other characters (not letter or digit)" locale="es" localized="La contraseña necesita ${minOthers} caracteres de otro tipo (ni letra ni dígito)"/>
+    <moqui.basic.LocalizedMessage original="Password shorter than ${minLength} characters" locale="es" localized="La contraseña tiene menos de ${minLength} caracteres"/>
+    <moqui.basic.LocalizedMessage original="Password updated for user ${userAccount.get('username')}" locale="es" localized="Contraseña actualizada para el usuario ${userAccount.get('username')}"/>
+    <moqui.basic.LocalizedMessage original="Password was used in last ${historyLimit} passwords" locale="es" localized="La contraseña se usó en las últimas ${historyLimit} contraseñas"/>
+    <moqui.basic.LocalizedMessage original="Please enter a valid phone number" locale="es" localized="Introducir un número de teléfono válido"/>
+    <moqui.basic.LocalizedMessage original="Please enter current password" locale="es" localized="Introducir la contraseña actual"/>
+    <moqui.basic.LocalizedMessage original="Print" locale="es" localized="Imprimir"/>
+    <moqui.basic.LocalizedMessage original="Quarter" locale="es" localized="Trimestre"/>
+    <moqui.basic.LocalizedMessage original="reCAPTCHA token required, confirm you are not a robot" locale="es" localized="Se requiere el token de reCAPTCHA; confirmar que no es un robot"/>
+    <moqui.basic.LocalizedMessage original="record#SendResult is internal" locale="es" localized="record#SendResult es interno"/>
+    <moqui.basic.LocalizedMessage original="Remote data load location is not allowed" locale="es" localized="No se permite la ubicación de carga remota de datos"/>
+    <moqui.basic.LocalizedMessage original="Removed temporary account with username ${username} for password issues" locale="es" localized="Se eliminó la cuenta temporal con el usuario ${username} por problemas de contraseña"/>
+    <moqui.basic.LocalizedMessage original="Reset to Default" locale="es" localized="Restablecer al predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Restored version ${versionName.substring(0, 10)} as the newest version" locale="es" localized="Se restauró la versión ${versionName.substring(0, 10)} como la versión más reciente"/>
+    <moqui.basic.LocalizedMessage original="Review not found" locale="es" localized="Revisión no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Row Actions" locale="es" localized="Acciones de la fila"/>
+    <moqui.basic.LocalizedMessage original="Run the rules over a folder (emailFolderId)" locale="es" localized="Ejecutar las reglas sobre una carpeta (emailFolderId)"/>
+    <moqui.basic.LocalizedMessage original="Save" locale="es" localized="Guardar"/>
+    <moqui.basic.LocalizedMessage original="Save Columns" locale="es" localized="Guardar columnas"/>
+    <moqui.basic.LocalizedMessage original="Save New Find" locale="es" localized="Guardar búsqueda nueva"/>
+    <moqui.basic.LocalizedMessage original="Saved Finds" locale="es" localized="Búsquedas guardadas"/>
+    <moqui.basic.LocalizedMessage original="Saving" locale="es" localized="Guardando"/>
+    <moqui.basic.LocalizedMessage original="Say what to change" locale="es" localized="Indicar qué cambiar"/>
+    <moqui.basic.LocalizedMessage original="Scheduled for" locale="es" localized="Programado para"/>
+    <moqui.basic.LocalizedMessage original="ScreenScheduled ${screenScheduled.screenScheduledId} is not yet scheduled to run since last run time ${screenScheduledLock?.lastRunTime}" locale="es" localized="ScreenScheduled ${screenScheduled.screenScheduledId} aún no está programado para ejecutarse desde la última ejecución ${screenScheduledLock?.lastRunTime}"/>
+    <moqui.basic.LocalizedMessage original="Search is not configured, not deleting documents" locale="es" localized="La búsqueda no está configurada; no se eliminan documentos"/>
+    <moqui.basic.LocalizedMessage original="Search is not configured, not dropping an index" locale="es" localized="La búsqueda no está configurada; no se elimina el índice"/>
+    <moqui.basic.LocalizedMessage original="Search is not configured, not indexing documents" locale="es" localized="La búsqueda no está configurada; no se indexan documentos"/>
+    <moqui.basic.LocalizedMessage original="Search is not configured, not running search" locale="es" localized="La búsqueda no está configurada; no se ejecuta la búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Search is not configured, not updating mappings" locale="es" localized="La búsqueda no está configurada; no se actualizan los mapeos"/>
+    <moqui.basic.LocalizedMessage original="Select All" locale="es" localized="Seleccionar todo"/>
+    <moqui.basic.LocalizedMessage original="Send code not supported for authc factor type ${userAuthcFactor.get('factorTypeEnumId')}" locale="es" localized="No se admite el envío de código para el tipo de factor de autenticación ${userAuthcFactor.get('factorTypeEnumId')}"/>
+    <moqui.basic.LocalizedMessage original="send#OutOfOfficeReplies is internal" locale="es" localized="send#OutOfOfficeReplies es interno"/>
+    <moqui.basic.LocalizedMessage original="Setup a schedule to send this saved find to you by email?" locale="es" localized="¿Configurar un horario para enviar esta búsqueda guardada por correo electrónico?"/>
+    <moqui.basic.LocalizedMessage original="Share not found" locale="es" localized="Recurso compartido no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Share with someone, or make a link" locale="es" localized="Compartir con alguien o crear un enlace"/>
+    <moqui.basic.LocalizedMessage original="Short: line ${lineSeq || ''} marked short (gallery demo: nothing is written)" locale="es" localized="Incompleto: la línea ${lineSeq || ''} se marcó como incompleta (demostración de la galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Show All" locale="es" localized="Mostrar todo"/>
+    <moqui.basic.LocalizedMessage original="Sign in to ask for a review" locale="es" localized="Iniciar sesión para solicitar una revisión"/>
+    <moqui.basic.LocalizedMessage original="Sign in to open a merge request" locale="es" localized="Iniciar sesión para abrir una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Skipped line ${lineSeq || ''} (gallery demo: nothing is written)" locale="es" localized="Línea omitida ${lineSeq || ''} (demostración de la galería: no se escribe nada)"/>
+    <moqui.basic.LocalizedMessage original="Snapshot file not found" locale="es" localized="Archivo de instantánea no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Snapshot not found" locale="es" localized="Instantánea no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Snooze until a time in the future" locale="es" localized="Posponer hasta un momento futuro"/>
+    <moqui.basic.LocalizedMessage original="Snooze until when? A snoozedThruDate is required" locale="es" localized="¿Posponer hasta cuándo? Se requiere snoozedThruDate"/>
+    <moqui.basic.LocalizedMessage original="Snoozed to tomorrow: ${itemTitle} (nothing is written in the gallery)" locale="es" localized="Pospuesto hasta mañana: ${itemTitle} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Something by that name is already there" locale="es" localized="Ya hay algo con ese nombre"/>
+    <moqui.basic.LocalizedMessage original="Something else is at that path now; move or rename it first" locale="es" localized="Hay otro elemento en esa ruta; moverlo o cambiarle el nombre primero"/>
+    <moqui.basic.LocalizedMessage original="Space not found" locale="es" localized="Espacio no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Start with the customer" locale="es" localized="Empezar por el cliente"/>
+    <moqui.basic.LocalizedMessage original="Started Export Entity Data Snapshot ${baseFilename} (Job ID ${jobRunId})" locale="es" localized="Se inició la exportación de la instantánea de datos de entidad ${baseFilename} (ID de trabajo ${jobRunId})"/>
+    <moqui.basic.LocalizedMessage original="Started Import Entity Data Snapshot ${zipFilename} (Job ID ${jobRunId})" locale="es" localized="Se inició la importación de la instantánea de datos de entidad ${zipFilename} (ID de trabajo ${jobRunId})"/>
+    <moqui.basic.LocalizedMessage original="Started Index DataFeed Documents Job (Job ID ${jobRunId})" locale="es" localized="Se inició el trabajo de indexación de documentos de DataFeed (ID de trabajo ${jobRunId})"/>
+    <moqui.basic.LocalizedMessage original="Synced: ${synced.added ?? 0} added, ${synced.changed ?? 0} changed, ${synced.unchanged ?? 0} unchanged, ${synced.retired ?? 0} retired." locale="es" localized="Sincronizado: ${synced.added ?? 0} añadidos, ${synced.changed ?? 0} cambiados, ${synced.unchanged ?? 0} sin cambios, ${synced.retired ?? 0} retirados."/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} has no systemMessageRemoteId, not sending." locale="es" localized="El mensaje del sistema ${systemMessageId} no tiene systemMessageRemoteId; no se envía."/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} has no type, not sending" locale="es" localized="El mensaje del sistema ${systemMessageId} no tiene tipo; no se envía"/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} has status ${initialStatusId} and must be either SmsgProduced or SmsgError, not sending." locale="es" localized="El mensaje del sistema ${systemMessageId} tiene el estado ${initialStatusId} y debe ser SmsgProduced o SmsgError; no se envía."/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} not sent: send#SystemMessageJsonRpc is not available because JSON-RPC is not part of this port, use send#SystemMessageRest" locale="es" localized="Mensaje del sistema ${systemMessageId} no enviado: send#SystemMessageJsonRpc no está disponible porque JSON-RPC no forma parte de este porte; usar send#SystemMessageRest"/>
+    <moqui.basic.LocalizedMessage original="System message [${systemMessageId}] has no systemMessageTypeId, not consuming." locale="es" localized="El mensaje del sistema [${systemMessageId}] no tiene systemMessageTypeId; no se consume."/>
+    <moqui.basic.LocalizedMessage original="System message [${systemMessageId}] has status [${initialStatusId}] and must be either SmsgReceived (or SmsgError if allowed), not consuming." locale="es" localized="El mensaje del sistema [${systemMessageId}] tiene el estado [${initialStatusId}] y debe ser SmsgReceived (o SmsgError si se permite); no se consume."/>
+    <moqui.basic.LocalizedMessage original="That is not a file name" locale="es" localized="Eso no es un nombre de archivo"/>
+    <moqui.basic.LocalizedMessage original="That is not a folder name" locale="es" localized="Eso no es un nombre de carpeta"/>
+    <moqui.basic.LocalizedMessage original="The automatic reply ends before it starts" locale="es" localized="La respuesta automática termina antes de empezar"/>
+    <moqui.basic.LocalizedMessage original="The automatic reply needs a message" locale="es" localized="La respuesta automática necesita un mensaje"/>
+    <moqui.basic.LocalizedMessage original="The decision is approve, request_changes or comment" locale="es" localized="La decisión es approve, request_changes o comment"/>
+    <moqui.basic.LocalizedMessage original="The folder view needs an emailFolderId" locale="es" localized="La vista de carpeta necesita un emailFolderId"/>
+    <moqui.basic.LocalizedMessage original="The home page of a space is not deleted" locale="es" localized="La página de inicio de un espacio no se elimina"/>
+    <moqui.basic.LocalizedMessage original="The Inbox is always synced" locale="es" localized="La bandeja de entrada siempre se sincroniza"/>
+    <moqui.basic.LocalizedMessage original="The Inbox is not renamed" locale="es" localized="La bandeja de entrada no se renombra"/>
+    <moqui.basic.LocalizedMessage original="The Inbox stays the Inbox" locale="es" localized="La bandeja de entrada sigue siendo la bandeja de entrada"/>
+    <moqui.basic.LocalizedMessage original="The Internal account has no automatic reply" locale="es" localized="La cuenta interna no tiene respuesta automática"/>
+    <moqui.basic.LocalizedMessage original="The Internal account has no folders" locale="es" localized="La cuenta interna no tiene carpetas"/>
+    <moqui.basic.LocalizedMessage original="The Internal account has no server" locale="es" localized="La cuenta interna no tiene servidor"/>
+    <moqui.basic.LocalizedMessage original="The Internal account is not removed" locale="es" localized="La cuenta interna no se elimina"/>
+    <moqui.basic.LocalizedMessage original="The Internal account is not shared" locale="es" localized="La cuenta interna no se comparte"/>
+    <moqui.basic.LocalizedMessage original="The Internal account sends as the user" locale="es" localized="La cuenta interna envía como el usuario"/>
+    <moqui.basic.LocalizedMessage original="The Internal account takes only a name, a color and a sequence" locale="es" localized="La cuenta interna solo admite un nombre, un color y una secuencia"/>
+    <moqui.basic.LocalizedMessage original="The label view needs an emailLabelId" locale="es" localized="La vista de etiqueta necesita un emailLabelId"/>
+    <moqui.basic.LocalizedMessage original="The merge request is merged" locale="es" localized="La solicitud de fusión está fusionada"/>
+    <moqui.basic.LocalizedMessage original="The message has no body" locale="es" localized="El mensaje no tiene cuerpo"/>
+    <moqui.basic.LocalizedMessage original="The message has no from address" locale="es" localized="El mensaje no tiene dirección de remitente"/>
+    <moqui.basic.LocalizedMessage original="The message is too long" locale="es" localized="El mensaje es demasiado largo"/>
+    <moqui.basic.LocalizedMessage original="The message was not sent" locale="es" localized="El mensaje no se envió"/>
+    <moqui.basic.LocalizedMessage original="The mirror has no root page at ${rootPageLocation} yet; it is read from the repository after a fetch" locale="es" localized="El espejo aún no tiene página raíz en ${rootPageLocation}; se lee del repositorio tras una obtención"/>
+    <moqui.basic.LocalizedMessage original="The page could not be made" locale="es" localized="No se pudo crear la página"/>
+    <moqui.basic.LocalizedMessage original="The page has no version to review" locale="es" localized="La página no tiene una versión para revisar"/>
+    <moqui.basic.LocalizedMessage original="The page was deleted, but the folder of its files was not" locale="es" localized="La página se eliminó, pero no la carpeta de sus archivos"/>
+    <moqui.basic.LocalizedMessage original="The password is not right" locale="es" localized="La contraseña no es correcta"/>
+    <moqui.basic.LocalizedMessage original="The poll is closed" locale="es" localized="La encuesta está cerrada"/>
+    <moqui.basic.LocalizedMessage original="The question is too long" locale="es" localized="La pregunta es demasiado larga"/>
+    <moqui.basic.LocalizedMessage original="The repository is archived" locale="es" localized="El repositorio está archivado"/>
+    <moqui.basic.LocalizedMessage original="The room is archived" locale="es" localized="La sala está archivada"/>
+    <moqui.basic.LocalizedMessage original="The room of this record is for its members" locale="es" localized="La sala de este registro es para sus miembros"/>
+    <moqui.basic.LocalizedMessage original="The rule actions are not a list" locale="es" localized="Las acciones de la regla no son una lista"/>
+    <moqui.basic.LocalizedMessage original="The rule conditions are not a list" locale="es" localized="Las condiciones de la regla no son una lista"/>
+    <moqui.basic.LocalizedMessage original="The send stopped before its result was known; check whether it arrived before sending again" locale="es" localized="El envío se detuvo antes de conocer el resultado; comprobar si llegó antes de enviar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The source and the target are the same branch" locale="es" localized="El origen y el destino son la misma rama"/>
+    <moqui.basic.LocalizedMessage original="The worker pool size is set by the conf (tools worker-pool-max) when the server starts" locale="es" localized="El tamaño del grupo de trabajadores lo define la configuración (tools worker-pool-max) al iniciar el servidor"/>
+    <moqui.basic.LocalizedMessage original="There is a page at ${rootPageLocation} already" locale="es" localized="Ya hay una página en ${rootPageLocation}"/>
+    <moqui.basic.LocalizedMessage original="There is no earlier version to compare with" locale="es" localized="No hay una versión anterior para comparar"/>
+    <moqui.basic.LocalizedMessage original="There is no page ${pagePath} in ${wikiSpaceId}" locale="es" localized="No hay una página ${pagePath} en ${wikiSpaceId}"/>
+    <moqui.basic.LocalizedMessage original="This" locale="es" localized="Este"/>
+    <moqui.basic.LocalizedMessage original="This account is shared with 1 more person: remove them first, so only one is left, to make it personal" locale="es" localized="Esta cuenta se comparte con 1 persona más: quitarla primero para que quede solo una y hacerla personal"/>
+    <moqui.basic.LocalizedMessage original="This drive is read only" locale="es" localized="Esta unidad es de solo lectura"/>
+    <moqui.basic.LocalizedMessage original="This link has expired or was not found" locale="es" localized="Este enlace caducó o no se encontró"/>
+    <moqui.basic.LocalizedMessage original="This link takes no files" locale="es" localized="Este enlace no admite archivos"/>
+    <moqui.basic.LocalizedMessage original="This message has no List-Unsubscribe header" locale="es" localized="Este mensaje no tiene el encabezado List-Unsubscribe"/>
+    <moqui.basic.LocalizedMessage original="This message is too old to edit" locale="es" localized="Este mensaje es demasiado antiguo para editarlo"/>
+    <moqui.basic.LocalizedMessage original="This message tests that the account sends mail through its outgoing server and receives it back." locale="es" localized="Este mensaje comprueba que la cuenta envía correo por su servidor de salida y lo recibe de vuelta."/>
+    <moqui.basic.LocalizedMessage original="This page has files: delete them first, or delete the page with its files" locale="es" localized="Esta página tiene archivos: eliminarlos primero, o eliminar la página con sus archivos"/>
+    <moqui.basic.LocalizedMessage original="This page has no file ${filename}" locale="es" localized="Esta página no tiene el archivo ${filename}"/>
+    <moqui.basic.LocalizedMessage original="This page has no version ${versionName}" locale="es" localized="Esta página no tiene la versión ${versionName}"/>
+    <moqui.basic.LocalizedMessage original="This page has pages under it: move or delete them first" locale="es" localized="Esta página tiene páginas debajo: moverlas o eliminarlas primero"/>
+    <moqui.basic.LocalizedMessage original="This page is a post of a blog: take it out of the blog first" locale="es" localized="Esta página es una entrada de un blog: quitarla del blog primero"/>
+    <moqui.basic.LocalizedMessage original="This page keeps no versions to compare" locale="es" localized="Esta página no conserva versiones para comparar"/>
+    <moqui.basic.LocalizedMessage original="This review is not yours to decide" locale="es" localized="No corresponde decidir esta revisión"/>
+    <moqui.basic.LocalizedMessage original="This review was decided already" locale="es" localized="Esta revisión ya se decidió"/>
+    <moqui.basic.LocalizedMessage original="This space has no place for its pages (no root page location)" locale="es" localized="Este espacio no tiene un lugar para sus páginas (sin ubicación de página raíz)"/>
+    <moqui.basic.LocalizedMessage original="This space is a read-only mirror: its pages change where it is copied from" locale="es" localized="Este espacio es un espejo de solo lectura: sus páginas cambian en el lugar del que se copian"/>
+    <moqui.basic.LocalizedMessage original="Thru" locale="es" localized="Hasta"/>
+    <moqui.basic.LocalizedMessage original="To delete documents must specify daysToKeep, queryString, or both" locale="es" localized="Para eliminar documentos hay que indicar daysToKeep, queryString o ambos"/>
+    <moqui.basic.LocalizedMessage original="To embed documents specify indexName or documentType" locale="es" localized="Para incrustar documentos, indicar indexName o documentType"/>
+    <moqui.basic.LocalizedMessage original="Unselect All" locale="es" localized="Deseleccionar todo"/>
+    <moqui.basic.LocalizedMessage original="unsnooze#Thread is internal" locale="es" localized="unsnooze#Thread es interno"/>
+    <moqui.basic.LocalizedMessage original="Update to Current" locale="es" localized="Actualizar a la actual"/>
+    <moqui.basic.LocalizedMessage original="Upload only is for a folder" locale="es" localized="El permiso de solo carga es para una carpeta"/>
+    <moqui.basic.LocalizedMessage original="Upload refused: it would pass the quota of drive" locale="es" localized="Carga rechazada: superaría la cuota de la unidad"/>
+    <moqui.basic.LocalizedMessage original="User" locale="es" localized="Usuario"/>
+    <moqui.basic.LocalizedMessage original="User ${username} not found" locale="es" localized="Usuario ${username} no encontrado"/>
+    <moqui.basic.LocalizedMessage original="User Account not found for User ID ${userId}" locale="es" localized="Cuenta de usuario no encontrada para el ID de usuario ${userId}"/>
+    <moqui.basic.LocalizedMessage original="User does not have permission to administer the models and agents (AgentAdmin)" locale="es" localized="El usuario no tiene permiso para administrar los modelos y los agentes (AgentAdmin)"/>
+    <moqui.basic.LocalizedMessage original="User does not have permission to use Groovy Shell" locale="es" localized="El usuario no tiene permiso para usar la consola de Groovy"/>
+    <moqui.basic.LocalizedMessage original="User does not have permission to use Service LoadRunner" locale="es" localized="El usuario no tiene permiso para usar Service LoadRunner"/>
+    <moqui.basic.LocalizedMessage original="User does not have permission to use the SQL Runner" locale="es" localized="El usuario no tiene permiso para usar el ejecutor de SQL"/>
+    <moqui.basic.LocalizedMessage original="User has other authentication factors configured, cannot use account email address" locale="es" localized="El usuario tiene otros factores de autenticación configurados; no se puede usar la dirección de correo de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="User ID ${userId} is too long for a notes space ID" locale="es" localized="El ID de usuario ${userId} es demasiado largo para un ID de espacio de notas"/>
+    <moqui.basic.LocalizedMessage original="User must be authorized for all actions on this screen" locale="es" localized="El usuario debe estar autorizado para todas las acciones de esta pantalla"/>
+    <moqui.basic.LocalizedMessage original="Username [${username}] is already in use. Please choose another." locale="es" localized="El nombre de usuario [${username}] ya está en uso. Elegir otro."/>
+    <moqui.basic.LocalizedMessage original="Value [${pv}] is not a decimal number." locale="es" localized="El valor [${pv}] no es un número decimal."/>
+    <moqui.basic.LocalizedMessage original="Value [${pv}] is not a whole (integer) number." locale="es" localized="El valor [${pv}] no es un número entero."/>
+    <moqui.basic.LocalizedMessage original="Value [${str}] must have only digits." locale="es" localized="El valor [${str}] debe tener solo dígitos."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}) did not match expression: ${regexp}" locale="es" localized="El valor introducido (${pv}) no coincidió con la expresión: ${regexp}"/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}) failed val-not validation." locale="es" localized="El valor introducido (${pv}) no pasó la validación val-not."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}) is after ${before}." locale="es" localized="El valor introducido (${pv}) es posterior a ${before}."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}) is before ${after}." locale="es" localized="El valor introducido (${pv}) es anterior a ${after}."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}), length ${str.length()}, is longer than ${maxStr} characters." locale="es" localized="El valor introducido (${pv}), longitud ${str.length()}, es más largo que ${maxStr} caracteres."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${pv}), length ${str.length()}, is shorter than ${minStr} characters." locale="es" localized="El valor introducido (${pv}), longitud ${str.length()}, es más corto que ${minStr} caracteres."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${str}) is not a valid email address." locale="es" localized="El valor introducido (${str}) no es una dirección de correo electrónico válida."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${str}) is not a valid URL." locale="es" localized="El valor introducido (${str}) no es una URL válida."/>
+    <moqui.basic.LocalizedMessage original="Value entered (${str}) must have only letters." locale="es" localized="El valor introducido (${str}) debe tener solo letras."/>
+    <moqui.basic.LocalizedMessage original="Value entered ({0}) could not be converted to a {1}{2,choice,0#|1# using format [}{3}{2,choice,0#|1#]}" locale="es" localized="El valor introducido ({0}) no se pudo convertir a {1}{2,choice,0#|1# con el formato [}{3}{2,choice,0#|1#]}"/>
+    <moqui.basic.LocalizedMessage original="Value entered failed ${valNode.name} validation: ${t.message}" locale="es" localized="El valor introducido no pasó la validación ${valNode.name}: ${t.message}"/>
+    <moqui.basic.LocalizedMessage original="Value entered is not a valid credit card number." locale="es" localized="El valor introducido no es un número de tarjeta de crédito válido."/>
+    <moqui.basic.LocalizedMessage original="Visit not found with ID ${visitId}" locale="es" localized="Visita no encontrada con el ID ${visitId}"/>
+    <moqui.basic.LocalizedMessage original="Visit with ID ${visitId} has no clientIpAddress" locale="es" localized="La visita con ID ${visitId} no tiene clientIpAddress"/>
+    <moqui.basic.LocalizedMessage original="wake#SnoozedThreads is internal" locale="es" localized="wake#SnoozedThreads es interno"/>
+    <moqui.basic.LocalizedMessage original="Weeks" locale="es" localized="Semanas"/>
+    <moqui.basic.LocalizedMessage original="Which file? Its name is needed" locale="es" localized="¿Qué archivo? Se necesita su nombre"/>
+    <moqui.basic.LocalizedMessage original="Which page? Its id, or its space and path, is needed" locale="es" localized="¿Qué página? Se necesita su id, o su espacio y su ruta"/>
+    <moqui.basic.LocalizedMessage original="Which page? Its space is needed" locale="es" localized="¿Qué página? Se necesita su espacio"/>
+    <moqui.basic.LocalizedMessage original="While consuming system message [${systemMessageId}] system message type [${systemMessageType.get('systemMessageTypeId')}] has no consumeServiceName, not consuming." locale="es" localized="Al consumir el mensaje del sistema [${systemMessageId}], el tipo [${systemMessageType.get('systemMessageTypeId')}] no tiene consumeServiceName; no se consume."/>
+    <moqui.basic.LocalizedMessage original="While queueing ack message for system message [${systemMessageId}], type [${systemMessageType.get('systemMessageTypeId')}] has no produceAckServiceName, not queueing." locale="es" localized="Al encolar el acuse del mensaje del sistema [${systemMessageId}], el tipo [${systemMessageType.get('systemMessageTypeId')}] no tiene produceAckServiceName; no se encola."/>
+    <moqui.basic.LocalizedMessage original="While sending system message ${systemMessageId} type ${systemMessageType.get('systemMessageTypeId')} has no sendServiceName, not sending." locale="es" localized="Al enviar el mensaje del sistema ${systemMessageId}, el tipo ${systemMessageType.get('systemMessageTypeId')} no tiene sendServiceName; no se envía."/>
+    <moqui.basic.LocalizedMessage original="Wiki Space with ID ${wikiSpaceId} already exists" locale="es" localized="El espacio wiki con ID ${wikiSpaceId} ya existe"/>
+    <moqui.basic.LocalizedMessage original="Would create ${kind}: ${title} (nothing is written in the gallery)" locale="es" localized="Se crearía ${kind}: ${title} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Would create event ${title} from ${start} to ${end} (nothing is written in the gallery)" locale="es" localized="Se crearía el evento ${title} desde ${start} hasta ${end} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Would delete the example record (nothing is written in the gallery)" locale="es" localized="Se eliminaría el registro de ejemplo (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Would move ${itemId} under ${parentItemId || 'the top'}, after ${previousSiblingId || 'none'} (nothing is written in the gallery)" locale="es" localized="Se movería ${itemId} bajo ${parentItemId || 'the top'}, después de ${previousSiblingId || 'none'} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Would save: ${value} (nothing is written in the gallery)" locale="es" localized="Se guardaría: ${value} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="Would set the estimate to ${estimate} (nothing is written in the gallery)" locale="es" localized="Se establecería la estimación en ${estimate} (no se escribe nada en la galería)"/>
+    <moqui.basic.LocalizedMessage original="You are not permitted to login as another user" locale="es" localized="No se permite iniciar sesión como otro usuario"/>
+    <moqui.basic.LocalizedMessage original="You disconnect only yourself" locale="es" localized="Solo se desconecta el propio usuario"/>
+    <moqui.basic.LocalizedMessage original="You do not approve your own merge request" locale="es" localized="No se aprueba la propia solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="You may delete only your own messages" locale="es" localized="Solo se pueden eliminar los mensajes propios"/>
+    <moqui.basic.LocalizedMessage original="You may edit only your own messages" locale="es" localized="Solo se pueden editar los mensajes propios"/>
+    <moqui.basic.LocalizedMessage original="You may not add pages to this space" locale="es" localized="No se pueden añadir páginas a este espacio"/>
+    <moqui.basic.LocalizedMessage original="You may not change the files of this page" locale="es" localized="No se pueden cambiar los archivos de esta página"/>
+    <moqui.basic.LocalizedMessage original="You may not change this drive" locale="es" localized="No se puede cambiar esta unidad"/>
+    <moqui.basic.LocalizedMessage original="You may not change this file" locale="es" localized="No se puede cambiar este archivo"/>
+    <moqui.basic.LocalizedMessage original="You may not change this folder" locale="es" localized="No se puede cambiar esta carpeta"/>
+    <moqui.basic.LocalizedMessage original="You may not change this page" locale="es" localized="No se puede cambiar esta página"/>
+    <moqui.basic.LocalizedMessage original="You may not delete this page" locale="es" localized="No se puede eliminar esta página"/>
+    <moqui.basic.LocalizedMessage original="You may not join this room" locale="es" localized="No se puede unirse a esta sala"/>
+    <moqui.basic.LocalizedMessage original="You may not publish this page" locale="es" localized="No se puede publicar esta página"/>
+    <moqui.basic.LocalizedMessage original="You may not share this" locale="es" localized="No se puede compartir esto"/>
+    <moqui.basic.LocalizedMessage original="You set only your own status" locale="es" localized="Solo se establece el propio estado"/>
+    <moqui.basic.LocalizedMessage original="Your notifications" locale="es" localized="Notificaciones propias"/>
+    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${ec.user.userAccount?.emailAddress} when ready." locale="es" localized="El informe se está generando y se enviará a ${ec.user.userAccount?.emailAddress} cuando esté listo."/>
+    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${toAddresses} when ready." locale="es" localized="El informe se está generando y se enviará a ${toAddresses} cuando esté listo."/>
+</entity-facade-xml>

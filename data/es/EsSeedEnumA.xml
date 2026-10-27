@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Abandon" locale="es" localized="Abandonar"/>
+    <moqui.basic.LocalizedMessage original="Abandoned" locale="es" localized="Abandonado"/>
+    <moqui.basic.LocalizedMessage original="Able to merge" locale="es" localized="Se puede fusionar"/>
+    <moqui.basic.LocalizedMessage original="Abort" locale="es" localized="Abortar"/>
+    <moqui.basic.LocalizedMessage original="Aborted" locale="es" localized="Abortado"/>
+    <moqui.basic.LocalizedMessage original="Above the quote" locale="es" localized="Encima del texto citado"/>
+    <moqui.basic.LocalizedMessage original="Account Invitation" locale="es" localized="Invitación de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Active" locale="es" localized="Activo"/>
+    <moqui.basic.LocalizedMessage original="Added Email Authentication Type" locale="es" localized="Tipo de autenticación de correo electrónico añadida"/>
+    <moqui.basic.LocalizedMessage original="Administrative City" locale="es" localized="Ciudad administrativa"/>
+    <moqui.basic.LocalizedMessage original="Agent" locale="es" localized="Agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Approval" locale="es" localized="Aprobación del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Conversation" locale="es" localized="Conversación del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Hand-off" locale="es" localized="Traspaso del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Lesson" locale="es" localized="Lección del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Memory" locale="es" localized="Memoria del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Message Part Kind" locale="es" localized="Tipo de parte del mensaje del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Question" locale="es" localized="Pregunta del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Run" locale="es" localized="Ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Run Input Kind" locale="es" localized="Tipo de entrada de la ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Run Pause Kind" locale="es" localized="Tipo de pausa de la ejecución del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Skill" locale="es" localized="Habilidad del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Surface" locale="es" localized="Superficie del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Tool Approval Mode" locale="es" localized="Modo de aprobación de herramientas del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Tool Call" locale="es" localized="Llamada a herramienta del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Tool Classification" locale="es" localized="Clasificación de herramienta del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent Trigger Type" locale="es" localized="Tipo de disparador del agente"/>
+    <moqui.basic.LocalizedMessage original="All" locale="es" localized="Todos"/>
+    <moqui.basic.LocalizedMessage original="All conditions" locale="es" localized="Todas las condiciones"/>
+    <moqui.basic.LocalizedMessage original="All messages" locale="es" localized="Todos los mensajes"/>
+    <moqui.basic.LocalizedMessage original="Allow" locale="es" localized="Permitir"/>
+    <moqui.basic.LocalizedMessage original="Already in the target" locale="es" localized="Ya está en el destino"/>
+    <moqui.basic.LocalizedMessage original="Always Allow (overrides Deny)" locale="es" localized="Permitir siempre (prevalece sobre denegar)"/>
+    <moqui.basic.LocalizedMessage original="Always Include" locale="es" localized="Incluir siempre"/>
+    <moqui.basic.LocalizedMessage original="Answer" locale="es" localized="Respuesta"/>
+    <moqui.basic.LocalizedMessage original="Answered" locale="es" localized="Respondido"/>
+    <moqui.basic.LocalizedMessage original="Any condition" locale="es" localized="Cualquier condición"/>
+    <moqui.basic.LocalizedMessage original="Any user may read and join" locale="es" localized="Cualquier usuario puede leer y unirse"/>
+    <moqui.basic.LocalizedMessage original="Apple" locale="es" localized="Apple"/>
+    <moqui.basic.LocalizedMessage original="Approval" locale="es" localized="Aprobación"/>
+    <moqui.basic.LocalizedMessage original="Approve" locale="es" localized="Aprobar"/>
+    <moqui.basic.LocalizedMessage original="Approved" locale="es" localized="Aprobado"/>
+    <moqui.basic.LocalizedMessage original="Archive" locale="es" localized="Archivo"/>
+    <moqui.basic.LocalizedMessage original="Archived" locale="es" localized="Archivado"/>
+    <moqui.basic.LocalizedMessage original="Area" locale="es" localized="Área"/>
+    <moqui.basic.LocalizedMessage original="Arguments Mismatch" locale="es" localized="Discrepancia de argumentos"/>
+    <moqui.basic.LocalizedMessage original="Artifact Types" locale="es" localized="Tipos de artefactos"/>
+    <moqui.basic.LocalizedMessage original="Ask Approval" locale="es" localized="Solicitar aprobación"/>
+    <moqui.basic.LocalizedMessage original="Ask for Authorization" locale="es" localized="Solicitar autorización"/>
+    <moqui.basic.LocalizedMessage original="Ask for Input" locale="es" localized="Solicitar entrada"/>
+    <moqui.basic.LocalizedMessage original="Ask the User" locale="es" localized="Preguntar al usuario"/>
+    <moqui.basic.LocalizedMessage original="Assignment" locale="es" localized="Asignación"/>
+    <moqui.basic.LocalizedMessage original="Assist Drawer" locale="es" localized="Cajón del asistente"/>
+    <moqui.basic.LocalizedMessage original="Auth Flow Type" locale="es" localized="Tipo de flujo de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Auth Required" locale="es" localized="Autenticación requerida"/>
+    <moqui.basic.LocalizedMessage original="Authentication" locale="es" localized="Autenticación"/>
+    <moqui.basic.LocalizedMessage original="Authenticator App (TOTP)" locale="es" localized="Aplicación de autenticación (TOTP)"/>
+    <moqui.basic.LocalizedMessage original="Authorization Action" locale="es" localized="Acción de autorización"/>
+    <moqui.basic.LocalizedMessage original="Authorization Type" locale="es" localized="Tipo de autorización"/>
+    <moqui.basic.LocalizedMessage original="Avatar URL template (${userId} replaced in the browser)" locale="es" localized="Plantilla de URL de avatar (${userId} reemplazado en el navegador)"/>
+    <moqui.basic.LocalizedMessage original="Awaiting Approval" locale="es" localized="En espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Away" locale="es" localized="Ausente"/>
+    <moqui.basic.LocalizedMessage original="Azure AD" locale="es" localized="Azure AD"/>
+    <moqui.basic.LocalizedMessage original="Back to Produced" locale="es" localized="Volver a producido"/>
+    <moqui.basic.LocalizedMessage original="Back to Received" locale="es" localized="Volver a recibido"/>
+    <moqui.basic.LocalizedMessage original="Below the quote" locale="es" localized="Debajo del texto citado"/>
+    <moqui.basic.LocalizedMessage original="BitBucket" locale="es" localized="Bitbucket"/>
+    <moqui.basic.LocalizedMessage original="Boolean (Yes/No)" locale="es" localized="Booleano (sí/no)"/>
+    <moqui.basic.LocalizedMessage original="Bounce" locale="es" localized="Rebotar"/>
+    <moqui.basic.LocalizedMessage original="Bounced" locale="es" localized="Rebotado"/>
+    <moqui.basic.LocalizedMessage original="Budget" locale="es" localized="Presupuesto"/>
+    <moqui.basic.LocalizedMessage original="By Policy" locale="es" localized="Según la política"/>
+    <moqui.basic.LocalizedMessage original="Call" locale="es" localized="Llamada"/>
+    <moqui.basic.LocalizedMessage original="Cancel" locale="es" localized="Cancelar"/>
+    <moqui.basic.LocalizedMessage original="Cancel Example" locale="es" localized="Cancelar ejemplo"/>
+    <moqui.basic.LocalizedMessage original="Canceled" locale="es" localized="Cancelado"/>
+    <moqui.basic.LocalizedMessage original="Cancelled" locale="es" localized="Cancelado"/>
+    <moqui.basic.LocalizedMessage original="Changes Requested" locale="es" localized="Cambios solicitados"/>
+    <moqui.basic.LocalizedMessage original="Chat Event Type" locale="es" localized="Tipo de evento de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Member Role" locale="es" localized="Rol de miembro de la conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Notification Level" locale="es" localized="Nivel de notificación de la conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Room" locale="es" localized="Sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Room Type" locale="es" localized="Tipo de sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Room Visibility" locale="es" localized="Visibilidad de la sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="Checking" locale="es" localized="Cuenta corriente"/>
+    <moqui.basic.LocalizedMessage original="City" locale="es" localized="Ciudad"/>
+    <moqui.basic.LocalizedMessage original="Close" locale="es" localized="Cerrar"/>
+    <moqui.basic.LocalizedMessage original="Closed" locale="es" localized="Cerrado"/>
+    <moqui.basic.LocalizedMessage original="Comment" locale="es" localized="Comentario"/>
+    <moqui.basic.LocalizedMessage original="Commented" locale="es" localized="Comentado"/>
+    <moqui.basic.LocalizedMessage original="Complete" locale="es" localized="Completar"/>
+    <moqui.basic.LocalizedMessage original="Completed" locale="es" localized="Completado"/>
+    <moqui.basic.LocalizedMessage original="Confirm" locale="es" localized="Confirmar"/>
+    <moqui.basic.LocalizedMessage original="Confirmed" locale="es" localized="Confirmado"/>
+    <moqui.basic.LocalizedMessage original="Conflict" locale="es" localized="Conflicto"/>
+    <moqui.basic.LocalizedMessage original="Conflicts" locale="es" localized="Conflictos"/>
+    <moqui.basic.LocalizedMessage original="Consume" locale="es" localized="Consumir"/>
+    <moqui.basic.LocalizedMessage original="Consumed" locale="es" localized="Consumido"/>
+    <moqui.basic.LocalizedMessage original="Consuming" locale="es" localized="Consumiendo"/>
+    <moqui.basic.LocalizedMessage original="Contrived" locale="es" localized="Forzado"/>
+    <moqui.basic.LocalizedMessage original="Country" locale="es" localized="País"/>
+    <moqui.basic.LocalizedMessage original="County" locale="es" localized="Condado"/>
+    <moqui.basic.LocalizedMessage original="County-City" locale="es" localized="Condado-ciudad"/>
+    <moqui.basic.LocalizedMessage original="Currency" locale="es" localized="Moneda"/>
+    <moqui.basic.LocalizedMessage original="Customer Data Entry" locale="es" localized="Entrada de datos del cliente"/>
+    <moqui.basic.LocalizedMessage original="Dark" locale="es" localized="Oscuro"/>
+    <moqui.basic.LocalizedMessage original="Data" locale="es" localized="Datos"/>
+    <moqui.basic.LocalizedMessage original="Data Feed Type" locale="es" localized="Tipo de canal de datos"/>
+    <moqui.basic.LocalizedMessage original="Data Size" locale="es" localized="Tamaño de datos"/>
+    <moqui.basic.LocalizedMessage original="Data Source Type" locale="es" localized="Tipo de origen de datos"/>
+    <moqui.basic.LocalizedMessage original="Data Speed" locale="es" localized="Velocidad de datos"/>
+    <moqui.basic.LocalizedMessage original="Date Alert" locale="es" localized="Alerta de fecha"/>
+    <moqui.basic.LocalizedMessage original="Day of Week" locale="es" localized="Día de la semana"/>
+    <moqui.basic.LocalizedMessage original="DB Form Field Type" locale="es" localized="Tipo de campo de formulario de base de datos"/>
+    <moqui.basic.LocalizedMessage original="DB Form Purpose" locale="es" localized="Propósito del formulario de base de datos"/>
+    <moqui.basic.LocalizedMessage original="Decision" locale="es" localized="Decisión"/>
+    <moqui.basic.LocalizedMessage original="Default status flow across entire system." locale="es" localized="Flujo de estados predeterminado para todo el sistema."/>
+    <moqui.basic.LocalizedMessage original="Defined" locale="es" localized="Definido"/>
+    <moqui.basic.LocalizedMessage original="Definition Complete" locale="es" localized="Definición completa"/>
+    <moqui.basic.LocalizedMessage original="Denied" locale="es" localized="Denegado"/>
+    <moqui.basic.LocalizedMessage original="Density" locale="es" localized="Densidad"/>
+    <moqui.basic.LocalizedMessage original="Deny" locale="es" localized="Denegar"/>
+    <moqui.basic.LocalizedMessage original="Deny (overrides Allow)" locale="es" localized="Denegar (prevalece sobre permitir)"/>
+    <moqui.basic.LocalizedMessage original="Desktop" locale="es" localized="Escritorio"/>
+    <moqui.basic.LocalizedMessage original="Destructive" locale="es" localized="Destructivo"/>
+    <moqui.basic.LocalizedMessage original="Direct" locale="es" localized="Directo"/>
+    <moqui.basic.LocalizedMessage original="Do not disturb" locale="es" localized="No molestar"/>
+    <moqui.basic.LocalizedMessage original="Done" locale="es" localized="Hecho"/>
+    <moqui.basic.LocalizedMessage original="Draft" locale="es" localized="Borrador"/>
+    <moqui.basic.LocalizedMessage original="Drafts" locale="es" localized="Borradores"/>
+    <moqui.basic.LocalizedMessage original="DropBox" locale="es" localized="Dropbox"/>
+    <moqui.basic.LocalizedMessage original="Dry Volume" locale="es" localized="Volumen seco"/>
+    <moqui.basic.LocalizedMessage original="ECDSA using P-256 curve and SHA-256 (ES256)" locale="es" localized="ECDSA con la curva P-256 y SHA-256 (ES256)"/>
+    <moqui.basic.LocalizedMessage original="ECDSA using P-384 curve and SHA-384 (ES384)" locale="es" localized="ECDSA con la curva P-384 y SHA-384 (ES384)"/>
+    <moqui.basic.LocalizedMessage original="ECDSA using P-521 curve and SHA-512 (ES512)" locale="es" localized="ECDSA con la curva P-521 y SHA-512 (ES512)"/>
+    <moqui.basic.LocalizedMessage original="EdDSA" locale="es" localized="EdDSA (curva de Edwards)"/>
+    <moqui.basic.LocalizedMessage original="Edit" locale="es" localized="Editar"/>
+    <moqui.basic.LocalizedMessage original="Edit in Screen" locale="es" localized="Editar en la pantalla"/>
+    <moqui.basic.LocalizedMessage original="Email Account Kind" locale="es" localized="Tipo de cuenta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Account Permission" locale="es" localized="Permiso de cuenta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Account Status" locale="es" localized="Estado de la cuenta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Address Verification" locale="es" localized="Verificación de dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Authentication Code Sent" locale="es" localized="Código de autenticación de correo electrónico enviado"/>
+    <moqui.basic.LocalizedMessage original="Email Code" locale="es" localized="Código de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Contact Service (service name, called with userId and emailAddressList, answers contactAddressList)" locale="es" localized="Servicio de contactos de correo electrónico (nombre del servicio, llamado con userId y emailAddressList, responde contactAddressList)"/>
+    <moqui.basic.LocalizedMessage original="Email Folder Kind" locale="es" localized="Tipo de carpeta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Message Status" locale="es" localized="Estado del mensaje de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email OAuth Provider" locale="es" localized="Proveedor OAuth de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Record Filing" locale="es" localized="Archivado de registros de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Reply Audience" locale="es" localized="Audiencia de respuesta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Rule Action (an app's)" locale="es" localized="Acción de regla de correo electrónico (de una aplicación)"/>
+    <moqui.basic.LocalizedMessage original="Email Rule Match" locale="es" localized="Coincidencia de regla de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Server Authentication" locale="es" localized="Autenticación del servidor de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Signature Placement" locale="es" localized="Posición de la firma de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email Type" locale="es" localized="Tipo de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Energy" locale="es" localized="Energía"/>
+    <moqui.basic.LocalizedMessage original="Entity" locale="es" localized="Entidad"/>
+    <moqui.basic.LocalizedMessage original="Entity Comparison Operator" locale="es" localized="Operador de comparación de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity Sync" locale="es" localized="Sincronización de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity Sync Artifact Application Type" locale="es" localized="Tipo de aplicación de artefacto de sincronización de entidades"/>
+    <moqui.basic.LocalizedMessage original="Enumeration Group" locale="es" localized="Grupo de enumeraciones"/>
+    <moqui.basic.LocalizedMessage original="Error" locale="es" localized="Error"/>
+    <moqui.basic.LocalizedMessage original="Error Screens" locale="es" localized="Pantallas de error"/>
+    <moqui.basic.LocalizedMessage original="Everyone" locale="es" localized="Todos"/>
+    <moqui.basic.LocalizedMessage original="Example" locale="es" localized="Ejemplo"/>
+    <moqui.basic.LocalizedMessage original="Example Completed" locale="es" localized="Ejemplo completado"/>
+    <moqui.basic.LocalizedMessage original="Example Type" locale="es" localized="Tipo de ejemplo"/>
+    <moqui.basic.LocalizedMessage original="Exclude" locale="es" localized="Excluir"/>
+    <moqui.basic.LocalizedMessage original="Execute" locale="es" localized="Ejecutar"/>
+    <moqui.basic.LocalizedMessage original="Executed" locale="es" localized="Ejecutado"/>
+    <moqui.basic.LocalizedMessage original="Executing" locale="es" localized="Ejecutando"/>
+    <moqui.basic.LocalizedMessage original="Expire" locale="es" localized="Caducar"/>
+    <moqui.basic.LocalizedMessage original="Expired" locale="es" localized="Caducado"/>
+    <moqui.basic.LocalizedMessage original="External" locale="es" localized="Externo"/>
+    <moqui.basic.LocalizedMessage original="Facebook" locale="es" localized="Facebook"/>
+    <moqui.basic.LocalizedMessage original="Fail" locale="es" localized="Fallar"/>
+    <moqui.basic.LocalizedMessage original="Failed" locale="es" localized="Fallido"/>
+    <moqui.basic.LocalizedMessage original="Failed Validation" locale="es" localized="Validación fallida"/>
+    <moqui.basic.LocalizedMessage original="Fast-forward" locale="es" localized="Avance rápido"/>
+    <moqui.basic.LocalizedMessage original="File" locale="es" localized="Archivo"/>
+    <moqui.basic.LocalizedMessage original="File every party match" locale="es" localized="Archivar cada coincidencia de parte"/>
+    <moqui.basic.LocalizedMessage original="File only what is linked" locale="es" localized="Archivar solo lo vinculado"/>
+    <moqui.basic.LocalizedMessage original="Footer Item" locale="es" localized="Elemento del pie de página"/>
+    <moqui.basic.LocalizedMessage original="Forget" locale="es" localized="Olvidar"/>
+    <moqui.basic.LocalizedMessage original="Forgotten" locale="es" localized="Olvidado"/>
+    <moqui.basic.LocalizedMessage original="Form Config Type" locale="es" localized="Tipo de configuración de formulario"/>
+    <moqui.basic.LocalizedMessage original="Foursquare" locale="es" localized="Foursquare"/>
+    <moqui.basic.LocalizedMessage original="Friday" locale="es" localized="Viernes"/>
+    <moqui.basic.LocalizedMessage original="Geo Assoc Type" locale="es" localized="Tipo de asociación geográfica"/>
+    <moqui.basic.LocalizedMessage original="Geo Group Member" locale="es" localized="Miembro de grupo geográfico"/>
+    <moqui.basic.LocalizedMessage original="Geo Point Type" locale="es" localized="Tipo de punto geográfico"/>
+    <moqui.basic.LocalizedMessage original="Geo Type" locale="es" localized="Tipo geográfico"/>
+    <moqui.basic.LocalizedMessage original="Git Merge Method" locale="es" localized="Método de fusión de Git"/>
+    <moqui.basic.LocalizedMessage original="Git Merge Request" locale="es" localized="Solicitud de fusión de Git"/>
+    <moqui.basic.LocalizedMessage original="Git Merge Request Reviewer" locale="es" localized="Revisor de la solicitud de fusión de Git"/>
+    <moqui.basic.LocalizedMessage original="Git Mergeability" locale="es" localized="Capacidad de fusión de Git"/>
+    <moqui.basic.LocalizedMessage original="Git Repository" locale="es" localized="Repositorio Git"/>
+    <moqui.basic.LocalizedMessage original="GitHub" locale="es" localized="GitHub"/>
+    <moqui.basic.LocalizedMessage original="Google" locale="es" localized="Google"/>
+    <moqui.basic.LocalizedMessage original="Group" locale="es" localized="Grupo"/>
+    <moqui.basic.LocalizedMessage original="Hand-off" locale="es" localized="Traspaso"/>
+    <moqui.basic.LocalizedMessage original="Handed Off" locale="es" localized="Traspasado"/>
+    <moqui.basic.LocalizedMessage original="Header Account Component" locale="es" localized="Componente de cuenta del encabezado"/>
+    <moqui.basic.LocalizedMessage original="Header Logo URL" locale="es" localized="URL del logotipo del encabezado"/>
+    <moqui.basic.LocalizedMessage original="Header Navbar Component" locale="es" localized="Componente de la barra de navegación del encabezado"/>
+    <moqui.basic.LocalizedMessage original="Header Navbar Item" locale="es" localized="Elemento de la barra de navegación del encabezado"/>
+    <moqui.basic.LocalizedMessage original="Header Title" locale="es" localized="Título del encabezado"/>
+    <moqui.basic.LocalizedMessage original="HMAC SHA-256" locale="es" localized="HMAC SHA-256"/>
+    <moqui.basic.LocalizedMessage original="HMAC SHA-256 with Timestamp" locale="es" localized="HMAC SHA-256 con marca de tiempo"/>
+    <moqui.basic.LocalizedMessage original="HMAC using SHA-256 (HS256)" locale="es" localized="HMAC con SHA-256 (HS256)"/>
+    <moqui.basic.LocalizedMessage original="HMAC using SHA-384 (HS384)" locale="es" localized="HMAC con SHA-384 (HS384)"/>
+    <moqui.basic.LocalizedMessage original="HMAC using SHA-512 (HS512)" locale="es" localized="HMAC con SHA-512 (HS512)"/>
+    <moqui.basic.LocalizedMessage original="Hold" locale="es" localized="Retener"/>
+    <moqui.basic.LocalizedMessage original="Hosted" locale="es" localized="Alojado"/>
+    <moqui.basic.LocalizedMessage original="HTML Body CSS Class" locale="es" localized="Clase CSS del cuerpo HTML"/>
+    <moqui.basic.LocalizedMessage original="Implementation Complete" locale="es" localized="Implementación completa"/>
+    <moqui.basic.LocalizedMessage original="Implemented" locale="es" localized="Implementado"/>
+    <moqui.basic.LocalizedMessage original="In Design" locale="es" localized="En diseño"/>
+    <moqui.basic.LocalizedMessage original="Inbox" locale="es" localized="Bandeja de entrada"/>
+    <moqui.basic.LocalizedMessage original="Include" locale="es" localized="Incluir"/>
+    <moqui.basic.LocalizedMessage original="Input Required" locale="es" localized="Entrada requerida"/>
+    <moqui.basic.LocalizedMessage original="Inspired" locale="es" localized="Inspirado"/>
+    <moqui.basic.LocalizedMessage original="Internal" locale="es" localized="Interno"/>
+    <moqui.basic.LocalizedMessage original="Internal Applications" locale="es" localized="Aplicaciones internas"/>
+    <moqui.basic.LocalizedMessage original="Internal Applications - Quasar" locale="es" localized="Aplicaciones internas - Quasar"/>
+    <moqui.basic.LocalizedMessage original="Internal Data Entry (employees, etc)" locale="es" localized="Entrada de datos interna (empleados, etc.)"/>
+    <moqui.basic.LocalizedMessage original="Internal only" locale="es" localized="Solo interno"/>
+    <moqui.basic.LocalizedMessage original="Invisible" locale="es" localized="Invisible"/>
+    <moqui.basic.LocalizedMessage original="Job or Trigger" locale="es" localized="Trabajo o disparador"/>
+    <moqui.basic.LocalizedMessage original="Junk" locale="es" localized="Correo no deseado"/>
+    <moqui.basic.LocalizedMessage original="Keycloak" locale="es" localized="Keycloak"/>
+    <moqui.basic.LocalizedMessage original="Length" locale="es" localized="Longitud"/>
+    <moqui.basic.LocalizedMessage original="Light" locale="es" localized="Claro"/>
+    <moqui.basic.LocalizedMessage original="LinkedIn" locale="es" localized="LinkedIn"/>
+</entity-facade-xml>

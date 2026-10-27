@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Acre" locale="es" localized="Acre (superficie)"/>
+    <moqui.basic.LocalizedMessage original="Afghani" locale="es" localized="Afgani"/>
+    <moqui.basic.LocalizedMessage original="Albanian Lek" locale="es" localized="Lek albanés"/>
+    <moqui.basic.LocalizedMessage original="Algerian Dinar" locale="es" localized="Dinar argelino"/>
+    <moqui.basic.LocalizedMessage original="Ampere - Electric current" locale="es" localized="Amperio - Corriente eléctrica"/>
+    <moqui.basic.LocalizedMessage original="Andoran peseta" locale="es" localized="Peseta andorrana"/>
+    <moqui.basic.LocalizedMessage original="Angolan Kwanza" locale="es" localized="Kwanza angoleño"/>
+    <moqui.basic.LocalizedMessage original="Angstrom" locale="es" localized="Ángstrom"/>
+    <moqui.basic.LocalizedMessage original="Are" locale="es" localized="Área"/>
+    <moqui.basic.LocalizedMessage original="Argentina Peso" locale="es" localized="Peso argentino"/>
+    <moqui.basic.LocalizedMessage original="Argentinian Austral" locale="es" localized="Austral argentino"/>
+    <moqui.basic.LocalizedMessage original="Armenian Dram" locale="es" localized="Dram armenio"/>
+    <moqui.basic.LocalizedMessage original="Aruban Guilder" locale="es" localized="Florín arubeño"/>
+    <moqui.basic.LocalizedMessage original="Atmosphere" locale="es" localized="Atmósfera"/>
+    <moqui.basic.LocalizedMessage original="Atmosphere (Technical)" locale="es" localized="Atmósfera (técnica)"/>
+    <moqui.basic.LocalizedMessage original="Australian Dollar" locale="es" localized="Dólar australiano"/>
+    <moqui.basic.LocalizedMessage original="Azerbaijan Manat" locale="es" localized="Manat azerbaiyano"/>
+    <moqui.basic.LocalizedMessage original="Bahaman Dollar" locale="es" localized="Dólar bahameño"/>
+    <moqui.basic.LocalizedMessage original="Bahrain Dinar" locale="es" localized="Dinar bareiní"/>
+    <moqui.basic.LocalizedMessage original="Bangladesh Taka" locale="es" localized="Taka bangladesí"/>
+    <moqui.basic.LocalizedMessage original="Bar" locale="es" localized="Bar (presión)"/>
+    <moqui.basic.LocalizedMessage original="Barbados Dollar" locale="es" localized="Dólar barbadense"/>
+    <moqui.basic.LocalizedMessage original="Barrel (US)" locale="es" localized="Barril (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Belize Dollar" locale="es" localized="Dólar beliceño"/>
+    <moqui.basic.LocalizedMessage original="Belorussian Ruble" locale="es" localized="Rublo bielorruso"/>
+    <moqui.basic.LocalizedMessage original="Benin C.f.A. Franc" locale="es" localized="Franco CFA de Benín"/>
+    <moqui.basic.LocalizedMessage original="Bermudan Dollar" locale="es" localized="Dólar bermudeño"/>
+    <moqui.basic.LocalizedMessage original="Bit" locale="es" localized="Bit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Bit-per-second" locale="es" localized="Bit por segundo"/>
+    <moqui.basic.LocalizedMessage original="Bitcoin" locale="es" localized="Bitcóin"/>
+    <moqui.basic.LocalizedMessage original="Boiler horsepower" locale="es" localized="Caballo de fuerza de caldera"/>
+    <moqui.basic.LocalizedMessage original="Bolivian Boliviano" locale="es" localized="Boliviano"/>
+    <moqui.basic.LocalizedMessage original="Bosnia-Herzogovinian Dinar" locale="es" localized="Dinar de Bosnia-Herzegovina"/>
+    <moqui.basic.LocalizedMessage original="Botswana Pula" locale="es" localized="Pula botsuano"/>
+    <moqui.basic.LocalizedMessage original="Brazilian Real" locale="es" localized="Real brasileño"/>
+    <moqui.basic.LocalizedMessage original="British Pound" locale="es" localized="Libra esterlina"/>
+    <moqui.basic.LocalizedMessage original="British Thermal Unit" locale="es" localized="Unidad térmica británica"/>
+    <moqui.basic.LocalizedMessage original="Brunei Dollar" locale="es" localized="Dólar bruneano"/>
+    <moqui.basic.LocalizedMessage original="BTU per hour" locale="es" localized="BTU por hora"/>
+    <moqui.basic.LocalizedMessage original="Bulgarian Lev" locale="es" localized="Leva búlgara"/>
+    <moqui.basic.LocalizedMessage original="Burundi Franc" locale="es" localized="Franco burundés"/>
+    <moqui.basic.LocalizedMessage original="Byte" locale="es" localized="Byte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Cable" locale="es" localized="Cable náutico"/>
+    <moqui.basic.LocalizedMessage original="Calorie IT" locale="es" localized="Caloría IT"/>
+    <moqui.basic.LocalizedMessage original="Calorie per second" locale="es" localized="Caloría por segundo"/>
+    <moqui.basic.LocalizedMessage original="Cambodian Riel" locale="es" localized="Riel camboyano"/>
+    <moqui.basic.LocalizedMessage original="Canadian Dollar" locale="es" localized="Dólar canadiense"/>
+    <moqui.basic.LocalizedMessage original="Candela - Luminosity (intensity of light)" locale="es" localized="Candela - Luminosidad (intensidad de la luz)"/>
+    <moqui.basic.LocalizedMessage original="Cape Verde Escudo" locale="es" localized="Escudo de Cabo Verde"/>
+    <moqui.basic.LocalizedMessage original="Cayman Dollar" locale="es" localized="Dólar de las Islas Caimán"/>
+    <moqui.basic.LocalizedMessage original="Centimeter" locale="es" localized="Centímetro"/>
+    <moqui.basic.LocalizedMessage original="Century" locale="es" localized="Siglo"/>
+    <moqui.basic.LocalizedMessage original="Chain (Gunter's/surveyor's)" locale="es" localized="Cadena (de Gunter/de agrimensor)"/>
+    <moqui.basic.LocalizedMessage original="Chain (Ramden's/engineer's)" locale="es" localized="Cadena (de Ramden/de ingeniero)"/>
+    <moqui.basic.LocalizedMessage original="Chilean Peso" locale="es" localized="Peso chileno"/>
+    <moqui.basic.LocalizedMessage original="Chinese Yuan Renminbi" locale="es" localized="Yuan renminbi"/>
+    <moqui.basic.LocalizedMessage original="Colombian Peso" locale="es" localized="Peso colombiano"/>
+    <moqui.basic.LocalizedMessage original="Comoros Franc" locale="es" localized="Franco comorense"/>
+    <moqui.basic.LocalizedMessage original="Costa Rica Colon" locale="es" localized="Colón costarricense"/>
+    <moqui.basic.LocalizedMessage original="Count" locale="es" localized="Conteo"/>
+    <moqui.basic.LocalizedMessage original="Croatian Dinar" locale="es" localized="Dinar croata"/>
+    <moqui.basic.LocalizedMessage original="Cuban Peso" locale="es" localized="Peso cubano"/>
+    <moqui.basic.LocalizedMessage original="Cubic centimeter" locale="es" localized="Centímetro cúbico"/>
+    <moqui.basic.LocalizedMessage original="Cubic foot" locale="es" localized="Pie cúbico"/>
+    <moqui.basic.LocalizedMessage original="Cubic inch" locale="es" localized="Pulgada cúbica"/>
+    <moqui.basic.LocalizedMessage original="Cubic meter" locale="es" localized="Metro cúbico"/>
+    <moqui.basic.LocalizedMessage original="Cubic millimeter" locale="es" localized="Milímetro cúbico"/>
+    <moqui.basic.LocalizedMessage original="Cubic yard" locale="es" localized="Yarda cúbica"/>
+    <moqui.basic.LocalizedMessage original="Cup" locale="es" localized="Taza"/>
+    <moqui.basic.LocalizedMessage original="Cyprus Pound" locale="es" localized="Libra chipriota"/>
+    <moqui.basic.LocalizedMessage original="Czech Krona" locale="es" localized="Corona checa"/>
+    <moqui.basic.LocalizedMessage original="Danish Krone" locale="es" localized="Corona danesa"/>
+    <moqui.basic.LocalizedMessage original="Day" locale="es" localized="Día"/>
+    <moqui.basic.LocalizedMessage original="Decade" locale="es" localized="Década"/>
+    <moqui.basic.LocalizedMessage original="Decimeter" locale="es" localized="Decímetro"/>
+    <moqui.basic.LocalizedMessage original="Degrees Celsius" locale="es" localized="Grados Celsius"/>
+    <moqui.basic.LocalizedMessage original="Degrees Fahrenheit" locale="es" localized="Grados Fahrenheit"/>
+    <moqui.basic.LocalizedMessage original="Dekameter" locale="es" localized="Decámetro"/>
+    <moqui.basic.LocalizedMessage original="Djibouti Franc" locale="es" localized="Franco yibutiano"/>
+    <moqui.basic.LocalizedMessage original="Dominican Peso" locale="es" localized="Peso dominicano"/>
+    <moqui.basic.LocalizedMessage original="Dominican Republic Peso" locale="es" localized="Peso de la República Dominicana"/>
+    <moqui.basic.LocalizedMessage original="Dram (avdp)" locale="es" localized="Dracma (avoirdupois)"/>
+    <moqui.basic.LocalizedMessage original="Dram (US)" locale="es" localized="Dracma (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Each/Piece" locale="es" localized="Cada uno/Pieza"/>
+    <moqui.basic.LocalizedMessage original="East Carribean Dollar" locale="es" localized="Dólar del Caribe Oriental"/>
+    <moqui.basic.LocalizedMessage original="Ecuador Sucre" locale="es" localized="Sucre ecuatoriano"/>
+    <moqui.basic.LocalizedMessage original="Egyptian Pound" locale="es" localized="Libra egipcia"/>
+    <moqui.basic.LocalizedMessage original="El Salvador Colon" locale="es" localized="Colón salvadoreño"/>
+    <moqui.basic.LocalizedMessage original="Estonian Krone" locale="es" localized="Corona estonia"/>
+    <moqui.basic.LocalizedMessage original="Ethiopian Birr" locale="es" localized="Bir etíope"/>
+    <moqui.basic.LocalizedMessage original="Euro" locale="es" localized="Euro (moneda)"/>
+    <moqui.basic.LocalizedMessage original="Falkland Pound" locale="es" localized="Libra malvinense"/>
+    <moqui.basic.LocalizedMessage original="Fathom" locale="es" localized="Braza"/>
+    <moqui.basic.LocalizedMessage original="Feet per hour" locale="es" localized="Pies por hora"/>
+    <moqui.basic.LocalizedMessage original="Feet per minute" locale="es" localized="Pies por minuto"/>
+    <moqui.basic.LocalizedMessage original="Feet per second" locale="es" localized="Pies por segundo"/>
+    <moqui.basic.LocalizedMessage original="Fiji Dollar" locale="es" localized="Dólar fiyiano"/>
+    <moqui.basic.LocalizedMessage original="Foot" locale="es" localized="Pie"/>
+    <moqui.basic.LocalizedMessage original="Furlong" locale="es" localized="Furlong (octavo de milla)"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per hour" locale="es" localized="Furlongs por hora"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per minute" locale="es" localized="Furlongs por minuto"/>
+    <moqui.basic.LocalizedMessage original="Furlongs per second" locale="es" localized="Furlongs por segundo"/>
+    <moqui.basic.LocalizedMessage original="Gabon C.f.A Franc" locale="es" localized="Franco CFA de Gabón"/>
+    <moqui.basic.LocalizedMessage original="Gallon (UK)" locale="es" localized="Galón (Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Gallon (US)" locale="es" localized="Galón (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Gambian Dalasi" locale="es" localized="Dalasi gambiano"/>
+    <moqui.basic.LocalizedMessage original="Georgian Kupon" locale="es" localized="Kupon larit georgiano"/>
+    <moqui.basic.LocalizedMessage original="Ghanian Cedi" locale="es" localized="Cedi ghanés"/>
+    <moqui.basic.LocalizedMessage original="Gibibyte" locale="es" localized="Gibibyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Gibit" locale="es" localized="Gibit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Gibraltar Pound" locale="es" localized="Libra gibraltareña"/>
+    <moqui.basic.LocalizedMessage original="Gigabit" locale="es" localized="Gigabit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Gigabit-per-second" locale="es" localized="Gigabit por segundo"/>
+    <moqui.basic.LocalizedMessage original="Gigabyte" locale="es" localized="Gigabyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Gill (1/4 UK pint)" locale="es" localized="Gill (1/4 de pinta del Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Grain" locale="es" localized="Grano"/>
+    <moqui.basic.LocalizedMessage original="Gram" locale="es" localized="Gramo"/>
+    <moqui.basic.LocalizedMessage original="Gram per cubic centimeter" locale="es" localized="Gramo por centímetro cúbico"/>
+    <moqui.basic.LocalizedMessage original="Guatemalan Quedzal" locale="es" localized="Quetzal guatemalteco"/>
+    <moqui.basic.LocalizedMessage original="Guinea Franc" locale="es" localized="Franco guineano"/>
+    <moqui.basic.LocalizedMessage original="Guinea Peso" locale="es" localized="Peso de Guinea-Bisáu"/>
+    <moqui.basic.LocalizedMessage original="Guyanese Dollar" locale="es" localized="Dólar guyanés"/>
+    <moqui.basic.LocalizedMessage original="Haitian Gourde" locale="es" localized="Gurde haitiano"/>
+    <moqui.basic.LocalizedMessage original="Hand (horse's height)" locale="es" localized="Mano (alzada del caballo)"/>
+    <moqui.basic.LocalizedMessage original="Hectare" locale="es" localized="Hectárea"/>
+    <moqui.basic.LocalizedMessage original="Hectopascal" locale="es" localized="Hectopascal (presión)"/>
+    <moqui.basic.LocalizedMessage original="Honduran Lempira" locale="es" localized="Lempira hondureño"/>
+    <moqui.basic.LocalizedMessage original="Hong Kong Dollar" locale="es" localized="Dólar de Hong Kong"/>
+    <moqui.basic.LocalizedMessage original="Horsepower (mechanical)" locale="es" localized="Caballo de fuerza (mecánico)"/>
+    <moqui.basic.LocalizedMessage original="Horsepower-hour" locale="es" localized="Caballo de fuerza-hora"/>
+    <moqui.basic.LocalizedMessage original="Hour" locale="es" localized="Hora"/>
+    <moqui.basic.LocalizedMessage original="Hungarian forint" locale="es" localized="Forinto húngaro"/>
+    <moqui.basic.LocalizedMessage original="Iceland Krona" locale="es" localized="Corona islandesa"/>
+    <moqui.basic.LocalizedMessage original="Inch" locale="es" localized="Pulgada"/>
+    <moqui.basic.LocalizedMessage original="Inch of mercury" locale="es" localized="Pulgada de mercurio"/>
+    <moqui.basic.LocalizedMessage original="Inches per hour" locale="es" localized="Pulgadas por hora"/>
+    <moqui.basic.LocalizedMessage original="Inches per minute" locale="es" localized="Pulgadas por minuto"/>
+    <moqui.basic.LocalizedMessage original="Inches per second" locale="es" localized="Pulgadas por segundo"/>
+    <moqui.basic.LocalizedMessage original="Indian Rupee" locale="es" localized="Rupia india"/>
+    <moqui.basic.LocalizedMessage original="Indonesian Rupiah" locale="es" localized="Rupia indonesia"/>
+    <moqui.basic.LocalizedMessage original="Iranian Rial" locale="es" localized="Rial iraní"/>
+    <moqui.basic.LocalizedMessage original="Iraqui Dinar" locale="es" localized="Dinar iraquí"/>
+    <moqui.basic.LocalizedMessage original="Israeli Scheckel" locale="es" localized="Séquel israelí"/>
+    <moqui.basic.LocalizedMessage original="Jamaican Dollar" locale="es" localized="Dólar jamaicano"/>
+    <moqui.basic.LocalizedMessage original="Japanese Yen" locale="es" localized="Yen japonés"/>
+    <moqui.basic.LocalizedMessage original="Jordanian Dinar" locale="es" localized="Dinar jordano"/>
+    <moqui.basic.LocalizedMessage original="Joule (absolute)" locale="es" localized="Julio (absoluto)"/>
+    <moqui.basic.LocalizedMessage original="Kazakhstani Tenge" locale="es" localized="Tengue kazajo"/>
+    <moqui.basic.LocalizedMessage original="Kelvin" locale="es" localized="Kelvin (temperatura)"/>
+    <moqui.basic.LocalizedMessage original="Kenyan Shilling" locale="es" localized="Chelín keniano"/>
+    <moqui.basic.LocalizedMessage original="Kibibyte" locale="es" localized="Kibibyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Kibit" locale="es" localized="Kibit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Kilobit" locale="es" localized="Kilobit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Kilobit-per-second" locale="es" localized="Kilobit por segundo"/>
+    <moqui.basic.LocalizedMessage original="Kilobyte" locale="es" localized="Kilobyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Kilocalorie" locale="es" localized="Kilocaloría"/>
+    <moqui.basic.LocalizedMessage original="Kilogram" locale="es" localized="Kilogramo"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per cubic meter" locale="es" localized="Kilogramo por metro cúbico"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per square centimeter" locale="es" localized="Kilogramo por centímetro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Kilogram per square meter" locale="es" localized="Kilogramo por metro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Kilometer" locale="es" localized="Kilómetro"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per hour" locale="es" localized="Kilómetros por hora"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per minute" locale="es" localized="Kilómetros por minuto"/>
+    <moqui.basic.LocalizedMessage original="Kilometers per second" locale="es" localized="Kilómetros por segundo"/>
+    <moqui.basic.LocalizedMessage original="Kilopascal" locale="es" localized="Kilopascal (presión)"/>
+    <moqui.basic.LocalizedMessage original="Kilowatt" locale="es" localized="Kilovatio"/>
+    <moqui.basic.LocalizedMessage original="Kilowatt-hour" locale="es" localized="Kilovatio-hora"/>
+    <moqui.basic.LocalizedMessage original="Kirghizstan Som" locale="es" localized="Som kirguís"/>
+    <moqui.basic.LocalizedMessage original="Knots" locale="es" localized="Nudos"/>
+    <moqui.basic.LocalizedMessage original="Kuwaiti Dinar" locale="es" localized="Dinar kuwaití"/>
+    <moqui.basic.LocalizedMessage original="Laotian Kip" locale="es" localized="Kip laosiano"/>
+    <moqui.basic.LocalizedMessage original="Latvian Lat" locale="es" localized="Lats letón"/>
+    <moqui.basic.LocalizedMessage original="League" locale="es" localized="Legua"/>
+    <moqui.basic.LocalizedMessage original="Lebanese Pound" locale="es" localized="Libra libanesa"/>
+    <moqui.basic.LocalizedMessage original="Leone" locale="es" localized="Leona sierraleonesa"/>
+    <moqui.basic.LocalizedMessage original="Lesotho Loti" locale="es" localized="Loti lesotense"/>
+    <moqui.basic.LocalizedMessage original="Liberian Dollar" locale="es" localized="Dólar liberiano"/>
+    <moqui.basic.LocalizedMessage original="Libyan Dinar" locale="es" localized="Dinar libio"/>
+    <moqui.basic.LocalizedMessage original="Link (Gunter's)" locale="es" localized="Eslabón (de Gunter)"/>
+    <moqui.basic.LocalizedMessage original="Link (Ramden's)" locale="es" localized="Eslabón (de Ramden)"/>
+    <moqui.basic.LocalizedMessage original="Liter" locale="es" localized="Litro"/>
+    <moqui.basic.LocalizedMessage original="Lithuanian Lita" locale="es" localized="Litas lituano"/>
+    <moqui.basic.LocalizedMessage original="Macao Pataca" locale="es" localized="Pataca macaense"/>
+    <moqui.basic.LocalizedMessage original="Mach" locale="es" localized="Número de Mach"/>
+    <moqui.basic.LocalizedMessage original="Madagascan Franc" locale="es" localized="Franco malgache"/>
+    <moqui.basic.LocalizedMessage original="Malawi Kwacha" locale="es" localized="Kwacha malauí"/>
+    <moqui.basic.LocalizedMessage original="Malaysian Ringgit" locale="es" localized="Ringit malasio"/>
+    <moqui.basic.LocalizedMessage original="Maldive Rufiyaa" locale="es" localized="Rufiya maldiva"/>
+    <moqui.basic.LocalizedMessage original="Maltese Lira" locale="es" localized="Lira maltesa"/>
+    <moqui.basic.LocalizedMessage original="Mauritanian Ouguiya" locale="es" localized="Uguiya mauritano"/>
+    <moqui.basic.LocalizedMessage original="Mauritius Rupee" locale="es" localized="Rupia mauriciana"/>
+    <moqui.basic.LocalizedMessage original="Mebibyte" locale="es" localized="Mebibyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Megabit" locale="es" localized="Megabit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Megabit-per-second" locale="es" localized="Megabit por segundo"/>
+    <moqui.basic.LocalizedMessage original="Megabyte" locale="es" localized="Megabyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Meter" locale="es" localized="Metro"/>
+    <moqui.basic.LocalizedMessage original="Meters per hour" locale="es" localized="Metros por hora"/>
+    <moqui.basic.LocalizedMessage original="Meters per minute" locale="es" localized="Metros por minuto"/>
+    <moqui.basic.LocalizedMessage original="Meters per second" locale="es" localized="Metros por segundo"/>
+    <moqui.basic.LocalizedMessage original="Mexican Peso (new)" locale="es" localized="Peso mexicano (nuevo)"/>
+    <moqui.basic.LocalizedMessage original="Mexican Peso (old)" locale="es" localized="Peso mexicano (antiguo)"/>
+    <moqui.basic.LocalizedMessage original="Mibit" locale="es" localized="Mibit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Microgram" locale="es" localized="Microgramo"/>
+    <moqui.basic.LocalizedMessage original="Micrometer (Micron)" locale="es" localized="Micrómetro (micrón)"/>
+    <moqui.basic.LocalizedMessage original="Mil (Milli-inch)" locale="es" localized="Mil (milipulgada)"/>
+    <moqui.basic.LocalizedMessage original="Mile (nautical/sea)" locale="es" localized="Milla (náutica/marina)"/>
+    <moqui.basic.LocalizedMessage original="Mile (statute/land)" locale="es" localized="Milla (estatutaria/terrestre)"/>
+    <moqui.basic.LocalizedMessage original="Miles per hour" locale="es" localized="Millas por hora"/>
+    <moqui.basic.LocalizedMessage original="Miles per minute" locale="es" localized="Millas por minuto"/>
+    <moqui.basic.LocalizedMessage original="Miles per second" locale="es" localized="Millas por segundo"/>
+    <moqui.basic.LocalizedMessage original="Millenium" locale="es" localized="Milenio"/>
+    <moqui.basic.LocalizedMessage original="Milli-Second" locale="es" localized="Milisegundo"/>
+    <moqui.basic.LocalizedMessage original="Millibar" locale="es" localized="Milibar"/>
+    <moqui.basic.LocalizedMessage original="Milligram" locale="es" localized="Miligramo"/>
+    <moqui.basic.LocalizedMessage original="Milliliter" locale="es" localized="Mililitro"/>
+    <moqui.basic.LocalizedMessage original="Millimeter" locale="es" localized="Milímetro"/>
+    <moqui.basic.LocalizedMessage original="Millimeter of mercury" locale="es" localized="Milímetro de mercurio"/>
+    <moqui.basic.LocalizedMessage original="Minute" locale="es" localized="Minuto"/>
+    <moqui.basic.LocalizedMessage original="Moldavian Lei" locale="es" localized="Leu moldavo"/>
+    <moqui.basic.LocalizedMessage original="Mole - Substance (molecule)" locale="es" localized="Mol - Sustancia (molécula)"/>
+    <moqui.basic.LocalizedMessage original="Mongolian Tugrik" locale="es" localized="Tugrik mongol"/>
+    <moqui.basic.LocalizedMessage original="Month" locale="es" localized="Mes"/>
+    <moqui.basic.LocalizedMessage original="Moroccan Dirham" locale="es" localized="Dírham marroquí"/>
+    <moqui.basic.LocalizedMessage original="Mozambique Metical" locale="es" localized="Metical mozambiqueño"/>
+    <moqui.basic.LocalizedMessage original="Nepalese Rupee" locale="es" localized="Rupia nepalí"/>
+    <moqui.basic.LocalizedMessage original="New Israeli Shekel" locale="es" localized="Nuevo séquel israelí"/>
+    <moqui.basic.LocalizedMessage original="New Taiwan Dollar" locale="es" localized="Nuevo dólar taiwanés"/>
+    <moqui.basic.LocalizedMessage original="New Zealand Dollar" locale="es" localized="Dólar neozelandés"/>
+    <moqui.basic.LocalizedMessage original="Nicaraguan Cordoba" locale="es" localized="Córdoba nicaragüense"/>
+    <moqui.basic.LocalizedMessage original="Nigerian Naira" locale="es" localized="Naira nigeriano"/>
+    <moqui.basic.LocalizedMessage original="North Korean Won" locale="es" localized="Won norcoreano"/>
+    <moqui.basic.LocalizedMessage original="Norwegian Krone" locale="es" localized="Corona noruega"/>
+    <moqui.basic.LocalizedMessage original="Omani Rial" locale="es" localized="Rial omaní"/>
+    <moqui.basic.LocalizedMessage original="Ounce (avdp)" locale="es" localized="Onza (avoirdupois)"/>
+    <moqui.basic.LocalizedMessage original="Ounce (troy)" locale="es" localized="Onza (troy)"/>
+    <moqui.basic.LocalizedMessage original="Ounce per cubic inch" locale="es" localized="Onza por pulgada cúbica"/>
+    <moqui.basic.LocalizedMessage original="Ounce per gallon (UK)" locale="es" localized="Onza por galón (Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Ounce per gallon (US)" locale="es" localized="Onza por galón (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Ounce, fluid (UK)" locale="es" localized="Onza líquida (Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Ounce, fluid (US)" locale="es" localized="Onza líquida (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Pakistan Rupee" locale="es" localized="Rupia pakistaní"/>
+    <moqui.basic.LocalizedMessage original="Panamanian Balboa" locale="es" localized="Balboa panameño"/>
+    <moqui.basic.LocalizedMessage original="Papua New Guinea Kina" locale="es" localized="Kina de Papúa Nueva Guinea"/>
+    <moqui.basic.LocalizedMessage original="Paraguayan Guarani" locale="es" localized="Guaraní paraguayo"/>
+    <moqui.basic.LocalizedMessage original="Pascal" locale="es" localized="Pascal (presión)"/>
+    <moqui.basic.LocalizedMessage original="Pebibyte" locale="es" localized="Pebibyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Pennyweight" locale="es" localized="Pennyweight (troy)"/>
+    <moqui.basic.LocalizedMessage original="Per Person" locale="es" localized="Por persona"/>
+    <moqui.basic.LocalizedMessage original="Percent" locale="es" localized="Porcentaje"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Inti" locale="es" localized="Inti peruano"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Sol" locale="es" localized="Sol peruano"/>
+    <moqui.basic.LocalizedMessage original="Peruvian Sol - New" locale="es" localized="Nuevo sol peruano"/>
+    <moqui.basic.LocalizedMessage original="Petabyte" locale="es" localized="Petabyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Philippino Peso" locale="es" localized="Peso filipino"/>
+    <moqui.basic.LocalizedMessage original="Pibit" locale="es" localized="Pibit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Pica (type size)" locale="es" localized="Pica (tamaño tipográfico)"/>
+    <moqui.basic.LocalizedMessage original="Pint (UK)" locale="es" localized="Pinta (Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Pint (US)" locale="es" localized="Pinta (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Point (type size)" locale="es" localized="Punto (tamaño tipográfico)"/>
+    <moqui.basic.LocalizedMessage original="Polish Zloty" locale="es" localized="Esloti polaco"/>
+    <moqui.basic.LocalizedMessage original="Pound (avdp)" locale="es" localized="Libra (avoirdupois)"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic foot" locale="es" localized="Libra por pie cúbico"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic inch" locale="es" localized="Libra por pulgada cúbica"/>
+    <moqui.basic.LocalizedMessage original="Pound per cubic yard" locale="es" localized="Libra por yarda cúbica"/>
+    <moqui.basic.LocalizedMessage original="Pound per gallon (UK)" locale="es" localized="Libra por galón (Reino Unido)"/>
+    <moqui.basic.LocalizedMessage original="Pound per gallon (US)" locale="es" localized="Libra por galón (EE. UU.)"/>
+    <moqui.basic.LocalizedMessage original="Pound per square foot" locale="es" localized="Libra por pie cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Pound per square inch" locale="es" localized="Libra por pulgada cuadrada"/>
+    <moqui.basic.LocalizedMessage original="Qatar Riyal" locale="es" localized="Rial catarí"/>
+    <moqui.basic.LocalizedMessage original="Quart" locale="es" localized="Cuarto"/>
+    <moqui.basic.LocalizedMessage original="Revolutions Per Minute" locale="es" localized="Revoluciones por minuto"/>
+    <moqui.basic.LocalizedMessage original="Rod" locale="es" localized="Vara"/>
+    <moqui.basic.LocalizedMessage original="Romanian Leu" locale="es" localized="Leu rumano"/>
+    <moqui.basic.LocalizedMessage original="Russian Rouble" locale="es" localized="Rublo ruso"/>
+    <moqui.basic.LocalizedMessage original="Russian Ruble (old)" locale="es" localized="Rublo ruso (antiguo)"/>
+    <moqui.basic.LocalizedMessage original="Rwanda Franc" locale="es" localized="Franco ruandés"/>
+    <moqui.basic.LocalizedMessage original="Samoan Tala" locale="es" localized="Tala samoano"/>
+    <moqui.basic.LocalizedMessage original="Santo Domiongo" locale="es" localized="Santo Domingo"/>
+    <moqui.basic.LocalizedMessage original="Sao Tome / Principe Dobra" locale="es" localized="Dobra de Santo Tomé y Príncipe"/>
+    <moqui.basic.LocalizedMessage original="Saudi Riyal" locale="es" localized="Rial saudí"/>
+    <moqui.basic.LocalizedMessage original="Score" locale="es" localized="Veintena"/>
+    <moqui.basic.LocalizedMessage original="Second" locale="es" localized="Segundo"/>
+    <moqui.basic.LocalizedMessage original="Seychelles Rupee" locale="es" localized="Rupia seychellense"/>
+    <moqui.basic.LocalizedMessage original="Singapore Dollar" locale="es" localized="Dólar singapurense"/>
+    <moqui.basic.LocalizedMessage original="Solomon Islands Dollar" locale="es" localized="Dólar de las Islas Salomón"/>
+    <moqui.basic.LocalizedMessage original="Somalian Shilling" locale="es" localized="Chelín somalí"/>
+    <moqui.basic.LocalizedMessage original="South African Rand" locale="es" localized="Rand sudafricano"/>
+    <moqui.basic.LocalizedMessage original="South Korean Won" locale="es" localized="Won surcoreano"/>
+    <moqui.basic.LocalizedMessage original="Square Centimeter" locale="es" localized="Centímetro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Square Foot" locale="es" localized="Pie cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Square Inch" locale="es" localized="Pulgada cuadrada"/>
+    <moqui.basic.LocalizedMessage original="Square Kilometer" locale="es" localized="Kilómetro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Square Meter" locale="es" localized="Metro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Square Mile" locale="es" localized="Milla cuadrada"/>
+    <moqui.basic.LocalizedMessage original="Square Millimeter" locale="es" localized="Milímetro cuadrado"/>
+    <moqui.basic.LocalizedMessage original="Square Rod" locale="es" localized="Vara cuadrada"/>
+    <moqui.basic.LocalizedMessage original="Square Yard" locale="es" localized="Yarda cuadrada"/>
+    <moqui.basic.LocalizedMessage original="Sri Lankan Rupee" locale="es" localized="Rupia esrilanquesa"/>
+    <moqui.basic.LocalizedMessage original="St.Helena Pound" locale="es" localized="Libra de Santa Elena"/>
+    <moqui.basic.LocalizedMessage original="Stere (cubic meter)" locale="es" localized="Estéreo (metro cúbico)"/>
+    <moqui.basic.LocalizedMessage original="Stone" locale="es" localized="Piedra"/>
+    <moqui.basic.LocalizedMessage original="Sudanese Pound" locale="es" localized="Libra sudanesa"/>
+    <moqui.basic.LocalizedMessage original="Surinam Guilder" locale="es" localized="Florín surinamés"/>
+    <moqui.basic.LocalizedMessage original="Swaziland Lilangeni" locale="es" localized="Lilangeni suazi"/>
+    <moqui.basic.LocalizedMessage original="Swedish Krona" locale="es" localized="Corona sueca"/>
+    <moqui.basic.LocalizedMessage original="Swiss Franc" locale="es" localized="Franco suizo"/>
+    <moqui.basic.LocalizedMessage original="Syrian Pound" locale="es" localized="Libra siria"/>
+    <moqui.basic.LocalizedMessage original="Tablespoon" locale="es" localized="Cucharada"/>
+    <moqui.basic.LocalizedMessage original="Tadzhikistani Ruble" locale="es" localized="Rublo tayiko"/>
+    <moqui.basic.LocalizedMessage original="Tanzanian Shilling" locale="es" localized="Chelín tanzano"/>
+    <moqui.basic.LocalizedMessage original="Teaspoon" locale="es" localized="Cucharadita"/>
+    <moqui.basic.LocalizedMessage original="Tebibyte" locale="es" localized="Tebibyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Terabit" locale="es" localized="Terabit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Terabit-per-second" locale="es" localized="Terabit por segundo"/>
+    <moqui.basic.LocalizedMessage original="Terabyte" locale="es" localized="Terabyte (datos)"/>
+    <moqui.basic.LocalizedMessage original="Thailand Baht" locale="es" localized="Baht tailandés"/>
+    <moqui.basic.LocalizedMessage original="Tibit" locale="es" localized="Tibit (datos)"/>
+    <moqui.basic.LocalizedMessage original="Timor Escudo" locale="es" localized="Escudo timorense"/>
+    <moqui.basic.LocalizedMessage original="Ton (long or British)" locale="es" localized="Tonelada (larga o británica)"/>
+    <moqui.basic.LocalizedMessage original="Ton (metric)" locale="es" localized="Tonelada (métrica)"/>
+    <moqui.basic.LocalizedMessage original="Ton (short)" locale="es" localized="Tonelada (corta)"/>
+    <moqui.basic.LocalizedMessage original="Ton, long, per cubic yard" locale="es" localized="Tonelada larga por yarda cúbica"/>
+    <moqui.basic.LocalizedMessage original="Tongan Pa&apos;anga" locale="es" localized="Paanga tongano"/>
+    <moqui.basic.LocalizedMessage original="Torr" locale="es" localized="Torr (presión)"/>
+    <moqui.basic.LocalizedMessage original="Trinidad and Tobago Dollar" locale="es" localized="Dólar de Trinidad y Tobago"/>
+    <moqui.basic.LocalizedMessage original="Tunisian Dinar" locale="es" localized="Dinar tunecino"/>
+    <moqui.basic.LocalizedMessage original="Turkish Lira" locale="es" localized="Lira turca"/>
+    <moqui.basic.LocalizedMessage original="Turkmenistani Manat" locale="es" localized="Manat turcomano"/>
+    <moqui.basic.LocalizedMessage original="Ugandan Shilling" locale="es" localized="Chelín ugandés"/>
+    <moqui.basic.LocalizedMessage original="Ukrainian Hryvnia" locale="es" localized="Grivna ucraniana"/>
+    <moqui.basic.LocalizedMessage original="United Arab Emirates Dirham" locale="es" localized="Dírham de los Emiratos Árabes Unidos"/>
+    <moqui.basic.LocalizedMessage original="United States Dollar" locale="es" localized="Dólar estadounidense"/>
+    <moqui.basic.LocalizedMessage original="Uruguayan New Peso" locale="es" localized="Nuevo peso uruguayo"/>
+    <moqui.basic.LocalizedMessage original="Vanuatu Vatu" locale="es" localized="Vatu vanuatense"/>
+    <moqui.basic.LocalizedMessage original="Venezuelan Bolivar" locale="es" localized="Bolívar venezolano"/>
+    <moqui.basic.LocalizedMessage original="Vietnamese Dong" locale="es" localized="Dong vietnamita"/>
+    <moqui.basic.LocalizedMessage original="Watt" locale="es" localized="Vatio"/>
+    <moqui.basic.LocalizedMessage original="Week" locale="es" localized="Semana"/>
+    <moqui.basic.LocalizedMessage original="West Indian Guilder" locale="es" localized="Florín antillano"/>
+    <moqui.basic.LocalizedMessage original="Yard" locale="es" localized="Yarda"/>
+    <moqui.basic.LocalizedMessage original="Year" locale="es" localized="Año"/>
+    <moqui.basic.LocalizedMessage original="Yemeni Ryal" locale="es" localized="Rial yemení"/>
+    <moqui.basic.LocalizedMessage original="Zaire" locale="es" localized="Zaire zaireño"/>
+    <moqui.basic.LocalizedMessage original="Zambian Kwacha" locale="es" localized="Kwacha zambiano"/>
+    <moqui.basic.LocalizedMessage original="Zimbabwean Dollar" locale="es" localized="Dólar de Zimbabue"/>
+</entity-facade-xml>
