@@ -78,7 +78,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Fixes keywords in commits complete work items (Y or N)" locale="es" localized="Las palabras clave Fixes en los commits completan los elementos de trabajo (Y o N)"/>
     <moqui.basic.LocalizedMessage original="For Your Information" locale="es" localized="Para su información"/>
     <moqui.basic.LocalizedMessage original="General (public access)" locale="es" localized="General (acceso público)"/>
-    <moqui.basic.LocalizedMessage original="Google Calendar" locale="es" localized="Google Calendar"/>
     <moqui.basic.LocalizedMessage original="Hours shared with the client (Y or N)" locale="es" localized="Horas compartidas con el cliente (Y o N)"/>
     <moqui.basic.LocalizedMessage original="IT Security" locale="es" localized="Seguridad informática"/>
     <moqui.basic.LocalizedMessage original="Immediate Response Requested" locale="es" localized="Respuesta inmediata solicitada"/>
@@ -100,7 +99,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Make changes and manage sharing" locale="es" localized="Hacer cambios y administrar el uso compartido"/>
     <moqui.basic.LocalizedMessage original="Make changes to events" locale="es" localized="Hacer cambios en los eventos"/>
     <moqui.basic.LocalizedMessage original="Manufacturing" locale="es" localized="Fabricación"/>
-    <moqui.basic.LocalizedMessage original="Marketing" locale="es" localized="Marketing"/>
     <moqui.basic.LocalizedMessage original="Measurement Reason" locale="es" localized="Motivo de medición"/>
     <moqui.basic.LocalizedMessage original="Merge request branch" locale="es" localized="Rama de la solicitud de fusión"/>
     <moqui.basic.LocalizedMessage original="Merge request text" locale="es" localized="Texto de la solicitud de fusión"/>
@@ -163,7 +161,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="South Southwest (202.5°)" locale="es" localized="Sursuroeste (202.5°)"/>
     <moqui.basic.LocalizedMessage original="Southeast (135°)" locale="es" localized="Sureste (135°)"/>
     <moqui.basic.LocalizedMessage original="Southwest (225°)" locale="es" localized="Suroeste (225°)"/>
-    <moqui.basic.LocalizedMessage original="Sprint" locale="es" localized="Sprint"/>
     <moqui.basic.LocalizedMessage original="Sub-contracting" locale="es" localized="Subcontratación"/>
     <moqui.basic.LocalizedMessage original="Subscription" locale="es" localized="Suscripción"/>
     <moqui.basic.LocalizedMessage original="Supporting Media" locale="es" localized="Medios de apoyo"/>

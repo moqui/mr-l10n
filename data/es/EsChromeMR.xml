@@ -330,7 +330,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Remote Uid Next" locale="es" localized="Siguiente UID remoto" />
     <moqui.basic.LocalizedMessage original="Remote Uid Validity" locale="es" localized="Validez del UID remoto" />
     <moqui.basic.LocalizedMessage original="Remote Uidl" locale="es" localized="UIDL remoto" />
-    <moqui.basic.LocalizedMessage original="Remote Url" locale="es" localized="URL remota" />
     <moqui.basic.LocalizedMessage original="Remotes" locale="es" localized="Remotos" />
     <moqui.basic.LocalizedMessage original="Remove Service" locale="es" localized="Servicio de eliminación" />
     <moqui.basic.LocalizedMessage original="Render Mode" locale="es" localized="Modo de representación" />
@@ -352,7 +351,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Request Url" locale="es" localized="URL de la solicitud" />
     <moqui.basic.LocalizedMessage original="Requested By User ID" locale="es" localized="ID del usuario solicitante" />
     <moqui.basic.LocalizedMessage original="Requested Date" locale="es" localized="Fecha de solicitud" />
-    <moqui.basic.LocalizedMessage original="Requests Per Minute" locale="es" localized="Solicitudes por minuto" />
     <moqui.basic.LocalizedMessage original="Require Authc Factor" locale="es" localized="Requerir factor de autenticación" />
     <moqui.basic.LocalizedMessage original="Require Merge Request" locale="es" localized="Requerir solicitud de fusión" />
     <moqui.basic.LocalizedMessage original="Require Password Change" locale="es" localized="Requerir cambio de contraseña" />

@@ -13,49 +13,22 @@ along with this software (see the LICENSE.md file). If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <entity-facade-xml type="es">
-    <moqui.basic.LocalizedMessage original="Madhya Pradesh" locale="es" localized="Madhya Pradesh"/>
-    <moqui.basic.LocalizedMessage original="Mahārāshtra" locale="es" localized="Mahārāshtra"/>
-    <moqui.basic.LocalizedMessage original="Maine" locale="es" localized="Maine"/>
-    <moqui.basic.LocalizedMessage original="Manipur" locale="es" localized="Manipur"/>
-    <moqui.basic.LocalizedMessage original="Manitoba" locale="es" localized="Manitoba"/>
     <moqui.basic.LocalizedMessage original="Mantova" locale="es" localized="Mantua"/>
-    <moqui.basic.LocalizedMessage original="Maryland" locale="es" localized="Maryland"/>
     <moqui.basic.LocalizedMessage original="Massa-Carrara" locale="es" localized="Massa y Carrara"/>
-    <moqui.basic.LocalizedMessage original="Massachusetts" locale="es" localized="Massachusetts"/>
-    <moqui.basic.LocalizedMessage original="Matera" locale="es" localized="Matera"/>
-    <moqui.basic.LocalizedMessage original="Medio Campidano" locale="es" localized="Medio Campidano"/>
-    <moqui.basic.LocalizedMessage original="Meghālaya" locale="es" localized="Meghālaya"/>
     <moqui.basic.LocalizedMessage original="Messina" locale="es" localized="Mesina"/>
     <moqui.basic.LocalizedMessage original="Michigan" locale="es" localized="Míchigan"/>
-    <moqui.basic.LocalizedMessage original="Mie" locale="es" localized="Mie"/>
     <moqui.basic.LocalizedMessage original="Milano" locale="es" localized="Milán"/>
-    <moqui.basic.LocalizedMessage original="Minnesota" locale="es" localized="Minnesota"/>
     <moqui.basic.LocalizedMessage original="Mississippi" locale="es" localized="Misisipi"/>
     <moqui.basic.LocalizedMessage original="Missouri" locale="es" localized="Misuri"/>
-    <moqui.basic.LocalizedMessage original="Miyagi" locale="es" localized="Miyagi"/>
-    <moqui.basic.LocalizedMessage original="Miyazaki" locale="es" localized="Miyazaki"/>
-    <moqui.basic.LocalizedMessage original="Mizoram" locale="es" localized="Mizoram"/>
     <moqui.basic.LocalizedMessage original="Modena" locale="es" localized="Módena"/>
-    <moqui.basic.LocalizedMessage original="Montana" locale="es" localized="Montana"/>
     <moqui.basic.LocalizedMessage original="Monza e Brianza" locale="es" localized="Monza y Brianza"/>
-    <moqui.basic.LocalizedMessage original="Nagano" locale="es" localized="Nagano"/>
-    <moqui.basic.LocalizedMessage original="Nagasaki" locale="es" localized="Nagasaki"/>
-    <moqui.basic.LocalizedMessage original="Nam Dinh" locale="es" localized="Nam Dinh"/>
     <moqui.basic.LocalizedMessage original="Napoli" locale="es" localized="Nápoles"/>
-    <moqui.basic.LocalizedMessage original="Nara" locale="es" localized="Nara"/>
-    <moqui.basic.LocalizedMessage original="Nebraska" locale="es" localized="Nebraska"/>
-    <moqui.basic.LocalizedMessage original="Nevada" locale="es" localized="Nevada"/>
     <moqui.basic.LocalizedMessage original="New Brunswick" locale="es" localized="Nuevo Brunswick"/>
     <moqui.basic.LocalizedMessage original="New Hampshire" locale="es" localized="Nuevo Hampshire"/>
     <moqui.basic.LocalizedMessage original="New Jersey" locale="es" localized="Nueva Jersey"/>
     <moqui.basic.LocalizedMessage original="New Mexico" locale="es" localized="Nuevo México"/>
     <moqui.basic.LocalizedMessage original="New York" locale="es" localized="Nueva York"/>
     <moqui.basic.LocalizedMessage original="Newfoundland and Labrador" locale="es" localized="Terranova y Labrador"/>
-    <moqui.basic.LocalizedMessage original="Nghe An" locale="es" localized="Nghe An"/>
-    <moqui.basic.LocalizedMessage original="Niigata" locale="es" localized="Niigata"/>
-    <moqui.basic.LocalizedMessage original="Ningxia" locale="es" localized="Ningxia"/>
-    <moqui.basic.LocalizedMessage original="Ninh Binh" locale="es" localized="Ninh Binh"/>
-    <moqui.basic.LocalizedMessage original="Ninh Thuan" locale="es" localized="Ninh Thuan"/>
     <moqui.basic.LocalizedMessage original="North Carolina" locale="es" localized="Carolina del Norte"/>
     <moqui.basic.LocalizedMessage original="North Chungcheong" locale="es" localized="Chungcheong del Norte"/>
     <moqui.basic.LocalizedMessage original="North Dakota" locale="es" localized="Dakota del Norte"/>
@@ -63,117 +36,33 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="North Jeolla" locale="es" localized="Jeolla del Norte"/>
     <moqui.basic.LocalizedMessage original="Northwest Territories" locale="es" localized="Territorios del Noroeste"/>
     <moqui.basic.LocalizedMessage original="Nova Scotia" locale="es" localized="Nueva Escocia"/>
-    <moqui.basic.LocalizedMessage original="Novara" locale="es" localized="Novara"/>
-    <moqui.basic.LocalizedMessage original="Nunavut" locale="es" localized="Nunavut"/>
-    <moqui.basic.LocalizedMessage original="Nuoro" locale="es" localized="Nuoro"/>
-    <moqui.basic.LocalizedMessage original="Nāgāland" locale="es" localized="Nāgāland"/>
-    <moqui.basic.LocalizedMessage original="Odisha" locale="es" localized="Odisha"/>
-    <moqui.basic.LocalizedMessage original="Ogliastra" locale="es" localized="Ogliastra"/>
-    <moqui.basic.LocalizedMessage original="Ohio" locale="es" localized="Ohio"/>
-    <moqui.basic.LocalizedMessage original="Oita" locale="es" localized="Oita"/>
-    <moqui.basic.LocalizedMessage original="Okayama" locale="es" localized="Okayama"/>
-    <moqui.basic.LocalizedMessage original="Okinawa" locale="es" localized="Okinawa"/>
-    <moqui.basic.LocalizedMessage original="Oklahoma" locale="es" localized="Oklahoma"/>
-    <moqui.basic.LocalizedMessage original="Olbia-Tempio" locale="es" localized="Olbia-Tempio"/>
-    <moqui.basic.LocalizedMessage original="Ontario" locale="es" localized="Ontario"/>
     <moqui.basic.LocalizedMessage original="Oregon" locale="es" localized="Oregón"/>
     <moqui.basic.LocalizedMessage original="Oristano" locale="es" localized="Oristán"/>
-    <moqui.basic.LocalizedMessage original="Osaka" locale="es" localized="Osaka"/>
     <moqui.basic.LocalizedMessage original="Padova" locale="es" localized="Padua"/>
-    <moqui.basic.LocalizedMessage original="Palermo" locale="es" localized="Palermo"/>
-    <moqui.basic.LocalizedMessage original="Parma" locale="es" localized="Parma"/>
-    <moqui.basic.LocalizedMessage original="Pavia" locale="es" localized="Pavia"/>
     <moqui.basic.LocalizedMessage original="Pennsylvania" locale="es" localized="Pensilvania"/>
-    <moqui.basic.LocalizedMessage original="Perugia" locale="es" localized="Perugia"/>
     <moqui.basic.LocalizedMessage original="Pesaro e Urbino" locale="es" localized="Pésaro y Urbino"/>
-    <moqui.basic.LocalizedMessage original="Pescara" locale="es" localized="Pescara"/>
-    <moqui.basic.LocalizedMessage original="Phu Tho" locale="es" localized="Phu Tho"/>
-    <moqui.basic.LocalizedMessage original="Phu Yen" locale="es" localized="Phu Yen"/>
     <moqui.basic.LocalizedMessage original="Piacenza" locale="es" localized="Plasencia"/>
-    <moqui.basic.LocalizedMessage original="Pisa" locale="es" localized="Pisa"/>
     <moqui.basic.LocalizedMessage original="Pistoia" locale="es" localized="Pistoya"/>
-    <moqui.basic.LocalizedMessage original="Pordenone" locale="es" localized="Pordenone"/>
-    <moqui.basic.LocalizedMessage original="Portalegre" locale="es" localized="Portalegre"/>
     <moqui.basic.LocalizedMessage original="Porto" locale="es" localized="Oporto"/>
-    <moqui.basic.LocalizedMessage original="Potenza" locale="es" localized="Potenza"/>
-    <moqui.basic.LocalizedMessage original="Prato" locale="es" localized="Prato"/>
     <moqui.basic.LocalizedMessage original="Prince Edward Island" locale="es" localized="Isla del Príncipe Eduardo"/>
-    <moqui.basic.LocalizedMessage original="Puducherry" locale="es" localized="Puducherry"/>
     <moqui.basic.LocalizedMessage original="Punjab" locale="es" localized="Punyab"/>
-    <moqui.basic.LocalizedMessage original="Qinghai" locale="es" localized="Qinghai"/>
-    <moqui.basic.LocalizedMessage original="Quang Binh" locale="es" localized="Quang Binh"/>
-    <moqui.basic.LocalizedMessage original="Quang Nam" locale="es" localized="Quang Nam"/>
-    <moqui.basic.LocalizedMessage original="Quang Ngai" locale="es" localized="Quang Ngai"/>
-    <moqui.basic.LocalizedMessage original="Quang Ninh" locale="es" localized="Quang Ninh"/>
-    <moqui.basic.LocalizedMessage original="Quang Tri" locale="es" localized="Quang Tri"/>
-    <moqui.basic.LocalizedMessage original="Quebec" locale="es" localized="Quebec"/>
-    <moqui.basic.LocalizedMessage original="Ragusa" locale="es" localized="Ragusa"/>
-    <moqui.basic.LocalizedMessage original="Ravenna" locale="es" localized="Ravenna"/>
     <moqui.basic.LocalizedMessage original="Reggio Calabria" locale="es" localized="Regio de Calabria"/>
-    <moqui.basic.LocalizedMessage original="Reggio Emilia" locale="es" localized="Reggio Emilia"/>
-    <moqui.basic.LocalizedMessage original="Rhode Island" locale="es" localized="Rhode Island"/>
-    <moqui.basic.LocalizedMessage original="Rieti" locale="es" localized="Rieti"/>
     <moqui.basic.LocalizedMessage original="Rimini" locale="es" localized="Rímini"/>
-    <moqui.basic.LocalizedMessage original="Roma" locale="es" localized="Roma"/>
-    <moqui.basic.LocalizedMessage original="Rovigo" locale="es" localized="Rovigo"/>
     <moqui.basic.LocalizedMessage original="Rājasthān" locale="es" localized="Rajastán"/>
-    <moqui.basic.LocalizedMessage original="Saga" locale="es" localized="Saga"/>
-    <moqui.basic.LocalizedMessage original="Saitama" locale="es" localized="Saitama"/>
-    <moqui.basic.LocalizedMessage original="Salerno" locale="es" localized="Salerno"/>
     <moqui.basic.LocalizedMessage original="Santarem" locale="es" localized="Santarém"/>
-    <moqui.basic.LocalizedMessage original="Saskatchewan" locale="es" localized="Saskatchewan"/>
     <moqui.basic.LocalizedMessage original="Sassari" locale="es" localized="Sácer"/>
-    <moqui.basic.LocalizedMessage original="Savona" locale="es" localized="Savona"/>
-    <moqui.basic.LocalizedMessage original="Sejong" locale="es" localized="Sejong"/>
     <moqui.basic.LocalizedMessage original="Seoul" locale="es" localized="Seúl"/>
     <moqui.basic.LocalizedMessage original="Setubal" locale="es" localized="Setúbal"/>
-    <moqui.basic.LocalizedMessage original="Shaanxi" locale="es" localized="Shaanxi"/>
-    <moqui.basic.LocalizedMessage original="Shandong" locale="es" localized="Shandong"/>
     <moqui.basic.LocalizedMessage original="Shanghai" locale="es" localized="Shanghái"/>
-    <moqui.basic.LocalizedMessage original="Shanxi" locale="es" localized="Shanxi"/>
-    <moqui.basic.LocalizedMessage original="Shiga" locale="es" localized="Shiga"/>
-    <moqui.basic.LocalizedMessage original="Shikoku" locale="es" localized="Shikoku"/>
-    <moqui.basic.LocalizedMessage original="Shimane" locale="es" localized="Shimane"/>
-    <moqui.basic.LocalizedMessage original="Shizuoka" locale="es" localized="Shizuoka"/>
-    <moqui.basic.LocalizedMessage original="Sichuan" locale="es" localized="Sichuan"/>
-    <moqui.basic.LocalizedMessage original="Siena" locale="es" localized="Siena"/>
-    <moqui.basic.LocalizedMessage original="Sikkim" locale="es" localized="Sikkim"/>
-    <moqui.basic.LocalizedMessage original="Siracusa" locale="es" localized="Siracusa"/>
-    <moqui.basic.LocalizedMessage original="Soc Trang" locale="es" localized="Soc Trang"/>
-    <moqui.basic.LocalizedMessage original="Son La" locale="es" localized="Son La"/>
-    <moqui.basic.LocalizedMessage original="Sondrio" locale="es" localized="Sondrio"/>
     <moqui.basic.LocalizedMessage original="South Carolina" locale="es" localized="Carolina del Sur"/>
     <moqui.basic.LocalizedMessage original="South Chungcheong" locale="es" localized="Chungcheong del Sur"/>
     <moqui.basic.LocalizedMessage original="South Dakota" locale="es" localized="Dakota del Sur"/>
     <moqui.basic.LocalizedMessage original="South Gyeongsang" locale="es" localized="Gyeongsang del Sur"/>
     <moqui.basic.LocalizedMessage original="South Jeolla" locale="es" localized="Jeolla del Sur"/>
-    <moqui.basic.LocalizedMessage original="Tamil Nādu" locale="es" localized="Tamil Nādu"/>
     <moqui.basic.LocalizedMessage original="Taranto" locale="es" localized="Tarento"/>
-    <moqui.basic.LocalizedMessage original="Tay Ninh" locale="es" localized="Tay Ninh"/>
-    <moqui.basic.LocalizedMessage original="Telangāna" locale="es" localized="Telangāna"/>
-    <moqui.basic.LocalizedMessage original="Tennessee" locale="es" localized="Tennessee"/>
     <moqui.basic.LocalizedMessage original="Teramo" locale="es" localized="Téramo"/>
-    <moqui.basic.LocalizedMessage original="Terni" locale="es" localized="Terni"/>
-    <moqui.basic.LocalizedMessage original="Texas" locale="es" localized="Texas"/>
-    <moqui.basic.LocalizedMessage original="Thai Binh" locale="es" localized="Thai Binh"/>
-    <moqui.basic.LocalizedMessage original="Thai Nguyen" locale="es" localized="Thai Nguyen"/>
-    <moqui.basic.LocalizedMessage original="Thanh Hoa" locale="es" localized="Thanh Hoa"/>
-    <moqui.basic.LocalizedMessage original="Thua Thien Hue" locale="es" localized="Thua Thien Hue"/>
-    <moqui.basic.LocalizedMessage original="Tianjin" locale="es" localized="Tianjin"/>
-    <moqui.basic.LocalizedMessage original="Tochigi" locale="es" localized="Tochigi"/>
-    <moqui.basic.LocalizedMessage original="Tohuku" locale="es" localized="Tohuku"/>
-    <moqui.basic.LocalizedMessage original="Tokushima" locale="es" localized="Tokushima"/>
     <moqui.basic.LocalizedMessage original="Tokyo" locale="es" localized="Tokio"/>
     <moqui.basic.LocalizedMessage original="Torino" locale="es" localized="Turín"/>
-    <moqui.basic.LocalizedMessage original="Tottori" locale="es" localized="Tottori"/>
-    <moqui.basic.LocalizedMessage original="Toyama" locale="es" localized="Toyama"/>
-    <moqui.basic.LocalizedMessage original="Tra Vinh" locale="es" localized="Tra Vinh"/>
-    <moqui.basic.LocalizedMessage original="Trapani" locale="es" localized="Trapani"/>
-    <moqui.basic.LocalizedMessage original="Trento" locale="es" localized="Trento"/>
-    <moqui.basic.LocalizedMessage original="Treviso" locale="es" localized="Treviso"/>
-    <moqui.basic.LocalizedMessage original="Trieste" locale="es" localized="Trieste"/>
-    <moqui.basic.LocalizedMessage original="Tripura" locale="es" localized="Tripura"/>
-    <moqui.basic.LocalizedMessage original="Tuyen Quang" locale="es" localized="Tuyen Quang"/>
     <moqui.basic.LocalizedMessage original="U.S. Minor Outlying Islands" locale="es" localized="Islas menores alejadas de EE. UU."/>
     <moqui.basic.LocalizedMessage original="US 50" locale="es" localized="EE. UU. 50"/>
     <moqui.basic.LocalizedMessage original="US All" locale="es" localized="Todos los EE. UU."/>
@@ -181,39 +70,12 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="US Continental" locale="es" localized="EE. UU. continental"/>
     <moqui.basic.LocalizedMessage original="US Territories" locale="es" localized="Territorios de EE. UU."/>
     <moqui.basic.LocalizedMessage original="Udine" locale="es" localized="Údine"/>
-    <moqui.basic.LocalizedMessage original="Ulsan" locale="es" localized="Ulsan"/>
-    <moqui.basic.LocalizedMessage original="Utah" locale="es" localized="Utah"/>
-    <moqui.basic.LocalizedMessage original="Uttar Pradesh" locale="es" localized="Uttar Pradesh"/>
-    <moqui.basic.LocalizedMessage original="Uttarākhand" locale="es" localized="Uttarākhand"/>
-    <moqui.basic.LocalizedMessage original="Varese" locale="es" localized="Varese"/>
     <moqui.basic.LocalizedMessage original="Venezia" locale="es" localized="Venecia"/>
-    <moqui.basic.LocalizedMessage original="Verbano-Cusio-Ossola" locale="es" localized="Verbano-Cusio-Ossola"/>
-    <moqui.basic.LocalizedMessage original="Vercelli" locale="es" localized="Vercelli"/>
-    <moqui.basic.LocalizedMessage original="Vermont" locale="es" localized="Vermont"/>
-    <moqui.basic.LocalizedMessage original="Verona" locale="es" localized="Verona"/>
-    <moqui.basic.LocalizedMessage original="Viana do Castelo" locale="es" localized="Viana do Castelo"/>
-    <moqui.basic.LocalizedMessage original="Vibo Valentia" locale="es" localized="Vibo Valentia"/>
-    <moqui.basic.LocalizedMessage original="Vicenza" locale="es" localized="Vicenza"/>
-    <moqui.basic.LocalizedMessage original="Vila Real" locale="es" localized="Vila Real"/>
-    <moqui.basic.LocalizedMessage original="Vinh Long" locale="es" localized="Vinh Long"/>
-    <moqui.basic.LocalizedMessage original="Vinh Phuc" locale="es" localized="Vinh Phuc"/>
     <moqui.basic.LocalizedMessage original="Virgin Islands" locale="es" localized="Islas Vírgenes"/>
-    <moqui.basic.LocalizedMessage original="Virginia" locale="es" localized="Virginia"/>
     <moqui.basic.LocalizedMessage original="Viseu" locale="es" localized="Viseo"/>
-    <moqui.basic.LocalizedMessage original="Viterbo" locale="es" localized="Viterbo"/>
-    <moqui.basic.LocalizedMessage original="Wakayama" locale="es" localized="Wakayama"/>
-    <moqui.basic.LocalizedMessage original="Washington" locale="es" localized="Washington"/>
     <moqui.basic.LocalizedMessage original="West Bengal" locale="es" localized="Bengala Occidental"/>
     <moqui.basic.LocalizedMessage original="West Virginia" locale="es" localized="Virginia Occidental"/>
-    <moqui.basic.LocalizedMessage original="Wisconsin" locale="es" localized="Wisconsin"/>
-    <moqui.basic.LocalizedMessage original="Wyoming" locale="es" localized="Wyoming"/>
     <moqui.basic.LocalizedMessage original="Xinjiang" locale="es" localized="Sinkiang"/>
     <moqui.basic.LocalizedMessage original="Xizang" locale="es" localized="Tíbet"/>
-    <moqui.basic.LocalizedMessage original="Yamagata" locale="es" localized="Yamagata"/>
-    <moqui.basic.LocalizedMessage original="Yamaguchi" locale="es" localized="Yamaguchi"/>
-    <moqui.basic.LocalizedMessage original="Yamanashi" locale="es" localized="Yamanashi"/>
-    <moqui.basic.LocalizedMessage original="Yen Bai" locale="es" localized="Yen Bai"/>
     <moqui.basic.LocalizedMessage original="Yukon" locale="es" localized="Yukón"/>
-    <moqui.basic.LocalizedMessage original="Yunnan" locale="es" localized="Yunnan"/>
-    <moqui.basic.LocalizedMessage original="Zhejiang" locale="es" localized="Zhejiang"/>
 </entity-facade-xml>

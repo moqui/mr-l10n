@@ -21,7 +21,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="${oldStatusItem ? oldStatusItem.description + ' to ' : ''}${statusItem?.description}${(userAccount?.username ? ' by ' + userAccount.username : '')} at ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="${oldStatusItem ? oldStatusItem.description + ' to ' : ''}${statusItem?.description}${(userAccount?.username ? ' by ' + userAccount.username : '')} el ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')}"/>
     <moqui.basic.LocalizedMessage original="${pstats.taskCount} Tasks" locale="es" localized="${pstats.taskCount} tareas"/>
     <moqui.basic.LocalizedMessage original="(this version published)" locale="es" localized="(Esta versión publicada)"/>
-    <moqui.basic.LocalizedMessage original="ATP/QOH" locale="es" localized="ATP/QOH"/>
     <moqui.basic.LocalizedMessage original="Act" locale="es" localized="Real"/>
     <moqui.basic.LocalizedMessage original="Act Bgt Rem ${ec.l10n.format(toDecimal(project.totalTimeAllowed ?? 0).subtract(project.actualWorkTime ?? 0), '#.#')} hrs" locale="es" localized="Ppto. real restante ${ec.l10n.format(toDecimal(project.totalTimeAllowed ?? 0).subtract(project.actualWorkTime ?? 0), '#.#')} h"/>
     <moqui.basic.LocalizedMessage original="Act+Rem/Bgt %" locale="es" localized="Real+rest/ppto %"/>
@@ -75,7 +74,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Base Work Effort ID" locale="es" localized="ID de la actividad base"/>
     <moqui.basic.LocalizedMessage original="Blog Posts" locale="es" localized="Entradas de blog"/>
     <moqui.basic.LocalizedMessage original="Blog Text" locale="es" localized="Texto del blog"/>
-    <moqui.basic.LocalizedMessage original="Blogs" locale="es" localized="Blogs"/>
     <moqui.basic.LocalizedMessage original="Branch or Tag" locale="es" localized="Rama o etiqueta"/>
     <moqui.basic.LocalizedMessage original="Break" locale="es" localized="Descanso"/>
     <moqui.basic.LocalizedMessage original="Break Hours" locale="es" localized="Horas de descanso"/>
@@ -85,7 +83,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Budget (h)" locale="es" localized="Presupuesto (h)"/>
     <moqui.basic.LocalizedMessage original="By ${ec.resource.expand('UsernameTemplate','',Object.assign({}, paua, {userId:content.userId}))} at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Por ${ec.resource.expand('UsernameTemplate','',Object.assign({}, paua, {userId:content.userId}))} el ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
     <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || note.userId}) at ${ec.l10n.format(note.noteDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Por ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || note.userId}) el ${ec.l10n.format(note.noteDate, 'yyyy-MM-dd HH:mm')}"/>
-    <moqui.basic.LocalizedMessage original="C: ${invoiceId}" locale="es" localized="C: ${invoiceId}"/>
     <moqui.basic.LocalizedMessage original="Cancelled - ${pstats.taskCountByStatusMap.WeCancelled||0}" locale="es" localized="Cancelado - ${pstats.taskCountByStatusMap.WeCancelled||0}"/>
     <moqui.basic.LocalizedMessage original="Change status to ${statusTransition.description}?" locale="es" localized="¿Cambiar el estado a ${statusTransition.description}?"/>
     <moqui.basic.LocalizedMessage original="Child Tasks" locale="es" localized="Tareas hijas"/>
@@ -94,7 +91,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Clone Space" locale="es" localized="Clonar espacio"/>
     <moqui.basic.LocalizedMessage original="Clone URLs" locale="es" localized="URL de clonación"/>
     <moqui.basic.LocalizedMessage original="Commit ${commit.shortId} of ${repositoryId}" locale="es" localized="Commit ${commit.shortId} de ${repositoryId}"/>
-    <moqui.basic.LocalizedMessage original="Commits" locale="es" localized="Commits"/>
     <moqui.basic.LocalizedMessage original="Committer: ${commit.committerName} on ${ec.l10n.format(commit.committerDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Confirmador: ${commit.committerName} el ${ec.l10n.format(commit.committerDate, 'yyyy-MM-dd HH:mm')}"/>
     <moqui.basic.LocalizedMessage original="Communication Event ID" locale="es" localized="ID del evento de comunicación"/>
     <moqui.basic.LocalizedMessage original="Compare ${pageName} versions ${versionNameLhs.substring(0, 12)} and ${versionNameRhs.substring(0, 12)}" locale="es" localized="Comparar ${pageName}, versiones ${versionNameLhs.substring(0, 12)} y ${versionNameRhs.substring(0, 12)}"/>
@@ -189,7 +185,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Linked By" locale="es" localized="Vinculado por"/>
     <moqui.basic.LocalizedMessage original="Lookup by ID" locale="es" localized="Buscar por ID"/>
     <moqui.basic.LocalizedMessage original="Lookup by ID for Asset, Facility, Invoice, Order, Return, Party, Badge, Payment, Product, Shipment, Work Effort (Picklist, Production Run), GL Transaction" locale="es" localized="Buscar por ID de activo, instalación, factura, orden, devolución, participante, credencial, pago, producto, envío, actividad (lista de surtido, corrida de producción), transacción GL"/>
-    <moqui.basic.LocalizedMessage original="Marble ERP" locale="es" localized="Marble ERP"/>
     <moqui.basic.LocalizedMessage original="Matches whole words, use the asterisk (*) wildcard to match partial words; use field:term to search a specific field" locale="es" localized="Coincide con palabras completas, usar el asterisco (*) como comodín para coincidir con palabras parciales; usar campo:término para buscar un campo específico"/>
     <moqui.basic.LocalizedMessage original="Max Amt" locale="es" localized="Importe máx."/>
     <moqui.basic.LocalizedMessage original="Maximum Amount" locale="es" localized="Importe máximo"/>

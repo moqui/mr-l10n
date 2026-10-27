@@ -20,7 +20,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="(reservation removed)" locale="es" localized="(reserva eliminada)"/>
     <moqui.basic.LocalizedMessage original="A. Class" locale="es" localized="Clase de activo"/>
     <moqui.basic.LocalizedMessage original="ATP ${ec.l10n.format(assetProduct.availableToPromiseDiff, null)} QOH ${ec.l10n.format(assetProduct.quantityOnHandDiff, null)} at ${ec.l10n.format(assetProduct.effectiveDate, null)}" locale="es" localized="ATP ${ec.l10n.format(assetProduct.availableToPromiseDiff, null)} QOH ${ec.l10n.format(assetProduct.quantityOnHandDiff, null)} el ${ec.l10n.format(assetProduct.effectiveDate, null)}"/>
-    <moqui.basic.LocalizedMessage original="ATP ${ec.l10n.format(assetProduct.availableToPromiseTotal, null)} QOH ${ec.l10n.format(assetProduct.quantityOnHandTotal, null)}" locale="es" localized="ATP ${ec.l10n.format(assetProduct.availableToPromiseTotal, null)} QOH ${ec.l10n.format(assetProduct.quantityOnHandTotal, null)}"/>
     <moqui.basic.LocalizedMessage original="ATP Diff" locale="es" localized="Dif. ATP"/>
     <moqui.basic.LocalizedMessage original="Abbrev" locale="es" localized="Abrev."/>
     <moqui.basic.LocalizedMessage original="Acquire Cost" locale="es" localized="Costo de adquisición"/>

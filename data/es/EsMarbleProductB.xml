@@ -38,7 +38,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Move Qty" locale="es" localized="Cant. a mover"/>
     <moqui.basic.LocalizedMessage original="Move Quantity" locale="es" localized="Cantidad a mover"/>
     <moqui.basic.LocalizedMessage original="Move, other asset: ${otherAssetId}" locale="es" localized="Movimiento, otro activo: ${otherAssetId}"/>
-    <moqui.basic.LocalizedMessage original="N/A" locale="es" localized="N/A"/>
     <moqui.basic.LocalizedMessage original="NOTE: Promotions are applied in the order of the Sequence Num. Higher value promotions should have lower sequence numbers." locale="es" localized="NOTA: las promociones se aplican en el orden del núm. de secuencia. Las promociones de mayor valor deben tener números de secuencia más bajos."/>
     <moqui.basic.LocalizedMessage original="NOTE: for accounting and other traceability record equipment purchase using a purchase order, incoming shipment, and payable invoice; this form is for existing or third party equipment" locale="es" localized="NOTA: para la contabilidad y otra trazabilidad, registrar la compra de equipo con una orden de compra, un envío entrante y una factura por pagar; este formulario es para equipo existente o de terceros"/>
     <moqui.basic.LocalizedMessage original="NOTE: only receive inventory here if there is no Purchase Order and no Incoming Shipment for the inventory." locale="es" localized="NOTA: recibir inventario aquí solo si no hay orden de compra ni envío entrante para el inventario."/>
@@ -68,9 +67,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Other Identification" locale="es" localized="Otra identificación"/>
     <moqui.basic.LocalizedMessage original="Owned By Org" locale="es" localized="Organización propietaria"/>
     <moqui.basic.LocalizedMessage original="Owner Party" locale="es" localized="Participante propietario"/>
-    <moqui.basic.LocalizedMessage original="PO #${asset.acquireOrderId||'N/A'}" locale="es" localized="PO #${asset.acquireOrderId||'N/A'}"/>
-    <moqui.basic.LocalizedMessage original="PO #${assetReceipt.orderId}" locale="es" localized="PO #${assetReceipt.orderId}"/>
-    <moqui.basic.LocalizedMessage original="PO ${acquireOrderId}" locale="es" localized="PO ${acquireOrderId}"/>
     <moqui.basic.LocalizedMessage original="Parent Categories" locale="es" localized="Categorías padre"/>
     <moqui.basic.LocalizedMessage original="Parent Product Category ID" locale="es" localized="ID de categoría de producto padre"/>
     <moqui.basic.LocalizedMessage original="Parties Assigned" locale="es" localized="Participantes asignados"/>
@@ -206,7 +202,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Shipping Gateways" locale="es" localized="Puertas de enlace de envío"/>
     <moqui.basic.LocalizedMessage original="Shipping Options" locale="es" localized="Opciones de envío"/>
     <moqui.basic.LocalizedMessage original="Show summary records with zero QOH and ATP" locale="es" localized="Mostrar registros de resumen con QOH y ATP en cero"/>
-    <moqui.basic.LocalizedMessage original="Soft IDentifier" locale="es" localized="Identificador flexible"/>
     <moqui.basic.LocalizedMessage original="Soft Identifier" locale="es" localized="Identificador flexible"/>
     <moqui.basic.LocalizedMessage original="Store Category Type" locale="es" localized="Tipo de categoría de la tienda"/>
     <moqui.basic.LocalizedMessage original="Store Data Document Type" locale="es" localized="Tipo de documento de datos de la tienda"/>

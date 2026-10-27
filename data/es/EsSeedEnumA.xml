@@ -51,7 +51,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Answered" locale="es" localized="Respondido"/>
     <moqui.basic.LocalizedMessage original="Any condition" locale="es" localized="Cualquier condición"/>
     <moqui.basic.LocalizedMessage original="Any user may read and join" locale="es" localized="Cualquier usuario puede leer y unirse"/>
-    <moqui.basic.LocalizedMessage original="Apple" locale="es" localized="Apple"/>
     <moqui.basic.LocalizedMessage original="Approval" locale="es" localized="Aprobación"/>
     <moqui.basic.LocalizedMessage original="Approve" locale="es" localized="Aprobar"/>
     <moqui.basic.LocalizedMessage original="Approved" locale="es" localized="Aprobado"/>
@@ -75,7 +74,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Avatar URL template (${userId} replaced in the browser)" locale="es" localized="Plantilla de URL de avatar (${userId} reemplazado en el navegador)"/>
     <moqui.basic.LocalizedMessage original="Awaiting Approval" locale="es" localized="En espera de aprobación"/>
     <moqui.basic.LocalizedMessage original="Away" locale="es" localized="Ausente"/>
-    <moqui.basic.LocalizedMessage original="Azure AD" locale="es" localized="Azure AD"/>
     <moqui.basic.LocalizedMessage original="Back to Produced" locale="es" localized="Volver a producido"/>
     <moqui.basic.LocalizedMessage original="Back to Received" locale="es" localized="Volver a recibido"/>
     <moqui.basic.LocalizedMessage original="Below the quote" locale="es" localized="Debajo del texto citado"/>
@@ -174,7 +172,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Entity Sync" locale="es" localized="Sincronización de entidades"/>
     <moqui.basic.LocalizedMessage original="Entity Sync Artifact Application Type" locale="es" localized="Tipo de aplicación de artefacto de sincronización de entidades"/>
     <moqui.basic.LocalizedMessage original="Enumeration Group" locale="es" localized="Grupo de enumeraciones"/>
-    <moqui.basic.LocalizedMessage original="Error" locale="es" localized="Error"/>
     <moqui.basic.LocalizedMessage original="Error Screens" locale="es" localized="Pantallas de error"/>
     <moqui.basic.LocalizedMessage original="Everyone" locale="es" localized="Todos"/>
     <moqui.basic.LocalizedMessage original="Example" locale="es" localized="Ejemplo"/>
@@ -187,7 +184,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Expire" locale="es" localized="Caducar"/>
     <moqui.basic.LocalizedMessage original="Expired" locale="es" localized="Caducado"/>
     <moqui.basic.LocalizedMessage original="External" locale="es" localized="Externo"/>
-    <moqui.basic.LocalizedMessage original="Facebook" locale="es" localized="Facebook"/>
     <moqui.basic.LocalizedMessage original="Fail" locale="es" localized="Fallar"/>
     <moqui.basic.LocalizedMessage original="Failed" locale="es" localized="Fallido"/>
     <moqui.basic.LocalizedMessage original="Failed Validation" locale="es" localized="Validación fallida"/>
@@ -199,7 +195,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Forget" locale="es" localized="Olvidar"/>
     <moqui.basic.LocalizedMessage original="Forgotten" locale="es" localized="Olvidado"/>
     <moqui.basic.LocalizedMessage original="Form Config Type" locale="es" localized="Tipo de configuración de formulario"/>
-    <moqui.basic.LocalizedMessage original="Foursquare" locale="es" localized="Foursquare"/>
     <moqui.basic.LocalizedMessage original="Friday" locale="es" localized="Viernes"/>
     <moqui.basic.LocalizedMessage original="Geo Assoc Type" locale="es" localized="Tipo de asociación geográfica"/>
     <moqui.basic.LocalizedMessage original="Geo Group Member" locale="es" localized="Miembro de grupo geográfico"/>
@@ -210,8 +205,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Git Merge Request Reviewer" locale="es" localized="Revisor de la solicitud de fusión de Git"/>
     <moqui.basic.LocalizedMessage original="Git Mergeability" locale="es" localized="Capacidad de fusión de Git"/>
     <moqui.basic.LocalizedMessage original="Git Repository" locale="es" localized="Repositorio Git"/>
-    <moqui.basic.LocalizedMessage original="GitHub" locale="es" localized="GitHub"/>
-    <moqui.basic.LocalizedMessage original="Google" locale="es" localized="Google"/>
     <moqui.basic.LocalizedMessage original="Group" locale="es" localized="Grupo"/>
     <moqui.basic.LocalizedMessage original="Hand-off" locale="es" localized="Traspaso"/>
     <moqui.basic.LocalizedMessage original="Handed Off" locale="es" localized="Traspasado"/>
@@ -220,7 +213,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Header Navbar Component" locale="es" localized="Componente de la barra de navegación del encabezado"/>
     <moqui.basic.LocalizedMessage original="Header Navbar Item" locale="es" localized="Elemento de la barra de navegación del encabezado"/>
     <moqui.basic.LocalizedMessage original="Header Title" locale="es" localized="Título del encabezado"/>
-    <moqui.basic.LocalizedMessage original="HMAC SHA-256" locale="es" localized="HMAC SHA-256"/>
     <moqui.basic.LocalizedMessage original="HMAC SHA-256 with Timestamp" locale="es" localized="HMAC SHA-256 con marca de tiempo"/>
     <moqui.basic.LocalizedMessage original="HMAC using SHA-256 (HS256)" locale="es" localized="HMAC con SHA-256 (HS256)"/>
     <moqui.basic.LocalizedMessage original="HMAC using SHA-384 (HS384)" locale="es" localized="HMAC con SHA-384 (HS384)"/>
@@ -240,11 +232,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Internal Applications - Quasar" locale="es" localized="Aplicaciones internas - Quasar"/>
     <moqui.basic.LocalizedMessage original="Internal Data Entry (employees, etc)" locale="es" localized="Entrada de datos interna (empleados, etc.)"/>
     <moqui.basic.LocalizedMessage original="Internal only" locale="es" localized="Solo interno"/>
-    <moqui.basic.LocalizedMessage original="Invisible" locale="es" localized="Invisible"/>
     <moqui.basic.LocalizedMessage original="Job or Trigger" locale="es" localized="Trabajo o disparador"/>
     <moqui.basic.LocalizedMessage original="Junk" locale="es" localized="Correo no deseado"/>
-    <moqui.basic.LocalizedMessage original="Keycloak" locale="es" localized="Keycloak"/>
     <moqui.basic.LocalizedMessage original="Length" locale="es" localized="Longitud"/>
     <moqui.basic.LocalizedMessage original="Light" locale="es" localized="Claro"/>
-    <moqui.basic.LocalizedMessage original="LinkedIn" locale="es" localized="LinkedIn"/>
 </entity-facade-xml>

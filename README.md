@@ -24,15 +24,17 @@ Actions use the infinitive (Guardar, Cancelar). The `es` files do not use ordena
 `EsRegional.xml` is a short overlay, not a second catalog:
 
 - `es_ES`: fichero, móvil, and ajustes where the English is Settings. No label in this pass is Computer, so there is no ordenador row.
-- `es_MX`: the same headwords as `es` (archivo, celular, configuración), stated on purpose so the regional file shows the choice.
+- `es_MX` has no rows of its own. archivo, celular, and configuración come from `es`.
 
 These nine originals stay in `framework/data/CommonL10nData.xml` and are not repeated here: Add, Create, Delete, Description, Find, Name, Status, Type, Update.
 
-Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged. A `##` suffix stays on the key. Strings longer than 255 characters cannot be keys.
+A Spanish row is stored only when the text differs from the fallback: the original English, or the `default` template when one exists. A missing row returns that fallback. `es_MX` uses the `es` row.
+
+Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged. A `##` suffix stays on the key when its Spanish differs from the words before `##`. Strings longer than 255 characters cannot be keys.
 
 ## Files
 
-These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use locale `es_ES` and `es_MX`.
+These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use locale `es_ES`.
 
 | File | Contents |
 | --- | --- |
@@ -44,7 +46,7 @@ These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use loca
 | EsToolsApp.xml, EsToolsSystem.xml, EsToolsLlm.xml | Tools screens |
 | EsWebroot.xml | Login and shell |
 | EsExample.xml | Example app |
-| EsRegional.xml | `es_ES` and `es_MX` only |
+| EsRegional.xml | `es_ES` only |
 | EsMantleEnumAccountA.xml, EsMantleEnumAccountB.xml, EsMantleEnumAccountC.xml | Accounting, ledger, payroll, and item-type text |
 | EsMantleEnumWork.xml | Work, project, and request text |
 | EsMantleEnumPartyA.xml, EsMantleEnumPartyB.xml | Party, human resources, and marketing text |

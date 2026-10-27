@@ -105,7 +105,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Return ${returnId}" locale="es" localized="Devolución ${returnId}"/>
     <moqui.basic.LocalizedMessage original="Reverse Of" locale="es" localized="Reverso de"/>
     <moqui.basic.LocalizedMessage original="Reversed By" locale="es" localized="Revertido por"/>
-    <moqui.basic.LocalizedMessage original="Roles" locale="es" localized="Roles"/>
     <moqui.basic.LocalizedMessage original="Root Page Directory" locale="es" localized="Directorio de la página raíz"/>
     <moqui.basic.LocalizedMessage original="Root Page Override" locale="es" localized="Reemplazo de la página raíz"/>
     <moqui.basic.LocalizedMessage original="Root Work Effort ID" locale="es" localized="ID de actividad raíz"/>
@@ -180,7 +179,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="View/Print" locale="es" localized="Ver/imprimir"/>
     <moqui.basic.LocalizedMessage original="Viewing Project: ${rootWorkEffortId}" locale="es" localized="Viendo el proyecto: ${rootWorkEffortId}"/>
     <moqui.basic.LocalizedMessage original="Visibility" locale="es" localized="Visibilidad"/>
-    <moqui.basic.LocalizedMessage original="Wiki" locale="es" localized="Wiki"/>
     <moqui.basic.LocalizedMessage original="Wiki Blog Posts" locale="es" localized="Entradas de blog de Wiki"/>
     <moqui.basic.LocalizedMessage original="Wiki Page" locale="es" localized="Página Wiki"/>
     <moqui.basic.LocalizedMessage original="Wiki Pages" locale="es" localized="Páginas Wiki"/>
@@ -203,6 +201,5 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="letters, digits, [.,'-_:()!? ] only" locale="es" localized="Letras, dígitos y [.,'-_:()!? ] solamente"/>
     <moqui.basic.LocalizedMessage original="letters, digits, [.,-_:()!? ] only" locale="es" localized="Letras, dígitos y [.,-_:()!? ] solamente"/>
     <moqui.basic.LocalizedMessage original="published" locale="es" localized="Publicado"/>
-    <moqui.basic.LocalizedMessage original="runtime/WikiSpace" locale="es" localized="runtime/WikiSpace"/>
     <moqui.basic.LocalizedMessage original="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? 'h' : 'OPEN'} at ${ec.l10n.format(timeEntry.fromDate, '')} by ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}" locale="es" localized="• ${ec.l10n.format(timeEntry.hours, '0.00')}${timeEntry.hours != null ? 'h' : 'OPEN'} el ${ec.l10n.format(timeEntry.fromDate, '')} por ${paua.firstName} ${paua.lastName} ${paua.username ? '(' + paua.username + ')' :''}"/>
 </entity-facade-xml>

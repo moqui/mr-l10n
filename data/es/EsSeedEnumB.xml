@@ -42,7 +42,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Municipality" locale="es" localized="Municipio"/>
     <moqui.basic.LocalizedMessage original="My contacts" locale="es" localized="Mis contactos"/>
     <moqui.basic.LocalizedMessage original="Never" locale="es" localized="Nunca"/>
-    <moqui.basic.LocalizedMessage original="No" locale="es" localized="No"/>
     <moqui.basic.LocalizedMessage original="No Auth" locale="es" localized="Sin autenticación"/>
     <moqui.basic.LocalizedMessage original="None" locale="es" localized="Ninguno"/>
     <moqui.basic.LocalizedMessage original="Not Sent" locale="es" localized="No enviado"/>
@@ -53,10 +52,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Notification Inbox" locale="es" localized="Bandeja de notificaciones"/>
     <moqui.basic.LocalizedMessage original="Notification Reason" locale="es" localized="Motivo de notificación"/>
     <moqui.basic.LocalizedMessage original="Notifications" locale="es" localized="Notificaciones"/>
-    <moqui.basic.LocalizedMessage original="OAuth 2.0" locale="es" localized="OAuth 2.0"/>
     <moqui.basic.LocalizedMessage original="OAuth Client Type" locale="es" localized="Tipo de cliente OAuth"/>
-    <moqui.basic.LocalizedMessage original="OAuth v1.0" locale="es" localized="OAuth v1.0"/>
-    <moqui.basic.LocalizedMessage original="OAuth v2.0" locale="es" localized="OAuth v2.0"/>
     <moqui.basic.LocalizedMessage original="Online" locale="es" localized="En línea"/>
     <moqui.basic.LocalizedMessage original="Open" locale="es" localized="Abierto"/>
     <moqui.basic.LocalizedMessage original="OpenID Connect" locale="es" localized="OpenID Connect (OIDC)"/>

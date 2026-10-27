@@ -168,7 +168,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Shipping Order Charge Markup Percent" locale="es" localized="Porcentaje de recargo del cargo de envío de la orden"/>
     <moqui.basic.LocalizedMessage original="Short Sales Pitch" locale="es" localized="Argumento breve de venta"/>
     <moqui.basic.LocalizedMessage original="Small" locale="es" localized="Pequeño"/>
-    <moqui.basic.LocalizedMessage original="Software" locale="es" localized="Software"/>
     <moqui.basic.LocalizedMessage original="Special Instructions" locale="es" localized="Instrucciones especiales"/>
     <moqui.basic.LocalizedMessage original="Special Promo Price" locale="es" localized="Precio especial de promoción"/>
     <moqui.basic.LocalizedMessage original="Specification" locale="es" localized="Especificación"/>
@@ -202,7 +201,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Tire Replacement" locale="es" localized="Reemplazo de neumáticos"/>
     <moqui.basic.LocalizedMessage original="Tires Rotate" locale="es" localized="Rotación de neumáticos"/>
     <moqui.basic.LocalizedMessage original="Tracking Label Number" locale="es" localized="Número de etiqueta de seguimiento"/>
-    <moqui.basic.LocalizedMessage original="Tractor" locale="es" localized="Tractor"/>
     <moqui.basic.LocalizedMessage original="Trailer" locale="es" localized="Remolque"/>
     <moqui.basic.LocalizedMessage original="Transfer Complete" locale="es" localized="Transferencia completada"/>
     <moqui.basic.LocalizedMessage original="Transfer Complete (Promised)" locale="es" localized="Transferencia completada (prometido)"/>
@@ -211,8 +209,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Trencher" locale="es" localized="Zanjadora"/>
     <moqui.basic.LocalizedMessage original="Truck" locale="es" localized="Camión"/>
     <moqui.basic.LocalizedMessage original="Tune Up" locale="es" localized="Puesta a punto"/>
-    <moqui.basic.LocalizedMessage original="UPC-A" locale="es" localized="UPC-A"/>
-    <moqui.basic.LocalizedMessage original="UPC-E" locale="es" localized="UPC-E"/>
     <moqui.basic.LocalizedMessage original="URL Slug" locale="es" localized="Slug de URL"/>
     <moqui.basic.LocalizedMessage original="Un-Deliver (Available)" locale="es" localized="Anular entrega (disponible)"/>
     <moqui.basic.LocalizedMessage original="Un-Deliver (In Storage)" locale="es" localized="Anular entrega (en almacenamiento)"/>

@@ -37,7 +37,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Optional, max 20 characters" locale="es" localized="Opcional, máximo 20 caracteres"/>
     <moqui.basic.LocalizedMessage original="Org Name" locale="es" localized="Nombre de la org."/>
     <moqui.basic.LocalizedMessage original="Organization Name" locale="es" localized="Nombre de la organización"/>
-    <moqui.basic.LocalizedMessage original="PO #" locale="es" localized="PO #"/>
     <moqui.basic.LocalizedMessage original="Parent Account" locale="es" localized="Cuenta padre"/>
     <moqui.basic.LocalizedMessage original="Parent Sales Account" locale="es" localized="Cuenta de ventas padre"/>
     <moqui.basic.LocalizedMessage original="Party Classification ID" locale="es" localized="ID de clasificación del participante"/>
@@ -69,7 +68,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Pos. Pay Bank Number" locale="es" localized="Número de banco Pos. Pay"/>
     <moqui.basic.LocalizedMessage original="Pos. Pay File Format" locale="es" localized="Formato de archivo Pos. Pay"/>
     <moqui.basic.LocalizedMessage original="Pos. Pay fields for Positive Pay export" locale="es" localized="Campos Pos. Pay para la exportación Positive Pay"/>
-    <moqui.basic.LocalizedMessage original="Postal" locale="es" localized="Postal"/>
     <moqui.basic.LocalizedMessage original="Postal Addresses" locale="es" localized="Direcciones postales"/>
     <moqui.basic.LocalizedMessage original="Postal Code Ext" locale="es" localized="Ext. del código postal"/>
     <moqui.basic.LocalizedMessage original="Postal Contact Mech ID" locale="es" localized="ID de mecanismo de contacto postal"/>
@@ -200,7 +198,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Vendor Rate Amount ID" locale="es" localized="ID de importe de tasa del vendedor"/>
     <moqui.basic.LocalizedMessage original="Vendor/Org" locale="es" localized="Vendedor/organización"/>
     <moqui.basic.LocalizedMessage original="View Message" locale="es" localized="Ver mensaje"/>
-    <moqui.basic.LocalizedMessage original="W: ${vendorInvoiceId}" locale="es" localized="W: ${vendorInvoiceId}"/>
     <moqui.basic.LocalizedMessage original="Web Address" locale="es" localized="Dirección web"/>
     <moqui.basic.LocalizedMessage original="Web Contact Mech ID" locale="es" localized="ID de mecanismo de contacto web"/>
     <moqui.basic.LocalizedMessage original="Web Contact Mech Purpose ID" locale="es" localized="ID de propósito del mecanismo de contacto web"/>

@@ -14,13 +14,11 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="es">
     <moqui.basic.LocalizedMessage original="${assetReservationId} - Res: ${ec.l10n.format(res.quantity, null)}, Not Avail: ${ec.l10n.format(res.quantityNotAvailable, null)}, Not Issued: ${ec.l10n.format(res.quantityNotIssued, null)}" locale="es" localized="${assetReservationId} - Reserva: ${ec.l10n.format(res.quantity, null)}, No disp.: ${ec.l10n.format(res.quantityNotAvailable, null)}, Sin entregar: ${ec.l10n.format(res.quantityNotIssued, null)}"/>
-    <moqui.basic.LocalizedMessage original="${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}" locale="es" localized="${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}"/>
     <moqui.basic.LocalizedMessage original="${ec.l10n.format(needQuantity, '#,##0.##')} (Pick ATP ${ec.l10n.format(pickAtpTotal, '#,##0.##')})" locale="es" localized="${ec.l10n.format(needQuantity, '#,##0.##')} (ATP de surtido ${ec.l10n.format(pickAtpTotal, '#,##0.##')})"/>
     <moqui.basic.LocalizedMessage original="${ec.l10n.format(needQuantity, '#,##0.##')} (Res ${ec.l10n.format(reservedQuantity, '#,##0.##')} - Pick ATP ${ec.l10n.format(pickAtpTotal, '#,##0.##')})" locale="es" localized="${ec.l10n.format(needQuantity, '#,##0.##')} (Res. ${ec.l10n.format(reservedQuantity, '#,##0.##')} - ATP de surtido ${ec.l10n.format(pickAtpTotal, '#,##0.##')})"/>
     <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', '', sid)} (Qty ${ec.l10n.format(sid.quantity || 0, '#.##')})" locale="es" localized="${ec.resource.expand('ProductNameTemplate', '', sid)} (Cant. ${ec.l10n.format(sid.quantity || 0, '#.##')})"/>
     <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', '', sid)} - ${ec.l10n.format(sid.quantityTotal ?? 0, '0.##')} of ${ec.l10n.format(sid.quantity, '0.##')} packed" locale="es" localized="${ec.resource.expand('ProductNameTemplate', '', sid)} - ${ec.l10n.format(sid.quantityTotal ?? 0, '0.##')} de ${ec.l10n.format(sid.quantity, '0.##')} empacados"/>
     <moqui.basic.LocalizedMessage original="${isIncoming ? 'Incoming' : (isOutgoing ? 'Outgoing' : (isTransfer ? 'Transfer' : 'Unknown Type'))} Shipment #${shipmentId}" locale="es" localized="${isIncoming ? 'Incoming' : (isOutgoing ? 'Outgoing' : (isTransfer ? 'Transfer' : 'Unknown Type'))} Envío #${shipmentId}"/>
-    <moqui.basic.LocalizedMessage original="${locationSeqId||'N/A'} - ${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}" locale="es" localized="${locationSeqId||'N/A'} - ${description||''} ${areaId||' '}:${aisleId||' '}:${sectionId||' '}:${levelId||' '}:${positionId||' '} - QOH ${ec.l10n.format(quantityOnHandTotal, '#,##0.##')}"/>
     <moqui.basic.LocalizedMessage original="${validationError.message} (for field ${validationError.fieldPretty})" locale="es" localized="${validationError.message} (para el campo ${validationError.fieldPretty})"/>
     <moqui.basic.LocalizedMessage original="(only if QZ Print setup)" locale="es" localized="(Solo si QZ Print está configurado)"/>
     <moqui.basic.LocalizedMessage original="Active Package ${activePackageAndRouteSeg.shipmentPackageSeqId}" locale="es" localized="Paquete activo ${activePackageAndRouteSeg.shipmentPackageSeqId}"/>
@@ -47,7 +45,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Assembly Task ${shipment.assemblyWorkEffortId}" locale="es" localized="Tarea de ensamblaje ${shipment.assemblyWorkEffortId}"/>
     <moqui.basic.LocalizedMessage original="Asset ${existingRes.assetId}" locale="es" localized="Activo ${existingRes.assetId}"/>
     <moqui.basic.LocalizedMessage original="Asset Allow Issue Over QOH" locale="es" localized="Permitir entregar activo sobre QOH"/>
-    <moqui.basic.LocalizedMessage original="Asset Allow Issue Over Qoh" locale="es" localized="Permitir entregar activo sobre Qoh"/>
     <moqui.basic.LocalizedMessage original="Asset Allow Other Owner" locale="es" localized="Permitir otro propietario del activo"/>
     <moqui.basic.LocalizedMessage original="Asset Inventory Loc Require" locale="es" localized="Exigir ubicación de inventario del activo"/>
     <moqui.basic.LocalizedMessage original="Assets Link" locale="es" localized="Enlace de activos"/>
@@ -87,7 +84,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Days Since Last Track" locale="es" localized="Días desde el último seguimiento"/>
     <moqui.basic.LocalizedMessage original="Days Since Packed" locale="es" localized="Días desde el empaque"/>
     <moqui.basic.LocalizedMessage original="Days To Ship" locale="es" localized="Días para enviar"/>
-    <moqui.basic.LocalizedMessage original="Default Days To Ship" locale="es" localized="Días predeterminados para enviar"/>
     <moqui.basic.LocalizedMessage original="Default Days to Ship" locale="es" localized="Días predeterminados para enviar"/>
     <moqui.basic.LocalizedMessage original="Defaults to 0 (ignored)" locale="es" localized="Predeterminado en 0 (se ignora)"/>
     <moqui.basic.LocalizedMessage original="Defaults to 12, set to 0 to ignore" locale="es" localized="Predeterminado en 12; 0 para ignorar"/>

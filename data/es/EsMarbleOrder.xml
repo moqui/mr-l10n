@@ -134,7 +134,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Monthly on the 1st at 2 AM" locale="es" localized="Mensualmente el día 1 a las 2 a. m."/>
     <moqui.basic.LocalizedMessage original="Multiple lots ${lotIdSet.join(', ')}" locale="es" localized="Varios lotes ${lotIdSet.join(', ')}"/>
     <moqui.basic.LocalizedMessage original="N - On Received" locale="es" localized="N - Al recibirse"/>
-    <moqui.basic.LocalizedMessage original="N/A / ${ec.l10n.format(itemTotalNotBilled, '#,##0.00')}" locale="es" localized="N/A / ${ec.l10n.format(itemTotalNotBilled, '#,##0.00')}"/>
     <moqui.basic.LocalizedMessage original="New Customer" locale="es" localized="Cliente nuevo"/>
     <moqui.basic.LocalizedMessage original="No Customer Selected" locale="es" localized="Ningún cliente seleccionado"/>
     <moqui.basic.LocalizedMessage original="No shipment method selected" locale="es" localized="Ningún método de envío seleccionado"/>
@@ -170,7 +169,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Other Party" locale="es" localized="Otro participante"/>
     <moqui.basic.LocalizedMessage original="Other Party Product ID" locale="es" localized="ID de producto del otro participante"/>
     <moqui.basic.LocalizedMessage original="Other Role" locale="es" localized="Otro rol"/>
-    <moqui.basic.LocalizedMessage original="P: ${refundPaymentId}" locale="es" localized="P: ${refundPaymentId}"/>
     <moqui.basic.LocalizedMessage original="Page Index" locale="es" localized="Índice de página"/>
     <moqui.basic.LocalizedMessage original="Parent Item" locale="es" localized="Artículo padre"/>
     <moqui.basic.LocalizedMessage original="Parent Order" locale="es" localized="Orden padre"/>

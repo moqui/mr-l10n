@@ -24,15 +24,12 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Not yet placed" locale="es" localized="Aún no realizado"/>
     <moqui.basic.LocalizedMessage original="Order Part #" locale="es" localized="Parte de orden #"/>
     <moqui.basic.LocalizedMessage original="Pieces" locale="es" localized="Piezas"/>
-    <moqui.basic.LocalizedMessage original="Pos" locale="es" localized="Pos"/>
     <moqui.basic.LocalizedMessage original="Production Run Picklist" locale="es" localized="Lista de surtido de la corrida de producción"/>
     <moqui.basic.LocalizedMessage original="Purchase Order" locale="es" localized="Orden de compra"/>
     <moqui.basic.LocalizedMessage original="Run #" locale="es" localized="Corrida #"/>
     <moqui.basic.LocalizedMessage original="Sales Order" locale="es" localized="Orden de venta"/>
-    <moqui.basic.LocalizedMessage original="Sec" locale="es" localized="Sec"/>
     <moqui.basic.LocalizedMessage original="Ship To" locale="es" localized="Enviar a"/>
     <moqui.basic.LocalizedMessage original="Signature" locale="es" localized="Firma"/>
     <moqui.basic.LocalizedMessage original="Team Member" locale="es" localized="Miembro del equipo"/>
-    <moqui.basic.LocalizedMessage original="UPC" locale="es" localized="UPC"/>
     <moqui.basic.LocalizedMessage original="Vendor Order #" locale="es" localized="Orden del vendedor #"/>
 </entity-facade-xml>

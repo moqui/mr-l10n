@@ -75,7 +75,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Contact Mechanism Type" locale="es" localized="Tipo de mecanismo de contacto"/>
     <moqui.basic.LocalizedMessage original="Contact/Payment Trust Level" locale="es" localized="Nivel de confianza de contacto/pago"/>
     <moqui.basic.LocalizedMessage original="Contract (1099 only)" locale="es" localized="Contrato (solo 1099)"/>
-    <moqui.basic.LocalizedMessage original="Cookie" locale="es" localized="Cookie"/>
     <moqui.basic.LocalizedMessage original="Correct (Ready)" locale="es" localized="Corregir (listo)"/>
     <moqui.basic.LocalizedMessage original="Customer Assigned" locale="es" localized="Asignado por el cliente"/>
     <moqui.basic.LocalizedMessage original="Customer Service" locale="es" localized="Servicio al cliente"/>
@@ -91,8 +90,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Do Not Withhold" locale="es" localized="No retener"/>
     <moqui.basic.LocalizedMessage original="Double Time" locale="es" localized="Tiempo doble"/>
     <moqui.basic.LocalizedMessage original="Driver License Number" locale="es" localized="Número de licencia de conducir"/>
-    <moqui.basic.LocalizedMessage original="Dun and Bradstreet DUNS" locale="es" localized="Dun and Bradstreet DUNS"/>
-    <moqui.basic.LocalizedMessage original="Dun and Bradstreet DUNS+4" locale="es" localized="Dun and Bradstreet DUNS+4"/>
     <moqui.basic.LocalizedMessage original="EEOC (Equal Opportunity)" locale="es" localized="EEOC (igualdad de oportunidades)"/>
     <moqui.basic.LocalizedMessage original="Earned Leave" locale="es" localized="Licencia devengada"/>
     <moqui.basic.LocalizedMessage original="Electronic Address" locale="es" localized="Dirección electrónica"/>
@@ -122,7 +119,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Finance Management" locale="es" localized="Gestión financiera"/>
     <moqui.basic.LocalizedMessage original="Financial Account" locale="es" localized="Cuenta financiera"/>
     <moqui.basic.LocalizedMessage original="Fired" locale="es" localized="Despedido"/>
-    <moqui.basic.LocalizedMessage original="Fiscal" locale="es" localized="Fiscal"/>
     <moqui.basic.LocalizedMessage original="Foreign Agriculture (H-2A)" locale="es" localized="Agricultura extranjera (H-2A)"/>
     <moqui.basic.LocalizedMessage original="Foreign Driver License" locale="es" localized="Licencia de conducir extranjera"/>
     <moqui.basic.LocalizedMessage original="Foreign General (H-2B)" locale="es" localized="General extranjero (H-2B)"/>
@@ -146,10 +142,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Hourly Rate Type" locale="es" localized="Tipo de tarifa por hora"/>
     <moqui.basic.LocalizedMessage original="Hours Worked" locale="es" localized="Horas trabajadas"/>
     <moqui.basic.LocalizedMessage original="House-Person" locale="es" localized="Persona del hogar"/>
-    <moqui.basic.LocalizedMessage original="I-551" locale="es" localized="I-551"/>
-    <moqui.basic.LocalizedMessage original="I-766" locale="es" localized="I-766"/>
-    <moqui.basic.LocalizedMessage original="I-94" locale="es" localized="I-94"/>
-    <moqui.basic.LocalizedMessage original="I-94A" locale="es" localized="I-94A"/>
     <moqui.basic.LocalizedMessage original="Identity Document" locale="es" localized="Documento de identidad"/>
     <moqui.basic.LocalizedMessage original="Identity Type" locale="es" localized="Tipo de identidad"/>
     <moqui.basic.LocalizedMessage original="Immigrant Admission Number" locale="es" localized="Número de admisión de inmigrante"/>
@@ -158,7 +150,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Incentive Bonus" locale="es" localized="Bonificación por incentivo"/>
     <moqui.basic.LocalizedMessage original="Income Taxable" locale="es" localized="Ingreso gravable"/>
     <moqui.basic.LocalizedMessage original="Indirect (FedEx)" locale="es" localized="Indirecto (FedEx)"/>
-    <moqui.basic.LocalizedMessage original="Internet" locale="es" localized="Internet"/>
     <moqui.basic.LocalizedMessage original="Internet Domain Name" locale="es" localized="Nombre de dominio de Internet"/>
     <moqui.basic.LocalizedMessage original="Internet IP Address" locale="es" localized="Dirección IP de Internet"/>
     <moqui.basic.LocalizedMessage original="Invalid" locale="es" localized="No válido"/>

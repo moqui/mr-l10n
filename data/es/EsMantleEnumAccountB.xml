@@ -37,7 +37,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Incoming Payment" locale="es" localized="Pago entrante"/>
     <moqui.basic.LocalizedMessage original="Incoming Payment Application" locale="es" localized="Aplicación de pago entrante"/>
     <moqui.basic.LocalizedMessage original="Incoming/Payable/Purchase Items" locale="es" localized="Elementos de entrada/por pagar/de compra"/>
-    <moqui.basic.LocalizedMessage original="Incoterm" locale="es" localized="Incoterm"/>
     <moqui.basic.LocalizedMessage original="Incoterm Carriage Paid To" locale="es" localized="Incoterm transporte pagado hasta"/>
     <moqui.basic.LocalizedMessage original="Incoterm Carriage and Insurance Paid to" locale="es" localized="Incoterm transporte y seguro pagados hasta"/>
     <moqui.basic.LocalizedMessage original="Incoterm Cost and Freight" locale="es" localized="Incoterm costo y flete"/>
@@ -124,7 +123,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Manually Freeze" locale="es" localized="Congelar manualmente"/>
     <moqui.basic.LocalizedMessage original="Manually Frozen" locale="es" localized="Congelado manualmente"/>
     <moqui.basic.LocalizedMessage original="Marketing Package Adjustment" locale="es" localized="Ajuste de paquete de marketing"/>
-    <moqui.basic.LocalizedMessage original="Master Card" locale="es" localized="Master Card"/>
     <moqui.basic.LocalizedMessage original="Medical and Health Care" locale="es" localized="Atención médica y de salud"/>
     <moqui.basic.LocalizedMessage original="Medicare Employee" locale="es" localized="Medicare del empleado"/>
     <moqui.basic.LocalizedMessage original="Medicare Employer" locale="es" localized="Medicare del empleador"/>
@@ -157,7 +155,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Non-operating Income" locale="es" localized="Ingreso no operativo"/>
     <moqui.basic.LocalizedMessage original="Nonproductive Earnings" locale="es" localized="Ganancias no productivas"/>
     <moqui.basic.LocalizedMessage original="Not Reconciled" locale="es" localized="No conciliado"/>
-    <moqui.basic.LocalizedMessage original="OFX/QFX" locale="es" localized="OFX/QFX"/>
     <moqui.basic.LocalizedMessage original="Obligation" locale="es" localized="Obligación"/>
     <moqui.basic.LocalizedMessage original="Occupational Privilege Employer" locale="es" localized="Privilegio ocupacional del empleador"/>
     <moqui.basic.LocalizedMessage original="Office Postage" locale="es" localized="Franqueo de oficina"/>

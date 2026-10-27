@@ -52,7 +52,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Endpoint" locale="es" localized="Punto de conexión"/>
     <moqui.basic.LocalizedMessage original="Endpoint ID" locale="es" localized="ID del punto de conexión"/>
     <moqui.basic.LocalizedMessage original="Entities" locale="es" localized="Entidades"/>
-    <moqui.basic.LocalizedMessage original="Entities To Include" locale="es" localized="Entidades por incluir"/>
     <moqui.basic.LocalizedMessage original="Entities To Skip" locale="es" localized="Entidades por omitir"/>
     <moqui.basic.LocalizedMessage original="Entity Alias" locale="es" localized="Alias de la entidad"/>
     <moqui.basic.LocalizedMessage original="Entity Field" locale="es" localized="Campo de la entidad"/>
@@ -159,7 +158,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Fingerprint" locale="es" localized="Huella digital"/>
     <moqui.basic.LocalizedMessage original="Finish Date" locale="es" localized="Fecha de fin"/>
     <moqui.basic.LocalizedMessage original="Finish Reason" locale="es" localized="Motivo de fin"/>
-    <moqui.basic.LocalizedMessage original="First Token Ms" locale="es" localized="Milisegundos hasta el primer token"/>
     <moqui.basic.LocalizedMessage original="Folder Kind Enum ID" locale="es" localized="ID de enumeración del tipo de carpeta"/>
     <moqui.basic.LocalizedMessage original="Folder Name" locale="es" localized="Nombre de la carpeta"/>
     <moqui.basic.LocalizedMessage original="Folder Path" locale="es" localized="Ruta de la carpeta"/>
@@ -273,7 +271,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Instance ID" locale="es" localized="ID de la instancia"/>
     <moqui.basic.LocalizedMessage original="Instance Image ID" locale="es" localized="ID de la imagen de la instancia"/>
     <moqui.basic.LocalizedMessage original="Instance Name" locale="es" localized="Nombre de la instancia"/>
-    <moqui.basic.LocalizedMessage original="Instance Uuid" locale="es" localized="UUID de la instancia"/>
     <moqui.basic.LocalizedMessage original="Instances" locale="es" localized="Instancias"/>
     <moqui.basic.LocalizedMessage original="Instructions" locale="es" localized="Instrucciones"/>
     <moqui.basic.LocalizedMessage original="Instructions Location" locale="es" localized="Ubicación de las instrucciones"/>
@@ -323,7 +320,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Join Optional" locale="es" localized="Unión opcional"/>
     <moqui.basic.LocalizedMessage original="Join Or" locale="es" localized="Combinar con O"/>
     <moqui.basic.LocalizedMessage original="Joined Date" locale="es" localized="Fecha de ingreso"/>
-    <moqui.basic.LocalizedMessage original="Json Config" locale="es" localized="JSON de configuración"/>
     <moqui.basic.LocalizedMessage original="Keep Remove Info Hours" locale="es" localized="Horas de conservación de la eliminación"/>
     <moqui.basic.LocalizedMessage original="Key" locale="es" localized="Clave"/>
     <moqui.basic.LocalizedMessage original="Key Map" locale="es" localized="Mapa de claves"/>

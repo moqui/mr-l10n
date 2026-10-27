@@ -287,8 +287,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Permission ID" locale="es" localized="ID de permiso"/>
     <moqui.basic.LocalizedMessage original="Permissions" locale="es" localized="Permisos"/>
     <moqui.basic.LocalizedMessage original="Phone (for SMS)" locale="es" localized="Teléfono (para SMS)"/>
-    <moqui.basic.LocalizedMessage original="PK 1" locale="es" localized="PK 1"/>
-    <moqui.basic.LocalizedMessage original="PK 2" locale="es" localized="PK 2"/>
     <moqui.basic.LocalizedMessage original="Postal Code: ${visit.clientIpPostalCode}" locale="es" localized="Código postal: ${visit.clientIpPostalCode}"/>
     <moqui.basic.LocalizedMessage original="Pretty Print JSON?" locale="es" localized="¿JSON con formato?"/>
     <moqui.basic.LocalizedMessage original="Primary Entity" locale="es" localized="Entidad principal"/>

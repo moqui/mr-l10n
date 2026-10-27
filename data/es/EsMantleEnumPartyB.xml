@@ -23,8 +23,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Min Wage Adj" locale="es" localized="Ajuste de salario mínimo"/>
     <moqui.basic.LocalizedMessage original="Minority" locale="es" localized="Minoría"/>
     <moqui.basic.LocalizedMessage original="NAICS Code" locale="es" localized="Código NAICS"/>
-    <moqui.basic.LocalizedMessage original="NPT - RRP" locale="es" localized="NPT - RRP"/>
-    <moqui.basic.LocalizedMessage original="NPT - STD" locale="es" localized="NPT - STD"/>
     <moqui.basic.LocalizedMessage original="Native Tribal Document" locale="es" localized="Documento tribal nativo"/>
     <moqui.basic.LocalizedMessage original="New Data" locale="es" localized="Datos nuevos"/>
     <moqui.basic.LocalizedMessage original="Newspaper" locale="es" localized="Periódico"/>
@@ -102,7 +100,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Record Timeline Source" locale="es" localized="Origen de línea de tiempo del registro"/>
     <moqui.basic.LocalizedMessage original="Refer" locale="es" localized="Referir"/>
     <moqui.basic.LocalizedMessage original="Referred" locale="es" localized="Referido"/>
-    <moqui.basic.LocalizedMessage original="Regular" locale="es" localized="Regular"/>
     <moqui.basic.LocalizedMessage original="Representative" locale="es" localized="Representante"/>
     <moqui.basic.LocalizedMessage original="Residence Status" locale="es" localized="Estado de residencia"/>
     <moqui.basic.LocalizedMessage original="Resident Citizen ID Card" locale="es" localized="Tarjeta de ID de ciudadano residente"/>

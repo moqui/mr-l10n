@@ -74,7 +74,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Checkout Success Template - Client" locale="es" localized="Plantilla de éxito de finalización de compra - cliente"/>
     <moqui.basic.LocalizedMessage original="Checkout Template - Client" locale="es" localized="Plantilla de finalización de compra - cliente"/>
     <moqui.basic.LocalizedMessage original="Cleaning" locale="es" localized="Limpieza"/>
-    <moqui.basic.LocalizedMessage original="Compatible" locale="es" localized="Compatible"/>
     <moqui.basic.LocalizedMessage original="Competitive Price" locale="es" localized="Precio competitivo"/>
     <moqui.basic.LocalizedMessage original="Component Price" locale="es" localized="Precio de componente"/>
     <moqui.basic.LocalizedMessage original="Composition" locale="es" localized="Composición"/>
@@ -151,7 +150,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Green" locale="es" localized="Verde"/>
     <moqui.basic.LocalizedMessage original="HTS (Tariff)" locale="es" localized="HTS (arancel)"/>
     <moqui.basic.LocalizedMessage original="HVAC Maintenance" locale="es" localized="Mantenimiento de HVAC"/>
-    <moqui.basic.LocalizedMessage original="Hardware" locale="es" localized="Hardware"/>
     <moqui.basic.LocalizedMessage original="Header Template - Client" locale="es" localized="Plantilla de encabezado - cliente"/>
     <moqui.basic.LocalizedMessage original="Header Template - Server" locale="es" localized="Plantilla de encabezado - servidor"/>
     <moqui.basic.LocalizedMessage original="Home Page (One)" locale="es" localized="Página de inicio (uno)"/>
@@ -173,12 +171,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="In Transfer" locale="es" localized="En traslado"/>
     <moqui.basic.LocalizedMessage original="In Transfer (Promised)" locale="es" localized="En traslado (prometido)"/>
     <moqui.basic.LocalizedMessage original="In Validation" locale="es" localized="En validación"/>
-    <moqui.basic.LocalizedMessage original="Incompatible" locale="es" localized="Incompatible"/>
     <moqui.basic.LocalizedMessage original="Industry" locale="es" localized="Industria"/>
     <moqui.basic.LocalizedMessage original="Ingredients" locale="es" localized="Ingredientes"/>
     <moqui.basic.LocalizedMessage original="Ingredients - Unique" locale="es" localized="Ingredientes - únicos"/>
     <moqui.basic.LocalizedMessage original="Installation" locale="es" localized="Instalación"/>
-    <moqui.basic.LocalizedMessage original="Intangible" locale="es" localized="Intangible"/>
     <moqui.basic.LocalizedMessage original="Integration" locale="es" localized="Integración"/>
     <moqui.basic.LocalizedMessage original="Internal Content" locale="es" localized="Contenido interno"/>
     <moqui.basic.LocalizedMessage original="Inventory - Digital Good" locale="es" localized="Inventario - bien digital"/>
@@ -229,7 +225,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Mis-shipped Item Shipped (-)" locale="es" localized="Artículo del envío mal enviado (-)"/>
     <moqui.basic.LocalizedMessage original="Mix and Match" locale="es" localized="Mezcla y combina"/>
     <moqui.basic.LocalizedMessage original="Model Year" locale="es" localized="Año del modelo"/>
-    <moqui.basic.LocalizedMessage original="Monitor" locale="es" localized="Monitor"/>
     <moqui.basic.LocalizedMessage original="Morgue" locale="es" localized="Baja"/>
     <moqui.basic.LocalizedMessage original="Net Weight" locale="es" localized="Peso neto"/>
     <moqui.basic.LocalizedMessage original="New Products (One)" locale="es" localized="Productos nuevos (uno)"/>

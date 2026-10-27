@@ -23,7 +23,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="% of Assets" locale="es" localized="% de activos"/>
     <moqui.basic.LocalizedMessage original="% of Revenue" locale="es" localized="% de ingresos"/>
     <moqui.basic.LocalizedMessage original="% of Sales" locale="es" localized="% de ventas"/>
-    <moqui.basic.LocalizedMessage original="&amp;nbsp;" locale="es" localized="&amp;nbsp;"/>
     <moqui.basic.LocalizedMessage original="0 - ${periodDays} days" locale="es" localized="0 - ${periodDays} días"/>
     <moqui.basic.LocalizedMessage original="&gt; ${periodDays*3} days" locale="es" localized="&gt; ${periodDays*3} días"/>
     <moqui.basic.LocalizedMessage original="&gt; ${periodDays*4} days" locale="es" localized="&gt; ${periodDays*4} días"/>
@@ -73,7 +72,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Adjustment Item Date" locale="es" localized="Fecha del elemento de ajuste"/>
     <moqui.basic.LocalizedMessage original="Adjustments" locale="es" localized="Ajustes"/>
     <moqui.basic.LocalizedMessage original="Age By" locale="es" localized="Antigüedad por"/>
-    <moqui.basic.LocalizedMessage original="Age By##Invoice" locale="es" localized="Antigüedad por"/>
     <moqui.basic.LocalizedMessage original="Aging" locale="es" localized="Antigüedad"/>
     <moqui.basic.LocalizedMessage original="Aging - GL Difference" locale="es" localized="Antigüedad - diferencia GL"/>
     <moqui.basic.LocalizedMessage original="Aging Detail" locale="es" localized="Detalle de antigüedad"/>
@@ -97,7 +95,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Apply Item" locale="es" localized="Aplicar elemento"/>
     <moqui.basic.LocalizedMessage original="April" locale="es" localized="Abril"/>
     <moqui.basic.LocalizedMessage original="Are you sure? This will enable GL posting for this organization." locale="es" localized="¿Está seguro? Esto habilitará la contabilización GL para esta organización."/>
-    <moqui.basic.LocalizedMessage original="As Of Date" locale="es" localized="Fecha de corte"/>
     <moqui.basic.LocalizedMessage original="As of Date" locale="es" localized="Fecha de corte"/>
     <moqui.basic.LocalizedMessage original="As of Date ${ec.l10n.format(asOfDate, '')} Look Back Date ${ec.l10n.format(lookBackDate, '')}" locale="es" localized="Fecha de corte ${ec.l10n.format(asOfDate, '')} fecha de retroceso ${ec.l10n.format(lookBackDate, '')}"/>
     <moqui.basic.LocalizedMessage original="Asset Account" locale="es" localized="Cuenta contable del activo"/>
@@ -149,7 +146,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Budget Year" locale="es" localized="Año del presupuesto"/>
     <moqui.basic.LocalizedMessage original="Budgets" locale="es" localized="Presupuestos"/>
     <moqui.basic.LocalizedMessage original="Bulk Checks" locale="es" localized="Cheques en lote"/>
-    <moqui.basic.LocalizedMessage original="C/D" locale="es" localized="C/D"/>
     <moqui.basic.LocalizedMessage original="Calculated Retained Earnings" locale="es" localized="Utilidades retenidas calculadas"/>
     <moqui.basic.LocalizedMessage original="Cancel Invoice and Payments" locale="es" localized="Cancelar factura y pagos"/>
     <moqui.basic.LocalizedMessage original="Cancel Payment and Invoices" locale="es" localized="Cancelar pago y facturas"/>
@@ -161,7 +157,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Check Num" locale="es" localized="Número de cheque"/>
     <moqui.basic.LocalizedMessage original="Check PDF" locale="es" localized="PDF del cheque"/>
     <moqui.basic.LocalizedMessage original="Checks PDF" locale="es" localized="PDF de cheques"/>
-    <moqui.basic.LocalizedMessage original="Checks Pdf" locale="es" localized="PDF de cheques"/>
     <moqui.basic.LocalizedMessage original="Child Org Periods" locale="es" localized="Periodos de organizaciones hijas"/>
     <moqui.basic.LocalizedMessage original="Child Periods" locale="es" localized="Periodos hijos"/>
     <moqui.basic.LocalizedMessage original="Class + Subs" locale="es" localized="Clase + subclases"/>
@@ -216,7 +211,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Dest Facility" locale="es" localized="Instalación de destino"/>
     <moqui.basic.LocalizedMessage original="Detail PDF" locale="es" localized="PDF de detalle"/>
     <moqui.basic.LocalizedMessage original="Details PDF" locale="es" localized="PDF de detalles"/>
-    <moqui.basic.LocalizedMessage original="Details Pdf" locale="es" localized="PDF de detalles"/>
     <moqui.basic.LocalizedMessage original="Diff" locale="es" localized="Dif."/>
     <moqui.basic.LocalizedMessage original="Difference" locale="es" localized="Diferencia"/>
     <moqui.basic.LocalizedMessage original="Direction" locale="es" localized="Dirección"/>

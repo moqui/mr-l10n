@@ -16,7 +16,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="125*Compy. Contr Other Premium" locale="es" localized="125*Aporte de la empresa, otra prima"/>
     <moqui.basic.LocalizedMessage original="125*HSA Contribution" locale="es" localized="125*Aporte a HSA"/>
     <moqui.basic.LocalizedMessage original="125*HSA Contribution (pre tax)" locale="es" localized="125*Aporte a HSA (antes de impuestos)"/>
-    <moqui.basic.LocalizedMessage original="125*PPO" locale="es" localized="125*PPO"/>
     <moqui.basic.LocalizedMessage original="125*PPO (pre tax)" locale="es" localized="125*PPO (antes de impuestos)"/>
     <moqui.basic.LocalizedMessage original="401K Employer" locale="es" localized="401K del empleador"/>
     <moqui.basic.LocalizedMessage original="ACH Direct" locale="es" localized="ACH directo"/>
@@ -50,9 +49,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Agreement Termination" locale="es" localized="Terminación del acuerdo"/>
     <moqui.basic.LocalizedMessage original="Allowance For Bad Debts" locale="es" localized="Provisión para deudas incobrables"/>
     <moqui.basic.LocalizedMessage original="Allowance for Bad Receivables" locale="es" localized="Provisión para cuentas por cobrar incobrables"/>
-    <moqui.basic.LocalizedMessage original="Amazon Pay" locale="es" localized="Amazon Pay"/>
     <moqui.basic.LocalizedMessage original="Amazon Pay Account" locale="es" localized="Cuenta de Amazon Pay"/>
-    <moqui.basic.LocalizedMessage original="American Express" locale="es" localized="American Express"/>
     <moqui.basic.LocalizedMessage original="Amortization" locale="es" localized="Amortización"/>
     <moqui.basic.LocalizedMessage original="Asset - Fixed Asset" locale="es" localized="Activo - activo fijo"/>
     <moqui.basic.LocalizedMessage original="Asset - Inventory" locale="es" localized="Activo - inventario"/>
@@ -64,11 +61,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Authorize and Capture" locale="es" localized="Autorizar y capturar"/>
     <moqui.basic.LocalizedMessage original="Authorized" locale="es" localized="Autorizado"/>
     <moqui.basic.LocalizedMessage original="Automatic Replenish" locale="es" localized="Reposición automática"/>
-    <moqui.basic.LocalizedMessage original="BAI 2" locale="es" localized="BAI 2"/>
     <moqui.basic.LocalizedMessage original="Bad Debt Expense" locale="es" localized="Gasto por deudas incobrables"/>
     <moqui.basic.LocalizedMessage original="Bank Account" locale="es" localized="Cuenta bancaria"/>
     <moqui.basic.LocalizedMessage original="Bank Account Type" locale="es" localized="Tipo de cuenta bancaria"/>
-    <moqui.basic.LocalizedMessage original="Bank of America AR PNV" locale="es" localized="Bank of America AR PNV"/>
     <moqui.basic.LocalizedMessage original="Banking Service Charges" locale="es" localized="Cargos por servicios bancarios"/>
     <moqui.basic.LocalizedMessage original="Bill Through" locale="es" localized="Facturar a través"/>
     <moqui.basic.LocalizedMessage original="Billed Through" locale="es" localized="Facturado a través"/>
@@ -84,7 +79,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Budget Type" locale="es" localized="Tipo de presupuesto"/>
     <moqui.basic.LocalizedMessage original="COGS - Average Cost Adjustment" locale="es" localized="Costo de mercancías vendidas - ajuste del costo promedio"/>
     <moqui.basic.LocalizedMessage original="COGS Method" locale="es" localized="Método de costo de mercancías vendidas"/>
-    <moqui.basic.LocalizedMessage original="Capital" locale="es" localized="Capital"/>
     <moqui.basic.LocalizedMessage original="Capitalization" locale="es" localized="Capitalización"/>
     <moqui.basic.LocalizedMessage original="Capture" locale="es" localized="Capturar"/>
     <moqui.basic.LocalizedMessage original="Cash" locale="es" localized="Efectivo"/>
@@ -99,7 +93,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Charity Donation" locale="es" localized="Donación benéfica"/>
     <moqui.basic.LocalizedMessage original="Check Image" locale="es" localized="Imagen del cheque"/>
     <moqui.basic.LocalizedMessage original="Child Support Garnishment" locale="es" localized="Embargo por pensión alimenticia"/>
-    <moqui.basic.LocalizedMessage original="City Bank CNB" locale="es" localized="City Bank CNB"/>
     <moqui.basic.LocalizedMessage original="Clause For Renewal" locale="es" localized="Cláusula de renovación"/>
     <moqui.basic.LocalizedMessage original="Collection Agent" locale="es" localized="Agente de recaudación"/>
     <moqui.basic.LocalizedMessage original="Commission" locale="es" localized="Comisión"/>
@@ -162,7 +155,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Discount - Supplier" locale="es" localized="Descuento - proveedor"/>
     <moqui.basic.LocalizedMessage original="Discounts" locale="es" localized="Descuentos"/>
     <moqui.basic.LocalizedMessage original="Discounts and Write-downs" locale="es" localized="Descuentos y rebajas"/>
-    <moqui.basic.LocalizedMessage original="Discover" locale="es" localized="Discover"/>
     <moqui.basic.LocalizedMessage original="Discretionary" locale="es" localized="Discrecional"/>
     <moqui.basic.LocalizedMessage original="Dividend" locale="es" localized="Dividendo"/>
     <moqui.basic.LocalizedMessage original="Dividends" locale="es" localized="Dividendos"/>

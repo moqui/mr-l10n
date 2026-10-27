@@ -48,7 +48,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="All Day" locale="es" localized="Todo el día"/>
     <moqui.basic.LocalizedMessage original="All Notifications" locale="es" localized="Todas las notificaciones"/>
     <moqui.basic.LocalizedMessage original="Allow Admin" locale="es" localized="Permitir administrar"/>
-    <moqui.basic.LocalizedMessage original="Allow Any Html" locale="es" localized="Permitir cualquier HTML"/>
     <moqui.basic.LocalizedMessage original="Allow Delete" locale="es" localized="Permitir eliminar"/>
     <moqui.basic.LocalizedMessage original="Allow Destructive" locale="es" localized="Permitir acciones destructivas"/>
     <moqui.basic.LocalizedMessage original="Allow Force Push" locale="es" localized="Permitir push forzado"/>
@@ -66,7 +65,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Answer Json" locale="es" localized="JSON de respuesta"/>
     <moqui.basic.LocalizedMessage original="Answered Date" locale="es" localized="Fecha de respuesta"/>
     <moqui.basic.LocalizedMessage original="Api Config Json" locale="es" localized="JSON de configuración de API"/>
-    <moqui.basic.LocalizedMessage original="Api Key" locale="es" localized="Clave de API"/>
     <moqui.basic.LocalizedMessage original="App Instance ID" locale="es" localized="ID de instancia de aplicación"/>
     <moqui.basic.LocalizedMessage original="App List" locale="es" localized="Lista de aplicaciones"/>
     <moqui.basic.LocalizedMessage original="App Name" locale="es" localized="Nombre de la aplicación"/>
@@ -140,7 +138,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Base Filename" locale="es" localized="Nombre de archivo base"/>
     <moqui.basic.LocalizedMessage original="Base Text Hash" locale="es" localized="Hash del texto base"/>
     <moqui.basic.LocalizedMessage original="Base Uri" locale="es" localized="URI base"/>
-    <moqui.basic.LocalizedMessage original="Base Url" locale="es" localized="URL base"/>
     <moqui.basic.LocalizedMessage original="Base Version Name" locale="es" localized="Nombre de versión base"/>
     <moqui.basic.LocalizedMessage original="Batch Seconds" locale="es" localized="Segundos del lote"/>
     <moqui.basic.LocalizedMessage original="Batch Size" locale="es" localized="Tamaño del lote"/>
@@ -166,7 +163,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Call Count" locale="es" localized="Cantidad de llamadas"/>
     <moqui.basic.LocalizedMessage original="Call ID" locale="es" localized="ID de llamada"/>
     <moqui.basic.LocalizedMessage original="Calls" locale="es" localized="Llamadas"/>
-    <moqui.basic.LocalizedMessage original="Calls Per Run" locale="es" localized="Llamadas por ejecución"/>
     <moqui.basic.LocalizedMessage original="Calls Per Second" locale="es" localized="Llamadas por segundo"/>
     <moqui.basic.LocalizedMessage original="Cancel Requested" locale="es" localized="Cancelación solicitada"/>
     <moqui.basic.LocalizedMessage original="Canvas Dialects" locale="es" localized="Dialectos de lienzo"/>
@@ -175,7 +171,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Caps Text" locale="es" localized="Texto de capacidades"/>
     <moqui.basic.LocalizedMessage original="Card Json" locale="es" localized="JSON de tarjeta"/>
     <moqui.basic.LocalizedMessage original="Card Read Date" locale="es" localized="Fecha de lectura de la tarjeta"/>
-    <moqui.basic.LocalizedMessage original="Card Url" locale="es" localized="URL de la tarjeta"/>
     <moqui.basic.LocalizedMessage original="Cardinality" locale="es" localized="Cardinalidad"/>
     <moqui.basic.LocalizedMessage original="Catalog Size" locale="es" localized="Tamaño del catálogo"/>
     <moqui.basic.LocalizedMessage original="Catalog Tool Name" locale="es" localized="Nombre de herramienta del catálogo"/>

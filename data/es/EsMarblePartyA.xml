@@ -167,7 +167,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Find Accounts" locale="es" localized="Buscar cuentas"/>
     <moqui.basic.LocalizedMessage original="Find Party ID" locale="es" localized="ID de participante a buscar"/>
     <moqui.basic.LocalizedMessage original="First Name" locale="es" localized="Nombre"/>
-    <moqui.basic.LocalizedMessage original="Fit ID" locale="es" localized="ID Fit"/>
     <moqui.basic.LocalizedMessage original="From ${ec.resource.expand('PartyNameTemplate', null, pmtFromParty)}" locale="es" localized="De ${ec.resource.expand('PartyNameTemplate', null, pmtFromParty)}"/>
     <moqui.basic.LocalizedMessage original="From ${ec.resource.expand('PartyNameTemplate','',fromParty)}," locale="es" localized="De ${ec.resource.expand('PartyNameTemplate','',fromParty)},"/>
     <moqui.basic.LocalizedMessage original="From Party ID" locale="es" localized="ID del participante de origen"/>

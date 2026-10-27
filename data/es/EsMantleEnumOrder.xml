@@ -37,7 +37,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Addenda Error" locale="es" localized="Error de addenda"/>
     <moqui.basic.LocalizedMessage original="Addenda Format Error" locale="es" localized="Error de formato de addenda"/>
     <moqui.basic.LocalizedMessage original="Affiliate" locale="es" localized="Afiliado"/>
-    <moqui.basic.LocalizedMessage original="Amazon" locale="es" localized="Amazon"/>
     <moqui.basic.LocalizedMessage original="Amount Field Error" locale="es" localized="Error en el campo de importe"/>
     <moqui.basic.LocalizedMessage original="Approve (un-complete)" locale="es" localized="Aprobar (anular finalización)"/>
     <moqui.basic.LocalizedMessage original="Approve (un-send)" locale="es" localized="Aprobar (anular envío)"/>
@@ -81,7 +80,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Entry Not Processed by Gateway" locale="es" localized="Entrada no procesada por la puerta de enlace"/>
     <moqui.basic.LocalizedMessage original="Existing Customer" locale="es" localized="Cliente existente"/>
     <moqui.basic.LocalizedMessage original="Failure" locale="es" localized="Fallo"/>
-    <moqui.basic.LocalizedMessage original="Fax" locale="es" localized="Fax"/>
     <moqui.basic.LocalizedMessage original="Field Error(s)" locale="es" localized="Error(es) de campo"/>
     <moqui.basic.LocalizedMessage original="File Record Edit Criteria" locale="es" localized="Criterios de edición del registro de archivo"/>
     <moqui.basic.LocalizedMessage original="Fixed" locale="es" localized="Corregido"/>
@@ -136,7 +134,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Local Shipping Gateway" locale="es" localized="Puerta de enlace de envío local"/>
     <moqui.basic.LocalizedMessage original="Make Open/Tentative" locale="es" localized="Dejar abierto/tentativo"/>
     <moqui.basic.LocalizedMessage original="Mandatory Field Error" locale="es" localized="Error en campo obligatorio"/>
-    <moqui.basic.LocalizedMessage original="Manual" locale="es" localized="Manual"/>
     <moqui.basic.LocalizedMessage original="Manual Response" locale="es" localized="Responder manualmente"/>
     <moqui.basic.LocalizedMessage original="Manual Response Required" locale="es" localized="Respuesta manual requerida"/>
     <moqui.basic.LocalizedMessage original="Manually Cancelled" locale="es" localized="Cancelado manualmente"/>
@@ -262,7 +259,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="User Defined" locale="es" localized="Definido por el usuario"/>
     <moqui.basic.LocalizedMessage original="Void" locale="es" localized="Anular"/>
     <moqui.basic.LocalizedMessage original="Voided" locale="es" localized="Anulado"/>
-    <moqui.basic.LocalizedMessage original="Web" locale="es" localized="Web"/>
     <moqui.basic.LocalizedMessage original="Web External" locale="es" localized="Web externa"/>
     <moqui.basic.LocalizedMessage original="Web Site" locale="es" localized="Sitio web"/>
     <moqui.basic.LocalizedMessage original="Wish List" locale="es" localized="Lista de deseos"/>

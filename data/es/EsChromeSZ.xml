@@ -195,7 +195,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Table Name" locale="es" localized="Nombre de la tabla"/>
     <moqui.basic.LocalizedMessage original="Table Stats" locale="es" localized="Estadísticas de la tabla"/>
     <moqui.basic.LocalizedMessage original="Tag ID" locale="es" localized="ID de etiqueta"/>
-    <moqui.basic.LocalizedMessage original="Tag Name" locale="es" localized="Nombre de la etiqueta"/>
     <moqui.basic.LocalizedMessage original="Target Kind" locale="es" localized="Clase de destino"/>
     <moqui.basic.LocalizedMessage original="Target Name" locale="es" localized="Nombre del destino"/>
     <moqui.basic.LocalizedMessage original="Target Password" locale="es" localized="Contraseña de destino"/>
@@ -336,7 +335,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Version" locale="es" localized="Versión"/>
     <moqui.basic.LocalizedMessage original="Version Date" locale="es" localized="Fecha de la versión"/>
     <moqui.basic.LocalizedMessage original="Version Name" locale="es" localized="Nombre de la versión"/>
-    <moqui.basic.LocalizedMessage original="Version Note" locale="es" localized="Nota de la versión"/>
     <moqui.basic.LocalizedMessage original="Version Num" locale="es" localized="Número de versión"/>
     <moqui.basic.LocalizedMessage original="View Document" locale="es" localized="Ver documento"/>
     <moqui.basic.LocalizedMessage original="View Entities" locale="es" localized="Entidades de vista"/>

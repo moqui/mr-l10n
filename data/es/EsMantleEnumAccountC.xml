@@ -21,7 +21,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Piece Or Hourly Earnings" locale="es" localized="Ingresos por pieza u hora"/>
     <moqui.basic.LocalizedMessage original="Piece Plus Hourly Earnings" locale="es" localized="Ingresos por pieza más por hora"/>
     <moqui.basic.LocalizedMessage original="Piecework Earnings" locale="es" localized="Ingresos a destajo"/>
-    <moqui.basic.LocalizedMessage original="Plan" locale="es" localized="Plan"/>
     <moqui.basic.LocalizedMessage original="Point of sale debit or credit" locale="es" localized="Débito o crédito de punto de venta"/>
     <moqui.basic.LocalizedMessage original="Positive Pay File" locale="es" localized="Archivo Positive Pay"/>
     <moqui.basic.LocalizedMessage original="Pre Payment - Expense" locale="es" localized="Pago anticipado - gasto"/>
@@ -110,7 +109,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="State Workers' Comp Insurance Employer" locale="es" localized="Seguro de compensación laboral estatal del empleador"/>
     <moqui.basic.LocalizedMessage original="State/Province" locale="es" localized="Estado/provincia"/>
     <moqui.basic.LocalizedMessage original="Store CIM Profile" locale="es" localized="Guardar perfil CIM"/>
-    <moqui.basic.LocalizedMessage original="SunTrust CPR" locale="es" localized="SunTrust CPR"/>
     <moqui.basic.LocalizedMessage original="Supplier - General" locale="es" localized="Proveedor - general"/>
     <moqui.basic.LocalizedMessage original="Supplier Credit Memo" locale="es" localized="Nota de crédito del proveedor"/>
     <moqui.basic.LocalizedMessage original="Supplier Deposits" locale="es" localized="Depósitos del proveedor"/>
@@ -159,7 +157,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Travel Other" locale="es" localized="Otros de viaje"/>
     <moqui.basic.LocalizedMessage original="Travel and Entertainment" locale="es" localized="Viajes y entretenimiento"/>
     <moqui.basic.LocalizedMessage original="Treasury Stock" locale="es" localized="Acciones en tesorería"/>
-    <moqui.basic.LocalizedMessage original="US GAAP" locale="es" localized="US GAAP"/>
     <moqui.basic.LocalizedMessage original="US IRS Agriculture (943)" locale="es" localized="EE. UU. IRS agricultura (943)"/>
     <moqui.basic.LocalizedMessage original="US IRS CT-1" locale="es" localized="EE. UU. IRS CT-1"/>
     <moqui.basic.LocalizedMessage original="US IRS Form 1040" locale="es" localized="EE. UU. IRS formulario 1040"/>
@@ -215,17 +212,13 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Vacation Salary" locale="es" localized="Salario de vacaciones"/>
     <moqui.basic.LocalizedMessage original="Validate Authorize" locale="es" localized="Validar y autorizar"/>
     <moqui.basic.LocalizedMessage original="Vehicle Expense" locale="es" localized="Gasto de vehículo"/>
-    <moqui.basic.LocalizedMessage original="Visa" locale="es" localized="Visa"/>
     <moqui.basic.LocalizedMessage original="WIP Inventory" locale="es" localized="Inventario en proceso"/>
-    <moqui.basic.LocalizedMessage original="Wachovia AR" locale="es" localized="Wachovia AR"/>
     <moqui.basic.LocalizedMessage original="Wage Garnishment" locale="es" localized="Embargo de salario"/>
     <moqui.basic.LocalizedMessage original="Warranty" locale="es" localized="Garantía"/>
-    <moqui.basic.LocalizedMessage original="Wells Fargo ARP" locale="es" localized="Wells Fargo ARP"/>
     <moqui.basic.LocalizedMessage original="Wire Transfer" locale="es" localized="Transferencia bancaria"/>
     <moqui.basic.LocalizedMessage original="Work Effort" locale="es" localized="Actividad"/>
     <moqui.basic.LocalizedMessage original="Write Off" locale="es" localized="Dar de baja"/>
     <moqui.basic.LocalizedMessage original="Write-off" locale="es" localized="Baja"/>
     <moqui.basic.LocalizedMessage original="ZBA Credit Transfer" locale="es" localized="Transferencia de crédito ZBA"/>
     <moqui.basic.LocalizedMessage original="ZBA Debit Transfer" locale="es" localized="Transferencia de débito ZBA"/>
-    <moqui.basic.LocalizedMessage original="Zions Bank CSV" locale="es" localized="Zions Bank CSV"/>
 </entity-facade-xml>

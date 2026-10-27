@@ -14,7 +14,7 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 
 <entity-facade-xml type="es">
-    <!-- es_ES is the small regional overlay. es_MX restates the neutral headwords. -->
+    <!-- es_ES is the small regional overlay. es_MX uses the es rows. -->
     <moqui.basic.LocalizedMessage original="Archetype 3.9 Settings" locale="es_ES" localized="Ajustes del arquetipo 3.9"/>
     <moqui.basic.LocalizedMessage original="Current Snapshot Files" locale="es_ES" localized="Ficheros de instantánea actuales"/>
     <moqui.basic.LocalizedMessage original="File" locale="es_ES" localized="Fichero"/>
@@ -43,9 +43,4 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Sync Files" locale="es_ES" localized="Sincronizar ficheros"/>
     <moqui.basic.LocalizedMessage original="That is not a file name" locale="es_ES" localized="Eso no es un nombre de fichero"/>
     <moqui.basic.LocalizedMessage original="You may not change this file" locale="es_ES" localized="No se puede cambiar este fichero"/>
-    <moqui.basic.LocalizedMessage original="Email" locale="es_MX" localized="Correo electrónico"/>
-    <moqui.basic.LocalizedMessage original="File" locale="es_MX" localized="Archivo"/>
-    <moqui.basic.LocalizedMessage original="Files" locale="es_MX" localized="Archivos"/>
-    <moqui.basic.LocalizedMessage original="Mobile" locale="es_MX" localized="Celular"/>
-    <moqui.basic.LocalizedMessage original="Settings" locale="es_MX" localized="Configuración"/>
 </entity-facade-xml>

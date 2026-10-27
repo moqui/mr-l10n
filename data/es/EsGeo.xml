@@ -14,73 +14,48 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="es">
     <moqui.basic.LocalizedMessage original="Afghanistan" locale="es" localized="Afganistán"/>
-    <moqui.basic.LocalizedMessage original="Albania" locale="es" localized="Albania"/>
     <moqui.basic.LocalizedMessage original="Algeria" locale="es" localized="Argelia"/>
     <moqui.basic.LocalizedMessage original="American Samoa" locale="es" localized="Samoa Americana"/>
-    <moqui.basic.LocalizedMessage original="Andorra" locale="es" localized="Andorra"/>
-    <moqui.basic.LocalizedMessage original="Angola" locale="es" localized="Angola"/>
     <moqui.basic.LocalizedMessage original="Anguilla" locale="es" localized="Anguila"/>
     <moqui.basic.LocalizedMessage original="Antarctica" locale="es" localized="Antártida"/>
     <moqui.basic.LocalizedMessage original="Antigua And Barbuda" locale="es" localized="Antigua y Barbuda"/>
-    <moqui.basic.LocalizedMessage original="Argentina" locale="es" localized="Argentina"/>
-    <moqui.basic.LocalizedMessage original="Armenia" locale="es" localized="Armenia"/>
-    <moqui.basic.LocalizedMessage original="Aruba" locale="es" localized="Aruba"/>
-    <moqui.basic.LocalizedMessage original="Australia" locale="es" localized="Australia"/>
-    <moqui.basic.LocalizedMessage original="Austria" locale="es" localized="Austria"/>
     <moqui.basic.LocalizedMessage original="Azerbaijan" locale="es" localized="Azerbaiyán"/>
-    <moqui.basic.LocalizedMessage original="Bahamas" locale="es" localized="Bahamas"/>
     <moqui.basic.LocalizedMessage original="Bahrain" locale="es" localized="Baréin"/>
     <moqui.basic.LocalizedMessage original="Bangladesh" locale="es" localized="Bangladés"/>
-    <moqui.basic.LocalizedMessage original="Barbados" locale="es" localized="Barbados"/>
     <moqui.basic.LocalizedMessage original="Belarus" locale="es" localized="Bielorrusia"/>
     <moqui.basic.LocalizedMessage original="Belgium" locale="es" localized="Bélgica"/>
     <moqui.basic.LocalizedMessage original="Belize" locale="es" localized="Belice"/>
     <moqui.basic.LocalizedMessage original="Benin" locale="es" localized="Benín"/>
     <moqui.basic.LocalizedMessage original="Bermuda" locale="es" localized="Bermudas"/>
     <moqui.basic.LocalizedMessage original="Bhutan" locale="es" localized="Bután"/>
-    <moqui.basic.LocalizedMessage original="Bolivia" locale="es" localized="Bolivia"/>
     <moqui.basic.LocalizedMessage original="Bosnia And Herzegowina" locale="es" localized="Bosnia y Herzegovina"/>
     <moqui.basic.LocalizedMessage original="Botswana" locale="es" localized="Botsuana"/>
     <moqui.basic.LocalizedMessage original="Bouvet Island" locale="es" localized="Isla Bouvet"/>
     <moqui.basic.LocalizedMessage original="Brazil" locale="es" localized="Brasil"/>
     <moqui.basic.LocalizedMessage original="British Indian Ocean Territory" locale="es" localized="Territorio Británico del Océano Índico"/>
     <moqui.basic.LocalizedMessage original="Brunei Darussalam" locale="es" localized="Brunéi Darussalam"/>
-    <moqui.basic.LocalizedMessage original="Bulgaria" locale="es" localized="Bulgaria"/>
-    <moqui.basic.LocalizedMessage original="Burkina Faso" locale="es" localized="Burkina Faso"/>
-    <moqui.basic.LocalizedMessage original="Burundi" locale="es" localized="Burundi"/>
     <moqui.basic.LocalizedMessage original="Cambodia" locale="es" localized="Camboya"/>
     <moqui.basic.LocalizedMessage original="Cameroon" locale="es" localized="Camerún"/>
     <moqui.basic.LocalizedMessage original="Canada" locale="es" localized="Canadá"/>
     <moqui.basic.LocalizedMessage original="Cape Verde" locale="es" localized="Cabo Verde"/>
     <moqui.basic.LocalizedMessage original="Cayman Islands" locale="es" localized="Islas Caimán"/>
     <moqui.basic.LocalizedMessage original="Central African Republic" locale="es" localized="República Centroafricana"/>
-    <moqui.basic.LocalizedMessage original="Chad" locale="es" localized="Chad"/>
-    <moqui.basic.LocalizedMessage original="Chile" locale="es" localized="Chile"/>
-    <moqui.basic.LocalizedMessage original="China" locale="es" localized="China"/>
     <moqui.basic.LocalizedMessage original="Christmas Island" locale="es" localized="Isla de Navidad"/>
     <moqui.basic.LocalizedMessage original="Cocos (keeling) Islands" locale="es" localized="Islas Cocos (Keeling)"/>
-    <moqui.basic.LocalizedMessage original="Colombia" locale="es" localized="Colombia"/>
     <moqui.basic.LocalizedMessage original="Comoros" locale="es" localized="Comoras"/>
     <moqui.basic.LocalizedMessage original="Congo" locale="es" localized="República del Congo"/>
     <moqui.basic.LocalizedMessage original="Congo, The Democratic Republic Of The" locale="es" localized="República Democrática del Congo"/>
     <moqui.basic.LocalizedMessage original="Cook Islands" locale="es" localized="Islas Cook"/>
-    <moqui.basic.LocalizedMessage original="Costa Rica" locale="es" localized="Costa Rica"/>
     <moqui.basic.LocalizedMessage original="Cote D&apos;ivoire" locale="es" localized="Costa de Marfil"/>
     <moqui.basic.LocalizedMessage original="Croatia (local Name: Hrvatska)" locale="es" localized="Croacia (nombre local: Hrvatska)"/>
-    <moqui.basic.LocalizedMessage original="Cuba" locale="es" localized="Cuba"/>
     <moqui.basic.LocalizedMessage original="Cyprus" locale="es" localized="Chipre"/>
     <moqui.basic.LocalizedMessage original="Czech Republic" locale="es" localized="República Checa"/>
     <moqui.basic.LocalizedMessage original="Denmark" locale="es" localized="Dinamarca"/>
     <moqui.basic.LocalizedMessage original="Djibouti" locale="es" localized="Yibuti"/>
-    <moqui.basic.LocalizedMessage original="Dominica" locale="es" localized="Dominica"/>
     <moqui.basic.LocalizedMessage original="Dominican Republic" locale="es" localized="República Dominicana"/>
     <moqui.basic.LocalizedMessage original="East Timor" locale="es" localized="Timor Oriental"/>
-    <moqui.basic.LocalizedMessage original="Ecuador" locale="es" localized="Ecuador"/>
     <moqui.basic.LocalizedMessage original="Egypt" locale="es" localized="Egipto"/>
-    <moqui.basic.LocalizedMessage original="El Salvador" locale="es" localized="El Salvador"/>
     <moqui.basic.LocalizedMessage original="Equatorial Guinea" locale="es" localized="Guinea Ecuatorial"/>
-    <moqui.basic.LocalizedMessage original="Eritrea" locale="es" localized="Eritrea"/>
-    <moqui.basic.LocalizedMessage original="Estonia" locale="es" localized="Estonia"/>
     <moqui.basic.LocalizedMessage original="Ethiopia" locale="es" localized="Etiopía"/>
     <moqui.basic.LocalizedMessage original="Falkland Islands (malvinas)" locale="es" localized="Islas Malvinas"/>
     <moqui.basic.LocalizedMessage original="Faroe Islands" locale="es" localized="Islas Feroe"/>
@@ -92,87 +67,55 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="French Polynesia" locale="es" localized="Polinesia Francesa"/>
     <moqui.basic.LocalizedMessage original="French Southern Territories" locale="es" localized="Territorios Australes Franceses"/>
     <moqui.basic.LocalizedMessage original="Gabon" locale="es" localized="Gabón"/>
-    <moqui.basic.LocalizedMessage original="Gambia" locale="es" localized="Gambia"/>
-    <moqui.basic.LocalizedMessage original="Georgia" locale="es" localized="Georgia"/>
     <moqui.basic.LocalizedMessage original="Germany" locale="es" localized="Alemania"/>
-    <moqui.basic.LocalizedMessage original="Ghana" locale="es" localized="Ghana"/>
-    <moqui.basic.LocalizedMessage original="Gibraltar" locale="es" localized="Gibraltar"/>
     <moqui.basic.LocalizedMessage original="Greece" locale="es" localized="Grecia"/>
     <moqui.basic.LocalizedMessage original="Greenland" locale="es" localized="Groenlandia"/>
     <moqui.basic.LocalizedMessage original="Grenada" locale="es" localized="Granada"/>
     <moqui.basic.LocalizedMessage original="Guadeloupe" locale="es" localized="Guadalupe"/>
-    <moqui.basic.LocalizedMessage original="Guam" locale="es" localized="Guam"/>
-    <moqui.basic.LocalizedMessage original="Guatemala" locale="es" localized="Guatemala"/>
-    <moqui.basic.LocalizedMessage original="Guinea" locale="es" localized="Guinea"/>
     <moqui.basic.LocalizedMessage original="Guinea-bissau" locale="es" localized="Guinea-Bisáu"/>
-    <moqui.basic.LocalizedMessage original="Guyana" locale="es" localized="Guyana"/>
     <moqui.basic.LocalizedMessage original="Haiti" locale="es" localized="Haití"/>
     <moqui.basic.LocalizedMessage original="Heard And Mc Donald Islands" locale="es" localized="Islas Heard y McDonald"/>
     <moqui.basic.LocalizedMessage original="Holy See (vatican City State)" locale="es" localized="Santa Sede (Estado de la Ciudad del Vaticano)"/>
-    <moqui.basic.LocalizedMessage original="Honduras" locale="es" localized="Honduras"/>
-    <moqui.basic.LocalizedMessage original="Hong Kong" locale="es" localized="Hong Kong"/>
     <moqui.basic.LocalizedMessage original="Hungary" locale="es" localized="Hungría"/>
     <moqui.basic.LocalizedMessage original="Iceland" locale="es" localized="Islandia"/>
-    <moqui.basic.LocalizedMessage original="India" locale="es" localized="India"/>
-    <moqui.basic.LocalizedMessage original="Indonesia" locale="es" localized="Indonesia"/>
     <moqui.basic.LocalizedMessage original="Iran (islamic Republic Of)" locale="es" localized="Irán (República Islámica)"/>
     <moqui.basic.LocalizedMessage original="Iraq" locale="es" localized="Irak"/>
     <moqui.basic.LocalizedMessage original="Ireland" locale="es" localized="Irlanda"/>
-    <moqui.basic.LocalizedMessage original="Israel" locale="es" localized="Israel"/>
     <moqui.basic.LocalizedMessage original="Italy" locale="es" localized="Italia"/>
-    <moqui.basic.LocalizedMessage original="Jamaica" locale="es" localized="Jamaica"/>
     <moqui.basic.LocalizedMessage original="Japan" locale="es" localized="Japón"/>
     <moqui.basic.LocalizedMessage original="Jordan" locale="es" localized="Jordania"/>
     <moqui.basic.LocalizedMessage original="Kazakhstan" locale="es" localized="Kazajistán"/>
     <moqui.basic.LocalizedMessage original="Kenya" locale="es" localized="Kenia"/>
-    <moqui.basic.LocalizedMessage original="Kiribati" locale="es" localized="Kiribati"/>
     <moqui.basic.LocalizedMessage original="Korea, Democratic People&apos;s Republic Of" locale="es" localized="República Popular Democrática de Corea"/>
     <moqui.basic.LocalizedMessage original="Korea, Republic Of" locale="es" localized="República de Corea"/>
-    <moqui.basic.LocalizedMessage original="Kuwait" locale="es" localized="Kuwait"/>
     <moqui.basic.LocalizedMessage original="Kyrgyzstan" locale="es" localized="Kirguistán"/>
     <moqui.basic.LocalizedMessage original="Lao People&apos;s Democratic Republic" locale="es" localized="República Democrática Popular Lao"/>
     <moqui.basic.LocalizedMessage original="Latvia" locale="es" localized="Letonia"/>
     <moqui.basic.LocalizedMessage original="Lebanon" locale="es" localized="Líbano"/>
     <moqui.basic.LocalizedMessage original="Lesotho" locale="es" localized="Lesoto"/>
-    <moqui.basic.LocalizedMessage original="Liberia" locale="es" localized="Liberia"/>
     <moqui.basic.LocalizedMessage original="Libyan Arab Jamahiriya" locale="es" localized="Jamahiriya Árabe Libia"/>
-    <moqui.basic.LocalizedMessage original="Liechtenstein" locale="es" localized="Liechtenstein"/>
     <moqui.basic.LocalizedMessage original="Lithuania" locale="es" localized="Lituania"/>
     <moqui.basic.LocalizedMessage original="Luxembourg" locale="es" localized="Luxemburgo"/>
     <moqui.basic.LocalizedMessage original="Macau" locale="es" localized="Macao"/>
     <moqui.basic.LocalizedMessage original="Macedonia, The Former Yugoslav Republic Of" locale="es" localized="Antigua República Yugoslava de Macedonia"/>
-    <moqui.basic.LocalizedMessage original="Madagascar" locale="es" localized="Madagascar"/>
     <moqui.basic.LocalizedMessage original="Malawi" locale="es" localized="Malaui"/>
     <moqui.basic.LocalizedMessage original="Malaysia" locale="es" localized="Malasia"/>
     <moqui.basic.LocalizedMessage original="Maldives" locale="es" localized="Maldivas"/>
     <moqui.basic.LocalizedMessage original="Mali" locale="es" localized="Malí"/>
-    <moqui.basic.LocalizedMessage original="Malta" locale="es" localized="Malta"/>
     <moqui.basic.LocalizedMessage original="Marshall Islands" locale="es" localized="Islas Marshall"/>
     <moqui.basic.LocalizedMessage original="Martinique" locale="es" localized="Martinica"/>
-    <moqui.basic.LocalizedMessage original="Mauritania" locale="es" localized="Mauritania"/>
     <moqui.basic.LocalizedMessage original="Mauritius" locale="es" localized="Mauricio"/>
-    <moqui.basic.LocalizedMessage original="Mayotte" locale="es" localized="Mayotte"/>
     <moqui.basic.LocalizedMessage original="Mexico" locale="es" localized="México"/>
     <moqui.basic.LocalizedMessage original="Micronesia, Federated States Of" locale="es" localized="Estados Federados de Micronesia"/>
     <moqui.basic.LocalizedMessage original="Moldova, Republic Of" locale="es" localized="República de Moldavia"/>
     <moqui.basic.LocalizedMessage original="Monaco" locale="es" localized="Mónaco"/>
-    <moqui.basic.LocalizedMessage original="Mongolia" locale="es" localized="Mongolia"/>
-    <moqui.basic.LocalizedMessage original="Montenegro" locale="es" localized="Montenegro"/>
-    <moqui.basic.LocalizedMessage original="Montserrat" locale="es" localized="Montserrat"/>
     <moqui.basic.LocalizedMessage original="Morocco" locale="es" localized="Marruecos"/>
-    <moqui.basic.LocalizedMessage original="Mozambique" locale="es" localized="Mozambique"/>
     <moqui.basic.LocalizedMessage original="Myanmar" locale="es" localized="Myanmar (Birmania)"/>
-    <moqui.basic.LocalizedMessage original="Namibia" locale="es" localized="Namibia"/>
-    <moqui.basic.LocalizedMessage original="Nauru" locale="es" localized="Nauru"/>
-    <moqui.basic.LocalizedMessage original="Nepal" locale="es" localized="Nepal"/>
     <moqui.basic.LocalizedMessage original="Netherlands" locale="es" localized="Países Bajos"/>
     <moqui.basic.LocalizedMessage original="Netherlands Antilles" locale="es" localized="Antillas Neerlandesas"/>
     <moqui.basic.LocalizedMessage original="New Caledonia" locale="es" localized="Nueva Caledonia"/>
     <moqui.basic.LocalizedMessage original="New Zealand" locale="es" localized="Nueva Zelanda"/>
-    <moqui.basic.LocalizedMessage original="Nicaragua" locale="es" localized="Nicaragua"/>
     <moqui.basic.LocalizedMessage original="Niger" locale="es" localized="Níger"/>
-    <moqui.basic.LocalizedMessage original="Nigeria" locale="es" localized="Nigeria"/>
-    <moqui.basic.LocalizedMessage original="Niue" locale="es" localized="Niue"/>
     <moqui.basic.LocalizedMessage original="Norfolk Island" locale="es" localized="Isla Norfolk"/>
     <moqui.basic.LocalizedMessage original="Northern Mariana Islands" locale="es" localized="Islas Marianas del Norte"/>
     <moqui.basic.LocalizedMessage original="Norway" locale="es" localized="Noruega"/>
@@ -183,13 +126,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Palestinian Territory, Occupied" locale="es" localized="Territorio Palestino ocupado"/>
     <moqui.basic.LocalizedMessage original="Panama" locale="es" localized="Panamá"/>
     <moqui.basic.LocalizedMessage original="Papua New Guinea" locale="es" localized="Papúa Nueva Guinea"/>
-    <moqui.basic.LocalizedMessage original="Paraguay" locale="es" localized="Paraguay"/>
     <moqui.basic.LocalizedMessage original="Peru" locale="es" localized="Perú"/>
     <moqui.basic.LocalizedMessage original="Philippines" locale="es" localized="Filipinas"/>
     <moqui.basic.LocalizedMessage original="Pitcairn" locale="es" localized="Islas Pitcairn"/>
     <moqui.basic.LocalizedMessage original="Poland" locale="es" localized="Polonia"/>
-    <moqui.basic.LocalizedMessage original="Portugal" locale="es" localized="Portugal"/>
-    <moqui.basic.LocalizedMessage original="Puerto Rico" locale="es" localized="Puerto Rico"/>
     <moqui.basic.LocalizedMessage original="Qatar" locale="es" localized="Catar"/>
     <moqui.basic.LocalizedMessage original="Reunion" locale="es" localized="Reunión"/>
     <moqui.basic.LocalizedMessage original="Romania" locale="es" localized="Rumanía"/>
@@ -198,23 +138,16 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Saint Kitts And Nevis" locale="es" localized="San Cristóbal y Nieves"/>
     <moqui.basic.LocalizedMessage original="Saint Lucia" locale="es" localized="Santa Lucía"/>
     <moqui.basic.LocalizedMessage original="Saint Vincent And The Grenadines" locale="es" localized="San Vicente y las Granadinas"/>
-    <moqui.basic.LocalizedMessage original="Samoa" locale="es" localized="Samoa"/>
-    <moqui.basic.LocalizedMessage original="San Marino" locale="es" localized="San Marino"/>
     <moqui.basic.LocalizedMessage original="Sao Tome And Principe" locale="es" localized="Santo Tomé y Príncipe"/>
     <moqui.basic.LocalizedMessage original="Saudi Arabia" locale="es" localized="Arabia Saudita"/>
-    <moqui.basic.LocalizedMessage original="Senegal" locale="es" localized="Senegal"/>
-    <moqui.basic.LocalizedMessage original="Serbia" locale="es" localized="Serbia"/>
-    <moqui.basic.LocalizedMessage original="Seychelles" locale="es" localized="Seychelles"/>
     <moqui.basic.LocalizedMessage original="Sierra Leone" locale="es" localized="Sierra Leona"/>
     <moqui.basic.LocalizedMessage original="Singapore" locale="es" localized="Singapur"/>
     <moqui.basic.LocalizedMessage original="Slovakia (slovak Republic)" locale="es" localized="Eslovaquia (República Eslovaca)"/>
     <moqui.basic.LocalizedMessage original="Slovenia" locale="es" localized="Eslovenia"/>
     <moqui.basic.LocalizedMessage original="Solomon Islands" locale="es" localized="Islas Salomón"/>
-    <moqui.basic.LocalizedMessage original="Somalia" locale="es" localized="Somalia"/>
     <moqui.basic.LocalizedMessage original="South Africa" locale="es" localized="Sudáfrica"/>
     <moqui.basic.LocalizedMessage original="South Georgia And The South Sandwich Islands" locale="es" localized="Islas Georgias del Sur y Sandwich del Sur"/>
     <moqui.basic.LocalizedMessage original="Spain" locale="es" localized="España"/>
-    <moqui.basic.LocalizedMessage original="Sri Lanka" locale="es" localized="Sri Lanka"/>
     <moqui.basic.LocalizedMessage original="St. Helena" locale="es" localized="Santa Elena"/>
     <moqui.basic.LocalizedMessage original="St. Pierre And Miquelon" locale="es" localized="San Pedro y Miquelón"/>
     <moqui.basic.LocalizedMessage original="Sudan" locale="es" localized="Sudán"/>
@@ -228,32 +161,21 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Tajikistan" locale="es" localized="Tayikistán"/>
     <moqui.basic.LocalizedMessage original="Tanzania, United Republic Of" locale="es" localized="República Unida de Tanzania"/>
     <moqui.basic.LocalizedMessage original="Thailand" locale="es" localized="Tailandia"/>
-    <moqui.basic.LocalizedMessage original="Togo" locale="es" localized="Togo"/>
-    <moqui.basic.LocalizedMessage original="Tokelau" locale="es" localized="Tokelau"/>
-    <moqui.basic.LocalizedMessage original="Tonga" locale="es" localized="Tonga"/>
     <moqui.basic.LocalizedMessage original="Trinidad And Tobago" locale="es" localized="Trinidad y Tobago"/>
     <moqui.basic.LocalizedMessage original="Tunisia" locale="es" localized="Túnez"/>
     <moqui.basic.LocalizedMessage original="Turkey" locale="es" localized="Turquía"/>
     <moqui.basic.LocalizedMessage original="Turkmenistan" locale="es" localized="Turkmenistán"/>
     <moqui.basic.LocalizedMessage original="Turks And Caicos Islands" locale="es" localized="Islas Turcas y Caicos"/>
-    <moqui.basic.LocalizedMessage original="Tuvalu" locale="es" localized="Tuvalu"/>
-    <moqui.basic.LocalizedMessage original="Uganda" locale="es" localized="Uganda"/>
     <moqui.basic.LocalizedMessage original="Ukraine" locale="es" localized="Ucrania"/>
     <moqui.basic.LocalizedMessage original="United Arab Emirates" locale="es" localized="Emiratos Árabes Unidos"/>
     <moqui.basic.LocalizedMessage original="United Kingdom" locale="es" localized="Reino Unido"/>
     <moqui.basic.LocalizedMessage original="United States" locale="es" localized="Estados Unidos"/>
     <moqui.basic.LocalizedMessage original="United States Minor Outlying Islands" locale="es" localized="Islas menores alejadas de Estados Unidos"/>
-    <moqui.basic.LocalizedMessage original="Uruguay" locale="es" localized="Uruguay"/>
     <moqui.basic.LocalizedMessage original="Uzbekistan" locale="es" localized="Uzbekistán"/>
-    <moqui.basic.LocalizedMessage original="Vanuatu" locale="es" localized="Vanuatu"/>
-    <moqui.basic.LocalizedMessage original="Venezuela" locale="es" localized="Venezuela"/>
     <moqui.basic.LocalizedMessage original="Viet Nam" locale="es" localized="Vietnam"/>
     <moqui.basic.LocalizedMessage original="Virgin Islands (british)" locale="es" localized="Islas Vírgenes (británicas)"/>
     <moqui.basic.LocalizedMessage original="Virgin Islands (u.s.)" locale="es" localized="Islas Vírgenes (EE. UU.)"/>
     <moqui.basic.LocalizedMessage original="Wallis And Futuna Islands" locale="es" localized="Islas Wallis y Futuna"/>
     <moqui.basic.LocalizedMessage original="Western Sahara" locale="es" localized="Sáhara Occidental"/>
-    <moqui.basic.LocalizedMessage original="Yemen" locale="es" localized="Yemen"/>
-    <moqui.basic.LocalizedMessage original="Yugoslavia" locale="es" localized="Yugoslavia"/>
-    <moqui.basic.LocalizedMessage original="Zambia" locale="es" localized="Zambia"/>
     <moqui.basic.LocalizedMessage original="Zimbabwe" locale="es" localized="Zimbabue"/>
 </entity-facade-xml>
