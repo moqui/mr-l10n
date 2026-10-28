@@ -14,41 +14,89 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="es">
     <moqui.basic.LocalizedMessage original="${ec.l10n.format(sfile.size/(1024*1024), '#,##0.00')} MiB" locale="es" localized="${ec.l10n.format(sfile.size/(1024*1024), '#,##0.00')} MiB"/>
+    <moqui.basic.LocalizedMessage original="${variable.label || variable.name} (comma separated for multiple values)" locale="es" localized="${variable.label || variable.name} (separados por comas para varios valores)"/>
+    <moqui.basic.LocalizedMessage original="Add annotation" locale="es" localized="Agregar anotación"/>
+    <moqui.basic.LocalizedMessage original="Add contact point" locale="es" localized="Agregar punto de contacto"/>
+    <moqui.basic.LocalizedMessage original="Add filter" locale="es" localized="Agregar filtro"/>
+    <moqui.basic.LocalizedMessage original="Add mute timing" locale="es" localized="Agregar horario de silencio"/>
+    <moqui.basic.LocalizedMessage original="Add silence" locale="es" localized="Agregar silencio"/>
+    <moqui.basic.LocalizedMessage original="Add to dashboard" locale="es" localized="Agregar al panel de control"/>
+    <moqui.basic.LocalizedMessage original="Aggregatable" locale="es" localized="Agregable"/>
+    <moqui.basic.LocalizedMessage original="Alert rule" locale="es" localized="Regla de alerta"/>
+    <moqui.basic.LocalizedMessage original="Alert rules name this by its ID. Each rule that references it uses it together with the rule's own contact points, silences and mute timings." locale="es" localized="Las reglas de alerta lo nombran por su ID. Cada regla que lo referencia lo usa junto con sus propios puntos de contacto, silencios y horarios de silencio."/>
+    <moqui.basic.LocalizedMessage original="Alerts" locale="es" localized="Alertas"/>
+    <moqui.basic.LocalizedMessage original="All definitions" locale="es" localized="Todas las definiciones"/>
     <moqui.basic.LocalizedMessage original="All Descendants:" locale="es" localized="Todos los descendientes:"/>
     <moqui.basic.LocalizedMessage original="All Entities" locale="es" localized="Todas las entidades"/>
+    <moqui.basic.LocalizedMessage original="Annotations" locale="es" localized="Anotaciones"/>
+    <moqui.basic.LocalizedMessage original="Apply variable" locale="es" localized="Aplicar variable"/>
     <moqui.basic.LocalizedMessage original="Artifact Stats" locale="es" localized="Estadísticas de artefactos"/>
     <moqui.basic.LocalizedMessage original="Authenticate: ${sd.authenticate}" locale="es" localized="Autenticación: ${sd.authenticate}"/>
     <moqui.basic.LocalizedMessage original="Auto Screen Find" locale="es" localized="Búsqueda en pantalla automática"/>
     <moqui.basic.LocalizedMessage original="Auto Screens" locale="es" localized="Pantallas automáticas"/>
+    <moqui.basic.LocalizedMessage original="Back to alerts" locale="es" localized="Volver a alertas"/>
     <moqui.basic.LocalizedMessage original="By Data Types" locale="es" localized="Por tipos de datos"/>
     <moqui.basic.LocalizedMessage original="Check and update DB table from entity definition" locale="es" localized="Comprobar y actualizar la tabla de la base de datos según la definición de la entidad"/>
     <moqui.basic.LocalizedMessage original="Check Data" locale="es" localized="Comprobar datos"/>
     <moqui.basic.LocalizedMessage original="Check/File Value" locale="es" localized="Valor de comprobación/archivo"/>
     <moqui.basic.LocalizedMessage original="Check/Update All Tables" locale="es" localized="Comprobar/actualizar todas las tablas"/>
     <moqui.basic.LocalizedMessage original="Check/Update Table" locale="es" localized="Comprobar/actualizar tabla"/>
+    <moqui.basic.LocalizedMessage original="Choose dataset" locale="es" localized="Elegir conjunto de datos"/>
     <moqui.basic.LocalizedMessage original="Clear Stats" locale="es" localized="Borrar estadísticas"/>
     <moqui.basic.LocalizedMessage original="Comma Separated (from entity-facade-xml.@type)" locale="es" localized="Separados por comas (de entity-facade-xml.@type)"/>
+    <moqui.basic.LocalizedMessage original="Compare ranges or versions" locale="es" localized="Comparar rangos o versiones"/>
+    <moqui.basic.LocalizedMessage original="Compare version" locale="es" localized="Versión para comparar"/>
+    <moqui.basic.LocalizedMessage original="Compare versions" locale="es" localized="Comparar versiones"/>
     <moqui.basic.LocalizedMessage original="Component Names, Comma Separated" locale="es" localized="Nombres de componentes, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Compose a multi-dashboard report" locale="es" localized="Componer un informe de varios paneles de control"/>
+    <moqui.basic.LocalizedMessage original="Contact ID" locale="es" localized="ID de contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact points" locale="es" localized="Puntos de contacto"/>
+    <moqui.basic.LocalizedMessage original="Copy title" locale="es" localized="Título de la copia"/>
     <moqui.basic.LocalizedMessage original="Create FKs" locale="es" localized="Crear claves foráneas"/>
     <moqui.basic.LocalizedMessage original="Create Indexes" locale="es" localized="Crear índices"/>
     <moqui.basic.LocalizedMessage original="Create Only? ${entityInfo.createOnly}" locale="es" localized="¿Solo creación? ${entityInfo.createOnly}"/>
+    <moqui.basic.LocalizedMessage original="Cron schedule" locale="es" localized="Programación cron"/>
     <moqui.basic.LocalizedMessage original="CSV ONLY" locale="es" localized="Solo CSV"/>
     <moqui.basic.LocalizedMessage original="CSV ONLY, use table and column names instead of entity and field names" locale="es" localized="Solo CSV, usar nombres de tabla y columna en lugar de nombres de entidad y campo"/>
     <moqui.basic.LocalizedMessage original="CSV Text" locale="es" localized="Texto CSV"/>
     <moqui.basic.LocalizedMessage original="Current Snapshot Files" locale="es" localized="Archivos de instantánea actuales"/>
+    <moqui.basic.LocalizedMessage original="Daily window" locale="es" localized="Ventana diaria"/>
+    <moqui.basic.LocalizedMessage original="Dashboard / report" locale="es" localized="Panel de control / informe"/>
+    <moqui.basic.LocalizedMessage original="Dashboard ID" locale="es" localized="ID del panel de control"/>
+    <moqui.basic.LocalizedMessage original="Dashboard IDs, comma separated" locale="es" localized="ID de paneles de control, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Dashboard reports" locale="es" localized="Informes de paneles de control"/>
+    <moqui.basic.LocalizedMessage original="Dashboards" locale="es" localized="Paneles de control"/>
     <moqui.basic.LocalizedMessage original="Data Export" locale="es" localized="Exportación de datos"/>
     <moqui.basic.LocalizedMessage original="Data Import" locale="es" localized="Importación de datos"/>
     <moqui.basic.LocalizedMessage original="Data Snapshots" locale="es" localized="Instantáneas de datos"/>
     <moqui.basic.LocalizedMessage original="Data View for: ${dbViewEntityName}" locale="es" localized="Vista de datos para: ${dbViewEntityName}"/>
     <moqui.basic.LocalizedMessage original="Data Views" locale="es" localized="Vistas de datos"/>
+    <moqui.basic.LocalizedMessage original="Dataset" locale="es" localized="Conjunto de datos"/>
+    <moqui.basic.LocalizedMessage original="Datasets" locale="es" localized="Conjuntos de datos"/>
+    <moqui.basic.LocalizedMessage original="Datasets are the telemetry indexes, saved dataset definitions with their row filters, and the DataDocument indexes. Queries run with your dataset permissions." locale="es" localized="Los conjuntos de datos son los índices de telemetría, las definiciones de conjuntos de datos guardadas con sus filtros de filas y los índices de DataDocument. Las consultas se ejecutan con sus permisos de conjuntos de datos."/>
     <moqui.basic.LocalizedMessage original="Defaults to include all if none selected and one or more skip entities specified" locale="es" localized="De forma predeterminada incluye todas si no se selecciona ninguna y se especifican una o más entidades a omitir"/>
+    <moqui.basic.LocalizedMessage original="Definition" locale="es" localized="Definición"/>
+    <moqui.basic.LocalizedMessage original="Definition and versions" locale="es" localized="Definición y versiones"/>
+    <moqui.basic.LocalizedMessage original="Definition JSON" locale="es" localized="JSON de la definición"/>
+    <moqui.basic.LocalizedMessage original="Delivery" locale="es" localized="Entrega"/>
     <moqui.basic.LocalizedMessage original="Directory (one file per entity)" locale="es" localized="Directorio (un archivo por entidad)"/>
+    <moqui.basic.LocalizedMessage original="Disable / enable" locale="es" localized="Deshabilitar / habilitar"/>
     <moqui.basic.LocalizedMessage original="Drop FKs" locale="es" localized="Eliminar claves foráneas"/>
     <moqui.basic.LocalizedMessage original="Dummy FKs?" locale="es" localized="¿Claves foráneas ficticias?"/>
+    <moqui.basic.LocalizedMessage original="Each pane shows at most 1,000 documents. Missing telemetry does not establish health." locale="es" localized="Cada panel muestra como máximo 1,000 documentos. La falta de telemetría no indica buen estado."/>
     <moqui.basic.LocalizedMessage original="Edit ${dbViewEntityName}" locale="es" localized="Editar ${dbViewEntityName}"/>
     <moqui.basic.LocalizedMessage original="Edit '${selectedEntity}' Entity Value" locale="es" localized="Editar el valor de la entidad '${selectedEntity}'"/>
+    <moqui.basic.LocalizedMessage original="Edit / save a copy / versions" locale="es" localized="Editar / guardar una copia / versiones"/>
+    <moqui.basic.LocalizedMessage original="Edit playlist" locale="es" localized="Editar lista de reproducción"/>
+    <moqui.basic.LocalizedMessage original="Editable dashboard" locale="es" localized="Panel de control editable"/>
     <moqui.basic.LocalizedMessage original="EECAs and related AutoService SECAs" locale="es" localized="EECA y las SECA relacionadas de AutoService"/>
+    <moqui.basic.LocalizedMessage original="Email and file" locale="es" localized="Correo electrónico y archivo"/>
+    <moqui.basic.LocalizedMessage original="Email recipients" locale="es" localized="Destinatarios de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email template" locale="es" localized="Plantilla de correo electrónico"/>
     <moqui.basic.LocalizedMessage original="Empty Tables" locale="es" localized="Tablas vacías"/>
+    <moqui.basic.LocalizedMessage original="End (optional ISO time)" locale="es" localized="Fin (hora ISO opcional)"/>
+    <moqui.basic.LocalizedMessage original="End HH:mm" locale="es" localized="Fin HH:mm"/>
+    <moqui.basic.LocalizedMessage original="Enter dashboard IDs in playback order. Each dashboard is checked with your current access when opened." locale="es" localized="Ingrese los ID de paneles de control en orden de reproducción. Cada panel de control se verifica con su acceso actual al abrirse."/>
     <moqui.basic.LocalizedMessage original="Entities: ${parseInt(entityCount, 10)}, View Entities: ${parseInt(viewEntityCount, 10)}, EECA rules: ${eecaRuleCount}" locale="es" localized="Entidades: ${parseInt(entityCount, 10)}, entidades de vista: ${parseInt(viewEntityCount, 10)}, reglas EECA: ${eecaRuleCount}"/>
     <moqui.basic.LocalizedMessage original="Entity Detail" locale="es" localized="Detalle de entidad"/>
     <moqui.basic.LocalizedMessage original="Entity Detail for ${entityDefinition.getPrettyName(null, null)} (${entityDefinition.fullEntityName})" locale="es" localized="Detalle de entidad para ${entityDefinition.getPrettyName(null, null)} (${entityDefinition.fullEntityName})"/>
@@ -56,59 +104,169 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Entity Master API" locale="es" localized="API de entidad maestra"/>
     <moqui.basic.LocalizedMessage original="Entity Stats" locale="es" localized="Estadísticas de entidades"/>
     <moqui.basic.LocalizedMessage original="Entity Tools" locale="es" localized="Herramientas de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entries surrounding ${documentId}" locale="es" localized="Entradas alrededor de ${documentId}"/>
+    <moqui.basic.LocalizedMessage original="Evaluate now" locale="es" localized="Evaluar ahora"/>
+    <moqui.basic.LocalizedMessage original="Evaluate this alert rule now? A state change notifies its contact points." locale="es" localized="¿Evaluar esta regla de alerta ahora? Un cambio de estado notifica a sus puntos de contacto."/>
+    <moqui.basic.LocalizedMessage original="Evaluated" locale="es" localized="Evaluada"/>
+    <moqui.basic.LocalizedMessage original="Evaluation interval seconds" locale="es" localized="Intervalo de evaluación en segundos"/>
+    <moqui.basic.LocalizedMessage original="Exception" locale="es" localized="Excepción"/>
     <moqui.basic.LocalizedMessage original="Exclude View Entities" locale="es" localized="Excluir entidades de vista"/>
+    <moqui.basic.LocalizedMessage original="Explore" locale="es" localized="Explorar"/>
+    <moqui.basic.LocalizedMessage original="Explore data" locale="es" localized="Explorar datos"/>
+    <moqui.basic.LocalizedMessage original="Export bundle" locale="es" localized="Paquete de exportación"/>
     <moqui.basic.LocalizedMessage original="Export Snapshot" locale="es" localized="Exportar instantánea"/>
+    <moqui.basic.LocalizedMessage original="Export with references" locale="es" localized="Exportar con referencias"/>
+    <moqui.basic.LocalizedMessage original="Exports use cursor paging, with a 50,000 row limit." locale="es" localized="Las exportaciones usan paginación por cursor, con un límite de 50,000 filas."/>
+    <moqui.basic.LocalizedMessage original="Fields of ${datasetId}" locale="es" localized="Campos de ${datasetId}"/>
     <moqui.basic.LocalizedMessage original="Filter ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}" locale="es" localized="Filtrar ${ec.entity.getEntityDefinition(dbViewEntityName).getPrettyName(null, null)}"/>
+    <moqui.basic.LocalizedMessage original="Filter buttons update this search. Remember saves the query and pinned filters to your preferences." locale="es" localized="Los botones de filtro actualizan esta búsqueda. Recordar guarda la consulta y los filtros fijados en sus preferencias."/>
+    <moqui.basic.LocalizedMessage original="Filter field" locale="es" localized="Campo de filtro"/>
+    <moqui.basic.LocalizedMessage original="Filter for" locale="es" localized="Filtrar por"/>
+    <moqui.basic.LocalizedMessage original="Filter label" locale="es" localized="Etiqueta del filtro"/>
+    <moqui.basic.LocalizedMessage original="Filter out" locale="es" localized="Excluir"/>
+    <moqui.basic.LocalizedMessage original="Filter pills (query, label, pinned, negated, disabled)" locale="es" localized="Filtros (consulta, etiqueta, fijado, negado, deshabilitado)"/>
     <moqui.basic.LocalizedMessage original="Find ${aenDef.getPrettyName(null, null)}" locale="es" localized="Buscar ${aenDef.getPrettyName(null, null)}"/>
     <moqui.basic.LocalizedMessage original="Find ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}" locale="es" localized="Buscar ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}"/>
     <moqui.basic.LocalizedMessage original="Find ${entityDefinition.getPrettyName(null, null)} (${selectedEntity})" locale="es" localized="Buscar ${entityDefinition.getPrettyName(null, null)} (${selectedEntity})"/>
+    <moqui.basic.LocalizedMessage original="First range from" locale="es" localized="Primer rango desde"/>
+    <moqui.basic.LocalizedMessage original="First range through" locale="es" localized="Primer rango hasta"/>
+    <moqui.basic.LocalizedMessage original="First version (optional)" locale="es" localized="Primera versión (opcional)"/>
     <moqui.basic.LocalizedMessage original="Flow" locale="es" localized="Flujo"/>
+    <moqui.basic.LocalizedMessage original="Folder" locale="es" localized="Carpeta"/>
     <moqui.basic.LocalizedMessage original="Found ${statusItemList.length} statuses, ${transitionList.length} transitions" locale="es" localized="Se encontraron ${statusItemList.length} estados y ${transitionList.length} transiciones"/>
+    <moqui.basic.LocalizedMessage original="From (ISO time with offset)" locale="es" localized="Desde (hora ISO con desfase)"/>
     <moqui.basic.LocalizedMessage original="From Seq" locale="es" localized="Secuencia de origen"/>
+    <moqui.basic.LocalizedMessage original="Full message" locale="es" localized="Mensaje completo"/>
     <moqui.basic.LocalizedMessage original="General Tools" locale="es" localized="Herramientas generales"/>
     <moqui.basic.LocalizedMessage original="Generated Diagrams" locale="es" localized="Diagramas generados"/>
     <moqui.basic.LocalizedMessage original="Generated Groovy" locale="es" localized="Groovy generado"/>
     <moqui.basic.LocalizedMessage original="Get Form XML" locale="es" localized="Obtener XML del formulario"/>
     <moqui.basic.LocalizedMessage original="Get Forms XML" locale="es" localized="Obtener XML de los formularios"/>
     <moqui.basic.LocalizedMessage original="Groovy Shell" locale="es" localized="Consola de Groovy"/>
+    <moqui.basic.LocalizedMessage original="Group by labels (comma separated)" locale="es" localized="Agrupar por etiquetas (separadas por comas)"/>
+    <moqui.basic.LocalizedMessage original="Group wait seconds" locale="es" localized="Segundos de espera del grupo"/>
     <moqui.basic.LocalizedMessage original="Hide No Action Files?" locale="es" localized="¿Ocultar archivos sin acción?"/>
+    <moqui.basic.LocalizedMessage original="Host / instance" locale="es" localized="Host / instancia"/>
+    <moqui.basic.LocalizedMessage original="Hybrid (when supported)" locale="es" localized="Híbrida (si se admite)"/>
     <moqui.basic.LocalizedMessage original="ID Map" locale="es" localized="Mapa de ID"/>
     <moqui.basic.LocalizedMessage original="Import Data - Create Only" locale="es" localized="Importar datos - solo crear"/>
     <moqui.basic.LocalizedMessage original="Import Data - Create or Update" locale="es" localized="Importar datos - crear o actualizar"/>
+    <moqui.basic.LocalizedMessage original="Import definitions" locale="es" localized="Importar definiciones"/>
     <moqui.basic.LocalizedMessage original="Import Snapshot" locale="es" localized="Importar instantánea"/>
+    <moqui.basic.LocalizedMessage original="Imported ID prefix" locale="es" localized="Prefijo de ID importado"/>
     <moqui.basic.LocalizedMessage original="In Parameters" locale="es" localized="Parámetros de entrada"/>
+    <moqui.basic.LocalizedMessage original="Index type" locale="es" localized="Tipo de índice"/>
     <moqui.basic.LocalizedMessage original="Is PK" locale="es" localized="Es clave primaria"/>
     <moqui.basic.LocalizedMessage original="ISO Date Time" locale="es" localized="Fecha y hora ISO"/>
     <moqui.basic.LocalizedMessage original="JSON Text" locale="es" localized="Texto JSON"/>
     <moqui.basic.LocalizedMessage original="JSON with Dependents" locale="es" localized="JSON con dependientes"/>
+    <moqui.basic.LocalizedMessage original="Keep firing seconds" locale="es" localized="Segundos para seguir activa"/>
+    <moqui.basic.LocalizedMessage original="Label matchers JSON" locale="es" localized="JSON de coincidencias de etiquetas"/>
     <moqui.basic.LocalizedMessage original="Last Updated" locale="es" localized="Última actualización"/>
+    <moqui.basic.LocalizedMessage original="Lexical" locale="es" localized="Léxica"/>
+    <moqui.basic.LocalizedMessage original="Library panels" locale="es" localized="Paneles de biblioteca"/>
     <moqui.basic.LocalizedMessage original="Liquibase Init XML" locale="es" localized="XML de inicialización de Liquibase"/>
+    <moqui.basic.LocalizedMessage original="Log context" locale="es" localized="Contexto del registro"/>
+    <moqui.basic.LocalizedMessage original="Logger" locale="es" localized="Registrador"/>
     <moqui.basic.LocalizedMessage original="Master Entities" locale="es" localized="Entidades maestras"/>
     <moqui.basic.LocalizedMessage original="Master Entity" locale="es" localized="Entidad maestra"/>
     <moqui.basic.LocalizedMessage original="Mermaid JS Text" locale="es" localized="Texto de Mermaid JS"/>
+    <moqui.basic.LocalizedMessage original="Message / operation" locale="es" localized="Mensaje / operación"/>
     <moqui.basic.LocalizedMessage original="Needs Audit Log? ${entityInfo.needsAuditLog}" locale="es" localized="¿Requiere registro de auditoría? ${entityInfo.needsAuditLog}"/>
     <moqui.basic.LocalizedMessage original="Needs Encrypt? ${entityInfo.needsEncrypt}" locale="es" localized="¿Requiere cifrado? ${entityInfo.needsEncrypt}"/>
+    <moqui.basic.LocalizedMessage original="Negate" locale="es" localized="Negar"/>
+    <moqui.basic.LocalizedMessage original="New ${definitionType || 'dashboard'}" locale="es" localized="Nuevo ${definitionType || 'dashboard'}"/>
     <moqui.basic.LocalizedMessage original="New ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}" locale="es" localized="Nuevo ${ec.entity.getEntityDefinition(den).getPrettyName(null, aen)}"/>
+    <moqui.basic.LocalizedMessage original="New alert rule" locale="es" localized="Nueva regla de alerta"/>
+    <moqui.basic.LocalizedMessage original="New contact point" locale="es" localized="Nuevo punto de contacto"/>
+    <moqui.basic.LocalizedMessage original="New dashboard playlist" locale="es" localized="Nueva lista de reproducción de paneles de control"/>
+    <moqui.basic.LocalizedMessage original="New dataset" locale="es" localized="Nuevo conjunto de datos"/>
+    <moqui.basic.LocalizedMessage original="New mute timing" locale="es" localized="Nuevo horario de silencio"/>
+    <moqui.basic.LocalizedMessage original="New rule ID" locale="es" localized="ID de la nueva regla"/>
+    <moqui.basic.LocalizedMessage original="New silence" locale="es" localized="Nuevo silencio"/>
     <moqui.basic.LocalizedMessage original="New Value" locale="es" localized="Nuevo valor"/>
+    <moqui.basic.LocalizedMessage original="Newest first" locale="es" localized="Más recientes primero"/>
+    <moqui.basic.LocalizedMessage original="Next page using cursor" locale="es" localized="Página siguiente con cursor"/>
+    <moqui.basic.LocalizedMessage original="No Data and Error are unknown health, never Normal. Silences and mute timings suppress notifications without changing evaluation history." locale="es" localized="Sin datos y Error significan un estado desconocido, nunca Normal. Los silencios y horarios de silencio suprimen las notificaciones sin cambiar el historial de evaluación."/>
     <moqui.basic.LocalizedMessage original="Non-Empty Tables" locale="es" localized="Tablas no vacías"/>
+    <moqui.basic.LocalizedMessage original="Notification group" locale="es" localized="Grupo de notificación"/>
+    <moqui.basic.LocalizedMessage original="Notification topic" locale="es" localized="Tema de notificación"/>
+    <moqui.basic.LocalizedMessage original="Notification user" locale="es" localized="Usuario de notificación"/>
+    <moqui.basic.LocalizedMessage original="Numeric field (empty = each numeric field)" locale="es" localized="Campo numérico (vacío = cada campo numérico)"/>
+    <moqui.basic.LocalizedMessage original="Oldest first within page" locale="es" localized="Más antiguos primero dentro de la página"/>
+    <moqui.basic.LocalizedMessage original="One-off silence" locale="es" localized="Silencio puntual"/>
+    <moqui.basic.LocalizedMessage original="Open saved search" locale="es" localized="Abrir búsqueda guardada"/>
     <moqui.basic.LocalizedMessage original="Out Parameters" locale="es" localized="Parámetros de salida"/>
     <moqui.basic.LocalizedMessage original="Package" locale="es" localized="Paquete"/>
+    <moqui.basic.LocalizedMessage original="Panel ID" locale="es" localized="ID del panel"/>
+    <moqui.basic.LocalizedMessage original="Panel title" locale="es" localized="Título del panel"/>
+    <moqui.basic.LocalizedMessage original="Pause / resume" locale="es" localized="Pausar / reanudar"/>
+    <moqui.basic.LocalizedMessage original="Pending seconds" locale="es" localized="Segundos pendientes"/>
+    <moqui.basic.LocalizedMessage original="Pin / unpin" locale="es" localized="Fijar / soltar"/>
+    <moqui.basic.LocalizedMessage original="Play dashboards" locale="es" localized="Reproducir paneles de control"/>
+    <moqui.basic.LocalizedMessage original="Playlist" locale="es" localized="Lista de reproducción"/>
+    <moqui.basic.LocalizedMessage original="Playlist ID" locale="es" localized="ID de la lista de reproducción"/>
+    <moqui.basic.LocalizedMessage original="Preview a library panel" locale="es" localized="Vista previa de un panel de biblioteca"/>
+    <moqui.basic.LocalizedMessage original="Preview PDF" locale="es" localized="Vista previa en PDF"/>
+    <moqui.basic.LocalizedMessage original="Preview PNG" locale="es" localized="Vista previa en PNG"/>
     <moqui.basic.LocalizedMessage original="Query Results" locale="es" localized="Resultados de la consulta"/>
+    <moqui.basic.LocalizedMessage original="Range maximum" locale="es" localized="Máximo del rango"/>
+    <moqui.basic.LocalizedMessage original="Range minimum" locale="es" localized="Mínimo del rango"/>
+    <moqui.basic.LocalizedMessage original="Recent queries" locale="es" localized="Consultas recientes"/>
+    <moqui.basic.LocalizedMessage original="Recipient group" locale="es" localized="Grupo destinatario"/>
+    <moqui.basic.LocalizedMessage original="Recipient user" locale="es" localized="Usuario destinatario"/>
+    <moqui.basic.LocalizedMessage original="Recovery threshold (optional)" locale="es" localized="Umbral de recuperación (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Recurring mute timing (rule owner time zone)" locale="es" localized="Horario de silencio recurrente (zona horaria del dueño de la regla)"/>
+    <moqui.basic.LocalizedMessage original="Refresh" locale="es" localized="Actualizar"/>
+    <moqui.basic.LocalizedMessage original="Remember query and pinned filters" locale="es" localized="Recordar consulta y filtros fijados"/>
+    <moqui.basic.LocalizedMessage original="Repeat seconds" locale="es" localized="Segundos para repetir"/>
+    <moqui.basic.LocalizedMessage original="Report query" locale="es" localized="Consulta del informe"/>
+    <moqui.basic.LocalizedMessage original="Reports run with their owner's current dataset access. Empty reports are skipped." locale="es" localized="Los informes se ejecutan con el acceso actual de su dueño a los conjuntos de datos. Los informes vacíos se omiten."/>
+    <moqui.basic.LocalizedMessage original="Request rate, server errors and duration for each side, from the HTTP request metric. With a second version and no second range, both sides use the first range." locale="es" localized="Tasa de solicitudes, errores del servidor y duración de cada lado, según la métrica de solicitudes HTTP. Con una segunda versión y sin segundo rango, ambos lados usan el primer rango."/>
     <moqui.basic.LocalizedMessage original="Resource Location" locale="es" localized="Ubicación del recurso"/>
     <moqui.basic.LocalizedMessage original="REST API: Swagger UI" locale="es" localized="API REST: Swagger UI"/>
+    <moqui.basic.LocalizedMessage original="Restore version" locale="es" localized="Restaurar versión"/>
     <moqui.basic.LocalizedMessage original="Results for Service: ${serviceName}" locale="es" localized="Resultados del servicio: ${serviceName}"/>
+    <moqui.basic.LocalizedMessage original="Retrieval" locale="es" localized="Recuperación"/>
     <moqui.basic.LocalizedMessage original="Root Screen: ${rootLocation}" locale="es" localized="Pantalla raíz: ${rootLocation}"/>
+    <moqui.basic.LocalizedMessage original="Routing labels JSON" locale="es" localized="JSON de etiquetas de enrutamiento"/>
+    <moqui.basic.LocalizedMessage original="Rule" locale="es" localized="Regla"/>
     <moqui.basic.LocalizedMessage original="Run Service" locale="es" localized="Ejecutar servicio"/>
     <moqui.basic.LocalizedMessage original="Run Service: ${serviceName}" locale="es" localized="Ejecutar servicio: ${serviceName}"/>
     <moqui.basic.LocalizedMessage original="Run SQL" locale="es" localized="Ejecutar SQL"/>
+    <moqui.basic.LocalizedMessage original="Save alert rule" locale="es" localized="Guardar regla de alerta"/>
+    <moqui.basic.LocalizedMessage original="Save as copy" locale="es" localized="Guardar como copia"/>
+    <moqui.basic.LocalizedMessage original="Save contact point" locale="es" localized="Guardar punto de contacto"/>
+    <moqui.basic.LocalizedMessage original="Save mute timing" locale="es" localized="Guardar horario de silencio"/>
+    <moqui.basic.LocalizedMessage original="Save playlist" locale="es" localized="Guardar lista de reproducción"/>
+    <moqui.basic.LocalizedMessage original="Save search" locale="es" localized="Guardar búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Save search / add to dashboard" locale="es" localized="Guardar búsqueda / agregar al panel de control"/>
+    <moqui.basic.LocalizedMessage original="Save silence" locale="es" localized="Guardar silencio"/>
+    <moqui.basic.LocalizedMessage original="Save the rule before adding contact points, silences or mute timings. No Data and Error never count as healthy." locale="es" localized="Guarde la regla antes de agregar puntos de contacto, silencios u horarios de silencio. Sin datos y Error nunca cuentan como buen estado."/>
+    <moqui.basic.LocalizedMessage original="Save to file" locale="es" localized="Guardar en archivo"/>
+    <moqui.basic.LocalizedMessage original="Save to location" locale="es" localized="Guardar en la ubicación"/>
+    <moqui.basic.LocalizedMessage original="Save version" locale="es" localized="Guardar versión"/>
+    <moqui.basic.LocalizedMessage original="Saved search" locale="es" localized="Búsqueda guardada"/>
+    <moqui.basic.LocalizedMessage original="Schedule report" locale="es" localized="Programar informe"/>
     <moqui.basic.LocalizedMessage original="Screen Stats" locale="es" localized="Estadísticas de pantallas"/>
     <moqui.basic.LocalizedMessage original="Script" locale="es" localized="Script del servicio"/>
+    <moqui.basic.LocalizedMessage original="Search ID" locale="es" localized="ID de búsqueda"/>
     <moqui.basic.LocalizedMessage original="SECA Rules" locale="es" localized="Reglas SECA"/>
+    <moqui.basic.LocalizedMessage original="Second range from" locale="es" localized="Segundo rango desde"/>
+    <moqui.basic.LocalizedMessage original="Second range through" locale="es" localized="Segundo rango hasta"/>
+    <moqui.basic.LocalizedMessage original="Second version (optional)" locale="es" localized="Segunda versión (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Seconds per dashboard" locale="es" localized="Segundos por panel de control"/>
     <moqui.basic.LocalizedMessage original="Select" locale="es" localized="Seleccionar"/>
     <moqui.basic.LocalizedMessage original="Select Fields" locale="es" localized="Seleccionar campos"/>
     <moqui.basic.LocalizedMessage original="Select Service" locale="es" localized="Seleccionar servicio"/>
+    <moqui.basic.LocalizedMessage original="Semantic (when supported)" locale="es" localized="Semántica (si se admite)"/>
     <moqui.basic.LocalizedMessage original="Semicolon separated sql statements" locale="es" localized="Sentencias SQL separadas por punto y coma"/>
+    <moqui.basic.LocalizedMessage original="Send now" locale="es" localized="Enviar ahora"/>
+    <moqui.basic.LocalizedMessage original="Send this report to its recipients now?" locale="es" localized="¿Enviar este informe a sus destinatarios ahora?"/>
+    <moqui.basic.LocalizedMessage original="Series label fields (comma separated, empty = safe bucket dimensions)" locale="es" localized="Campos de etiqueta de serie (separados por comas, vacío = dimensiones de grupo seguras)"/>
+    <moqui.basic.LocalizedMessage original="Series labels" locale="es" localized="Etiquetas de serie"/>
     <moqui.basic.LocalizedMessage original="Service Detail" locale="es" localized="Detalle del servicio"/>
+    <moqui.basic.LocalizedMessage original="Service for the request charts (optional)" locale="es" localized="Servicio para los gráficos de solicitudes (opcional)"/>
     <moqui.basic.LocalizedMessage original="Service List" locale="es" localized="Lista de servicios"/>
     <moqui.basic.LocalizedMessage original="Service LoadRunner" locale="es" localized="Ejecutor de carga de servicios"/>
     <moqui.basic.LocalizedMessage original="Service Name (path.verb#noun)" locale="es" localized="Nombre del servicio (ruta.verbo#sustantivo)"/>
@@ -116,27 +274,61 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Service Type: ${sd.serviceType}${sd.location ? ', Location: ' + sd.location : ''}${sd.method ? ', Method: ' + sd.method : ''}" locale="es" localized="Tipo de servicio: ${sd.serviceType}${sd.location ? ', Location: ' + sd.location : ''}${sd.method ? ', Method: ' + sd.method : ''}"/>
     <moqui.basic.LocalizedMessage original="Services: ${knownServiceCount}, SECA rules: ${secaRuleCount}" locale="es" localized="Servicios: ${knownServiceCount}, reglas SECA: ${secaRuleCount}"/>
     <moqui.basic.LocalizedMessage original="Set Master" locale="es" localized="Establecer entidad maestra"/>
+    <moqui.basic.LocalizedMessage original="Share with user group" locale="es" localized="Compartir con grupo de usuarios"/>
+    <moqui.basic.LocalizedMessage original="Shared alert item" locale="es" localized="Elemento de alerta compartido"/>
+    <moqui.basic.LocalizedMessage original="Shared contact points" locale="es" localized="Puntos de contacto compartidos"/>
+    <moqui.basic.LocalizedMessage original="Shared contact points, silences and mute timings" locale="es" localized="Puntos de contacto, silencios y horarios de silencio compartidos"/>
+    <moqui.basic.LocalizedMessage original="Shared item" locale="es" localized="Elemento compartido"/>
+    <moqui.basic.LocalizedMessage original="Shared mute timings" locale="es" localized="Horarios de silencio compartidos"/>
+    <moqui.basic.LocalizedMessage original="Shared query" locale="es" localized="Consulta compartida"/>
+    <moqui.basic.LocalizedMessage original="Shared silences" locale="es" localized="Silencios compartidos"/>
+    <moqui.basic.LocalizedMessage original="Shipped definitions are read only; use Save as copy below." locale="es" localized="Las definiciones incluidas son de solo lectura; use Guardar como copia más abajo."/>
     <moqui.basic.LocalizedMessage original="Short Alias: ${entityInfo.shortAlias || 'N/A'}" locale="es" localized="Alias corto: ${entityInfo.shortAlias || 'N/A'}"/>
     <moqui.basic.LocalizedMessage original="SQL Filter" locale="es" localized="Filtro SQL"/>
     <moqui.basic.LocalizedMessage original="SQL Script" locale="es" localized="Script SQL"/>
     <moqui.basic.LocalizedMessage original="SQL Statement" locale="es" localized="Sentencia SQL"/>
+    <moqui.basic.LocalizedMessage original="Starred" locale="es" localized="Destacados"/>
+    <moqui.basic.LocalizedMessage original="Starred only" locale="es" localized="Solo destacados"/>
+    <moqui.basic.LocalizedMessage original="Start (ISO time, empty = now)" locale="es" localized="Inicio (hora ISO, vacío = ahora)"/>
+    <moqui.basic.LocalizedMessage original="Start HH:mm" locale="es" localized="Inicio HH:mm"/>
     <moqui.basic.LocalizedMessage original="Statistics for queries run since server start. All times are in microseconds." locale="es" localized="Estadísticas de las consultas ejecutadas desde el inicio del servidor. Todos los tiempos están en microsegundos."/>
+    <moqui.basic.LocalizedMessage original="Surrounding entries" locale="es" localized="Entradas alrededor"/>
     <moqui.basic.LocalizedMessage original="Table Name: ${entityInfo.fullTableName || 'N/A'}" locale="es" localized="Nombre de la tabla: ${entityInfo.fullTableName || 'N/A'}"/>
+    <moqui.basic.LocalizedMessage original="Tags (comma separated)" locale="es" localized="Etiquetas (separadas por comas)"/>
     <moqui.basic.LocalizedMessage original="The larger APIs take a few seconds to load. Runs in same session (already authenticated)." locale="es" localized="Las API más grandes tardan unos segundos en cargar. Se ejecuta en la misma sesión (ya autenticada)."/>
+    <moqui.basic.LocalizedMessage original="This definition is shipped by ${definition.component}. Save a copy to edit it." locale="es" localized="Esta definición viene incluida en ${definition.component}. Guarde una copia para editarla."/>
+    <moqui.basic.LocalizedMessage original="This item is shipped by ${component}. Save a copy to edit it." locale="es" localized="Este elemento viene incluido en ${component}. Guarde una copia para editarlo."/>
+    <moqui.basic.LocalizedMessage original="Through (ISO time with offset)" locale="es" localized="Hasta (hora ISO con desfase)"/>
+    <moqui.basic.LocalizedMessage original="Time field" locale="es" localized="Campo de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Time field: ${selectedTimeField}" locale="es" localized="Campo de tiempo: ${selectedTimeField}"/>
+    <moqui.basic.LocalizedMessage original="Top field values" locale="es" localized="Valores principales del campo"/>
     <moqui.basic.LocalizedMessage original="Total Time ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')}s" locale="es" localized="Tiempo total ${ec.l10n.format((Date.now() - beginTime)/1000, '0.00')}s"/>
     <moqui.basic.LocalizedMessage original="Trans Seq" locale="es" localized="Secuencia de transición"/>
     <moqui.basic.LocalizedMessage original="Tx Ignore: ${sd.txIgnore}, Force New: ${sd.txForceNew}, Use Tx Cache: ${sd.txUseCache}, Timeout: ${sd.txTimeout}" locale="es" localized="Ignorar transacción: ${sd.txIgnore}, forzar nueva transacción: ${sd.txForceNew}, usar caché de transacción: ${sd.txUseCache}, tiempo de espera: ${sd.txTimeout}"/>
     <moqui.basic.LocalizedMessage original="Update Fields to Check/File Value and Create Missing Records" locale="es" localized="Actualizar los campos al valor de comprobación/archivo y crear los registros faltantes"/>
     <moqui.basic.LocalizedMessage original="Upload Snapshot" locale="es" localized="Subir instantánea"/>
     <moqui.basic.LocalizedMessage original="Use master definition for each entity that has one with this name; try 'default'" locale="es" localized="Usar la definición maestra de cada entidad que tenga una con este nombre; probar 'default'"/>
+    <moqui.basic.LocalizedMessage original="Use query" locale="es" localized="Usar consulta"/>
+    <moqui.basic.LocalizedMessage original="Use shared item" locale="es" localized="Usar elemento compartido"/>
     <moqui.basic.LocalizedMessage original="Use Table Column Names (CSV Only)" locale="es" localized="Usar nombres de columnas de tabla (solo CSV)"/>
     <moqui.basic.LocalizedMessage original="Use Try Insert?" locale="es" localized="¿Usar inserción tentativa?"/>
+    <moqui.basic.LocalizedMessage original="Used in" locale="es" localized="Usado en"/>
+    <moqui.basic.LocalizedMessage original="Value (comma separated list or lower,upper range)" locale="es" localized="Valor (lista separada por comas o rango inferior,superior)"/>
     <moqui.basic.LocalizedMessage original="View ${dbViewEntityName}" locale="es" localized="Ver ${dbViewEntityName}"/>
     <moqui.basic.LocalizedMessage original="View a status flow transition diagram by selecting a Type, Flow, or both" locale="es" localized="Ver un diagrama de transiciones del flujo de estados al seleccionar un tipo, un flujo o ambos"/>
+    <moqui.basic.LocalizedMessage original="View document" locale="es" localized="Ver documento"/>
     <moqui.basic.LocalizedMessage original="View Entity Name" locale="es" localized="Nombre de la entidad de vista"/>
     <moqui.basic.LocalizedMessage original="View Entity? ${entityDefinition.isViewEntity}" locale="es" localized="¿Entidad de vista? ${entityDefinition.isViewEntity}"/>
+    <moqui.basic.LocalizedMessage original="View entry" locale="es" localized="Ver entrada"/>
     <moqui.basic.LocalizedMessage original="View Name" locale="es" localized="Nombre de la vista"/>
     <moqui.basic.LocalizedMessage original="View Option" locale="es" localized="Opción de vista"/>
+    <moqui.basic.LocalizedMessage original="Visitor" locale="es" localized="Visitante"/>
+    <moqui.basic.LocalizedMessage original="Webhook header properties JSON (header name to property name)" locale="es" localized="JSON de propiedades de encabezados del webhook (nombre del encabezado a nombre de la propiedad)"/>
+    <moqui.basic.LocalizedMessage original="Webhook URL" locale="es" localized="URL del webhook"/>
+    <moqui.basic.LocalizedMessage original="Webhook URL property (MONITOR_WEBHOOK_* or monitor.webhook.*)" locale="es" localized="Propiedad de la URL del webhook (MONITOR_WEBHOOK_* o monitor.webhook.*)"/>
+    <moqui.basic.LocalizedMessage original="Weekdays" locale="es" localized="Días de la semana"/>
+    <moqui.basic.LocalizedMessage original="Window" locale="es" localized="Ventana"/>
+    <moqui.basic.LocalizedMessage original="With version" locale="es" localized="Con la versión"/>
     <moqui.basic.LocalizedMessage original="XML Actions" locale="es" localized="XML de acciones"/>
     <moqui.basic.LocalizedMessage original="XML Text" locale="es" localized="Texto XML"/>
 </entity-facade-xml>

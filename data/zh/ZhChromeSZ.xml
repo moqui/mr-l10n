@@ -336,7 +336,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Version Date" locale="zh" localized="版本日期"/>
     <moqui.basic.LocalizedMessage original="Version Name" locale="zh" localized="版本名称"/>
     <moqui.basic.LocalizedMessage original="Version Num" locale="zh" localized="版本号"/>
-    <moqui.basic.LocalizedMessage original="View Document" locale="zh" localized="查看文档"/>
     <moqui.basic.LocalizedMessage original="View Entities" locale="zh" localized="视图实体"/>
     <moqui.basic.LocalizedMessage original="Viewed Date" locale="zh" localized="查看日期"/>
     <moqui.basic.LocalizedMessage original="Views" locale="zh" localized="视图"/>

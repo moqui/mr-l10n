@@ -84,7 +84,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Arguments Hash" locale="es" localized="Hash de argumentos"/>
     <moqui.basic.LocalizedMessage original="Arguments Json" locale="es" localized="JSON de argumentos"/>
     <moqui.basic.LocalizedMessage original="Artifact Authz ID" locale="es" localized="ID de autorización de artefacto"/>
-    <moqui.basic.LocalizedMessage original="Artifact Bins" locale="es" localized="Intervalos de artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Counts" locale="es" localized="Recuentos de artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Group ID" locale="es" localized="ID de grupo de artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Groups" locale="es" localized="Grupos de artefacto"/>
@@ -93,7 +92,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Artifact Name" locale="es" localized="Nombre del artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Stack" locale="es" localized="Pila de artefactos"/>
     <moqui.basic.LocalizedMessage original="Artifact Sub Type" locale="es" localized="Subtipo de artefacto"/>
-    <moqui.basic.LocalizedMessage original="Artifact Summary" locale="es" localized="Resumen del artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Tarpit Lock ID" locale="es" localized="ID de bloqueo tarpit del artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Type" locale="es" localized="Tipo de artefacto"/>
     <moqui.basic.LocalizedMessage original="Artifact Type Enum ID" locale="es" localized="ID de enumeración de tipo de artefacto"/>

@@ -223,7 +223,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="History Seq ID" locale="es" localized="ID de secuencia del historial"/>
     <moqui.basic.LocalizedMessage original="Hit Bin ID" locale="es" localized="ID del intervalo de accesos"/>
     <moqui.basic.LocalizedMessage original="Hit Count" locale="es" localized="Recuento de accesos"/>
-    <moqui.basic.LocalizedMessage original="Hit ID" locale="es" localized="ID del acceso"/>
     <moqui.basic.LocalizedMessage original="Hits" locale="es" localized="Accesos"/>
     <moqui.basic.LocalizedMessage original="Host Address" locale="es" localized="Dirección del host"/>
     <moqui.basic.LocalizedMessage original="Host Config Name" locale="es" localized="Nombre de la configuración del host"/>
@@ -415,7 +414,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Lock Version" locale="es" localized="Versión de bloqueo"/>
     <moqui.basic.LocalizedMessage original="Locked" locale="es" localized="Bloqueado"/>
     <moqui.basic.LocalizedMessage original="Locked Date" locale="es" localized="Fecha de bloqueo"/>
-    <moqui.basic.LocalizedMessage original="Log Viewer" locale="es" localized="Visor de registros"/>
     <moqui.basic.LocalizedMessage original="Login Key" locale="es" localized="Clave de inicio de sesión"/>
     <moqui.basic.LocalizedMessage original="Longitude" locale="es" localized="Longitud"/>
 </entity-facade-xml>

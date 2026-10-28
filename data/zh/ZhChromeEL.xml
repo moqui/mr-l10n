@@ -222,7 +222,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="History Seq ID" locale="zh" localized="历史序列 ID"/>
     <moqui.basic.LocalizedMessage original="Hit Bin ID" locale="zh" localized="命中区间 ID"/>
     <moqui.basic.LocalizedMessage original="Hit Count" locale="zh" localized="命中次数"/>
-    <moqui.basic.LocalizedMessage original="Hit ID" locale="zh" localized="命中 ID"/>
     <moqui.basic.LocalizedMessage original="Hits" locale="zh" localized="命中"/>
     <moqui.basic.LocalizedMessage original="Host Address" locale="zh" localized="主机地址"/>
     <moqui.basic.LocalizedMessage original="Host Config Name" locale="zh" localized="主机配置名称"/>
@@ -414,7 +413,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Lock Version" locale="zh" localized="锁定版本"/>
     <moqui.basic.LocalizedMessage original="Locked" locale="zh" localized="已锁定"/>
     <moqui.basic.LocalizedMessage original="Locked Date" locale="zh" localized="锁定日期"/>
-    <moqui.basic.LocalizedMessage original="Log Viewer" locale="zh" localized="日志查看器"/>
     <moqui.basic.LocalizedMessage original="Login Key" locale="zh" localized="登录密钥"/>
     <moqui.basic.LocalizedMessage original="Longitude" locale="zh" localized="经度"/>
 </entity-facade-xml>

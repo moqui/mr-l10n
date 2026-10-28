@@ -156,7 +156,9 @@ These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use loca
 - One operational job at a time: the current pick line with large read-only location and product, a focused scan field (En
 - One record with its parts and actions: a title row with the identifier, the status flow, one primary action and a menu o
 - Parameters in the URL (the form submits to this screen), number cards, two charts and a result table with exports and a
+- Queries run with your dataset permissions and row filters. Search syntax: field:value, AND, OR, NOT, quoted text, term~
 - Quota of ${quotaUserId ?? ''} (${quota?.limitFrom ?? ''}, ${quota?.period ?? ''}): ${quota?.usedTokens ?? 0} of ${quota?
+- Search traces by service, span name (* matches any text), status, duration in milliseconds and user, or with a query on
 - Storage: ${gitRepository.objectCount ?? '?'} objects, ${gitRepository.storedBytes != null ? Math.round(gitRepository.sto
 - The Today tab of the tray panel as a normal screen: groups Overdue, Due today and Later today as captions over dense lis
 - The board groups by status or by type (Group by, view-board group-fields: a move posts the field and its new value) and

@@ -50,6 +50,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="After updating environment variables the instance must be removed and re-initialized for them to take effect" locale="zh" localized="更新环境变量后，必须移除实例并重新初始化才会生效"/>
     <moqui.basic.LocalizedMessage original="After updating links the instance must be removed and re-initialized for them to take effect" locale="zh" localized="更新链接后，必须移除实例并重新初始化才会生效"/>
     <moqui.basic.LocalizedMessage original="After updating volumes the instance must be removed and re-initialized for them to take effect, note that these operations may result in loss of data" locale="zh" localized="更新卷之后必须移除实例并重新初始化才会生效；请注意这些操作可能导致数据丢失"/>
+    <moqui.basic.LocalizedMessage original="All spans" locale="zh" localized="全部跨度"/>
     <moqui.basic.LocalizedMessage original="An HTTPS password or token; leave empty to keep the one stored" locale="zh" localized="HTTPS 密码或令牌；留空以保留已存储的值"/>
     <moqui.basic.LocalizedMessage original="App Instance ${appInstance.appInstanceId}" locale="zh" localized="应用实例 ${appInstance.appInstanceId}"/>
     <moqui.basic.LocalizedMessage original="Appl Type" locale="zh" localized="应用类型"/>
@@ -58,20 +59,21 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Apply Existing Permission" locale="zh" localized="应用现有权限"/>
     <moqui.basic.LocalizedMessage original="Artifact Group" locale="zh" localized="工件组"/>
     <moqui.basic.LocalizedMessage original="Artifact Groups (includes entities only)" locale="zh" localized="工件组（仅包含实体）"/>
-    <moqui.basic.LocalizedMessage original="Artifact Hit Bins" locale="zh" localized="工件命中区间"/>
-    <moqui.basic.LocalizedMessage original="Artifact Hit Summary" locale="zh" localized="工件命中摘要"/>
     <moqui.basic.LocalizedMessage original="Artifact Members" locale="zh" localized="工件成员"/>
+    <moqui.basic.LocalizedMessage original="Artifact Performance" locale="zh" localized="工件性能"/>
+    <moqui.basic.LocalizedMessage original="Artifacts" locale="zh" localized="工件"/>
     <moqui.basic.LocalizedMessage original="Authentication Methods" locale="zh" localized="身份验证方法"/>
     <moqui.basic.LocalizedMessage original="Authorizations" locale="zh" localized="授权列表"/>
     <moqui.basic.LocalizedMessage original="Authz Cond: ${entityFilterSet.authzApplyCond}" locale="zh" localized="授权条件：${entityFilterSet.authzApplyCond}"/>
     <moqui.basic.LocalizedMessage original="Authz Type" locale="zh" localized="授权类型"/>
+    <moqui.basic.LocalizedMessage original="Average" locale="zh" localized="平均值"/>
     <moqui.basic.LocalizedMessage original="Backend" locale="zh" localized="后端"/>
-    <moqui.basic.LocalizedMessage original="Bin Start" locale="zh" localized="区间起始"/>
     <moqui.basic.LocalizedMessage original="Blocked Total" locale="zh" localized="阻塞总计"/>
     <moqui.basic.LocalizedMessage original="Branches and Tags" locale="zh" localized="分支和标签"/>
     <moqui.basic.LocalizedMessage original="by ${userAccount?.username || statusHistory.changedByUserId || 'Unknown'}" locale="zh" localized="由 ${userAccount?.username || statusHistory.changedByUserId || '未知'}"/>
     <moqui.basic.LocalizedMessage original="Cache Mgmt" locale="zh" localized="缓存管理"/>
     <moqui.basic.LocalizedMessage original="Cancel Message" locale="zh" localized="取消消息"/>
+    <moqui.basic.LocalizedMessage original="Chart metric" locale="zh" localized="绘制指标图表"/>
     <moqui.basic.LocalizedMessage original="Check Objects" locale="zh" localized="检查对象"/>
     <moqui.basic.LocalizedMessage original="Check your email account for the message with the code. Don't forget to check spam, archive, trash, etc." locale="zh" localized="请查看电子邮件账号中带验证码的邮件。别忘了检查垃圾邮件、归档和废纸篓等。"/>
     <moqui.basic.LocalizedMessage original="Check your phone (SMS capable) for the message with the code." locale="zh" localized="请查看手机（支持 SMS）中带验证码的消息。"/>
@@ -97,6 +99,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Consume Received Messages" locale="zh" localized="消费已接收消息"/>
     <moqui.basic.LocalizedMessage original="Content" locale="zh" localized="内容"/>
     <moqui.basic.LocalizedMessage original="Count what would be deleted, and change nothing" locale="zh" localized="统计将删除的内容，不做任何更改"/>
+    <moqui.basic.LocalizedMessage original="Counter" locale="zh" localized="计数器"/>
     <moqui.basic.LocalizedMessage original="Country: ${visit.clientIpCountryGeoId}" locale="zh" localized="国家：${visit.clientIpCountryGeoId}"/>
     <moqui.basic.LocalizedMessage original="CPU Time" locale="zh" localized="CPU 时间"/>
     <moqui.basic.LocalizedMessage original="Create App Instance" locale="zh" localized="创建应用实例"/>
@@ -107,11 +110,13 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Create Entity Sync" locale="zh" localized="创建实体同步"/>
     <moqui.basic.LocalizedMessage original="Create Enum Map" locale="zh" localized="创建枚举映射"/>
     <moqui.basic.LocalizedMessage original="Create Git Repository" locale="zh" localized="创建 Git 存储库"/>
+    <moqui.basic.LocalizedMessage original="Create ingest key" locale="zh" localized="创建采集密钥"/>
     <moqui.basic.LocalizedMessage original="Create Message Remote" locale="zh" localized="创建消息远程端"/>
     <moqui.basic.LocalizedMessage original="Create Message Type" locale="zh" localized="创建消息类型"/>
     <moqui.basic.LocalizedMessage original="Create Printer" locale="zh" localized="创建打印机"/>
     <moqui.basic.LocalizedMessage original="Create User Account" locale="zh" localized="创建用户账号"/>
     <moqui.basic.LocalizedMessage original="Create User Group" locale="zh" localized="创建用户组"/>
+    <moqui.basic.LocalizedMessage original="Creating a key shows its token once, in a message. Copy it into the source configuration before you leave this page. Keep keys out of URLs and log messages." locale="zh" localized="创建密钥时，其令牌只在消息中显示一次。离开此页面前，请将其复制到来源配置中。不要将密钥放入 URL 或日志消息。"/>
     <moqui.basic.LocalizedMessage original="Cur: ${workerPool.queueSize} Rem: ${workerPool.remainingCapacity}" locale="zh" localized="当前：${workerPool.queueSize} 剩余：${workerPool.remainingCapacity}"/>
     <moqui.basic.LocalizedMessage original="Data Admin" locale="zh" localized="数据管理"/>
     <moqui.basic.LocalizedMessage original="Data Documents and Feeds" locale="zh" localized="数据文档和馈送"/>
@@ -120,7 +125,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Database ${databaseExists ? 'Exists' : 'Does Not Exist'}" locale="zh" localized="数据库${databaseExists ? '存在' : '不存在'}"/>
     <moqui.basic.LocalizedMessage original="Database Exists" locale="zh" localized="数据库已存在"/>
     <moqui.basic.LocalizedMessage original="Database Host" locale="zh" localized="数据库主机"/>
-    <moqui.basic.LocalizedMessage original="Date Range: ${ec.l10n.format(tsList[0], 'yyyy-MM-dd HH:mm:ss.SSS') || '*'} to ${ec.l10n.format(tsList[1], 'yyyy-MM-dd HH:mm:ss.SSS') || '*'}" locale="zh" localized="日期范围：${ec.l10n.format(tsList[0], 'yyyy-MM-dd HH:mm:ss.SSS') || '*'} 至 ${ec.l10n.format(tsList[1], 'yyyy-MM-dd HH:mm:ss.SSS') || '*'}"/>
     <moqui.basic.LocalizedMessage original="DB User ${dbUserExists ? 'Exists' : 'Does Not Exist'}" locale="zh" localized="数据库用户${dbUserExists ? '存在' : '不存在'}"/>
     <moqui.basic.LocalizedMessage original="DB User Exists" locale="zh" localized="数据库用户已存在"/>
     <moqui.basic.LocalizedMessage original="db: objects and refs in the database" locale="zh" localized="db：数据库中的对象和引用"/>
@@ -138,6 +142,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Download JSON" locale="zh" localized="下载 JSON"/>
     <moqui.basic.LocalizedMessage original="Download Message Text" locale="zh" localized="下载消息文本"/>
     <moqui.basic.LocalizedMessage original="Dry Run" locale="zh" localized="试运行"/>
+    <moqui.basic.LocalizedMessage original="Duration" locale="zh" localized="时长"/>
     <moqui.basic.LocalizedMessage original="Each field must have a unique name, duplicates shown in red. Set an alias to resolve duplicates." locale="zh" localized="每个字段必须有唯一名称，重复项以红色显示。设置别名以消除重复。"/>
     <moqui.basic.LocalizedMessage original="Edit and Report Builder" locale="zh" localized="编辑与报表生成器"/>
     <moqui.basic.LocalizedMessage original="Edit Message Text" locale="zh" localized="编辑消息文本"/>
@@ -149,11 +154,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Entity Group" locale="zh" localized="实体组"/>
     <moqui.basic.LocalizedMessage original="Enum Id" locale="zh" localized="枚举 ID"/>
     <moqui.basic.LocalizedMessage original="Environment Variables" locale="zh" localized="环境变量"/>
+    <moqui.basic.LocalizedMessage original="Error detail" locale="zh" localized="错误详情"/>
     <moqui.basic.LocalizedMessage original="Error Queue" locale="zh" localized="错误队列"/>
     <moqui.basic.LocalizedMessage original="Evicts" locale="zh" localized="驱逐"/>
     <moqui.basic.LocalizedMessage original="Exp Idle" locale="zh" localized="空闲过期"/>
     <moqui.basic.LocalizedMessage original="Exp Live" locale="zh" localized="存活过期"/>
     <moqui.basic.LocalizedMessage original="Expire Lock Minutes" locale="zh" localized="锁过期分钟数"/>
+    <moqui.basic.LocalizedMessage original="Expires in days" locale="zh" localized="有效天数"/>
+    <moqui.basic.LocalizedMessage original="Explore Documents" locale="zh" localized="探索文档"/>
     <moqui.basic.LocalizedMessage original="Export To" locale="zh" localized="导出到"/>
     <moqui.basic.LocalizedMessage original="Factor Type" locale="zh" localized="因素类型"/>
     <moqui.basic.LocalizedMessage original="Failed Logins" locale="zh" localized="失败的登录"/>
@@ -165,6 +173,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Fetch Now" locale="zh" localized="立即抓取"/>
     <moqui.basic.LocalizedMessage original="Fetched from by a remote repository, and imported from by a db repository" locale="zh" localized="供远程存储库抓取，并供 db 存储库导入"/>
     <moqui.basic.LocalizedMessage original="Filter Cond: ${entityFilterSet.applyCond}" locale="zh" localized="筛选条件：${entityFilterSet.applyCond}"/>
+    <moqui.basic.LocalizedMessage original="First seen" locale="zh" localized="首次出现"/>
     <moqui.basic.LocalizedMessage original="Flattened Map" locale="zh" localized="扁平映射"/>
     <moqui.basic.LocalizedMessage original="Follow the Steps below to Complete Verification" locale="zh" localized="按照以下步骤完成验证"/>
     <moqui.basic.LocalizedMessage original="Follow the Steps Below to Verify" locale="zh" localized="按照以下步骤进行验证"/>
@@ -172,9 +181,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Framework: ${runtimeVersionMap.framework.toString()}" locale="zh" localized="框架：${runtimeVersionMap.framework.toString()}"/>
     <moqui.basic.LocalizedMessage original="From ID" locale="zh" localized="来源 ID"/>
     <moqui.basic.LocalizedMessage original="Full Name" locale="zh" localized="全名"/>
-    <moqui.basic.LocalizedMessage original="Full query: ${actualQuery}" locale="zh" localized="完整查询：${actualQuery}"/>
     <moqui.basic.LocalizedMessage original="Function" locale="zh" localized="函数"/>
-    <moqui.basic.LocalizedMessage original="Get as PDF" locale="zh" localized="获取为 PDF"/>
     <moqui.basic.LocalizedMessage original="Get as XML" locale="zh" localized="获取为 XML"/>
     <moqui.basic.LocalizedMessage original="Get Client IP Data" locale="zh" localized="获取客户端 IP 数据"/>
     <moqui.basic.LocalizedMessage original="Get Printers" locale="zh" localized="获取打印机"/>
@@ -182,6 +189,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="git://otherId, a repository directory, or a URL; the Remote URL when empty. Replaces the branch." locale="zh" localized="git://otherId、存储库目录或 URL；留空则为远程 URL。会替换分支。"/>
     <moqui.basic.LocalizedMessage original="gitattributes patterns separated by spaces; images, video, audio, PDFs and archives when empty" locale="zh" localized="以空格分隔的 gitattributes 模式；留空则为图像、视频、音频、PDF 和压缩包"/>
     <moqui.basic.LocalizedMessage original="Groovy expression that evaluates to a Map" locale="zh" localized="求值为 Map 的 Groovy 表达式"/>
+    <moqui.basic.LocalizedMessage original="Group by" locale="zh" localized="分组依据"/>
     <moqui.basic.LocalizedMessage original="Group ID" locale="zh" localized="组 ID"/>
     <moqui.basic.LocalizedMessage original="Group Type" locale="zh" localized="组类型"/>
     <moqui.basic.LocalizedMessage original="Hazelcast" locale="zh" localized="Hazelcast 集群"/>
@@ -195,6 +203,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="In seconds" locale="zh" localized="以秒为单位"/>
     <moqui.basic.LocalizedMessage original="Incoming Received Queue" locale="zh" localized="入站已接收队列"/>
     <moqui.basic.LocalizedMessage original="Index Feed Documents" locale="zh" localized="索引馈送文档"/>
+    <moqui.basic.LocalizedMessage original="Ingest keys" locale="zh" localized="采集密钥"/>
     <moqui.basic.LocalizedMessage original="Init" locale="zh" localized="初始化"/>
     <moqui.basic.LocalizedMessage original="Init Command (Parameter)" locale="zh" localized="初始化命令（参数）"/>
     <moqui.basic.LocalizedMessage original="Init Instance" locale="zh" localized="初始化实例"/>
@@ -224,11 +233,13 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Label: ${qrLabel}" locale="zh" localized="标签：${qrLabel}"/>
     <moqui.basic.LocalizedMessage original="Last Access" locale="zh" localized="上次访问"/>
     <moqui.basic.LocalizedMessage original="Last Fetch" locale="zh" localized="上次抓取"/>
-    <moqui.basic.LocalizedMessage original="Last Hit" locale="zh" localized="上次命中"/>
     <moqui.basic.LocalizedMessage original="Last job runner execute: &lt;strong&gt;${jobRunner.lastExecuteTime}&lt;/strong&gt;, runner executes: ${jobRunner.executeCount}, total jobs run: ${jobRunner.totalJobsRun}, last active: ${jobRunner.lastJobsActive}, last paused: ${jobRunner.lastJobsPaused}" locale="zh" localized="作业运行器上次执行：&lt;strong&gt;${jobRunner.lastExecuteTime}&lt;/strong&gt;，运行器执行次数：${jobRunner.executeCount}，作业运行总数：${jobRunner.totalJobsRun}，上次活动：${jobRunner.lastJobsActive}，上次暂停：${jobRunner.lastJobsPaused}"/>
+    <moqui.basic.LocalizedMessage original="Last seen" locale="zh" localized="最近出现"/>
     <moqui.basic.LocalizedMessage original="Last Start" locale="zh" localized="上次开始"/>
     <moqui.basic.LocalizedMessage original="Last Successful Time" locale="zh" localized="上次成功时间"/>
     <moqui.basic.LocalizedMessage original="Last Update" locale="zh" localized="上次更新"/>
+    <moqui.basic.LocalizedMessage original="Last value" locale="zh" localized="最新值"/>
+    <moqui.basic.LocalizedMessage original="Latest telemetry" locale="zh" localized="最新遥测"/>
     <moqui.basic.LocalizedMessage original="Latitude: ${visit.clientIpLatitude}" locale="zh" localized="纬度：${visit.clientIpLatitude}"/>
     <moqui.basic.LocalizedMessage original="Links" locale="zh" localized="链接"/>
     <moqui.basic.LocalizedMessage original="Load" locale="zh" localized="负载"/>
@@ -242,11 +253,16 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Login As" locale="zh" localized="登录为"/>
     <moqui.basic.LocalizedMessage original="Login Date" locale="zh" localized="登录日期"/>
     <moqui.basic.LocalizedMessage original="Login History" locale="zh" localized="登录历史"/>
+    <moqui.basic.LocalizedMessage original="Logs" locale="zh" localized="日志"/>
+    <moqui.basic.LocalizedMessage original="Logs for this trace" locale="zh" localized="此追踪的日志"/>
+    <moqui.basic.LocalizedMessage original="Logs with this error" locale="zh" localized="包含此错误的日志"/>
     <moqui.basic.LocalizedMessage original="Longitude: ${visit.clientIpLongitude}" locale="zh" localized="经度：${visit.clientIpLongitude}"/>
     <moqui.basic.LocalizedMessage original="Lower numbers run first (ascending sort)" locale="zh" localized="数字较小者先运行（升序）"/>
     <moqui.basic.LocalizedMessage original="main when empty" locale="zh" localized="留空则为 main"/>
     <moqui.basic.LocalizedMessage original="Manual Data Service" locale="zh" localized="手动数据服务"/>
     <moqui.basic.LocalizedMessage original="Max (Evct)" locale="zh" localized="最大（驱逐）"/>
+    <moqui.basic.LocalizedMessage original="Maximum" locale="zh" localized="最大值"/>
+    <moqui.basic.LocalizedMessage original="Maximum duration (ms)" locale="zh" localized="最长时长（毫秒）"/>
     <moqui.basic.LocalizedMessage original="Memory Used: ${ec.l10n.format(processInfo.MemoryUsed, '#,##0.00')} MiB, Peak: ${ec.l10n.format(processInfo.MemoryPeak, '#,##0.00')} MiB" locale="zh" localized="已用内存：${ec.l10n.format(processInfo.MemoryUsed, '#,##0.00')} MiB，峰值：${ec.l10n.format(processInfo.MemoryPeak, '#,##0.00')} MiB"/>
     <moqui.basic.LocalizedMessage original="Message Auth" locale="zh" localized="消息认证"/>
     <moqui.basic.LocalizedMessage original="Message Remote ID" locale="zh" localized="消息远程端 ID"/>
@@ -254,10 +270,15 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Message Send Auth" locale="zh" localized="消息发送认证"/>
     <moqui.basic.LocalizedMessage original="Message Type" locale="zh" localized="消息类型"/>
     <moqui.basic.LocalizedMessage original="Message Types" locale="zh" localized="消息类型列表"/>
+    <moqui.basic.LocalizedMessage original="Metric" locale="zh" localized="指标"/>
+    <moqui.basic.LocalizedMessage original="Metrics" locale="zh" localized="指标列表"/>
     <moqui.basic.LocalizedMessage original="Metro Code: ${visit.clientIpMetroCode}" locale="zh" localized="都市区代码：${visit.clientIpMetroCode}"/>
     <moqui.basic.LocalizedMessage original="Min Retry Minutes" locale="zh" localized="最短重试分钟数"/>
     <moqui.basic.LocalizedMessage original="Min time to retry after error, defaults to 5 minutes" locale="zh" localized="出错后的最短重试时间，默认为 5 分钟"/>
+    <moqui.basic.LocalizedMessage original="Minimum" locale="zh" localized="最小值"/>
+    <moqui.basic.LocalizedMessage original="Minimum duration (ms)" locale="zh" localized="最短时长（毫秒）"/>
     <moqui.basic.LocalizedMessage original="Misses" locale="zh" localized="未命中"/>
+    <moqui.basic.LocalizedMessage original="Missing telemetry is unknown health. Export failures and queue loss do not interrupt business requests." locale="zh" localized="缺少遥测数据表示运行状况未知。导出失败和队列丢失不会中断业务请求。"/>
     <moqui.basic.LocalizedMessage original="Moqui Framework" locale="zh" localized="Moqui 框架"/>
     <moqui.basic.LocalizedMessage original="Moqui Server ${gotMoquiStatus ? '' : 'Not'} Running" locale="zh" localized="Moqui 服务器${gotMoquiStatus ? '' : '未'}运行"/>
     <moqui.basic.LocalizedMessage original="Moqui Server Detail" locale="zh" localized="Moqui 服务器详情"/>
@@ -273,7 +294,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No Service Job Runner active (generally because scheduled-job-check-time is set to 0)" locale="zh" localized="没有活动的服务作业运行器（通常是因为 scheduled-job-check-time 设为 0）"/>
     <moqui.basic.LocalizedMessage original="NOTE: This gets the latest data from the print server, if the status was updated on the print server the latest will be shown here and saved." locale="zh" localized="注意：这会从打印服务器获取最新数据；若状态已在打印服务器上更新，此处会显示并保存最新状态。"/>
     <moqui.basic.LocalizedMessage original="Number of Codes" locale="zh" localized="验证码数量"/>
+    <moqui.basic.LocalizedMessage original="Occurrences" locale="zh" localized="出现次数"/>
+    <moqui.basic.LocalizedMessage original="Occurrences: ${errorGroup.count || 0}" locale="zh" localized="出现次数：${errorGroup.count || 0}"/>
     <moqui.basic.LocalizedMessage original="Old" locale="zh" localized="旧值"/>
+    <moqui.basic.LocalizedMessage original="Oldest first" locale="zh" localized="最早优先"/>
     <moqui.basic.LocalizedMessage original="Open Authenticator App on device such as Google Authenticator, Authy, or Lastpass Authenticator" locale="zh" localized="在设备上打开身份验证器应用，例如 Google Authenticator、Authy 或 Lastpass Authenticator"/>
     <moqui.basic.LocalizedMessage original="Outgoing Produced Queue" locale="zh" localized="出站已产生队列"/>
     <moqui.basic.LocalizedMessage original="Parent Message" locale="zh" localized="父消息"/>
@@ -283,16 +307,18 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Permission ID" locale="zh" localized="权限 ID"/>
     <moqui.basic.LocalizedMessage original="Permissions" locale="zh" localized="权限列表"/>
     <moqui.basic.LocalizedMessage original="Phone (for SMS)" locale="zh" localized="电话（用于 SMS）"/>
+    <moqui.basic.LocalizedMessage original="Pick a metric to chart it over time. Group by splits the chart by an attribute, showing the ten largest groups." locale="zh" localized="选择一个指标以按时间绘制图表。“分组依据”按某个属性拆分图表，显示最大的十个分组。"/>
     <moqui.basic.LocalizedMessage original="Postal Code: ${visit.clientIpPostalCode}" locale="zh" localized="邮政编码：${visit.clientIpPostalCode}"/>
     <moqui.basic.LocalizedMessage original="Pretty Print JSON?" locale="zh" localized="格式化 JSON？"/>
     <moqui.basic.LocalizedMessage original="Primary Entity" locale="zh" localized="主要实体"/>
     <moqui.basic.LocalizedMessage original="Print Server Details" locale="zh" localized="打印服务器详情"/>
     <moqui.basic.LocalizedMessage original="Printer" locale="zh" localized="打印机"/>
     <moqui.basic.LocalizedMessage original="Process Memory" locale="zh" localized="进程内存"/>
+    <moqui.basic.LocalizedMessage original="Prometheus metrics" locale="zh" localized="Prometheus 指标"/>
     <moqui.basic.LocalizedMessage original="Provision" locale="zh" localized="预配"/>
     <moqui.basic.LocalizedMessage original="Provision App" locale="zh" localized="预配应用"/>
+    <moqui.basic.LocalizedMessage original="Publishers observed in authorized telemetry during the past 24 hours (up to 500)." locale="zh" localized="过去 24 小时内在授权遥测中观察到的发布方（最多 500 个）。"/>
     <moqui.basic.LocalizedMessage original="Puts" locale="zh" localized="写入"/>
-    <moqui.basic.LocalizedMessage original="Query String Reference" locale="zh" localized="查询字符串参考"/>
     <moqui.basic.LocalizedMessage original="Queue" locale="zh" localized="队列"/>
     <moqui.basic.LocalizedMessage original="Receive" locale="zh" localized="接收"/>
     <moqui.basic.LocalizedMessage original="Receive and Consume" locale="zh" localized="接收并消费"/>
@@ -308,10 +334,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Removes" locale="zh" localized="移除次数"/>
     <moqui.basic.LocalizedMessage original="Replaces the mirror's branch with the remote one." locale="zh" localized="用远程分支替换镜像的分支。"/>
     <moqui.basic.LocalizedMessage original="Req PW Change" locale="zh" localized="要求更改密码"/>
+    <moqui.basic.LocalizedMessage original="Request counts cover retained telemetry; child-span sampling does not remove request roots." locale="zh" localized="请求计数涵盖保留的遥测数据；子跨度采样不会移除请求根跨度。"/>
     <moqui.basic.LocalizedMessage original="Request Details" locale="zh" localized="请求详情"/>
+    <moqui.basic.LocalizedMessage original="Request Traces" locale="zh" localized="请求追踪"/>
     <moqui.basic.LocalizedMessage original="Reset from Error" locale="zh" localized="从错误重置"/>
     <moqui.basic.LocalizedMessage original="Reset From Running (do ONLY if Last Start is old or verified not running)" locale="zh" localized="从运行中重置（仅当上次开始已很久，或已确认未在运行时才执行）"/>
     <moqui.basic.LocalizedMessage original="Reset to Produced" locale="zh" localized="重置为已产生"/>
+    <moqui.basic.LocalizedMessage original="Retained requests" locale="zh" localized="保留的请求"/>
+    <moqui.basic.LocalizedMessage original="Revoke this ingest key? Sources that send with it are refused from then on." locale="zh" localized="撤销此采集密钥？此后使用它发送数据的来源将被拒绝。"/>
     <moqui.basic.LocalizedMessage original="Rule Errors" locale="zh" localized="规则错误"/>
     <moqui.basic.LocalizedMessage original="Rules" locale="zh" localized="规则"/>
     <moqui.basic.LocalizedMessage original="Run Job" locale="zh" localized="运行作业"/>
@@ -335,26 +365,31 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Set Up LFS" locale="zh" localized="设置 LFS"/>
     <moqui.basic.LocalizedMessage original="Showing ${artifactTarpitLockList?.length || ''} most recent, user has a history of ${allTarpitLocksCount} locks" locale="zh" localized="显示最近 ${artifactTarpitLockList?.length || ''} 条；该用户共有 ${allTarpitLocksCount} 次锁定记录"/>
     <moqui.basic.LocalizedMessage original="Single Use Codes" locale="zh" localized="一次性验证码"/>
-    <moqui.basic.LocalizedMessage original="Slow Hits" locale="zh" localized="慢命中"/>
     <moqui.basic.LocalizedMessage original="SM Remote ID" locale="zh" localized="SM 远程端 ID"/>
+    <moqui.basic.LocalizedMessage original="Source name" locale="zh" localized="来源名称"/>
+    <moqui.basic.LocalizedMessage original="Sources" locale="zh" localized="来源列表"/>
+    <moqui.basic.LocalizedMessage original="Spans" locale="zh" localized="跨度"/>
     <moqui.basic.LocalizedMessage original="Stack" locale="zh" localized="堆栈"/>
     <moqui.basic.LocalizedMessage original="Start Instance" locale="zh" localized="启动实例"/>
     <moqui.basic.LocalizedMessage original="State/Province: ${visit.clientIpStateProvGeoId}" locale="zh" localized="省/州：${visit.clientIpStateProvGeoId}"/>
+    <moqui.basic.LocalizedMessage original="Statistic" locale="zh" localized="统计量"/>
     <moqui.basic.LocalizedMessage original="Status History" locale="zh" localized="状态历史"/>
     <moqui.basic.LocalizedMessage original="Stop Instance" locale="zh" localized="停止实例"/>
     <moqui.basic.LocalizedMessage original="Sub Type" locale="zh" localized="子类型"/>
     <moqui.basic.LocalizedMessage original="Successful" locale="zh" localized="成功"/>
+    <moqui.basic.LocalizedMessage original="Sum" locale="zh" localized="总和"/>
     <moqui.basic.LocalizedMessage original="Sync Split" locale="zh" localized="同步分片"/>
     <moqui.basic.LocalizedMessage original="System Information" locale="zh" localized="系统信息"/>
     <moqui.basic.LocalizedMessage original="System Messages" locale="zh" localized="系统消息"/>
     <moqui.basic.LocalizedMessage original="Tarpit Locks (Velocity Limits Reached)" locale="zh" localized="限速锁定（已达速度限制）"/>
     <moqui.basic.LocalizedMessage original="Tarpits (Use Velocity Limits)" locale="zh" localized="限速（使用速度限制）"/>
+    <moqui.basic.LocalizedMessage original="Telemetry sources" locale="zh" localized="遥测来源"/>
     <moqui.basic.LocalizedMessage original="The bare repository of a local or remote kind; relative to the runtime directory unless absolute, runtime/git/ID when empty" locale="zh" localized="local 或 remote 类型的裸存储库；非绝对路径时相对于 runtime 目录，留空则为 runtime/git/ID"/>
     <moqui.basic.LocalizedMessage original="The first segment of a location: git://ID/path/to/file.md" locale="zh" localized="位置的第一段：git://ID/path/to/file.md"/>
+    <moqui.basic.LocalizedMessage original="This trace exceeds the display limit. Narrow the time range to inspect more spans." locale="zh" localized="此追踪超出显示上限。请缩小时间范围以查看更多跨度。"/>
     <moqui.basic.LocalizedMessage original="Threads" locale="zh" localized="线程"/>
     <moqui.basic.LocalizedMessage original="Threads: ${processInfo.Threads}" locale="zh" localized="线程：${processInfo.Threads}"/>
     <moqui.basic.LocalizedMessage original="Threads: ${threadMapList.length}" locale="zh" localized="线程：${threadMapList.length}"/>
-    <moqui.basic.LocalizedMessage original="Thrown" locale="zh" localized="异常"/>
     <moqui.basic.LocalizedMessage original="Time" locale="zh" localized="时间"/>
     <moqui.basic.LocalizedMessage original="Time period in milliseconds for each query across included entities" locale="zh" localized="对所含实体每次查询的时间段（毫秒）"/>
     <moqui.basic.LocalizedMessage original="Time Zone: ${visit.clientIpTimeZone}" locale="zh" localized="时区：${visit.clientIpTimeZone}"/>
@@ -362,7 +397,13 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="To Field" locale="zh" localized="目标字段"/>
     <moqui.basic.LocalizedMessage original="Topic Email" locale="zh" localized="主题电子邮件"/>
     <moqui.basic.LocalizedMessage original="Topic Subscriptions" locale="zh" localized="主题订阅"/>
+    <moqui.basic.LocalizedMessage original="Trace" locale="zh" localized="追踪"/>
+    <moqui.basic.LocalizedMessage original="Trace ${sampleTrace}" locale="zh" localized="追踪 ${sampleTrace}"/>
+    <moqui.basic.LocalizedMessage original="Trace ${traceId}" locale="zh" localized="追踪 ${traceId}"/>
+    <moqui.basic.LocalizedMessage original="Trace detail" locale="zh" localized="追踪详情"/>
+    <moqui.basic.LocalizedMessage original="Traces" locale="zh" localized="追踪列表"/>
     <moqui.basic.LocalizedMessage original="Type ID" locale="zh" localized="类型 ID"/>
+    <moqui.basic.LocalizedMessage original="Unset" locale="zh" localized="未设置"/>
     <moqui.basic.LocalizedMessage original="Upd" locale="zh" localized="更新"/>
     <moqui.basic.LocalizedMessage original="Update All" locale="zh" localized="全部更新"/>
     <moqui.basic.LocalizedMessage original="Update Job" locale="zh" localized="更新作业"/>
@@ -378,6 +419,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Version Detail" locale="zh" localized="版本详情"/>
     <moqui.basic.LocalizedMessage original="View Log" locale="zh" localized="查看日志"/>
     <moqui.basic.LocalizedMessage original="View the Authenticator App Information" locale="zh" localized="查看身份验证器应用信息"/>
+    <moqui.basic.LocalizedMessage original="View trace" locale="zh" localized="查看追踪"/>
     <moqui.basic.LocalizedMessage original="View/Update" locale="zh" localized="查看或更新"/>
     <moqui.basic.LocalizedMessage original="Visit" locale="zh" localized="访问"/>
     <moqui.basic.LocalizedMessage original="Visit #${visitId}" locale="zh" localized="访问 #${visitId}"/>

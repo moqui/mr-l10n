@@ -84,7 +84,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Arguments Hash" locale="zh" localized="参数哈希"/>
     <moqui.basic.LocalizedMessage original="Arguments Json" locale="zh" localized="参数 JSON"/>
     <moqui.basic.LocalizedMessage original="Artifact Authz ID" locale="zh" localized="工件授权 ID"/>
-    <moqui.basic.LocalizedMessage original="Artifact Bins" locale="zh" localized="工件区间"/>
     <moqui.basic.LocalizedMessage original="Artifact Counts" locale="zh" localized="工件计数"/>
     <moqui.basic.LocalizedMessage original="Artifact Group ID" locale="zh" localized="工件组 ID"/>
     <moqui.basic.LocalizedMessage original="Artifact Groups" locale="zh" localized="工件组"/>
@@ -93,7 +92,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Artifact Name" locale="zh" localized="工件名称"/>
     <moqui.basic.LocalizedMessage original="Artifact Stack" locale="zh" localized="工件堆栈"/>
     <moqui.basic.LocalizedMessage original="Artifact Sub Type" locale="zh" localized="工件子类型"/>
-    <moqui.basic.LocalizedMessage original="Artifact Summary" locale="zh" localized="工件摘要"/>
     <moqui.basic.LocalizedMessage original="Artifact Tarpit Lock ID" locale="zh" localized="工件限速锁定 ID"/>
     <moqui.basic.LocalizedMessage original="Artifact Type" locale="zh" localized="工件类型"/>
     <moqui.basic.LocalizedMessage original="Artifact Type Enum ID" locale="zh" localized="工件类型枚举 ID"/>
