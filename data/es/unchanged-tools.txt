@@ -1,0 +1,3 @@
+# Messages the same in Spanish: the catalog has no row for them (a missing row returns the original), and they are
+# still message keys for the other catalogs.
+Percentiles
