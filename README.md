@@ -4,182 +4,27 @@ Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework,
 
 `moqui load` and an empty-database startup load `seed`, `seed-initial`, and `install`. They do not load these files. Load Spanish with `moqui load types=es`, and Simplified Chinese with `moqui load types=zh`, or add `es` or `zh` to a longer type list. `types=all` includes them. A database that already has data does not pick a language up until that load runs.
 
-## Voice
-
-Locale `es` is neutral international Spanish: Latin American words that Spain also understands.
-
-| English | es |
-| --- | --- |
-| computer | computadora |
-| file | archivo |
-| mobile phone | celular |
-| email | correo electrónico |
-| password | contraseña |
-| settings | configuración |
-| save | guardar |
-| default | predeterminado |
-
-Actions use the infinitive (Guardar, Cancelar). The `es` files do not use ordenador, fichero, móvil, vosotros, or voseo.
-
-`EsRegional.xml` is a short overlay, not a second catalog:
-
-- `es_ES`: fichero, móvil, and ajustes where the English is Settings. No label in this pass is Computer, so there is no ordenador row.
-- `es_MX` has no rows of its own. archivo, celular, and configuración come from `es`.
-
-These nine originals stay in `framework/data/CommonL10nData.xml` and are not repeated here: Add, Create, Delete, Description, Find, Name, Status, Type, Update.
-
-A Spanish row is stored only when the text differs from the fallback: the original English, or the `default` template when one exists. A missing row returns that fallback. `es_MX` uses the `es` row.
-
-Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged. A `##` suffix stays on the key when its Spanish differs from the words before `##`. Strings longer than 255 characters cannot be keys.
-
-## Voice (zh)
-
-Locale `zh` is Simplified Chinese, mainland UI wording, the same script as the `zh` rows in `CommonL10nData.xml`. There is no `zh_CN`, `zh_TW`, or `zh_HK` file. Traditional Chinese is a later catalog: a missing `zh_TW` row would fall back to Simplified `zh` before English.
-
-The nine seed originals stay in `framework/data/CommonL10nData.xml` and are not repeated here.
-
-Labels are short bare verbs (保存, 取消). Financial and GL account is 账户 (户, not 帐户). A login account is 账号. Shipment is 发货单. Party is 参与方. The token PO stays PO. Moqui, MR Moqui, Marble, and Mantle stay as written. `N/A` inside a template literal is 无.
-
-| English | zh |
-| --- | --- |
-| Save | 保存 |
-| Cancel | 取消 |
-| Close | 关闭 |
-| Submit | 提交 |
-| Confirm | 确认 |
-| Search | 搜索 |
-| Edit | 编辑 |
-| View | 查看 |
-| Print | 打印 |
-| Export | 导出 |
-| Import | 导入 |
-| New | 新建 |
-| Copy | 复制 |
-| Remove | 移除 |
-| Settings | 设置 |
-| File | 文件 |
-| Email | 电子邮件 |
-| Password | 密码 |
-| User | 用户 |
-| Username | 用户名 |
-| Invoice | 发票 |
-| Bill | 账单 |
-| Order | 订单 |
-| Purchase order | 采购订单 |
-| Shipment | 发货单 |
-| Party | 参与方 |
-| Customer | 客户 |
-| Supplier, Vendor | 供应商 |
-| Employee | 员工 |
-| Account (financial) | 账户 |
-| Account (login) | 账号 |
-| Accounting | 会计 |
-| GL | 总账 |
-| Payment | 付款 |
-| Product | 产品 |
-| Inventory | 库存 |
-| Asset | 资产 |
-| Facility | 设施 |
-| Warehouse | 仓库 |
-| Quantity | 数量 |
-| Amount | 金额 |
-| Price (unit) | 单价 |
-| Active | 有效 |
-| Cancelled | 已取消 |
-| Completed | 已完成 |
-| Approved | 已批准 |
-| Pending | 待处理 |
-| Draft | 草稿 |
-| Mobile | 手机 |
-
-Do not use 軟體, 資訊, 預設, 檔案, 設定, 網路, 程式 (程序 is the word; 方程式 may stay), 視窗, 螢幕, 滑鼠, 資料, or Cantonese 嘅 喺 唔 佢 咗 啲. Use 软件, 信息, 默认, 文件, 设置, 网络, 程序, 窗口, 屏幕, 鼠标, 数据.
-
-A `zh` row is stored only when the text differs from the English original. The omitted originals are listed in `data/zh/unchanged-*.txt`, which the loader ignores. This pack follows the Spanish key set. A name that is spelled the same in English and Spanish, such as China or a province written in English, has no row in either pack, so a `zh` user still sees that English name. Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged, including a `{n,choice,...}` pattern. Natural-language words inside a `${}` string literal are translated (`'No Lot #'`, `'N/A'`). A `##` inside a number pattern such as `#,##0.00` or `###-###` stays. The localized value is at most 255 characters.
-
 ## Files
 
-These live in `data/es/`. `EsRegional.xml` is still type `es`. Its rows use locale `es_ES`.
+Each language's files are in `data/<lang>/`, named by prefix (`Es` or `Zh`) and area, split into `A`, `B`, … parts when
+large:
 
-`data/zh/` repeats this split with a `Zh` prefix (`ZhChromeAD.xml` for `EsChromeAD.xml`) and `type="zh"`. There is no regional file. Rows use locale `zh`.
-
-| File | Contents |
+| Name | Contents |
 | --- | --- |
-| EsChromeAD.xml, EsChromeEL.xml, EsChromeMR.xml, EsChromeSZ.xml | Shared labels and field titles |
-| EsMessagesA.xml, EsMessagesB.xml, EsMessagesC.xml | Service, screen, and framework messages |
-| EsSeedEnumA.xml, EsSeedEnumB.xml | Enumeration and status text |
-| EsSeedMeasure.xml | Currency and unit descriptions |
-| EsGeo.xml | Country names (`Geo.geoName`) |
-| EsToolsApp.xml, EsToolsSystem.xml, EsToolsLlm.xml | Tools screens |
-| EsWebroot.xml | Login and shell |
-| EsExample.xml | Example app |
-| EsRegional.xml | `es_ES` only |
-| EsMantleEnumAccountA.xml, EsMantleEnumAccountB.xml, EsMantleEnumAccountC.xml | Accounting, ledger, payroll, and item-type text |
-| EsMantleEnumWork.xml | Work, project, and request text |
-| EsMantleEnumPartyA.xml, EsMantleEnumPartyB.xml | Party, human resources, and marketing text |
-| EsMantleEnumProductA.xml, EsMantleEnumProductB.xml | Product, asset, store, and facility text |
-| EsMantleEnumOrder.xml | Order, shipment, request, and ACH return text |
-| EsMantleGeoA.xml, EsMantleGeoB.xml | State and province names |
-| EsMantleMsgAccount.xml | Invoice, payment, and ledger messages |
-| EsMantleMsgWorkA.xml, EsMantleMsgWorkB.xml | Work, inventory, and shipment messages |
-| EsMantleTemplates.xml | Name and order message templates (the key stays English; the Spanish value is the template) |
-| EsMarbleAccountA.xml, EsMarbleAccountB.xml | Accounting screens |
-| EsMarblePartyA.xml, EsMarblePartyB.xml | Party, customer, supplier, and My Account screens |
-| EsMarbleOrder.xml | Order and return screens |
-| EsMarbleShipA.xml, EsMarbleShipB.xml | Shipment, facility, and warehouse screens |
-| EsMarbleProductA.xml, EsMarbleProductB.xml | Catalog, asset, store, and manufacturing screens |
-| EsMarbleWorkA.xml, EsMarbleWorkB.xml | Project, task, request, wiki, and the Marble menus |
-| EsMarbleEmail.xml | Invoice, order, and shipment email |
-| EsMarblePrintAccount.xml | Invoice, check, payment, and statement print |
-| EsMarblePrintShip.xml | Shipment pick, pack, and bill of lading print |
-| EsMarblePrintOther.xml | Order, production, timesheet, and payroll print |
+| `Chrome*` | Shared labels and field titles |
+| `Messages*` | Service, screen and framework messages |
+| `SeedEnum*`, `SeedMeasure`, `Geo` | Framework enumeration and status text, currency and unit descriptions, country names |
+| `Tools*`, `Webroot`, `Example` | The tools screens, login and shell, the example app |
+| `Mantle*` | mr-mantle enumerations, states and provinces, messages and templates |
+| `Marble*` | mr-marble screens, email and print |
+| `EsRegional.xml` | `es_ES` overrides (still type `es`); `es_MX` has none of its own |
 
 `Geo.geoName`, enumeration and status descriptions, status transition names, and UOM description and symbol have `enable-localization="true"`, so these rows show on screen. Product feature description and abbreviation do too. `geoNameLocal` is the place's own name, not the viewer's language. Party names, product names, and GL account names are stored text and stay as entered.
 
-## Strings left in English
+## Writing rows
 
-`LocalizedMessage.original` holds at most 255 characters. These longer texts are not in the catalog:
-
-- A detail for a party seen through the app's role, here a user account: a header card with the avatar, identity, classifi
-- A document the user writes: the page list at the side, the rendered page with its title and version in a title row, and
-- A master list beside a detail pane: countries on the side with a header find, the selected country in the main pane with
-- A work breakdown as a tree (view-tree): the top-level items, each opened to its children as the tree asks the screen's f
-- An app's settings index as a row of cards, one per group with a line of description and the links into its pages, then o
-- Checked database ${envMap.entity_ds_database} at ${adminMap.entity_ds_host}: connect ${dbConnectSuccess ? 'successful' :
-- Create and edit without leaving the list: New is a 600 px container-dialog with a single-column form-single whose submit
-- Fallbacks for style-guide section 8: number cards are q-card with text-overline and text-h5 until number-card exists; th
-- Fallbacks for §8: number-card size="sm" is the row of numbers inside the header q-card (render-mode); chatter
-- Fallbacks for §8: the state chip is a tonal anchor-button link (Enumeration has no status, so the state is derived per r
-- Flat (tertiary): icon-only links with link-type=hidden-form-link. The first uses a Material Symbols outlined name (icon=
-- Multi-step creation: subscreens-panel type="wizard" is a stepper with one step per subscreen (the menu titles,
-- No §8 fallbacks. The form attributes for a background submit are background-submit, background-hide-id and background-re
-- One form-list of example records with views="board,list,calendar": the switch at the right above the list keep
-- One operational job at a time: the current pick line with large read-only location and product, a focused scan field (En
-- One record with its parts and actions: a title row with the identifier, the status flow, one primary action and a menu o
-- Parameters in the URL (the form submits to this screen), number cards, two charts and a result table with exports and a
-- Queries run with your dataset permissions and row filters. Search syntax: field:value, AND, OR, NOT, quoted text, term~
-- Quota of ${quotaUserId ?? ''} (${quota?.limitFrom ?? ''}, ${quota?.period ?? ''}): ${quota?.usedTokens ?? 0} of ${quota?
-- Search traces by service, span name (* matches any text), status, duration in milliseconds and user, or with a query on
-- Storage: ${gitRepository.objectCount ?? '?'} objects, ${gitRepository.storedBytes != null ? Math.round(gitRepository.sto
-- The Today tab of the tray panel as a normal screen: groups Overdue, Due today and Later today as captions over dense lis
-- The board groups by status or by type (Group by, view-board group-fields: a move posts the field and its new value) and
-- The calendar shows each example from its start to its end, colored by status, in month, week, day and list modes; in day
-- The find and list screen over one record type, here Enumeration with its type through display-entity: the identifier fir
-- The fixture for style changes: every field widget of section 4.5 in one form, every button role of 4.6, the label types
-- The home of an app: a row of counters, the lists of my work, shortcuts and a chart, each a link into the List screen wit
-- The status-bar element shows the stages of the framework's EntitySync status flow (the status is the syncStatusId parame
-- Total: ${totals.totalChars ?? 0} characters, about ${totals.totalTokens ?? 0} tokens (${totals.charsPerToken ?? ''} char
-- container-split (§8.2): a splitter from 1024 px whose side can be dragged from 200 px to what leaves 480 px to the main
-
-Mantle and marble texts over 255 characters stay in English. The message key is still used; there is no `es` row for it:
-
-- Found similar order ${nearOrder.orderId} (OrderApproveNearOrder)
-- The postal-address info template (PostalAddressInfoTemplate)
-- Recurring orders in the Approved status will be automatically cloned according to the schedule
-- Invoices by Customer Classification, with the day/week/month selector in the title
-- No past due invoices found for customer ${toPartyId} and org ${fromPartyId} with due before...
-- Newer or same revision order ${orderId} found for customer
-- Tried to return total more than is returnable for non-product item
-- Quantity specified differs from current on hand
-- Moved quantity from Asset ... to Asset ...
-- Found GlAccount Org TimePeriod ...
-- Set quantity on details for an invoice item, when the message names every facility
+The wording rules and glossaries for each language are in [docs/Voice.md](docs/Voice.md). In short: a row is stored
+only when the text differs from the English original (the omitted originals are listed in `data/<lang>/unchanged-*.txt`,
+which the loader ignores); placeholders (`${...}`, `{0}`, `{n,choice,...}`) and number patterns are copied unchanged;
+and the localized value is at most 255 characters (`LocalizedMessage.original` holds at most 255 too). Longer texts
+stay in English; they are listed in [docs/Strings-Left-In-English.md](docs/Strings-Left-In-English.md).
