@@ -714,6 +714,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Turn on…" locale="zh" localized="开启…"/>
     <moqui.basic.LocalizedMessage original="Turn plain HTTP on at a public address anyway" locale="zh" localized="仍在公共地址上开启明文 HTTP"/>
     <moqui.basic.LocalizedMessage original="Turn SSH off though something depends on it" locale="zh" localized="即使有内容依赖 SSH 也将其关闭"/>
+    <moqui.basic.LocalizedMessage original="Turn it off though something depends on it" locale="zh" localized="即使有内容依赖它也将其关闭"/>
     <moqui.basic.LocalizedMessage original="Turning a listener on or off needs the LISTENER_CONTROL permission." locale="zh" localized="开启或关闭监听器需要 LISTENER_CONTROL 权限。"/>
     <moqui.basic.LocalizedMessage original="Unpair front" locale="zh" localized="取消配对前置节点"/>
     <moqui.basic.LocalizedMessage original="Unpaired: the link to the edge node is closed" locale="zh" localized="已取消配对：到边缘节点的链路已关闭"/>

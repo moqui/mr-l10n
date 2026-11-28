@@ -711,6 +711,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Turn on…" locale="es" localized="Activar…"/>
     <moqui.basic.LocalizedMessage original="Turn plain HTTP on at a public address anyway" locale="es" localized="Activar HTTP sin cifrar en una dirección pública de todos modos"/>
     <moqui.basic.LocalizedMessage original="Turn SSH off though something depends on it" locale="es" localized="Desactivar SSH aunque algo dependa de él"/>
+    <moqui.basic.LocalizedMessage original="Turn it off though something depends on it" locale="es" localized="Desactivarlo aunque algo dependa de él"/>
     <moqui.basic.LocalizedMessage original="Turning a listener on or off needs the LISTENER_CONTROL permission." locale="es" localized="Activar o desactivar una escucha requiere el permiso LISTENER_CONTROL."/>
     <moqui.basic.LocalizedMessage original="Unpair front" locale="es" localized="Desemparejar el frontal"/>
     <moqui.basic.LocalizedMessage original="Unpaired: the link to the edge node is closed" locale="es" localized="Desemparejado: el enlace al nodo de borde está cerrado"/>
