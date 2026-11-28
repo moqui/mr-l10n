@@ -62,6 +62,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="A socket's path, or a host name" locale="es" localized="La ruta de un socket, o un nombre de host"/>
     <moqui.basic.LocalizedMessage original="A SystemMessageRemote: sendUrl is the SSH URL (git@host:owner/repo.git), with its private and public key; pushed after each change" locale="es" localized="Un SystemMessageRemote: sendUrl es la URL SSH (git@host:owner/repo.git), con su clave privada y pública; se envía después de cada cambio"/>
     <moqui.basic.LocalizedMessage original="A tab picks up a change on its next page load." locale="es" localized="Una pestaña recoge un cambio en su próxima carga de página."/>
+    <moqui.basic.LocalizedMessage original="A2A server (/a2a and its agent card)" locale="es" localized="Servidor A2A (/a2a y su tarjeta de agente)"/>
     <moqui.basic.LocalizedMessage original="Accounts, groups and what each may reach" locale="es" localized="Cuentas, grupos y a qué puede llegar cada uno"/>
     <moqui.basic.LocalizedMessage original="Adapter identity" locale="es" localized="Identidad del adaptador"/>
     <moqui.basic.LocalizedMessage original="Add scorer" locale="es" localized="Añadir evaluador"/>
@@ -73,6 +74,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Advisory" locale="es" localized="Consultivo"/>
     <moqui.basic.LocalizedMessage original="After a restart" locale="es" localized="Después de un reinicio"/>
     <moqui.basic.LocalizedMessage original="Age (days)" locale="es" localized="Antigüedad (días)"/>
+    <moqui.basic.LocalizedMessage original="Agent Code socket (/agentws) and its descriptor" locale="es" localized="Socket de Agent Code (/agentws) y su descriptor"/>
     <moqui.basic.LocalizedMessage original="Agent or service" locale="es" localized="Agente o servicio"/>
     <moqui.basic.LocalizedMessage original="Agent runs are on the job surface as you, so the agent must serve job and they cost what a run costs. At most 200 items × trials." locale="es" localized="Las ejecuciones del agente están en la superficie de trabajos como usted, así que el agente debe atender el trabajo, y cuestan lo que cuesta una ejecución. Como máximo 200 elementos × ensayos."/>
     <moqui.basic.LocalizedMessage original="Alerts are in Dashboards, which opens by its own grant." locale="es" localized="Las alertas están en Paneles de control, que se abre con su propia concesión."/>
@@ -125,6 +127,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Bind row rule" locale="es" localized="Vincular regla de fila"/>
     <moqui.basic.LocalizedMessage original="Bound" locale="es" localized="Vinculado"/>
     <moqui.basic.LocalizedMessage original="Bound, by condition" locale="es" localized="Vinculado, por condición"/>
+    <moqui.basic.LocalizedMessage original="Browser terminal (/termws)" locale="es" localized="Terminal del navegador (/termws)"/>
     <moqui.basic.LocalizedMessage original="Built from repository" locale="es" localized="Construida desde el repositorio"/>
     <moqui.basic.LocalizedMessage original="Busy: ${requestPool.Busy} of ${requestPool.Workers}" locale="es" localized="Ocupados: ${requestPool.Busy} de ${requestPool.Workers}"/>
     <moqui.basic.LocalizedMessage original="By its inbox" locale="es" localized="Por su bandeja de entrada"/>
@@ -134,6 +137,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Carries this node's work up" locale="es" localized="Lleva el trabajo de este nodo hacia arriba"/>
     <moqui.basic.LocalizedMessage original="Certificates" locale="es" localized="Certificados"/>
     <moqui.basic.LocalizedMessage original="Changed here" locale="es" localized="Cambiado aquí"/>
+    <moqui.basic.LocalizedMessage original="Chat bridge webhooks (/channels)" locale="es" localized="Webhooks de los puentes de chat (/channels)"/>
     <moqui.basic.LocalizedMessage original="Chat providers call the edge node's webhooks" locale="es" localized="Los proveedores de conversación llaman a los webhooks del nodo de borde"/>
     <moqui.basic.LocalizedMessage original="Check and order" locale="es" localized="Comprobar y solicitar"/>
     <moqui.basic.LocalizedMessage original="Check now" locale="es" localized="Comprobar ahora"/>
@@ -184,6 +188,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Database Hosts" locale="es" localized="Hosts de base de datos"/>
     <moqui.basic.LocalizedMessage original="Database instance" locale="es" localized="Instancia de base de datos"/>
     <moqui.basic.LocalizedMessage original="Database tools" locale="es" localized="Herramientas de base de datos"/>
+    <moqui.basic.LocalizedMessage original="DAV: WebDAV, CalDAV and CardDAV (/dav)" locale="es" localized="DAV: WebDAV, CalDAV y CardDAV (/dav)"/>
     <moqui.basic.LocalizedMessage original="Days since changed" locale="es" localized="Días desde el cambio"/>
     <moqui.basic.LocalizedMessage original="Delivery defaults" locale="es" localized="Valores predeterminados de entrega"/>
     <moqui.basic.LocalizedMessage original="Delivery when a person chose nothing" locale="es" localized="Entrega cuando una persona no eligió nada"/>
@@ -200,7 +205,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Each from its owner's own screens, by its owner's permissions." locale="es" localized="Cada uno desde las pantallas propias de su propietario, por los permisos de su propietario."/>
     <moqui.basic.LocalizedMessage original="Each holds the secrets of deployed instances. The server uses an item only under a lease a member approves, for one operation, and forgets it after; it never sends an operational value to a page." locale="es" localized="Cada una guarda los secretos de las instancias desplegadas. El servidor usa un elemento solo bajo un arrendamiento que un miembro aprueba, para una operación, y lo olvida después; nunca envía un valor operativo a una página."/>
     <moqui.basic.LocalizedMessage original="Each is a vault item of the environment's vault, by its binding; no value is shown here or kept on these rows." locale="es" localized="Cada uno es un elemento de la bóveda del entorno, por su enlace; aquí no se muestra ningún valor ni se guarda en estas filas."/>
-    <moqui.basic.LocalizedMessage original="Each is turned off for everyone by its own switch, changed in the conf or runtime/.env, and applies while the server runs; the SSH permissions still decide per user." locale="es" localized="Cada uno se desactiva para todos con su propio interruptor, que se cambia en la configuración o en runtime/.env y se aplica con el servidor en marcha; los permisos de SSH siguen decidiendo por usuario."/>
+    <moqui.basic.LocalizedMessage original="Each is turned off for everyone by its own switch, here or in the conf, while the server runs: a web route then answers as an unknown path and its open sockets end at once, and an SSH service takes no new channel. Permissions still decide per user." locale="es" localized="Cada uno se desactiva para todos con su interruptor, aquí o en la configuración, con el servidor en marcha: una ruta web responde como una desconocida y cierra sus sockets, y un servicio SSH no acepta canales nuevos. Los permisos deciden por usuario."/>
     <moqui.basic.LocalizedMessage original="Each listener of this server, the address it binds and the settings behind it, with where each value comes from. A change sets the same settings as the conf and runtime/.env. Turned off, a listener's port closes until someone turns it on." locale="es" localized="Cada escucha de este servidor, la dirección en la que escucha y sus parámetros, con el origen de cada valor. Un cambio define los mismos parámetros que la configuración y runtime/.env. Desactivada, su puerto se cierra hasta que alguien la active."/>
     <moqui.basic.LocalizedMessage original="Edge member" locale="es" localized="Miembro de borde"/>
     <moqui.basic.LocalizedMessage original="Edit as a form" locale="es" localized="Editar como formulario"/>
@@ -250,6 +255,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Forces each mapped ref on the mirror to the local one; deletes nothing." locale="es" localized="Fuerza cada referencia asignada del espejo a la local; no borra nada."/>
     <moqui.basic.LocalizedMessage original="From run" locale="es" localized="Desde la ejecución"/>
     <moqui.basic.LocalizedMessage original="from:to pairs separated by spaces, such as master:mirror; every branch and tag when empty" locale="es" localized="pares origen:destino separados por espacios, como master:mirror; todas las ramas y etiquetas cuando está vacío"/>
+    <moqui.basic.LocalizedMessage original="Git over HTTP and Git LFS (/git)" locale="es" localized="Git por HTTP y Git LFS (/git)"/>
     <moqui.basic.LocalizedMessage original="Git over SSH" locale="es" localized="Git por SSH"/>
     <moqui.basic.LocalizedMessage original="Given by" locale="es" localized="Dado por"/>
     <moqui.basic.LocalizedMessage original="Gone from the edge cluster: not dialed again once this link ends" locale="es" localized="Fuera del clúster de borde: no se vuelve a llamar cuando termine este enlace"/>
@@ -281,6 +287,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="It does not load, so HTTPS for this name is refused" locale="es" localized="No se carga, así que se rechaza HTTPS para este nombre"/>
     <moqui.basic.LocalizedMessage original="It ends what depends on it: ${dependentsText}" locale="es" localized="Termina lo que depende de ella: ${dependentsText}"/>
     <moqui.basic.LocalizedMessage original="It has no port: give it one to turn it on." locale="es" localized="No tiene puerto: indique uno para activarla."/>
+    <moqui.basic.LocalizedMessage original="It is turned off for everyone at once: a web route answers as a path the server does not know and its open sockets and streams end, and an SSH service takes no new channel. It stays off until someone turns it on." locale="es" localized="Se desactiva para todos de inmediato: una ruta web responde como una ruta que el servidor no conoce y sus sockets y flujos abiertos terminan, y un servicio SSH no acepta canales nuevos. Queda desactivado hasta que alguien lo active."/>
     <moqui.basic.LocalizedMessage original="It runs with its service's defaults." locale="es" localized="Se ejecuta con los valores predeterminados de su servicio."/>
     <moqui.basic.LocalizedMessage original="Items of environment ${environmentId}: ${dueCount} due" locale="es" localized="Elementos del entorno ${environmentId}: ${dueCount} vencidos"/>
     <moqui.basic.LocalizedMessage original="Items past rotation" locale="es" localized="Elementos que pasaron la rotación"/>
@@ -333,6 +340,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Listeners" locale="es" localized="Escuchas"/>
     <moqui.basic.LocalizedMessage original="Listeners and integrations" locale="es" localized="Escuchas e integraciones"/>
     <moqui.basic.LocalizedMessage original="Live scoring" locale="es" localized="Puntuación en vivo"/>
+    <moqui.basic.LocalizedMessage original="LLM gateway (/llm/v1)" locale="es" localized="Pasarela de LLM (/llm/v1)"/>
     <moqui.basic.LocalizedMessage original="Load, 5 minutes" locale="es" localized="Carga, 5 minutos"/>
     <moqui.basic.LocalizedMessage original="Loading the vault…" locale="es" localized="Cargando la bóveda…"/>
     <moqui.basic.LocalizedMessage original="Logging and telemetry" locale="es" localized="Registro y telemetría"/>
@@ -356,6 +364,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Match incidents" locale="es" localized="Coincidir con incidentes"/>
     <moqui.basic.LocalizedMessage original="Maximum duration" locale="es" localized="Duración máxima"/>
     <moqui.basic.LocalizedMessage original="Maximum duration is not a number of milliseconds and is ignored." locale="es" localized="La duración máxima no es un número de milisegundos y se ignora."/>
+    <moqui.basic.LocalizedMessage original="MCP server (/mcp and its documents)" locale="es" localized="Servidor MCP (/mcp y sus documentos)"/>
     <moqui.basic.LocalizedMessage original="Mean score" locale="es" localized="Puntuación media"/>
     <moqui.basic.LocalizedMessage original="Members must complete a second factor to sign in" locale="es" localized="Los miembros deben completar un segundo factor para iniciar sesión"/>
     <moqui.basic.LocalizedMessage original="Members of ${groupDescription} will read through ${artifactDescription} only what ${filterDescription} allows, as the members of ${sourceBundleGroupId} do. It takes effect at once and is removed only in Tools." locale="es" localized="Los miembros de ${groupDescription} leerán a través de ${artifactDescription} solo lo que permita ${filterDescription}, como hacen los miembros de ${sourceBundleGroupId}. Tiene efecto de inmediato y solo se quita en Herramientas."/>
@@ -435,11 +444,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Nothing waits to be taken in." locale="es" localized="Nada espera a ser incorporado."/>
     <moqui.basic.LocalizedMessage original="Nothing was exported" locale="es" localized="No se exportó nada"/>
     <moqui.basic.LocalizedMessage original="Nothing was retried" locale="es" localized="No se reintentó nada"/>
+    <moqui.basic.LocalizedMessage original="Notification socket (/notws) and call guests' socket (/callws)" locale="es" localized="Socket de notificaciones (/notws) y socket de los invitados a llamadas (/callws)"/>
     <moqui.basic.LocalizedMessage original="Notification topics are not available to you." locale="es" localized="Los temas de notificación no están disponibles para usted."/>
     <moqui.basic.LocalizedMessage original="Of the exports made here" locale="es" localized="De las exportaciones hechas aquí"/>
     <moqui.basic.LocalizedMessage original="Of the link that carries this node's work up. Edge cluster below lists the link to each member." locale="es" localized="Del enlace que lleva el trabajo de este nodo hacia arriba. El clúster de borde, más abajo, lista el enlace a cada miembro."/>
     <moqui.basic.LocalizedMessage original="Off in the conf" locale="es" localized="Desactivada en la configuración"/>
+    <moqui.basic.LocalizedMessage original="Off while this is off:" locale="es" localized="Desactivado mientras esto esté desactivado:"/>
     <moqui.basic.LocalizedMessage original="Off: outside phones cannot register to the edge node (sip-server/registrar@enabled there)" locale="es" localized="Apagado: los teléfonos externos no pueden registrarse en el nodo de borde (allí sip-server/registrar@enabled)"/>
+    <moqui.basic.LocalizedMessage original="On for a dev instance only" locale="es" localized="Activado solo en una instancia de desarrollo"/>
     <moqui.basic.LocalizedMessage original="On in the conf" locale="es" localized="Activada en la configuración"/>
     <moqui.basic.LocalizedMessage original="One of the names this node answers" locale="es" localized="Uno de los nombres que responde este nodo"/>
     <moqui.basic.LocalizedMessage original="Only an account that signs in and holds ${record.audiencePermission}, this topic's audience, is given a subscription here. Receiving every message of the topic is not set here." locale="es" localized="Solo una cuenta que inicia sesión y tiene ${record.audiencePermission}, la audiencia de este tema, recibe una suscripción aquí. Recibir cada mensaje del tema no se establece aquí."/>
@@ -463,6 +475,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Ordering the certificate of ${hostName} again" locale="es" localized="Solicitando de nuevo el certificado de ${hostName}"/>
     <moqui.basic.LocalizedMessage original="Ordering the certificate of ${setupOut.hostName}. ${setupOut.checkText ? setupOut.checkText + '. ' : ''}Its state shows here in a minute." locale="es" localized="Solicitando el certificado de ${setupOut.hostName}. ${setupOut.checkText ? setupOut.checkText + '. ' : ''}Su estado se muestra aquí en un minuto."/>
     <moqui.basic.LocalizedMessage original="Other groups" locale="es" localized="Otros grupos"/>
+    <moqui.basic.LocalizedMessage original="OTLP receiver (/v1/traces, /v1/logs, /v1/metrics, /v1/annotations, /v1/recovery)" locale="es" localized="Receptor OTLP (/v1/traces, /v1/logs, /v1/metrics, /v1/annotations, /v1/recovery)"/>
+    <moqui.basic.LocalizedMessage original="OTLP receiver over gRPC" locale="es" localized="Receptor OTLP por gRPC"/>
     <moqui.basic.LocalizedMessage original="Outlives a restart" locale="es" localized="Sobrevive a un reinicio"/>
     <moqui.basic.LocalizedMessage original="Pair with a front node" locale="es" localized="Emparejar con un nodo frontal"/>
     <moqui.basic.LocalizedMessage original="Paired with the edge node" locale="es" localized="Emparejado con el nodo de borde"/>
@@ -519,6 +533,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Request pool" locale="es" localized="Grupo de solicitudes"/>
     <moqui.basic.LocalizedMessage original="Require authc factor" locale="es" localized="Exigir factor de autenticación"/>
     <moqui.basic.LocalizedMessage original="Required pipeline" locale="es" localized="Canal requerido"/>
+    <moqui.basic.LocalizedMessage original="Required: it goes on the audit log" locale="es" localized="Obligatorio: va al registro de auditoría"/>
     <moqui.basic.LocalizedMessage original="Required: it goes on the audit log and the listener's row" locale="es" localized="Obligatorio: va al registro de auditoría y a la fila de la escucha"/>
     <moqui.basic.LocalizedMessage original="Restore verified" locale="es" localized="Restauración verificada"/>
     <moqui.basic.LocalizedMessage original="Result counts" locale="es" localized="Recuentos de resultados"/>
@@ -706,6 +721,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Turn ${chosenState.listenerName} on or off in Services and ports" locale="es" localized="Activar o desactivar ${chosenState.listenerName} en Servicios y puertos"/>
     <moqui.basic.LocalizedMessage original="Turn ${listenerName} on or off in Services and ports" locale="es" localized="Activar o desactivar ${listenerName} en Servicios y puertos"/>
     <moqui.basic.LocalizedMessage original="Turn ${name} on?" locale="es" localized="¿Activar ${name}?"/>
+    <moqui.basic.LocalizedMessage original="Turn ${title} on?" locale="es" localized="¿Activar ${title}?"/>
     <moqui.basic.LocalizedMessage original="Turn off…" locale="es" localized="Desactivar…"/>
     <moqui.basic.LocalizedMessage original="Turn on or change" locale="es" localized="Activar o cambiar"/>
     <moqui.basic.LocalizedMessage original="Turn on…" locale="es" localized="Activar…"/>
@@ -769,6 +785,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Working clone in a component directory" locale="es" localized="Clon de trabajo en un directorio de componente"/>
     <moqui.basic.LocalizedMessage original="Written by the pipeline that built it: a deploy is gated on its passed run for the revision" locale="es" localized="Escrito por el canal que lo construyó: un despliegue se condiciona a su ejecución pasada para la revisión"/>
     <moqui.basic.LocalizedMessage original="XMPP clients of ${xmppDomain} come through the edge node's ports ${xmppPortsText}" locale="es" localized="Los clientes XMPP de ${xmppDomain} entran por los puertos ${xmppPortsText} del nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="XMPP over WebSocket (/xmpp-websocket), while the XMPP server runs" locale="es" localized="XMPP por WebSocket (/xmpp-websocket), mientras el servidor XMPP está en marcha"/>
     <moqui.basic.LocalizedMessage original="Y keeps a ServiceJobRun only when the run has an error. Last run still updates. Empty or N keeps every run." locale="es" localized="Y conserva un ServiceJobRun solo cuando la ejecución tiene un error. La última ejecución igual se actualiza. Vacío o N conserva cada ejecución."/>
     <moqui.basic.LocalizedMessage original="Yes: paused" locale="es" localized="Sí: en pausa"/>
     <moqui.basic.LocalizedMessage original="Yes: the job does not start again while it does" locale="es" localized="Sí: el trabajo no vuelve a iniciar mientras lo hace"/>
