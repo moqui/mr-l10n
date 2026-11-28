@@ -29,6 +29,7 @@
 - The find and list screen over one record type, here Enumeration with its type through display-entity: the identifier fir
 - The fixture for style changes: every field widget of section 4.5 in one form, every button role of 4.6, the label types
 - The home of an app: a row of counters, the lists of my work, shortcuts and a chart, each a link into the List screen wit
+- The self-signed certificate this server made (${file}) answers only clients that send no name, such as a health check by
 - The status-bar element shows the stages of the framework's EntitySync status flow (the status is the syncStatusId parame
 - Total: ${totals.totalChars ?? 0} characters, about ${totals.totalTokens ?? 0} tokens (${totals.charsPerToken ?? ''} char
 - container-split (§8.2): a splitter from 1024 px whose side can be dragged from 200 px to what leaves 480 px to the main
