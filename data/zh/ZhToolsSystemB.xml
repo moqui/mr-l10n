@@ -270,6 +270,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="HTTP request" locale="zh" localized="HTTP 请求"/>
     <moqui.basic.LocalizedMessage original="HTTP serves plain HTTP at ${address} with no proxy believed in front: sign-ins and data cross the network unencrypted" locale="zh" localized="HTTP 在 ${address} 上提供明文 HTTP，且前面没有受信任的代理：登录和数据以未加密方式穿过网络"/>
     <moqui.basic.LocalizedMessage original="HTTPS for this name is refused" locale="zh" localized="此名称的 HTTPS 被拒绝"/>
+    <moqui.basic.LocalizedMessage original="HTTPS serves the self-signed certificate this server made, which browsers warn of: put a certificate in runtime/cert, or set a name up with ACME" locale="zh" localized="HTTPS 提供此服务器生成的自签名证书，浏览器会对此发出警告：请在 runtime/cert 中放入证书，或用 ACME 设置一个名称"/>
     <moqui.basic.LocalizedMessage original="I agree to the authority's terms of service (Let's Encrypt: its Subscriber Agreement)" locale="zh" localized="我同意颁发机构的服务条款（Let's Encrypt：其订阅者协议）"/>
     <moqui.basic.LocalizedMessage original="Image digest" locale="zh" localized="镜像摘要"/>
     <moqui.basic.LocalizedMessage original="Import targets" locale="zh" localized="导入目标"/>
@@ -381,6 +382,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="New scorer" locale="zh" localized="新评分器"/>
     <moqui.basic.LocalizedMessage original="No attacher: not run. Attach it again." locale="zh" localized="没有附加器：未运行。请再次附加。"/>
     <moqui.basic.LocalizedMessage original="No backup was started." locale="zh" localized="没有开始备份。"/>
+    <moqui.basic.LocalizedMessage original="No certificate of its own loads in runtime/cert, so HTTPS serves the self-signed one this server made (${file}, until ${until}) to every name, and browsers warn of it. Put a certificate there, or set a name up with ACME, and it gives way." locale="zh" localized="runtime/cert 中没有能加载的自有证书，因此 HTTPS 向所有名称提供此服务器生成的自签名证书（${file}，有效期至 ${until}），浏览器会对此发出警告。在该处放入证书，或用 ACME 设置一个名称，它就会让位。"/>
     <moqui.basic.LocalizedMessage original="No change matches." locale="zh" localized="没有匹配的更改。"/>
     <moqui.basic.LocalizedMessage original="No check is open to you." locale="zh" localized="没有对您开放的检查。"/>
     <moqui.basic.LocalizedMessage original="No check is open to you. Each owner's checks are shown to those who may read them." locale="zh" localized="没有对您开放的检查。每位所有者的检查只显示给可以读取它们的人。"/>
@@ -563,8 +565,12 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Secret bindings" locale="zh" localized="密钥绑定"/>
     <moqui.basic.LocalizedMessage original="Secrets" locale="zh" localized="密钥"/>
     <moqui.basic.LocalizedMessage original="Seen" locale="zh" localized="已见"/>
+    <moqui.basic.LocalizedMessage original="Self-signed" locale="zh" localized="自签名"/>
+    <moqui.basic.LocalizedMessage original="self-signed" locale="zh" localized="自签名"/>
+    <moqui.basic.LocalizedMessage original="Self-signed by this server, so browsers warn of it" locale="zh" localized="由此服务器自签名，因此浏览器会发出警告"/>
     <moqui.basic.LocalizedMessage original="Sent through ${emailServerId}." locale="zh" localized="经 ${emailServerId} 发送。"/>
     <moqui.basic.LocalizedMessage original="Served by" locale="zh" localized="由谁提供"/>
+    <moqui.basic.LocalizedMessage original="served for want of a certificate of its own" locale="zh" localized="因没有自有证书而提供"/>
     <moqui.basic.LocalizedMessage original="Server and template" locale="zh" localized="服务器与模板"/>
     <moqui.basic.LocalizedMessage original="Service (service type)" locale="zh" localized="服务（服务类型）"/>
     <moqui.basic.LocalizedMessage original="Service worker pool" locale="zh" localized="服务工作池"/>
@@ -619,7 +625,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The file and line of each deployment value" locale="zh" localized="每个部署值的文件和行"/>
     <moqui.basic.LocalizedMessage original="The group's records, changed directly: no registered bundle, delegation rule, revision or review applies. Use the parts above where they offer the change." locale="zh" localized="组的记录，直接更改：不应用已注册的包、委派规则、修订或审查。请在上方提供该更改的部分进行。"/>
     <moqui.basic.LocalizedMessage original="The host's port its service is published on, on the host's loopback only (a proxy on the host reaches it)" locale="zh" localized="其服务在主机上发布的端口，仅在主机的环回上（主机上的代理可以到达）"/>
+    <moqui.basic.LocalizedMessage original="The HTTPS listener did not start (the System home says why, its port held by another, say): no name gets HTTPS here until it does." locale="zh" localized="HTTPS 监听器未能启动（系统主页说明原因，例如其端口被其他程序占用）：在它启动之前，此处没有名称获得 HTTPS。"/>
+    <moqui.basic.LocalizedMessage original="The HTTPS listener is not running: runtime/cert has a certificate, but none loads (each name below says why). It starts once one does, or when a name is set up with ACME, and then answers only that name's challenge." locale="zh" localized="HTTPS 监听器未运行：runtime/cert 中有证书，但没有一个能加载（下方每个名称说明原因）。一旦有证书能加载，或用 ACME 设置一个名称后，它就会启动，然后只应答该名称的质询。"/>
     <moqui.basic.LocalizedMessage original="The HTTPS listener is not running: with no certificate in runtime/cert it starts when a name is set up with ACME, and then answers only that name's challenge until its certificate is there." locale="zh" localized="HTTPS 监听器未运行：runtime/cert 中没有证书时，它在用 ACME 设置一个名称后启动，然后只应答该名称的质询，直到其证书就位。"/>
+    <moqui.basic.LocalizedMessage original="The HTTPS listener is off: its switch (https-listen-enabled) is false, or its port or TLS settings are not usable. No name gets HTTPS here until it is on (Conf › Services and ports)." locale="zh" localized="HTTPS 监听器已关闭：其开关（https-listen-enabled）为 false，或其端口或 TLS 设置不可用。在它打开之前，此处没有名称获得 HTTPS（Conf › 服务与端口）。"/>
     <moqui.basic.LocalizedMessage original="The id the edge node knows this cluster by (edge/node@pairing in the .env the members share)" locale="zh" localized="边缘节点识别此集群所用的 id（成员共享的 .env 中的 edge/node@pairing）"/>
     <moqui.basic.LocalizedMessage original="The instance" locale="zh" localized="实例"/>
     <moqui.basic.LocalizedMessage original="The job's records, changed directly: no owner registration, bound or review applies. Use the parts above where they offer the change." locale="zh" localized="作业的记录，直接更改：不应用所有者登记、绑定或审查。请在上方提供该更改的部分进行。"/>
@@ -635,6 +644,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The OTLP receiver that takes telemetry from other services." locale="zh" localized="接收其他服务遥测的 OTLP 接收器。"/>
     <moqui.basic.LocalizedMessage original="The run as it is stored: its parameters, results, messages and errors whole." locale="zh" localized="按存储情况显示的运行：其参数、结果、消息和错误的全部内容。"/>
     <moqui.basic.LocalizedMessage original="The same summary, with who prepared it left out and email addresses hidden, to give to whoever supports the instance" locale="zh" localized="同一摘要，略去编制者并隐藏邮箱地址，以便交给支持该实例的人"/>
+    <moqui.basic.LocalizedMessage original="The self-signed certificate this server made (${file}) does not load: ${problem}" locale="zh" localized="此服务器生成的自签名证书（${file}）无法加载：${problem}"/>
+    <moqui.basic.LocalizedMessage original="The self-signed certificate this server made (${file}) is not served now: the HTTPS listener is not running." locale="zh" localized="此服务器生成的自签名证书（${file}）目前未提供：HTTPS 监听器未运行。"/>
+    <moqui.basic.LocalizedMessage original="The self-signed certificate this server made (${file}) is not used: runtime/cert has a certificate of its own. It is served again only if no other certificate loads." locale="zh" localized="此服务器生成的自签名证书（${file}）未被使用：runtime/cert 有自己的证书。只有在没有其他证书能加载时，才会再次提供它。"/>
     <moqui.basic.LocalizedMessage original="The server configuration is not available to you." locale="zh" localized="服务器配置不对您开放。"/>
     <moqui.basic.LocalizedMessage original="The server is restarting; this page comes back when it is up" locale="zh" localized="服务器正在重启；起来后此页会回来"/>
     <moqui.basic.LocalizedMessage original="The server signs each lease with this key. Compare its fingerprint once with the server's operator, by another channel, before you approve a lease: your client refuses a lease signed by a key you have not checked." locale="zh" localized="服务器用此密钥签署每个租约。批准租约之前，请通过另一渠道与服务器操作员核对一次其指纹：您的客户端会拒绝由您尚未核对的密钥签署的租约。"/>
